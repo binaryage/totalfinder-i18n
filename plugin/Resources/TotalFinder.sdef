@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
-<dictionary title="TotalFinder Terminology">
-    <suite name="TotalFinder Suite" code="SIMe" description="TotalFinder SIMBL">
-        <command name="connect to echelon" code="connectechelon" description="xxx."/>
-    </suite>
-</dictionary>
