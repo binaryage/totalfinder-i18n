@@ -1,4 +1,4 @@
-Copyright (c) 2010, Antonin Hildebrand
+Copyright (c) 2010, Antonin Hildebrand and contributors (http://github.com/binaryage/totalfinder-i18n/contributors)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
