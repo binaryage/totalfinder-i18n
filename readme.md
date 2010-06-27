@@ -40,5 +40,6 @@ Each contributor in [http://github.com/binaryage/totalfinder-i18n/contributors](
 
 1. I may not accept changes in your fork
 2. You are contributing your work under [MIT license](totalfinder-i18n/raw/master/license.txt)
+3. You may want to explore [Network Graph](http://github.com/binaryage/totalfinder-i18n/network) to see if someone has not already been working on your language
 
 #### License: [MIT-Style](totalfinder-i18n/raw/master/license.txt)
