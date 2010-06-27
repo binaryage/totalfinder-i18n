@@ -1,0 +1,1 @@
+defaults read com.apple.desktopservices DSDontWriteNetworkStores
