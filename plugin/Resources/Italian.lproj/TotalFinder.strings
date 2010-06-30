@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Controlla Aggiornamenti";
+"Uninstall TotalFinder" = "Disintalla TotalFinder";
+"Restart Finder" = "Riavvia Finder";
+"Show Visor" = "Mostra Visor";
+"Hide Visor" = "Nascondi Visor";
+"Expired on %@" = "Scade il %@";
+"This ALPHA version will expire in %@!" = "Questa versione ALPHA scade fra %@!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "meno di un minuto";
+"1 minute" = "1 minuto";
+"less than 5 seconds" = "meno di 5 secondi";
+"less than 10 seconds" = "meno di 10 secondi";
+"less than 20 seconds" = "meno di 20 secondi";
+"half a minute" = "mezzo minuto";
+"%.0f minutes" = "%.0f minuti";
+"about 1 hour" = "circa 1 ora";
+"about %.0f hours" = "circa %.0f ore";
+"1 day" = "1 giorno";
+"%.0f days" = "%.0f giorni";
+"about 1 month" = "circa 1 mese";
+"%.0f months" = "%.0f mesi";
+"about 1 year" = "circa 1 anno";
+"over %.0f years" = "più di %.0f anni";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Disconnetti";
+"Connect" = "Connetti";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Impossibile connettersi all'estensione del kernel! L'estensione del kernel di TotalFinder è stata installata correttamente?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Resetta";
+"Cancel" = "Cancella";
+"Do you really want reset to defaults?" = "Vuoi davvero riportare alle impostazioni iniziali?";
+"This will restore initial TotalFinder settings." = "Questo ripristinerà TotalFinder alle impostazioni iniziali.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Disinstalla";
+"Cancel" = "Cancella";
+"Really want to uninstall TotalFinder?" = "Vuoi davvero disintallare TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Verrà lanciato uno script di disintallazione che rimuoverà TotalFinder da questo computer e ripristinerà il comportamento originale di Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Nuova Tab del Finder";
+"Close Tab" = "Chiudi Tab";
+"Close Window" = "Chiudi la Finestra";
+"Show System Files" = "Mostra File di Sistema";
+"Folders On Top" = "Mostra Cartelle in Cima";
+"Toggle Dual Mode" = "Passa alla Modalità a Doppio Pannello";
+"Narrow Tabs Bar" = "Barra delle Tab ridotta";
+"Pin Visor" = "Fissa Visor";
+"TotalFinder Preferences…" = "Preferenze di TotalFinder…";
+"Visit Homepage…" = "Visita la Homepage…";
+
+/* misc. */
+"Screen %d" = "Schermo %d";

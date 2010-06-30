@@ -1,0 +1,55 @@
+/* navigation bar */
+"Visor"="Visor";
+"Asepsis"="Asepsis";
+"Tweaks"="Modifiche";
+"About"="Informazioni";
+
+/* visor page */
+"Visor Feature"="Visor";
+"a system-wide window sliding from the bottom on a hot-key"="una finestra di sistema che scorre dal basso grazie a una combinazione di tasti";
+
+"Activation:"="Attivazione:";
+
+"Control:"="Controllo:";
+"Hide on ESC"="Premi ESC per nascondere";
+"Pin Visor"="Fissa Visor";
+
+"Animation:"="Animazione:";
+"Fade Window"="Finestra con Dissolvenza";
+"Slide Window"="Finestra a Scorrimento";
+
+"Screen:"="Schermo:";
+"Show on all Spaces"="Mostra su tutti gli Spazi";
+"Show on top of the Dock"="Mostra sopra la Dock";
+"Free Form Window"="Finestra a Forma Libera";
+
+/* asepsis page */
+"Asepsis Feature"="Asepsis";
+"prevents .DS_Store files to be created in local folders"="evita che i file .DS_Store vengano creati nelle cartelle locali";
+".DS_Store files will be redirected into"="i file .DS_Store verranno ridirezionati in";
+"this folder should be set as writable for all users of TotalFinder"="tutti gli utenti di TotalFinder dovrebbero avere permessi di scrittura per questa cartella";
+"Launch Migration Assistant"="Avvia l'Assistente di Migrazione";
+"TotalFinder.kext status"="stato di TotalFinder.kext";
+"Unable to connect"="Impossibile connettersi con l'estensione del kernel!\nL'estensione del kernel di TotalFinder è stata installata?";
+"Advanced:"="Avanzate:";
+"Don't write .DS_Store to Network"="Non scrivere i file .DS_Store nelle Risorse di Rete";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="Riporta TotalFinder alle impostazioni iniziali";
+
+"File Browser:"="Navigatore di File:";
+"Show System Files"="Mostra File di Sistema";
+"Folders on Top"="Mostra le Cartelle in Cima";
+"Always Maximize"="Massimizza Sempre";
+"Toggle Dual Mode"="Attiva Modalità a Doppio Pannello";
+
+"Menu and Dock:"="Menu e Dock:";
+"Remove TotalFinder from Status Menu"="Rimuovi TotalFinder dallo Status Menu";
+"Keep Original Finder Dock Icon"="Mantieni l'Icona originale di Finder nella Dock";
+
+"Experimental:"="Sperimentale:";
+"Freelance Windows"="Freelance Windows";
+"Use narrow Tabs Bar"="Usa una Barra delle Tab ridotta";
+
+/* about page */
+"Check for updates…"="Controlla Aggiornamenti…";
