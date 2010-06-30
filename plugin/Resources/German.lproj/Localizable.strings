@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature"="Visor Funktion";
-"a system-wide window sliding from the bottom on a hot-key"="ein systemweit per Tastenkombination aktivierbares Fenster";
+"a system-wide window sliding from the bottom on a hot-key"="Systemweit per Tastenkombination aktivierbares Fenster";
 
 "Activation:"="Aktivierung:";
 
@@ -16,7 +16,7 @@
 
 "Animation:"="Animation:";
 "Fade Window"="Fenster einblenden";
-"Slide Window"="Fenster ausfahren";
+"Slide Window"="Fenster ausblenden";
 
 "Screen:"="Bildschirm:";
 "Show on all Spaces"="Auf allen Spaces sichtbar";
@@ -25,14 +25,14 @@
 
 /* asepsis page */
 "Asepsis Feature"="Asepsis Funktion";
-"prevents .DS_Store files to be created in local folders"="verhindert die Erstellung von .DS_Store in lokalen Ordnern";
-".DS_Store files will be redirected into"=".DS_Store werden weitergeleitet in";
-"this folder should be set as writable for all users of TotalFinder"="Dieser Ordner sollte beschreibbar sein für alle Nutzer von TotalFinder";
+"prevents .DS_Store files to be created in local folders"="verhindert die Erstellung von .DS_Store Dateien in lokalen Ordnern";
+".DS_Store files will be redirected into"=".DS_Store Dateien werden weitergeleitet in";
+"this folder should be set as writable for all users of TotalFinder"="Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
 "Launch Migration Assistant"="Starte Migrationsassistent";
 "TotalFinder.kext status"="TotalFinder.kext Status";
 "Unable to connect"="Keine Verbindung zur Kernel-Erweiterung möglich!\nIst die TotalFinder Kernel-Erweiterung installiert?";
 "Advanced:"="Erweitert:";
-"Don't write .DS_Store to Network"="Keine .DS_Store im Netzwerk erstellen";
+"Don't write .DS_Store to Network"="Keine .DS_Store Dateien im Netzwerk erstellen";
 
 /* tweaks page */
 "Reset TotalFinder to defaults"="Standardeinstellungen wiederherstellen";
@@ -41,7 +41,7 @@
 "Show System Files"="Zeige Systemdateien";
 "Folders on Top"="Ordner am Anfang";
 "Always Maximize"="Immer maximieren";
-"Toggle Dual Mode"="Dual Mode umschalten";
+"Toggle Dual Mode"="Dual Mode an-/ausschalten";
 
 "Menu and Dock:"="Menü und Dock:";
 "Remove TotalFinder from Status Menu"="TotalFinder in der Menüleiste verstecken";
