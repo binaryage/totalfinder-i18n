@@ -1,0 +1,55 @@
+/* navigation bar */
+"Visor"="Visore";
+"Asepsis"="Raggruppa";
+"Tweaks"="Trucchi";
+"About"="Informazioni";
+
+/* visor page */
+"Visor Feature"="Visore";
+"a system-wide window sliding from the bottom on a hot-key"="finestra a scomparsa attivabile con una combinazione di tasti";
+
+"Activation:"="Attivazione:";
+
+"Control:"="Controllo:";
+"Hide on ESC"="Nascondi con ESC";
+"Pin Visor"="Attiva Visore";
+
+"Animation:"="Animazione:";
+"Fade Window"="Finestre a dissolvenza";
+"Slide Window"="Finestre a scorrimento";
+
+"Screen:"="Schermo:";
+"Show on all Spaces"="Visualizza in tutti gli Spazi";
+"Show on top of the Dock"="Visualizza sopra al Dock";
+"Free Form Window"="Finestra libera";
+
+/* asepsis page */
+"Asepsis Feature"="Funzione raggruppa";
+"prevents .DS_Store files to be created in local folders"="evita la creazione dei file .DS_Store nelle cartelle locali";
+".DS_Store files will be redirected into"="i file .DS_Store saranno reindirizzati a";
+"this folder should be set as writable for all users of TotalFinder"="questa cartella deve essere accessibile da tutti gli utenti di TotalFinder";
+"Launch Migration Assistant"="Esegui l'assistente alla migrazione";
+"TotalFinder.kext status"="Stato di TotalFinder.kext";
+"Unable to connect"="Non posso collegarmi con le estensioni del kernel!\nLe hai installate?";
+"Advanced:"="Avanzate:";
+"Don't write .DS_Store to Network"="Non scrivere i file .DS_Store in rete";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="Reimposta TotalFinder alla configurazione iniziale";
+
+"File Browser:"="Visualizzazione file:";
+"Show System Files"="Visualizza file di sistema";
+"Folders on Top"="Cartelle in testa";
+"Always Maximize"="Massimizza sempre";
+"Toggle Dual Mode"="Alterna il Dual Mode";
+
+"Menu and Dock:"="Menu e Dock:";
+"Remove TotalFinder from Status Menu"="Togli TotalFinder dal Menu di stato";
+"Keep Original Finder Dock Icon"="Mantieni l'icona originale del Finder";
+
+"Experimental:"="Sperimentale:";
+"Freelance Windows"="Finestre libere";
+"Use narrow Tabs Bar"="Barra dei Tab ristretta";
+
+/* about page */
+"Check for updates…"="Controlla gli aggiornamenti…";
