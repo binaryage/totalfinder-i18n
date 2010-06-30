@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Nach Updates suchen";
+"Uninstall TotalFinder" = "TotalFinder deinstallieren";
+"Restart Finder" = "Finder neustarten";
+"Show Visor" = "Zeige Visor";
+"Hide Visor" = "Verstecke Visor";
+"Expired on %@" = "Abgelaufen am %@";
+"This ALPHA version will expire in %@!" = "Diese ALPHA Version wird in %@ ablaufen!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "weniger als einer Minute";
+"1 minute" = "einer Minute";
+"less than 5 seconds" = "weniger als 5 Sekunden";
+"less than 10 seconds" = "weniger als 10 Sekunden";
+"less than 20 seconds" = "weniger als 20 Sekunden";
+"half a minute" = "einer halbe Minute";
+"%.0f minutes" = "%.0f Minuten";
+"about 1 hour" = "ungefähr einer Stunde";
+"about %.0f hours" = "%.0f Stunden";
+"1 day" = "einem Tag";
+"%.0f days" = "%.0f Tagen";
+"about 1 month" = "ungefähr einem Monat";
+"%.0f months" = "%.0f Monaten";
+"about 1 year" = "ungefähr einem Jahr";
+"over %.0f years" = "über %.0f Jahren";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Trennen";
+"Connect" = "Verbinden";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Keine Verbindung mit der Kernel-Erweiterung möglich! Ist TotalFinder.kext installiert?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Zurücksetzen";
+"Cancel" = "Abbrechen";
+"Do you really want reset to defaults?" = "Wollen Sie wirklich die Standardeinstellungen wiederherstellen?";
+"This will restore initial TotalFinder settings." = "Damit werden die ursprünglichen Einstellungen wiederhergestellt.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Deinstallieren";
+"Cancel" = "Abbrechen";
+"Really want to uninstall TotalFinder?" = "Wollen Sie wirklich TotalFinder deinstallieren?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Damit wird ein Skript gestartet, daß TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt";
+
+/* MainMenu items */
+"New Finder Tab" = "Neuer Finder Tab";
+"Close Tab" = "Tab schließen";
+"Close Window" = "Fenster schließen";
+"Show System Files" = "Zeige Systemdateien";
+"Folders On Top" = "Ordner immer am Anfang";
+"Toggle Dual Mode" = "Dual Mode umschalten";
+"Narrow Tabs Bar" = "Kompakte Tableiste";
+"Pin Visor" = "Visor anheften";
+"TotalFinder Preferences…" = "TotalFinder Einstellungen…";
+"Visit Homepage…" = "Besuche Website…";
+
+/* misc. */
+"Screen %d" = "Bildschirm %d";
