@@ -6,17 +6,17 @@
 
 /* visor page */
 "Visor Feature"="La fonctionnalité Visor";
-"a system-wide window sliding from the bottom on a hot-key"="a system-wide window sliding from the bottom on a hot-key";
+"a system-wide window sliding from the bottom on a hot-key"="une fenetre globale du systeme glissant du bas sur un raccourci clavier";
 
 "Activation:"="Activation:";
 
-"Control:"="Control:";
+"Control:"="Controle:";
 "Hide on ESC"="Cacher sur ESC";
 "Pin Visor"="Epingler Visor";
 
 "Animation:"="Animation:";
 "Fade Window"="Fondu Fenetre";
-"Slide Window"="Glisser la fenetre";
+"Slide Window"="Glissement Fenetre";
 
 "Screen:"="Ecran:";
 "Show on all Spaces"="Montrer sur tous les Espaces";
@@ -30,9 +30,9 @@
 "this folder should be set as writable for all users of TotalFinder"="ce dossier devrait être mis ecrivable pour tous les utilisateurs de TotalFinder";
 "Launch Migration Assistant"="Lancer l'Assistant de Migration";
 "TotalFinder.kext status"="Statut TotalFinder.kext";
-"Unable to connect"="Unable to connect with kernel extension!\nDo you have TotalFinder kernel extension installed?";
+"Unable to connect"="Impossibilité de se connecter avec l'extension noyau!\nAvez vous installer l'extension noyau TotalFinder?";
 "Advanced:"="Avancé:";
-"Don't write .DS_Store to Network"="Ne pas écrire .DS_Store sur le Réseau";
+"Don't write .DS_Store to Network"="Ne pas écrire les fichiers .DS_Store sur le Réseau";
 
 /* tweaks page */
 "Reset TotalFinder to defaults"="Reinitialiser TotalFinder par défaut";
