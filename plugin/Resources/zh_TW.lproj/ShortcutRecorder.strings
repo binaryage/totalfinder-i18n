@@ -1,0 +1,13 @@
+"Space" = "空白鍵";
+"Use old shortcut" = "用原本快速鍵";
+"Type shortcut" = "請按快速鍵";
+"Click to record shortcut" = "更改快速鍵請在此點擊";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "此快速鍵組合 %@ 不可用!";
+"The key combination \"%@\" can't be used because %@." = "此快速鍵組合 \"%@\" 不可用因為 %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "此快速鍵組合 \"%@\" 不可用因為已經被其他系統使用. (在系統偏好設定中的鍵盤-鍵盤快速鍵設定，你可以修改更改其他系統快速鍵)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "此快速鍵組合 \"%@\" 不可用因為已經被菜單項佔用 \"%@\".";
+"Command + " = "Command + ";
+"Option + " = "Option + ";
+"Shift + " = "Shift + ";
+"Control + " = "Control + ";
