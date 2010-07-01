@@ -1,7 +1,7 @@
 /* 
-    This is just a dummy empty file.
-    English does not need translation of this file because for English terms are the same as keys.
+    This is just a placeholder file.
+    English does not need translation of this file because terms in English are the same as keys.
     
-    Please take Czech version as your base version from here:
+    Please take Czech version from here as your base version:
     http://github.com/binaryage/totalfinder-i18n/blob/master/plugin/Resources/Czech.lproj/TotalFinder.strings
 */
