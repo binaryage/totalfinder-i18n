@@ -2,8 +2,8 @@
 "Check for Updates" = "Nach Updates suchen";
 "Uninstall TotalFinder" = "TotalFinder deinstallieren";
 "Restart Finder" = "Finder neustarten";
-"Show Visor" = "Zeige Visor";
-"Hide Visor" = "Verstecke Visor";
+"Show Visor" = "Visor einblenden";
+"Hide Visor" = "Visor ausblenden";
 "Expired on %@" = "Abgelaufen am %@";
 "This ALPHA version will expire in %@!" = "Diese ALPHA Version wird in %@ ablaufen!";
 /* expiration date assembling for -^^ */
@@ -44,13 +44,13 @@
 "New Finder Tab" = "Neuer Finder Tab";
 "Close Tab" = "Tab schließen";
 "Close Window" = "Fenster schließen";
-"Show System Files" = "Zeige Systemdateien";
+"Show System Files" = "Systemdateien anzeigen";
 "Folders On Top" = "Ordner immer am Anfang";
 "Toggle Dual Mode" = "Dual Mode an-/ausschalten";
-"Narrow Tabs Bar" = "Kompakte Tableiste";
+"Narrow Tabs Bar" = "Tableiste verkleinern";
 "Pin Visor" = "Visor anheften";
 "TotalFinder Preferences…" = "TotalFinder Einstellungen…";
-"Visit Homepage…" = "Besuche Website…";
+"Visit Homepage…" = "Website besuchen…";
 
 /* misc. */
 "Screen %d" = "Bildschirm %d";
