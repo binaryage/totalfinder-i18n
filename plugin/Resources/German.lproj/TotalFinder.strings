@@ -12,7 +12,7 @@
 "less than 5 seconds" = "weniger als 5 Sekunden";
 "less than 10 seconds" = "weniger als 10 Sekunden";
 "less than 20 seconds" = "weniger als 20 Sekunden";
-"half a minute" = "einer halbe Minute";
+"half a minute" = "einer halben Minute";
 "%.0f minutes" = "%.0f Minuten";
 "about 1 hour" = "ungefähr einer Stunde";
 "about %.0f hours" = "%.0f Stunden";
@@ -38,7 +38,7 @@
 "Uninstall" = "Deinstallieren";
 "Cancel" = "Abbrechen";
 "Really want to uninstall TotalFinder?" = "Wollen Sie wirklich TotalFinder deinstallieren?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Damit wird ein Skript gestartet, daß TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dies wird ein Skript starten, welches TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt";
 
 /* MainMenu items */
 "New Finder Tab" = "Neuer Finder Tab";
@@ -46,7 +46,7 @@
 "Close Window" = "Fenster schließen";
 "Show System Files" = "Zeige Systemdateien";
 "Folders On Top" = "Ordner immer am Anfang";
-"Toggle Dual Mode" = "Dual Mode umschalten";
+"Toggle Dual Mode" = "Dual Mode an-/ausschalten";
 "Narrow Tabs Bar" = "Kompakte Tableiste";
 "Pin Visor" = "Visor anheften";
 "TotalFinder Preferences…" = "TotalFinder Einstellungen…";
