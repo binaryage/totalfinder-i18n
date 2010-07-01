@@ -1,0 +1,55 @@
+/* navigation bar */
+"Visor"="Visor";
+"Asepsis"="Asepsis";
+"Tweaks"="Tweaks";
+"About"="About";
+
+/* visor page */
+"Visor Feature"="De Visor Optie";
+"a system-wide window sliding from the bottom on a hot-key"="een systeembreed scherm dat binnenschuift bij de toetscombinatie";
+
+"Activation:"="Activatie:";
+
+"Control:"="Control:";
+"Hide on ESC"="Verberg met ESC";
+"Pin Visor"="Zet Visor vast";
+
+"Animation:"="Animatie:";
+"Fade Window"="Fade Window";
+"Slide Window"="Schuif Window";
+
+"Screen:"="Scherm:";
+"Show on all Spaces"="Laat op alle Spaces zien";
+"Show on top of the Dock"="Blijf boven de Dock";
+"Free Form Window"="Vrij scherm";
+
+/* asepsis page */
+"Asepsis Feature"="De Asepsis Optie";
+"prevents .DS_Store files to be created in local folders"="voorkomt aanmaken van .DS_Store bestanden in lokale mappen";
+".DS_Store files will be redirected into"=".DS_Store bestanden worden omgezet naar";
+"this folder should be set as writable for all users of TotalFinder"="deze map moet schrijfbaar zijn voor alle TotalFinder gebruikers";
+"Launch Migration Assistant"="Start Migratie Assistent";
+"TotalFinder.kext status"="TotalFinder.kext status";
+"Unable to connect"="Kan niet verbinden met de kernel extensie!\nIs de TotalFinder kernel extensie geïnstalleerd?";
+"Advanced:"="Geavanceerd:";
+"Don't write .DS_Store to Network"="Schrijf geen .DS_Store naar het netwerk";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="Herstel de TotalFinder standaard instellingen";
+
+"File Browser:"="Bestanden verkenner:";
+"Show System Files"="Toon systeembestanden";
+"Folders on Top"="Mappen eerst";
+"Always Maximize"="Altijd maximaliseren";
+"Toggle Dual Mode"="Schakel duale mode";
+
+"Menu and Dock:"="Menu en Dock:";
+"Remove TotalFinder from Status Menu"="Verwijder TotalFinder uit het status menu";
+"Keep Original Finder Dock Icon"="Hou het originele Finder dock icon";
+
+"Experimental:"="Experimenteel:";
+"Freelance Windows"="Freelance schermen";
+"Use narrow Tabs Bar"="Gebruik smalle tab balk";
+
+/* about page */
+"Check for updates…"="Check voor updates…";

@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Check voor updates";
+"Uninstall TotalFinder" = "Verwijder TotalFinder";
+"Restart Finder" = "Herstart Finder";
+"Show Visor" = "Activeer Visor";
+"Hide Visor" = "Deactiveer Visor";
+"Expired on %@" = "Verlopen op %@";
+"This ALPHA version will expire in %@!" = "Deze ALPHA versie zal verlopen over %@!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "minder dan een minuut";
+"1 minute" = "1 minuut";
+"less than 5 seconds" = "minder dan 5 seconden";
+"less than 10 seconds" = "minder dan 10 seconden";
+"less than 20 seconds" = "minder dan 20 seconden";
+"half a minute" = "een halve minuut";
+"%.0f minutes" = "%.0f minuten";
+"about 1 hour" = "ongeveer een uur";
+"about %.0f hours" = "ongeveer %.0f uur";
+"1 day" = "een dag";
+"%.0f days" = "%.0f dagen";
+"about 1 month" = "ongeveer 1 maand";
+"%.0f months" = "%.0f maanden";
+"about 1 year" = "ongeveer 1 jaar";
+"over %.0f years" = "over %.0f jaar";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Verbinding verbreken";
+"Connect" = "Verbinden";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kan niet verbinden met de kernel extensie! Is de TotalFinder.kext goed geïnstalleerd?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Herstel";
+"Cancel" = "Annuleren";
+"Do you really want reset to defaults?" = "Wilt u echt terug naar de standaard instellingen?";
+"This will restore initial TotalFinder settings." = "Dit zal de standaard instellingen van TotalFinder herstellen.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Verwijderen";
+"Cancel" = "Annuleren";
+"Really want to uninstall TotalFinder?" = "Wilt u echt TotalFinder verwijderen?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dit start een script dat TotalFinder van de computer zal verwijderen en het originele Finder gedrag zal herstellen.";
+
+/* MainMenu items */
+"New Finder Tab" = "Nieuwe Finder tab";
+"Close Tab" = "Sluit tab";
+"Close Window" = "Sluit scherm";
+"Show System Files" = "Laat systeem bestanden zien";
+"Folders On Top" = "Mappen eerst";
+"Toggle Dual Mode" = "Schakel van/naar Dual Mode";
+"Narrow Tabs Bar" = "Smalle tabs balk";
+"Pin Visor" = "Zet Visor vast";
+"TotalFinder Preferences…" = "TotalFinder voorkeuren…";
+"Visit Homepage…" = "Ga naar de homepage…";
+
+/* misc. */
+"Screen %d" = "Scherm %d";
