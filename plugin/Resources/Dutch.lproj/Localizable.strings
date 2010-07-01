@@ -5,51 +5,51 @@
 "About"="About";
 
 /* visor page */
-"Visor Feature"="The Visor Feature";
-"a system-wide window sliding from the bottom on a hot-key"="a system-wide window sliding from the bottom on a hot-key";
+"Visor Feature"="De Visor Optie";
+"a system-wide window sliding from the bottom on a hot-key"="een systeembreed scherm dat van beneden binnenschuift als de toetscombinatie wordt gebruikt";
 
-"Activation:"="Activation:";
+"Activation:"="Activatie:";
 
 "Control:"="Control:";
-"Hide on ESC"="Hide on ESC";
-"Pin Visor"="Pin Visor";
+"Hide on ESC"="Verberg on ESC";
+"Pin Visor"="Zet Visor vast";
 
-"Animation:"="Animation:";
+"Animation:"="Animatie:";
 "Fade Window"="Fade Window";
-"Slide Window"="Slide Window";
+"Slide Window"="Schuif Window";
 
-"Screen:"="Screen:";
-"Show on all Spaces"="Show on all Spaces";
-"Show on top of the Dock"="Show on top of the Dock";
-"Free Form Window"="FreeForm Window";
+"Screen:"="Scherm:";
+"Show on all Spaces"="Laat op alle Spaces zien";
+"Show on top of the Dock"="Blijf boven de Dock";
+"Free Form Window"="Vrij scherm";
 
 /* asepsis page */
-"Asepsis Feature"="The Asepsis Feature";
-"prevents .DS_Store files to be created in local folders"="prevents .DS_Store files to be created in local folders";
-".DS_Store files will be redirected into"=".DS_Store files will be redirected into";
-"this folder should be set as writable for all users of TotalFinder"="this folder should be set as writable for all users of TotalFinder";
-"Launch Migration Assistant"="Launch Migration Assistant";
+"Asepsis Feature"="De Asepsis Optie";
+"prevents .DS_Store files to be created in local folders"="voorkomt dat .DS_Store bestanden worden aangemaakte in lokale mappen";
+".DS_Store files will be redirected into"=".DS_Store bestanden worden omgezet naar";
+"this folder should be set as writable for all users of TotalFinder"="deze map moet schrijfbaar gezet worden voor alle gebruikers van TotalFinder";
+"Launch Migration Assistant"="Start Migratie Assistent";
 "TotalFinder.kext status"="TotalFinder.kext status";
-"Unable to connect"="Unable to connect with kernel extension!\nDo you have TotalFinder kernel extension installed?";
-"Advanced:"="Advanced:";
-"Don't write .DS_Store to Network"="Don't write .DS_Store to Network";
+"Unable to connect"="Kan niet verbinden met de kernel extensie!\nIs de TotalFinder kernel extensie geïnstalleerd?";
+"Advanced:"="Geavanceerd:";
+"Don't write .DS_Store to Network"="Schrijf geen .DS_Store naar het Network";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Reset TotalFinder to defaults";
+"Reset TotalFinder to defaults"="Herstel de TotalFinder default instellingen";
 
-"File Browser:"="File Browser:";
-"Show System Files"="Show System Files";
-"Folders on Top"="Folders on Top";
-"Always Maximize"="Always Maximize";
-"Toggle Dual Mode"="Toggle Dual Mode";
+"File Browser:"="Bestanden verkenner:";
+"Show System Files"="Laat systeem bestanden zien";
+"Folders on Top"="Mappen eerst";
+"Always Maximize"="Altijd maximaliseren";
+"Toggle Dual Mode"="Schakel van/naar duale mode";
 
-"Menu and Dock:"="Menu and Dock:";
-"Remove TotalFinder from Status Menu"="Remove TotalFinder from Status Menu";
-"Keep Original Finder Dock Icon"="Keep Original Finder Dock Icon";
+"Menu and Dock:"="Menu en Dock:";
+"Remove TotalFinder from Status Menu"="Verwijder TotalFinder van het status menu";
+"Keep Original Finder Dock Icon"="Hou het originele Finder dock icon";
 
-"Experimental:"="Experimental:";
-"Freelance Windows"="Freelance Windows";
-"Use narrow Tabs Bar"="Use narrow Tabs Bar";
+"Experimental:"="Experimenteel:";
+"Freelance Windows"="Freelance schermen";
+"Use narrow Tabs Bar"="Gebruik smalle tab balk";
 
 /* about page */
-"Check for updates…"="Check for updates…";
+"Check for updates…"="Check voor updates…";
