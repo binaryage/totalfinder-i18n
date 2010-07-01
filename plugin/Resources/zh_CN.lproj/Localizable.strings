@@ -1,0 +1,55 @@
+/* navigation bar */
+"Visor"="滑入视窗";
+"Asepsis"="隔离";
+"Tweaks"="配置";
+"About"="关于";
+
+/* visor page */
+"Visor Feature"="滑入视窗";
+"a system-wide window sliding from the bottom on a hot-key"="透过系统热键将视窗从屏幕底部向上滑入";
+
+"Activation:"="激活热键:";
+
+"Control:"="操作:";
+"Hide on ESC"="使用 ESC 隐藏视窗";
+"Pin Visor"="视窗固定热键:";
+
+"Animation:"="动效:";
+"Fade Window"="视窗淡入/淡出";
+"Slide Window"="视窗滑入/滑出";
+
+"Screen:"="显示器:";
+"Show on all Spaces"="在所有Spaces空间显示";
+"Show on top of the Dock"="显示在Dock上面";
+"Free Form Window"="随意控制滑入视窗大小位置";
+
+/* asepsis page */
+"Asepsis Feature"="隔离隐藏文件";
+"prevents .DS_Store files to be created in local folders"="防止.DS_Store文件写入在本地文件夹";
+".DS_Store files will be redirected into"="把所有.DS_Store档案保存到";
+"this folder should be set as writable for all users of TotalFinder"="该文件夹必须是全部TotalFinder用户可读写";
+"Launch Migration Assistant"="启动迁移助理";
+"TotalFinder.kext status"="TotalFinder.kext 状态";
+"Unable to connect"="连接不到kernel extension!\nTotalFinder kernel extension是否已经安装?";
+"Advanced:"="进阶:";
+"Don't write .DS_Store to Network"="不把.DS_Store写在网络";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="把配置重设到TotalFinder默认";
+
+"File Browser:"="档案浏览:";
+"Show System Files"="显示系统文件";
+"Folders on Top"="文件夹置顶";
+"Always Maximize"="默认最大化";
+"Toggle Dual Mode"="双视窗模式";
+
+"Menu and Dock:"="菜单 及 Dock:";
+"Remove TotalFinder from Status Menu"="在状态栏菜单不显示TotalFinder";
+"Keep Original Finder Dock Icon"="使用原始Finder Dock图标";
+
+"Experimental:"="实验:";
+"Freelance Windows"="使用自由视窗";
+"Use narrow Tabs Bar"="使用窄标签栏";
+
+/* about page */
+"Check for updates…"="更新检查…";
