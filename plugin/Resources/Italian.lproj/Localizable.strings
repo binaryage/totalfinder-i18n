@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="Visore";
-"Asepsis"="Raggruppa";
+"Visor"="Visor";
+"Asepsis"="Asepsis";
 "Tweaks"="Trucchi";
-"About"="Informazioni";
+"About"="About";
 
 /* visor page */
-"Visor Feature"="Visore";
-"a system-wide window sliding from the bottom on a hot-key"="finestra a scomparsa attivabile con una combinazione di tasti";
+"Visor Feature"="Funzione Visor";
+"a system-wide window sliding from the bottom on a hot-key"="una finestra di sistema che scorre dal basso grazie a una hot-key";
 
 "Activation:"="Attivazione:";
 
-"Control:"="Controllo:";
-"Hide on ESC"="Nascondi con ESC";
-"Pin Visor"="Attiva Visore";
+"Control:"="Control:";
+"Hide on ESC"="Premi ESC per nascondere";
+"Pin Visor"="Blocca Visor";
 
-"Animation:"="Animazione:";
-"Fade Window"="Finestre a dissolvenza";
-"Slide Window"="Finestre a scorrimento";
+"Animation:"="Animazioni:";
+"Fade Window"="Finestra con Dissolvenza";
+"Slide Window"="Finestra a Scorrimento";
 
 "Screen:"="Schermo:";
-"Show on all Spaces"="Visualizza in tutti gli Spazi";
-"Show on top of the Dock"="Visualizza sopra al Dock";
-"Free Form Window"="Finestra libera";
+"Show on all Spaces"="Mostra su tutti gli Spazi";
+"Show on top of the Dock"="Mostra sopra la Dock";
+"Free Form Window"="Finestra a Forma Libera";
 
 /* asepsis page */
-"Asepsis Feature"="Funzione raggruppa";
-"prevents .DS_Store files to be created in local folders"="evita la creazione dei file .DS_Store nelle cartelle locali";
-".DS_Store files will be redirected into"="i file .DS_Store saranno reindirizzati a";
-"this folder should be set as writable for all users of TotalFinder"="questa cartella deve essere accessibile da tutti gli utenti di TotalFinder";
-"Launch Migration Assistant"="Esegui l'assistente alla migrazione";
+"Asepsis Feature"="Funzione Asepsis";
+"prevents .DS_Store files to be created in local folders"="evita la creazione dei file .DS_Store files nelle cartelle locali";
+".DS_Store files will be redirected into"="i file .DS_Store verranno ridiretti in ";
+"this folder should be set as writable for all users of TotalFinder"="tale cartella dovrebbe avere permessi di scrittura per gli utenti di TF";
+"Launch Migration Assistant"="Avvia l'Assistente di Migrazione";
 "TotalFinder.kext status"="Stato di TotalFinder.kext";
-"Unable to connect"="Non posso collegarmi con le estensioni del kernel!\nLe hai installate?";
+"Unable to connect"="Impossibile connettersi all'estensione del kernel!\nHai installato l'estensione del kernel??";
 "Advanced:"="Avanzate:";
-"Don't write .DS_Store to Network"="Non scrivere i file .DS_Store in rete";
+"Don't write .DS_Store to Network"="Non scrivere i .DS_Store sulla Rete";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Reimposta TotalFinder alla configurazione iniziale";
+"Reset TotalFinder to defaults"="Riporta TotalFinder alle impostazioni iniziali";
 
-"File Browser:"="Visualizzazione file:";
-"Show System Files"="Visualizza file di sistema";
-"Folders on Top"="Cartelle in testa";
+"File Browser:"="File Browser:";
+"Show System Files"="Mostra File di Sistema";
+"Folders on Top"="Cartelle in Cima";
 "Always Maximize"="Massimizza sempre";
-"Toggle Dual Mode"="Alterna il Dual Mode";
+"Toggle Dual Mode"="Vista a Doppio Pannello";
 
 "Menu and Dock:"="Menu e Dock:";
-"Remove TotalFinder from Status Menu"="Togli TotalFinder dal Menu di stato";
-"Keep Original Finder Dock Icon"="Mantieni l'icona originale del Finder";
+"Remove TotalFinder from Status Menu"="Rimuovi TotalFinder dallo Status Menu";
+"Keep Original Finder Dock Icon"="Mantieni l'icona originale di Finder";
 
 "Experimental:"="Sperimentale:";
-"Freelance Windows"="Finestre libere";
-"Use narrow Tabs Bar"="Barra dei Tab ristretta";
+"Freelance Windows"="Finestre Libere";
+"Use narrow Tabs Bar"="Barra delle Tab ristretta";
 
 /* about page */
-"Check for updates…"="Controlla gli aggiornamenti…";
+"Check for updates…"="Controlla aggiornamenti…";
