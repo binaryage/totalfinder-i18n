@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Проверить обновления";
+"Uninstall TotalFinder" = "Удалить TotalFinder";
+"Restart Finder" = "Перезапустить Finder";
+"Show Visor" = "Показать Visor";
+"Hide Visor" = "Скрыть Visor";
+"Expired on %@" = "Срок действия истек %@";
+"This ALPHA version will expire in %@!" = "Эта ALPHA-версия истекает %@!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "менее чем через минуту ";
+"1 minute" = "через минуту";
+"less than 5 seconds" = "меньше чем через 5 секунд";
+"less than 10 seconds" = "меньше чем через 10 секунд";
+"less than 20 seconds" = "меньше чем через 20 секунд";
+"half a minute" = "через пол минуты";
+"%.0f minutes" = "через %.0f минут(ы)";
+"about 1 hour" = "примерно через час";
+"about %.0f hours" = "примерно через %.0f часа(ов)";
+"1 day" = "через 1 день";
+"%.0f days" = "через %.0f дн.";
+"about 1 month" = "примерно через месяц";
+"%.0f months" = "через %.0f мес.";
+"about 1 year" = "примерно через год";
+"over %.0f years" = "более чем через %.0f г.";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Отключить";
+"Connect" = "Подключить";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Не могу соединиться с расширением ядра! У Вас правильно установлено расширение TotalFinder.kext?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Восстановить";
+"Cancel" = "Отменить";
+"Do you really want reset to defaults?" = "Вы действительно хотите восстановить настройки по-умолчанию?";
+"This will restore initial TotalFinder settings." = "Все настройки TotalFinder будут возвращены в начальное состояние.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Удалить";
+"Cancel" = "Отменить";
+"Really want to uninstall TotalFinder?" = "Действительно хотите удалить TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Будет запущен скрипт, который удалит TotalFinder и восстановить первоначальное поведение Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Новая вкладка Finder";
+"Close Tab" = "Закрыть вкладку";
+"Close Window" = "Закрыть окно";
+"Show System Files" = "Показывать скрытые файлы";
+"Folders On Top" = "Показывать папки сверху";
+"Toggle Dual Mode" = "Переключить двухпанельный режим";
+"Narrow Tabs Bar" = "Узкая панель вкладок";
+"Pin Visor" = "Закрепить Visor";
+"TotalFinder Preferences…" = "Настройки TotalFinder…";
+"Visit Homepage…" = "Открыть домашюю страницу проекта…";
+
+/* misc. */
+"Screen %d" = "Экран %d";
