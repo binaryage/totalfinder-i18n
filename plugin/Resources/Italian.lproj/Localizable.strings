@@ -2,7 +2,7 @@
 "Visor"="Visor";
 "Asepsis"="Asepsis";
 "Tweaks"="Trucchi";
-"About"="About";
+"About"="Informazioni";
 
 /* visor page */
 "Visor Feature"="Funzione Visor";
@@ -10,7 +10,7 @@
 
 "Activation:"="Attivazione:";
 
-"Control:"="Control:";
+"Control:"="Controllo:";
 "Hide on ESC"="Premi ESC per nascondere";
 "Pin Visor"="Blocca Visor";
 
@@ -25,7 +25,7 @@
 
 /* asepsis page */
 "Asepsis Feature"="Funzione Asepsis";
-"prevents .DS_Store files to be created in local folders"="evita la creazione dei file .DS_Store files nelle cartelle locali";
+"prevents .DS_Store files to be created in local folders"="evita la creazione dei file .DS_Store nelle cartelle locali";
 ".DS_Store files will be redirected into"="i file .DS_Store verranno ridiretti in ";
 "this folder should be set as writable for all users of TotalFinder"="tale cartella dovrebbe avere permessi di scrittura per gli utenti di TF";
 "Launch Migration Assistant"="Avvia l'Assistente di Migrazione";
@@ -44,8 +44,8 @@
 "Toggle Dual Mode"="Vista a Doppio Pannello";
 
 "Menu and Dock:"="Menu e Dock:";
-"Remove TotalFinder from Status Menu"="Rimuovi TotalFinder dallo Status Menu";
-"Keep Original Finder Dock Icon"="Mantieni l'icona originale di Finder";
+"Remove TotalFinder from Status Menu"="Rimuovi TotalFinder dal Menu di Stato";
+"Keep Original Finder Dock Icon"="Mantieni l'icona originale del Finder";
 
 "Experimental:"="Sperimentale:";
 "Freelance Windows"="Finestre Libere";

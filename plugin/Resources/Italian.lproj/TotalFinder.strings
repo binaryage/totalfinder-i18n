@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "COntrolla Aggiornamenti";
+"Check for Updates" = "Controlla Aggiornamenti";
 "Uninstall TotalFinder" = "Disinstalla TotalFinder";
 "Restart Finder" = "Riavvia Finder";
 "Show Visor" = "Mostra Visor";
@@ -32,7 +32,7 @@ kernel! L'estensione è stata installata correttamente?";
 /* Reset to Defaults Alert Box */
 "Reset" = "Ripristina";
 "Cancel" = "Annulla";
-"Do you really want reset to defaults?" = "Vuoi davvero riportare alle impostazioni iniziali?";
+"Do you really want reset to defaults?" = "Vuoi davvero ripristinare le impostazioni iniziali?";
 "This will restore initial TotalFinder settings." = "Questo ripristinerà le impostazioni iniziali di TotalFinder.";
 
 /* Unistall Alert Box */
