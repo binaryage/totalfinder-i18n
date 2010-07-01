@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature"="Fonction Visor";
-"a system-wide window sliding from the bottom on a hot-key"="fenêtre pleine largeur apparaissant du bas par un raccourci clavier";
+"a system-wide window sliding from the bottom on a hot-key"="fenêtre unique apparaissant du bas par un raccourci clavier";
 
 "Activation:"="Activation :";
 
