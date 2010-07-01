@@ -6,12 +6,12 @@
 
 /* visor page */
 "Visor Feature"="De Visor Optie";
-"a system-wide window sliding from the bottom on a hot-key"="een systeembreed scherm dat van beneden binnenschuift als de toetscombinatie wordt gebruikt";
+"a system-wide window sliding from the bottom on a hot-key"="een systeembreed scherm dat binnenschuift bij de toetscombinatie";
 
 "Activation:"="Activatie:";
 
 "Control:"="Control:";
-"Hide on ESC"="Verberg on ESC";
+"Hide on ESC"="Verberg met ESC";
 "Pin Visor"="Zet Visor vast";
 
 "Animation:"="Animatie:";
@@ -25,26 +25,26 @@
 
 /* asepsis page */
 "Asepsis Feature"="De Asepsis Optie";
-"prevents .DS_Store files to be created in local folders"="voorkomt dat .DS_Store bestanden worden aangemaakte in lokale mappen";
+"prevents .DS_Store files to be created in local folders"="voorkomt aanmaken van .DS_Store bestanden in lokale mappen";
 ".DS_Store files will be redirected into"=".DS_Store bestanden worden omgezet naar";
-"this folder should be set as writable for all users of TotalFinder"="deze map moet schrijfbaar gezet worden voor alle gebruikers van TotalFinder";
+"this folder should be set as writable for all users of TotalFinder"="deze map moet schrijfbaar zijn voor alle TotalFinder gebruikers";
 "Launch Migration Assistant"="Start Migratie Assistent";
 "TotalFinder.kext status"="TotalFinder.kext status";
 "Unable to connect"="Kan niet verbinden met de kernel extensie!\nIs de TotalFinder kernel extensie geïnstalleerd?";
 "Advanced:"="Geavanceerd:";
-"Don't write .DS_Store to Network"="Schrijf geen .DS_Store naar het Network";
+"Don't write .DS_Store to Network"="Schrijf geen .DS_Store naar het netwerk";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Herstel de TotalFinder default instellingen";
+"Reset TotalFinder to defaults"="Herstel de TotalFinder standaard instellingen";
 
 "File Browser:"="Bestanden verkenner:";
-"Show System Files"="Laat systeem bestanden zien";
+"Show System Files"="Toon systeembestanden";
 "Folders on Top"="Mappen eerst";
 "Always Maximize"="Altijd maximaliseren";
-"Toggle Dual Mode"="Schakel van/naar duale mode";
+"Toggle Dual Mode"="Schakel duale mode";
 
 "Menu and Dock:"="Menu en Dock:";
-"Remove TotalFinder from Status Menu"="Verwijder TotalFinder van het status menu";
+"Remove TotalFinder from Status Menu"="Verwijder TotalFinder uit het status menu";
 "Keep Original Finder Dock Icon"="Hou het originele Finder dock icon";
 
 "Experimental:"="Experimenteel:";
