@@ -1,18 +1,18 @@
 /* navigation bar */
-"Visor"="Visor";
+"Visor"="バイザー";
 "Asepsis"="Asepsis";
 "Tweaks"="チューニング";
 "About"="情報";
 
 /* visor page */
-"Visor Feature"="Visor の機能を有効にする";
+"Visor Feature"="バイザー機能を有効にする";
 "a system-wide window sliding from the bottom on a hot-key"="ホットキーでいつでもウィンドウを表示できます";
 
 "Activation:"="ホットキー:";
 
 "Control:"="制御:";
 "Hide on ESC"="ESCキーで隠す";
-"Pin Visor"="Visor を固定";
+"Pin Visor"="バイザーを固定";
 
 "Animation:"="表示効果:";
 "Fade Window"="ウィンドウをフェードイン/アウト";

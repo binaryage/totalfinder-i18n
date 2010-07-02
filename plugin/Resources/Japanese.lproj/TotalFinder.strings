@@ -2,8 +2,8 @@
 "Check for Updates" = "アップデートを確認";
 "Uninstall TotalFinder" = "TotalFinder をアンインストールする";
 "Restart Finder" = "Finder を再起動";
-"Show Visor" = "Visor を表示";
-"Hide Visor" = "Visor を隠す";
+"Show Visor" = "バイザーを表示";
+"Hide Visor" = "バイザーを隠す";
 "Expired on %@" = "%@ に期限切れ";
 "This ALPHA version will expire in %@!" = "このアルファ版はあと %@で期限切れになります!";
 /* expiration date assembling for -^^ */
@@ -48,7 +48,7 @@
 "Folders On Top" = "フォルダを上位に表示";
 "Toggle Dual Mode" = "デュアルモードの切替";
 "Narrow Tabs Bar" = "細いタブバーを使う";
-"Pin Visor" = "Visor を固定";
+"Pin Visor" = "バイザーを固定";
 "TotalFinder Preferences…" = "環境設定…";
 "Visit Homepage…" = "ホームページ (英語) を開く…";
 
