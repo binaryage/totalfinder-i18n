@@ -1,0 +1,55 @@
+/* navigation bar */
+"Visor"="Visor";
+"Asepsis"="Asepsis";
+"Tweaks"="Ajustes";
+"About"="Acerca de";
+
+/* visor page */
+"Visor Feature"="Característica Visor";
+"a system-wide window sliding from the bottom on a hot-key"="Una ventana global se desliza desde abajo con una función rápida";
+
+"Activation:"="Activación:";
+
+"Control:"="Control:";
+"Hide on ESC"="Esconder con ESC";
+"Pin Visor"="Fijar Visor";
+
+"Animation:"="Animación:";
+"Fade Window"="Disolver Ventana";
+"Slide Window"="Deslizar Ventana";
+
+"Screen:"="Pantalla:";
+"Show on all Spaces"="Mostrar en todos los Spaces";
+"Show on top of the Dock"="Mostrar sobre el Dock";
+"Free Form Window"="Venta de Forma Libre";
+
+/* asepsis page */
+"Asepsis Feature"="Característica Asepsis";
+"prevents .DS_Store files to be created in local folders"="evita crear archivos .DS_Store en las carpetas locales";
+".DS_Store files will be redirected into"="Archivos .DS_Store serán redirigidos a";
+"this folder should be set as writable for all users of TotalFinder"="Carpeta necesita permiso de escritura para los usarios de TotalFinder";
+"Launch Migration Assistant"="Lanzar el Asistente de Migración";
+"TotalFinder.kext status"="Estado de TotalFinder.kext";
+"Unable to connect"="No es posible conectarse a la extensión del kernel!\nTiene la extensión del kernel de TotalFinder instalada?";
+"Advanced:"="Avanzado:";
+"Don't write .DS_Store to Network"="No escribir archivos .DS_Store en la red";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="Restaurar valores por defecto de TotalFinder";
+
+"File Browser:"="Navegador de Archivos:";
+"Show System Files"="Archivos de Sistema";
+"Folders on Top"="Carpetas en el tope";
+"Always Maximize"="Maximizar Siempre";
+"Toggle Dual Mode"="Activar Modo Dual";
+
+"Menu and Dock:"="Menú y Dock:";
+"Remove TotalFinder from Status Menu"="Remover TotalFinder de la Barra de Menús";
+"Keep Original Finder Dock Icon"="Usar el Icono Original de Finder en el Dock";
+
+"Experimental:"="Experimental:";
+"Freelance Windows"="Ventanas Autónomas";
+"Use narrow Tabs Bar"="Barra Pestañas angosta";
+
+/* about page */
+"Check for updates…"="Comprobar actualizaciones…";
