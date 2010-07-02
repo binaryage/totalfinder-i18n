@@ -6,29 +6,29 @@
 
 /* visor page */
 "Visor Feature"="Visor Funktion";
-"a system-wide window sliding from the bottom on a hot-key"="Systemweit per Tastenkombination aktivierbares Fenster";
+"a system-wide window sliding from the bottom on a hot-key"="ein systemweit per Tastenkombination einblendbares Fenster";
 
-"Activation:"="Aktivierung:";
+"Activation:"="Einblenden";
 
-"Control:"="Steuerung:";
+"Control:"="Steuerung";
 "Hide on ESC"="Mit ESC ausblenden";
 "Pin Visor"="Anheften";
 
-"Animation:"="Animation:";
-"Fade Window"="Fenster einblenden";
-"Slide Window"="Fenster ausblenden";
+"Animation:"="Animation";
+"Fade Window"="Überblenden animieren";
+"Slide Window"="Hineingleiten animieren";
 
-"Screen:"="Bildschirm:";
+"Screen:"="Bildschirm";
 "Show on all Spaces"="Auf allen Spaces sichtbar";
 "Show on top of the Dock"="Über dem Dock anzeigen";
-"Free Form Window"="FreeForm Fenster";
+"Free Form Window"="Fenstergröße veränderbar";
 
 /* asepsis page */
 "Asepsis Feature"="Asepsis Funktion";
-"prevents .DS_Store files to be created in local folders"="verhindert die Erstellung von .DS_Store Dateien in lokalen Ordnern";
-".DS_Store files will be redirected into"=".DS_Store Dateien werden weitergeleitet in";
+"prevents .DS_Store files to be created in local folders"="verhindert die Erstellung von .DS_Store Dateien";
+".DS_Store files will be redirected into"=".DS_Store Dateien werden verschoben nach";
 "this folder should be set as writable for all users of TotalFinder"="Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
-"Launch Migration Assistant"="Starte Migrationsassistent";
+"Launch Migration Assistant"="Migrationsassistent starten";
 "TotalFinder.kext status"="TotalFinder.kext Status";
 "Unable to connect"="Keine Verbindung zur Kernel-Erweiterung möglich!\nIst die TotalFinder Kernel-Erweiterung installiert?";
 "Advanced:"="Erweitert:";
@@ -38,18 +38,18 @@
 "Reset TotalFinder to defaults"="Standardeinstellungen wiederherstellen";
 
 "File Browser:"="Datei Browser:";
-"Show System Files"="Zeige Systemdateien";
+"Show System Files"="Systemdateien anzeigen";
 "Folders on Top"="Ordner am Anfang";
 "Always Maximize"="Immer maximieren";
-"Toggle Dual Mode"="Dual Mode an-/ausschalten";
+"Toggle Dual Mode"="Dual Mode an/aus";
 
 "Menu and Dock:"="Menü und Dock:";
-"Remove TotalFinder from Status Menu"="TotalFinder in der Menüleiste verstecken";
-"Keep Original Finder Dock Icon"="Finder Symbol im Dock nicht verändern";
+"Remove TotalFinder from Status Menu"="Icon in der Menüleiste nicht anzeigen";
+"Keep Original Finder Dock Icon"="Original Finder-Icon im Dock verwenden";
 
 "Experimental:"="Experimentell:";
 "Freelance Windows"="Freelance Fenster";
-"Use narrow Tabs Bar"="Kompakte Tableiste";
+"Use narrow Tabs Bar"="Tableiste verkleinern";
 
 /* about page */
 "Check for updates…"="Nach Updates suchen…";
