@@ -1,0 +1,55 @@
+/* navigation bar */
+"Visor"="バイザー";
+"Asepsis"="Asepsis";
+"Tweaks"="チューニング";
+"About"="情報";
+
+/* visor page */
+"Visor Feature"="バイザー機能を有効にする";
+"a system-wide window sliding from the bottom on a hot-key"="ホットキーでいつでもウィンドウを表示できます";
+
+"Activation:"="ホットキー:";
+
+"Control:"="制御:";
+"Hide on ESC"="ESCキーで隠す";
+"Pin Visor"="バイザーを固定";
+
+"Animation:"="表示効果:";
+"Fade Window"="ウィンドウをフェードイン/アウト";
+"Slide Window"="ウィンドウをスライド";
+
+"Screen:"="画面:";
+"Show on all Spaces"="すべての操作スペースで表示";
+"Show on top of the Dock"="ドックの上にのせる";
+"Free Form Window"="ウィンドウサイズを可変とする";
+
+/* asepsis page */
+"Asepsis Feature"="Asepsis の機能を有効にする";
+"prevents .DS_Store files to be created in local folders"="ローカルフォルダに .DS_Store ファイルを作成させません";
+".DS_Store files will be redirected into"=".DS_Store ファイルを次のフォルダへ移動する";
+"this folder should be set as writable for all users of TotalFinder"="すべての TotalFinder のユーザが書き込めなければなりません";
+"Launch Migration Assistant"="移行アシスタントを起動する";
+"TotalFinder.kext status"="TotalFinder.kext の状況";
+"Unable to connect"="カーネル拡張機能に接続できませんでした!\nTotalFinder.kext が正しくインストールされているか確認してください。";
+"Advanced:"="詳細:";
+"Don't write .DS_Store to Network"="ネットワーク上に .DS_Store を作成しない";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="TotalFinder をデフォルトに戻す";
+
+"File Browser:"="ファイルブラウザ:";
+"Show System Files"="システムファイルを表示";
+"Folders on Top"="フォルダを上位に表示";
+"Always Maximize"="常に最大化";
+"Toggle Dual Mode"="デュアルモードの切替";
+
+"Menu and Dock:"="メニューバーと Dock:";
+"Remove TotalFinder from Status Menu"="メニューバーに TotalFinder を表示しない";
+"Keep Original Finder Dock Icon"="Finder のアイコンを変えない";
+
+"Experimental:"="開発段階:";
+"Freelance Windows"="ウィンドウフリーランス";
+"Use narrow Tabs Bar"="細いタブバーを使う";
+
+/* about page */
+"Check for updates…"="アップデートを確認…";
