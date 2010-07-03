@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "更新檢查";
+"Uninstall TotalFinder" = "卸載 TotalFinder";
+"Restart Finder" = "重啟 Finder";
+"Show Visor" = "顯示滑入視窗";
+"Hide Visor" = "隱藏滑入視窗";
+"Expired on %@" = "於 %@ 試用都期";
+"This ALPHA version will expire in %@!" = "TotalFinder Alpha 版將於 %@ 試用都期!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "一分鐘內";
+"1 minute" = "一分鐘";
+"less than 5 seconds" = "5 秒內";
+"less than 10 seconds" = "10 秒內";
+"less than 20 seconds" = "20 秒內";
+"half a minute" = "半分鐘";
+"%.0f minutes" = "%.0f 分鐘";
+"about 1 hour" = "大約一小時";
+"about %.0f hours" = "大約 %.0f 小時";
+"1 day" = "一天";
+"%.0f days" = "%.0f 天";
+"about 1 month" = "大約一個月";
+"%.0f months" = "%.0f 個月";
+"about 1 year" = "大約一年";
+"over %.0f years" = "多於 %.0f 年";
+
+/* Asepsis preferences pane */
+"Disconnect" = "斷線";
+"Connect" = "連線";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "連接不到kernel extension!\nTotalFinder kernel extension是否已經安裝?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "重置";
+"Cancel" = "取消";
+"Do you really want reset to defaults?" = "是否確定把配置重設到TotalFinder默認?";
+"This will restore initial TotalFinder settings." = "把配置重設到TotalFinder默認";
+
+/* Unistall Alert Box */
+"Uninstall" = "卸載";
+"Cancel" = "取消";
+"Really want to uninstall TotalFinder?" = "是否確定把TotalFinder卸載?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "啟動卸載程式把TotalFinder卸載，恢復原本Finder";
+
+/* MainMenu items */
+"New Finder Tab" = "創建新標簽";
+"Close Tab" = "關閉標簽";
+"Close Window" = "關閉視窗";
+"Show System Files" = "顯示系統文件";
+"Folders On Top" = "文件夾置頂";
+"Toggle Dual Mode" = "雙視窗模式";
+"Narrow Tabs Bar" = "窄標簽欄";
+"Pin Visor" = "視窗固定";
+"TotalFinder Preferences…" = "TotalFinder配置 …";
+"Visit Homepage…" = "訪問主頁…";
+
+/* misc. */
+"Screen %d" = "顯示器 %d";
