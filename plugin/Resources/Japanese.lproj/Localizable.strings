@@ -30,7 +30,7 @@
 "this folder should be set as writable for all users of TotalFinder"="すべてのユーザが書き込み可能でなければなりません";
 "Launch Migration Assistant"="移行アシスタントを起動する";
 "TotalFinder.kext status"="TotalFinder.kext の状況";
-"Unable to connect"="カーネル拡張機能に接続できませんでした!\nTotalFinder.kext が正しくインストールされているか確認してください。";
+"Unable to connect"="カーネル拡張機能に接続できませんでした！\nTotalFinder.kext が正しくインストールされているか確認してください。";
 "Advanced:"="詳細";
 "Don't write .DS_Store to Network"="ネットワーク上に .DS_Store を作成しない";
 

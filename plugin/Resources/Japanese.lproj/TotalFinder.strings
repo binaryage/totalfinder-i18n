@@ -5,7 +5,7 @@
 "Show Visor" = "バイザーを表示";
 "Hide Visor" = "バイザーを隠す";
 "Expired on %@" = "%@ に期限切れ";
-"This ALPHA version will expire in %@!" = "このアルファ版はあと %@で期限切れになります!";
+"This ALPHA version will expire in %@!" = "このアルファ版はあと %@で期限切れになります！";
 /* expiration date assembling for -^^ */
 "less than a minute" = "1 分未満";
 "1 minute" = "1 分";
@@ -26,18 +26,18 @@
 /* Asepsis preferences pane */
 "Disconnect" = "切断";
 "Connect" = "接続";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "カーネル拡張機能に接続できませんでした!\nTotalFinder.kext が正しくインストールされているか確認してください。";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "カーネル拡張機能に接続できませんでした！\nTotalFinder.kext が正しくインストールされているか確認してください。";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "リセット";
 "Cancel" = "キャンセル";
-"Do you really want reset to defaults?" = "TotalFinder をデフォルトの状態にリセットします。よろしいですか?";
+"Do you really want reset to defaults?" = "TotalFinder をデフォルトの状態にリセットします。よろしいですか？";
 "This will restore initial TotalFinder settings." = "TotalFinder は初期の状態に戻ります。";
 
 /* Unistall Alert Box */
 "Uninstall" = "アンインストール";
 "Cancel" = "キャンセル";
-"Really want to uninstall TotalFinder?" = "TotalFinder をアンインストールします。よろしいですか?";
+"Really want to uninstall TotalFinder?" = "TotalFinder をアンインストールします。よろしいですか？";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "アンインストール・スクリプトが起動し、TotalFinder を削除します。Finder は元の状態に戻ります。";
 
 /* MainMenu items */

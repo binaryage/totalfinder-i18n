@@ -3,7 +3,7 @@
 "Type shortcut" = "ショートカットの入力";
 "Click to record shortcut" = "ショートカットを記録する";
 "Pad %@" = "パッド %@";
-"The key combination %@ can't be used!" = "%@ のキーの組み合わせは使用できません!";
+"The key combination %@ can't be used!" = "%@ のキーの組み合わせは使用できません！";
 "The key combination \"%@\" can't be used because %@." = "\"%@\" のキーの組み合わせは使用できません。理由は、%@.";
 "The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "\"%@\" のキーの組み合わせは使用できません。すでにシステムのキーボードショートカットとして登録されているためです。(どうしても使用したい場合は、システム環境の「キーボード」や「マウス」で登録しているシステムのショートカットを変更してください。)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "\"%@\" のキーの組み合わせは使用できません。メニュー項目 \"%@\" がすでに使用しているためです。";
