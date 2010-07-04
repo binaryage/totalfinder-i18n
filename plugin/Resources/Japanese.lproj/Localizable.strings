@@ -8,17 +8,17 @@
 "Visor Feature"="バイザー機能を有効にする";
 "a system-wide window sliding from the bottom on a hot-key"="ホットキーでいつでもウィンドウを表示できます";
 
-"Activation:"="ホットキー";
+"Activation:"="ホットキー：";
 
-"Control:"="制御";
+"Control:"="制御：";
 "Hide on ESC"="ESCキーで隠す";
 "Pin Visor"="バイザー固定";
 
-"Animation:"="表示効果";
+"Animation:"="表示効果：";
 "Fade Window"="ウィンドウをフェードイン/アウト";
 "Slide Window"="ウィンドウをスライド";
 
-"Screen:"="画面";
+"Screen:"="画面：";
 "Show on all Spaces"="すべての操作スペースで表示";
 "Show on top of the Dock"="Dock よりも前面に表示";
 "Free Form Window"="ウィンドウのサイズ変更を許可";
@@ -31,23 +31,23 @@
 "Launch Migration Assistant"="移行アシスタントを起動する";
 "TotalFinder.kext status"="TotalFinder.kext の状況";
 "Unable to connect"="カーネル拡張機能に接続できませんでした！\nTotalFinder.kext が正しくインストールされているか確認してください。";
-"Advanced:"="詳細";
+"Advanced:"="詳細：";
 "Don't write .DS_Store to Network"="ネットワーク上に .DS_Store を作成しない";
 
 /* tweaks page */
 "Reset TotalFinder to defaults"="元の設定に戻す";
 
-"File Browser:"="ファイルブラウザ";
+"File Browser:"="ファイルブラウザ：";
 "Show System Files"="不可視ファイルを表示";
 "Folders on Top"="フォルダをまとめて表示";
 "Always Maximize"="常に最大化";
-"Toggle Dual Mode"="デュアルモードの切替";
+"Toggle Dual Mode"="デュアルモードの切替：";
 
-"Menu and Dock:"="メニューバーと Dock";
+"Menu and Dock:"="メニューバーと Dock：";
 "Remove TotalFinder from Status Menu"="メニューバーから TotalFinder を取り除く";
 "Keep Original Finder Dock Icon"="Finder アイコンはオリジナルを使う";
 
-"Experimental:"="実験的な機能";
+"Experimental:"="実験的な機能：";
 "Freelance Windows"="複数のウィンドウを許可";
 "Use narrow Tabs Bar"="タブバーを細くする";
 
