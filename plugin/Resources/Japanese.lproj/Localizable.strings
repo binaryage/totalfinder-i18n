@@ -28,14 +28,14 @@
 "prevents .DS_Store files to be created in local folders"="ローカルフォルダに .DS_Store ファイルを作成させません";
 ".DS_Store files will be redirected into"=".DS_Store ファイルを次のフォルダへ移動する";
 "this folder should be set as writable for all users of TotalFinder"="すべてのユーザが書き込み可能でなければなりません";
-"Launch Migration Assistant"="移行アシスタントを起動する";
+"Launch Migration Assistant"="隔離アシスタントを起動";
 "TotalFinder.kext status"="TotalFinder.kext の状況";
 "Unable to connect"="カーネル拡張機能に接続できませんでした！\nTotalFinder.kext が正しくインストールされているか確認してください。";
 "Advanced:"="詳細：";
 "Don't write .DS_Store to Network"="ネットワーク上に .DS_Store を作成しない";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="元の設定に戻す";
+"Reset TotalFinder to defaults"="初期設定に戻す";
 
 "File Browser:"="ファイルブラウザ：";
 "Show System Files"="不可視ファイルを表示";
@@ -43,7 +43,7 @@
 "Always Maximize"="常に最大化";
 "Toggle Dual Mode"="デュアルモードの切替：";
 
-"Menu and Dock:"="メニューバーと Dock：";
+"Menu and Dock:"="メニューと Dock：";
 "Remove TotalFinder from Status Menu"="メニューバーから TotalFinder を取り除く";
 "Keep Original Finder Dock Icon"="Finder アイコンはオリジナルを使う";
 
