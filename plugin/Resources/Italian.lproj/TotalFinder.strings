@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Controlla Aggiornamenti";
+"Check for Updates" = "Controlla aggiornamenti";
 "Uninstall TotalFinder" = "Disinstalla TotalFinder";
 "Restart Finder" = "Riavvia Finder";
 "Show Visor" = "Mostra Visor";
@@ -42,13 +42,13 @@ kernel! L'estensione è stata installata correttamente?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Verrà lanciato uno script di disinstallazione che rimuoverà TotalFinder dal computer e ripristinerà il comportamento originale del Finder";
 
 /* MainMenu items */
-"New Finder Tab" = "Nuova Tab del Finder";
-"Close Tab" = "Chiudi Tab";
-"Close Window" = "Chiudi Finestra";
-"Show System Files" = "Mostra File di Sistema";
-"Folders On Top" = "Cartelle in Cima";
-"Toggle Dual Mode" = "Vista a Doppio Pannello";
-"Narrow Tabs Bar" = "Barra delle Tab ristretta";
+"New Finder Tab" = "Nuova scheda";
+"Close Tab" = "Chiudi scheda";
+"Close Window" = "Chiudi finestra";
+"Show System Files" = "Mostra file di sistema";
+"Folders On Top" = "Cartelle in cima";
+"Toggle Dual Mode" = "Vista a doppio pannello";
+"Narrow Tabs Bar" = "Barra delle schede ridotta";
 "Pin Visor" = "Blocca Visor";
 "TotalFinder Preferences…" = "Preferenze di TotalFinder…";
 "Visit Homepage…" = "Visita la homepage…";
