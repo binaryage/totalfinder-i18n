@@ -4,14 +4,14 @@
 "Restart Finder" = "Finder を再起動";
 "Show Visor" = "バイザーを表示";
 "Hide Visor" = "バイザーを隠す";
-"Expired on %@" = "%@ に期限切れ";
-"This ALPHA version will expire in %@!" = "このアルファ版はあと %@で期限切れになります！";
+"Expired on %@" = "%@ に使用期限が切れます";
+"This ALPHA version will expire in %@!" = "このアルファ版はあと %@で使用期限が切れます！";
 /* expiration date assembling for -^^ */
-"less than a minute" = "1 分未満";
+"less than a minute" = "1 分以内";
 "1 minute" = "1 分";
-"less than 5 seconds" = "5 秒未満";
-"less than 10 seconds" = "10 秒未満";
-"less than 20 seconds" = "20 秒未満";
+"less than 5 seconds" = "5 秒以内";
+"less than 10 seconds" = "10 秒以内";
+"less than 20 seconds" = "20 秒以内";
 "half a minute" = "30 秒";
 "%.0f minutes" = "%.0f 分";
 "about 1 hour" = "およそ 1 時間";
@@ -26,29 +26,29 @@
 /* Asepsis preferences pane */
 "Disconnect" = "切断";
 "Connect" = "接続";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "カーネル拡張機能に接続できませんでした！\nTotalFinder.kext が正しくインストールされているか確認してください。";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "カーネル拡張と接続できません！ TotalFinder.kext を適切にインストールしましたか？";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "リセット";
 "Cancel" = "キャンセル";
-"Do you really want reset to defaults?" = "TotalFinder をデフォルトの状態にリセットします。よろしいですか？";
-"This will restore initial TotalFinder settings." = "TotalFinder は初期の状態に戻ります。";
+"Do you really want reset to defaults?" = "TotalFinder を初期設定に戻します。よろしいですか？";
+"This will restore initial TotalFinder settings." = "この操作で TotalFinder は初期設定に戻ります。";
 
 /* Unistall Alert Box */
 "Uninstall" = "アンインストール";
 "Cancel" = "キャンセル";
 "Really want to uninstall TotalFinder?" = "TotalFinder をアンインストールします。よろしいですか？";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "アンインストール・スクリプトが起動し、TotalFinder を削除します。Finder は元の状態に戻ります。";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "この操作で TotalFinder をアンインストールするスクリプトを実行し、Finder を元の状態に戻します。";
 
 /* MainMenu items */
 "New Finder Tab" = "新規 Finder タブ";
 "Close Tab" = "タブを閉じる";
 "Close Window" = "ウィンドウを閉じる";
-"Show System Files" = "システムファイルを表示";
-"Folders On Top" = "フォルダを上位に表示";
+"Show System Files" = "不可視ファイルを表示";
+"Folders On Top" = "フォルダをまとめて表示";
 "Toggle Dual Mode" = "デュアルモードの切替";
 "Narrow Tabs Bar" = "細いタブバーを使う";
-"Pin Visor" = "バイザーを固定";
+"Pin Visor" = "バイザー固定";
 "TotalFinder Preferences…" = "環境設定…";
 "Visit Homepage…" = "ホームページ（英語）を開く…";
 
