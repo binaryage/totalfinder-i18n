@@ -1,7 +1,7 @@
 "Space" = "スペース";
 "Use old shortcut" = "前のショートカット";
 "Type shortcut" = "ショートカットの入力";
-"Click to record shortcut" = "クリックで入力をする";
+"Click to record shortcut" = "クリックで入力開始";
 "Pad %@" = "パッド %@";
 "The key combination %@ can't be used!" = "このショートカットは使用できません！";
 "The key combination \"%@\" can't be used because %@." = "このショートカット \"%@\" は、%@ なので使用できません。";
