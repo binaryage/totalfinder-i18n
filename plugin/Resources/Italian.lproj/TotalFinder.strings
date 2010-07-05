@@ -5,7 +5,7 @@
 "Show Visor" = "Mostra Visor";
 "Hide Visor" = "Nascondi Visor";
 "Expired on %@" = "Scaduta il %@";
-"This ALPHA version will expire in %@!" = "Questa versione ALPHA scadrà tra %@!";
+"This ALPHA version will expire in %@!" = "Questa versione Alpha scadrà tra %@!";
 /* expiration date assembling for -^^ */
 "less than a minute" = "meno di un minuto";
 "1 minute" = "1 minuto";
