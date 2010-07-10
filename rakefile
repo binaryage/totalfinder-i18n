@@ -4,6 +4,8 @@ require 'rake'
 # constants
 
 ROOT_DIR = File.expand_path('.')
+FINDER_DIR = '/System/Library/CoreServices/Finder.app'
+FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 
 ################################################################################################
 # dependencies
@@ -48,6 +50,23 @@ end
 desc "restart Finder.app"
 task :restart do 
   sys("./restart.sh")
+end
+
+desc "normalize Finder.app so it contains all our language folders (run with sudo)"
+task :normalize do 
+  lprojs = File.join(ROOT_DIR, 'plugin', 'Resources', '*.lproj')
+  Dir.glob(lprojs) do |folder|
+    dir = File.join(FINDER_RESOURCES_DIR, File.basename(folder))
+    if File.exists? dir then
+        puts dir.blue + " exists".yellow
+    else
+        if !sys("mkdir -p \"#{dir}\"") then
+            die("Unable to create a folder. Hint: you should run this as sudo rake normalize")
+        end
+        puts dir.blue + " created".green
+    end
+    
+  end
 end
 
 task :default => :restart

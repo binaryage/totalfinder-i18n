@@ -41,6 +41,9 @@ When you are satisfied with your work, you should push your changes back to GitH
 
 ## Questions?
 
+### I have created MYLANGUAGE.lproj and modified string files. I've restarted the Finder.app, but I don't see my localization. What's wrong?
+> And do you see Finder.app in MYLANGUAGE? First, double check you have MYLANGUAGE as top-most language in the `System Preferences > Language & Text > Language` list. Second, please note that TotalFinder is a plugin for Finder.app and it inherits preferred language from Finder.app. Finder.app does not pick MYLANGUAGE in case there is not language folder present here `/System/Library/CoreServices/Finder.app/Contents/Resources/MYLANGUAGE.lproj`. You may create empty folder by hand or you may fix this by running `sudo rake normalize` task, which will create missing folders in `/System/Library/CoreServices/Finder.app/Contents/Resources` according to language folders available in TotalFinder's Resources. Hope this helped.
+
 ### I want to modify the UI. How can I compile XIB files?
 > Please make sure you have the latest XCode from Apple. Download and compile [ShortcutRecorder project](http://wafflesoftware.net/shortcut). It will give you an Interface Builder plugin for ShortcurRecorder control. No you can open XIB and modify it. TotalFinder uses nibs, to compile them please run `./compile.sh`.
 
