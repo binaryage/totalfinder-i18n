@@ -11,22 +11,22 @@ FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 # dependencies
 
 begin
-  require 'colored'
+    require 'colored'
 rescue LoadError
-  raise 'You must "gem install colored" to use terminal colors'
+    raise 'You must "gem install colored" to use terminal colors'
 end
 
 ################################################################################################
 # helpers
 
 def die(msg, status=1)
-  puts "Error[#{status||$?}]: #{msg}".red
-  exit status||$?
+    puts "Error[#{status||$?}]: #{msg}".red
+    exit status||$?
 end
 
 def sys(cmd)
-  puts "> #{cmd}".yellow
-  system(cmd)
+    puts "> #{cmd}".yellow
+    system(cmd)
 end
 
 ################################################################################################
@@ -34,39 +34,38 @@ end
 
 desc "switch /Applications/TotalFinder.app into dev mode"
 task :dev do 
-  sys("./dev.sh")
+    sys("./dev.sh")
 end
 
 desc "switch /Applications/TotalFinder.app into non-dev mode"
 task :undev do 
-  sys("./undev.sh")
+    sys("./undev.sh")
 end
 
-desc "compile XIBs to NIBs (when modified UI)"
+desc "compile XIBs to NIBs (after modified the UI)"
 task :compile do 
-  sys("./compile.sh")
+    sys("./compile.sh")
 end
 
 desc "restart Finder.app"
 task :restart do 
-  sys("./restart.sh")
+    sys("./restart.sh")
 end
 
 desc "normalize Finder.app so it contains all our language folders (run with sudo)"
 task :normalize do 
-  lprojs = File.join(ROOT_DIR, 'plugin', 'Resources', '*.lproj')
-  Dir.glob(lprojs) do |folder|
-    dir = File.join(FINDER_RESOURCES_DIR, File.basename(folder))
-    if File.exists? dir then
-        puts dir.blue + " exists".yellow
-    else
-        if !sys("mkdir -p \"#{dir}\"") then
-            die("Unable to create a folder. Hint: you should run this as sudo rake normalize")
+    lprojs = File.join(ROOT_DIR, 'plugin', 'Resources', '*.lproj')
+    Dir.glob(lprojs) do |folder|
+        dir = File.join(FINDER_RESOURCES_DIR, File.basename(folder))
+        if File.exists? dir then
+            puts dir.blue + " exists".yellow
+        else
+            if !sys("mkdir -p \"#{dir}\"") then
+                die("Unable to create a folder. Hint: you should run this as sudo rake normalize")
+            end
+            puts dir.blue + " created".green
         end
-        puts dir.blue + " created".green
     end
-    
-  end
 end
 
 task :default => :restart
