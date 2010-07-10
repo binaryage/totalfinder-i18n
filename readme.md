@@ -11,6 +11,8 @@ TotalFinder is not an open-source, but you should be still able to easily tweak 
 The idea is to install TotalFinder and then sym-link its `Resources` folder to the copy of this repository where you can edit it.
 When you are satisfied with your work, you should push your changes back to GitHub. I will then incorporate your work into next TotalFinder release.
 
+You may want to read [TotalFinder opened for localization](http://blog.binaryage.com/totalfinder-localization/) blog post to get an idea why I like GitHub for this.
+
 ## Where to start?
 
 1. Read something about git version control system. Here is [the best place to start](http://git-scm.com/documentation).
@@ -36,7 +38,7 @@ When you are satisfied with your work, you should push your changes back to GitH
 
 ### Final step
 
-1. push to github and send a pull request to [darwin](http://github.com/darwin) (please don't try to send pull requests to binaryage - it is an organisation)
+1. push to github and send a pull request to [darwin](http://github.com/darwin) (please don't try to send pull requests to [binaryage](http://github.com/binaryage) - it is an organisation)
 2. (optional) run `./undev.sh` to return to unaltered TotalFinder state (this won't delete your files, it will [just unlink](totalfinder-i18n/blob/master/undev.sh) sym-linked folder)
 
 ## Questions?
