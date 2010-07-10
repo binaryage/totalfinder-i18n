@@ -1,0 +1,53 @@
+require 'rake'
+
+################################################################################################
+# constants
+
+ROOT_DIR = File.expand_path('.')
+
+################################################################################################
+# dependencies
+
+begin
+  require 'colored'
+rescue LoadError
+  raise 'You must "gem install colored" to use terminal colors'
+end
+
+################################################################################################
+# helpers
+
+def die(msg, status=1)
+  puts "Error[#{status||$?}]: #{msg}".red
+  exit status||$?
+end
+
+def sys(cmd)
+  puts "> #{cmd}".yellow
+  system(cmd)
+end
+
+################################################################################################
+# tasks
+
+desc "switch /Applications/TotalFinder.app into dev mode"
+task :dev do 
+  sys("./dev.sh")
+end
+
+desc "switch /Applications/TotalFinder.app into non-dev mode"
+task :undev do 
+  sys("./undev.sh")
+end
+
+desc "compile XIBs to NIBs (when modified UI)"
+task :compile do 
+  sys("./compile.sh")
+end
+
+desc "restart Finder.app"
+task :restart do 
+  sys("./restart.sh")
+end
+
+task :default => :restart
