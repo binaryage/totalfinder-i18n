@@ -1,55 +1,55 @@
 /* navigation bar */
 "Visor"="Vizor";
 "Asepsis"="Asepsis";
-"Tweaks"="Tweaks";
-"About"="About";
+"Tweaks"="Adaptări";
+"About"="Despre";
 
 /* visor page */
-"Visor Feature"="The Visor Feature";
-"a system-wide window sliding from the bottom on a hot-key"="a system-wide window sliding from the bottom on a hot-key";
+"Visor Feature"="Vizorul";
+"a system-wide window sliding from the bottom on a hot-key"="O fereastră globală atașată de marginea de jos, activabilă din taste";
 
-"Activation:"="Activation:";
+"Activation:"="Activare:";
 
 "Control:"="Control:";
-"Hide on ESC"="Hide on ESC";
-"Pin Visor"="Pin Visor";
+"Hide on ESC"="Ascunde la ESC";
+"Pin Visor"="Pioneză";
 
-"Animation:"="Animation:";
-"Fade Window"="Fade Window";
-"Slide Window"="Slide Window";
+"Animation:"="Animație:";
+"Fade Window"="Dizolvă Fereastra";
+"Slide Window"="Clivează Fereastra";
 
-"Screen:"="Screen:";
-"Show on all Spaces"="Show on all Spaces";
-"Show on top of the Dock"="Show on top of the Dock";
-"Free Form Window"="FreeForm Window";
+"Screen:"="Ecran:";
+"Show on all Spaces"="Prezent în toate Spațiile";
+"Show on top of the Dock"="Afișează deasupra Dock-ului";
+"Free Form Window"="Fereastră redimensionabilă";
 
 /* asepsis page */
-"Asepsis Feature"="The Asepsis Feature";
-"prevents .DS_Store files to be created in local folders"="prevents .DS_Store files to be created in local folders";
-".DS_Store files will be redirected into"=".DS_Store files will be redirected into";
-"this folder should be set as writable for all users of TotalFinder"="this folder should be set as writable for all users of TotalFinder";
-"Launch Migration Assistant"="Launch Migration Assistant";
-"TotalFinder.kext status"="TotalFinder.kext status";
-"Unable to connect"="Unable to connect with kernel extension!\nDo you have TotalFinder kernel extension installed?";
-"Advanced:"="Advanced:";
-"Don't write .DS_Store to Network"="Don't write .DS_Store to Network";
+"Asepsis Feature"="Asepsis";
+"prevents .DS_Store files to be created in local folders"="Împiedică crearea fișierelor .DS_Store în folderele locale";
+".DS_Store files will be redirected into"="Fișierele .DS_Store vor fi mutate în";
+"this folder should be set as writable for all users of TotalFinder"="Toți utilizatorii TotalFinder trebuie să aibă drept de scriere aici";
+"Launch Migration Assistant"="Pornește Asistentul de Migrare";
+"TotalFinder.kext status"="Stare TotalFinder.kext";
+"Unable to connect"="Conectarea extensiei de kernel nu poate fi realizată. Ați instalat TotalFinder.kext?";
+"Advanced:"="Avansat:";
+"Don't write .DS_Store to Network"="Fără fișiere .DS_Store în Rețea";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Reset TotalFinder to defaults";
+"Reset TotalFinder to defaults"="Revenire la setările inițiale";
 
-"File Browser:"="File Browser:";
-"Show System Files"="Show System Files";
-"Folders on Top"="Folders on Top";
-"Always Maximize"="Always Maximize";
-"Toggle Dual Mode"="Toggle Dual Mode";
+"File Browser:"="Browser de Fișiere:";
+"Show System Files"="Afișează fișiere sistem";
+"Folders on Top"="Folderele deasupra";
+"Always Maximize"="Maximizare";
+"Toggle Dual Mode"="Comută în modul dual";
 
-"Menu and Dock:"="Menu and Dock:";
-"Remove TotalFinder from Status Menu"="Remove TotalFinder from Status Menu";
-"Keep Original Finder Dock Icon"="Keep Original Finder Dock Icon";
+"Menu and Dock:"="Menu și Dock:";
+"Remove TotalFinder from Status Menu"="Scoate TotalFinder din Meniul de Stare";
+"Keep Original Finder Dock Icon"="Păstrează iconița originală de Finder";
 
 "Experimental:"="Experimental:";
-"Freelance Windows"="Freelance Windows";
-"Use narrow Tabs Bar"="Use narrow Tabs Bar";
+"Freelance Windows"="Ferestre Libere";
+"Use narrow Tabs Bar"="Tab-uri înguste";
 
 /* about page */
-"Check for updates…"="Check for updates…";
+"Check for updates…"="Verifică dacă există versiuni noi…";

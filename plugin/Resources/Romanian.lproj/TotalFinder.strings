@@ -37,20 +37,20 @@
 /* Unistall Alert Box */
 "Uninstall" = "Dezinstalare";
 "Cancel" = "Anulare";
-"Really want to uninstall TotalFinder?" = "Opravdu si přejete odinstalovat TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tato akce spustí odinstalační skript, který odstraní TotalFinder ze systému a uvede Finder do původního stavu.";
+"Really want to uninstall TotalFinder?" = "Chiar doriți să dezinstalați TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Un script de dezinstalare va fi lansat și TotalFinder va fi șters, restaurându-se comportamentul anterior al Finder-ului.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nový tab Finderu";
-"Close Tab" = "Zavřít tab";
-"Close Window" = "Zavřít okno";
-"Show System Files" = "Zobrazit skryté soubory";
-"Folders On Top" = "Složky řadit nahoru";
-"Toggle Dual Mode" = "Zapnout duální panel";
-"Narrow Tabs Bar" = "Štíhlé taby";
-"Pin Visor" = "Přišpendlit Visor";
-"TotalFinder Preferences…" = "Nastavení TotalFinderu…";
-"Visit Homepage…" = "Navštívit stránku projektu…";
+"New Finder Tab" = "Nou Tab";
+"Close Tab" = "Închide tab";
+"Close Window" = "Închide fereastra";
+"Show System Files" = "Afișează fișierele sistem";
+"Folders On Top" = "Folderele deasupra";
+"Toggle Dual Mode" = "Comută modul dual";
+"Narrow Tabs Bar" = "Tab-uri înguste";
+"Pin Visor" = "Pioneză";
+"TotalFinder Preferences…" = "Preferințe TotalFinder…";
+"Visit Homepage…" = "Vizitați site-ul nostru…";
 
 /* misc. */
-"Screen %d" = "Obrazovka %d";
+"Screen %d" = "Ecranul %d";
