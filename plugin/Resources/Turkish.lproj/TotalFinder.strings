@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Güncelleştirmeler ara";
+"Uninstall TotalFinder" = "TotalFinder'i kaldır";
+"Restart Finder" = "Finder'i yeniden başlat";
+"Show Visor" = "Vizorü göster";
+"Hide Visor" = "Vizörü gizle";
+"Expired on %@" = "%@ da süresi dolmuş";
+"This ALPHA version will expire in %@!" = "Bu ALPHA versiyon %@ da süresi dolacak!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "bir dakikadan daha az";
+"1 minute" = "einer Minute";
+"less than 5 seconds" = "5 saniyeden daha az";
+"less than 10 seconds" = "10 saniyeden daha az";
+"less than 20 seconds" = "20 saniyeden daha az";
+"half a minute" = "yarım dakikada";
+"%.0f minutes" = "%.0f dakika";
+"about 1 hour" = "aşağı yukarı 1 saat";
+"about %.0f hours" = "%.0f saat";
+"1 day" = "bir gün";
+"%.0f days" = "%.0f gün";
+"about 1 month" = "aşağı yukarı bir ay";
+"%.0f months" = "%.0f ay";
+"about 1 year" = "aşağı yukarı bir yıl";
+"over %.0f years" = "%.0f yıldan fazla";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Ayır";
+"Connect" = "Bağla";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kernel eklentisi ile bağlanılamıyor! Totalfinder kernel eklentisi yüklümü?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Resetle";
+"Cancel" = "Vazgeç";
+"Do you really want reset to defaults?" = "Varsayılanı gerı yüklemek istediğinizden eminmisiniz?";
+"This will restore initial TotalFinder settings." = "Bu TotalFinder'in ilk ayarlarını geri yükleyecektir.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Kaldır";
+"Cancel" = "Vazgeç";
+"Really want to uninstall TotalFinder?" = "Gerçekten TotalFinder'i kaldırmak istiyormusunuz?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bu bir komut dosyasını çalıştıracaktır, TotalFinder'i bilgisayardan kaldıracak ve orijinal Finder'i geri yükleyecek.";
+
+/* MainMenu items */
+"New Finder Tab" = "Yenı Finder sekmesi";
+"Close Tab" = "Sekmeyi kapat";
+"Close Window" = "Pencereyi kapat";
+"Show System Files" = "Sistem dosyalarını göster";
+"Folders On Top" = "Klasörler başlangıçta";
+"Toggle Dual Mode" = "Çiftli modu aç/kapat";
+"Narrow Tabs Bar" = "Sekme çubuğunu daralt";
+"Pin Visor" = "Vizörü kenetle";
+"TotalFinder Preferences…" = "TotalFinder Ayarları…";
+"Visit Homepage…" = "Websiteyi ziyaret et…";
+
+/* misc. */
+"Screen %d" = "Ekran %d";
