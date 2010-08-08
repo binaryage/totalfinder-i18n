@@ -4,8 +4,8 @@
 "Restart Finder" = "Finder'i yeniden başlat";
 "Show Visor" = "Vizorü göster";
 "Hide Visor" = "Vizörü gizle";
-"Expired on %@" = "%@ da süresi dolmuş";
-"This ALPHA version will expire in %@!" = "Bu ALPHA versiyon %@ da süresi dolacak!";
+"Expired on %@" = "%@ tarihinde süresi dolmuş";
+"This ALPHA version will expire in %@!" = "Bu ALPHA versiyonu %@ sonra süresi dolacak!";
 /* expiration date assembling for -^^ */
 "less than a minute" = "bir dakikadan daha az";
 "1 minute" = "einer Minute";
@@ -26,7 +26,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Ayır";
 "Connect" = "Bağla";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kernel eklentisi ile bağlanılamıyor! Totalfinder kernel eklentisi yüklümü?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kernel eklentisi ile bağlanılınamıyor! TotalFinder kernel eklentisi yüklümü?";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Resetle";
@@ -50,7 +50,7 @@
 "Narrow Tabs Bar" = "Sekme çubuğunu daralt";
 "Pin Visor" = "Vizörü kenetle";
 "TotalFinder Preferences…" = "TotalFinder Ayarları…";
-"Visit Homepage…" = "Websiteyi ziyaret et…";
+"Visit Homepage…" = "TotalFinder'in ana sayfası...";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
