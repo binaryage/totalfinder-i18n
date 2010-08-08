@@ -26,11 +26,11 @@
 /* asepsis page */
 "Asepsis Feature"="Asepsi özelliği";
 "prevents .DS_Store files to be created in local folders"="klasörlerde .DS_Store dosyalarının oluşumunu engeller";
-".DS_Store files will be redirected into"=".DS_Store dosyaları yönlendirilecek";
-"this folder should be set as writable for all users of TotalFinder"="bu klasör bütün Totalfinder kullanıcıları icin yazılabilir olması lâzım";
+".DS_Store files will be redirected into"=".DS_Store dosyaları yönlendirilecek yer";
+"this folder should be set as writable for all users of TotalFinder"="bu klasör bütün TotalFinder kullanıcıları icin yazılabilir olması lâzım";
 "Launch Migration Assistant"="Geçiş asistanını çalıştır";
 "TotalFinder.kext status"="TotalFinder.kext durumu";
-"Unable to connect"="Kernel eklentisi ile bağlanılamıyor!\nTotalfinder kernel eklentisi yüklümü?";
+"Unable to connect"="Kernel eklentisi ile bağlanılınamıyor!\nTotalFinder kernel eklentisi yüklümü?";
 "Advanced:"="Gelişmiş:";
 "Don't write .DS_Store to Network"=".DS_Store'u bilgisayar ağına yazma";
 
@@ -40,7 +40,7 @@
 "File Browser:"="Dosya tarayıcısı:";
 "Show System Files"="Sistem dosyalarını göster";
 "Folders on Top"="Klasörler başlangıçta";
-"Always Maximize"="Daima maximuma çıkar";
+"Always Maximize"="Daima maximize et";
 "Toggle Dual Mode"="Çiftli modu aç/kapat";
 
 "Menu and Dock:"="Menü ve Dock:";
@@ -48,7 +48,7 @@
 "Keep Original Finder Dock Icon"="Orijinal Finder Dock ikonunu bırak";
 
 "Experimental:"="Deneysel:";
-"Freelance Windows"="Bağımsız Windows";
+"Freelance Windows"="Bağımsız Pencere";
 "Use narrow Tabs Bar"="Daraltılmış sekme çubuğu kullan";
 
 /* about page */

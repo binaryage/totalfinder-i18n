@@ -5,7 +5,7 @@
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "%@ tuş birleşimi kullanılamaz!";
 "The key combination \"%@\" can't be used because %@." = "\"%@\" tuş birleşimi kullanılamaz çünkü %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "\"%@\" tuş birleşimi kullanılamaz çünkü bu kısayol sistem tarafından kullanılmaktadır. (Bu tuş birleşimi gerçekten kullanmak istiyorsanız, birçok kısayollar Sistem ayarlarının içerisindeki Klavye & Fare panelinden değiştirile bilinir.)";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "\"%@\" tuş birleşimi kullanılamaz çünkü bu kısayol sistem tarafından kullanılmaktadır. (Bu tuş birleşimini gerçekten kullanmak istiyorsanız, bunu Sistem ayarlarının içerisindeki birçok kısayolunun değiştirildiği Klavye & Fare panelinden yapınız.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "\"%@\" tuş birleşimi kullanılamaz çünkü \"%@\" menü öğesi tarafından kullanımda.";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
