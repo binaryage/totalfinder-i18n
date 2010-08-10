@@ -1,11 +1,11 @@
 "Space" = "Mellanslag";
 "Use old shortcut" = "Behåll kortkommando";
-"Type shortcut" = "Tryck kortkommando";
-"Click to record shortcut" = "Klicka och spela in kommando";
-"Pad %@" = "Numerisk %@";
+"Type shortcut" = "Välj kortkommando";
+"Click to record shortcut" = "Klicka för att spela in kommando";
+"Pad %@" = "Num %@";
 "The key combination %@ can't be used!" = "Kortkommandot %@ kunde inte användas!";
 "The key combination \"%@\" can't be used because %@." = "Kortkommandot \"%@\" kunde inte användas, eftersom %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Kortkommandot \"%@\" kunde inte användas, eftersom det redan används av ett systemomspännande kortkommando. (Om du verkligen vill använda det här kortkommandot kan du kanske ändra det systemomspännande till något annat i Tangentbord & Mus-panelen i Systeminställningar.)";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Kortkommandot \"%@\" kunde inte användas, eftersom det redan används av ett systemomspännande kortkommando. (Många systemomspännande kortkommandon kan ändras i Tangentbord-panelen i Systeminställningar om du verkligen vill använda det här kortkommandot.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Kortkommandot \"%@\" kunde inte användas, eftersom det redan används av menyvalet \"%@\".";
 "Command + " = "Kommando + ";
 "Option + " = "Alternativ + ";

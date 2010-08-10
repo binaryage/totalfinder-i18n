@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Kolla efter Uppdateringar";
+"Uninstall TotalFinder" = "Avinstallera TotalFinder";
+"Restart Finder" = "Starta om Finder";
+"Show Visor" = "Visa Visor";
+"Hide Visor" = "Göm Visor";
+"Expired on %@" = "Går ut den %@";
+"This ALPHA version will expire in %@!" = "Denna ALPHA går ut om %@!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "under en minut";
+"1 minute" = "en minut";
+"less than 5 seconds" = "mindre än 5 sekunder";
+"less than 10 seconds" = "mindre än 10 sekunder";
+"less than 20 seconds" = "mindre än 20 sekunder";
+"half a minute" = "en halv minut";
+"%.0f minutes" = "%.0f minuter";
+"about 1 hour" = "ungefär en timma";
+"about %.0f hours" = "%.0f timmar";
+"1 day" = "en dag";
+"%.0f days" = "%.0f dagar";
+"about 1 month" = "ungefär en månad";
+"%.0f months" = "%.0f månader";
+"about 1 year" = "ungefär ett år";
+"over %.0f years" = "över %.0f år";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Koppla från";
+"Connect" = "Anslut";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kan inte kommunicera med Kernel-utbyggnad! Är TotalFinder.kext installerad?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Återställ";
+"Cancel" = "Avbryt";
+"Do you really want reset to defaults?" = "Är du säker på att du vill återställa standardinställningarna?";
+"This will restore initial TotalFinder settings." = "Detta återställer TotalFinders standardinställningar.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Avinstallera";
+"Cancel" = "Avbryt";
+"Really want to uninstall TotalFinder?" = "Är du säker på att du vill avinstallera TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Detta startar ett skript vilket kommer avinstallera TotalFinder och återställa Finder till originalfunktionalitet.";
+
+/* MainMenu items */
+"New Finder Tab" = "Ny Finder-flik";
+"Close Tab" = "Stäng flik";
+"Close Window" = "Stäng fönster";
+"Show System Files" = "Visa systemfiler";
+"Folders On Top" = "Sortera mappar före filer";
+"Toggle Dual Mode" = "Av-/Aktivera Dual Mode";
+"Narrow Tabs Bar" = "Använd smalare Flikar";
+"Pin Visor" = "Nåla Visor";
+"TotalFinder Preferences…" = "TotalFinder inställningar…";
+"Visit Homepage…" = "Besök hemsidan…";
+
+/* misc. */
+"Screen %d" = "Bildskärm %d";
