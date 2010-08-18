@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Vyhľadať aktualizácie";
+"Uninstall TotalFinder" = "Odinštalovať TotalFinder";
+"Restart Finder" = "Restartovať Finder";
+"Show Visor" = "Aktivovať Visor";
+"Hide Visor" = "Deaktivovať Visor";
+"Expired on %@" = "Vypršal dňa %@";
+"This ALPHA version will expire in %@!" = "Platnosť tejto ALFA verzie skončí o %@!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "menej ako minútu";
+"1 minute" = "1 minútu";
+"less than 5 seconds" = "menej ako 5 sekúnd";
+"less than 10 seconds" = "menej ako 10 sekúnd";
+"less than 20 seconds" = "menej ako 20 sekúnd";
+"half a minute" = "pol minúty";
+"%.0f minutes" = "%.0f minút";
+"about 1 hour" = "asi 1 hodinu";
+"about %.0f hours" = "asi %.0f hodín";
+"1 day" = "1 deň";
+"%.0f days" = "%.0f dní";
+"about 1 month" = "1 mesiac";
+"%.0f months" = "%.0f mesiacov";
+"about 1 year" = "1 rok";
+"over %.0f years" = "viac ako %.0f rokov";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Odpojiť";
+"Connect" = "Pripojiť";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Nemôžem sa pripojiť k rozšíreniu kernelu! Máte naozaj TotalFinder rozšírenie kernelu nainstalované?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Reset";
+"Cancel" = "Zrušiť";
+"Do you really want reset to defaults?" = "Naozaj chcete obnoviť predvolené nastavenia?";
+"This will restore initial TotalFinder settings." = "Táto akcia nastaví TotalFinder do predvoleného stavu.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Odinštalovať";
+"Cancel" = "Zrušiť";
+"Really want to uninstall TotalFinder?" = "Naozaj chcete odinštalovať TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Táto akcia spustí odinštalačný skript, ktorý odstráni TotalFinder zo systému a obnoví Finder do pôvodného stavu.";
+
+/* MainMenu items */
+"New Finder Tab" = "Nový Finder tab";
+"Close Tab" = "Zatvoriť tab";
+"Close Window" = "Zatvoriť okno";
+"Show System Files" = "Zobraziť skryté súbory";
+"Folders On Top" = "Adresáre vždy hore";
+"Toggle Dual Mode" = "Prepnúť na duálny panel";
+"Narrow Tabs Bar" = "Úzke taby";
+"Pin Visor" = "Pripnúť Visor";
+"TotalFinder Preferences…" = "Nastavenia TotalFindera…";
+"Visit Homepage…" = "Navštíviť stránku projektu…";
+
+/* misc. */
+"Screen %d" = "Obrazovka %d";
