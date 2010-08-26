@@ -1,0 +1,56 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Ček zakaj modernizirati";
+"Uninstall TotalFinder" = "TotalFinder odstrani";
+"Restart Finder" = "Finder zopet začeti";
+"Show Visor" = "Kaže Visor";
+"Hide Visor" = "Skrij Visor";
+"Expired on %@" = "Potekel %@";
+"This ALPHA version will expire in %@!" = "To različico Alpha bo potekla v %@!";
+/* expiration date assembling for -^^ */
+"less than a minute" = "manj kot minuto";
+"1 minute" = "1 minuto";
+"less than 5 seconds" = "manj kot 5 sekund";
+"less than 10 seconds" = "manj kot 10 sekund";
+"less than 20 seconds" = "manj kot 20 sekund";
+"half a minute" = "pol minuto";
+"%.0f minutes" = "%.0f minut";
+"about 1 hour" = "približno 1 uro";
+"about %.0f hours" = "približno %.0f ur";
+"1 day" = "1 dan";
+"%.0f days" = "%.0f dni";
+"about 1 month" = "približno 1 mesec";
+"%.0f months" = "%.0f mesece";
+"about 1 year" = "približno 1 leto";
+"over %.0f years" = "več kot % .0f leta";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Odklop";
+"Connect" = "Povezati";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Jedro podaljšanje ne morem biti v zvezi! Podaljšanje je bil pravilno nameščen?";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Popravilo";
+"Cancel" = "Prekliči";
+"Do you really want reset to defaults?" = "Res želite obnoviti tovarniške nastavitve?";
+"This will restore initial TotalFinder settings." = "To bo obnoviti izvirne nastavitve TotalFinder.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Odstrani";
+"Cancel" = "Prekliči";
+"Really want to uninstall TotalFinder?" = "Ali res želite odstraniti TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bo začela odstrani skripta, ki TotalFinder odstranite iz računalnika in obnoviti prvotno obnašanje Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Nova kartica";
+"Close Tab" = "Zapri kartica";
+"Close Window" = "Zapri okno";
+"Show System Files" = "Prikaži datotečni sistem";
+"Folders On Top" = "Map na vrhu";
+"Toggle Dual Mode" = "Dvojna šipa pogled";
+"Narrow Tabs Bar" = "Na kartici bar zmanjša";
+"Pin Visor" = "Blok Visor";
+"TotalFinder Preferences…" = "TotalFinder preferencialov…";
+"Visit Homepage…" = "Obiščite Domačo stran…";
+
+/* misc. */
+"Screen %d" = "Zaslon %d";

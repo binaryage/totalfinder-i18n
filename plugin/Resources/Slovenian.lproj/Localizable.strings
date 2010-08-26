@@ -1,0 +1,56 @@
+/* navigation bar */
+"Visor"="Visor";
+"Asepsis"="Asepsis";
+"Tweaks"="Spremembe";
+"About"="Informacije";
+
+/* visor page */
+"Visor Feature"="Funkcija Visor";
+"a system-wide window sliding from the bottom on a hot-key"="una finestra di sistema che scorre dal basso grazie a una hot-key";
+
+"Activation:"="Aktivacijo:";
+
+"Control:"="Nadzor:";
+"Hide on ESC"="Pritisnite ESC za skrivanje";
+"Pin Visor"="Blok Visor";
+
+"Animation:"="Animacije:";
+"Fade Window"="Okno zbledi";
+"Slide Window"="Drsni okno";
+
+"Screen:"="Zaslon:";
+"Show on all Spaces"="Kažejo na vseh prostorih";
+"Show on top of the Dock"="Kažejo na vrhu Dock";
+"Free Form Window"="Raztegljivo okno";
+
+/* asepsis page */
+"Asepsis Feature"="Funkcija Asepsis";
+"prevents .DS_Store files to be created in local folders"="izogiba ustvarjanju datotek DS_Store v lokalnih mapah";
+".DS_Store files will be redirected into"="datotek. DS_Store bo preusmerjen ";
+"this folder should be set as writable for all users of TotalFinder"="Ta mapa mora imeti dovoljenja za pisanje za uporabnike TotalFinder";
+/*"this folder should be set as writable for all users of TotalFinder"="TotalFinder vsi uporabniki morajo imeti dovoljenja za pisanje v to mapo";*/
+"Launch Migration Assistant"="Začetek Migracije Pomočnika";
+"TotalFinder.kext status"="TotalFinder.kext stanje";
+"Unable to connect"="Ne more povezati";
+"Advanced:"="Napredno:";
+"Don't write .DS_Store to Network"="Ne piši DS_Store na mreži.";
+
+/* tweaks page */
+"Reset TotalFinder to defaults"="TotalFinder obnoviti tovarniške nastavitve";
+
+"File Browser:"="Datotek:";
+"Show System Files"="Kažejo datotečni sistem";
+"Folders on Top"="Mape na vrh";
+"Always Maximize"="Vedno povečuje";
+"Toggle Dual Mode"="Dvojna šipa pogled";
+
+"Menu and Dock:"="Menu in Dock:";
+"Remove TotalFinder from Status Menu"="TotalFinder skrij vrstico stanja";
+"Keep Original Finder Dock Icon"="Hraniti izvirno ikono v Finder";
+
+"Experimental:"="Eksperimentalna:";
+"Freelance Windows"="Okno prost";
+"Use narrow Tabs Bar"="Zmanjšana bar kartici";
+
+/* about page */
+"Check for updates…"="Ček zakaj modernizirati…";
