@@ -5,8 +5,7 @@
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "Kombinacijo tipk %@ se ne more uporabljati!";
 "The key combination \"%@\" can't be used because %@." = "Kombinacijo tipk \"%@\" se ne more uporabljati ker %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key
-combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Kombinacijo tipk \"%@\" se ne more uporabljati ker je že uporablja sistem obvoda. (Če želite uporabljati te ključne spremembe kombinacijo bližnjice na Tipkovnici v Sistemu Preferencialov.)";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Kombinacijo tipk \"%@\" se ne more uporabljati ker je že uporablja sistem obvoda. (Če želite uporabljati te ključne spremembe kombinacijo bližnjice na Tipkovnici v Sistemu Preferencialov.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Kombinacijo tipk \"%@\" se ne more uporabljati ker je že uporablja predmet Menija \"%@\".";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
