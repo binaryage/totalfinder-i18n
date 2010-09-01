@@ -32,13 +32,13 @@
 "TotalFinder.kext status"="TotalFinder.kext Status";
 "Unable to connect"="Keine Verbindung zur Kernel-Erweiterung möglich!\nIst die TotalFinder Kernel-Erweiterung installiert?";
 "Advanced:"="Erweitert:";
-"Don't write .DS_Store to Network"="Keine .DS_Store Dateien im Netzwerk erstellen";
-
+/*"Don't write .DS_Store to Network"="Keine .DS_Store Dateien im Netzwerk erstellen";*/
+"Don't write .DS_Store to Network"=".DS_Store Dateien im Netzwerk nicht erstellen";
 /* tweaks page */
 "Reset TotalFinder to defaults"="Standardeinstellungen wiederherstellen";
 
 "File Browser:"="Datei Browser:";
-"Show System Files"="Systemdateien anzeigen";
+"Show System Files"="Zeige Systemdateien";
 "Folders on Top"="Ordner am Anfang";
 "Always Maximize"="Immer maximieren";
 "Toggle Dual Mode"="Dual Mode an/aus";
@@ -53,3 +53,5 @@
 
 /* about page */
 "Check for updates…"="Nach Updates suchen…";
+"from Beta Channel"="Beta Versionen";
+"from Stable Channel"="Stabile Versionen";
