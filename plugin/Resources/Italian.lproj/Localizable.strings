@@ -1,56 +1,55 @@
 /* navigation bar */
-"Visor"="Visor";
-"Asepsis"="Asepsis";
-"Tweaks"="Modifiche";
-"About"="Informazioni";
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Modifiche";
+"About" = "Informazioni";
 
 /* visor page */
-"Visor Feature"="Funzione Visor";
-"a system-wide window sliding from the bottom on a hot-key"="una finestra di sistema che scorre dal basso grazie a una hot-key";
+"Visor Feature" = "Funzione Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "una finestra di sistema che scorre dal basso grazie a una hot-key";
 
-"Activation:"="Attivazione:";
+"Activation:" = "Attivazione:";
 
-"Control:"="Controllo:";
-"Hide on ESC"="Premi ESC per nascondere";
-"Pin Visor"="Blocca Visor";
+"Control:" = "Controllo:";
+"Hide on ESC" = "Premi ESC per nascondere";
+"Pin Visor" = "Blocca Visor";
 
-"Animation:"="Animazioni:";
-"Fade Window"="Finestra con dissolvenza";
-"Slide Window"="Finestra a scorrimento";
+"Animation:" = "Animazioni:";
+"Fade Window" = "Finestra con dissolvenza";
+"Slide Window" = "Finestra a scorrimento";
 
-"Screen:"="Schermo:";
-"Show on all Spaces"="Mostra su tutti gli Spazi";
-"Show on top of the Dock"="Mostra sopra il Dock";
-"Free Form Window"="Finestra ridimensionabile";
+"Screen:" = "Schermo:";
+"Show on all Spaces" = "Mostra su tutti gli Spazi";
+"Show on top of the Dock" = "Mostra sopra il Dock";
+"Free Form Window" = "Finestra ridimensionabile";
 
 /* asepsis page */
-"Asepsis Feature"="Funzione Asepsis";
-"prevents .DS_Store files to be created in local folders"="evita la creazione dei file .DS_Store nelle cartelle locali";
-".DS_Store files will be redirected into"="i file .DS_Store saranno reindirizzati in ";
-"this folder should be set as writable for all users of TotalFinder"="tale cartella dovrebbe avere permessi di scrittura per gli utenti di TF";
-/*"this folder should be set as writable for all users of TotalFinder"="tutti gli utenti di TotalFinder dovrebbero avere \npermessi di scrittura in questa cartella";*/
-"Launch Migration Assistant"="Avvia l'Assistente di Migrazione";
-"TotalFinder.kext status"="Stato di TotalFinder.kext";
-"Unable to connect"="Impossibile connettersi all'estensione del kernel!\nHai installato l'estensione del kernel?";
-"Advanced:"="Avanzate:";
-"Don't write .DS_Store to Network"="Non scrivere i .DS_Store sulla Rete";
+"Asepsis Feature" = "Funzione Asepsis";
+"prevents .DS_Store files to be created in local folders" = "evita la creazione dei file .DS_Store nelle cartelle locali";
+".DS_Store files will be redirected into" = "i file .DS_Store saranno reindirizzati in ";
+"this folder should be set as writable for all users of TotalFinder" = "tale cartella dovrebbe avere permessi di scrittura per gli utenti di TF";
+"Launch Migration Assistant" = "Avvia l'Assistente di Migrazione";
+"TotalFinder.kext status" = "Stato di TotalFinder.kext";
+"Unable to connect" = "Impossibile connettersi all'estensione del kernel!\nHai installato l'estensione del kernel?";
+"Advanced:" = "Avanzate:";
+"Don't write .DS_Store to Network" = "Non scrivere i .DS_Store sulla Rete";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Riporta TotalFinder alle impostazioni iniziali";
+"Reset TotalFinder to defaults" = "Riporta TotalFinder alle impostazioni iniziali";
 
-"File Browser:"="File browser:";
-"Show System Files"="Mostra file di sistema";
-"Folders on Top"="Cartelle in cima";
-"Always Maximize"="Massimizza sempre";
-"Toggle Dual Mode"="Vista a doppio pannello";
+"File Browser:" = "File browser:";
+"Show System Files" = "Mostra file di sistema";
+"Folders on Top" = "Cartelle in cima";
+"Always Maximize" = "Massimizza sempre";
+"Toggle Dual Mode" = "Vista a doppio pannello";
 
-"Menu and Dock:"="Menu e Dock:";
-"Remove TotalFinder from Status Menu"="Nascondi TotalFinder dalla barra di stato";
-"Keep Original Finder Dock Icon"="Mantieni l'icona originale del Finder";
+"Menu and Dock:" = "Menu e Dock:";
+"Remove TotalFinder from Status Menu" = "Nascondi TotalFinder dalla barra di stato";
+"Keep Original Finder Dock Icon" = "Mantieni l'icona originale del Finder";
 
-"Experimental:"="Sperimentale:";
-"Freelance Windows"="Finestre libere";
-"Use narrow Tabs Bar"="Barra delle tab ridotta";
+"Experimental:" = "Sperimentale:";
+"Freelance Windows" = "Finestre libere";
+"Use narrow Tabs Bar" = "Barra delle tab ridotta";
 
 /* about page */
-"Check for updates…"="Controlla aggiornamenti…";
+"Check for updates…" = "Controlla aggiornamenti…";

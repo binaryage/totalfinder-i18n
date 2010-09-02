@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="Vizor";
-"Asepsis"="Asepsis";
-"Tweaks"="Adaptări";
-"About"="Despre";
+"Visor" = "Vizor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Adaptări";
+"About" = "Despre";
 
 /* visor page */
-"Visor Feature"="Vizorul";
-"a system-wide window sliding from the bottom on a hot-key"="O fereastră globală atașată de marginea de jos, activabilă din taste";
+"Visor Feature" = "Vizorul";
+"a system-wide window sliding from the bottom on a hot-key" = "O fereastră globală atașată de marginea de jos, activabilă din taste";
 
-"Activation:"="Activare:";
+"Activation:" = "Activare:";
 
-"Control:"="Control:";
-"Hide on ESC"="Ascunde la ESC";
-"Pin Visor"="Pioneză";
+"Control:" = "Control:";
+"Hide on ESC" = "Ascunde la ESC";
+"Pin Visor" = "Pioneză";
 
-"Animation:"="Animație:";
-"Fade Window"="Dizolvă Fereastra";
-"Slide Window"="Clivează Fereastra";
+"Animation:" = "Animație:";
+"Fade Window" = "Dizolvă Fereastra";
+"Slide Window" = "Clivează Fereastra";
 
-"Screen:"="Ecran:";
-"Show on all Spaces"="Prezent în toate Spațiile";
-"Show on top of the Dock"="Afișează deasupra Dock-ului";
-"Free Form Window"="Fereastră redimensionabilă";
+"Screen:" = "Ecran:";
+"Show on all Spaces" = "Prezent în toate Spațiile";
+"Show on top of the Dock" = "Afișează deasupra Dock-ului";
+"Free Form Window" = "Fereastră redimensionabilă";
 
 /* asepsis page */
-"Asepsis Feature"="Asepsis";
-"prevents .DS_Store files to be created in local folders"="Împiedică crearea fișierelor .DS_Store în folderele locale";
-".DS_Store files will be redirected into"="Fișierele .DS_Store vor fi mutate în";
-"this folder should be set as writable for all users of TotalFinder"="Toți utilizatorii TotalFinder trebuie să aibă drept de scriere aici";
-"Launch Migration Assistant"="Pornește Asistentul de Migrare";
-"TotalFinder.kext status"="Stare TotalFinder.kext";
-"Unable to connect"="Conectarea extensiei de kernel nu poate fi realizată. Ați instalat TotalFinder.kext?";
-"Advanced:"="Avansat:";
-"Don't write .DS_Store to Network"="Fără fișiere .DS_Store în Rețea";
+"Asepsis Feature" = "Asepsis";
+"prevents .DS_Store files to be created in local folders" = "Împiedică crearea fișierelor .DS_Store în folderele locale";
+".DS_Store files will be redirected into" = "Fișierele .DS_Store vor fi mutate în";
+"this folder should be set as writable for all users of TotalFinder" = "Toți utilizatorii TotalFinder trebuie să aibă drept de scriere aici";
+"Launch Migration Assistant" = "Pornește Asistentul de Migrare";
+"TotalFinder.kext status" = "Stare TotalFinder.kext";
+"Unable to connect" = "Conectarea extensiei de kernel nu poate fi realizată. Ați instalat TotalFinder.kext?";
+"Advanced:" = "Avansat:";
+"Don't write .DS_Store to Network" = "Fără fișiere .DS_Store în Rețea";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Revenire la setările inițiale";
+"Reset TotalFinder to defaults" = "Revenire la setările inițiale";
 
-"File Browser:"="Browser de Fișiere:";
-"Show System Files"="Afișează fișiere sistem";
-"Folders on Top"="Folderele deasupra";
-"Always Maximize"="Maximizare";
-"Toggle Dual Mode"="Comută în modul dual";
+"File Browser:" = "Browser de Fișiere:";
+"Show System Files" = "Afișează fișiere sistem";
+"Folders on Top" = "Folderele deasupra";
+"Always Maximize" = "Maximizare";
+"Toggle Dual Mode" = "Comută în modul dual";
 
-"Menu and Dock:"="Menu și Dock:";
-"Remove TotalFinder from Status Menu"="Scoate TotalFinder din Meniul de Stare";
-"Keep Original Finder Dock Icon"="Păstrează iconița originală de Finder";
+"Menu and Dock:" = "Menu și Dock:";
+"Remove TotalFinder from Status Menu" = "Scoate TotalFinder din Meniul de Stare";
+"Keep Original Finder Dock Icon" = "Păstrează iconița originală de Finder";
 
-"Experimental:"="Experimental:";
-"Freelance Windows"="Ferestre Libere";
-"Use narrow Tabs Bar"="Tab-uri înguste";
+"Experimental:" = "Experimental:";
+"Freelance Windows" = "Ferestre Libere";
+"Use narrow Tabs Bar" = "Tab-uri înguste";
 
 /* about page */
-"Check for updates…"="Verifică dacă există versiuni noi…";
+"Check for updates…" = "Verifică dacă există versiuni noi…";

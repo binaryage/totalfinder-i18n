@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="Visor";
-"Asepsis"="Asepse";
-"Tweaks"="Nastavení";
-"About"="O programu";
+"Visor" = "Visor";
+"Asepsis" = "Asepse";
+"Tweaks" = "Nastavení";
+"About" = "O programu";
 
 /* visor page */
-"Visor Feature"="Funkcionalita Visor";
-"a system-wide window sliding from the bottom on a hot-key"="globální okno vyjíždějící zespodu na klávesovou zkratku";
+"Visor Feature" = "Funkcionalita Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "globální okno vyjíždějící zespodu na klávesovou zkratku";
 
-"Activation:"="Aktivace:";
+"Activation:" = "Aktivace:";
 
-"Control:"="Ovládání:";
-"Hide on ESC"="Skrýt po ESC";
-"Pin Visor"="Přišpendlit";
+"Control:" = "Ovládání:";
+"Hide on ESC" = "Skrýt po ESC";
+"Pin Visor" = "Přišpendlit";
 
-"Animation:"="Animace:";
-"Fade Window"="Zprůhlednit okno";
-"Slide Window"="Vyjíždět okno";
+"Animation:" = "Animace:";
+"Fade Window" = "Zprůhlednit okno";
+"Slide Window" = "Vyjíždět okno";
 
-"Screen:"="Obrazovka:";
-"Show on all Spaces"="Zobrazit na všech plochách";
-"Show on top of the Dock"="Zobrazit nad Dockem";
-"Free Form Window"="FreeForm Okno";
+"Screen:" = "Obrazovka:";
+"Show on all Spaces" = "Zobrazit na všech plochách";
+"Show on top of the Dock" = "Zobrazit nad Dockem";
+"Free Form Window" = "FreeForm Okno";
 
 /* asepsis page */
-"Asepsis Feature"="Funkcionalita Asepse";
-"prevents .DS_Store files to be created in local folders"="zabraňuje vytváření .DS_Store souborů v lokálních složkách";
-".DS_Store files will be redirected into"=".DS_Store soubory budou přesměrovány do";
-"this folder should be set as writable for all users of TotalFinder"="tato složka má mít povolen zápis pro uživatele TotalFinderu";
-"Launch Migration Assistant"="Spusťit migračního asistenta";
-"TotalFinder.kext status"="Stav TotalFinder.kext";
-"Unable to connect"="Nemohu se propojit s extenzí kernelu!\nOpravdu máte TotalFinder.kext správně nainstalovaný?";
-"Advanced:"="Pokročilé:";
-"Don't write .DS_Store to Network"="Nezapisovat .DS_Store do síťových složek";
+"Asepsis Feature" = "Funkcionalita Asepse";
+"prevents .DS_Store files to be created in local folders" = "zabraňuje vytváření .DS_Store souborů v lokálních složkách";
+".DS_Store files will be redirected into" = ".DS_Store soubory budou přesměrovány do";
+"this folder should be set as writable for all users of TotalFinder" = "tato složka má mít povolen zápis pro uživatele TotalFinderu";
+"Launch Migration Assistant" = "Spusťit migračního asistenta";
+"TotalFinder.kext status" = "Stav TotalFinder.kext";
+"Unable to connect" = "Nemohu se propojit s extenzí kernelu!\nOpravdu máte TotalFinder.kext správně nainstalovaný?";
+"Advanced:" = "Pokročilé:";
+"Don't write .DS_Store to Network" = "Nezapisovat .DS_Store do síťových složek";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Resetuj TotalFinder do výchozího nastavení";
+"Reset TotalFinder to defaults" = "Resetuj TotalFinder do výchozího nastavení";
 
-"File Browser:"="Správce souborů:";
-"Show System Files"="Zobrazit skryté";
-"Folders on Top"="Adresáře nahoru";
-"Always Maximize"="Vždy maximalizovat";
-"Toggle Dual Mode"="Přepnout dualní panel";
+"File Browser:" = "Správce souborů:";
+"Show System Files" = "Zobrazit skryté";
+"Folders on Top" = "Adresáře nahoru";
+"Always Maximize" = "Vždy maximalizovat";
+"Toggle Dual Mode" = "Přepnout dualní panel";
 
-"Menu and Dock:"="Menu a Dock:";
-"Remove TotalFinder from Status Menu"="Skrýt ikonu ve status menu";
-"Keep Original Finder Dock Icon"="Vrátit původní ikonu do Docku";
+"Menu and Dock:" = "Menu a Dock:";
+"Remove TotalFinder from Status Menu" = "Skrýt ikonu ve status menu";
+"Keep Original Finder Dock Icon" = "Vrátit původní ikonu do Docku";
 
-"Experimental:"="Experimentální:";
-"Freelance Windows"="Volná okna";
-"Use narrow Tabs Bar"="Štíhlé taby";
+"Experimental:" = "Experimentální:";
+"Freelance Windows" = "Volná okna";
+"Use narrow Tabs Bar" = "Štíhlé taby";
 
 /* about page */
-"Check for updates…"="Vyhledat aktualizace…";
+"Check for updates…" = "Vyhledat aktualizace…";

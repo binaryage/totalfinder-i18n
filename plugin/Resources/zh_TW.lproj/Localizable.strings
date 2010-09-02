@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="滑入視窗";
-"Asepsis"="隔離";
-"Tweaks"="配置";
-"About"="關於";
+"Visor" = "滑入視窗";
+"Asepsis" = "隔離";
+"Tweaks" = "配置";
+"About" = "關於";
 
 /* visor page */
-"Visor Feature"="滑入視窗";
-"a system-wide window sliding from the bottom on a hot-key"="透過系統熱鍵將視窗從屏幕底部向上滑入";
+"Visor Feature" = "滑入視窗";
+"a system-wide window sliding from the bottom on a hot-key" = "透過系統熱鍵將視窗從屏幕底部向上滑入";
 
-"Activation:"="激活熱鍵:";
+"Activation:" = "激活熱鍵:";
 
-"Control:"="操作:";
-"Hide on ESC"="使用 ESC 隱藏視窗";
-"Pin Visor"="視窗固定熱鍵:";
+"Control:" = "操作:";
+"Hide on ESC" = "使用 ESC 隱藏視窗";
+"Pin Visor" = "視窗固定熱鍵:";
 
-"Animation:"="動效:";
-"Fade Window"="視窗淡入/淡出";
-"Slide Window"="視窗滑入/滑出";
+"Animation:" = "動效:";
+"Fade Window" = "視窗淡入/淡出";
+"Slide Window" = "視窗滑入/滑出";
 
-"Screen:"="顯示器:";
-"Show on all Spaces"="在所有Spaces空間顯示";
-"Show on top of the Dock"="顯示在Dock上面";
-"Free Form Window"="隨意控制滑入視窗大小位置";
+"Screen:" = "顯示器:";
+"Show on all Spaces" = "在所有Spaces空間顯示";
+"Show on top of the Dock" = "顯示在Dock上面";
+"Free Form Window" = "隨意控制滑入視窗大小位置";
 
 /* asepsis page */
-"Asepsis Feature"="隔離隱藏文件";
-"prevents .DS_Store files to be created in local folders"="防止.DS_Store文件寫入在本地文件夾";
-".DS_Store files will be redirected into"="把所有.DS_Store檔案保存到";
-"this folder should be set as writable for all users of TotalFinder"="該文件夾必須是全部TotalFinder用戶可讀寫";
-"Launch Migration Assistant"="啟動遷移助理";
-"TotalFinder.kext status"="TotalFinder.kext 狀態";
-"Unable to connect"="連接不到kernel extension!\nTotalFinder kernel extension是否已經安裝?";
-"Advanced:"="進階:";
-"Don't write .DS_Store to Network"="不把.DS_Store寫在網絡";
+"Asepsis Feature" = "隔離隱藏文件";
+"prevents .DS_Store files to be created in local folders" = "防止.DS_Store文件寫入在本地文件夾";
+".DS_Store files will be redirected into" = "把所有.DS_Store檔案保存到";
+"this folder should be set as writable for all users of TotalFinder" = "該文件夾必須是全部TotalFinder用戶可讀寫";
+"Launch Migration Assistant" = "啟動遷移助理";
+"TotalFinder.kext status" = "TotalFinder.kext 狀態";
+"Unable to connect" = "連接不到kernel extension!\nTotalFinder kernel extension是否已經安裝?";
+"Advanced:" = "進階:";
+"Don't write .DS_Store to Network" = "不把.DS_Store寫在網絡";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="把配置重設到TotalFinder默認";
+"Reset TotalFinder to defaults" = "把配置重設到TotalFinder默認";
 
-"File Browser:"="檔案瀏覽:";
-"Show System Files"="顯示系統文件";
-"Folders on Top"="文件夾置頂";
-"Always Maximize"="默認最大化";
-"Toggle Dual Mode"="雙視窗模式";
+"File Browser:" = "檔案瀏覽:";
+"Show System Files" = "顯示系統文件";
+"Folders on Top" = "文件夾置頂";
+"Always Maximize" = "默認最大化";
+"Toggle Dual Mode" = "雙視窗模式";
 
-"Menu and Dock:"="菜單 及 Dock:";
-"Remove TotalFinder from Status Menu"="在狀態欄菜單不顯示TotalFinder";
-"Keep Original Finder Dock Icon"="使用原始Finder Dock圖標";
+"Menu and Dock:" = "菜單 及 Dock:";
+"Remove TotalFinder from Status Menu" = "在狀態欄菜單不顯示TotalFinder";
+"Keep Original Finder Dock Icon" = "使用原始Finder Dock圖標";
 
-"Experimental:"="實驗:";
-"Freelance Windows"="使用自由視窗";
-"Use narrow Tabs Bar"="使用窄標簽欄";
+"Experimental:" = "實驗:";
+"Freelance Windows" = "使用自由視窗";
+"Use narrow Tabs Bar" = "使用窄標簽欄";
 
 /* about page */
-"Check for updates…"="更新檢查…";
+"Check for updates…" = "更新檢查…";

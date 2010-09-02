@@ -28,6 +28,11 @@
 "Connect" = "Connecter";
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Connexion à l'extension du noyau impossible ! Avez-vous installé correctement TotalFinder.kext ?";
 
+/* About preferences pane */
+"from Beta Channel" = "from Beta Channel";
+"from Dev Channel" = "from Dev Channel";
+"from Stable Channel" = "from Stable Channel";
+
 /* Reset to Defaults Alert Box */
 "Reset" = "Réinitialiser";
 "Cancel" = "Annuler";
@@ -36,7 +41,6 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "Désinstaller";
-"Cancel" = "Annuler";
 "Really want to uninstall TotalFinder?" = "Voulez-vous vraiment désinstaller TotalFinder ?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Cela déclenchera un script de désinstallation qui supprimera TotalFinder de votre système et restaurera le comportement original du Finder.";
 
@@ -54,3 +58,19 @@
 
 /* misc. */
 "Screen %d" = "Écran %d";
+
+/* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
+"TotalFinder ALPHA has expired" = "TotalFinder ALPHA has expired";
+"In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates." = "In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates.";
+"Check for updates" = "Check for updates";
+"Visit Homepage" = "Visit Homepage";
+"Please register TotalFinder" = "Please register TotalFinder";
+"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is my attempt to remind you friendly that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day! Thank you." = "In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is my attempt to remind you friendly that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day! Thank you.";
+"Buy TotalFinder now" = "Buy TotalFinder now";
+"Why should I buy?" = "Why should I buy?";
+"TotalFinder alpha - learn more" = "TotalFinder alpha - learn more";
+"TotalFinder expired - please upgrade" = "TotalFinder expired - please upgrade";
+"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
+"TotalFinder will be a paid software soon" = "TotalFinder will be a paid software soon";
+"I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it.";
+"Sure, I understand" = "Sure, I understand";

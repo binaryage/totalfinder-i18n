@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="Vizör";
-"Asepsis"="Asepsi";
-"Tweaks"="Ince Ayar";
-"About"="Hakkında";
+"Visor" = "Vizör";
+"Asepsis" = "Asepsi";
+"Tweaks" = "Ince Ayar";
+"About" = "Hakkında";
 
 /* visor page */
-"Visor Feature"="Vizör özelliği";
-"a system-wide window sliding from the bottom on a hot-key"="Sistem genelinde kısa yol ile alttan yukarıya kayan pencere";
+"Visor Feature" = "Vizör özelliği";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde kısa yol ile alttan yukarıya kayan pencere";
 
-"Activation:"="Aktivasyon:";
+"Activation:" = "Aktivasyon:";
 
-"Control:"="Control:";
-"Hide on ESC"="ESC ile gizle";
-"Pin Visor"="Vizörü kenetle";
+"Control:" = "Control:";
+"Hide on ESC" = "ESC ile gizle";
+"Pin Visor" = "Vizörü kenetle";
 
-"Animation:"="Animasyon:";
-"Fade Window"="Pencereyi sönümle";
-"Slide Window"="Pencereyi kaydır";
+"Animation:" = "Animasyon:";
+"Fade Window" = "Pencereyi sönümle";
+"Slide Window" = "Pencereyi kaydır";
 
-"Screen:"="Ekran:";
-"Show on all Spaces"="Bütün Spacelerde göster";
-"Show on top of the Dock"="Dockun üzerinde göster";
-"Free Form Window"="Serbest şekil pencere";
+"Screen:" = "Ekran:";
+"Show on all Spaces" = "Bütün Spacelerde göster";
+"Show on top of the Dock" = "Dockun üzerinde göster";
+"Free Form Window" = "Serbest şekil pencere";
 
 /* asepsis page */
-"Asepsis Feature"="Asepsi özelliği";
-"prevents .DS_Store files to be created in local folders"="klasörlerde .DS_Store dosyalarının oluşumunu engeller";
-".DS_Store files will be redirected into"=".DS_Store dosyaları yönlendirilecek yer";
-"this folder should be set as writable for all users of TotalFinder"="bu klasör bütün TotalFinder kullanıcıları icin yazılabilir olması lâzım";
-"Launch Migration Assistant"="Geçiş asistanını çalıştır";
-"TotalFinder.kext status"="TotalFinder.kext durumu";
-"Unable to connect"="Kernel eklentisi ile bağlanılınamıyor!\nTotalFinder kernel eklentisi yüklümü?";
-"Advanced:"="Gelişmiş:";
-"Don't write .DS_Store to Network"=".DS_Store'u bilgisayar ağına yazma";
+"Asepsis Feature" = "Asepsi özelliği";
+"prevents .DS_Store files to be created in local folders" = "klasörlerde .DS_Store dosyalarının oluşumunu engeller";
+".DS_Store files will be redirected into" = ".DS_Store dosyaları yönlendirilecek yer";
+"this folder should be set as writable for all users of TotalFinder" = "bu klasör bütün TotalFinder kullanıcıları icin yazılabilir olması lâzım";
+"Launch Migration Assistant" = "Geçiş asistanını çalıştır";
+"TotalFinder.kext status" = "TotalFinder.kext durumu";
+"Unable to connect" = "Kernel eklentisi ile bağlanılınamıyor!\nTotalFinder kernel eklentisi yüklümü?";
+"Advanced:" = "Gelişmiş:";
+"Don't write .DS_Store to Network" = ".DS_Store'u bilgisayar ağına yazma";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="TotalFinder'i varsayılana resetle";
+"Reset TotalFinder to defaults" = "TotalFinder'i varsayılana resetle";
 
-"File Browser:"="Dosya tarayıcısı:";
-"Show System Files"="Sistem dosyalarını göster";
-"Folders on Top"="Klasörler başlangıçta";
-"Always Maximize"="Daima maximize et";
-"Toggle Dual Mode"="Çiftli modu aç/kapat";
+"File Browser:" = "Dosya tarayıcısı:";
+"Show System Files" = "Sistem dosyalarını göster";
+"Folders on Top" = "Klasörler başlangıçta";
+"Always Maximize" = "Daima maximize et";
+"Toggle Dual Mode" = "Çiftli modu aç/kapat";
 
-"Menu and Dock:"="Menü ve Dock:";
-"Remove TotalFinder from Status Menu"="TotalFinder'i durum menüsünden kaldır";
-"Keep Original Finder Dock Icon"="Orijinal Finder Dock ikonunu bırak";
+"Menu and Dock:" = "Menü ve Dock:";
+"Remove TotalFinder from Status Menu" = "TotalFinder'i durum menüsünden kaldır";
+"Keep Original Finder Dock Icon" = "Orijinal Finder Dock ikonunu bırak";
 
-"Experimental:"="Deneysel:";
-"Freelance Windows"="Bağımsız Pencere";
-"Use narrow Tabs Bar"="Daraltılmış sekme çubuğu kullan";
+"Experimental:" = "Deneysel:";
+"Freelance Windows" = "Bağımsız Pencere";
+"Use narrow Tabs Bar" = "Daraltılmış sekme çubuğu kullan";
 
 /* about page */
-"Check for updates…"="Güncelleştirmeler ara…";
+"Check for updates…" = "Güncelleştirmeler ara…";

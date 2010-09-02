@@ -1,57 +1,55 @@
 /* navigation bar */
-"Visor"="Visor";
-"Asepsis"="Asepsis";
-"Tweaks"="Erweitert";
-"About"="Über";
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Erweitert";
+"About" = "Über";
 
 /* visor page */
-"Visor Feature"="Visor Funktion";
-"a system-wide window sliding from the bottom on a hot-key"="ein systemweit per Tastenkombination einblendbares Fenster";
+"Visor Feature" = "Visor Funktion";
+"a system-wide window sliding from the bottom on a hot-key" = "ein systemweit per Tastenkombination einblendbares Fenster";
 
-"Activation:"="Einblenden";
+"Activation:" = "Einblenden";
 
-"Control:"="Steuerung";
-"Hide on ESC"="Mit ESC ausblenden";
-"Pin Visor"="Anheften";
+"Control:" = "Steuerung";
+"Hide on ESC" = "Mit ESC ausblenden";
+"Pin Visor" = "Anheften";
 
-"Animation:"="Animation";
-"Fade Window"="Überblenden animieren";
-"Slide Window"="Hineingleiten animieren";
+"Animation:" = "Animation";
+"Fade Window" = "Überblenden animieren";
+"Slide Window" = "Hineingleiten animieren";
 
-"Screen:"="Bildschirm";
-"Show on all Spaces"="Auf allen Spaces sichtbar";
-"Show on top of the Dock"="Über dem Dock anzeigen";
-"Free Form Window"="Fenstergröße veränderbar";
+"Screen:" = "Bildschirm";
+"Show on all Spaces" = "Auf allen Spaces sichtbar";
+"Show on top of the Dock" = "Über dem Dock anzeigen";
+"Free Form Window" = "Fenstergröße veränderbar";
 
 /* asepsis page */
-"Asepsis Feature"="Asepsis Funktion";
-"prevents .DS_Store files to be created in local folders"="verhindert die Erstellung von .DS_Store Dateien";
-".DS_Store files will be redirected into"=".DS_Store Dateien werden verschoben nach";
-"this folder should be set as writable for all users of TotalFinder"="Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
-"Launch Migration Assistant"="Migrationsassistent starten";
-"TotalFinder.kext status"="TotalFinder.kext Status";
-"Unable to connect"="Keine Verbindung zur Kernel-Erweiterung möglich!\nIst die TotalFinder Kernel-Erweiterung installiert?";
-"Advanced:"="Erweitert:";
-/*"Don't write .DS_Store to Network"="Keine .DS_Store Dateien im Netzwerk erstellen";*/
-"Don't write .DS_Store to Network"=".DS_Store Dateien im Netzwerk nicht erstellen";
+"Asepsis Feature" = "Asepsis Funktion";
+"prevents .DS_Store files to be created in local folders" = "verhindert die Erstellung von .DS_Store Dateien";
+".DS_Store files will be redirected into" = ".DS_Store Dateien werden verschoben nach";
+"this folder should be set as writable for all users of TotalFinder" = "Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
+"Launch Migration Assistant" = "Migrationsassistent starten";
+"TotalFinder.kext status" = "TotalFinder.kext Status";
+"Unable to connect" = "Keine Verbindung zur Kernel-Erweiterung möglich!\nIst die TotalFinder Kernel-Erweiterung installiert?";
+"Advanced:" = "Erweitert:";
+"Don't write .DS_Store to Network" = ".DS_Store Dateien im Netzwerk nicht erstellen";
+
 /* tweaks page */
-"Reset TotalFinder to defaults"="Standardeinstellungen wiederherstellen";
+"Reset TotalFinder to defaults" = "Standardeinstellungen wiederherstellen";
 
-"File Browser:"="Datei Browser:";
-"Show System Files"="Zeige Systemdateien";
-"Folders on Top"="Ordner am Anfang";
-"Always Maximize"="Immer maximieren";
-"Toggle Dual Mode"="Dual Mode an/aus";
+"File Browser:" = "Datei Browser:";
+"Show System Files" = "Zeige Systemdateien";
+"Folders on Top" = "Ordner am Anfang";
+"Always Maximize" = "Immer maximieren";
+"Toggle Dual Mode" = "Dual Mode an/aus";
 
-"Menu and Dock:"="Menü und Dock:";
-"Remove TotalFinder from Status Menu"="Icon in der Menüleiste nicht anzeigen";
-"Keep Original Finder Dock Icon"="Original Finder-Icon im Dock verwenden";
+"Menu and Dock:" = "Menü und Dock:";
+"Remove TotalFinder from Status Menu" = "Icon in der Menüleiste nicht anzeigen";
+"Keep Original Finder Dock Icon" = "Original Finder-Icon im Dock verwenden";
 
-"Experimental:"="Experimentell:";
-"Freelance Windows"="Freelance Fenster";
-"Use narrow Tabs Bar"="Tableiste verkleinern";
+"Experimental:" = "Experimentell:";
+"Freelance Windows" = "Freelance Fenster";
+"Use narrow Tabs Bar" = "Tableiste verkleinern";
 
 /* about page */
-"Check for updates…"="Nach Updates suchen…";
-"from Beta Channel"="Beta Versionen";
-"from Stable Channel"="Stabile Versionen";
+"Check for updates…" = "Nach Updates suchen…";

@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="Visor";
-"Asepsis"="Asepsis";
-"Tweaks"="Настройки";
-"About"="О программе";
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Настройки";
+"About" = "О программе";
 
 /* visor page */
-"Visor Feature"="Использовать Visor";
-"a system-wide window sliding from the bottom on a hot-key"="Глобальное окно, появляющееся снизу, по горячей клавише";
+"Visor Feature" = "Использовать Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобальное окно, появляющееся снизу, по горячей клавише";
 
-"Activation:"="Активация:";
+"Activation:" = "Активация:";
 
-"Control:"="Управлять:";
-"Hide on ESC"="Скрывать по ESC";
-"Pin Visor"="Закрепить";
+"Control:" = "Управлять:";
+"Hide on ESC" = "Скрывать по ESC";
+"Pin Visor" = "Закрепить";
 
-"Animation:"="Анимация:";
-"Fade Window"="Затухание";
-"Slide Window"="Смещение";
+"Animation:" = "Анимация:";
+"Fade Window" = "Затухание";
+"Slide Window" = "Смещение";
 
-"Screen:"="Экран:";
-"Show on all Spaces"="Показывать на всех Spaces";
-"Show on top of the Dock"="Показывать поверх Dock";
-"Free Form Window"="Изменяемый размер окна";
+"Screen:" = "Экран:";
+"Show on all Spaces" = "Показывать на всех Spaces";
+"Show on top of the Dock" = "Показывать поверх Dock";
+"Free Form Window" = "Изменяемый размер окна";
 
 /* asepsis page */
-"Asepsis Feature"="Использовать Asepsis";
-"prevents .DS_Store files to be created in local folders"="предотвращает создание файлов .DS_Store в локальных папках";
-".DS_Store files will be redirected into"="файлы .DS_Store будут перенаправлены в";
-"this folder should be set as writable for all users of TotalFinder"="разрешите запись в папку всем пользователям TotalFinder";
-"Launch Migration Assistant"="Запустить Ассистента Миграции";
-"TotalFinder.kext status"="Статус TotalFinder.kext";
-"Unable to connect"="Невозможно соединиться с расширением ядра!\nУ Вас установлено расширение ядра TotalFinder?";
-"Advanced:"="Расширенные возможности:";
-"Don't write .DS_Store to Network"="Не записывать файлы .DS_Store в Сети";
+"Asepsis Feature" = "Использовать Asepsis";
+"prevents .DS_Store files to be created in local folders" = "предотвращает создание файлов .DS_Store в локальных папках";
+".DS_Store files will be redirected into" = "файлы .DS_Store будут перенаправлены в";
+"this folder should be set as writable for all users of TotalFinder" = "разрешите запись в папку всем пользователям TotalFinder";
+"Launch Migration Assistant" = "Запустить Ассистента Миграции";
+"TotalFinder.kext status" = "Статус TotalFinder.kext";
+"Unable to connect" = "Невозможно соединиться с расширением ядра!\nУ Вас установлено расширение ядра TotalFinder?";
+"Advanced:" = "Расширенные возможности:";
+"Don't write .DS_Store to Network" = "Не записывать файлы .DS_Store в Сети";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Восстановить настройки по-умолчанию";
+"Reset TotalFinder to defaults" = "Восстановить настройки по-умолчанию";
 
-"File Browser:"="Файловый менеджер:";
-"Show System Files"="Скрытые файлы";
-"Folders on Top"="Папки сверху";
-"Always Maximize"="Всегда разворачивать";
-"Toggle Dual Mode"="Двухпанельный режим";
+"File Browser:" = "Файловый менеджер:";
+"Show System Files" = "Скрытые файлы";
+"Folders on Top" = "Папки сверху";
+"Always Maximize" = "Всегда разворачивать";
+"Toggle Dual Mode" = "Двухпанельный режим";
 
-"Menu and Dock:"="Меню и Dock:";
-"Remove TotalFinder from Status Menu"="Удалить TotalFinder из строки меню";
-"Keep Original Finder Dock Icon"="Не изменять иконку Finder в Dock";
+"Menu and Dock:" = "Меню и Dock:";
+"Remove TotalFinder from Status Menu" = "Удалить TotalFinder из строки меню";
+"Keep Original Finder Dock Icon" = "Не изменять иконку Finder в Dock";
 
-"Experimental:"="Экспериментальные возможности:";
-"Freelance Windows"="Независимые окна";
-"Use narrow Tabs Bar"="Узкая панель вкладок";
+"Experimental:" = "Экспериментальные возможности:";
+"Freelance Windows" = "Независимые окна";
+"Use narrow Tabs Bar" = "Узкая панель вкладок";
 
 /* about page */
-"Check for updates…"="Проверить обновления…";
+"Check for updates…" = "Проверить обновления…";
