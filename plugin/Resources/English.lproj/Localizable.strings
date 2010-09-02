@@ -1,55 +1,55 @@
 /* navigation bar */
-"Visor"="Visor";
-"Asepsis"="Asepsis";
-"Tweaks"="Tweaks";
-"About"="About";
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Tweaks";
+"About" = "About";
 
 /* visor page */
-"Visor Feature"="The Visor Feature";
-"a system-wide window sliding from the bottom on a hot-key"="a system-wide window sliding from the bottom on a hot-key";
+"Visor Feature" = "The Visor Feature";
+"a system-wide window sliding from the bottom on a hot-key" = "a system-wide window sliding from the bottom on a hot-key";
 
-"Activation:"="Activation:";
+"Activation:" = "Activation:";
 
-"Control:"="Control:";
-"Hide on ESC"="Hide on ESC";
-"Pin Visor"="Pin Visor";
+"Control:" = "Control:";
+"Hide on ESC" = "Hide on ESC";
+"Pin Visor" = "Pin Visor";
 
-"Animation:"="Animation:";
-"Fade Window"="Fade Window";
-"Slide Window"="Slide Window";
+"Animation:" = "Animation:";
+"Fade Window" = "Fade Window";
+"Slide Window" = "Slide Window";
 
-"Screen:"="Screen:";
-"Show on all Spaces"="Show on all Spaces";
-"Show on top of the Dock"="Show on top of the Dock";
-"Free Form Window"="FreeForm Window";
+"Screen:" = "Screen:";
+"Show on all Spaces" = "Show on all Spaces";
+"Show on top of the Dock" = "Show on top of the Dock";
+"Free Form Window" = "FreeForm Window";
 
 /* asepsis page */
-"Asepsis Feature"="The Asepsis Feature";
-"prevents .DS_Store files to be created in local folders"="prevents .DS_Store files to be created in local folders";
-".DS_Store files will be redirected into"=".DS_Store files will be redirected into";
-"this folder should be set as writable for all users of TotalFinder"="this folder should be set as writable for all users of TotalFinder";
-"Launch Migration Assistant"="Launch Migration Assistant";
-"TotalFinder.kext status"="TotalFinder.kext status";
-"Unable to connect"="Unable to connect with kernel extension!\nDo you have TotalFinder kernel extension installed?";
-"Advanced:"="Advanced:";
-"Don't write .DS_Store to Network"="Don't write .DS_Store to Network";
+"Asepsis Feature" = "The Asepsis Feature";
+"prevents .DS_Store files to be created in local folders" = "prevents .DS_Store files to be created in local folders";
+".DS_Store files will be redirected into" = ".DS_Store files will be redirected into";
+"this folder should be set as writable for all users of TotalFinder" = "this folder should be set as writable for all users of TotalFinder";
+"Launch Migration Assistant" = "Launch Migration Assistant";
+"TotalFinder.kext status" = "TotalFinder.kext status";
+"Unable to connect" = "Unable to connect with kernel extension!\nDo you have TotalFinder kernel extension installed?";
+"Advanced:" = "Advanced:";
+"Don't write .DS_Store to Network" = "Don't write .DS_Store to Network";
 
 /* tweaks page */
-"Reset TotalFinder to defaults"="Reset TotalFinder to defaults";
+"Reset TotalFinder to defaults" = "Reset TotalFinder to defaults";
 
-"File Browser:"="File Browser:";
-"Show System Files"="Show System Files";
-"Folders on Top"="Folders on Top";
-"Always Maximize"="Always Maximize";
-"Toggle Dual Mode"="Toggle Dual Mode";
+"File Browser:" = "File Browser:";
+"Show System Files" = "Show System Files";
+"Folders on Top" = "Folders on Top";
+"Always Maximize" = "Always Maximize";
+"Toggle Dual Mode" = "Toggle Dual Mode";
 
-"Menu and Dock:"="Menu and Dock:";
-"Remove TotalFinder from Status Menu"="Remove TotalFinder from Status Menu";
-"Keep Original Finder Dock Icon"="Keep Original Finder Dock Icon";
+"Menu and Dock:" = "Menu and Dock:";
+"Remove TotalFinder from Status Menu" = "Remove TotalFinder from Status Menu";
+"Keep Original Finder Dock Icon" = "Keep Original Finder Dock Icon";
 
-"Experimental:"="Experimental:";
-"Freelance Windows"="Freelance Windows";
-"Use narrow Tabs Bar"="Use narrow Tabs Bar";
+"Experimental:" = "Experimental:";
+"Freelance Windows" = "Freelance Windows";
+"Use narrow Tabs Bar" = "Use narrow Tabs Bar";
 
 /* about page */
-"Check for updates…"="Check for updates…";
+"Check for updates…" = "Check for updates…";
