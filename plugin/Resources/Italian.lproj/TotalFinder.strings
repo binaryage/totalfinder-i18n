@@ -26,8 +26,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Disconnetti";
 "Connect" = "Connetti";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Impossibile connettersi all'estensione del
-kernel! L'estensione è stata installata correttamente?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Impossibile connettersi all'estensione del kernel! L'estensione è stata installata correttamente?";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Ripristina";
