@@ -38,13 +38,22 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 
 ### Final step
 
-1. push to github and send a pull request to [darwin](http://github.com/darwin) (please don't try to send pull requests to [binaryage](http://github.com/binaryage) - it is an organisation)
+1. push to github and send a pull request to [darwin](http://github.com/darwin)
 2. (optional) run `./undev.sh` to return to unaltered TotalFinder state (this won't delete your files, it will [just unlink](totalfinder-i18n/blob/master/undev.sh) sym-linked folder)
 
 ## Questions?
 
 ### I have created MYLANGUAGE.lproj and modified string files. I've restarted the Finder.app, but I don't see my localization. What's wrong?
 > And do you see Finder.app in MYLANGUAGE? First, double check you have MYLANGUAGE as top-most language in the `System Preferences > Language & Text > Language` list. Second, please note that TotalFinder is a plugin for Finder.app and it inherits preferred language from Finder.app. Finder.app does not pick MYLANGUAGE in case there is not language folder present here `/System/Library/CoreServices/Finder.app/Contents/Resources/MYLANGUAGE.lproj`. You may create empty folder by hand or you may fix this by running `sudo rake normalize` task, which will create missing folders in `/System/Library/CoreServices/Finder.app/Contents/Resources` according to language folders available in TotalFinder's Resources. Hope this helped.
+
+### How do I keep my fork in sync with [binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)?
+> Cd into your local repo and define new remote server pointing to my repo (which will be read-only for you). Then you may pull from it and merge it into your repo as you wish.
+>
+> Initial step: `git remote add ba git://github.com/binaryage/totalfinder-i18n.git`
+>
+> Fetch + merge: `git fetch ba && git merge ba/master`
+>
+> Please note that it may end in conflict if you modified same files as I did. Please consult [git docs](http://git-scm.com/documentation) how to resolve it.
 
 ### I want to modify the UI. How can I compile XIB files?
 > Please make sure you have the latest XCode from Apple. Download and compile [ShortcutRecorder project](http://wafflesoftware.net/shortcut). It will give you an Interface Builder plugin for ShortcurRecorder control. No you can open XIB and modify it. TotalFinder uses nibs, to compile them please run `./compile.sh`.
