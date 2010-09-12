@@ -53,3 +53,19 @@
 
 /* about page */
 "Check for updates…" = "Nach Updates suchen…";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder Registration";
+"Registration" = "Registration";
+"Please enter your license details from the email we have sent you:" = "Please enter your license details from the email we have sent you:";
+"Buy TotalFinder Now" = "Buy TotalFinder Now";
+"Register" = "Register";
+"Thanks for registering!" = "Thanks for registering!";
+"This TotalFinder copy is licensed to:" = "This TotalFinder copy is licensed to:";
+"Close" = "Close";
+"Change License" = "Change License";
+"Back" = "Back";
+"Invalid license code" = "Invalid license code";
+"Please go back and try again." = "Please go back and try again.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
+"Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";

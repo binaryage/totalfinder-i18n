@@ -53,3 +53,19 @@
 
 /* about page */
 "Check for updates…" = "Vyhledat aktualizace…";
+
+/* registration */
+"TotalFinder Registration" = "Registrace TotalFinderu";
+"Registration" = "Registrace";
+"Please enter your license details from the email we have sent you:" = "Prosím zadejte licenční údaje z emailu, který jsme vám poslali:";
+"Buy TotalFinder Now" = "Koupit TotalFinder";
+"Register" = "Registrovat";
+"Thanks for registering!" = "Díky za registraci!";
+"This TotalFinder copy is licensed to:" = "Licencován na jméno:";
+"Close" = "Zavřít";
+"Change License" = "Změnit licenci";
+"Back" = "Zpět";
+"Invalid license code" = "Neplatný licenční klíč";
+"Please go back and try again." = "Prosím vraťte se zpět a zkuste to znovu.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licenci pro TotalFinder můžete koupit ve webovém obchodu BinaryAge.";
+"Thank you for using TotalFinder!" = "Díky, že používáte TotalFinder!";

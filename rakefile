@@ -238,6 +238,17 @@ def propagate_from_czech_to_other_lprojs
     end
 end
 
+def exec_cmd_in_lprojs(cmd)
+    glob = ENV["to"] || "*.lproj"
+    
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
+        puts dir.blue
+        Dir.chdir dir do
+            sys(cmd)
+        end
+    end
+end
+
 ################################################################################################
 # tasks
 
@@ -288,6 +299,11 @@ end
 desc "propagates structure of Czech.lproj to all other language folders while keeping already translated strings"
 task :propagate do
     propagate_from_czech_to_other_lprojs
+end
+
+desc "exec command in all lproj folders"
+task :exec do
+    exec_cmd_in_lprojs(ENV["cmd"] || "ls")
 end
 
 task :default => :restart

@@ -74,3 +74,13 @@
 "TotalFinder will be a paid software soon" = "TotalFinder will be a paid software soon";
 "I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it.";
 "Sure, I understand" = "Sure, I understand";
+
+/* registration */
+"You may buy TotalFinder soon." = "You may buy TotalFinder soon.";
+"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)";
+"OK" = "OK";
+"Read Article" = "Read Article";
+"Licensed to %@" = "Licensed to %@";
+"Change License" = "Change License";
+"Unregistered version in trial mode" = "Unregistered version in trial mode";
+"Register" = "Register";
