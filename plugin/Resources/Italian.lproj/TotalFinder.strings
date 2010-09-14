@@ -76,11 +76,13 @@
 "Sure, I understand" = "Certo, ho capito";
 
 /* registration */
-"You may buy TotalFinder soon." = "You may buy TotalFinder soon.";
-"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)";
+"You may buy TotalFinder soon." = "Potrai comprare TotalFinder presto.";
+"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0
+release. And by the way, thanks for clicking this button :-)" = "TotalFinder diventerà un'applicazione commerciale il 27 settembre 2010. La
+finestra per la registrazione è disabilitata fino a quel giorno.\n\nPer favore aspetta la versione 1.0. E, a proposito, grazie per aver cliccato su questo pulsante :-)";
 "OK" = "OK";
-"Read Article" = "Read Article";
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Read Article" = "Leggi l'articolo";
+"Licensed to %@" = "Concesso in licenza a %@";
+"Change License" = "Cambia licenza";
+"Unregistered version in trial mode" = "Versione non registrata in modalità di prova";
+"Register" = "Registra";
