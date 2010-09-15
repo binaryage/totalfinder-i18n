@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10D573</string>
+		<string key="IBDocument.SystemVersion">10F569</string>
 		<string key="IBDocument.InterfaceBuilderVersion">783</string>
 		<string key="IBDocument.AppKitVersion">1038.29</string>
-		<string key="IBDocument.HIToolboxVersion">460.00</string>
+		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string key="NS.object.0">783</string>
@@ -36,7 +36,7 @@
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSCustomView" id="279050519">
 						<reference key="NSNextResponder" ref="629875298"/>
-						<int key="NSvFlags">-2147483374</int>
+						<int key="NSvFlags">-2147483630</int>
 						<array class="NSMutableArray" key="NSSubviews">
 							<object class="NSImageView" id="833091729">
 								<reference key="NSNextResponder" ref="279050519"/>
@@ -100,13 +100,13 @@
 							</object>
 							<object class="NSTextField" id="906207332">
 								<reference key="NSNextResponder" ref="279050519"/>
-								<int key="NSvFlags">298</int>
+								<int key="NSvFlags">42</int>
 								<string key="NSFrame">{{16, 6}, {128, 14}}</string>
 								<reference key="NSSuperview" ref="279050519"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSTextFieldCell" key="NSCell" id="846138425">
-									<int key="NSCellFlags">68288064</int>
-									<int key="NSCellFlags2">272761856</int>
+									<int key="NSCellFlags">67239488</int>
+									<int key="NSCellFlags2">272762368</int>
 									<string key="NSContents">Label</string>
 									<object class="NSFont" key="NSSupport" id="26">
 										<string key="NSName">LucidaGrande</string>
@@ -141,7 +141,7 @@
 					</object>
 					<object class="NSCustomView" id="1005">
 						<reference key="NSNextResponder" ref="629875298"/>
-						<int key="NSvFlags">274</int>
+						<int key="NSvFlags">18</int>
 						<array class="NSMutableArray" key="NSSubviews">
 							<object class="NSImageView" id="987403091">
 								<reference key="NSNextResponder" ref="1005"/>
@@ -192,13 +192,13 @@
 							</object>
 							<object class="NSTextField" id="22122319">
 								<reference key="NSNextResponder" ref="1005"/>
-								<int key="NSvFlags">298</int>
+								<int key="NSvFlags">42</int>
 								<string key="NSFrame">{{16, 6}, {128, 14}}</string>
 								<reference key="NSSuperview" ref="1005"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSTextFieldCell" key="NSCell" id="745226941">
-									<int key="NSCellFlags">68288064</int>
-									<int key="NSCellFlags2">272761856</int>
+									<int key="NSCellFlags">67239488</int>
+									<int key="NSCellFlags2">272762368</int>
 									<string key="NSContents">Label</string>
 									<reference key="NSSupport" ref="26"/>
 									<reference key="NSControlView" ref="22122319"/>
@@ -567,14 +567,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">plugin/chromium/chrome/browser/cocoa/background_gradient_view.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GTMUILocalizer</string>
-					<string key="superclassName">GTMUILocalizer</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">plugin/GTMUILocalizer.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
