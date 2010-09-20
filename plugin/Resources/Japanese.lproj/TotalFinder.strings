@@ -29,9 +29,9 @@
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "カーネル拡張と接続できません！ TotalFinder.kext を適切にインストールしましたか？";
 
 /* About preferences pane */
-"from Beta Channel" = "from Beta Channel";
-"from Dev Channel" = "from Dev Channel";
-"from Stable Channel" = "from Stable Channel";
+"from Beta Channel" = "ベータ版";
+"from Dev Channel" = "開発版";
+"from Stable Channel" = "安定版";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "リセット";
@@ -60,27 +60,28 @@
 "Screen %d" = "スクリーン %d";
 
 /* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
-"TotalFinder ALPHA has expired" = "TotalFinder ALPHA has expired";
-"In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates." = "In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates.";
-"Check for updates" = "Check for updates";
-"Visit Homepage" = "Visit Homepage";
-"Please register TotalFinder" = "Please register TotalFinder";
-"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is my attempt to remind you friendly that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day! Thank you." = "In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is my attempt to remind you friendly that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day! Thank you.";
-"Buy TotalFinder now" = "Buy TotalFinder now";
-"Why should I buy?" = "Why should I buy?";
-"TotalFinder alpha - learn more" = "TotalFinder alpha - learn more";
-"TotalFinder expired - please upgrade" = "TotalFinder expired - please upgrade";
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder will be a paid software soon" = "TotalFinder will be a paid software soon";
-"I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it.";
-"Sure, I understand" = "Sure, I understand";
+"TotalFinder ALPHA has expired" = "アルファ版の使用期限が切れました";
+"In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates." = "使用期限切れのバージョンでは、10回タブを切り替える毎にこのメッセージが表示されます。\n\n最新版 の TotalFinder へのアップグレードは数分で完了します。アップデートを確認してください。";
+"Check for updates" = "アップデートを確認";
+"Visit Homepage" = "ホームページを開く";
+"Please register TotalFinder" = "TotalFinder を登録してください";
+"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is my attempt to remind you friendly that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day! Thank you." = "未登録で TotalFinder を使用している場合、10回タブを切り替える毎にこのメッセージが表示されます。\n\nこれは、あなたが TotalFinder をよく使っていることを知らせるためです。このすばらしいソフトウェアを購入すれば、このメッセージとももうおさらばです！";
+"Buy TotalFinder now" = "今すぐ TotalFinder を購入する";
+"Why should I buy?" = "なぜ購入する必要があるのですか？";
+"TotalFinder alpha - learn more" = "TotalFinder アルファ版 - さらに詳しく";
+"TotalFinder expired - please upgrade" = "TotalFinder は使用期限切れです - アップグレードしてください";
+"TotalFinder - unregistered version" = "TotalFinder  - 未登録";
+"TotalFinder will be a paid software soon" = "TotalFinder はまもなく有料になります";
+/* "I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "現在お使いの TotalFinder は無料のアルファ版ですが、バージョン 1.0 以降は有料となります。使用期限があるため、このままアルファ版を使い続けることはできません。\n\nこの Finder プラグインを試用していただきありがとうございます。TotalFinder の便利さを実感していただいたと思います。今後のさらなる開発をサポートしていただくという意味で、ご購入をぜひ検討して下さい。"; */
+"I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "現在お使いの TotalFinder は無料のアルファ版ですが、バージョン 1.0 以降は有料となります。このアルファ版は使用期限があるため、このまま使い続けることはできません。\n\nこの Finder プラグインを試用していただきましたが、その便利さを実感していただいたと思います。今後のさらなる開発をサポートしていただくという意味で、是非、ご購入を検討ください。";
+"Sure, I understand" = "理解しました";
 
 /* registration */
-"You may buy TotalFinder soon." = "You may buy TotalFinder soon.";
-"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)";
+"You may buy TotalFinder soon." = "まもなく TotalFinder を購入できます。";
+"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder は、2010年9月27日に有料のアプリケーションになります。その日まで登録することはできません。\n\nバージョン 1.0 のリリースをお待ちください。（この登録ボタンを押してくれてありがとうございます）";
 "OK" = "OK";
-"Read Article" = "Read Article";
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Read Article" = "ブログ記事を読む";
+"Licensed to %@" = "%@ にライセンスされています";
+"Change License" = "ライセンスを変更";
+"Unregistered version in trial mode" = "未登録の試用版";
+"Register" = "登録する";
