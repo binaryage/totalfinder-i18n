@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "Activar Modo Dual";
 
 "Menu and Dock:" = "Menú y Dock:";
-"Remove TotalFinder from Status Menu" = "Remover TotalFinder de la Barra de Menús";
-"Keep Original Finder Dock Icon" = "Usar el Icono Original de Finder en el Dock";
+"Hide icon in Menu Bar" = "Remover TotalFinder de la Barra de Menús";
+"Keep original Dock icon" = "Usar el Icono Original de Finder en el Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Ventanas Autónomas";

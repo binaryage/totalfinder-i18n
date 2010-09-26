@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "Prepnúť na dual panel";
 
 "Menu and Dock:" = "Menu a Dock:";
-"Remove TotalFinder from Status Menu" = "Odstrániť TotalFinder ikonu zo stavovej lišty";
-"Keep Original Finder Dock Icon" = "Zachovať originálnu ikonu Findera v Docku";
+"Hide icon in Menu Bar" = "Odstrániť TotalFinder ikonu zo stavovej lišty";
+"Keep original Dock icon" = "Zachovať originálnu ikonu Findera v Docku";
 
 "Experimental:" = "Experimentálne nastavenia:";
 "Freelance Windows" = "Nezávislé okná";

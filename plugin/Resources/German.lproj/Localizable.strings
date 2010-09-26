@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "Dual Mode an/aus";
 
 "Menu and Dock:" = "Menü und Dock:";
-"Remove TotalFinder from Status Menu" = "Icon in der Menüleiste nicht anzeigen";
-"Keep Original Finder Dock Icon" = "Original Finder-Icon im Dock verwenden";
+"Hide icon in Menu Bar" = "Icon in der Menüleiste nicht anzeigen";
+"Keep original Dock icon" = "Original Finder-Icon im Dock verwenden";
 
 "Experimental:" = "Experimentell:";
 "Freelance Windows" = "Freelance Fenster";

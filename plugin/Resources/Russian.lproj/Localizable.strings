@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "Двухпанельный режим";
 
 "Menu and Dock:" = "Меню и Dock:";
-"Remove TotalFinder from Status Menu" = "Удалить TotalFinder из строки меню";
-"Keep Original Finder Dock Icon" = "Не изменять иконку Finder в Dock";
+"Hide icon in Menu Bar" = "Удалить TotalFinder из строки меню";
+"Keep original Dock icon" = "Не изменять иконку Finder в Dock";
 
 "Experimental:" = "Экспериментальные возможности:";
 "Freelance Windows" = "Независимые окна";

@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "Schakel duale mode";
 
 "Menu and Dock:" = "Menu en Dock:";
-"Remove TotalFinder from Status Menu" = "Verwijder TotalFinder uit het status menu";
-"Keep Original Finder Dock Icon" = "Houd het originele Finder dock icon";
+"Hide icon in Menu Bar" = "Verwijder TotalFinder uit het status menu";
+"Keep original Dock icon" = "Houd het originele Finder dock icon";
 
 "Experimental:" = "Experimenteel:";
 "Freelance Windows" = "Freelance schermen";

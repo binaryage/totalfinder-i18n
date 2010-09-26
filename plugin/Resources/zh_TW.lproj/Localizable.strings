@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "雙視窗模式";
 
 "Menu and Dock:" = "菜單 及 Dock:";
-"Remove TotalFinder from Status Menu" = "在狀態欄菜單不顯示TotalFinder";
-"Keep Original Finder Dock Icon" = "使用原始Finder Dock圖標";
+"Hide icon in Menu Bar" = "在狀態欄菜單不顯示TotalFinder";
+"Keep original Dock icon" = "使用原始Finder Dock圖標";
 
 "Experimental:" = "實驗:";
 "Freelance Windows" = "使用自由視窗";
