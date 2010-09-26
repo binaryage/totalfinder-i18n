@@ -77,9 +77,7 @@
 
 /* registration */
 "You may buy TotalFinder soon." = "Potrai presto acquistare TotalFinder.";
-"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0
-release. And by the way, thanks for clicking this button :-)" = "TotalFinder diventerà un'applicazione commerciale il 27 settembre 2010. La
-finestra per la registrazione è disabilitata fino a quel giorno.\n\nPer favore aspetta la versione 1.0. E, a proposito, grazie per aver cliccato su questo pulsante :-)";
+"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder diventerà un'applicazione commerciale il 27 settembre 2010. La finestra per la registrazione è disabilitata fino a quel giorno.\n\nPer favore aspetta la versione 1.0. E, a proposito, grazie per aver cliccato su questo pulsante :-)";
 "OK" = "OK";
 "Read Article" = "Leggi l'articolo";
 "Licensed to %@" = "Concesso in licenza a %@";
