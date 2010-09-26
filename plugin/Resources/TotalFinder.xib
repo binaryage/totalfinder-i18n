@@ -1430,7 +1430,7 @@
 																					<object class="NSButtonCell" key="NSCell" id="1035054496">
 																						<int key="NSCellFlags">67239424</int>
 																						<int key="NSCellFlags2">0</int>
-																						<string key="NSContents">^Keep Original Finder Dock Icon</string>
+																						<string key="NSContents">^Keep original Dock icon</string>
 																						<reference key="NSSupport" ref="731091176"/>
 																						<reference key="NSControlView" ref="457156466"/>
 																						<int key="NSButtonFlags">1211912703</int>

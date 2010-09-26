@@ -45,7 +45,7 @@
 
 "Menu and Dock:" = "メニューと Dock：";
 "Hide icon in Menu Bar" = "メニューバーから TotalFinder を取り除く";
-"Keep Original Finder Dock Icon" = "Finder アイコンはオリジナルを使う";
+"Keep original Dock icon" = "Finder アイコンはオリジナルを使う";
 
 "Experimental:" = "実験的な機能：";
 "Freelance Windows" = "複数のウィンドウを許可";
