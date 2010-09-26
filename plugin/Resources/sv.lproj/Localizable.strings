@@ -44,7 +44,7 @@
 "Toggle Dual Mode" = "Av-/Aktivera Dual Mode";
 
 "Menu and Dock:" = "Meny och Docka:";
-"Remove TotalFinder from Status Menu" = "Göm TotalFinder från statusfältet";
+"Hide icon in Menu Bar" = "Göm TotalFinder från statusfältet";
 "Keep Original Finder Dock Icon" = "Behåll originalikonen i Dockan";
 
 "Experimental:" = "Experimentella inställningar:";

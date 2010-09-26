@@ -44,7 +44,7 @@
 "Toggle Dual Mode" = "Çiftli modu aç/kapat";
 
 "Menu and Dock:" = "Menü ve Dock:";
-"Remove TotalFinder from Status Menu" = "TotalFinder'i durum menüsünden kaldır";
+"Hide icon in Menu Bar" = "TotalFinder'i durum menüsünden kaldır";
 "Keep Original Finder Dock Icon" = "Orijinal Finder Dock ikonunu bırak";
 
 "Experimental:" = "Deneysel:";

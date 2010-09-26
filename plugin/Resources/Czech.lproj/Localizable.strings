@@ -44,7 +44,7 @@
 "Toggle Dual Mode" = "Přepnout dualní panel";
 
 "Menu and Dock:" = "Menu a Dock:";
-"Remove TotalFinder from Status Menu" = "Skrýt ikonu ve status menu";
+"Hide icon in Menu Bar" = "Skrýt ikonu ve status menu";
 "Keep Original Finder Dock Icon" = "Vrátit původní ikonu do Docku";
 
 "Experimental:" = "Experimentální:";

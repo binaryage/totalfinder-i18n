@@ -1506,7 +1506,7 @@
 																					<object class="NSButtonCell" key="NSCell" id="297331747">
 																						<int key="NSCellFlags">67239424</int>
 																						<int key="NSCellFlags2">0</int>
-																						<string key="NSContents">^Remove TotalFinder from Status Menu</string>
+																						<string key="NSContents">^Hide icon in Menu Bar</string>
 																						<reference key="NSSupport" ref="245419672"/>
 																						<reference key="NSControlView" ref="468691185"/>
 																						<int key="NSButtonFlags">1211912703</int>

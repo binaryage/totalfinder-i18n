@@ -44,7 +44,7 @@
 "Toggle Dual Mode" = "デュアルモードの切替：";
 
 "Menu and Dock:" = "メニューと Dock：";
-"Remove TotalFinder from Status Menu" = "メニューバーから TotalFinder を取り除く";
+"Hide icon in Menu Bar" = "メニューバーから TotalFinder を取り除く";
 "Keep Original Finder Dock Icon" = "Finder アイコンはオリジナルを使う";
 
 "Experimental:" = "実験的な機能：";
