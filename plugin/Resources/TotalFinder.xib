@@ -12,7 +12,7 @@
 			<string key="net.wafflesoftware.ShortcutRecorder.IB.Leopard">1</string>
 		</dictionary>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
-			<integer value="679"/>
+			<integer value="385"/>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>net.wafflesoftware.ShortcutRecorder.IB.Leopard</string>
@@ -2034,6 +2034,26 @@
 																	<reference key="NSSuperview" ref="514572075"/>
 																	<string key="NSClassName">GTMWidthBasedTweaker</string>
 																</object>
+																<object class="NSButton" id="150945752">
+																	<reference key="NSNextResponder" ref="514572075"/>
+																	<int key="NSvFlags">265</int>
+																	<string key="NSFrame">{{323, 394}, {25, 25}}</string>
+																	<reference key="NSSuperview" ref="514572075"/>
+																	<bool key="NSEnabled">YES</bool>
+																	<object class="NSButtonCell" key="NSCell" id="223171468">
+																		<int key="NSCellFlags">67239424</int>
+																		<int key="NSCellFlags2">134217728</int>
+																		<string key="NSContents"/>
+																		<reference key="NSSupport" ref="245419672"/>
+																		<reference key="NSControlView" ref="150945752"/>
+																		<int key="NSButtonFlags">-2038415105</int>
+																		<int key="NSButtonFlags2">161</int>
+																		<string key="NSAlternateContents"/>
+																		<string key="NSKeyEquivalent"/>
+																		<int key="NSPeriodicDelay">200</int>
+																		<int key="NSPeriodicInterval">25</int>
+																	</object>
+																</object>
 															</array>
 															<string key="NSFrameSize">{355, 420}</string>
 															<reference key="NSSuperview" ref="567253236"/>
@@ -3380,6 +3400,14 @@
 					</object>
 					<int key="connectionID">1208</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">visitHelp:</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="150945752"/>
+					</object>
+					<int key="connectionID">1220</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -3541,6 +3569,7 @@
 							<reference ref="107099390"/>
 							<reference ref="334605002"/>
 							<reference ref="516170572"/>
+							<reference ref="150945752"/>
 						</array>
 						<reference key="parent" ref="38945441"/>
 					</object>
@@ -4523,6 +4552,19 @@
 						<reference key="object" ref="608528615"/>
 						<reference key="parent" ref="493243271"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1217</int>
+						<reference key="object" ref="150945752"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="223171468"/>
+						</array>
+						<reference key="parent" ref="514572075"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1218</int>
+						<reference key="object" ref="223171468"/>
+						<reference key="parent" ref="150945752"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -4687,6 +4729,8 @@
 				<string key="1204.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1205.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1209.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1217.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1218.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="385.IBEditorWindowLastContentRect">{{632, 271}, {394, 493}}</string>
 				<string key="385.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="385.IBWindowTemplateEditedContentRect">{{632, 271}, {394, 493}}</string>
@@ -4867,7 +4911,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1216</int>
+			<int key="maxID">1220</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5253,6 +5297,7 @@
 						<string key="switchEchelon:">id</string>
 						<string key="toggleTotalFinder:">id</string>
 						<string key="visitBuyNow:">id</string>
+						<string key="visitHelp:">id</string>
 						<string key="visitHelpAsepsis:">id</string>
 						<string key="visitHelpTweaks:">id</string>
 						<string key="visitHelpVisor:">id</string>
@@ -5294,6 +5339,10 @@
 						</object>
 						<object class="IBActionInfo" key="visitBuyNow:">
 							<string key="name">visitBuyNow:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="visitHelp:">
+							<string key="name">visitHelp:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="visitHelpAsepsis:">
