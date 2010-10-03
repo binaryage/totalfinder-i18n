@@ -1,0 +1,71 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Modificações";
+"About" = "Sobre";
+
+/* visor page */
+"Visor Feature" = "Funcionalidade Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "uma janela deslizante que é activa por um atalho";
+
+"Activation:" = "Activação:";
+
+"Control:" = "Controlo:";
+"Hide on ESC" = "Fechar com ESC";
+"Pin Visor" = "Fixar Visor";
+
+"Animation:" = "Animação:";
+"Fade Window" = "Escurecer Janela";
+"Slide Window" = "Deslizar Janela";
+
+"Screen:" = "Ecrã:";
+"Show on all Spaces" = "Mostrar em todos os Spaces";
+"Show on top of the Dock" = "Exibir em cima da Dock";
+"Free Form Window" = "Janela FreeForm";
+
+/* asepsis page */
+"Asepsis Feature" = "Funcionalidade Asepsis";
+"prevents .DS_Store files to be created in local folders" = "prevê que ficheiros .DS_Store sejam criados em pastas locais";
+".DS_Store files will be redirected into" = "ficheiros .DS_Store serão redireccionados para";
+"this folder should be set as writable for all users of TotalFinder" = "esta pasta deve poder ser escrita por todos utilizadores do TotalFinder";
+"Launch Migration Assistant" = "Abrir Assistente de Migração";
+"TotalFinder.kext status" = "Estado do TotalFinder.kext";
+"Unable to connect" = "Não foi possivel estabelecer ligação com a extensão!\nTem a certeza de que esta está instalada?";
+"Advanced:" = "Avançado:";
+"Don't write .DS_Store to Network" = "Não gravar .DS_Store em ficheiros na rede";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Restaurar configurações por defeito do TotalFinder";
+
+"File Browser:" = "Explorador de Ficheiros:";
+"Show System Files" = "Ficheiros de Sistema";
+"Folders on Top" = "Pastas no Topo";
+"Always Maximize" = "Maximizar Sempre";
+"Toggle Dual Mode" = "Activar Modo Duo";
+
+"Menu and Dock:" = "Menu e Dock:";
+"Hide icon in Menu Bar" = "Esconder ícone na Barra de Menus";
+"Keep original Dock icon" = "Manter ícone original na Dock";
+
+"Experimental:" = "Experimental:";
+"Freelance Windows" = "Janelas Freelance";
+"Use narrow Tabs Bar" = "Utilizar barra com abas finas";
+
+/* about page */
+"Check for updates…" = "Procurar por actualizações...";
+
+/* registration */
+"TotalFinder Registration" = "Registo do TotalFinder";
+"Registration" = "Registo";
+"Please enter your license details from the email we have sent you:" = "Por favor escreva os detalhes da licença (que estão no email que lhe enviamos):";
+"Buy TotalFinder Now" = "Comprar o TotalFinder";
+"Register" = "Registar";
+"Thanks for registering!" = "Obrigado pelo seu registo!";
+"This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registada para:";
+"Close" = "Fechar";
+"Change License" = "Alterar Licença";
+"Back" = "Voltar";
+"Invalid license code" = "Código de licença inválido";
+"Please go back and try again." = "Por favor tente novamente.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença para o TotalFinder visite a loja virtual do BinaryAge.";
+"Thank you for using TotalFinder!" = "Obrigado por utlizar o TotalFinder!";
