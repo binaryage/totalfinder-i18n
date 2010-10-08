@@ -262,7 +262,7 @@ task :undev do
     sys("./undev.sh")
 end
 
-desc "compile XIBs to NIBs (after modified the UI)"
+desc "compile XIBs to NIBs (you need this only when you modify UI in the InterfaceBuilder)"
 task :compile do 
     sys("./compile.sh")
 end
