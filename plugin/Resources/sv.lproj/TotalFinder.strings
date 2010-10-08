@@ -4,24 +4,6 @@
 "Restart Finder" = "Starta om Finder";
 "Show Visor" = "Visa Visor";
 "Hide Visor" = "Göm Visor";
-"Expired on %@" = "Går ut den %@";
-"This ALPHA version will expire in %@!" = "Denna ALPHA går ut om %@!";
-/* expiration date assembling for -^^ */
-"less than a minute" = "under en minut";
-"1 minute" = "en minut";
-"less than 5 seconds" = "mindre än 5 sekunder";
-"less than 10 seconds" = "mindre än 10 sekunder";
-"less than 20 seconds" = "mindre än 20 sekunder";
-"half a minute" = "en halv minut";
-"%.0f minutes" = "%.0f minuter";
-"about 1 hour" = "ungefär en timma";
-"about %.0f hours" = "%.0f timmar";
-"1 day" = "en dag";
-"%.0f days" = "%.0f dagar";
-"about 1 month" = "ungefär en månad";
-"%.0f months" = "%.0f månader";
-"about 1 year" = "ungefär ett år";
-"over %.0f years" = "över %.0f år";
 
 /* Asepsis preferences pane */
 "Disconnect" = "Koppla från";
@@ -60,26 +42,13 @@
 "Screen %d" = "Bildskärm %d";
 
 /* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
-"TotalFinder ALPHA has expired" = "TotalFinder alphan har utgått";
-"In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates." = "Denna version av TotalFinder har gått ut, som en påminnelse kommer denna dialog visas var tionde tabbyte.\n\nVar god uppdatera till senaste versionen av TotalFinder. Det bör endast ta några minuter.";
-"Check for updates" = "Kolla efter uppdateringar";
-"Visit Homepage" = "Besök hemsidan";
 "Please register TotalFinder" = "Var god registrera TotalFinder";
 "In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!" = "I den oregistrerade versionen av TotalFinder visas denna dialog var tionde tabbyte.\n\Jobbigt? Detta är bara mitt sätt att påminna dig om att du använder TotalFinder mycket och borde köpa det. Det är lätt, bli av med restriktionerna och gör mig glad! Tack!";
 "Buy TotalFinder now" = "Köp TotalFinder nu";
 "Why should I buy?" = "Varför köpa?";
-"TotalFinder alpha - learn more" = "TotalFinder alpha - läs mer";
-"TotalFinder expired - please upgrade" = "TotalFinder utdaterad - var god uppgradera";
 "TotalFinder - unregistered version" = "TotalFinder - oregistrerad version";
-"TotalFinder will be a paid software soon" = "TotalFinder kommer att bli köpvara snart";
-"I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "Jag vill bara påminna dig om att det här är en gratis alpha-version, TotalFinder kommer att bli köpvara när 1.0 släpps. Du kommer inte att kunna fortsätta använda alpha-versionen då den kommer att upphöra.\n\nTack för din hjälp med testandet av mitt Finder-plugin.\nJag hoppas du har funnit det användbart och överväger att stödja dess utveckling genom att köpa det!";
-"Sure, I understand" = "Ok, jag förstår";
 
 /* registration */
-"You may buy TotalFinder soon." = "Du kommer att kunna köpa TotalFinder snart.";
-"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder blir köpvara den 27e september 2010. Registreringsdialogen är avaktiverad fram tills dess.\n\nVar god vänta på version 1.0. Tack för att du klickade på den här knappen förresten :-)";
-"OK" = "OK";
-"Read Article" = "Läs artikeln";
 "Licensed to %@" = "Registrerad till %@";
 "Change License" = "Ändra licens";
 "Unregistered version in trial mode" = "Oregistrarad version, testperiod";
