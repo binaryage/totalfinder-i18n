@@ -26,7 +26,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Desconectar";
 "Connect" = "Conectar";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = Não é possível conectar-se à extensão do kernel!\nVocê tem certeza que a extensão TotalFinder do kernel foi instalada?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não é possível conectar-se à extensão do kernel!\nVocê tem certeza que a extensão TotalFinder do kernel foi instalada?";
 
 /* About preferences pane */
 "from Beta Channel" = "do Canal Beta";
