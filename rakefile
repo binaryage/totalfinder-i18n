@@ -281,11 +281,18 @@ end
 def validate_strings_files
     glob = ENV["to"] || "*.lproj"
     
+    counter = 0
+    failed = 0
     Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob, "*.strings")) do |path|
+        counter += 1
         res = validate_strings_file path
         puts path.blue+" "+"failed".red unless res
         puts path.blue+" "+"ok".yellow if res
+        failed +=1 unless res
     end
+    
+    puts "-----------------------------------"
+    puts "checked "+"#{counter} files".magenta+" and "+(failed>0 ? ("#{failed} failed".red) : ("all is ok".yellow))
 end
 
 ################################################################################################
