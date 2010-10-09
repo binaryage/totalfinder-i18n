@@ -25,11 +25,9 @@
 
 /* asepsis page */
 "Asepsis Feature" = "Asepsis";
-"prevents .DS_Store files to be created in local folders" = "Împiedică crearea
-fișierelor .DS_Store în directoarele locale";
+"prevents .DS_Store files to be created in local folders" = "Împiedică crearea fișierelor .DS_Store în directoarele locale";
 ".DS_Store files will be redirected into" = "Fișierele .DS_Store vor fi mutate în";
-"this folder should be set as writable for all users of TotalFinder" = "Toți
-utilizatorii TotalFinder trebuie să aibă drept de scriere în acest director";
+"this folder should be set as writable for all users of TotalFinder" = "Toți utilizatorii TotalFinder trebuie să aibă drept de scriere în acest director";
 "Launch Migration Assistant" = "Pornește Asistentul de Migrare";
 "TotalFinder.kext status" = "Stare TotalFinder.kext";
 "Unable to connect" = "Conectarea extensiei de kernel nu poate fi realizată. Ați instalat TotalFinder.kext?";
@@ -59,19 +57,15 @@ utilizatorii TotalFinder trebuie să aibă drept de scriere în acest director";
 /* registration */
 "TotalFinder Registration" = "Înregistrare TotalFinder";
 "Registration" = "Înregistrare";
-"Please enter your license details from the email we have sent you:" = "Vă rog
-introduceți detaliile de licență din email-ul pe care vi l-am trimis:";
+"Please enter your license details from the email we have sent you:" = "Vă rog introduceți detaliile de licență din email-ul pe care vi l-am trimis:";
 "Buy TotalFinder Now" = "Cumpără TotalFinder acum";
 "Register" = "Înregistrează-te";
 "Thanks for registering!" = "Mulțumesc pentru înregistrare!";
-"This TotalFinder copy is licensed to:" = "Aceasta copie TotalFinder este
-licențiata către:";
+"This TotalFinder copy is licensed to:" = "Aceasta copie TotalFinder este licențiata către:";
 "Close" = "Închide";
 "Change License" = "Schimba licența";
 "Back" = "Înapoi";
 "Invalid license code" = "Cod de licență invalid";
 "Please go back and try again." = "Vă rog dați înapoi și încercați din nou.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." =
-"Pentru a cumpăra o licență TotalFinder, vă rugam visitati magazinul online
-BinaryAge";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Pentru a cumpăra o licență TotalFinder, vă rugam visitati magazinul online BinaryAge";
 "Thank you for using TotalFinder!" = "Vă multumim ca folosiți TotalFinder!";

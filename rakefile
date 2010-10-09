@@ -249,6 +249,52 @@ def exec_cmd_in_lprojs(cmd)
     end
 end
 
+def validate_strings_file path
+    lines = parse_strings_file(path)
+    
+    in_multi_line_comment = false
+    counter = 0
+    lines.each do |line|
+        counter += 1
+        if in_multi_line_comment and line =~ /.*\*\/\w*$/
+            in_multi_line_comment = false
+            next
+        end
+        next if in_multi_line_comment
+        next if line =~ /^".*?" = ".*?";$/
+        next if line =~ /^\/\*.*?\*\/$/
+        next if line =~ /^$/
+        if line =~ /^\/\*[^\*]*/ then
+            in_multi_line_comment = true
+            next
+        end
+        
+        puts "line ##{counter}: unrecognized pattern".red+" (fix rakefile if this is a valid pattern)"
+        puts line
+        puts "mate -l #{counter} \"#{path}\"".yellow
+        return false
+    end
+    
+    true
+end
+
+def validate_strings_files
+    glob = ENV["to"] || "*.lproj"
+    
+    counter = 0
+    failed = 0
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob, "*.strings")) do |path|
+        counter += 1
+        ok = validate_strings_file path
+        puts path.blue+" "+"ok".yellow if ok
+        puts path.blue+" "+"failed".red unless ok
+        failed +=1 unless ok
+    end
+    
+    puts "-----------------------------------"
+    puts "checked "+"#{counter} files".magenta+" and "+(failed>0 ? ("#{failed} failed".red) : ("all is ok".yellow))
+end
+
 ################################################################################################
 # tasks
 
@@ -262,7 +308,7 @@ task :undev do
     sys("./undev.sh")
 end
 
-desc "compile XIBs to NIBs (after modified the UI)"
+desc "compile XIBs to NIBs (you need this only when you modify UI in the InterfaceBuilder)"
 task :compile do 
     sys("./compile.sh")
 end
@@ -304,6 +350,11 @@ end
 desc "exec command in all lproj folders"
 task :exec do
     exec_cmd_in_lprojs(ENV["cmd"] || "ls")
+end
+
+desc "validates all strings files and checks them for syntax errors"
+task :validate do
+    validate_strings_files
 end
 
 task :default => :restart

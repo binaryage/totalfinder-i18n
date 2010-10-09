@@ -4,24 +4,6 @@
 "Restart Finder" = "Finder neustarten";
 "Show Visor" = "Visor einblenden";
 "Hide Visor" = "Visor ausblenden";
-"Expired on %@" = "Abgelaufen am %@";
-"This ALPHA version will expire in %@!" = "Diese ALPHA Version wird in %@ ablaufen!";
-/* expiration date assembling for -^^ */
-"less than a minute" = "weniger als einer Minute";
-"1 minute" = "einer Minute";
-"less than 5 seconds" = "weniger als 5 Sekunden";
-"less than 10 seconds" = "weniger als 10 Sekunden";
-"less than 20 seconds" = "weniger als 20 Sekunden";
-"half a minute" = "einer halben Minute";
-"%.0f minutes" = "%.0f Minuten";
-"about 1 hour" = "ungefähr einer Stunde";
-"about %.0f hours" = "%.0f Stunden";
-"1 day" = "einem Tag";
-"%.0f days" = "%.0f Tagen";
-"about 1 month" = "ungefähr einem Monat";
-"%.0f months" = "%.0f Monaten";
-"about 1 year" = "ungefähr einem Jahr";
-"over %.0f years" = "über %.0f Jahren";
 
 /* Asepsis preferences pane */
 "Disconnect" = "Trennen";
@@ -60,26 +42,13 @@
 "Screen %d" = "Bildschirm %d";
 
 /* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
-"TotalFinder ALPHA has expired" = "TotalFinder ALPHA has expired";
-"In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates." = "In the expired version this dialog pops up every 10 tab switches.\n\nI just want you to upgrade to the latest TotalFinder version. It should take just a few minutes. Please check for updates.";
-"Check for updates" = "Updates suchen";
-"Visit Homepage" = "Homepage besuchen";
 "Please register TotalFinder" = "Bitte registrieren Sie TotalFinder";
 "In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!" = "In der unregistrierten Version taucht dieser Dialog jedes Mal nach 10 Tab-Umschaltungen auf.\n\nNervig? Dies ist lediglich eine Erinnerung, dass Sie Tabs intensiv nutzen und Sie daher diese großartige Software kaufen sollten. Es ist einfach. Werden Sie diese Einschränkung los und unterstützen Sie mich. Danke!";
 "Buy TotalFinder now" = "TotalFinder jetzt kaufen";
 "Why should I buy?" = "Warum kaufen?";
-"TotalFinder alpha - learn more" = "TotalFinder alpha - Erfahren Sie mehr";
-"TotalFinder expired - please upgrade" = "TotalFinder ist abgelaufen - Bitte Aktualisieren";
 "TotalFinder - unregistered version" = "TotalFinder - Unregistrierte Version";
-"TotalFinder will be a paid software soon" = "TotalFinder wird künftig kostenpflichtig";
-"I just want to remind you that this is a free alpha version, but TotalFinder will become a paid software when it hits 1.0 version. You cannot stick with an alpha version, because it is going to expire at some point.\n\nThank you for helping me test this Finder plugin.\nI hope you find it useful and consider to support its further development by buying it." = "Ich möchte Sie daran erinnern, dass dies eine kostenlose Alpha-Version ist, TotalFinder wird mit der Version 1.0 kostenpflichtig. Sie können diese Alpha-Version nicht unbegrenzt verwenden, da sie zu einem gewissen Zeitpunkt ablaufen wird.\n\nDanke, dass Sie mithelfen, dieses Finder Plug-In zu testen.\nIch hoffe, dass Sie es nützlich finden und durch Ihren Kauf die weitere Entwicklung unterstützen.";
-"Sure, I understand" = "Ja, ich habe verstanden";
 
 /* registration */
-"You may buy TotalFinder soon." = "Sie können TotalFinder bald kaufen.";
-"TotalFinder will become a commercial app on Sep 27, 2010. The registration dialog is disabled until that day.\n\nPlease wait for the 1.0 release. And by the way, thanks for clicking this button :-)" = "TotalFinder wird zum 27. September 2010 eine kommerzielle Software werden. Dieser Registrierungs-Dialog ist bis dahin deaktiviert.\n\nBitte warten Sie auf die Veröffentlichung der Version 1.0. Und übrigens: Danke für das Anklicken dieses Buttons. :-)";
-"OK" = "OK";
-"Read Article" = "Artikel lesen";
 "Licensed to %@" = "Lizensiert für %@";
 "Change License" = "Lizenz ändern";
 "Unregistered version in trial mode" = "Unregistrierte Version";
