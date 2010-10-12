@@ -244,19 +244,19 @@
 					<object class="NSTextField" id="365490768">
 						<reference key="NSNextResponder" ref="711788427"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{168, 171}, {294, 20}}</string>
+						<string key="NSFrame">{{168, 172}, {294, 19}}</string>
 						<reference key="NSSuperview" ref="711788427"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="401619739"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="908074234">
 							<int key="NSCellFlags">-1805517247</int>
-							<int key="NSCellFlags2">272631872</int>
+							<int key="NSCellFlags2">272762944</int>
 							<string key="NSContents"/>
-							<object class="NSFont" key="NSSupport" id="498180556">
-								<string key="NSName">CourierNewPSMT</string>
+							<object class="NSFont" key="NSSupport" id="26">
+								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">11</double>
-								<int key="NSfFlags">16</int>
+								<int key="NSfFlags">3088</int>
 							</object>
 							<string key="NSPlaceholderString">License Name</string>
 							<reference key="NSControlView" ref="365490768"/>
@@ -288,9 +288,9 @@
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="563278602">
 							<int key="NSCellFlags">-1805517311</int>
-							<int key="NSCellFlags2">272629760</int>
+							<int key="NSCellFlags2">272760832</int>
 							<string key="NSContents"/>
-							<reference key="NSSupport" ref="498180556"/>
+							<reference key="NSSupport" ref="26"/>
 							<string key="NSPlaceholderString">License Key</string>
 							<reference key="NSControlView" ref="401619739"/>
 							<bool key="NSDrawsBackground">YES</bool>
@@ -336,7 +336,6 @@
 						</object>
 						<string key="NSFrame">{{20, 46}, {442, 117}}</string>
 						<reference key="NSSuperview" ref="531393315"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<string key="FrameName"/>
 						<string key="GroupName"/>
@@ -372,7 +371,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{153, 245}, {268, 21}}</string>
 						<reference key="NSSuperview" ref="531393315"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="800520966"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="781388966">
@@ -390,7 +388,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{164, 201}, {312, 17}}</string>
 						<reference key="NSSuperview" ref="531393315"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="366762437"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="668460850">
@@ -413,7 +410,6 @@
 								<int key="NSvFlags">265</int>
 								<string key="NSFrame">{{352, -4}, {96, 32}}</string>
 								<reference key="NSSuperview" ref="246032894"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="185314746">
@@ -435,7 +431,6 @@
 								<int key="NSvFlags">265</int>
 								<string key="NSFrame">{{205, -4}, {147, 32}}</string>
 								<reference key="NSSuperview" ref="246032894"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="550102703"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="118359147">
@@ -455,7 +450,6 @@
 						</object>
 						<string key="NSFrame">{{20, 18}, {442, 24}}</string>
 						<reference key="NSSuperview" ref="531393315"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="726292340"/>
 						<string key="NSClassName">GTMWidthBasedTweaker</string>
 					</object>
@@ -464,7 +458,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{165, 174}, {300, 17}}</string>
 						<reference key="NSSuperview" ref="531393315"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="466063247"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="727665254">
@@ -488,7 +481,6 @@
 				</object>
 				<string key="NSFrameSize">{482, 301}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="403591102"/>
 				<string key="NSClassName">MSZLinkedView</string>
 			</object>
@@ -507,7 +499,6 @@
 								<int key="NSvFlags">265</int>
 								<string key="NSFrame">{{352, -4}, {96, 32}}</string>
 								<reference key="NSSuperview" ref="775881884"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="1020329217">
@@ -529,7 +520,6 @@
 								<int key="NSvFlags">265</int>
 								<string key="NSFrame">{{174, -4}, {178, 32}}</string>
 								<reference key="NSSuperview" ref="775881884"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="793774132"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="241455364">
@@ -549,7 +539,6 @@
 						</object>
 						<string key="NSFrame">{{20, 18}, {442, 24}}</string>
 						<reference key="NSSuperview" ref="780576108"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="385708746"/>
 						<string key="NSClassName">GTMWidthBasedTweaker</string>
 					</object>
@@ -558,7 +547,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{154, 245}, {311, 21}}</string>
 						<reference key="NSSuperview" ref="780576108"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="936629464"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="745627154">
@@ -576,7 +564,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{166, 219}, {299, 17}}</string>
 						<reference key="NSSuperview" ref="780576108"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1007821015"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="588904848">
@@ -594,7 +581,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{166, 58}, {299, 94}}</string>
 						<reference key="NSSuperview" ref="780576108"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="775881884"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="313347831">
@@ -610,7 +596,6 @@
 				</object>
 				<string key="NSFrameSize">{482, 301}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="747664142"/>
 				<string key="NSClassName">MSZLinkedView</string>
 			</object>

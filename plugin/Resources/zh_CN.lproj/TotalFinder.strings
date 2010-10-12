@@ -41,12 +41,14 @@
 /* misc. */
 "Screen %d" = "显示器 %d";
 
-/* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
-"Please register TotalFinder" = "请注册 TotalFinder";
-"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!" = "使用未注册版本在每10个标签页就会弹出本窗口。\n\n讨厌吗? 如果您想更好的使用标签页，您真应该购买这么棒的软件。摆脱这个限制的同时也使我开心，就这也简单。非常感谢您的支持!";
-"Buy TotalFinder now" = "现在购买 TotalFinder";
-"Why should I buy?" = "我为什么应该购买?";
+/* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - 未注册版本";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 剩余 1 天 - 现在购买!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 剩余 2 天 - 现在购买!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 剩余 3 天 - 现在购买!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 剩余 4 天 - 现在购买!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 剩余 5 天 - 现在购买!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 剩余 %d 天 - 现在购买!";
 
 /* registration */
 "Licensed to %@" = "授权给 %@";
