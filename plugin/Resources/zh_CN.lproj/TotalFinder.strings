@@ -2,13 +2,13 @@
 "Check for Updates" = "更新检查";
 "Uninstall TotalFinder" = "卸载 TotalFinder";
 "Restart Finder" = "重启 Finder";
-"Show Visor" = "显示滑入视窗";
-"Hide Visor" = "隐藏滑入视窗";
+"Show Visor" = "显示滑入窗口";
+"Hide Visor" = "隐藏滑入窗口";
 
 /* Asepsis preferences pane */
 "Disconnect" = "断线";
 "Connect" = "连线";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "连接不到kernel extension!\nTotalFinder kernel extension是否已经安装?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "连接不到kernel extension!\nTotalFinder.kext 是否已经安装?";
 
 /* About preferences pane */
 "from Beta Channel" = "from Beta Channel";
@@ -18,38 +18,38 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "重置";
 "Cancel" = "取消";
-"Do you really want reset to defaults?" = "是否确定把配置重设到TotalFinder默认?";
-"This will restore initial TotalFinder settings." = "把配置重设到TotalFinder默认";
+"Do you really want reset to defaults?" = "是否确定把配置重设到 TotalFinder 默认?";
+"This will restore initial TotalFinder settings." = "把配置重设到 TotalFinder 默认";
 
 /* Unistall Alert Box */
 "Uninstall" = "卸载";
-"Really want to uninstall TotalFinder?" = "是否确定把TotalFinder卸载?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "启动卸载程式把TotalFinder卸载，恢复原本Finder";
+"Really want to uninstall TotalFinder?" = "是否确定把 TotalFinder 卸载?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "启动卸载脚本卸载 TotalFinder 并恢复原本 Finder";
 
 /* MainMenu items */
 "New Finder Tab" = "创建新标签";
 "Close Tab" = "关闭标签";
-"Close Window" = "关闭视窗";
+"Close Window" = "关闭窗口";
 "Show System Files" = "显示系统文件";
 "Folders On Top" = "文件夹置顶";
-"Toggle Dual Mode" = "双视窗模式";
+"Toggle Dual Mode" = "双窗口模式";
 "Narrow Tabs Bar" = "窄标签栏";
-"Pin Visor" = "视窗固定";
-"TotalFinder Preferences…" = "TotalFinder配置 …";
+"Pin Visor" = "窗口固定";
+"TotalFinder Preferences…" = "TotalFinder 配置…";
 "Visit Homepage…" = "访问主页…";
 
 /* misc. */
 "Screen %d" = "显示器 %d";
 
 /* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
-"Please register TotalFinder" = "Please register TotalFinder";
-"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!" = "In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!";
-"Buy TotalFinder now" = "Buy TotalFinder now";
-"Why should I buy?" = "Why should I buy?";
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
+"Please register TotalFinder" = "请注册 TotalFinder";
+"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!" = "使用未注册版本在每10个标签页就会弹出本窗口。\n\n讨厌吗? 如果您想更好的使用标签页，您真应该购买这么棒的软件。摆脱这个限制的同时也使我开心，就这也简单。非常感谢您的支持!";
+"Buy TotalFinder now" = "现在购买 TotalFinder";
+"Why should I buy?" = "我为什么应该购买?";
+"TotalFinder - unregistered version" = "TotalFinder - 未注册版本";
 
 /* registration */
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Licensed to %@" = "授权给 %@";
+"Change License" = "更换授权";
+"Unregistered version in trial mode" = "未注册版本体验模式";
+"Register" = "注册人";
