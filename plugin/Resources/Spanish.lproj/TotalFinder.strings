@@ -41,12 +41,14 @@
 /* misc. */
 "Screen %d" = "Pantalla %d";
 
-/* Dialogs related to optional notice dialogs in the top-right corner of the main frame window with tabs */
-"Please register TotalFinder" = "Por favor registre TotalFinder";
-"In the unregistered version this dialog pops up every 10 tab switches.\n\nAnnoying? This is a reminder that you are using tabs intensively and you should buy this awesome software. It's easy. Get rid of this limitation and make my day. Thanks!" = "In la versión no registrada estediálogo aparece cada 10 cambios de pestaña.\n\nMolesto? Este es un recordatorio amistoso que usted usa pestañas en forma muy frequente y que debiera comprar este increíble programa. Es muy fácil. Elimine esta limitación y contriuya a hacer mi día! Gracias.";
-"Buy TotalFinder now" = "Comprar TotalFinder";
-"Why should I buy?" = "Porqué debiera comprar?";
+/* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - versión no registrada";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
 
 /* registration */
 "Licensed to %@" = "Licensed to %@";
