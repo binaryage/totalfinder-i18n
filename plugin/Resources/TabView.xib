@@ -60,10 +60,6 @@
 								<object class="NSImageCell" key="NSCell" id="1063709696">
 									<int key="NSCellFlags">537001472</int>
 									<int key="NSCellFlags2">33587200</int>
-									<object class="NSCustomResource" key="NSContents" id="1066421723">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">nav</string>
-									</object>
 									<int key="NSAlign">0</int>
 									<int key="NSScale">2</int>
 									<int key="NSStyle">0</int>
@@ -165,7 +161,6 @@
 								<object class="NSImageCell" key="NSCell" id="1061639670">
 									<int key="NSCellFlags">537001472</int>
 									<int key="NSCellFlags2">33587200</int>
-									<reference key="NSContents" ref="1066421723"/>
 									<int key="NSAlign">0</int>
 									<int key="NSScale">2</int>
 									<int key="NSStyle">0</int>
@@ -510,6 +505,7 @@
 							<reference ref="1063709696"/>
 						</array>
 						<reference key="parent" ref="279050519"/>
+						<string key="objectName">Image View</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">110</int>
@@ -627,14 +623,14 @@
 						<string key="performDoubleClick:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="closeButton2_">HoverCloseButton</string>
-						<string key="closeButton_">HoverCloseButton</string>
-						<string key="iconView2_">NSView</string>
-						<string key="iconView_">NSView</string>
-						<string key="titleView2_">NSTextField</string>
-						<string key="titleView_">NSTextField</string>
-						<string key="view2_">NSView</string>
-						<string key="view_">NSView</string>
+						<string key="closeButton2_">id</string>
+						<string key="closeButton_">id</string>
+						<string key="iconView2_">id</string>
+						<string key="iconView_">id</string>
+						<string key="titleView2_">id</string>
+						<string key="titleView_">id</string>
+						<string key="view2_">id</string>
+						<string key="view_">id</string>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
@@ -645,9 +641,9 @@
 					<string key="className">TabView</string>
 					<string key="superclassName">BackgroundGradientView</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="closeButton2_">HoverCloseButton</string>
-						<string key="closeButton_">HoverCloseButton</string>
-						<string key="controller_">TabController</string>
+						<string key="closeButton2_">id</string>
+						<string key="closeButton_">id</string>
+						<string key="controller_">id</string>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
