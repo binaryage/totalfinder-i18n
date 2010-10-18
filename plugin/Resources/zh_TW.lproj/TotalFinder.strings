@@ -1,57 +1,57 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "更新檢查";
-"Uninstall TotalFinder" = "卸載 TotalFinder";
-"Restart Finder" = "重啟 Finder";
+"Check for Updates" = "檢查更新";
+"Uninstall TotalFinder" = "移除 TotalFinder";
+"Restart Finder" = "重新啟動 Finder";
 "Show Visor" = "顯示滑入視窗";
 "Hide Visor" = "隱藏滑入視窗";
 
 /* Asepsis preferences pane */
-"Disconnect" = "斷線";
-"Connect" = "連線";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "連接不到kernel extension!\nTotalFinder kernel extension是否已經安裝?";
+"Disconnect" = "中斷";
+"Connect" = "連接";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "無法連接到 kernel extension! TotalFinder kernel extension是否已經正確安裝?";
 
 /* About preferences pane */
-"from Beta Channel" = "from Beta Channel";
-"from Dev Channel" = "from Dev Channel";
-"from Stable Channel" = "from Stable Channel";
+"from Beta Channel" = "從 Beta 頻道";
+"from Dev Channel" = "從 Dev 頻道";
+"from Stable Channel" = "從 Stable 頻道";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "重置";
+"Reset" = "重設";
 "Cancel" = "取消";
-"Do you really want reset to defaults?" = "是否確定把配置重設到TotalFinder默認?";
-"This will restore initial TotalFinder settings." = "把配置重設到TotalFinder默認";
+"Do you really want reset to defaults?" = "您確定要重設到預設值?";
+"This will restore initial TotalFinder settings." = "這將會還原 TotalFinder 的初始設定。";
 
 /* Unistall Alert Box */
-"Uninstall" = "卸載";
-"Really want to uninstall TotalFinder?" = "是否確定把TotalFinder卸載?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "啟動卸載程式把TotalFinder卸載，恢復原本Finder";
+"Uninstall" = "移除";
+"Really want to uninstall TotalFinder?" = "確定要移除 TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "這將會啟動移除程式將TotalFinder移除，並還原您原始的Finder。";
 
 /* MainMenu items */
-"New Finder Tab" = "創建新標簽";
-"Close Tab" = "關閉標簽";
+"New Finder Tab" = "新增 Finder 分頁";
+"Close Tab" = "關閉分頁";
 "Close Window" = "關閉視窗";
-"Show System Files" = "顯示系統文件";
-"Folders On Top" = "文件夾置頂";
+"Show System Files" = "顯示系統檔案";
+"Folders On Top" = "檔案夾置頂";
 "Toggle Dual Mode" = "雙視窗模式";
-"Narrow Tabs Bar" = "窄標簽欄";
-"Pin Visor" = "視窗固定";
-"TotalFinder Preferences…" = "TotalFinder配置 …";
-"Visit Homepage…" = "訪問主頁…";
+"Narrow Tabs Bar" = "較窄分頁列";
+"Pin Visor" = "固定滑入視窗";
+"TotalFinder Preferences…" = "TotalFinder 設定…";
+"Visit Homepage…" = "造訪網站…";
 
 /* misc. */
 "Screen %d" = "顯示器 %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - unregistered version" = "TotalFinder - 未註冊版本";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 剩下 1 天 - 馬上購買!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 剩下 2 天 - 馬上購買!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 剩下 3 天 - 馬上購買!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 剩下 4 天 - 馬上購買!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 剩下 5 天 - 馬上購買!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 剩下 %d 天 - 馬上購買!";
 
 /* registration */
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Licensed to %@" = "授權給 %@";
+"Change License" = "變更授權";
+"Unregistered version in trial mode" = "未註冊版本 試用模式";
+"Register" = "註冊";

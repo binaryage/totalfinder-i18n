@@ -1,71 +1,71 @@
 /* navigation bar */
 "Visor" = "滑入視窗";
 "Asepsis" = "隔離";
-"Tweaks" = "配置";
+"Tweaks" = "設定";
 "About" = "關於";
 
 /* visor page */
-"Visor Feature" = "滑入視窗";
-"a system-wide window sliding from the bottom on a hot-key" = "透過系統熱鍵將視窗從屏幕底部向上滑入";
+"Visor Feature" = "啟用滑入視窗";
+"a system-wide window sliding from the bottom on a hot-key" = "以快速鍵呼叫視窗由螢幕底部滑入";
 
-"Activation:" = "激活熱鍵:";
+"Activation:" = "快速鍵:";
 
-"Control:" = "操作:";
-"Hide on ESC" = "使用 ESC 隱藏視窗";
-"Pin Visor" = "視窗固定熱鍵:";
+"Control:" = "控制:";
+"Hide on ESC" = "按 ESC 隱藏";
+"Pin Visor" = "固定滑入視窗:";
 
-"Animation:" = "動效:";
+"Animation:" = "動畫特效:";
 "Fade Window" = "視窗淡入/淡出";
 "Slide Window" = "視窗滑入/滑出";
 
 "Screen:" = "顯示器:";
-"Show on all Spaces" = "在所有Spaces空間顯示";
-"Show on top of the Dock" = "顯示在Dock上面";
-"Free Form Window" = "隨意控制滑入視窗大小位置";
+"Show on all Spaces" = "顯示於每個 Spaces 空間";
+"Show on top of the Dock" = "顯示在 Dock 上層";
+"Free Form Window" = "自由調整視窗大小位置";
 
 /* asepsis page */
-"Asepsis Feature" = "隔離隱藏文件";
-"prevents .DS_Store files to be created in local folders" = "防止.DS_Store文件寫入在本地文件夾";
-".DS_Store files will be redirected into" = "把所有.DS_Store檔案保存到";
-"this folder should be set as writable for all users of TotalFinder" = "該文件夾必須是全部TotalFinder用戶可讀寫";
-"Launch Migration Assistant" = "啟動遷移助理";
+"Asepsis Feature" = "啟用隔離";
+"prevents .DS_Store files to be created in local folders" = "防止 .DS_Store 檔案寫入本地檔案夾";
+".DS_Store files will be redirected into" = "把所有 .DS_Store 檔案儲存到";
+"this folder should be set as writable for all users of TotalFinder" = "該檔案夾必須是所有 TotalFinder 使用者都可寫入";
+"Launch Migration Assistant" = "啟動搬移助理";
 "TotalFinder.kext status" = "TotalFinder.kext 狀態";
-"Unable to connect" = "連接不到kernel extension!\nTotalFinder kernel extension是否已經安裝?";
+"Unable to connect" = "無法連接";
 "Advanced:" = "進階:";
-"Don't write .DS_Store to Network" = "不把.DS_Store寫在網絡";
+"Don't write .DS_Store to Network" = "不要寫入 .DS_Store 到網路";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "把配置重設到TotalFinder默認";
+"Reset TotalFinder to defaults" = "將 TotalFinder 重設到預設值";
 
 "File Browser:" = "檔案瀏覽:";
-"Show System Files" = "顯示系統文件";
-"Folders on Top" = "文件夾置頂";
-"Always Maximize" = "默認最大化";
-"Toggle Dual Mode" = "雙視窗模式";
+"Show System Files" = "顯示系統檔案";
+"Folders on Top" = "檔案夾置頂";
+"Always Maximize" = "總是最大化";
+"Toggle Dual Mode" = "切換雙視窗模式";
 
-"Menu and Dock:" = "菜單 及 Dock:";
-"Hide icon in Menu Bar" = "在狀態欄菜單不顯示TotalFinder";
-"Keep original Dock icon" = "使用原始Finder Dock圖標";
+"Menu and Dock:" = "選單及 Dock:";
+"Hide icon in Menu Bar" = "隱藏選單列圖示";
+"Keep original Dock icon" = "保留原始 Dock 圖示";
 
-"Experimental:" = "實驗:";
+"Experimental:" = "實驗性:";
 "Freelance Windows" = "使用自由視窗";
-"Use narrow Tabs Bar" = "使用窄標簽欄";
+"Use narrow Tabs Bar" = "使用較窄分頁列";
 
 /* about page */
-"Check for updates…" = "更新檢查…";
+"Check for updates…" = "檢查更新…";
 
 /* registration */
-"TotalFinder Registration" = "TotalFinder Registration";
-"Registration" = "Registration";
-"Please enter your license details from the email we have sent you:" = "Please enter your license details from the email we have sent you:";
-"Buy TotalFinder Now" = "Buy TotalFinder Now";
-"Register" = "Register";
-"Thanks for registering!" = "Thanks for registering!";
-"This TotalFinder copy is licensed to:" = "This TotalFinder copy is licensed to:";
-"Close" = "Close";
-"Change License" = "Change License";
-"Back" = "Back";
-"Invalid license code" = "Invalid license code";
-"Please go back and try again." = "Please go back and try again.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
-"Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
+"TotalFinder Registration" = "註冊 TotalFinder";
+"Registration" = "註冊";
+"Please enter your license details from the email we have sent you:" = "請輸入我們寄給您的授權資訊:";
+"Buy TotalFinder Now" = "馬上購買 TotalFinder";
+"Register" = "註冊";
+"Thanks for registering!" = "感謝您的註冊!";
+"This TotalFinder copy is licensed to:" = "這份 TotalFinder 授權給:";
+"Close" = "關閉";
+"Change License" = "變更授權";
+"Back" = "返回";
+"Invalid license code" = "無效的授權碼";
+"Please go back and try again." = "請返回再試一次。";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "要購買 TotalFinder 授權，請造訪 BinaryAge 網路商店。";
+"Thank you for using TotalFinder!" = "感謝您使用 TotalFinder!";
