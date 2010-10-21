@@ -1,11 +1,11 @@
 "Space" = "Espacio";
-"Use old shortcut" = "Usar teclas anteriores";
-"Type shortcut" = "Tipear teclas";
-"Click to record shortcut" = "Clic para grabar teclas";
+"Use old shortcut" = "Usar anterior";
+"Type shortcut" = "Pulsar teclas";
+"Click to record shortcut" = "Clic para crear";
 "Pad %@" = "Rellenar %@";
-"The key combination %@ can't be used!" = "La combinación de teclas %@ no se puede usar!";
-"The key combination \"%@\" can't be used because %@." = "La combinación de teclas \"%@\" no se puede usar porque %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "La combinación de teclas \"%@\" no se puede usar porque está en uso con una función rápida global. (Si realmente desea usar esta combinación de teclas, la mayoría de las funciones rápidas se pueden cambiar en el panel Teclado en las Preferencias del Sistema.)";
+"The key combination %@ can't be used!" = "La combinación de teclas %@ no puede ser utilizada";
+"The key combination \"%@\" can't be used because %@." = "La combinación de teclas \"%@\" no puede ser utilizada porque %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "La combinación de teclas \"%@\" no puede ser utilizada porque está en uso como una función rápida de teclado del sistema. (Si realmente desea usar esta combinación de teclas, la mayoría de las funciones rápidas se pueden cambiar en el panel Teclado de las Preferencias del Sistema.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "La combinación de teclas \"%@\" no puede ser usada porque está en uso para el elemento de menú \"%@\".";
 "Command + " = "Comando + ";
 "Option + " = "Opción + ";
