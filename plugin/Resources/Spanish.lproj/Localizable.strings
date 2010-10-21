@@ -28,28 +28,28 @@
 "prevents .DS_Store files to be created in local folders" = "evita que se creen archivos .DS_Store en las carpetas locales";
 ".DS_Store files will be redirected into" = "Los archivos .DS_Store serán redirigidos a";
 "this folder should be set as writable for all users of TotalFinder" = "(necesita permisos de escritura para todos los usarios de TotalFinder)";
-"Launch Migration Assistant" = "Lanzar el Asistente de Migración";
+"Launch Migration Assistant" = "Lanzar Asistente de Migración";
 "TotalFinder.kext status" = "Estado de TotalFinder.kext";
-"Unable to connect" = "No es posible conectar a la extensión del kernel.\n¿Tiene la extensión del kernel de TotalFinder instalada?";
+"Unable to connect" = "No es posible conectar con la extensión del kernel.\n¿Tiene la extensión del kernel correctamente instalada?";
 "Advanced:" = "Avanzado:";
 "Don't write .DS_Store to Network" = "No escribir .DS_Store en unidades de Red"; /* 'unidades de Red' deducido de aquí: http://www.apple.com/es/macosx/what-is-macosx/dock-and-finder.html */
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Restaurar valores por defecto de TotalFinder";
+"Reset TotalFinder to defaults" = "Restaurar valores por omisión";
 
 "File Browser:" = "Navegador de Archivos:";
-"Show System Files" = "Archivos del Sistema";
+"Show System Files" = "Ver Archiv. del Sistema";
 "Folders on Top" = "Carpetas primero";
 "Always Maximize" = "Maximizar completamente";
 "Toggle Dual Mode" = "Cambiar a Modo Dual";
 
 "Menu and Dock:" = "Menú y Dock:";
-"Hide icon in Menu Bar" = "Ocultar icono de la Barra de Menús";
-"Keep original Dock icon" = "Usar el icono original de Finder en el Dock";
+"Hide icon in Menu Bar" = "Ocultar icono de la Barra de Menú";
+"Keep original Dock icon" = "Usar icono original de Finder en el Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "No agrupar ventanas";
-"Use narrow Tabs Bar" = "B. de pestañas estrecha";
+"Use narrow Tabs Bar" = "Barra Pestañas estrecha";
 
 /* about page */
 "Check for updates…" = "Comprobar actualizaciones…";
@@ -57,7 +57,7 @@
 /* registration */
 "TotalFinder Registration" = "Registro de TotalFinder";
 "Registration" = "Registro";
-"Please enter your license details from the email we have sent you:" = "Introduzca los datos de licencia del correo electrónico que le hemos enviado:";
+"Please enter your license details from the email we have sent you:" = "Introduzca sus datos de licencia, del correo electrónico que le hemos enviado:";
 "Buy TotalFinder Now" = "Comprar TotalFinder";
 "Register" = "Registrar";
 "Thanks for registering!" = "¡Gracias por registrarse!";
@@ -68,4 +68,4 @@
 "Invalid license code" = "Código de lincencia inválido";
 "Please go back and try again." = "Vuelva atrás e inténtelo de nuevo.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar una licencia de TotalFinder puede visitar la página web de BinaryAge.";
-"Thank you for using TotalFinder!" = "¡Gracias por usar TotalFinder!";
+"Thank you for using TotalFinder!" = "¡Gracias por utilizar TotalFinder!";
