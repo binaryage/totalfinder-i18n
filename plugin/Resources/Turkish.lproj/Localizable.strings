@@ -1,71 +1,71 @@
 /* navigation bar */
-"Visor" = "Vizör";
+"Visor" = "Bakaç";
 "Asepsis" = "Asepsi";
-"Tweaks" = "Ince Ayar";
+"Tweaks" = "İnce Ayar";
 "About" = "Hakkında";
 
 /* visor page */
-"Visor Feature" = "Vizör özelliği";
-"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde kısa yol ile alttan yukarıya kayan pencere";
+"Visor Feature" = "Bakaç özelliği";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde kısayol ile alttan açılarak ekranı kapsayan pencere";
 
 "Activation:" = "Aktivasyon:";
 
-"Control:" = "Control:";
+"Control:" = "Kontrol:";
 "Hide on ESC" = "ESC ile gizle";
-"Pin Visor" = "Vizörü kenetle";
+"Pin Visor" = "Bakaçı sabitle";
 
 "Animation:" = "Animasyon:";
-"Fade Window" = "Pencereyi sönümle";
+"Fade Window" = "Pencereyi söndür";
 "Slide Window" = "Pencereyi kaydır";
 
 "Screen:" = "Ekran:";
-"Show on all Spaces" = "Bütün Spacelerde göster";
-"Show on top of the Dock" = "Dockun üzerinde göster";
-"Free Form Window" = "Serbest şekil pencere";
+"Show on all Spaces" = "Bütün Alanlarda göster";
+"Show on top of the Dock" = "İskeleyi(Dock) ört";
+"Free Form Window" = "Serbest şekillendirilebilir pencere";
 
 /* asepsis page */
 "Asepsis Feature" = "Asepsi özelliği";
-"prevents .DS_Store files to be created in local folders" = "klasörlerde .DS_Store dosyalarının oluşumunu engeller";
-".DS_Store files will be redirected into" = ".DS_Store dosyaları yönlendirilecek yer";
-"this folder should be set as writable for all users of TotalFinder" = "bu klasör bütün TotalFinder kullanıcıları icin yazılabilir olması lâzım";
-"Launch Migration Assistant" = "Geçiş asistanını çalıştır";
+"prevents .DS_Store files to be created in local folders" = ".DS_Store dosyalarının klasörlerde oluşturulmasını engeller";
+".DS_Store files will be redirected into" = ".DS_Store dosyalarını yönlendirilecek konum";
+"this folder should be set as writable for all users of TotalFinder" = "bu klasörün bütün TotalFinder kullanıcıları icin yazılabilir olması gereklidir";
+"Launch Migration Assistant" = "Taşıma Yardımcısını Çalıştır";
 "TotalFinder.kext status" = "TotalFinder.kext durumu";
-"Unable to connect" = "Kernel eklentisi ile bağlanılınamıyor!\nTotalFinder kernel eklentisi yüklümü?";
+"Unable to connect" = "Kernel eklentisi ile bağlanılınamıyor! TotalFinder.kext kernel eklentisi doğru yüklenmiş mi?";
 "Advanced:" = "Gelişmiş:";
 "Don't write .DS_Store to Network" = ".DS_Store'u bilgisayar ağına yazma";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "TotalFinder'i varsayılana resetle";
+"Reset TotalFinder to defaults" = "TotalFinder'ı varsayılan ayarlara sıfırla";
 
 "File Browser:" = "Dosya tarayıcısı:";
 "Show System Files" = "Sistem dosyalarını göster";
-"Folders on Top" = "Klasörler başlangıçta";
-"Always Maximize" = "Daima maximize et";
-"Toggle Dual Mode" = "Çiftli modu aç/kapat";
+"Folders on Top" = "Klasörleri dosyaların üstüne taşı";
+"Always Maximize" = "Her zaman büyüterek aç";
+"Toggle Dual Mode" = "İkili Konumu etkinleştir/kapat";
 
-"Menu and Dock:" = "Menü ve Dock:";
-"Hide icon in Menu Bar" = "TotalFinder'i durum menüsünden kaldır";
-"Keep original Dock icon" = "Orijinal Finder Dock ikonunu bırak";
+"Menu and Dock:" = "Menü ve İskele(dock):";
+"Hide icon in Menu Bar" = "TotalFinder simgesini durum menüsünden kaldır";
+"Keep original Dock icon" = "Özgün İskele(Dock) simgesini kullan";
 
 "Experimental:" = "Deneysel:";
-"Freelance Windows" = "Bağımsız Pencere";
-"Use narrow Tabs Bar" = "Daraltılmış sekme çubuğu kullan";
+"Freelance Windows" = "Bağımsız Pencereler";
+"Use narrow Tabs Bar" = "Sekme Çubuğunu daralt";
 
 /* about page */
-"Check for updates…" = "Güncelleştirmeler ara…";
+"Check for updates…" = "Olası güncelleştirmeleri denetle";
 
 /* registration */
-"TotalFinder Registration" = "TotalFinder Registration";
-"Registration" = "Registration";
-"Please enter your license details from the email we have sent you:" = "Please enter your license details from the email we have sent you:";
-"Buy TotalFinder Now" = "Buy TotalFinder Now";
-"Register" = "Register";
-"Thanks for registering!" = "Thanks for registering!";
-"This TotalFinder copy is licensed to:" = "This TotalFinder copy is licensed to:";
-"Close" = "Close";
-"Change License" = "Change License";
-"Back" = "Back";
-"Invalid license code" = "Invalid license code";
-"Please go back and try again." = "Please go back and try again.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
-"Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
+"TotalFinder Registration" = "TotalFinder Kaydı";
+"Registration" = "Kayıt";
+"Please enter your license details from the email we have sent you:" = "Lütfen size gönderdiğimiz e-postadaki lisans bilgilerini aktarınız:";
+"Buy TotalFinder Now" = "TotalFinder'ı Satın Alın";
+"Register" = "Kayıt";
+"Thanks for registering!" = "Kaydınız için teşekkürler!";
+"This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının tescili:";
+"Close" = "Kapat";
+"Change License" = "Tescili Değiştir";
+"Back" = "Geri";
+"Invalid license code" = "Yanlış tescil kodu";
+"Please go back and try again." = "Lütfen geri dönüp tekrar deneyin";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder tescili satın almak için lütfen BinaryAge internet dükkanını ziyaret edin.";
+"Thank you for using TotalFinder!" = "TotalFinder kullandığınız için teşekkürler!";
