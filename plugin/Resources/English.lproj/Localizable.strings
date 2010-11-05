@@ -69,3 +69,18 @@
 "Please go back and try again." = "Please go back and try again.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
 "Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
+
+/* CutAndPaste plugin */
+"IDS_EDIT"="Edit";
+"IDS_CUT"="Cut";
+"IDS_CUTOBJECTS"="Cut objects: %u";
+"IDS_COPY"="Copy";
+"IDS_PASTE"="Paste";
+
+/* CopyPathMenu plugin */
+"IDS_COPYPATH"="Copy path";
+"IDS_POSIXPATH"="POSIX Path";
+"IDS_URLPATH"="URL";
+"IDS_WINDOWSPATH"="Windows Path";
+"IDS_HFSPATH"="HFS Path";
+"IDS_TERMINALPATH"="Terminal Path";
