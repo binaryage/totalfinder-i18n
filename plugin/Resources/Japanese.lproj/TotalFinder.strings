@@ -43,12 +43,12 @@
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - 未登録";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 試用期限の残りはあと 1 日です - 購入してください！";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 2 日です - 購入してください！";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 3 日です - 購入してください！";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 4 日です - 購入してください！";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 5 日です - 購入してください！";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 試用期限の残りはあと %d 日です - 購入してください！";
 
 /* registration */
 "Licensed to %@" = "%@ にライセンスされています";
