@@ -51,7 +51,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - прошло %d дней - купите сейчас!";
 
 /* registration */
-"Licensed to %@" = "Лицензия вадана %@";
+"Licensed to %@" = "Лицензия выдана %@";
 "Change License" = "Сменить Лицензию";
 "Unregistered version in trial mode" = "Незарегистрированная версия в испытательном режиме";
 "Register" = "Зарегистрировать";
