@@ -11,9 +11,9 @@
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Не могу соединиться с расширением ядра! У Вас правильно установлено расширение TotalFinder.kext?";
 
 /* About preferences pane */
-"from Beta Channel" = "from Beta Channel";
-"from Dev Channel" = "from Dev Channel";
-"from Stable Channel" = "from Stable Channel";
+"from Beta Channel" = "из Beta Channel"; /*"из Beta ветки"*/
+"from Dev Channel" = "из Dev Channel"; /*"из ветки разработчиков"*/
+"from Stable Channel" = "из Stable Channel"; /*"из стабильной ветки"*/
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Восстановить";
@@ -24,7 +24,7 @@
 /* Unistall Alert Box */
 "Uninstall" = "Удалить";
 "Really want to uninstall TotalFinder?" = "Действительно хотите удалить TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Будет запущен скрипт, который удалит TotalFinder и восстановить первоначальное поведение Finder.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Будет запущен скрипт, который удалит TotalFinder и восстановит первоначальное поведение Finder.";
 
 /* MainMenu items */
 "New Finder Tab" = "Новая вкладка Finder";
@@ -43,12 +43,12 @@
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - незарегистрированная версия";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 день прошел - купите сейчас!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 дня прошло - купите сейчас!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 дня прошло - купите сейчас!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 дня прошло - купите сейчас!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 дней прошло - купите сейчас!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d дней прошло - купите сейчас!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - прошел 1 день - купите сейчас!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - прошло 2 дня - купите сейчас!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - прошло 3 дня - купите сейчас!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - прошло 4 дня - купите сейчас!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - прошло 5 дней - купите сейчас!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - прошло %d дней - купите сейчас!";
 
 /* registration */
 "Licensed to %@" = "Лицензия вадана %@";
