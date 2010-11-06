@@ -8,7 +8,8 @@ FINDER_DIR = '/System/Library/CoreServices/Finder.app'
 FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin', 'Resources')
 CZECH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'Czech.lproj')
-TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', 'totalfinder-plugin', 'plugin')
+TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-plugin', 'plugin')
+TOTALFINDER_FEATURES_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-features')
 
 ################################################################################################
 # dependencies
@@ -37,9 +38,11 @@ end
 
 def extract_code_strings
     strings = ""
-    Dir.chdir(TOTALFINDER_PLUGIN_SOURCES) do
-        strings << `ack -oh '\\$\\(@".*?"\\)'`     # `ack -oh '\$\(@".*?"\)'`
-        strings << `ack -oh '\\$\\$\\(@".*?"\\)'`  # `ack -oh '\$\$\(@".*?"\)'`
+    [TOTALFINDER_PLUGIN_SOURCES, TOTALFINDER_FEATURES_SOURCES].each do |dir| 
+        Dir.chdir(dir) do
+            strings << `ack -oh '\\$\\(@".*?"\\)'`     # `ack -oh '\$\(@".*?"\)'`
+            strings << `ack -oh '\\$\\$\\(@".*?"\\)'`  # `ack -oh '\$\$\(@".*?"\)'`
+        end
     end
 
     strings = strings.split("\n").map do |s|
