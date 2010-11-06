@@ -5,7 +5,7 @@
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "Комбинация %@ не может использоваться!";
 "The key combination \"%@\" can't be used because %@." = "Комбинация \"%@\" не может использоваться потому, что %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Комбинация \"%@\" не может использоваться потому, что она уже используется как глобальная горячая клавиша. (Если Вы действительно хотите использовать эту комбинацию, большинство горячих клавишь может быть изменено в панели Клавиатура и Мышь системных настроек.)";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Комбинация \"%@\" не может использоваться потому, что она уже используется как глобальная горячая клавиша. (Если Вы действительно хотите использовать эту комбинацию, большинство горячих клавиш может быть изменено в панели Клавиатура и Мышь системных настроек.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Комбинация \"%@\" не может использоваться, потому что она уже задействована командой меню \"%@\".";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
