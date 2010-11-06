@@ -42,16 +42,16 @@
 "Screen %d" = "Экран %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - unregistered version" = "TotalFinder - незарегистрированная версия";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 день прошел - купите сейчас!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 дня прошло - купите сейчас!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 дня прошло - купите сейчас!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 дня прошло - купите сейчас!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 дней прошло - купите сейчас!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d дней прошло - купите сейчас!";
 
 /* registration */
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Licensed to %@" = "Лицензия вадана %@";
+"Change License" = "Сменить Лицензию";
+"Unregistered version in trial mode" = "Незарегистрированная версия в испытательном режиме";
+"Register" = "Зарегистрировать";
