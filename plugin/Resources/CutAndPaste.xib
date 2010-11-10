@@ -2,7 +2,7 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10H555</string>
+		<string key="IBDocument.SystemVersion">10H563</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1222</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<array key="IBDocument.IntegratedClassDependencies">
@@ -17,7 +17,7 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
 			<object class="NSCustomObject" id="1001">
-				<string key="NSClassName">AHMenusController</string>
+				<string key="NSClassName">AHEditMenuController</string>
 			</object>
 			<object class="NSCustomObject" id="1003">
 				<string key="NSClassName">FirstResponder</string>
@@ -39,6 +39,7 @@
 								<string key="NSFrame">{{158, 0}, {69, 20}}</string>
 								<reference key="NSSuperview" ref="30201436"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<int key="NSTag">36003</int>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="255309879">
@@ -322,30 +323,21 @@
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
-					<string key="className">AHMenuForNode</string>
-					<string key="superclassName">NSMenu</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/AHMenuForNode.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">AHMenusController</string>
+					<string key="className">AHEditMenuController</string>
 					<string key="superclassName">NSWindowController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="cmdCopyPath:">id</string>
-						<string key="commandsDispatcher:">id</string>
-					</dictionary>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">commandsDispatcher:</string>
+						<string key="NS.object.0">id</string>
+					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="copyButton_">NSButton</string>
-						<string key="copyPathMenu_">AHMenuForNode</string>
 						<string key="cutButton_">NSButton</string>
 						<string key="editMenuItemView_">MenuTrackedRootView</string>
 						<string key="pasteButton_">NSButton</string>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/AHMenusController.h</string>
+						<string key="minorKey">./classes-xjh84/AHEditMenuController.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

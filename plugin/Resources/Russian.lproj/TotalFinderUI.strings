@@ -59,7 +59,7 @@
 "Registration" = "Регистрация";
 "Please enter your license details from the email we have sent you:" = "Пожалуйста, введите детали Вашей лицензии, которые мы отправили Вам электронной почтой:";
 "Buy TotalFinder Now" = "Купите TotalFinder Сейчас";
-"Register" = "Зарегистрировать"; /* Or "Регистрация" in case of context */
+"Register" = "Зарегистрировать";
 "Thanks for registering!" = "Спасибо за регистрацию!";
 "This TotalFinder copy is licensed to:" = "Эта копия TotalFinder залицензирована на:";
 "Close" = "Закрыть";

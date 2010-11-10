@@ -2,7 +2,7 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10H555</string>
+		<string key="IBDocument.SystemVersion">10H563</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1222</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<array key="IBDocument.IntegratedClassDependencies">
@@ -179,6 +179,7 @@
 						<int key="objectID">59</int>
 						<reference key="object" ref="1071539412"/>
 						<reference key="parent" ref="642325171"/>
+						<string key="objectName">Menu Item - ^HFS Path</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">64</int>
