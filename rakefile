@@ -255,8 +255,10 @@ end
 def propagate_czech_to_cwd
     puts Dir.pwd.blue
     total = 0
-    total += inprint_strings(File.join(CZECH_LPROJ, 'Localizable.strings'), File.join(Dir.pwd, 'Localizable.strings')).size
-    total += inprint_strings(File.join(CZECH_LPROJ, 'TotalFinder.strings'), File.join(Dir.pwd, 'TotalFinder.strings')).size
+    Dir.glob(File.join(CZECH_LPROJ, "*.strings")) do |file|
+        puts "  #{File.basename(file)}".yellow
+        total += inprint_strings(file, File.join(Dir.pwd, File.basename(file))).size
+    end
     puts "  -> "+total.to_s.green+" strings processed"
 end
 
