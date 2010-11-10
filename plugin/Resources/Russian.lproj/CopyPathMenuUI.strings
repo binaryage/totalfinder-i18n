@@ -1,6 +1,6 @@
-"Copy path" = "Copy path";
-"POSIX Path" = "POSIX Path";
+"Copy path" = "Копировать путь";
+"POSIX Path" = "Путь POSIX";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "Путь Windows";
+"HFS Path" = "Путь HFS";
+"Terminal Path" = "Для Терминала";
