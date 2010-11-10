@@ -36,13 +36,24 @@ end
 ################################################################################################
 # routines
 
-def extract_code_strings
-    strings = ""
-    [TOTALFINDER_PLUGIN_SOURCES, TOTALFINDER_FEATURES_SOURCES].each do |dir| 
-        Dir.chdir(dir) do
-            strings << `ack -oh '\\$\\(@".*?"\\)'`     # `ack -oh '\$\(@".*?"\)'`
-            strings << `ack -oh '\\$\\$\\(@".*?"\\)'`  # `ack -oh '\$\$\(@".*?"\)'`
+def get_list_of_features(filter=nil)
+    filter = "*" unless filter
+
+    features = []
+    Dir.glob(File.join(TOTALFINDER_FEATURES_SOURCES, filter)) do |file|
+        if File.directory?(file) and File.exists? File.join(file, File.basename(file)+".xcodeproj")  then
+            features << File.basename(file)
         end
+    end
+
+    features.uniq.reject{|x| x=="FeaturesFramework"}
+end
+
+def extract_code_strings(folder)
+    strings = ""
+    Dir.chdir(folder) do
+        strings << `ack -oh '\\$\\(@".*?"\\)'`     # `ack -oh '\$\(@".*?"\)'`
+        strings << `ack -oh '\\$\\$\\(@".*?"\\)'`  # `ack -oh '\$\$\(@".*?"\)'`
     end
 
     strings = strings.split("\n").map do |s|
@@ -53,10 +64,10 @@ def extract_code_strings
     strings.uniq
 end
 
-def extract_ui_strings
+def extract_ui_strings(folder, xib_mask)
     strings = ""
-    Dir.chdir(PLUGIN_RESOURCES_DIR) do
-        strings << `ack -o -G '\\.xib' '\\^.*?\\<'`  # search only xibs for ^SOME STRING
+    Dir.chdir(folder) do
+        strings << `ack -o -G #{xib_mask} '\\^.*?\\<'`  # search only xibs for ^SOME STRING
     end
 
     strings = strings.split("\n").map do |s|
@@ -69,25 +80,31 @@ end
 
 def parse_strings_file(filename)
     lines = []
-    File.open(filename, "r") do |f|
-        f.each do |line|
-            lines << line
+    if File.exists? filename then
+        File.open(filename, "r") do |f|
+            f.each do |line|
+                lines << line
+            end
         end
     end
-    
     lines
 end
 
-def update_czech_totalfinder_strings
-    target = File.join(CZECH_LPROJ, 'TotalFinder.strings')
+
+def update_czech_strings(project, src_folder)
+    removed_count = 0
+    added_count = 0
+
+    target = File.join(CZECH_LPROJ, "#{project}.strings")
     
-    code_strings = extract_code_strings
-    totalfinder_strings = parse_strings_file(target)
+    code_strings = extract_code_strings(src_folder)
+    strings = parse_strings_file(target)
     
     # comment out all existing strings as REMOVED
-    totalfinder_strings.map! do |line|
+    strings.map! do |line|
         if (line[0...1]=='"') then
             line = "/* REMOVED "+line.strip+" */\n" # ***
+            removed_count += 1
         end
         line
     end
@@ -97,12 +114,13 @@ def update_czech_totalfinder_strings
     code_strings.each do |code|
         found = false
 
-        totalfinder_strings.map! do |line|
+        strings.map! do |line|
             if line =~ /^\/\* REMOVED/
                 if line.index code then
                     line.gsub!("REMOVED", "DUPLICIT") if found
                     line = line[11..-5] + "\n" unless found # see ***
                     found = true
+                    removed_count -= 1
                 end
             end
             
@@ -112,30 +130,38 @@ def update_czech_totalfinder_strings
         unless found then
             # put new strings at the end of the file
             unless epilogue_emmited then
-                totalfinder_strings << "\n"
-                totalfinder_strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
+                strings << "\n"
+                strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
                 epilogue_emmited = true
             end
             
-            totalfinder_strings << code + " = " + code + ";\n"
+            strings << code + " = " + code + ";\n"
+
+            added_count += 1
         end
     end
 
     File.open(target, "w") do |f|
-      f << totalfinder_strings.join
+      f << strings.join
     end
+
+    puts " #{"+#{added_count}".blue} #{"-#{removed_count}".red} of #{strings.size} in #{target}"
 end
 
-def update_czech_localizable_strings
-    target = File.join(CZECH_LPROJ, 'Localizable.strings')
+def update_czech_localizable_strings(project, xib_mask)
+    removed_count = 0
+    added_count = 0
+
+    target = File.join(CZECH_LPROJ, "#{project}UI.strings")
     
-    ui_strings = extract_ui_strings
+    ui_strings = extract_ui_strings(PLUGIN_RESOURCES_DIR, xib_mask)
     localizable_strings = parse_strings_file(target)
     
     # comment out all existing strings as REMOVED
     localizable_strings.map! do |line|
         if (line[0...1]=='"') then
             line = "/* REMOVED "+line.strip+" */\n" # ***
+            removed_count += 1
         end
         line
     end
@@ -151,6 +177,7 @@ def update_czech_localizable_strings
                     line.gsub!("REMOVED", "DUPLICIT") if found
                     line = line[11..-5] + "\n" unless found # see ***
                     found = true
+                    removed_count -= 1
                 end
             end
             
@@ -166,12 +193,16 @@ def update_czech_localizable_strings
             end
             
             localizable_strings << code + " = " + code + ";\n"
+            
+            added_count += 1
         end
     end
 
     File.open(target, "w") do |f|
       f << localizable_strings.join
     end
+    
+    puts " #{"+#{added_count}".blue} #{"-#{removed_count}".red} of #{localizable_strings.size} in #{target}"
 end
 
 def inprint_strings(source, dest)
@@ -341,8 +372,30 @@ desc "cherrypicks strings from sources and applies missing strings to Czech.lpro
 task :cherrypick do
     die "install ack 1.92+ | for example via homebrew:> brew install ack" if `which ack`==""
     
-    update_czech_totalfinder_strings
-    update_czech_localizable_strings
+    features = get_list_of_features()
+    totalfinder_xibs = []
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "*.xib")) do |file| 
+        name = File.basename(file, ".xib")
+        totalfinder_xibs << name unless features.include? name
+    end
+    
+    totalfinder_filter = "'(#{totalfinder_xibs.join("|")})\\.xib'"
+
+    if File.exists? TOTALFINDER_PLUGIN_SOURCES then
+        puts "Processing TotalFinder...".yellow
+        update_czech_strings("TotalFinder", TOTALFINDER_PLUGIN_SOURCES)
+        update_czech_localizable_strings("TotalFinder", totalfinder_filter) # process just TotalFinder's xibs
+    end
+    
+    features.each do |feature|
+        feature_dir = File.join(TOTALFINDER_FEATURES_SOURCES, feature)
+        if File.exists? feature_dir then
+            puts "Processing #{feature}...".yellow
+            update_czech_strings(feature, feature_dir)
+            feature_filter = "'(#{feature})\\.xib'"
+            update_czech_localizable_strings(feature, feature_filter) # process just feature's xibs
+        end
+    end
 end
 
 desc "propagates structure of Czech.lproj to all other language folders while keeping already translated strings"
