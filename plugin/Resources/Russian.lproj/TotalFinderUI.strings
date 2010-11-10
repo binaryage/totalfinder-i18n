@@ -69,16 +69,3 @@
 "Please go back and try again." = "Пожалуйста, попытайтесь еще раз.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Для покупки лицензии TotalFinder, пожалуйста, посетите онлайн магазин BinaryAge.";
 "Thank you for using TotalFinder!" = "Спасибо за использование TotalFinder!";
-
-"IDS_EDIT"="Изменить";
-"IDS_CUT"="Вырезать";
-"IDS_CUTOBJECTS"="Вырезать объекты: %u";
-"IDS_COPY"="Копировать";
-"IDS_PASTE"="Вставить";
-
-"IDS_COPYPATH"="Копировать путь";
-"IDS_POSIXPATH"="Путь POSIX";
-"IDS_URLPATH"="URL";
-"IDS_WINDOWSPATH"="Путь Windows";
-"IDS_HFSPATH"="Путь HFS";
-"IDS_TERMINALPATH"="Для Терминала";
