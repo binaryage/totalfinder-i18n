@@ -71,16 +71,15 @@
 "Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
 
 /* CutAndPaste plugin */
-"IDS_EDIT"="Edit";
-"IDS_CUT"="Cut";
-"IDS_CUTOBJECTS"="Cut objects: %u";
-"IDS_COPY"="Copy";
-"IDS_PASTE"="Paste";
+"Edit"="Edit";
+"Cut"="Cut";
+"Copy"="Copy";
+"Paste"="Paste";
 
 /* CopyPathMenu plugin */
-"IDS_COPYPATH"="Copy path";
-"IDS_POSIXPATH"="POSIX Path";
-"IDS_URLPATH"="URL";
-"IDS_WINDOWSPATH"="Windows Path";
-"IDS_HFSPATH"="HFS Path";
-"IDS_TERMINALPATH"="Terminal Path";
+"Copy path"="Copy path";
+"POSIX Path"="POSIX Path";
+"URL"="URL";
+"Windows Path"="Windows Path";
+"HFS Path"="HFS Path";
+"Terminal Path"="Terminal Path";

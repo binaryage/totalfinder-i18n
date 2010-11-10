@@ -59,7 +59,7 @@
 "Registration" = "Регистрация";
 "Please enter your license details from the email we have sent you:" = "Пожалуйста, введите детали Вашей лицензии, которые мы отправили Вам электронной почтой:";
 "Buy TotalFinder Now" = "Купите TotalFinder Сейчас";
-"Register" = "Зарегистрировать"; /* Or "Регистрация" in case of context */
+"Register" = "Зарегистрировать";
 "Thanks for registering!" = "Спасибо за регистрацию!";
 "This TotalFinder copy is licensed to:" = "Эта копия TotalFinder залицензирована на:";
 "Close" = "Закрыть";
@@ -70,15 +70,16 @@
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Для покупки лицензии TotalFinder, пожалуйста, посетите онлайн магазин BinaryAge.";
 "Thank you for using TotalFinder!" = "Спасибо за использование TotalFinder!";
 
-"IDS_EDIT"="Изменить";
-"IDS_CUT"="Вырезать";
-"IDS_CUTOBJECTS"="Вырезать объекты: %u";
-"IDS_COPY"="Копировать";
-"IDS_PASTE"="Вставить";
+/* CutAndPaste plugin */
+"Edit" = "Изменить";
+"Cut" = "Вырезать";
+"Copy" = "Копировать";
+"Paste" = "Вставить";
 
-"IDS_COPYPATH"="Копировать путь";
-"IDS_POSIXPATH"="Путь POSIX";
-"IDS_URLPATH"="URL";
-"IDS_WINDOWSPATH"="Путь Windows";
-"IDS_HFSPATH"="Путь HFS";
-"IDS_TERMINALPATH"="Для Терминала";
+/* CopyPathMenu plugin */
+"Copy path" = "Копировать путь";
+"POSIX Path" = "Путь POSIX";
+"URL" = "URL";
+"Windows Path" = "Путь Windows";
+"HFS Path" = "Путь HFS";
+"Terminal Path" = "Для Терминала";

@@ -2,7 +2,7 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10H555</string>
+		<string key="IBDocument.SystemVersion">10H563</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1222</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<array key="IBDocument.IntegratedClassDependencies">
@@ -25,11 +25,11 @@
 				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSMenu" id="642325171">
-				<string key="NSTitle">^IDS_COPYPATH</string>
+				<string key="NSTitle">^Copy path</string>
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="93598438">
 						<reference key="NSMenu" ref="642325171"/>
-						<string key="NSTitle">^IDS_POSIXPATH</string>
+						<string key="NSTitle">^POSIX Path</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<object class="NSCustomResource" key="NSOnImage" id="964447011">
@@ -43,7 +43,7 @@
 					</object>
 					<object class="NSMenuItem" id="900285697">
 						<reference key="NSMenu" ref="642325171"/>
-						<string key="NSTitle">^IDS_URLPATH</string>
+						<string key="NSTitle">^URL</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="964447011"/>
@@ -52,7 +52,7 @@
 					</object>
 					<object class="NSMenuItem" id="176295097">
 						<reference key="NSMenu" ref="642325171"/>
-						<string key="NSTitle">^IDS_WINDOWSPATH</string>
+						<string key="NSTitle">^Windows Path</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="964447011"/>
@@ -61,7 +61,7 @@
 					</object>
 					<object class="NSMenuItem" id="1071539412">
 						<reference key="NSMenu" ref="642325171"/>
-						<string key="NSTitle">^IDS_HFSPATH</string>
+						<string key="NSTitle">^HFS Path</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="964447011"/>
@@ -70,7 +70,7 @@
 					</object>
 					<object class="NSMenuItem" id="5251494">
 						<reference key="NSMenu" ref="642325171"/>
-						<string key="NSTitle">^IDS_TERMINALPATH</string>
+						<string key="NSTitle">^Terminal Path</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="964447011"/>
@@ -173,12 +173,13 @@
 						<int key="objectID">58</int>
 						<reference key="object" ref="93598438"/>
 						<reference key="parent" ref="642325171"/>
-						<string key="objectName">Menu Item - ^IDS_POSIXPATH</string>
+						<string key="objectName">Menu Item - ^POSIX Path</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">59</int>
 						<reference key="object" ref="1071539412"/>
 						<reference key="parent" ref="642325171"/>
+						<string key="objectName">Menu Item - ^HFS Path</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">64</int>
@@ -195,7 +196,7 @@
 						<int key="objectID">65</int>
 						<reference key="object" ref="5251494"/>
 						<reference key="parent" ref="642325171"/>
-						<string key="objectName">Menu Item - ^IDS_TERMINALPATH</string>
+						<string key="objectName">Menu Item - ^Terminal Path</string>
 					</object>
 				</array>
 			</object>
