@@ -7,7 +7,7 @@ ROOT_DIR = File.expand_path('.')
 FINDER_DIR = '/System/Library/CoreServices/Finder.app'
 FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin', 'Resources')
-CZECH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'Czech.lproj')
+ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
 TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-plugin', 'plugin')
 TOTALFINDER_FEATURES_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-features')
 
@@ -91,11 +91,11 @@ def parse_strings_file(filename)
 end
 
 
-def update_czech_strings(project, src_folder)
+def update_english_strings(project, src_folder)
     removed_count = 0
     added_count = 0
 
-    target = File.join(CZECH_LPROJ, "#{project}.strings")
+    target = File.join(ENGLISH_LPROJ, "#{project}.strings")
     
     code_strings = extract_code_strings(src_folder)
     strings = parse_strings_file(target)
@@ -148,11 +148,11 @@ def update_czech_strings(project, src_folder)
     puts " #{"+#{added_count}".blue} #{"-#{removed_count}".red} of #{strings.size} in #{target}"
 end
 
-def update_czech_localizable_strings(project, xib_mask)
+def update_english_localizable_strings(project, xib_mask)
     removed_count = 0
     added_count = 0
 
-    target = File.join(CZECH_LPROJ, "#{project}UI.strings")
+    target = File.join(ENGLISH_LPROJ, "#{project}UI.strings")
     
     ui_strings = extract_ui_strings(PLUGIN_RESOURCES_DIR, xib_mask)
     localizable_strings = parse_strings_file(target)
@@ -209,7 +209,7 @@ def inprint_strings(source, dest)
     strings = parse_strings_file(source)
     originals = parse_strings_file(dest)
 
-    # transform czech back to english
+    # transform lang back to english
     index = 0
     strings.map! do |line|
         index+=1
@@ -253,22 +253,22 @@ def inprint_strings(source, dest)
     strings
 end
 
-def propagate_czech_to_cwd
+def propagate_english_to_cwd
     puts Dir.pwd.blue
     total = 0
-    Dir.glob(File.join(CZECH_LPROJ, "*.strings")) do |file|
+    Dir.glob(File.join(ENGLISH_LPROJ, "*.strings")) do |file|
         puts "  #{File.basename(file)}".yellow
         total += inprint_strings(file, File.join(Dir.pwd, File.basename(file))).size
     end
     puts "  -> "+total.to_s.green+" strings processed"
 end
 
-def propagate_from_czech_to_other_lprojs
+def propagate_from_english_to_other_lprojs
     glob = ENV["to"] || "*.lproj"
     
     Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
         Dir.chdir dir do
-            propagate_czech_to_cwd
+            propagate_english_to_cwd
         end
     end
 end
@@ -369,7 +369,7 @@ task :normalize do
     end
 end
 
-desc "cherrypicks strings from sources and applies missing strings to Czech.lproj"
+desc "cherrypicks strings from sources and applies missing strings to English.lproj"
 task :cherrypick do
     die "install ack 1.92+ | for example via homebrew:> brew install ack" if `which ack`==""
     
@@ -384,24 +384,24 @@ task :cherrypick do
 
     if File.exists? TOTALFINDER_PLUGIN_SOURCES then
         puts "Processing TotalFinder...".yellow
-        update_czech_strings("TotalFinder", TOTALFINDER_PLUGIN_SOURCES)
-        update_czech_localizable_strings("TotalFinder", totalfinder_filter) # process just TotalFinder's xibs
+        update_english_strings("TotalFinder", TOTALFINDER_PLUGIN_SOURCES)
+        update_english_localizable_strings("TotalFinder", totalfinder_filter) # process just TotalFinder's xibs
     end
     
     features.each do |feature|
         feature_dir = File.join(TOTALFINDER_FEATURES_SOURCES, feature)
         if File.exists? feature_dir then
             puts "Processing #{feature}...".yellow
-            update_czech_strings(feature, feature_dir)
+            update_english_strings(feature, feature_dir)
             feature_filter = "'(#{feature})\\.xib'"
-            update_czech_localizable_strings(feature, feature_filter) # process just feature's xibs
+            update_english_localizable_strings(feature, feature_filter) # process just feature's xibs
         end
     end
 end
 
-desc "propagates structure of Czech.lproj to all other language folders while keeping already translated strings"
+desc "propagates structure of English.lproj to all other language folders while keeping already translated strings"
 task :propagate do
-    propagate_from_czech_to_other_lprojs
+    propagate_from_english_to_other_lprojs
 end
 
 desc "exec command in all lproj folders"
