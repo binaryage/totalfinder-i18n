@@ -1,8 +1,6 @@
-
-/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */
-"IDS_COPYPATH" = "IDS_COPYPATH";
-"IDS_POSIXPATH" = "IDS_POSIXPATH";
-"IDS_URLPATH" = "IDS_URLPATH";
-"IDS_WINDOWSPATH" = "IDS_WINDOWSPATH";
-"IDS_HFSPATH" = "IDS_HFSPATH";
-"IDS_TERMINALPATH" = "IDS_TERMINALPATH";
+"Copy path"="Copy path";
+"POSIX Path"="POSIX Path";
+"URL"="URL";
+"Windows Path"="Windows Path";
+"HFS Path"="HFS Path";
+"Terminal Path"="Terminal Path";

@@ -1,5 +1,3 @@
-
-/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */
-"^IDS_EDIT" = "^IDS_EDIT";
-"^IDS_CUTOBJECTS" = "^IDS_CUTOBJECTS";
-"^IDS_CUT" = "^IDS_CUT";
+"Edit" = "Edit";
+"Cut objects: %u" = "Cut objects: %u";
+"Cut" = "Cut";

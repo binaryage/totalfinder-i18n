@@ -1,5 +1,3 @@
-
-/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */
-"IDS_PASTE" = "IDS_PASTE";
-"IDS_COPY" = "IDS_COPY";
-"IDS_CUT" = "IDS_CUT";
+"Paste" = "Paste";
+"Copy" = "Copy";
+"Cut" = "Cut";

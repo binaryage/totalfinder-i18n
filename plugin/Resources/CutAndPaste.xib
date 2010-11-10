@@ -44,7 +44,7 @@
 								<object class="NSButtonCell" key="NSCell" id="255309879">
 									<int key="NSCellFlags">604110336</int>
 									<int key="NSCellFlags2">134348800</int>
-									<string key="NSContents">^IDS_PASTE</string>
+									<string key="NSContents">^Paste</string>
 									<object class="NSFont" key="NSSupport" id="26">
 										<string key="NSName">LucidaGrande</string>
 										<double key="NSSize">11</double>
@@ -71,7 +71,7 @@
 								<object class="NSButtonCell" key="NSCell" id="734675010">
 									<int key="NSCellFlags">604110336</int>
 									<int key="NSCellFlags2">134348800</int>
-									<string key="NSContents">^IDS_COPY</string>
+									<string key="NSContents">^Copy</string>
 									<reference key="NSSupport" ref="26"/>
 									<reference key="NSControlView" ref="457316811"/>
 									<int key="NSButtonFlags">-2038284033</int>
@@ -94,7 +94,7 @@
 								<object class="NSButtonCell" key="NSCell" id="648904861">
 									<int key="NSCellFlags">604110336</int>
 									<int key="NSCellFlags2">134348800</int>
-									<string key="NSContents">^IDS_CUT</string>
+									<string key="NSContents">^Cut</string>
 									<reference key="NSSupport" ref="26"/>
 									<reference key="NSControlView" ref="191486710"/>
 									<int key="NSButtonFlags">-2038284033</int>
