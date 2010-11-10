@@ -206,8 +206,6 @@ def update_czech_localizable_strings(project, xib_mask)
 end
 
 def inprint_strings(source, dest)
-    return [] if dest =~ /English\.lproj\/TotalFinder\.strings/  # a special file - see the comment inside
-    
     strings = parse_strings_file(source)
     originals = parse_strings_file(dest)
 

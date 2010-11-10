@@ -11,9 +11,9 @@
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Не могу соединиться с расширением ядра! У Вас правильно установлено расширение TotalFinder.kext?";
 
 /* About preferences pane */
-"from Beta Channel" = "из Beta Channel"; /*"из Beta ветки"*/
-"from Dev Channel" = "из Dev Channel"; /*"из ветки разработчиков"*/
-"from Stable Channel" = "из Stable Channel"; /*"из стабильной ветки"*/
+"from Beta Channel" = "из Beta Channel";
+"from Dev Channel" = "из Dev Channel";
+"from Stable Channel" = "из Stable Channel";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Восстановить";
