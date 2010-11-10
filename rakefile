@@ -229,15 +229,16 @@ def inprint_strings(source, dest)
         index+=1
         next unless (original.strip[0...1]=='"')
         
-        original =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;\s*?/
+        original =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
         needle = $1
         haystack = $2
+        rest = $3
         die "syntax error in " + dest.blue+":"+index.to_s unless $1 and $2
         
         found = false
         strings.map! do |line|
             if (line.index needle) == 0 then
-                line = needle + " = " + haystack + ";\n";
+                line = needle + " = " + haystack + ";" + rest + "\n";
                 found = true
             end
             
