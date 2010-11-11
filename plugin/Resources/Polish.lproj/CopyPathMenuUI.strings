@@ -1,6 +1,6 @@
-"Copy path" = "Copy path";
-"POSIX Path" = "POSIX Path";
+"Copy path" = "Kopiuj ścieżkę";
+"POSIX Path" = "ścieżka POSIX";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
+"Windows Path" = "ścieżka Okna";
+"HFS Path" = "ścieżka HFS";
 "Terminal Path" = "Terminal Path";

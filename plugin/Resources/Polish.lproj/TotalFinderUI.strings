@@ -29,7 +29,7 @@
 ".DS_Store files will be redirected into" = "Pliki .DS_Store zostaną skierowane do";
 "this folder should be set as writable for all users of TotalFinder" = "ten folder powinien być zapisywalny przez wszystkich użytkowników";
 "Launch Migration Assistant" = "Uruchom asystenta migracji";
-"TotalFinder.kext status" = "Stan rozszerzenia";
+"TotalFinder.kext status" = "Stan rozszerzenia jądra (TotalFinder.kext)";
 "Unable to connect" = "Wystąpił problem podczas łączenia z rozszerzeniem!\nCzy masz zainstalowane rozszerzenie TotalFinder w kernelu?";
 "Advanced:" = "Zaawansowane:";
 "Don't write .DS_Store to Network" = "Nie zapisuj plików .DS_Store w sieci";
