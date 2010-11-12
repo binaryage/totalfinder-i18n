@@ -1,6 +1,6 @@
-"Copy path" = "Copy path";
-"POSIX Path" = "POSIX Path";
+"Copy path" = "Kopya Yolu";
+"POSIX Path" = "POSIX Yolu";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "Windows Yolu";
+"HFS Path" = "HFS Yolu";
+"Terminal Path" = "Terminal Yolu";
