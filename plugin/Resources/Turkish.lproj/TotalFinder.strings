@@ -1,57 +1,57 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Olası güncelleştirmeleri denetle";
-"Uninstall TotalFinder" = "TotalFinder'i kaldır";
-"Restart Finder" = "Finder'i yeniden başlat";
-"Show Visor" = "Bakaçı göster";
-"Hide Visor" = "Bakaçı gizle";
+"Check for Updates" = "Güncelleştirmeleri Denetle";
+"Uninstall TotalFinder" = "TotalFinder'ı Kaldır";
+"Restart Finder" = "Finder'ı Yeniden Başlat";
+"Show Visor" = "Vizör'ü Göster";
+"Hide Visor" = "Vizör'ü Gizle";
 
 /* Asepsis preferences pane */
 "Disconnect" = "Bağlantıyı Kes";
 "Connect" = "Bağlan";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kernel eklentisi ile bağlanılınamıyor! TotalFinder.kext kernel eklentisi doğru yüklenmiş mi?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kernel eklentisi ile bağlanılamıyor! TotalFinder.kext düzcünce yüklenmiş mi?";
 
 /* About preferences pane */
-"from Beta Channel" = "Beta Kanalı";
-"from Dev Channel" = "Gelişim Kanalı";
-"from Stable Channel" = "Sabit Kanalı";
+"from Beta Channel" = "Beta Kanalından";
+"from Dev Channel" = "Geliştirme Kanalından";
+"from Stable Channel" = "Stabil Kanalından";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Sıfırla";
 "Cancel" = "Vazgeç";
-"Do you really want reset to defaults?" = "Varsayılanı ayarlara dönmek istediğinizden eminmisiniz?";
-"This will restore initial TotalFinder settings." = "Bu İşlem TotalFinder'in ilk ayarlarını yeniden tesis edecektir.";
+"Do you really want reset to defaults?" = "Varsayılan ayarlara dönmek istediğinizden emin misiniz?";
+"This will restore initial TotalFinder settings." = "Bu işlem TotalFinder'ı öntanımlı ayarlarına döndürecektir.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Kaldır";
-"Really want to uninstall TotalFinder?" = "TotalFinder'i kaldırmak istediğinizden emin misiniz?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bu işlem bir komut yazılımı ile TotalFinder'i bilgisayardan kaldıracak ve ozgün Bulucu'yu(Finder) geri yükleyecektir.";
+"Really want to uninstall TotalFinder?" = "TotalFinder'ı kaldırmayı gerçekten istiyor musunuz?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bu işlem TotalFinder'ı bu bilgisayardan kaldırmak ve orijinal Finder davranışını geri getirmek için bir kaldırma betiği başlatacaktır.";
 
 /* MainMenu items */
-"New Finder Tab" = "Yeni Bulucu(Finder) sekmesi";
-"Close Tab" = "Sekmeyi kapat";
-"Close Window" = "Pencereyi kapat";
-"Show System Files" = "Sistem dosyalarını göster";
-"Folders On Top" = "Klasörleri dosyaların üstüne taşı";
-"Toggle Dual Mode" = "İkili Konumu etkinleştir/kapat";
-"Narrow Tabs Bar" = "Sekme çubuğunu daralt";
-"Pin Visor" = "Bakaçı sabitle";
+"New Finder Tab" = "Yeni Finder Sekmesi";
+"Close Tab" = "Sekmeyi Kapat";
+"Close Window" = "Pencereyi Kapat";
+"Show System Files" = "Sistem Dosyalarını Göster";
+"Folders On Top" = "Klasörler Üstte";
+"Toggle Dual Mode" = "İkili Paneli Aç/Kapat";
+"Narrow Tabs Bar" = "Sekme Çubuğunu Daralt";
+"Pin Visor" = "Bakacı Sabitle";
 "TotalFinder Preferences…" = "TotalFinder Ayarları…";
-"Visit Homepage…" = "TotalFinder ana sayfası...";
+"Visit Homepage…" = "TotalFinder Ana Sayfası...";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - Tescilsiz sürüm";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - satın al!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - satın al!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 gün kaldı - satın al!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 gün kaldı - satın al!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 gün kaldı - satın al!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d gün kaldı - satın al!";
+"TotalFinder - unregistered version" = "TotalFinder - Tescilsiz Sürüm";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - şimdi satın al!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - şimdi satın al!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 gün kaldı - şimdi satın al!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 gün kaldı - şimdi satın al!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 gün kaldı - şimdi satın al!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d gün kaldı - şimdi satın al!";
 
 /* registration */
-"Licensed to %@" = "%@ adına tescilli";
+"Licensed to %@" = "%@ adına tescil edilmiştir.";
 "Change License" = "Tescili değiştir";
 "Unregistered version in trial mode" = "Kayıtsız deneme sürümü";
 "Register" = "Kayıt";
