@@ -15,8 +15,8 @@
 "Pin Visor" = "Przypinanie:";
 
 "Animation:" = "Animacja:";
-"Fade Window" = "Przyciemnianie";
-"Slide Window" = "Wjazd";
+"Fade Window" = "Zanikanie";
+"Slide Window" = "Wysuwanie";
 
 "Screen:" = "Ekran:";
 "Show on all Spaces" = "Pokazuj na każdej przestrzeni";
@@ -27,10 +27,10 @@
 "Asepsis Feature" = "Asepsis";
 "prevents .DS_Store files to be created in local folders" = "zapobiega tworzeniu plików .DS_Store w lokalnych folderach";
 ".DS_Store files will be redirected into" = "Pliki .DS_Store zostaną skierowane do";
-"this folder should be set as writable for all users of TotalFinder" = "ten folder powinien być zapisywalny przez wszystkich użytkowników";
+"this folder should be set as writable for all users of TotalFinder" = "ten folder powinien być zapisywalny dla wszystkich użytkowników";
 "Launch Migration Assistant" = "Uruchom asystenta migracji";
 "TotalFinder.kext status" = "Stan rozszerzenia jądra (TotalFinder.kext)";
-"Unable to connect" = "Wystąpił problem podczas łączenia z rozszerzeniem!\nCzy masz zainstalowane rozszerzenie TotalFinder w kernelu?";
+"Unable to connect" = "Wystąpił problem podczas łączenia z rozszerzeniem!\nCzy rozszerzenie TotalFinder.kext jest załadowane?";
 "Advanced:" = "Zaawansowane:";
 "Don't write .DS_Store to Network" = "Nie zapisuj plików .DS_Store w sieci";
 
@@ -61,7 +61,7 @@
 "Buy TotalFinder Now" = "Kup teraz TotalFindera";
 "Register" = "Zarejestruj";
 "Thanks for registering!" = "Dzięki za rejestrację!";
-"This TotalFinder copy is licensed to:" = "Ta kopia TotalFindera jest licencjonowana na:";
+"This TotalFinder copy is licensed to:" = "Ta kopia TotalFindera jest licencjonowana dla:";
 "Close" = "Zamknij";
 "Change License" = "Zmień licencję";
 "Back" = "Wróć";
