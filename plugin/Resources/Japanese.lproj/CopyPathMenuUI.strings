@@ -1,6 +1,6 @@
-"Copy path" = "Copy path";
-"POSIX Path" = "POSIX Path";
+"Copy path" = "パスをコピー";
+"POSIX Path" = "POSIX パス";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "Windows パス";
+"HFS Path" = "HFS パス";
+"Terminal Path" = "ターミナルパス";
