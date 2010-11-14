@@ -140,6 +140,8 @@ def update_english_strings(project, src_folder)
             added_count += 1
         end
     end
+    
+    strings << "/* no strings */" if strings.size==0
 
     File.open(target, "w") do |f|
       f << strings.join
@@ -197,6 +199,8 @@ def update_english_localizable_strings(project, xib_mask)
             added_count += 1
         end
     end
+
+    localizable_strings << "/* no strings */" if localizable_strings.size==0
 
     File.open(target, "w") do |f|
       f << localizable_strings.join
