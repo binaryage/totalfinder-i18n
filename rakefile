@@ -296,8 +296,8 @@ def validate_strings_file path
             next
         end
         next if in_multi_line_comment
-        next if line =~ /^".*?" = ".*?";\s+$/
-        next if line =~ /^".*?" = ".*?";\s+\/\*.*?\*\/$/
+        next if line =~ /^".*?"\s*=\s*".*?";\s+$/
+        next if line =~ /^".*?"\s*=\s*".*?";\s+\/\*.*?\*\/$/
         next if line =~ /^\/\*.*?\*\/$/
         next if line =~ /^$/
         if line =~ /^\/\*[^\*]*/ then
