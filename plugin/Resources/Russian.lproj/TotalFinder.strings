@@ -55,9 +55,3 @@
 "Change License" = "Сменить Лицензию";
 "Unregistered version in trial mode" = "Незарегистрированная версия в испытательном режиме";
 "Register" = "Зарегистрировать";
-
-/* CutAndPaste plugin */
-"Cut"="Вырезать";
-"Cut objects: %u"="Вырезать объекты: %u";
-"Paste"="Вставить";
-"Paste objects: %u"="Вставить объекты: %u";
