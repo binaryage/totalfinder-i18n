@@ -1,5 +1,5 @@
 "Edit" = "Изменить";
-"Cut objects: %u" = "Вырезать объекты: %u";
 "Cut" = "Вырезать";
+"Cut %u Items" = "Cut %u Items";
 "Paste" = "Paste";
-"Paste objects: %u" = "Paste objects: %u";
+"Paste %u Items" = "Paste %u Items";

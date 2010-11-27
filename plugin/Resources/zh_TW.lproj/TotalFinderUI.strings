@@ -50,6 +50,7 @@
 "Experimental:" = "實驗性:";
 "Freelance Windows" = "使用自由視窗";
 "Use narrow Tabs Bar" = "使用較窄分頁列";
+"Show Cut&amp;Paste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
 
 /* about page */
 "Check for updates…" = "檢查更新…";

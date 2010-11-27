@@ -1,5 +1,5 @@
 "Edit" = "Modifica";
-"Cut objects: %u" = "Taglia gli oggetti: %u";
 "Cut" = "Taglia";
+"Cut %u Items" = "Cut %u Items";
 "Paste" = "Incolla";
-"Paste objects: %u" = "Incolla gli oggetti: %u";
+"Paste %u Items" = "Paste %u Items";

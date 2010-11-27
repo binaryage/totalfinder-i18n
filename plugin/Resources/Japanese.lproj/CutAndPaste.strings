@@ -1,5 +1,5 @@
 "Edit" = "編集";
-"Cut objects: %u" = "オブジェクトをカット: %u";
 "Cut" = "カット";
+"Cut %u Items" = "Cut %u Items";
 "Paste" = "Paste";
-"Paste objects: %u" = "Paste objects: %u";
+"Paste %u Items" = "Paste %u Items";
