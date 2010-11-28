@@ -18,7 +18,7 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Resetuj";
 "Cancel" = "Anuluj";
-"Do you really want reset to defaults?" = "Na pewno chcesz przywrócić ustawienia domyślne?";
+"Do you really want reset to defaults?" = "Czy na pewno chcesz przywrócić ustawienia domyślne?";
 "This will restore initial TotalFinder settings." = "Przywróci to wszystkie ustanienia TotalFindera.";
 
 /* Unistall Alert Box */
@@ -27,8 +27,8 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Zostanie uruchomiony skrypt odinstalowujący TotalFindera i przywracający domyślne zachowanie Findera.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nowa zakładka Findera";
-"Close Tab" = "Zamknij zakładkę";
+"New Finder Tab" = "Nowa karta Findera";
+"Close Tab" = "Zamknij kartę";
 "Close Window" = "Zamknij okno";
 "Show System Files" = "Pokazuj pliki systemowe";
 "Folders On Top" = "Foldery na górze";
@@ -37,8 +37,8 @@
 "Pin Visor" = "Przypnij Visora";
 "TotalFinder Preferences…" = "Ustawienia TotalFindera…";
 "Visit Homepage…" = "Przejdź na stronę domową…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Wybierz następną kartę";
+"Select Previous Tab" = "Wybierz poprzednią kartę";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
@@ -55,5 +55,5 @@
 /* registration */
 "Licensed to %@" = "Licencjonowano dla %@";
 "Change License" = "Zmień licencję";
-"Unregistered version in trial mode" = "Niezarejestrowana wersja, w okresie próbnym";
+"Unregistered version in trial mode" = "Niezarejestrowana wersja, w okresie próbnym.";
 "Register" = "Zarejestruj";

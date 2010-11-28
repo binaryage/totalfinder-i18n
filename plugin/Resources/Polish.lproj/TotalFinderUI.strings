@@ -1,6 +1,6 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
+"Asepsis" = "Aseptyka";
 "Tweaks" = "Usprawnienia";
 "About" = "O programie";
 
@@ -24,7 +24,7 @@
 "Free Form Window" = "Okno dowolnego rozmiaru";
 
 /* asepsis page */
-"Asepsis Feature" = "Asepsis";
+"Asepsis Feature" = "Aseptyka";
 "prevents .DS_Store files to be created in local folders" = "zapobiega tworzeniu plików .DS_Store w lokalnych folderach";
 ".DS_Store files will be redirected into" = "Pliki .DS_Store zostaną skierowane do";
 "this folder should be set as writable for all users of TotalFinder" = "ten folder powinien być zapisywalny dla wszystkich użytkowników";
@@ -50,7 +50,7 @@
 "Experimental:" = "Eksperymentalne:";
 "Freelance Windows" = "Wolne okna";
 "Use narrow Tabs Bar" = "Użyj wąskich zakładek";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";
 
 /* about page */
 "Check for updates…" = "Sprawdź aktualizacje…";
