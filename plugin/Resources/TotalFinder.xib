@@ -1474,7 +1474,7 @@
 																					<object class="NSButtonCell" key="NSCell" id="806958252">
 																						<int key="NSCellFlags">67239424</int>
 																						<int key="NSCellFlags2">0</int>
-																						<string key="NSContents">^Show Cut&amp;Paste buttons in Context Menus</string>
+																						<string key="NSContents">^Show CutPaste buttons in Context Menus</string>
 																						<reference key="NSSupport" ref="731091176"/>
 																						<reference key="NSControlView" ref="994022878"/>
 																						<int key="NSButtonFlags">1211912703</int>
