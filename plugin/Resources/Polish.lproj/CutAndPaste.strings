@@ -1,6 +1,6 @@
 "Edit" = "Edytuj";
 "Cut" = "Wytnij";
-"Cut “%@”" = "Cut “%@”";
-"Cut %u Items" = "Cut %u Items";
-"Paste" = "Paste";
-"Paste %u Items" = "Paste %u Items";
+"Cut “%@”" = "Wytnij “%@”";
+"Cut %u Items" = "Wytnij %u rzeczy";
+"Paste" = "Wklej";
+"Paste %u Items" = "Wklej %u rzeczy";
