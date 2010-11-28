@@ -37,8 +37,8 @@
 "Pin Visor" = "Nåla Visor";
 "TotalFinder Preferences…" = "TotalFinder inställningar…";
 "Visit Homepage…" = "Besök hemsidan…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Välj nästa flik";
+"Select Previous Tab" = "Välj föregående flik";
 
 /* misc. */
 "Screen %d" = "Bildskärm %d";

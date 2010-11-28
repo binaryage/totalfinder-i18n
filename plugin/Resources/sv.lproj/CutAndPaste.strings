@@ -1,6 +1,6 @@
-"Edit" = "Edit";
-"Cut" = "Cut";
-"Cut “%@”" = "Cut “%@”";
-"Cut %u Items" = "Cut %u Items";
-"Paste" = "Paste";
-"Paste %u Items" = "Paste %u Items";
+"Edit" = "Redigera";
+"Cut" = "Klipp ut";
+"Cut “%@”" = "Klipp ut “%@”";
+"Cut %u Items" = "Klipp ut %u objekt";
+"Paste" = "Klistra in";
+"Paste %u Items" = "Klistra in %u objekt";

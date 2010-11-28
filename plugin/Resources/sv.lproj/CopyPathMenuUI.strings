@@ -1,6 +1,6 @@
-"Copy path" = "Copy path";
-"POSIX Path" = "POSIX Path";
+"Copy path" = "Kopiera sökväg";
+"POSIX Path" = "POSIX Sökväg";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "Windows Sökväg";
+"HFS Path" = "HFS Sökväg";
+"Terminal Path" = "Terminal Sökväg";
