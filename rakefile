@@ -320,15 +320,26 @@ def validate_strings_file path
 end
 
 def validate_strings_files
+    begin
+        require 'cmess/guess_encoding'
+    rescue
+        raise 'You must "gem install cmess" to use character encoding detection'
+    end
+
     glob = ENV["to"] || "*.lproj"
     
     counter = 0
     failed = 0
     Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob, "*.strings")) do |path|
         counter += 1
-        ok = validate_strings_file path
-        puts path.blue+" "+"ok".yellow if ok
-        puts path.blue+" "+"failed".red unless ok
+
+        input   = File.read path
+        charset = CMess::GuessEncoding::Automatic.guess(input)
+        
+        ok = (validate_strings_file path) and (charset=="ASCII" or charset=="UTF-8")
+        
+        puts charset.magenta+" "+path.blue+" "+"ok".yellow if ok
+        puts charset.magenta+" "+path.blue+" "+"failed".red unless ok
         failed +=1 unless ok
     end
     
