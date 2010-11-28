@@ -37,8 +37,8 @@
 "Pin Visor" = "Blocca Visor";
 "TotalFinder Preferences…" = "Preferenze di TotalFinder…";
 "Visit Homepage…" = "Visita la homepage…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Seleziona la scheda successiva";
+"Select Previous Tab" = "Seleziona la scheda precedente";
 
 /* misc. */
 "Screen %d" = "Schermo %d";
