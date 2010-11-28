@@ -1,5 +1,6 @@
 "Edit" = "Modifica";
 "Cut" = "Taglia";
+"Cut “%@”" = "Cut “%@”";
 "Cut %u Items" = "Cut %u Items";
 "Paste" = "Incolla";
 "Paste %u Items" = "Paste %u Items";
