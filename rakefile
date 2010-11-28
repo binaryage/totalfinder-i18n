@@ -7,6 +7,7 @@ ROOT_DIR = File.expand_path('.')
 FINDER_DIR = '/System/Library/CoreServices/Finder.app'
 FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin', 'Resources')
+INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
 ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
 TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-plugin', 'plugin')
 TOTALFINDER_FEATURES_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-features')
@@ -335,6 +336,22 @@ def validate_strings_files
     puts "checked "+"#{counter} files".magenta+" and "+(failed>0 ? ("#{failed} failed".red) : ("all is ok".yellow))
 end
 
+def stub_installer_lprojs
+    glob = "*.lproj"
+    
+    english_source = File.join(INSTALLER_RESOURCES_DIR, "English.lproj")
+    die("need #{english_source}!") unless File.exists?(english_source)
+    
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
+        name = File.basename(dir)
+        next if name == "English.lproj"
+        full_path = File.join(INSTALLER_RESOURCES_DIR, name)
+        next if File.exists?(full_path) # already have it
+        puts "Creating stub " + full_path.blue
+        sys("cp -r \"#{english_source}\" \"#{full_path}\"")
+    end
+end
+
 ################################################################################################
 # tasks
 
@@ -407,6 +424,11 @@ end
 desc "propagates structure of English.lproj to all other language folders while keeping already translated strings"
 task :propagate do
     propagate_from_english_to_other_lprojs
+end
+
+desc "make stub lproj folders for installer, creates all which exist in plugin/Resources"
+task :stub do
+    stub_installer_lprojs
 end
 
 desc "exec command in all lproj folders"
