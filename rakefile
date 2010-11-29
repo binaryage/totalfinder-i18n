@@ -270,10 +270,26 @@ end
 
 def propagate_from_english_to_other_lprojs
     glob = ENV["to"] || "*.lproj"
-    
+
     Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
         Dir.chdir dir do
             propagate_english_to_cwd
+        end
+    end
+end
+
+def create_localizations_for_project
+    glob = ENV["to"] || "*.lproj"
+    project = ENV["project"] || die("Project name not defined")
+
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
+        Dir.chdir dir do
+            File.open(File.join(dir, project + ".strings"), "w") do |f|
+                f << "/* no strings */"
+            end
+            File.open(File.join(dir, project + "UI.strings"), "w") do |f|
+                f << "/* no strings */"
+            end
         end
     end
 end
@@ -450,6 +466,11 @@ end
 desc "validates all strings files and checks them for syntax errors"
 task :validate do
     validate_strings_files
+end
+
+desc "validates all strings files and checks them for syntax errors"
+task :create_localization do
+    create_localizations_for_project
 end
 
 task :default => :restart
