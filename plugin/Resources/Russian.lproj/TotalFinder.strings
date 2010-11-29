@@ -37,8 +37,8 @@
 "Pin Visor" = "Закрепить Visor";
 "TotalFinder Preferences…" = "Настройки TotalFinder…";
 "Visit Homepage…" = "Открыть домашнюю страницу проекта…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Выбрать следующую вкладку";
+"Select Previous Tab" = "Выбрать предыдущую вкладку";
 
 /* misc. */
 "Screen %d" = "Экран %d";

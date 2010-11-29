@@ -1,7 +1,7 @@
-"Space" = "Space";
-"Use old shortcut" = "Использовать прежнюю комбинацию";
+"Space" = "Пробел";
+"Use old shortcut" = "Прежняя комбинация";
 "Type shortcut" = "Введите комбинацию";
-"Click to record shortcut" = "Нажмите чтобы записать комбинацию";
+"Click to record shortcut" = "☝ Записать комбинацию";
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "Комбинация %@ не может использоваться!";
 "The key combination \"%@\" can't be used because %@." = "Комбинация \"%@\" не может использоваться потому, что %@.";

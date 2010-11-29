@@ -32,7 +32,7 @@
 "TotalFinder.kext status" = "Статус TotalFinder.kext";
 "Unable to connect" = "Невозможно соединиться с расширением ядра!\nУ Вас установлено расширение ядра TotalFinder?";
 "Advanced:" = "Расширенные возможности:";
-"Don't write .DS_Store to Network" = "Не записывать файлы .DS_Store в Сети";
+"Don't write .DS_Store to Network" = "Не записывать файлы .DS_Store в сети";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Восстановить настройки по-умолчанию";
@@ -50,7 +50,7 @@
 "Experimental:" = "Экспериментальные возможности:";
 "Freelance Windows" = "Независимые окна";
 "Use narrow Tabs Bar" = "Узкая панель вкладок";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Show CutPaste buttons in Context Menus" = "Команды редактирования в виде кнопок";
 
 /* about page */
 "Check for updates…" = "Проверить обновления…";
@@ -59,12 +59,12 @@
 "TotalFinder Registration" = "Регистрация TotalFinder";
 "Registration" = "Регистрация";
 "Please enter your license details from the email we have sent you:" = "Пожалуйста, введите детали Вашей лицензии, которые мы отправили Вам электронной почтой:";
-"Buy TotalFinder Now" = "Купите TotalFinder Сейчас";
+"Buy TotalFinder Now" = "Купите TotalFinder сейчас";
 "Register" = "Зарегистрировать";
 "Thanks for registering!" = "Спасибо за регистрацию!";
 "This TotalFinder copy is licensed to:" = "Эта копия TotalFinder залицензирована на:";
 "Close" = "Закрыть";
-"Change License" = "Сменить Лицензию";
+"Change License" = "Сменить лицензию";
 "Back" = "Назад";
 "Invalid license code" = "Неверный код лицензии";
 "Please go back and try again." = "Пожалуйста, попытайтесь еще раз.";
