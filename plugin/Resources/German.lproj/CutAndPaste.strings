@@ -1,5 +1,5 @@
-"Edit" = "Edit";
-"Cut" = "Cut";
-"Cut %u Items" = "Cut %u Items";
-"Paste" = "Paste";
-"Paste %u Items" = "Paste %u Items";
+"Edit" = "Bearbeiten";
+"Cut" = "Ausschneiden";
+"Cut %u Items" = "%u Elemente ausschneiden";
+"Paste" = "Einfügen";
+"Paste %u Items" = "%u Elemente einfügen";

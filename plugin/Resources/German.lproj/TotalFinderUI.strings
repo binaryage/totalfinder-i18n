@@ -41,7 +41,7 @@
 "Show System Files" = "Zeige Systemdateien";
 "Folders on Top" = "Ordner am Anfang";
 "Always Maximize" = "Immer maximieren";
-"Toggle Dual Mode" = "Dual Mode an/aus";
+"Toggle Dual Mode" = "Dual-Modus an/aus";
 
 "Menu and Dock:" = "Menü und Dock:";
 "Hide icon in Menu Bar" = "Icon in der Menüleiste nicht anzeigen";
@@ -50,7 +50,7 @@
 "Experimental:" = "Experimentell:";
 "Freelance Windows" = "Unabhängige Fenster";
 "Use narrow Tabs Bar" = "Tableiste verkleinern";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Show CutPaste buttons in Context Menus" = "Zeige Ausschneiden &amp; Einfügen-Einträge im Kontextmenü";
 
 /* about page */
 "Check for updates…" = "Updates suchen …";
