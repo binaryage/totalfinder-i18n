@@ -4,7 +4,7 @@
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
 "Edit" = "編集";
 "Cut" = "カット";
-"Cut “%@”" = "Cut “%@”";
-"Cut %u Items" = "Cut %u Items";
-"Paste" = "Paste";
-"Paste %u Items" = "Paste %u Items";
+"Cut “%@”" = "“%@” をカット";
+"Cut %u Items" = "%u 項目をカット";
+"Paste" = "ペースト";
+"Paste %u Items" = "%u 項目をペースト";

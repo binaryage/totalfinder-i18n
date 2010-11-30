@@ -50,7 +50,7 @@
 "Experimental:" = "実験的な機能：";
 "Freelance Windows" = "複数のウィンドウを許可";
 "Use narrow Tabs Bar" = "タブバーを細くする";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Show CutPaste buttons in Context Menus" = "カット&amp;ペーストをコンテキストメニューに表示";
 
 /* about page */
 "Check for updates…" = "アップデートを確認…";
