@@ -2,9 +2,9 @@
 /* as Main Menu > Edit > Copy item works in your localized Finder */
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
-"Edit" = "Bearbeiten";
-"Cut" = "Ausschneiden";
-"Cut “%@”" = "Ausschneiden “%@”";
-"Cut %u Items" = "%u Elemente ausschneiden";
-"Paste" = "Einfügen";
-"Paste %u Items" = "%u Elemente einfügen";
+"Edit" = "편집";
+"Cut" = "잘라내기";
+"Cut “%@”" = "“%@” 잘라내기";
+"Cut %u Items" = "%u개 항목 잘라내기";
+"Paste" = "붙여넣기";
+"Paste %u Items" = "%u개 항목 붙여넣기";
