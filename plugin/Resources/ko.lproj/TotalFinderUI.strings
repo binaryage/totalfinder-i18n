@@ -24,21 +24,21 @@
 "Free Form Window" = "화면 가장자리에서 분리";
 
 /* asepsis page */
-"Asepsis Feature" = ".DS_Store 기능";
+"Asepsis Feature" = ".DS_Store 파일 생성 제한";
 "prevents .DS_Store files to be created in local folders" = "로컬 폴더에 .DS_Store 파일을 생성하지 않습니다.";
 ".DS_Store files will be redirected into" = ".DS_Store 파일을 다음 폴더로 모두 이동:";
-"this folder should be set as writable for all users of TotalFinder" = "주의: 모든 TotalFinder 사용자가 이 폴더에 접근할 수 있도록 알맞은 권한을 가지고 있어야 합니다.";
-"Launch Migration Assistant" = "파일 이동 어시스턴트 실행";
+"this folder should be set as writable for all users of TotalFinder" = "주의: 모든 계정에서 접근할 수 있는 권한을 요구합니다.";
+"Launch Migration Assistant" = "마이그레이션 도우미 실행";
 "TotalFinder.kext status" = "TotalFinder.kext 상태";
 "Unable to connect" = "kernel extension을 연결할 수 없습니다\nTotalFinder kernel extension을 설치하셨습니까??";
 "Advanced:" = "고급:";
-"Don't write .DS_Store to Network" = "네트워크 폴더에 .DS_Store 파일 생성하지 않기";
+"Don't write .DS_Store to Network" = "네트워크 폴더에 .DS_Store 파일을 생성하지 않기";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "초기값으로 복원";
 
 "File Browser:" = "파일 탐색:";
-"Show System Files" = "시스템파일 보기";
+"Show System Files" = "숨겨진 시스템 파일 보기";
 "Folders on Top" = "폴더를 목록 최상단에";
 "Always Maximize" = "창을 항상 최대화";
 "Toggle Dual Mode" = "스플릿뷰 단축키";
