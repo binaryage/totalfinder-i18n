@@ -2,9 +2,9 @@
 /* as Main Menu > Edit > Copy item works in your localized Finder */
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
-"Edit" = "Edit";
-"Cut" = "Cut";
-"Cut “%@”" = "Cut “%@”";
-"Cut %u Items" = "Cut %u Items";
-"Paste" = "Paste";
-"Paste %u Items" = "Paste %u Items";
+"Edit" = "编辑";
+"Cut" = "剪切";
+"Cut “%@”" = "剪切 “%@”";
+"Cut %u Items" = "剪切了 %u 项";
+"Paste" = "粘贴";
+"Paste %u Items" = "粘贴了 %u 项";

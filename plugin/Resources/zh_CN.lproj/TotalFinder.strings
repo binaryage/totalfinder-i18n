@@ -8,7 +8,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "断线";
 "Connect" = "连线";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "连接不到kernel extension!\nTotalFinder.kext 是否已经安装?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "连接不到 kernel extension!\nTotalFinder.kext 是否已经安装?";
 
 /* About preferences pane */
 "from Beta Channel" = "from Beta Channel";
