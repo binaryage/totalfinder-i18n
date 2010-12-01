@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		D0191EBE12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/CopyPathMenu.strings; sourceTree = "<group>"; };
+		D0191EBF12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/CopyPathMenuUI.strings; sourceTree = "<group>"; };
+		D0191EC012A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/CutAndPaste.strings; sourceTree = "<group>"; };
+		D0191EC112A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/CutAndPasteUI.strings; sourceTree = "<group>"; };
+		D0191EC212A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/FoldersOnTop.strings; sourceTree = "<group>"; };
+		D0191EC312A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/FoldersOnTopUI.strings; sourceTree = "<group>"; };
+		D0191EC412A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Welsh; path = Welsh.lproj/InfoLine.html; sourceTree = "<group>"; };
+		D0191EC512A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Welsh; path = Welsh.lproj/LicensingInfo.html; sourceTree = "<group>"; };
+		D0191EC712A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0191EC812A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/NoDesktopDots.strings; sourceTree = "<group>"; };
+		D0191EC912A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/NoDesktopDotsUI.strings; sourceTree = "<group>"; };
+		D0191ECA12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Welsh; path = Welsh.lproj/PurchaseScreen.html; sourceTree = "<group>"; };
+		D0191ECB12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/ShortcutRecorder.strings; sourceTree = "<group>"; };
+		D0191ECC12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/TotalFinder.strings; sourceTree = "<group>"; };
+		D0191ECD12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/TotalFinderUI.strings; sourceTree = "<group>"; };
+		D0191ECE12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/VisualImprovements.strings; sourceTree = "<group>"; };
+		D0191ECF12A5F54D00FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Welsh; path = Welsh.lproj/VisualImprovementsUI.strings; sourceTree = "<group>"; };
+		D0191EDA12A5F76600FB271C /* Welsh */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Welsh; path = Welsh.lproj/welcome.rtf; sourceTree = "<group>"; };
 		D8CF43AC12A3EFBB008989A5 /* compile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile.sh; sourceTree = "<group>"; };
 		D8CF43AD12A3EFBB008989A5 /* dev.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = dev.sh; sourceTree = "<group>"; };
 		D8CF43B012A3EFBB008989A5 /* Czech */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Czech; path = Czech.lproj/welcome.rtf; sourceTree = "<group>"; };
@@ -421,6 +439,7 @@
 			isa = PBXGroup;
 			children = (
 				D8CF453612A3F0CA008989A5 /* BrowserWindow.xib */,
+				D0191EC612A5F54D00FB271C /* Localizable.strings */,
 				D8CF453712A3F0CA008989A5 /* Command.pdf */,
 				D8CF453812A3F0CA008989A5 /* Control.pdf */,
 				D8CF453912A3F0CA008989A5 /* CopyPathMenu.xib */,
@@ -509,6 +528,7 @@
 				sv,
 				zh_CN,
 				zh_TW,
+				Welsh,
 			);
 			mainGroup = D8CF439A12A3EEBD008989A5;
 			projectDirPath = "";
@@ -519,6 +539,14 @@
 /* End PBXProject section */
 
 /* Begin PBXVariantGroup section */
+		D0191EC612A5F54D00FB271C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0191EC712A5F54D00FB271C /* Welsh */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		D8CF43AF12A3EFBB008989A5 /* welcome.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -541,6 +569,7 @@
 				D8CF43C312A3EFBB008989A5 /* sv */,
 				D8CF43C612A3EFBB008989A5 /* zh_CN */,
 				D8CF43C712A3EFBB008989A5 /* zh_TW */,
+				D0191EDA12A5F76600FB271C /* Welsh */,
 			);
 			name = welcome.rtf;
 			sourceTree = "<group>";
@@ -567,6 +596,7 @@
 				D8CF466912A3F0CA008989A5 /* sv */,
 				D8CF467A12A3F0CA008989A5 /* zh_CN */,
 				D8CF468A12A3F0CA008989A5 /* zh_TW */,
+				D0191EBE12A5F54D00FB271C /* Welsh */,
 			);
 			name = CopyPathMenu.strings;
 			sourceTree = "<group>";
@@ -593,6 +623,7 @@
 				D8CF466A12A3F0CA008989A5 /* sv */,
 				D8CF467B12A3F0CA008989A5 /* zh_CN */,
 				D8CF468B12A3F0CA008989A5 /* zh_TW */,
+				D0191EBF12A5F54D00FB271C /* Welsh */,
 			);
 			name = CopyPathMenuUI.strings;
 			sourceTree = "<group>";
@@ -619,6 +650,7 @@
 				D8CF466B12A3F0CA008989A5 /* sv */,
 				D8CF467C12A3F0CA008989A5 /* zh_CN */,
 				D8CF468C12A3F0CA008989A5 /* zh_TW */,
+				D0191EC012A5F54D00FB271C /* Welsh */,
 			);
 			name = CutAndPaste.strings;
 			sourceTree = "<group>";
@@ -645,6 +677,7 @@
 				D8CF466C12A3F0CA008989A5 /* sv */,
 				D8CF467D12A3F0CA008989A5 /* zh_CN */,
 				D8CF468D12A3F0CA008989A5 /* zh_TW */,
+				D0191EC112A5F54D00FB271C /* Welsh */,
 			);
 			name = CutAndPasteUI.strings;
 			sourceTree = "<group>";
@@ -671,6 +704,7 @@
 				D8CF466D12A3F0CA008989A5 /* sv */,
 				D8CF467E12A3F0CA008989A5 /* zh_CN */,
 				D8CF468E12A3F0CA008989A5 /* zh_TW */,
+				D0191EC212A5F54D00FB271C /* Welsh */,
 			);
 			name = FoldersOnTop.strings;
 			sourceTree = "<group>";
@@ -697,6 +731,7 @@
 				D8CF466E12A3F0CA008989A5 /* sv */,
 				D8CF467F12A3F0CA008989A5 /* zh_CN */,
 				D8CF468F12A3F0CA008989A5 /* zh_TW */,
+				D0191EC312A5F54D00FB271C /* Welsh */,
 			);
 			name = FoldersOnTopUI.strings;
 			sourceTree = "<group>";
@@ -723,6 +758,7 @@
 				D8CF466F12A3F0CA008989A5 /* sv */,
 				D8CF468012A3F0CA008989A5 /* zh_CN */,
 				D8CF469012A3F0CA008989A5 /* zh_TW */,
+				D0191EC412A5F54D00FB271C /* Welsh */,
 			);
 			name = InfoLine.html;
 			sourceTree = "<group>";
@@ -749,6 +785,7 @@
 				D8CF467012A3F0CA008989A5 /* sv */,
 				D8CF468112A3F0CA008989A5 /* zh_CN */,
 				D8CF469112A3F0CA008989A5 /* zh_TW */,
+				D0191EC512A5F54D00FB271C /* Welsh */,
 			);
 			name = LicensingInfo.html;
 			sourceTree = "<group>";
@@ -775,6 +812,7 @@
 				D8CF467112A3F0CA008989A5 /* sv */,
 				D8CF468212A3F0CA008989A5 /* zh_CN */,
 				D8CF469212A3F0CA008989A5 /* zh_TW */,
+				D0191EC812A5F54D00FB271C /* Welsh */,
 			);
 			name = NoDesktopDots.strings;
 			sourceTree = "<group>";
@@ -801,6 +839,7 @@
 				D8CF467212A3F0CA008989A5 /* sv */,
 				D8CF468312A3F0CA008989A5 /* zh_CN */,
 				D8CF469312A3F0CA008989A5 /* zh_TW */,
+				D0191EC912A5F54D00FB271C /* Welsh */,
 			);
 			name = NoDesktopDotsUI.strings;
 			sourceTree = "<group>";
@@ -827,6 +866,7 @@
 				D8CF467312A3F0CA008989A5 /* sv */,
 				D8CF468412A3F0CA008989A5 /* zh_CN */,
 				D8CF469412A3F0CA008989A5 /* zh_TW */,
+				D0191ECA12A5F54D00FB271C /* Welsh */,
 			);
 			name = PurchaseScreen.html;
 			sourceTree = "<group>";
@@ -853,6 +893,7 @@
 				D8CF467412A3F0CA008989A5 /* sv */,
 				D8CF468512A3F0CA008989A5 /* zh_CN */,
 				D8CF469512A3F0CA008989A5 /* zh_TW */,
+				D0191ECB12A5F54D00FB271C /* Welsh */,
 			);
 			name = ShortcutRecorder.strings;
 			sourceTree = "<group>";
@@ -879,6 +920,7 @@
 				D8CF467512A3F0CA008989A5 /* sv */,
 				D8CF468612A3F0CA008989A5 /* zh_CN */,
 				D8CF469612A3F0CA008989A5 /* zh_TW */,
+				D0191ECC12A5F54D00FB271C /* Welsh */,
 			);
 			name = TotalFinder.strings;
 			sourceTree = "<group>";
@@ -905,6 +947,7 @@
 				D8CF467612A3F0CA008989A5 /* sv */,
 				D8CF468712A3F0CA008989A5 /* zh_CN */,
 				D8CF469712A3F0CA008989A5 /* zh_TW */,
+				D0191ECD12A5F54D00FB271C /* Welsh */,
 			);
 			name = TotalFinderUI.strings;
 			sourceTree = "<group>";
@@ -931,6 +974,7 @@
 				D8CF467712A3F0CA008989A5 /* sv */,
 				D8CF468812A3F0CA008989A5 /* zh_CN */,
 				D8CF469812A3F0CA008989A5 /* zh_TW */,
+				D0191ECE12A5F54D00FB271C /* Welsh */,
 			);
 			name = VisualImprovements.strings;
 			sourceTree = "<group>";
@@ -957,6 +1001,7 @@
 				D8CF467812A3F0CA008989A5 /* sv */,
 				D8CF468912A3F0CA008989A5 /* zh_CN */,
 				D8CF469912A3F0CA008989A5 /* zh_TW */,
+				D0191ECF12A5F54D00FB271C /* Welsh */,
 			);
 			name = VisualImprovementsUI.strings;
 			sourceTree = "<group>";
