@@ -1,4 +1,12 @@
 *.nib
 .DS_Store
-justin.mode1v3
-justin.pbxuser
+<<<<<<< HEAD
+=======
+*.mode1v3
+*.xcuserstate
+*.xcuserdatad
+*.pbxuser
+*.perspectivev3
+xcuserdata
+build/
+>>>>>>> 5905cf82f71dd85722f343464ebfab252667a2b0
