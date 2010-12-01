@@ -323,7 +323,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D077801A12A603AB00A304B3</string>
+										<string>D0DFFE5B12A69FD20025B0C3</string>
 										<key>history</key>
 										<array>
 											<string>D0191D9012A5F23D00FB271C</string>
@@ -631,7 +631,7 @@
 											<string>D0F5F5FE12A5FB3D002429AC</string>
 											<string>D077801412A6039400A304B3</string>
 											<string>D077801912A603AB00A304B3</string>
-											<string>D0191DDC12A5F23D00FB271C</string>
+											<string>D077801A12A603AB00A304B3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -643,14 +643,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 374}}</string>
+								<string>{{0, 0}, {1072, 366}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 133 1280 645 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>374pt</string>
+							<string>366pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -663,14 +663,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 379}, {1072, 225}}</string>
+								<string>{{0, 371}, {1072, 233}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 133 1280 645 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>225pt</string>
+							<string>233pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -689,9 +689,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D077801712A6039400A304B3</string>
+				<string>D0DFFE5C12A69FD20025B0C3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D077801812A6039400A304B3</string>
+				<string>D0DFFE5D12A69FD20025B0C3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
