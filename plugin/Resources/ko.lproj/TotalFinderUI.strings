@@ -12,7 +12,7 @@
 
 "Control:" = "창 조절:";
 "Hide on ESC" = "ESC 키로 숨기기";
-"Pin Visor" = "붙박이창 고정하기";
+"Pin Visor" = "붙박이창 고정";
 
 "Animation:" = "애니메이션:";
 "Fade Window" = "서서히 감추기";
@@ -20,19 +20,19 @@
 
 "Screen:" = "스크린:";
 "Show on all Spaces" = "모든 스페이스에서 활성";
-"Show on top of the Dock" = "Dock 보다 상위에 보이기";
+"Show on top of the Dock" = "Dock 보다 상위에 나타나기";
 "Free Form Window" = "화면 가장자리에서 분리";
 
 /* asepsis page */
 "Asepsis Feature" = ".DS_Store 파일 생성 제한";
 "prevents .DS_Store files to be created in local folders" = "로컬 폴더에 .DS_Store 파일을 생성하지 않습니다.";
 ".DS_Store files will be redirected into" = ".DS_Store 파일을 다음 폴더로 모두 이동:";
-"this folder should be set as writable for all users of TotalFinder" = "주의: 모든 계정에서 접근할 수 있는 권한을 요구합니다.";
+"this folder should be set as writable for all users of TotalFinder" = "주의: 모든 계정에서 접근할 수 있는 폴더 권한을 요구합니다.";
 "Launch Migration Assistant" = "마이그레이션 도우미 실행";
 "TotalFinder.kext status" = "TotalFinder.kext 상태";
 "Unable to connect" = "kernel extension을 연결할 수 없습니다\nTotalFinder kernel extension을 설치하셨습니까??";
 "Advanced:" = "고급:";
-"Don't write .DS_Store to Network" = "네트워크 폴더에 .DS_Store 파일을 생성하지 않기";
+"Don't write .DS_Store to Network" = "네트워크 폴더에 .DS_Store 파일 생성하지 않기";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "초기값으로 복원";
