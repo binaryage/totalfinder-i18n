@@ -45,11 +45,11 @@
 
 "Menu and Dock:" = "메뉴바/Dock:";
 "Hide icon in Menu Bar" = "메뉴바에서 아이콘 감추기";
-"Keep original Dock icon" = "Dock에 아이콘 보이기";
+"Keep original Dock icon" = "Dock에 오리지널 Finder 아이콘 사용";
 
 "Experimental:" = "실험적인 기능:";
 "Freelance Windows" = "프리랜스 윈도우";
-"Use narrow Tabs Bar" = "측소된 탭 영역";
+"Use narrow Tabs Bar" = "탭 칸 세로폭 줄임";
 "Show CutPaste buttons in Context Menus" = "마우스 오른쪽 버튼 누른 후 잘라내기/붙여넣기 버튼 보이기";
 
 /* about page */
