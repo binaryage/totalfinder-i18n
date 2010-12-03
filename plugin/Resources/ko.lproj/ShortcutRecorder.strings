@@ -6,7 +6,7 @@
 "The key combination %@ can't be used!" = "단축키 %@ 는 사용하실 수 없습니다!";
 "The key combination \"%@\" can't be used because %@." = "단축키 \"%@\" 는 사용하실 수 없습니다. %@.";
 "The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "단축키 \"%@\" 는 이미 다른 응용프로그램에 등록되어 있기 때문에 사용하실 수 없습니다. (응용프로그램이나 시스템 키보드의 설정에서 기존 단축키를 해제해 주세요.)";
-"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "단축키 \"%@\" 는 이미 "%@\"에 등록되어 있어 사용할 수 없습니다.";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "단축키 \"%@\" 는 이미 \"%@\"에 등록되어 있어 사용할 수 없습니다.";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
 "Shift + " = "Shift + ";
