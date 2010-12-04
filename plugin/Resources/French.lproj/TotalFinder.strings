@@ -11,9 +11,9 @@
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Connexion à l'extension du noyau impossible ! Avez-vous installé correctement TotalFinder.kext ?";
 
 /* About preferences pane */
-"from Beta Channel" = "version Beta";
-"from Dev Channel" = "version Dev";
-"from Stable Channel" = "version Stable";
+"from Beta Channel" = "en version béta";
+"from Dev Channel" = "en version dév";
+"from Stable Channel" = "en version stable";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Réinitialiser";
@@ -37,23 +37,23 @@
 "Pin Visor" = "Épingler Visor";
 "TotalFinder Preferences…" = "Préférences TotalFinder…";
 "Visit Homepage…" = "Voir le site Web…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Sélectionner l'onglet suivant";
+"Select Previous Tab" = "Sélectionner l'onglet précédent";
 
 /* misc. */
 "Screen %d" = "Écran %d";
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - version non enregistrée";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - Encore 1 jour - Acheter !";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - Encore 2 jours - Acheter !";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - Encore 3 jours - Acheter !";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - Encore 4 jours - Acheter !";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - Encore 5 jours - Acheter !";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - Encore %d jours - Acheter !";
 
 /* registration */
-"Licensed to %@" = "Licence appartenant à %@";
+"Licensed to %@" = "Licence accordée à %@";
 "Change License" = "Changer la licence";
-"Unregistered version in trial mode" = "Copie non enregistrée en mode d'essai";
+"Unregistered version in trial mode" = "Copie non enregistrée en mode d'évaluation";
 "Register" = "Enregistrer";
