@@ -35,7 +35,7 @@
 "Don't write .DS_Store to Network" = "不把 .DS_Store 写到网络";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "把配置重设到 TotalFinder 默认";
+"Reset TotalFinder to defaults" = "初始化 TotalFinder 配置";
 
 "File Browser:" = "文件浏览:";
 "Show System Files" = "显示系统文件";
@@ -43,14 +43,14 @@
 "Always Maximize" = "默认最大化";
 "Toggle Dual Mode" = "双窗口模式";
 
-"Menu and Dock:" = "菜单 及 Dock:";
+"Menu and Dock:" = "菜单及 Dock:";
 "Hide icon in Menu Bar" = "在状态栏菜单不显示 TotalFinder";
 "Keep original Dock icon" = "使用原始 Finder Dock 图标";
 
-"Experimental:" = "实验:";
+"Experimental:" = "实验性功能:";
 "Freelance Windows" = "使用自由窗口";
 "Use narrow Tabs Bar" = "使用窄标签栏";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Show CutPaste buttons in Context Menus" = "在快捷菜单显示剪切和粘贴";
 
 /* about page */
 "Check for updates…" = "更新检查…";
@@ -60,7 +60,7 @@
 "Registration" = "注册";
 "Please enter your license details from the email we have sent you:" = "请按照我们发给您 Email 内容完成授权信息:";
 "Buy TotalFinder Now" = "现在购买 TotalFinder";
-"Register" = "注册人";
+"Register" = "注册";
 "Thanks for registering!" = "感谢您的注册!";
 "This TotalFinder copy is licensed to:" = "本 TotalFinder 副本授权于:";
 "Close" = "关闭";
@@ -68,5 +68,5 @@
 "Back" = "后退";
 "Invalid license code" = "无效的授权码";
 "Please go back and try again." = "请返回后重试。";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "购买 TotalFinder 授权，请访问BinaryAge的网上商店。";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "购买 TotalFinder 授权，请访问 BinaryAge 的网上商店。";
 "Thank you for using TotalFinder!" = "感谢使用 TotalFinder!";
