@@ -50,7 +50,7 @@
 "Experimental:" = "Experimentell:";
 "Freelance Windows" = "Unabhängige Fenster";
 "Use narrow Tabs Bar" = "Tableiste verkleinern";
-"Show CutPaste buttons in Context Menus" = "Zeige Ausschneiden &amp; Einfügen-Einträge im Kontextmenü";
+"Show CutPaste buttons in Context Menus" = "Ausschneiden/Einfügen im Kontextmenü";
 
 /* about page */
 "Check for updates…" = "Updates suchen …";
