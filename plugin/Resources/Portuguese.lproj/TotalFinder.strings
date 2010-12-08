@@ -13,10 +13,10 @@
 /* About preferences pane */
 "from Beta Channel" = "do Canal Beta";
 "from Dev Channel" = "do Canal Dev";
-"from Stable Channel" = "do Canal Stable";
+"from Stable Channel" = "do Canal Estável";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Ressetar";
+"Reset" = "Resetar";
 "Cancel" = "Cancelar";
 "Do you really want reset to defaults?" = "Confirma ressetar para configuração padrão?";
 "This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
@@ -37,20 +37,20 @@
 "Pin Visor" = "Fixar Visor";
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
 "Visit Homepage…" = "Visitar Homepage…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Selecionar Próxima Aba";
+"Select Previous Tab" = "Selecionar Aba Anterior";
 
 /* misc. */
 "Screen %d" = "Tela %d";
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - versão não registrada";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia restante - comprar agora!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias restantes - comprar agora!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias restantes - comprar agora!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias restantes - comprar agora!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias restantes - comprar agora!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias restantes - comprar agora!";
 
 /* registration */
 "Licensed to %@" = "Registrado para %@";
