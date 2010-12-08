@@ -1,6 +1,6 @@
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "업데이트 확인";
-"Uninstall TotalFinder" = "TotalFinder 제거";
+"Uninstall TotalFinder" = "TotalFinder 언인스톨";
 "Restart Finder" = "Finder 재시작";
 "Show Visor" = "붙박이창 보이기";
 "Hide Visor" = "붙박이창 감추기";
@@ -22,7 +22,7 @@
 "This will restore initial TotalFinder settings." = "기본값으로 복구됩니다.";
 
 /* Unistall Alert Box */
-"Uninstall" = "제거";
+"Uninstall" = "언인스톨";
 "Really want to uninstall TotalFinder?" = "정말 TotalFinder를 삭제하시겠습니까?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "이 컴퓨터에서 TotalFinder가 제거되고, 다시 기본 Finder 상태로 복구되는 스크립트가 실행됩니다.";
 
@@ -32,8 +32,8 @@
 "Close Window" = "창 닫기";
 "Show System Files" = "시스템 파일 보기";
 "Folders On Top" = "폴더를 항상 위에";
-"Toggle Dual Mode" = "스플릿뷰로 보기";
-"Narrow Tabs Bar" = "탭 칸 세로폭 좁힘";
+"Toggle Dual Mode" = "듀얼 모드로 보기";
+"Narrow Tabs Bar" = "탭 칸 세로폭 줄임";
 "Pin Visor" = "붙박이창 고정";
 "TotalFinder Preferences…" = "TotalFinder 설정…";
 "Visit Homepage…" = "홈페이지 방문…";
