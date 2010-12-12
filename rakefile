@@ -356,7 +356,7 @@ def validate_strings_files
         input   = File.read path
         charset = CMess::GuessEncoding::Automatic.guess(input)
         
-        ok = (validate_strings_file path) and (charset=="ASCII" or charset=="UTF-8")
+        ok = ((validate_strings_file path) and (charset=="ASCII" or charset=="UTF-8"))
         
         puts charset.magenta+" "+path.blue+" "+"ok".yellow if ok
         puts charset.magenta+" "+path.blue+" "+"failed".red unless ok
