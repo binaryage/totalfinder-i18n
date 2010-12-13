@@ -16,10 +16,10 @@
 "from Stable Channel" = "Julkaisu-kanavalta";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Palauta tehdasasetukset";
+"Reset" = "Palauta asetukset";
 "Cancel" = "Peruuta";
-"Do you really want reset to defaults?" = "Haluatko varmasti palauttaa tehdasasetukset?";
-"This will restore initial TotalFinder settings." = "Tämä palauttaa TotalFinderin tärkeimmät asetukset.";
+"Do you really want reset to defaults?" = "Haluatko varmasti palauttaa asetukset?";
+"This will restore initial TotalFinder settings." = "Tämä palauttaa TotalFinderin alkuperäiset asetukset.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Poista";
@@ -27,18 +27,18 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tämä käynnistää scriptin, mikä poistaa TotalFinderin ja palauttaa normaalin Finderin käyttöösi.";
 
 /* MainMenu items */
-"New Finder Tab" = "Uusi Finderin Välilehti";
-"Close Tab" = "Sulje Välilehti";
+"New Finder Tab" = "Uusi Finderin välilehti";
+"Close Tab" = "Sulje välilehti";
 "Close Window" = "Sulje ikkuna";
-"Show System Files" = "Näytä Piilotiedostot";
-"Folders On Top" = "Kansiot Ensin";
-"Toggle Dual Mode" = "Kaksoispaneeli-selaus";
-"Narrow Tabs Bar" = "Ohenna Välilehtipalkkia";
+"Show System Files" = "Näytä piilotiedostot";
+"Folders On Top" = "Kansiot ensin";
+"Toggle Dual Mode" = "Kaksoispaneeliselaus";
+"Narrow Tabs Bar" = "Ohenna välilehtipalkkia";
 "Pin Visor" = "Jätä Visor-ikkuna esille";
-"TotalFinder Preferences…" = "TotalFinderin Asetukset…";
-"Visit Homepage…" = "Käy Kotisivulla…";
-"Select Next Tab" = "Valitse Seuraava Välilehti";
-"Select Previous Tab" = "Valitse Edellinen Välilehti";
+"TotalFinder Preferences…" = "TotalFinderin asetukset…";
+"Visit Homepage…" = "Käy kotisivulla…";
+"Select Next Tab" = "Valitse seuraava välilehti";
+"Select Previous Tab" = "Valitse edellinen välilehti";
 
 /* misc. */
 "Screen %d" = "Tila %d";
@@ -53,7 +53,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d päivää jäljellä - osta nyt!";
 
 /* registration */
-"Licensed to %@" = "Lisenssöity %@";
+"Licensed to %@" = "Lisenssin omistaja: %@.";
 "Change License" = "Vaihda lisenssiä";
 "Unregistered version in trial mode" = "Rekisteröimätön versio Kokeilu-tilalla";
 "Register" = "Rekisteröi";
