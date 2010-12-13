@@ -1,0 +1,72 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Hienosäädöt";
+"About" = "Tietoa";
+
+/* visor page */
+"Visor Feature" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "järjestelmän kattava ikkuna, tuodaan esille näppäinyhdistelmällä";
+
+"Activation:" = "Aktivointi:";
+
+"Control:" = "Hallinta:";
+"Hide on ESC" = "Piilota ESC-näppäimellä";
+"Pin Visor" = "Jätä esille";
+
+"Animation:" = "Animaatio:";
+"Fade Window" = "Haihduta Ikkuna";
+"Slide Window" = "Liu'uta Ikkuna";
+
+"Screen:" = "Tila:";
+"Show on all Spaces" = "Näytä aina Spacesissa";
+"Show on top of the Dock" = "Näytä Dockin päällä";
+"Free Form Window" = "Muotoiltava Ikkuna";
+
+/* asepsis page */
+"Asepsis Feature" = "Asepsis";
+"prevents .DS_Store files to be created in local folders" = "estää luomasta .DS_Store-tiedostoja paikallisissa kansioissa";
+".DS_Store files will be redirected into" = ".DS_Store-tiedostot ohjataan";
+"this folder should be set as writable for all users of TotalFinder" = "tämän kansion pitäisi olla oikeuksiltaan kirjoitettava kaikille TotalFinderin käyttäjille";
+"Launch Migration Assistant" = "Käynnistä Siirtymisapuri";
+"TotalFinder.kext status" = "TotalFinder.kext:in tilanne";
+"Unable to connect" = "Unable to connect with kernel extension!\nDo you have TotalFinder kernel extension installed?";
+"Advanced:" = "Lisäasetukset:";
+"Don't write .DS_Store to Network" = "Älä luo .DS_Store-tiedostoja verkkoasemiin";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Palauta TotalFinderin tehdasasetukset";
+
+"File Browser:" = "Tiedostoselain:";
+"Show System Files" = "Näytä piilotiedostot";
+"Folders on Top" = "Kansiot ensin";
+"Always Maximize" = "Suurenna aina ikkunat";
+"Toggle Dual Mode" = "Kaksoispaneeli-selaus";
+
+"Menu and Dock:" = "Menu ja Dock:";
+"Hide icon in Menu Bar" = "Piilota kuvake Menu-palkista";
+"Keep original Dock icon" = "Pidä alkuperäinen Dock-kuvake";
+
+"Experimental:" = "Kehityksen alla:";
+"Freelance Windows" = "Freelance ikkunoille";
+"Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
+"Show CutPaste buttons in Context Menus" = "Näytä Leikkaa&Sijoita napit pikavalikossa";
+
+/* about page */
+"Check for updates‚Ä¶" = "Tarkista päivitykset‚Ä¶";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinderin rekisteröinti";
+"Registration" = "Rekisteröinti";
+"Please enter your license details from the email we have sent you:" = "Please enter your license details from the email we have sent you:";
+"Buy TotalFinder Now" = "Osta TotalFinder nyt";
+"Register" = "Rekisteröi";
+"Thanks for registering!" = "Kiitos rekisteröinnistä!";
+"This TotalFinder copy is licensed to:" = "Tämä TotalFinderin lisenssi on lisenssöity:";
+"Close" = "Sulje";
+"Change License" = "Vaihda lisenssi";
+"Back" = "Takaisin";
+"Invalid license code" = "Virheellinen lisenssiavain";
+"Please go back and try again." = "Ole hyvä ja mene takaisin yrittääksesi uudelleen.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Ostaaksesi lisenssin TotalFinderiin käy BinaryAgen nettikaupassa";
+"Thank you for using TotalFinder!" = "Kiitos, kun käytit TotalFinderia!";

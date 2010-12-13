@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Tarkista päivitykset";
+"Uninstall TotalFinder" = "Poista TotalFinder";
+"Restart Finder" = "Käynnistä Finder uudelleen";
+"Show Visor" = "Näytä Visor";
+"Hide Visor" = "Piilota Visor";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Katkaise yhteys";
+"Connect" = "Yhdistä";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Ei voida muodostaa yhteyttä kernelin lisäosalla. Onko Sinulla TotalFinder.kext asennettuna oikein?";
+
+/* About preferences pane */
+"from Beta Channel" = "Beta-kanavalta";
+"from Dev Channel" = "Kehittäjä-kanavalta";
+"from Stable Channel" = "Julkaisu-kanavalta";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Palauta tehdasasetukset";
+"Cancel" = "Peruuta";
+"Do you really want reset to defaults?" = "Haluatko varmasti palauttaa tehdasasetukset?";
+"This will restore initial TotalFinder settings." = "Tämä palauttaa TotalFinderin tärkeimmät asetukset.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Poista";
+"Really want to uninstall TotalFinder?" = "Haluatko varmasti poistaa TotalFinderin?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tämä käynnistää scriptin, mikä poistaa TotalFinderin ja palauttaa normaalin Finderin käyttöösi.";
+
+/* MainMenu items */
+"New Finder Tab" = "Uusi Finderin Välilehti";
+"Close Tab" = "Sulje Välilehti";
+"Close Window" = "Sulje ikkuna";
+"Show System Files" = "Näytä Piilotiedostot";
+"Folders On Top" = "Kansiot Ensin";
+"Toggle Dual Mode" = "Käynnistä Kaksoistila";
+"Narrow Tabs Bar" = "Ohenna Välilehtipalkkia";
+"Pin Visor" = "Pin Visor";
+"TotalFinder Preferences‚Ä¶" = "TotalFinderin Asetukset‚Ä¶";
+"Visit Homepage‚Ä¶" = "Käy Kotisivulla‚Ä¶";
+"Select Next Tab" = "Valitse Seuraava Välilehti";
+"Select Previous Tab" = "Valitse Edellinen Välilehti";
+
+/* misc. */
+"Screen %d" = "Ikkuna %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - rekisteröimätön versio";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 päivä jäljellä - osta nyt!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 päivää jäljellä - osta nyt!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 päivää jäljellä - osta nyt!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 päivää jäljellä - osta nyt!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 päivää jäljellä - osta nyt!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d päivää jäljellä - osta nyt!";
+
+/* registration */
+"Licensed to %@" = "Lisenssöity %@";
+"Change License" = "Vaihda lisenssiä";
+"Unregistered version in trial mode" = "Rekisteröimätön versio Kokeilu-tilalla";
+"Register" = "Rekisteröi";
