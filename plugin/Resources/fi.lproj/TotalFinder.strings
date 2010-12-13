@@ -32,16 +32,16 @@
 "Close Window" = "Sulje ikkuna";
 "Show System Files" = "Näytä Piilotiedostot";
 "Folders On Top" = "Kansiot Ensin";
-"Toggle Dual Mode" = "Käynnistä Kaksoistila";
+"Toggle Dual Mode" = "Kaksoispaneeli-selaus";
 "Narrow Tabs Bar" = "Ohenna Välilehtipalkkia";
 "Pin Visor" = "Pin Visor";
-"TotalFinder Preferences…" = "TotalFinder Preferences…";
-"Visit Homepage…" = "Visit Homepage…";
+"TotalFinder Preferences…" = "TotalFinderin Asetukset…";
+"Visit Homepage…" = "Käy Kotisivulla…";
 "Select Next Tab" = "Valitse Seuraava Välilehti";
 "Select Previous Tab" = "Valitse Edellinen Välilehti";
 
 /* misc. */
-"Screen %d" = "Ikkuna %d";
+"Screen %d" = "Tila %d";
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - rekisteröimätön versio";
