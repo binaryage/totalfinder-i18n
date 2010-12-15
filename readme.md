@@ -60,7 +60,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 > Please note that it may end in conflict if you modified same files as I did. Please consult [git docs](http://git-scm.com/documentation) how to resolve it.
 
 ### I want to modify the UI. How can I compile XIB files?
-> Please make sure you have the latest XCode from Apple. Download and compile [ShortcutRecorder project](http://wafflesoftware.net/shortcut). It will give you an Interface Builder plugin for ShortcurRecorder control. No you can open XIB and modify it. TotalFinder uses nibs, to compile them please run `./compile.sh`.
+> Please make sure you have the latest XCode from Apple. Download and compile [ShortcutRecorder project](http://wafflesoftware.net/shortcut). It will give you an Interface Builder plugin for ShortcurRecorder control. Now you can open XIB and modify it. TotalFinder uses nibs, to compile them please run `./compile.sh`.
 
 ### May I alter dimensions in the UI to fit my language?
 > Although it is possible to copy XIB into language folder and make it language-specific I prefer to keep one shared XIB file for all languages. I'm using technique for defining flexible areas to fit different languages as [described here](http://code.google.com/p/google-toolbox-for-mac/wiki/UILocalization). Please see the `TotalFinder.xib` where it is already used on several places in the Preferences Window.
