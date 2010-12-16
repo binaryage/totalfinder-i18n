@@ -12,19 +12,19 @@
 
 /* About preferences pane */
 "from Beta Channel" = "del Canal Beta";
-"from Dev Channel" = "del Canal Dev";
-"from Stable Channel" = "del Canal Stable";
+"from Dev Channel" = "del Canal de Desarrollo";
+"from Stable Channel" = "del Canal Estable";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Restaurar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "¿Desea restaurar a los valores por omisión?";
+"Do you really want reset to defaults?" = "¿Desea restaurar a los valores de fábrica?";
 "This will restore initial TotalFinder settings." = "Esta operación restaurará la configuración original de TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
-"Really want to uninstall TotalFinder?" = "¿Desea desinstalar TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación va a iniciar un script que desinstalará TotalFinder de este ordenador y restaurará el comportamiento original de Finder.";
+"Really want to uninstall TotalFinder?" = "¿Está seguro que desea desinstalar TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación va a iniciar una rutina que desinstalará TotalFinder de este ordenador y restaurará el comportamiento original del Finder.";
 
 /* MainMenu items */
 "New Finder Tab" = "Nueva pestaña del Finder";
@@ -50,10 +50,10 @@
 "TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 días restantes - ¡cómpralo ya!";
 "TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 días restantes - ¡cómpralo ya!";
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 días restantes - ¡cómpralo ya!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d  días restantes - ¡cómpralo ya!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d días restantes - ¡cómpralo ya!";
 
 /* registration */
 "Licensed to %@" = "Licenciado a %@";
 "Change License" = "Cambiar Licencia";
-"Unregistered version in trial mode" = "Versión no registrada (modo de prueba)";
+"Unregistered version in trial mode" = "Versión no registrada en modo de prueba";
 "Register" = "Registrar";
