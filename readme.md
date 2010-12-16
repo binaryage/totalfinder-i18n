@@ -34,7 +34,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 1. edit files
 2. validate your changes with `rake validate`
 3. use `./restart.sh` to restart TotalFinder to reflect your changes
-4. commit if needed
+4. commit if needed - you can `./commit.sh`
 5. goto 1
 
 ### Final step
@@ -51,7 +51,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 > And do you see Finder.app in MYLANGUAGE? First, double check you have MYLANGUAGE as top-most language in the `System Preferences > Language & Text > Language` list. Second, please note that TotalFinder is a plugin for Finder.app and it inherits preferred language from Finder.app. Finder.app does not pick MYLANGUAGE in case there is not language folder present here `/System/Library/CoreServices/Finder.app/Contents/Resources/MYLANGUAGE.lproj`. You may create empty folder by hand or you may fix this by running `sudo rake normalize` task, which will create missing folders in `/System/Library/CoreServices/Finder.app/Contents/Resources` according to language folders available in TotalFinder's Resources. Hope this helped.
 
 ### How do I keep my fork in sync with [binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)?
->You can use the automatic sync file like this `cd /path/to/git/local/repo` and then `./sync.sh`
+>You can use the automatic sync file like this `cd /path/to/git/local/repo` and then `./sync.sh` or do it the old-man way:
 > Cd into your local repo and define new remote server pointing to my repo (which will be read-only for you). Then you may pull from it and merge it into your repo as you wish.
 >
 > Initial step: `git remote add ba git://github.com/binaryage/totalfinder-i18n.git`
