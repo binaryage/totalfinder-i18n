@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature" = "Activar Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "ventana global invocada con una función rápida de teclado";
+"a system-wide window sliding from the bottom on a hot-key" = "una ventana global invocada con un atajo de teclado";
 
 "Activation:" = "Activación:";
 
@@ -19,15 +19,15 @@
 "Slide Window" = "Deslizar Ventana";
 
 "Screen:" = "Pantalla:";
-"Show on all Spaces" = "Mostrar en todos los Spaces";
+"Show on all Spaces" = "Mostrar en todos los Espacios";
 "Show on top of the Dock" = "Mostrar sobre el Dock";
-"Free Form Window" = "Ventana redimensionable";
+"Free Form Window" = "Ventana Redimensionable";
 
 /* asepsis page */
 "Asepsis Feature" = "Activar Asepsia";
 "prevents .DS_Store files to be created in local folders" = "evita que se creen archivos .DS_Store en las carpetas locales";
 ".DS_Store files will be redirected into" = "Los archivos .DS_Store serán redirigidos a";
-"this folder should be set as writable for all users of TotalFinder" = "(necesita permisos de escritura para todos los usarios de TotalFinder)";
+"this folder should be set as writable for all users of TotalFinder" = "necesita permisos de escritura en esta carpeta para todos los usarios de TotalFinder";
 "Launch Migration Assistant" = "Lanzar Asistente de Migración";
 "TotalFinder.kext status" = "Estado de TotalFinder.kext";
 "Unable to connect" = "No es posible conectar con la extensión del kernel.\n¿Tiene la extensión del kernel correctamente instalada?";
@@ -35,21 +35,21 @@
 "Don't write .DS_Store to Network" = "No escribir .DS_Store en unidades de Red"; /* 'unidades de Red' deducido de aquí: http://www.apple.com/es/macosx/what-is-macosx/dock-and-finder.html */
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Restaurar valores por omisión";
+"Reset TotalFinder to defaults" = "Restaurar valores predeterminados";
 
 "File Browser:" = "Navegador de Archivos:";
-"Show System Files" = "Ver Archiv. del Sistema";
+"Show System Files" = "Ver Archivos del Sistema";
 "Folders on Top" = "Carpetas primero";
-"Always Maximize" = "Maximizar completamente";
+"Always Maximize" = "Maximizar siempre";
 "Toggle Dual Mode" = "Cambiar a Modo Dual";
 
 "Menu and Dock:" = "Menú y Dock:";
-"Hide icon in Menu Bar" = "Ocultar icono de la Barra de Menú";
-"Keep original Dock icon" = "Usar icono original de Finder en el Dock";
+"Hide icon in Menu Bar" = "Ocultar ícono de la Barra de Menú";
+"Keep original Dock icon" = "Usar ícono original del Finder en el Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "No agrupar ventanas";
-"Use narrow Tabs Bar" = "Barra Pestañas estrecha";
+"Use narrow Tabs Bar" = "Usar Barra de Pestañas estrecha";
 "Show CutPaste buttons in Context Menus" = "Mostrar Cortar y Pegar en el menú contextual";
 
 /* about page */
@@ -58,7 +58,7 @@
 /* registration */
 "TotalFinder Registration" = "Registro de TotalFinder";
 "Registration" = "Registro";
-"Please enter your license details from the email we have sent you:" = "Introduzca sus datos de licencia, del correo electrónico que le hemos enviado:";
+"Please enter your license details from the email we have sent you:" = "Introduzca los datos de licencia del correo electrónico que le hemos enviado:";
 "Buy TotalFinder Now" = "Comprar TotalFinder";
 "Register" = "Registrar";
 "Thanks for registering!" = "¡Gracias por registrarse!";
@@ -68,5 +68,5 @@
 "Back" = "Volver";
 "Invalid license code" = "Código de lincencia inválido";
 "Please go back and try again." = "Vuelva atrás e inténtelo de nuevo.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar una licencia de TotalFinder puede visitar la página web de BinaryAge.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar una licencia de TotalFinder, visite la página web de BinaryAge.";
 "Thank you for using TotalFinder!" = "¡Gracias por utilizar TotalFinder!";
