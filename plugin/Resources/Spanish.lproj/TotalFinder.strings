@@ -12,8 +12,8 @@
 
 /* About preferences pane */
 "from Beta Channel" = "del Canal Beta";
-"from Dev Channel" = "del Canal de Desarrollo";
-"from Stable Channel" = "del Canal Estable";
+"from Dev Channel" = "del Canal Dev";
+"from Stable Channel" = "del Canal Stable";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Restaurar";
