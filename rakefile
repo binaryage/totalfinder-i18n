@@ -320,11 +320,13 @@ def validate_strings_file path
         next if in_multi_line_comment
         next if line =~ /^".*?"\s*=\s*".*?";\s*$/
         next if line =~ /^".*?"\s*=\s*".*?";\s*\/\*.*?\*\/$/
+        next if line =~ /^".*?"\s*=\s*".*?";\s*\/\/.*?$/
         next if line =~ /^\/\*.*?\*\/$/
         next if line =~ /^$/
         # last line may be without new-line character
         next if counter==count and line =~ /^".*?"\s*=\s*".*?";\s*/
         next if counter==count and line =~ /^".*?"\s*=\s*".*?";\s*\/\*.*?\*\//
+        next if counter==count and line =~ /^".*?"\s*=\s*".*?";\s*\/\/.*?$/
         if line =~ /^\/\*[^\*]*/ then
             in_multi_line_comment = true
             next
