@@ -19,7 +19,7 @@
 "Slide Window" = "Deslizar Ventana";
 
 "Screen:" = "Pantalla:";
-"Show on all Spaces" = "Mostrar en todos los Espacios";
+"Show on all Spaces" = "Mostrar en todos los Spaces"; //Mac OS also calls them 'Spaces' in Spanish
 "Show on top of the Dock" = "Mostrar sobre el Dock";
 "Free Form Window" = "Ventana Redimensionable";
 
