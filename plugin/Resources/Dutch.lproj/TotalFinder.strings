@@ -11,9 +11,9 @@
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kan niet verbinden met de kernel extensie! Is de TotalFinder.kext goed geïnstalleerd?";
 
 /* About preferences pane */
-"from Beta Channel" = "from Beta Channel";
-"from Dev Channel" = "from Dev Channel";
-"from Stable Channel" = "from Stable Channel";
+"from Beta Channel" = "in het Beta kanaal";
+"from Dev Channel" = "in het Dev kanaal";
+"from Stable Channel" = "in het Stable kanaal";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Herstel";
@@ -27,33 +27,33 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dit start een script dat TotalFinder van de computer zal verwijderen en het originele Finder gedrag zal herstellen.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nieuwe Finder tab";
-"Close Tab" = "Sluit tab";
-"Close Window" = "Sluit scherm";
-"Show System Files" = "Laat systeem bestanden zien";
+"New Finder Tab" = "Nieuw Finder tabblad";
+"Close Tab" = "Sluit tabblad";
+"Close Window" = "Sluit venster";
+"Show System Files" = "Laat systeembestanden zien";
 "Folders On Top" = "Mappen eerst";
-"Toggle Dual Mode" = "Schakel van/naar Dual Mode";
-"Narrow Tabs Bar" = "Smalle tabs balk";
+"Toggle Dual Mode" = "Dubbele/enkele kolom";
+"Narrow Tabs Bar" = "Smalle tabbladen balk";
 "Pin Visor" = "Zet Visor vast";
 "TotalFinder Preferences…" = "TotalFinder voorkeuren…";
 "Visit Homepage…" = "Ga naar de homepage…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Kies volgend tabblad";
+"Select Previous Tab" = "Kies vorig tabblad";
 
 /* misc. */
 "Screen %d" = "Scherm %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - unregistered version" = "TotalFinder - ongelicenseerde versie";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag over - koop nu!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dagen over - koop nu!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dagen over - koop nu!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dagen over - koop nu!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dagen over - koop nu!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dagen over - koop nu!";
 
 /* registration */
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Licensed to %@" = "Gelicenseerd aan %@";
+"Change License" = "Wijzig licentie";
+"Unregistered version in trial mode" = "Ongeregistreerde verse in demo mode";
+"Register" = "Registreer";
