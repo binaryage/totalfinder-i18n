@@ -19,7 +19,7 @@
 "Slide Window" = "Deslizar Ventana";
 
 "Screen:" = "Pantalla:";
-"Show on all Spaces" = "Mostrar en todos los Spaces"; //Mac OS also calls them 'Spaces' in Spanish
+"Show on all Spaces" = "Mostrar en todos los Spaces"; //Mac OS los llama Spaces
 "Show on top of the Dock" = "Mostrar sobre el Dock";
 "Free Form Window" = "Ventana Redimensionable";
 
@@ -44,8 +44,8 @@
 "Toggle Dual Mode" = "Cambiar a Modo Dual";
 
 "Menu and Dock:" = "Menú y Dock:";
-"Hide icon in Menu Bar" = "Ocultar ícono de la Barra de Menú";
-"Keep original Dock icon" = "Usar ícono original del Finder en el Dock";
+"Hide icon in Menu Bar" = "Ocultar icono de la Barra de Menú"; //Mac OS los llama iconos, no íconos, aunque la RAE lo admite
+"Keep original Dock icon" = "Usar icono original del Finder en el Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "No agrupar ventanas";
