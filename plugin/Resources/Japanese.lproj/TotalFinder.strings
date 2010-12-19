@@ -37,8 +37,8 @@
 "Pin Visor" = "バイザー固定";
 "TotalFinder Preferences…" = "環境設定…";
 "Visit Homepage…" = "ホームページ（英語）を開く…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "次のタブを選択";
+"Select Previous Tab" = "前のタブを選択";
 
 /* misc. */
 "Screen %d" = "スクリーン %d";
