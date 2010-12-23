@@ -23,8 +23,8 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "Deinstallieren";
-"Really want to uninstall TotalFinder?" = "Wollen Sie wirklich TotalFinder deinstallieren?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dies wird ein Skript starten, welches TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt";
+"Really want to uninstall TotalFinder?" = "Wollen Sie TotalFinder wirklich deinstallieren?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dies wird ein Skript starten, welches TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt.";
 
 /* MainMenu items */
 "New Finder Tab" = "Neuer Finder Tab";
@@ -35,8 +35,8 @@
 "Toggle Dual Mode" = "Dual-Modus an-/ausschalten";
 "Narrow Tabs Bar" = "Tableiste verkleinern";
 "Pin Visor" = "Visor anheften";
-"TotalFinder Preferences…" = "TotalFinder Einstellungen …";
-"Visit Homepage…" = "Website besuchen …";
+"TotalFinder Preferences…" = "TotalFinder Einstellungen…";
+"Visit Homepage…" = "Website besuchen…";
 "Select Next Tab" = "Nächster Tab";
 "Select Previous Tab" = "Vorheriger Tab";
 
