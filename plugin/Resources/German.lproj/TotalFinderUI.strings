@@ -1,6 +1,6 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "";
+"Asepsis" = "Asepsis";
 "Tweaks" = "Erweitert";
 "About" = "Über";
 
@@ -10,15 +10,15 @@
 
 "Activation:" = "Einblenden";
 
-"Control:" = "Steuerung";
+"Control:" = "Steuerung:";
 "Hide on ESC" = "Mit ESC ausblenden";
 "Pin Visor" = "Anheften";
 
-"Animation:" = "Animation";
+"Animation:" = "Animation:";
 "Fade Window" = "Überblenden animieren";
 "Slide Window" = "Hineingleiten animieren";
 
-"Screen:" = "Bildschirm";
+"Screen:" = "Bildschirm:";
 "Show on all Spaces" = "Auf allen Spaces sichtbar";
 "Show on top of the Dock" = "Über dem Dock anzeigen";
 "Free Form Window" = "Fenstergröße veränderbar";
