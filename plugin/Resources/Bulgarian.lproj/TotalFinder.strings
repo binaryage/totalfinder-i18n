@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Провери за обновления";
+"Uninstall TotalFinder" = "Деинсталирай TotalFinder";
+"Restart Finder" = "Рестартирай Finder";
+"Show Visor" = "Покажи Visor";
+"Hide Visor" = "Скрий Visor";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Прекъсни връзката";
+"Connect" = "Направи връзка";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Липсва връзка с драйвера на ядрото! Драйверът TotalFinder.kext инсталиран ли е правилно?";
+
+/* About preferences pane */
+"from Beta Channel" = "от Beta Channel";
+"from Dev Channel" = "от Dev Channel";
+"from Stable Channel" = "от Stable Channel";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Настройки по подразбиране";
+"Cancel" = "Отказ";
+"Do you really want reset to defaults?" = "Наистина ли желаете да върнете настройките по подразбиране?";
+"This will restore initial TotalFinder settings." = "Тази операция ще върне настройките по подразбиране на TotalFinder.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Деинсталирай";
+"Really want to uninstall TotalFinder?" = "Наистина ли желаете да деинсталирате TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ще бъде стартирана процедура по деинсталация, която ще премахне TotalFinder от този компютър и ще възстанови оригиналния вид на Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Нов Finder таб";
+"Close Tab" = "Затвори таба";
+"Close Window" = "Затвори прозореца";
+"Show System Files" = "Покажи системни файлове";
+"Folders On Top" = "Покажи директориите най-отгоре";
+"Toggle Dual Mode" = "Двупанелен режим";
+"Narrow Tabs Bar" = "Тънка лента с табове";
+"Pin Visor" = "Прикрепи трайно Visor";
+"TotalFinder Preferences…" = "Настройки на TotalFinder…";
+"Visit Homepage…" = "Посетете страницата на проекта…";
+"Select Next Tab" = "Следващ таб";
+"Select Previous Tab" = "Предходен таб";
+
+/* misc. */
+"Screen %d" = "Екран %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - нерегистрирана версия";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - Остава 1 ден - Купете сега!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - Остават 2 дни - Купете сега!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - Остават 3 дни - Купете сега!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - Остават 4 дни - Купете сега!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - Остават 5 дни - Купете сега!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - Остават %d дни - Купете сега!";
+
+/* registration */
+"Licensed to %@" = "Лицензирано копие на %@";
+"Change License" = "Промени лиценза";
+"Unregistered version in trial mode" = "Нерегистрирана версия в пробен режим";
+"Register" = "Регистрирай";
