@@ -1,0 +1,13 @@
+"Space" = "Spasi";
+"Use old shortcut" = "Gunakan shortcut lama";
+"Type shortcut" = "Ketik shortcut";
+"Click to record shortcut" = "Klik untuk merekam shortcut";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "Kombinasi tombol %@ tidak dapat digunakan!";
+"The key combination \"%@\" can't be used because %@." = "Kombinasi tombol \"%@\" tidak dapat digunakan karena %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Kombinasi tombol \"%@\" tidak dapat digunakan karena telah telah dipakai oleh sistem - luas shortcut keyboard. (Jika anda bersikeras menggunakan tombol ini, kebanyakan shortcut bisa diganti di panel Keyboard & Tetikus panel di Preferensi Sistem.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Kombinasi tombol \"%@\" tidak dapat digunakan karena telah dipakai oleh menu item \"%@\".";
+"Command + " = "Command + ";
+"Option + " = "Option + ";
+"Shift + " = "Shift + ";
+"Control + " = "Control + ";
