@@ -1,0 +1,72 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Tweaks";
+"About" = "Tentang";
+
+/* visor page */
+"Visor Feature" = "Fitur Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "sistem-wide menggunakan jendela geser dari bawah dengan hot-key";
+
+"Activation:" = "Aktivasi:";
+
+"Control:" = "Control:";
+"Hide on ESC" = "Sembunyikan dengan ESC";
+"Pin Visor" = "Tahan Visor";
+
+"Animation:" = "Animasi:";
+"Fade Window" = "Kaburkan Jendela";
+"Slide Window" = "Geser Jendela";
+
+"Screen:" = "Layar:";
+"Show on all Spaces" = "Tampilkan semuanya";
+"Show on top of the Dock" = "Show di atas Dock";
+"Free Form Window" = "Jendela dengan Free Form";
+
+/* asepsis page */
+"Asepsis Feature" = "Fitus Asepsis";
+"prevents .DS_Store files to be created in local folders" = "cegah membuat file .DS_Store di folder lokal";
+".DS_Store files will be redirected into" = "File .DS_Store akan dipindahkan ke";
+"this folder should be set as writable for all users of TotalFinder" = "Folder ini sebaiknya diset dapat dimodifikasi oleh semua pengguna TotalFinder";
+"Launch Migration Assistant" = "Jalankan Asisten Migrasi";
+"TotalFinder.kext status" = "Status TotalFinder.kext";
+"Unable to connect" = "Tidak dapat terhubung dengan ekstensi kernel!\nApakah anda telah menginstal ekstensi kernel TotalFinder";
+"Advanced:" = "Lebih Advance:";
+"Don't write .DS_Store to Network" = "Jangan tulis .DS_Store dalam jaringan";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Kembalikan TotalFinder ke setingan awal";
+
+"File Browser:" = "Peramban File:";
+"Show System Files" = "Tunjukkan System Files";
+"Folders on Top" = "Folder di Atas";
+"Always Maximize" = "Selalu Maximize";
+"Toggle Dual Mode" = "Aktifkan Mode Dual";
+
+"Menu and Dock:" = "Menu dan Dock:";
+"Hide icon in Menu Bar" = "Sembunyikan ikon di Menu Bar";
+"Keep original Dock icon" = "Tetap meggunakan ikon Dock asli";
+
+"Experimental:" = "Eksperimental:";
+"Freelance Windows" = "Jendela Freelance";
+"Use narrow Tabs Bar" = "Gunakan Tabs Bar sempit";
+"Show CutPaste buttons in Context Menus" = "Tunjukkan tombol Cut&Paste di Menu Context";
+
+/* about page */
+"Check for updates…" = "Periksa jika ada update…";
+
+/* registration */
+"TotalFinder Registration" = "Registrasi TotalFinder";
+"Registration" = "Registrasi";
+"Please enter your license details from the email we have sent you:" = "Silahkan masukkan detail lisensi dari email yang telah kami kirimkan kepada anda:";
+"Buy TotalFinder Now" = "Beli TotalFinder Sekarang";
+"Register" = "Register";
+"Thanks for registering!" = "Terima kasih telah melakukan registrasi!";
+"This TotalFinder copy is licensed to:" = "Salinan TotalFinder ini dilisensikan untuk:";
+"Close" = "Tutup";
+"Change License" = "Ganti Lisensi";
+"Back" = "Kembali";
+"Invalid license code" = "Kode lisensi tidak valid";
+"Please go back and try again." = "Silahkan kembali dan mencoba lagi.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Untuk memesan lisensi TotalFinder, silahkan kunjungi web store BinaryAge.";
+"Thank you for using TotalFinder!" = "Terima kasih telah menggunakan TotalFinder!";
