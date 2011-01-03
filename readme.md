@@ -54,7 +54,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 ### What encoding should I use for my files?
 > Please use always UTF-8. Other encodings will probably fail to load or you will see wrong characters. If you are unsure please run `rake validate` task to check your files.
 
-### I have created MYLANGUAGE.lproj and modified string files. I've restarted the Finder.app, but I don't see my localization. What's wrong?
+### I have created MYLANGUAGE.lproj and modified string files.<br>I've restarted the Finder.app, but I don't see my localization. What's wrong?
 > And do you see Finder.app in MYLANGUAGE? First, double check you have MYLANGUAGE as top-most language in the `System Preferences > Language & Text > Language` list. Second, please note that TotalFinder is a plugin for Finder.app and it inherits preferred language from Finder.app. Finder.app does not pick MYLANGUAGE in case there is not language folder present here `/System/Library/CoreServices/Finder.app/Contents/Resources/MYLANGUAGE.lproj`. You may create empty folder by hand or you may fix this by running `sudo rake normalize` task, which will create missing folders in `/System/Library/CoreServices/Finder.app/Contents/Resources` according to language folders available in TotalFinder's Resources. Hope this helped.
 
 ### How do I keep my fork in sync with [binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)?
