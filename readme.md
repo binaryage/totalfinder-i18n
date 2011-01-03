@@ -39,7 +39,14 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 
 ### Final step
 
-1. push to github and send a pull request to [darwin](http://github.com/darwin)
+1. push to github and send a pull request to:
+   * Spanish => [rsanchezsaez](http://github.com/rsanchezsaez)
+   * Italian => [diegotheblind](http://github.com/diegotheblind)
+   * Japanese => [kueda99](http://github.com/kueda99)
+   * French => [Yann-R](http://github.com/Yann-R)
+   * Russian => [akahan](http://github.com/akahan)
+   * in all other cases => [darwin](http://github.com/darwin) 
+
 2. (optional) run `./undev.sh` to return to unaltered TotalFinder state (this won't delete your files, it will [just unlink](totalfinder-i18n/blob/master/undev.sh) sym-linked folder)
 
 ## Questions?
