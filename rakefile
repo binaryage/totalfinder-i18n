@@ -345,13 +345,47 @@ def validate_strings_files
     begin
         require 'cmess/guess_encoding'
     rescue
-        raise 'You must "gem install cmess" to use character encoding detection'
+        die 'You must "gem install cmess" to use character encoding detection'
     end
 
     glob = ENV["to"] || "*.lproj"
-    
+
     counter = 0
     failed = 0
+    warnings = 0
+
+    known_files = []
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "English.lproj", "*")) do |path|
+        known_files << File.basename(path)
+    end
+
+    Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "*.lproj")) do |dir|
+        unrecognized_files = []
+        missing_files = known_files.dup
+        
+        Dir.glob(File.join(dir, "*")) do |path|
+            file = File.basename(path)
+            
+            if missing_files.include?(file) then
+                missing_files.delete(file)
+            else
+                unrecognized_files << file
+            end
+        end
+        
+        if (!missing_files.empty? or !unrecognized_files.empty?) then
+            warnings += 1
+            
+            puts "in " + dir.blue + ":"
+            if (!missing_files.empty?) then
+                puts "  missing files: " + missing_files.join(", ")
+            end
+            if (!unrecognized_files.empty?) then
+                puts "  unrecognized files: " + unrecognized_files.join(", ")
+            end
+        end
+    end
+    
     Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob, "*.strings")) do |path|
         counter += 1
 
@@ -366,7 +400,7 @@ def validate_strings_files
     end
     
     puts "-----------------------------------"
-    puts "checked "+"#{counter} files".magenta+" and "+(failed>0 ? ("#{failed} failed".red) : ("all is ok".yellow))
+    puts "checked "+"#{counter} files".magenta+" and "+(failed>0 ? ("#{failed} failed".red) : ("all is ok".yellow)) + (warnings>0?(" [#{warnings} warnings]".green):(""))
 end
 
 def stub_installer_lprojs
