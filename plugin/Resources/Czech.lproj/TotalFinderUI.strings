@@ -50,8 +50,8 @@
 "Experimental:" = "Experimentální:";
 "Freelance Windows" = "Volná okna";
 "Use narrow Tabs Bar" = "Štíhlé taby";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Show CutPaste buttons in Context Menus" = "Výjmout-vložit tlačítka v kontext menu";
+"Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";
 
 /* about page */
 "Check for updates…" = "Vyhledat aktualizace…";

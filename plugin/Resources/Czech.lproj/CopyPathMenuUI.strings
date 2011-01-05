@@ -1,6 +1,6 @@
-"Copy Path" = "Copy Path";
-"POSIX Path" = "POSIX Path";
+"Copy Path" = "Kopírovat cestu";
+"POSIX Path" = "POSIX cesta";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "Windows cesta";
+"HFS Path" = "HFS cesta";
+"Terminal Path" = "Cesta pro terminál";
