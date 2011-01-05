@@ -53,8 +53,8 @@ end
 def extract_code_strings(folder)
     strings = ""
     Dir.chdir(folder) do
-        strings << `ack -oh '\\$\\(@".*?"\\)'`     # `ack -oh '\$\(@".*?"\)'`
-        strings << `ack -oh '\\$\\$\\(@".*?"\\)'`  # `ack -oh '\$\$\(@".*?"\)'`
+        strings << `ack -oh '\\$\\s*\\(@".*?"\\)'`     # `ack -oh '\$\s*\(@".*?"\)'`
+        strings << `ack -oh '\\$\\$\\s*\\(@".*?"\\)'`  # `ack -oh '\$\$\s*\(@".*?"\)'`
     end
 
     strings = strings.split("\n").map do |s|
