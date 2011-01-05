@@ -8,7 +8,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Katkaise yhteys";
 "Connect" = "Yhdistä";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Ei voida muodostaa yhteyttä kernelin lisäosalla. Onko Sinulla TotalFinder.kext asennettuna oikein?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Ei voida muodostaa yhteyttä kernelin lisäosalla. Onko TotalFinder.kext asennettu oikein?";
 
 /* About preferences pane */
 "from Beta Channel" = "Beta-kanavalta";
@@ -18,13 +18,13 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Palauta asetukset";
 "Cancel" = "Peruuta";
-"Do you really want reset to defaults?" = "Haluatko varmasti palauttaa asetukset?";
+"Do you really want reset to defaults?" = "Haluatko varmasti palauttaa tehdasasetukset?";
 "This will restore initial TotalFinder settings." = "Tämä palauttaa TotalFinderin alkuperäiset asetukset.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Poista";
 "Really want to uninstall TotalFinder?" = "Haluatko varmasti poistaa TotalFinderin?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tämä käynnistää scriptin, mikä poistaa TotalFinderin ja palauttaa normaalin Finderin käyttöösi.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tämä poistaa TotalFinderin ja palauttaa normaalin Finderin käyttöösi.";
 
 /* MainMenu items */
 "New Finder Tab" = "Uusi Finderin välilehti";
@@ -55,5 +55,5 @@
 /* registration */
 "Licensed to %@" = "Lisenssin omistaja: %@.";
 "Change License" = "Vaihda lisenssiä";
-"Unregistered version in trial mode" = "Rekisteröimätön versio Kokeilu-tilalla";
+"Unregistered version in trial mode" = "Rekisteröimätön versio (kokeilu-versio)";
 "Register" = "Rekisteröi";

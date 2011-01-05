@@ -27,10 +27,10 @@
 "Asepsis Feature" = "Asepsis";
 "prevents .DS_Store files to be created in local folders" = "estää luomasta .DS_Store-tiedostoja paikallisissa kansioissa";
 ".DS_Store files will be redirected into" = ".DS_Store-tiedostot ohjataan";
-"this folder should be set as writable for all users of TotalFinder" = "tämän kansion pitäisi olla oikeuksiltaan kirjoitettava kaikille TotalFinderin käyttäjille";
+"this folder should be set as writable for all users of TotalFinder" = "tämän kansion pitäisi olla oikeuksiltaan kirjoitettava kaikille";
 "Launch Migration Assistant" = "Käynnistä Siirtymisapuri";
 "TotalFinder.kext status" = "TotalFinder.kext:in tilanne";
-"Unable to connect" = "Ei voida yhdistää kernelin lisäosalla!\nOnko Sinulla TotalFinderin kernelin lisäosa asennettuna?";
+"Unable to connect" = "Ei voida yhdistää";
 "Advanced:" = "Lisäasetukset:";
 "Don't write .DS_Store to Network" = "Älä luo .DS_Store-tiedostoja verkkoasemiin";
 
@@ -51,7 +51,7 @@
 "Freelance Windows" = "Freelance ikkunoille";
 "Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
 "Show CutPaste buttons in Context Menus" = "Näytä Leikkaa&Sijoita-napit pikavalikossa";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Allow path copying from Context Menus" = "Salli polun kopiointi pikavalikosta";
 
 /* about page */
 "Check for updates…" = "Tarkista päivitykset…";
