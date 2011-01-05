@@ -2,8 +2,8 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10H563</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1222</string>
+		<string key="IBDocument.SystemVersion">10J537</string>
+		<string key="IBDocument.InterfaceBuilderVersion">1246</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSMenu</string>
@@ -25,7 +25,7 @@
 				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSMenu" id="642325171">
-				<string key="NSTitle">^Copy path</string>
+				<string key="NSTitle">^Copy Path</string>
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="93598438">
 						<reference key="NSMenu" ref="642325171"/>
@@ -81,7 +81,7 @@
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array key="connectionRecords">
+			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">copyPathMenu_</string>
@@ -259,5 +259,9 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<nil key="IBDocument.LastKnownRelativeProjectPath"/>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="NSMenuCheckmark">{9, 8}</string>
+			<string key="NSMenuMixedState">{7, 2}</string>
+		</dictionary>
 	</data>
 </archive>

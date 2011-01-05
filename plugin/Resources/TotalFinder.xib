@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10H574</string>
-		<string key="IBDocument.InterfaceBuilderVersion">783</string>
+		<string key="IBDocument.SystemVersion">10J537</string>
+		<string key="IBDocument.InterfaceBuilderVersion">823</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
-		<string key="IBDocument.HIToolboxVersion">461.00</string>
+		<string key="IBDocument.HIToolboxVersion">462.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="com.apple.InterfaceBuilder.CocoaPlugin">783</string>
-			<string key="com.apple.WebKitIBPlugin">783</string>
+			<string key="com.apple.InterfaceBuilder.CocoaPlugin">823</string>
+			<string key="com.apple.WebKitIBPlugin">823</string>
 			<string key="net.wafflesoftware.ShortcutRecorder.IB.Leopard">1</string>
 		</dictionary>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
@@ -19,7 +19,10 @@
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string>com.apple.WebKitIBPlugin</string>
 		</array>
-		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
+			<integer value="1" key="NS.object.0"/>
+		</object>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="556985257">
 			<object class="NSCustomObject" id="800334684">
 				<string key="NSClassName">TotalFinder</string>
@@ -31,6 +34,9 @@
 				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSUserDefaultsController" id="367619262">
+				<array class="NSMutableArray" key="NSDeclaredKeys">
+					<string>TotalFinderCopyPathMenuEnabled</string>
+				</array>
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 			<object class="NSWindowTemplate" id="365580829">
@@ -1477,6 +1483,28 @@
 																						<string key="NSContents">^Show CutPaste buttons in Context Menus</string>
 																						<reference key="NSSupport" ref="731091176"/>
 																						<reference key="NSControlView" ref="994022878"/>
+																						<int key="NSButtonFlags">1211912703</int>
+																						<int key="NSButtonFlags2">2</int>
+																						<reference key="NSNormalImage" ref="820598072"/>
+																						<reference key="NSAlternateImage" ref="267369008"/>
+																						<string key="NSAlternateContents"/>
+																						<string key="NSKeyEquivalent"/>
+																						<int key="NSPeriodicDelay">200</int>
+																						<int key="NSPeriodicInterval">25</int>
+																					</object>
+																				</object>
+																				<object class="NSButton" id="358130718">
+																					<reference key="NSNextResponder" ref="68865413"/>
+																					<int key="NSvFlags">268</int>
+																					<string key="NSFrame">{{23, 6}, {300, 18}}</string>
+																					<reference key="NSSuperview" ref="68865413"/>
+																					<bool key="NSEnabled">YES</bool>
+																					<object class="NSButtonCell" key="NSCell" id="1064179339">
+																						<int key="NSCellFlags">67239424</int>
+																						<int key="NSCellFlags2">0</int>
+																						<string key="NSContents">^Allow path copying from Context Menus</string>
+																						<reference key="NSSupport" ref="731091176"/>
+																						<reference key="NSControlView" ref="358130718"/>
 																						<int key="NSButtonFlags">1211912703</int>
 																						<int key="NSButtonFlags2">2</int>
 																						<reference key="NSNormalImage" ref="820598072"/>
@@ -3446,6 +3474,22 @@
 					</object>
 					<int key="connectionID">1224</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalFinderCopyPathMenuEnabled</string>
+						<reference key="source" ref="358130718"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="358130718"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalFinderCopyPathMenuEnabled</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalFinderCopyPathMenuEnabled</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1228</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -4155,6 +4199,7 @@
 							<reference ref="1068295417"/>
 							<reference ref="402015147"/>
 							<reference ref="994022878"/>
+							<reference ref="358130718"/>
 						</array>
 						<reference key="parent" ref="59148145"/>
 					</object>
@@ -4617,6 +4662,19 @@
 						<reference key="object" ref="806958252"/>
 						<reference key="parent" ref="994022878"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1225</int>
+						<reference key="object" ref="358130718"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="1064179339"/>
+						</array>
+						<reference key="parent" ref="363070971"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1226</int>
+						<reference key="object" ref="1064179339"/>
+						<reference key="parent" ref="358130718"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -4784,8 +4842,17 @@
 				<string key="1217.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1218.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1221.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<object class="NSAffineTransform" key="1221.IBViewBoundsToFrameTransform">
+					<bytes key="NSTransformStruct">P4AAAL+AAABBuAAAwjAAAA</bytes>
+				</object>
 				<boolean value="YES" key="1221.ImportedFromIB2"/>
 				<string key="1222.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1225.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<object class="NSAffineTransform" key="1225.IBViewBoundsToFrameTransform">
+					<bytes key="NSTransformStruct">P4AAAL+AAABB4AAAwhwAAA</bytes>
+				</object>
+				<boolean value="YES" key="1225.ImportedFromIB2"/>
+				<string key="1226.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="385.IBEditorWindowLastContentRect">{{632, 271}, {394, 493}}</string>
 				<string key="385.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="385.IBWindowTemplateEditedContentRect">{{632, 271}, {394, 493}}</string>
@@ -4966,7 +5033,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1224</int>
+			<int key="maxID">1228</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
