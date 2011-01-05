@@ -51,6 +51,7 @@
 "Freelance Windows" = "Независимые окна";
 "Use narrow Tabs Bar" = "Узкая панель вкладок";
 "Show CutPaste buttons in Context Menus" = "Команды редактирования в виде кнопок";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Проверить обновления…";

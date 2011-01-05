@@ -51,6 +51,7 @@
 "Freelance Windows" = "Janelas Freelance";
 "Use narrow Tabs Bar" = "Utilizar barra com abas finas";
 "Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Procurar por actualizações...";

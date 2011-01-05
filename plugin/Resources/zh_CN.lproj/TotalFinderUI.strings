@@ -51,6 +51,7 @@
 "Freelance Windows" = "使用自由窗口";
 "Use narrow Tabs Bar" = "使用窄标签栏";
 "Show CutPaste buttons in Context Menus" = "在快捷菜单显示剪切和粘贴";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "更新检查…";

@@ -51,6 +51,7 @@
 "Freelance Windows" = "Freelance ikkunoille";
 "Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
 "Show CutPaste buttons in Context Menus" = "Näytä Leikkaa&Sijoita-napit pikavalikossa";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Tarkista päivitykset…";

@@ -51,6 +51,7 @@
 "Freelance Windows" = "Независими прозорци";
 "Use narrow Tabs Bar" = "Тясна лента с раздели";
 "Show CutPaste buttons in Context Menus" = "Покажи бутони Cut&Paste в контекст.менюта";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Актуализация…";

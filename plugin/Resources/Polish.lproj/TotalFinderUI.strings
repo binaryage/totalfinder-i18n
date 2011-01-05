@@ -51,6 +51,7 @@
 "Freelance Windows" = "Wolne okna";
 "Use narrow Tabs Bar" = "Użyj wąskich zakładek";
 "Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Sprawdź aktualizacje…";

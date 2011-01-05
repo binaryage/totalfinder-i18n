@@ -51,6 +51,7 @@
 "Freelance Windows" = "No agrupar ventanas";
 "Use narrow Tabs Bar" = "Usar Barra de Pestañas estrecha";
 "Show CutPaste buttons in Context Menus" = "Mostrar Cortar y Pegar en el menú contextual";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Comprobar actualizaciones…";

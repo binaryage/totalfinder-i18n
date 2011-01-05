@@ -51,6 +51,7 @@
 "Freelance Windows" = "Freelance schermen";
 "Use narrow Tabs Bar" = "Smalle tabbladbalk";
 "Show CutPaste buttons in Context Menus" = "Knip en plak knoppen in contextmenu's";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Zoek naar updates…";

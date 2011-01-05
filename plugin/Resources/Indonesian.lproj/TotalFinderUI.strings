@@ -51,6 +51,7 @@
 "Freelance Windows" = "Jendela Freelance";
 "Use narrow Tabs Bar" = "Gunakan Tabs Bar sempit";
 "Show CutPaste buttons in Context Menus" = "Tunjukkan tombol Cut&Paste di Menu Context";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Periksa jika ada update…";

@@ -51,6 +51,7 @@
 "Freelance Windows" = "Freelance Windows";
 "Use narrow Tabs Bar" = "Use narrow Tabs Bar";
 "Show CutPaste buttons in Context Menus" = "Show Cut&Paste buttons in Context Menus";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Check for updates…";

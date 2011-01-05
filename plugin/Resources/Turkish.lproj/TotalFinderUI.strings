@@ -51,6 +51,7 @@
 "Freelance Windows" = "Bağımsız Pencereler";
 "Use narrow Tabs Bar" = "Sekme Çubuğunu daralt";
 "Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Olası güncelleştirmeleri denetle";

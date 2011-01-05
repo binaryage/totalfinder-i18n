@@ -51,9 +51,10 @@
 "Freelance Windows" = "Janelas Freelance";
 "Use narrow Tabs Bar" = "Usar Barra de Abas finas";
 "Show CutPaste buttons in Context Menus" = "Exibir botıes CortarColar nos Menus de Contexto";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
-"Check for updatesÖ" = "Procurar por atualizaÁıesÖ";
+"Check for updates…" = "Check for updates…";
 
 /* registration */
 "TotalFinder Registration" = "Registro do TotalFinder";
