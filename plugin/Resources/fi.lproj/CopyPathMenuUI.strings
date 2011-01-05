@@ -1,6 +1,6 @@
 "Copy Path" = "Kopioi polku";
-"POSIX Path" = "POSIX polku";
+"POSIX Path" = "POSIX-polku";
 "URL" = "URL";
-"Windows Path" = "Windows polku";
-"HFS Path" = "HFS polku";
-"Terminal Path" = "Terminal polku";
+"Windows Path" = "Windows-polku";
+"HFS Path" = "HFS-polku";
+"Terminal Path" = "Terminal-polku";
