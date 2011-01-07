@@ -18,13 +18,13 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Restaurar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "¿Desea restaurar a los valores de fábrica?";
+"Do you really want reset to defaults?" = "¿Desea restaurar a los valores por omisión?"; // "Defaults" translates to "valores por omisión" in Mac OS X
 "This will restore initial TotalFinder settings." = "Esta operación restaurará la configuración original de TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
-"Really want to uninstall TotalFinder?" = "¿Está seguro que desea desinstalar TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación va a iniciar una rutina que desinstalará TotalFinder de este ordenador y restaurará el comportamiento original del Finder.";
+"Really want to uninstall TotalFinder?" = "¿Está seguro de que desea desinstalar TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación va a iniciar un desinstalador que eliminará TotalFinder de este ordenador y restaurará el comportamiento original del Finder.";
 
 /* MainMenu items */
 "New Finder Tab" = "Nueva pestaña del Finder";
