@@ -1,6 +1,6 @@
-"Copy Path" = "Ruta de copia";
+"Copy Path" = "Copiar ruta";
 "POSIX Path" = "Ruta POSIX";
 "URL" = "URL";
 "Windows Path" = "Ruta de Windows";
 "HFS Path" = "Ruta HFS";
-"Terminal Path" = "Ruta de Terminal";
+"Terminal Path" = "Ruta de terminal";
