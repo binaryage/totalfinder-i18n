@@ -5,7 +5,7 @@
 "Pad %@" = "Rellenar %@";
 "The key combination %@ can't be used!" = "¡La combinación de teclas %@ no puede ser utilizada!";
 "The key combination \"%@\" can't be used because %@." = "La combinación de teclas \"%@\" no puede ser utilizada porque %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "La combinación de teclas \"%@\" no puede ser utilizada porque está en uso como una función rápida de teclado del sistema. (Si desea usar esta combinación de teclas, la mayoría de las funciones rápidas se pueden cambiar en el panel Teclado de las Preferencias del Sistema.)"; // "Función rápida de teclado" is the default translation for keyboard shortcut in Mac OS X 
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "La combinación de teclas \"%@\" no puede ser utilizada porque está en uso como una función rápida de teclado del sistema. (Si desea usar esta combinación de teclas, la mayoría de las funciones rápidas se pueden cambiar en el panel Teclado de las Preferencias del Sistema.)"; /* 'Función rápida de teclado' is the default translation for keyboard shortcut in Mac OS X */
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "La combinación de teclas \"%@\" no puede ser usada porque está en uso por el elemento de menú \"%@\".";
 "Command + " = "Comando + ";
 "Option + " = "Opción + ";

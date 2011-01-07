@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature" = "Activar Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "una ventana global invocada con un atajo de teclado";
+"a system-wide window sliding from the bottom on a hot-key" = "ventana global invocada con una función rápida de teclado";
 
 "Activation:" = "Activación:";
 
@@ -15,43 +15,43 @@
 "Pin Visor" = "Fijar Visor";
 
 "Animation:" = "Animación:";
-"Fade Window" = "Desvanecer Ventana";
-"Slide Window" = "Deslizar Ventana";
+"Fade Window" = "Desvanecer ventana";
+"Slide Window" = "Deslizar ventana";
 
 "Screen:" = "Pantalla:";
-"Show on all Spaces" = "Mostrar en todos los Spaces"; //Mac OS los llama Spaces
+"Show on all Spaces" = "Mostrar en todos los Spaces"; /* 'Spaces' is standard for Mac OS X in Spanish */
 "Show on top of the Dock" = "Mostrar sobre el Dock";
-"Free Form Window" = "Ventana Redimensionable";
+"Free Form Window" = "Ventana redimensionable";
 
 /* asepsis page */
 "Asepsis Feature" = "Activar Asepsia";
 "prevents .DS_Store files to be created in local folders" = "evita que se creen archivos .DS_Store en las carpetas locales";
 ".DS_Store files will be redirected into" = "Los archivos .DS_Store serán redirigidos a";
-"this folder should be set as writable for all users of TotalFinder" = "necesita permisos de escritura en esta carpeta para todos los usarios de TotalFinder";
-"Launch Migration Assistant" = "Lanzar Asistente de Migración";
+"this folder should be set as writable for all users of TotalFinder" = "(necesita permisos de escritura para todos los usarios de TotalFinder)";
+"Launch Migration Assistant" = "Lanzar asistente de migración";
 "TotalFinder.kext status" = "Estado de TotalFinder.kext";
 "Unable to connect" = "No es posible conectar con la extensión del kernel.\n¿Tiene la extensión del kernel correctamente instalada?";
 "Advanced:" = "Avanzado:";
 "Don't write .DS_Store to Network" = "No escribir .DS_Store en unidades de Red"; /* 'unidades de Red' deducido de aquí: http://www.apple.com/es/macosx/what-is-macosx/dock-and-finder.html */
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Restaurar valores predeterminados";
+"Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */
 
-"File Browser:" = "Navegador de Archivos:";
-"Show System Files" = "Ver Archivos del Sistema";
+"File Browser:" = "Navegador de archivos:";
+"Show System Files" = "Ver archiv. del sistema"; /* Don't like using abreviations but a longer sentence won't fir the UI */
 "Folders on Top" = "Carpetas primero";
-"Always Maximize" = "Maximizar siempre";
-"Toggle Dual Mode" = "Cambiar a Modo Dual";
+"Always Maximize" = "Maximizar completamente";
+"Toggle Dual Mode" = "Cambiar a modo dual";
 
 "Menu and Dock:" = "Menú y Dock:";
-"Hide icon in Menu Bar" = "Ocultar icono de la Barra de Menú"; //Mac OS los llama iconos, no íconos, aunque la RAE lo admite
+"Hide icon in Menu Bar" = "Ocultar icono en barra de menús"; /* both 'icono' and 'ícono' are correct, Mac OS X calls it 'iconos'. 'Barra de menús' translation is the same as in the 'Networking preference pane' */
 "Keep original Dock icon" = "Usar icono original del Finder en el Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "No agrupar ventanas";
-"Use narrow Tabs Bar" = "Usar Barra de Pestañas estrecha";
-"Show CutPaste buttons in Context Menus" = "Mostrar Cortar y Pegar en el menú contextual";
-"Allow path copying from Context Menus" = "Copiar la ruta desde el menú contextual";
+"Use narrow Tabs Bar" = "Barra pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */
+"Show CutPaste buttons in Context Menus" = "Botones cortar/pegar en menú contextual";
+"Allow path copying from Context Menus" = "Ruta copiable desde el menú contextual";
 
 /* about page */
 "Check for updates…" = "Comprobar actualizaciones…";
