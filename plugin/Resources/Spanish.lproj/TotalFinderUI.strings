@@ -1,6 +1,6 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsia";
+"Asepsis" = "Asepsis";
 "Tweaks" = "Ajustes";
 "About" = "Acerca de";
 
@@ -24,7 +24,7 @@
 "Free Form Window" = "Ventana redimensionable";
 
 /* asepsis page */
-"Asepsis Feature" = "Activar Asepsia";
+"Asepsis Feature" = "Activar Asepsis";
 "prevents .DS_Store files to be created in local folders" = "evita que se creen archivos .DS_Store en las carpetas locales";
 ".DS_Store files will be redirected into" = "Los archivos .DS_Store serán redirigidos a";
 "this folder should be set as writable for all users of TotalFinder" = "(necesita permisos de escritura para todos los usarios de TotalFinder)";
