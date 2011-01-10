@@ -8,7 +8,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "中断";
 "Connect" = "连接";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "连接不到 kernel extension!\nTotalFinder.kext 是否已经安装?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "无法链接到核心扩展！\nTotalFinder.kext 是否正确安装？";
 
 /* About preferences pane */
 "from Beta Channel" = "使用测试通道";
@@ -18,23 +18,23 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "重置";
 "Cancel" = "取消";
-"Do you really want reset to defaults?" = "你真的想重置默认配置?";
-"This will restore initial TotalFinder settings." = "这将会初始化 TotalFinder 配置";
+"Do you really want reset to defaults?" = "你真的想恢复到默认配置？";
+"This will restore initial TotalFinder settings." = "这将会初始化 TotalFinder 配置。";
 
 /* Unistall Alert Box */
 "Uninstall" = "卸载";
-"Really want to uninstall TotalFinder?" = "真的想要卸载 TotalFinder 吗?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "启动卸载脚本卸载 TotalFinder 并恢复原本 Finder";
+"Really want to uninstall TotalFinder?" = "您真的想要卸载 TotalFinder 吗?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "这将会执行卸载脚本卸载 TotalFinder 并恢复到原始的 Finder 程序。";
 
 /* MainMenu items */
 "New Finder Tab" = "创建新标签";
 "Close Tab" = "关闭标签";
 "Close Window" = "关闭窗口";
 "Show System Files" = "显示系统文件";
-"Folders On Top" = "文件夹置顶";
+"Folders On Top" = "文件夹总在最前";
 "Toggle Dual Mode" = "双窗口模式";
 "Narrow Tabs Bar" = "窄标签栏";
-"Pin Visor" = "窗口固定";
+"Pin Visor" = "固定滑入窗口";
 "TotalFinder Preferences…" = "TotalFinder 配置…";
 "Visit Homepage…" = "访问主页…";
 "Select Next Tab" = "选择下一个标签";
@@ -45,15 +45,15 @@
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - 未注册版本";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 剩余 1 天 - 现在购买!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 剩余 2 天 - 现在购买!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 剩余 3 天 - 现在购买!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 剩余 4 天 - 现在购买!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 剩余 5 天 - 现在购买!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - 剩余 %d 天 - 现在购买!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 剩余 1 天 - 立即购买！";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 剩余 2 天 - 立即购买！";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 剩余 3 天 - 立即购买！";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 剩余 4 天 - 立即购买！";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 剩余 5 天 - 立即购买！";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 剩余 %d 天 - 立即购买！";
 
 /* registration */
 "Licensed to %@" = "已授权给 %@";
 "Change License" = "更换授权";
-"Unregistered version in trial mode" = "未注册版本(体验模式)";
+"Unregistered version in trial mode" = "未注册的试用版";
 "Register" = "注册";

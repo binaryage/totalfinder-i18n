@@ -1,6 +1,6 @@
-"Copy Path" = "Copy Path";
-"POSIX Path" = "POSIX Path";
+"Copy Path" = "复制路径";
+"POSIX Path" = "POSIX 路径";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "窗口路径";
+"HFS Path" = "HFS 路径";
+"Terminal Path" = "Terminal 路径";
