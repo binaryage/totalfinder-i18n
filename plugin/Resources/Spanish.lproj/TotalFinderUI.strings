@@ -38,7 +38,7 @@
 "Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */
 
 "File Browser:" = "Navegador de archivos:";
-"Show System Files" = "Ver archiv. del sistema"; /* Don't like using abreviations but a longer sentence won't fir the UI */
+"Show System Files" = "Ver archiv. del sistema"; /* Don't like using abreviations but a longer sentence won't fit the UI */
 "Folders on Top" = "Carpetas primero";
 "Always Maximize" = "Maximizar completamente";
 "Toggle Dual Mode" = "Alternar modo dual";
