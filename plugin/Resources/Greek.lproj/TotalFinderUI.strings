@@ -51,6 +51,7 @@
 "Freelance Windows" = "Ελεύθερα παράθυρα";
 "Use narrow Tabs Bar" = "Σμίκρυνση καρτελών";
 "Show CutPaste buttons in Context Menus" = "Αποκοπή-Επικόλληση στο δεξί κλικ";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check for updates…" = "Έλεγχος αναβαθμήσεων…";
