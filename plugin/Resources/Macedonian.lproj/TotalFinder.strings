@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Провери за Надградби";
+"Uninstall TotalFinder" = "Отстрани го TotalFinder";
+"Restart Finder" = "Рестартирај го Finder";
+"Show Visor" = "Прикажи Visor";
+"Hide Visor" = "Сокриј Visor";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Исклучи";
+"Connect" = "Поврзи се";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Не можам да се поврзам со kernel екстензијата! Дали TotalFinder.kext е правилно инсталиран?";
+
+/* About preferences pane */
+"from Beta Channel" = "од Бета Канал";
+"from Dev Channel" = "од Развоен Канал";
+"from Stable Channel" = "од Стабилен Канал";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Ресетирај";
+"Cancel" = "Откажи";
+"Do you really want reset to defaults?" = "Навистина сакате да ги ресетирате поставките?";
+"This will restore initial TotalFinder settings." = "Ова ќе го ресетира TotalFinder на почетните поставки.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Отстрани";
+"Really want to uninstall TotalFinder?" = "Навистина сакате да го отстраните TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ова ќе отвори скрипта за отстранување, којашто ќе го отстрани TotalFinder од овој компјутер и ќе го обнови оригиналниот Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Ново Finder Јазиче";
+"Close Tab" = "Затвори Јазиче";
+"Close Window" = "Затвори Прозорец";
+"Show System Files" = "Прикажи Системски Датотеки";
+"Folders On Top" = "Папките Најгоре";
+"Toggle Dual Mode" = "Изменичен Двоен Мод";
+"Narrow Tabs Bar" = "Тенка Линија со Јазичиња";
+"Pin Visor" = "Заклучен Visor";
+"TotalFinder Preferences…" = "TotalFinder Постави…";
+"Visit Homepage…" = "Посетета ја Страницата…";
+"Select Next Tab" = "Избери Следно Јазиче";
+"Select Previous Tab" = "Избери Претходно Јазиче";
+
+/* misc. */
+"Screen %d" = "Екран %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - нерегистрирана верзија";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - преостанат 1 ден - купете го сега!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - преостанати 2 дена - купете го сега!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - преостанати 3 дена - купете го сега!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - преостанати 4 дена - купете го сега!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - преостанати 5 дена - купете го сега!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - преостанати %d дена - купете го сега!";
+
+/* registration */
+"Licensed to %@" = "Лиценцирано на %@";
+"Change License" = "Промени Лиценца";
+"Unregistered version in trial mode" = "Нерегистрирана верзија во пробен мод";
+"Register" = "Регистрирај";
