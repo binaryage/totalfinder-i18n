@@ -5422,11 +5422,18 @@
 			</array>
 			<array class="NSMutableArray" key="referencedPartialClassDescriptionsV3.1+">
 				<object class="IBPartialClassDescription">
+					<string key="className">ModifierButtonImageView</string>
+					<string key="superclassName">NSImageView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="905347496">
+						<string key="majorKey">IBDocumentRelativeSource</string>
+						<string key="minorKey">../../../../totalfinder-plugin/plugin/TotalFinder.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
 					<string key="className">TotalFinder</string>
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="checkForUpdates:">id</string>
-						<string key="modifierIconClicked:">id</string>
 						<string key="pinAction:">id</string>
 						<string key="resetToDefaults:">id</string>
 						<string key="restart:">id</string>
@@ -5445,10 +5452,6 @@
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
 						<object class="IBActionInfo" key="checkForUpdates:">
 							<string key="name">checkForUpdates:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="modifierIconClicked:">
-							<string key="name">modifierIconClicked:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="pinAction:">
@@ -5513,8 +5516,8 @@
 						<string key="echelonStatusImage">NSImageView</string>
 						<string key="infoLine">WebView</string>
 						<string key="manageEchelon">NSButton</string>
-						<string key="modifierIcon1_">NSImageView</string>
-						<string key="modifierIcon2_">NSImageView</string>
+						<string key="modifierIcon1_">ModifierButtonImageView</string>
+						<string key="modifierIcon2_">ModifierButtonImageView</string>
 						<string key="networkStores">NSButton</string>
 						<string key="preferencesView">NSView</string>
 						<string key="purchaseScreen">WebView</string>
@@ -5543,11 +5546,11 @@
 						</object>
 						<object class="IBToOneOutletInfo" key="modifierIcon1_">
 							<string key="name">modifierIcon1_</string>
-							<string key="candidateClassName">NSImageView</string>
+							<string key="candidateClassName">ModifierButtonImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="modifierIcon2_">
 							<string key="name">modifierIcon2_</string>
-							<string key="candidateClassName">NSImageView</string>
+							<string key="candidateClassName">ModifierButtonImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="networkStores">
 							<string key="name">networkStores</string>
@@ -5582,10 +5585,7 @@
 							<string key="candidateClassName">NSTextField</string>
 						</object>
 					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBDocumentRelativeSource</string>
-						<string key="minorKey">../../../../totalfinder-plugin/plugin/TotalFinder.h</string>
-					</object>
+					<reference key="sourceIdentifier" ref="905347496"/>
 				</object>
 			</array>
 			<array class="NSMutableArray" key="referencedPartialClassDescriptionsV3.2+">
