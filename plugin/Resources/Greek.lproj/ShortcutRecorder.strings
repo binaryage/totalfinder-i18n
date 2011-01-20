@@ -1,0 +1,13 @@
+"Space" = "Space";
+"Use old shortcut" = "Χρήση παλαιάς συντόμευσης";
+"Type shortcut" = "Συντόμευση";
+"Click to record shortcut" = "Αποθήκευση συντόμευσης";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "Ο συνδυασμός %@ δεν μπορεί να χρησιμοποιηθεί!";
+"The key combination \"%@\" can't be used because %@." = "Ο συνδυασμός \"%@\" δεν μπορεί να χρησιμοποιηθεί επειδή: %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Ο συνδυασμός \"%@\" δεν μπορεί να χρησιμοποιηθεί επειδή χρησιμοποιείται ήδη.";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Ο συνδυασμός \"%@\" δεν μπορεί να χρησιμοποιηθεί επειδή χρησιμοποιείται ήδη \"%@\".";
+"Command + " = "Command + ";
+"Option + " = "Option + ";
+"Shift + " = "Shift + ";
+"Control + " = "Control + ";

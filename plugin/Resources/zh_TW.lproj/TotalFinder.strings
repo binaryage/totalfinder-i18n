@@ -37,8 +37,8 @@
 "Pin Visor" = "固定滑入視窗";
 "TotalFinder Preferences…" = "TotalFinder 設定…";
 "Visit Homepage…" = "造訪網站…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "選取下一個分頁";
+"Select Previous Tab" = "選取上一個分頁";
 
 /* misc. */
 "Screen %d" = "顯示器 %d";

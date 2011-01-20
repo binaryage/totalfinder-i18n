@@ -50,8 +50,8 @@
 "Experimental:" = "實驗性:";
 "Freelance Windows" = "使用自由視窗";
 "Use narrow Tabs Bar" = "使用較窄分頁列";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Show CutPaste buttons in Context Menus" = "在右鍵選單顯示剪下和貼上按鈕";
+"Allow path copying from Context Menus" = "允許從右鍵選單拷貝路徑";
 
 /* about page */
 "Check for updates…" = "檢查更新…";

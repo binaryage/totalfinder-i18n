@@ -38,10 +38,10 @@
 "Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */
 
 "File Browser:" = "Navegador de archivos:";
-"Show System Files" = "Ver archiv. del sistema"; /* Don't like using abreviations but a longer sentence won't fir the UI */
+"Show System Files" = "Ver archiv. del sistema"; /* Don't like using abreviations but a longer sentence won't fit the UI */
 "Folders on Top" = "Carpetas primero";
 "Always Maximize" = "Maximizar completamente";
-"Toggle Dual Mode" = "Cambiar a modo dual";
+"Toggle Dual Mode" = "Alternar modo dual";
 
 "Menu and Dock:" = "Menú y Dock:";
 "Hide icon in Menu Bar" = "Ocultar icono en barra de menús"; /* both 'icono' and 'ícono' are correct, Mac OS X calls it 'iconos'. 'Barra de menús' translation is the same as in the 'Networking preference pane' */
