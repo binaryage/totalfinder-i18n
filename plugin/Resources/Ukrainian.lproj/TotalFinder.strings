@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Перевірити оновлення";
+"Uninstall TotalFinder" = "Видалити TotalFinder";
+"Restart Finder" = "Перезапустити Finder";
+"Show Visor" = "Показати Visor";
+"Hide Visor" = "Сховати Visor";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Відключити";
+"Connect" = "Під'єднати";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Нема можливості з'єднатися з розширенням ядра! Перевірте, чи корректно у Вас встановлено розширення TotalFinder.kext?";
+
+/* About preferences pane */
+"from Beta Channel" = "з Beta каналу";
+"from Dev Channel" = "з Dev каналу";
+"from Stable Channel" = "з Stable каналу";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Відновити";
+"Cancel" = "Скасувати";
+"Do you really want reset to defaults?" = "Ви дійсно хочете відновити налаштування за замовчуванням?";
+"This will restore initial TotalFinder settings." = "Усі налаштування TotalFinder будуть повернуті до первинного стану.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Видалити";
+"Really want to uninstall TotalFinder?" = "Ви дійсно хочете видалити TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Буде запущений скріпт, який видалить TotalFinder й поновить первинну поведінку Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Нова вкладка Finder";
+"Close Tab" = "Закрити вкладку";
+"Close Window" = "Закрити вікно";
+"Show System Files" = "Показувати приховані файли";
+"Folders On Top" = "Показувати папки згори";
+"Toggle Dual Mode" = "Перемкнути двохпанельний режим";
+"Narrow Tabs Bar" = "Вузька панель вкладок";
+"Pin Visor" = "Закріпити Visor";
+"TotalFinder Preferences…" = "Налаштування TotalFinder…";
+"Visit Homepage…" = "Відкрити доманю сторінку проекту…";
+"Select Next Tab" = "Вибрати наступну вкладку";
+"Select Previous Tab" = "Вибрати попередню вкладку";
+
+/* misc. */
+"Screen %d" = "Екран %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - незареєстрована версія";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - пройшов 1 день - купіть зараз!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - пройшло 2 дня - купіть зараз!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - пройшло 3 дня - купіть зараз!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - пройшло 4 дня - купіть зараз!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - пройшло 5 днів - купіть зараз!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - пройшло %d днів - купіть зараз!";
+
+/* registration */
+"Licensed to %@" = "Ліцензію видано %@";
+"Change License" = "Змінити Ліцензію";
+"Unregistered version in trial mode" = "Незареєстрована версія у пробному режимі";
+"Register" = "Зареєструвати";
