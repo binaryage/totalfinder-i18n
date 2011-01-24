@@ -18,8 +18,8 @@
 "Fade Window" = "Haihduta Ikkuna";
 "Slide Window" = "Liu'uta Ikkuna";
 
-"Screen:" = "Tila:";
-"Show on all Spaces" = "Näytä aina Spacesissa";
+"Screen:" = "Ikkuna:";
+"Show on all Spaces" = "Näytä kaikissa Spaces-ikkunoissa";
 "Show on top of the Dock" = "Näytä Dockin päällä";
 "Free Form Window" = "Muotoiltava ikkuna";
 
@@ -63,7 +63,7 @@
 "Buy TotalFinder Now" = "Osta TotalFinder nyt";
 "Register" = "Rekisteröi";
 "Thanks for registering!" = "Kiitos rekisteröinnistä!";
-"This TotalFinder copy is licensed to:" = "Tämä TotalFinderin lisenssi on lisenssöity:";
+"This TotalFinder copy is licensed to:" = "Tämä TotalFinder on lisenssöity:";
 "Close" = "Sulje";
 "Change License" = "Vaihda lisenssi";
 "Back" = "Takaisin";
