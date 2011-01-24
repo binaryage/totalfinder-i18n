@@ -2,17 +2,17 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10J567</string>
+		<string key="IBDocument.SystemVersion">10J842</string>
 		<string key="IBDocument.InterfaceBuilderVersion">823</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
-		<string key="IBDocument.HIToolboxVersion">462.00</string>
+		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="com.apple.InterfaceBuilder.CocoaPlugin">823</string>
 			<string key="com.apple.WebKitIBPlugin">823</string>
 			<string key="net.wafflesoftware.ShortcutRecorder.IB.Leopard">1</string>
 		</dictionary>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
-			<integer value="850"/>
+			<integer value="906"/>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>net.wafflesoftware.ShortcutRecorder.IB.Leopard</string>
@@ -113,7 +113,7 @@
 													<object class="NSTabViewItem" id="624044904">
 														<string key="NSIdentifier">1</string>
 														<object class="NSView" key="NSView" id="445906066">
-															<reference key="NSNextResponder" ref="567253236"/>
+															<nil key="NSNextResponder"/>
 															<int key="NSvFlags">256</int>
 															<array class="NSMutableArray" key="NSSubviews">
 																<object class="NSButton" id="799142563">
@@ -941,7 +941,6 @@
 																</object>
 															</array>
 															<string key="NSFrameSize">{355, 420}</string>
-															<reference key="NSSuperview" ref="567253236"/>
 														</object>
 														<string key="NSLabel">Visor</string>
 														<reference key="NSColor" ref="36837894"/>
@@ -950,7 +949,7 @@
 													<object class="NSTabViewItem" id="359182176">
 														<string key="NSIdentifier">2</string>
 														<object class="NSView" key="NSView" id="289444769">
-															<nil key="NSNextResponder"/>
+															<reference key="NSNextResponder" ref="567253236"/>
 															<int key="NSvFlags">256</int>
 															<array class="NSMutableArray" key="NSSubviews">
 																<object class="NSButton" id="236646141">
@@ -1326,6 +1325,7 @@
 																</object>
 															</array>
 															<string key="NSFrameSize">{355, 420}</string>
+															<reference key="NSSuperview" ref="567253236"/>
 														</object>
 														<string key="NSLabel">Asepsis</string>
 														<reference key="NSColor" ref="36837894"/>
@@ -2110,13 +2110,13 @@
 														<reference key="NSTabView" ref="567253236"/>
 													</object>
 												</array>
-												<reference key="NSSelectedTabViewItem" ref="624044904"/>
+												<reference key="NSSelectedTabViewItem" ref="359182176"/>
 												<reference key="NSFont" ref="245419672"/>
 												<int key="NSTvFlags">6</int>
 												<bool key="NSAllowTruncatedLabels">YES</bool>
 												<bool key="NSDrawsBackground">YES</bool>
 												<array class="NSMutableArray" key="NSSubviews">
-													<reference ref="445906066"/>
+													<reference ref="289444769"/>
 												</array>
 											</object>
 											<object class="WebView" id="302318399">
@@ -2444,22 +2444,6 @@
 						<reference key="destination" ref="445625954"/>
 					</object>
 					<int key="connectionID">743</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalFinderDisableNetworkStores</string>
-						<reference key="source" ref="445625954"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="445625954"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalFinderDisableNetworkStores</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalFinderDisableNetworkStores</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">753</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -3502,6 +3486,14 @@
 						<reference key="destination" ref="228024960"/>
 					</object>
 					<int key="connectionID">1230</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">disableNetworkStoresClicked:</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="445625954"/>
+					</object>
+					<int key="connectionID">1231</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -4866,9 +4858,9 @@
 				</object>
 				<boolean value="YES" key="1225.ImportedFromIB2"/>
 				<string key="1226.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="385.IBEditorWindowLastContentRect">{{632, 271}, {394, 493}}</string>
+				<string key="385.IBEditorWindowLastContentRect">{{265, 369}, {394, 493}}</string>
 				<string key="385.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="385.IBWindowTemplateEditedContentRect">{{632, 271}, {394, 493}}</string>
+				<string key="385.IBWindowTemplateEditedContentRect">{{265, 369}, {394, 493}}</string>
 				<boolean value="NO" key="385.NSWindowTemplate.visibleAtLaunch"/>
 				<string key="386.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<dictionary class="NSMutableDictionary" key="387.IBAttributePlaceholdersKey"/>
@@ -5048,7 +5040,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1230</int>
+			<int key="maxID">1231</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5434,6 +5426,7 @@
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="checkForUpdates:">id</string>
+						<string key="disableNetworkStoresClicked:">id</string>
 						<string key="pinAction:">id</string>
 						<string key="resetToDefaults:">id</string>
 						<string key="restart:">id</string>
@@ -5452,6 +5445,10 @@
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
 						<object class="IBActionInfo" key="checkForUpdates:">
 							<string key="name">checkForUpdates:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="disableNetworkStoresClicked:">
+							<string key="name">disableNetworkStoresClicked:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="pinAction:">

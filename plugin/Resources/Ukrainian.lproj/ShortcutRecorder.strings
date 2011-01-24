@@ -1,0 +1,13 @@
+"Space" = "Пробіл";
+"Use old shortcut" = "Попередня комбінація";
+"Type shortcut" = "Введіть комбінацію";
+"Click to record shortcut" = "☝ Записати комбінацію";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "Комбінація %@ не може бути використана!";
+"The key combination \"%@\" can't be used because %@." = "Комбінація \"%@\" не може бути використана тому, що %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Комбінація \"%@\" не може бути використана тому,  що вона вже використовується як глобальна гаряча клавіша. (Якщо Ви дійсно хочете використовувати цю комбінацію, більшість гарячих клавіш може бути змінено у панелі Клавіатура й Мишка  системних налаштувань.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Комбінація \"%@\" не може бути використана тому, що вона вже задіяна командою меню \"%@\".";
+"Command + " = "Command + ";
+"Option + " = "Option + ";
+"Shift + " = "Shift + ";
+"Control + " = "Control + ";
