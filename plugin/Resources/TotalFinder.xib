@@ -1231,7 +1231,6 @@
 																					<int key="NSvFlags">268</int>
 																					<string key="NSFrame">{{24, 84}, {311, 18}}</string>
 																					<reference key="NSSuperview" ref="464262330"/>
-																					<reference key="NSNextKeyView"/>
 																					<bool key="NSEnabled">YES</bool>
 																					<object class="NSButtonCell" key="NSCell" id="316953782">
 																						<int key="NSCellFlags">67239424</int>
@@ -1928,7 +1927,10 @@
 																		<dictionary class="NSMutableDictionary" key="Values">
 																			<integer value="12" key="WebKitDefaultFixedFontSize"/>
 																			<integer value="12" key="WebKitDefaultFontSize"/>
+																			<boolean value="NO" key="WebKitJavaEnabled"/>
+																			<boolean value="NO" key="WebKitJavaScriptCanOpenWindowsAutomatically"/>
 																			<integer value="1" key="WebKitMinimumFontSize"/>
+																			<boolean value="NO" key="WebKitPluginsEnabled"/>
 																		</dictionary>
 																	</object>
 																	<bool key="UseBackForwardList">YES</bool>
@@ -5157,6 +5159,36 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+					<string key="className">SUUpdater</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">checkForUpdates:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">checkForUpdates:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">checkForUpdates:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">delegate</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">delegate</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">delegate</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SUUpdater.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
 					<string key="className">TFPrefTextField</string>
 					<string key="superclassName">NSTextField</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
@@ -5390,7 +5422,7 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="ModifiersOption">{128, 128}</string>
+			<string key="ModifiersOption">{330, 230}</string>
 			<string key="NSSwitch">{15, 15}</string>
 			<string key="TotalFinderLarge">{128, 128}</string>
 		</dictionary>
