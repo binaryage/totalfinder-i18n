@@ -6,7 +6,7 @@
 "Hide Visor" = "Piilota Visor";
 
 /* Asepsis preferences pane */
-"Disconnect" = "Katkaise yhteys";
+"Disconnect" = "Sulje yhteys";
 "Connect" = "Yhdistä";
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Ei voida muodostaa yhteyttä kernelin lisäosalla. Onko TotalFinder.kext asennettu oikein?";
 
