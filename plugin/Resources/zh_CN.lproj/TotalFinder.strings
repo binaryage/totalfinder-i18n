@@ -23,7 +23,7 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "卸载";
-"Really want to uninstall TotalFinder?" = "您真的想要卸载 TotalFinder 吗?";
+"Really want to uninstall TotalFinder?" = "您真的想要卸载 TotalFinder 吗？";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "这将会执行卸载脚本卸载 TotalFinder 并恢复到原始的 Finder 程序。";
 
 /* MainMenu items */

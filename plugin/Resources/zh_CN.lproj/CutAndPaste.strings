@@ -5,6 +5,6 @@
 "Edit" = "编辑";
 "Cut" = "剪切";
 "Cut “%@”" = "剪切 “%@”";
-"Cut %u Items" = "剪切了 %u 项";
+"Cut %u Items" = "剪切 %u 项";
 "Paste" = "粘贴";
-"Paste %u Items" = "粘贴了 %u 项";
+"Paste %u Items" = "粘贴 %u 项";

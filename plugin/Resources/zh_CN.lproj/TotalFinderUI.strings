@@ -50,8 +50,8 @@
 "Experimental:" = "实验功能:";
 "Freelance Windows" = "使用自由窗口";
 "Use narrow Tabs Bar" = "使用窄标签栏";
-"Show CutPaste buttons in Context Menus" = "在右键菜单中使用剪切/粘贴/复制按钮";
-"Allow path copying from Context Menus" = "允许在右键菜单中复制路径";
+"Show CutPaste buttons in Context Menus" = "在右键菜单中使用剪切/粘贴/拷贝按钮";
+"Allow path copying from Context Menus" = "允许在右键菜单中拷贝路径";
 
 /* about page */
 "Check for updates…" = "检查更新…";
