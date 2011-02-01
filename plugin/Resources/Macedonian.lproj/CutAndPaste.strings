@@ -1,0 +1,10 @@
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Уреди";
+"Cut" = "Отсечи";
+"Cut “%@”" = "Отсечи “%@”";
+"Cut %u Items" = "Отсечи %u Елементи";
+"Paste" = "Залепи";
+"Paste %u Items" = "Залепи %u Елементи";
