@@ -1,73 +1,73 @@
 /* navigation bar */
 "Visor" = "Visor";
 "Asepsis" = "Asepsis";
-"Tweaks" = "ModificaÁıes";
-"About" = "Sobre";
+"Tweaks" = "Modificações";
+"About" = "Acerca";
 
 /* visor page */
-"Visor Feature" = "O Recurso Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "uma janela deslizante acionada sob um atalho";
+"Visor Feature" = "Funcionalidade Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "uma janela em todo o sistema que desliza ao accionar um atalho";
 
-"Activation:" = "AtivaÁ„o:";
+"Activation:" = "Activação:";
 
-"Control:" = "Controle:";
-"Hide on ESC" = "Esconder com ESC";
+"Control:" = "Controlo:";
+"Hide on ESC" = "Ocultar com ESC";
 "Pin Visor" = "Fixar Visor";
 
-"Animation:" = "AnimaÁ„o:";
-"Fade Window" = "Escurecer Janela";
-"Slide Window" = "Deslizar Janela";
+"Animation:" = "Animação:";
+"Fade Window" = "Desvanecer janela";
+"Slide Window" = "Deslizar janela";
 
-"Screen:" = "Tela:";
-"Show on all Spaces" = "Exibir em todos Spaces";
-"Show on top of the Dock" = "Exibir no topo da Dock";
-"Free Form Window" = "Janela FreeForm";
+"Screen:" = "Ecrã:";
+"Show on all Spaces" = "Mostrar em todos os espaços";
+"Show on top of the Dock" = "Mostrar por cima da Dock";
+"Free Form Window" = "Janela com forma livre";
 
 /* asepsis page */
-"Asepsis Feature" = "O Recurso Asepsis";
-"prevents .DS_Store files to be created in local folders" = "previne arquivos .DS_Store de serem criados em pastas locais";
-".DS_Store files will be redirected into" = "arquivos .DS_Store ser„o redirecionados para";
-"this folder should be set as writable for all users of TotalFinder" = "esta pasta deve ser grav·vel por todos utilizadores do TotalFinder";
-"Launch Migration Assistant" = "Abrir Assistente de MigraÁ„o";
+"Asepsis Feature" = "Funcionalidade Asepsis";
+"prevents .DS_Store files to be created in local folders" = "previne a criação de ficheiros .DS_Store em pastas locais";
+".DS_Store files will be redirected into" = "Ficheiros .DS_Store serão redireccionados para";
+"this folder should be set as writable for all users of TotalFinder" = "esta pasta deve ter permissões de escrita para todos os utilizadores do TotalFinder";
+"Launch Migration Assistant" = "Abrir Assistente de Migração";
 "TotalFinder.kext status" = "Estado do TotalFinder.kext";
-"Unable to connect" = "Incapaz de se conectar com a extens„o do kernel!\nVocÍ tem certeza que a extens„o TotalFinder do kernel foi instalada?";
-"Advanced:" = "AvanÁado:";
-"Don't write .DS_Store to Network" = "N„o gravar .DS_Store na Rede";
+"Unable to connect" = "Não é possível ligar à extensão do kernel! Tem a certeza que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
+"Advanced:" = "Avançadas:";
+"Don't write .DS_Store to Network" = "Não guardar .DS_Store em locais na rede";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Restaurar configuraÁ„o padr„o do TotalFinder";
+"Reset TotalFinder to defaults" = "Restaurar configurações predefinidas do TotalFinder";
 
-"File Browser:" = "Navegador de Arquivos:";
-"Show System Files" = "Exibir Arquivos de Sistema";
-"Folders on Top" = "Pastas em cima";
-"Always Maximize" = "Sempre Maximizar";
-"Toggle Dual Mode" = "Modificar Modo Dual";
+"File Browser:" = "Navegador de ficheiros:";
+"Show System Files" = "Mostrar ficheiros de sistema";
+"Folders on Top" = "Pastas no topo";
+"Always Maximize" = "Maximizar sempre";
+"Toggle Dual Mode" = "Activar/desactivar Modo painel duplo";
 
 "Menu and Dock:" = "Menu e Dock:";
-"Hide icon in Menu Bar" = "Esconder Ìcone na Barra de Menus";
-"Keep original Dock icon" = "Manter Ìcone original da Dock";
+"Hide icon in Menu Bar" = "Ocultar ícone na barra de menus";
+"Keep original Dock icon" = "Manter ícone original do Finder na Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Janelas Freelance";
-"Use narrow Tabs Bar" = "Usar Barra de Abas finas";
-"Show CutPaste buttons in Context Menus" = "Exibir botıes CortarColar nos Menus de Contexto";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Use narrow Tabs Bar" = "Usar barra de separadores estreita";
+"Show CutPaste buttons in Context Menus" = "Mostrar botões CortarColar nos Menus de Contexto";
+"Allow path copying from Context Menus" = "Permitir copiar caminhos a partir do menu de contexto";
 
 /* about page */
-"Check for updates…" = "Check for updates…";
+"Check for updates…" = "Procurar actualizações…";
 
 /* registration */
-"TotalFinder Registration" = "Registro do TotalFinder";
-"Registration" = "Registro";
-"Please enter your license details from the email we have sent you:" = "Por favor insira a sua licenÁa a partir do email que lhe foi enviado:";
-"Buy TotalFinder Now" = "Comprar Agora o TotalFinder";
-"Register" = "Registrar";
-"Thanks for registering!" = "Obrigado por registrar!";
-"This TotalFinder copy is licensed to:" = "Esta cÛpia do TotalFinder È licenciada para:";
+"TotalFinder Registration" = "Registo do TotalFinder";
+"Registration" = "Registo";
+"Please enter your license details from the email we have sent you:" = "Por favor insira os detalhes da licença que lhe foi enviada por email:";
+"Buy TotalFinder Now" = "Comprar o TotalFinder";
+"Register" = "Registar";
+"Thanks for registering!" = "Obrigado por registar!";
+"This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder é licenciada a:";
 "Close" = "Fechar";
-"Change License" = "Alterar LicenÁa";
+"Change License" = "Alterar licença";
 "Back" = "Voltar";
-"Invalid license code" = "CÛdigo de licenÁa inv·lido";
+"Invalid license code" = "Código de licença inválido";
 "Please go back and try again." = "Por favor, volte e tente novamente.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licenÁa para o TotalFinder, por favor visite a loja virtual BinaryAge.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença para o TotalFinder, por favor visite a loja online BinaryAge.";
 "Thank you for using TotalFinder!" = "Obrigado por usar o TotalFinder!";
