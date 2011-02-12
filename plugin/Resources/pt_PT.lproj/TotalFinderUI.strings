@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature" = "Funcionalidade Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "uma janela em todo o sistema que desliza ao accionar um atalho";
+"a system-wide window sliding from the bottom on a hot-key" = "Janela Finder em todo o sistema que surge ao accionar um atalho";
 
 "Activation:" = "Activação:";
 
@@ -25,9 +25,9 @@
 
 /* asepsis page */
 "Asepsis Feature" = "Funcionalidade Asepsis";
-"prevents .DS_Store files to be created in local folders" = "previne a criação de ficheiros .DS_Store em pastas locais";
+"prevents .DS_Store files to be created in local folders" = "Previne a criação de ficheiros .DS_Store em pastas locais";
 ".DS_Store files will be redirected into" = "Ficheiros .DS_Store serão redireccionados para";
-"this folder should be set as writable for all users of TotalFinder" = "esta pasta deve ter permissões de escrita para todos os utilizadores do TotalFinder";
+"this folder should be set as writable for all users of TotalFinder" = "esta pasta deve ter permissões de escrita para todos os utilizadores";
 "Launch Migration Assistant" = "Abrir Assistente de Migração";
 "TotalFinder.kext status" = "Estado do TotalFinder.kext";
 "Unable to connect" = "Não é possível ligar à extensão do kernel! Tem a certeza que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
@@ -35,13 +35,13 @@
 "Don't write .DS_Store to Network" = "Não guardar .DS_Store em locais na rede";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Restaurar configurações predefinidas do TotalFinder";
+"Reset TotalFinder to defaults" = "Restaurar configurações predefinidas";
 
 "File Browser:" = "Navegador de ficheiros:";
-"Show System Files" = "Mostrar ficheiros de sistema";
-"Folders on Top" = "Pastas no topo";
+"Show System Files" = "Mostrar fich. sistema";
+"Folders on Top" = "Mostrar pastas no topo";
 "Always Maximize" = "Maximizar sempre";
-"Toggle Dual Mode" = "Activar/desactivar Modo painel duplo";
+"Toggle Dual Mode" = "Modo de painel duplo";
 
 "Menu and Dock:" = "Menu e Dock:";
 "Hide icon in Menu Bar" = "Ocultar ícone na barra de menus";
@@ -49,9 +49,9 @@
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Janelas Freelance";
-"Use narrow Tabs Bar" = "Usar barra de separadores estreita";
-"Show CutPaste buttons in Context Menus" = "Mostrar botões CortarColar nos Menus de Contexto";
-"Allow path copying from Context Menus" = "Permitir copiar caminhos a partir do menu de contexto";
+"Use narrow Tabs Bar" = "Barra separadores fina";
+"Show CutPaste buttons in Context Menus" = "Mostrar Cortar/Colar nos menus contexto";
+"Allow path copying from Context Menus" = "Permitir copiar caminho no menu contexto";
 
 /* about page */
 "Check for updates…" = "Procurar actualizações…";
