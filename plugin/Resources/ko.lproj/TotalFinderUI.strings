@@ -50,7 +50,7 @@
 "Experimental:" = "실험적인 기능:";
 "Freelance Windows" = "프리랜스 윈도우";
 "Use narrow Tabs Bar" = "탭 칸 세로폭 줄임";
-"Show CutPaste buttons in Context Menus" = "컨텍스트 메뉴에 파일 잘라내기/붙여넣기 기능 추가";
+"Show CutPaste buttons in Context Menus" = "컨텍스트 메뉴에 파일 잘라내기/붙여넣기 추가";
 "Allow path copying from Context Menus" = "컨텍스트 메뉴에 파일경로 복사 기능 추가";
 
 /* about page */
