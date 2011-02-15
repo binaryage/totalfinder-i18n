@@ -1,59 +1,59 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Verificar AtualizaÁıes";
-"Uninstall TotalFinder" = "Desinstalar TotalFinder";
-"Restart Finder" = "Reiniciar Finder";
-"Show Visor" = "Exibir Visor";
+"Check for Updates" = "Procurar actualizações";
+"Uninstall TotalFinder" = "Desinstalar o TotalFinder";
+"Restart Finder" = "Reiniciar o Finder";
+"Show Visor" = "Mostrar Visor";
 "Hide Visor" = "Ocultar Visor";
 
 /* Asepsis preferences pane */
-"Disconnect" = "Desconectar";
-"Connect" = "Conectar";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "N„o È possÌvel conectar-se ‡ extens„o do kernel!\nVocÍ tem certeza que a extens„o TotalFinder do kernel foi instalada?";
+"Disconnect" = "Desligar";
+"Connect" = "Ligar";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não é possível ligar à extensão do kernel! Tem a certeza que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
 
 /* About preferences pane */
 "from Beta Channel" = "do Canal Beta";
-"from Dev Channel" = "do Canal Dev";
-"from Stable Channel" = "do Canal Est·vel";
+"from Dev Channel" = "do Canal Desenvolvimento";
+"from Stable Channel" = "do Canal Estável";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Reniciar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "Tem a certeza que quer reiniciar para a configuraÁ„o padr„o?";
-"This will restore initial TotalFinder settings." = "Isto ir· restaurar a configuraÁ„o padr„o do TotalFinder.";
+"Do you really want reset to defaults?" = "Tem a certeza que quer restaurar as configurações predefinidas?";
+"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
-"Really want to uninstall TotalFinder?" = "Deseja realmente desinstalar TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Isto ir· iniciar um script que ir· remove o TotalFinder deste computador e restaurar o comportamento original do Finder.";
+"Really want to uninstall TotalFinder?" = "Tem a certeza que deseja desinstalar o TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta acção iniciará um script que irá remover o TotalFinder deste computador e restaurar o comportamento original do Finder.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nova tab do Finder";
-"Close Tab" = "Fechar tab";
-"Close Window" = "Fechar Janela";
-"Show System Files" = "Exibir Arquivos de Sistema";
-"Folders On Top" = "Pastas em Cima";
-"Toggle Dual Mode" = "Mudar Modo Dual";
-"Narrow Tabs Bar" = "Barra de Abas Fina";
+"New Finder Tab" = "Novo separador do Finder";
+"Close Tab" = "Fechar separador";
+"Close Window" = "Fechar janela";
+"Show System Files" = "Mostrar ficheiros do sistema";
+"Folders On Top" = "Mostrar pastas no topo";
+"Toggle Dual Mode" = "Activar/desactivar modo de duplo painel";
+"Narrow Tabs Bar" = "Usar barra de separadores fina";
 "Pin Visor" = "Fixar Visor";
-"TotalFinder Preferences…" = "TotalFinder Preferences…";
-"Visit Homepage…" = "Visit Homepage…";
-"Select Next Tab" = "Selecionar PrÛxima Tab";
-"Select Previous Tab" = "Selecionar Tab Anterior";
+"TotalFinder Preferences…" = "Preferências do TotalFinder…";
+"Visit Homepage…" = "Visitar página web do TotalFinder…";
+"Select Next Tab" = "Seleccionar separador seguinte";
+"Select Previous Tab" = "Seleccionar separador anterior";
 
 /* misc. */
-"Screen %d" = "Tela %d";
+"Screen %d" = "Ecrã %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - vers„o n„o registrada";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia restante - comprar agora!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias restantes - comprar agora!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias restantes - comprar agora!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias restantes - comprar agora!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias restantes - comprar agora!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias restantes - comprar agora!";
+"TotalFinder - unregistered version" = "TotalFinder - versão não registada";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia restante - compre agora!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias restantes - compr agora!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias restantes - compre agora!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias restantes - compre agora!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias restantes - compre agora!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias restantes - compre agora!";
 
 /* registration */
-"Licensed to %@" = "Registrado para %@";
-"Change License" = "Trocar LicenÁa";
-"Unregistered version in trial mode" = "Vers„o n„o registrada no modo de teste";
-"Register" = "Registrar";
+"Licensed to %@" = "Registado a %@";
+"Change License" = "Alterar licença";
+"Unregistered version in trial mode" = "Versão não registada no modo de demonstração";
+"Register" = "Registar";
