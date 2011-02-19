@@ -24,13 +24,13 @@
 /* Unistall Alert Box */
 "Uninstall" = "언인스톨";
 "Really want to uninstall TotalFinder?" = "정말 TotalFinder를 삭제하시겠습니까?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "이 컴퓨터에서 TotalFinder가 제거되고, 다시 기본 Finder 상태로 복구되는 스크립트가 실행됩니다.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "이 컴퓨터에서 TotalFinder가 완전히 제거되고, 다시 기본 Finder 상태로 복구되는 스크립트를 실행합니다.";
 
 /* MainMenu items */
 "New Finder Tab" = "새로운 탭";
 "Close Tab" = "탭 닫기";
 "Close Window" = "창 닫기";
-"Show System Files" = "시스템 파일 보기";
+"Show System Files" = "숨겨진 시스템 파일 보기";
 "Folders On Top" = "폴더를 항상 위에";
 "Toggle Dual Mode" = "듀얼 모드로 보기";
 "Narrow Tabs Bar" = "탭 칸 세로폭 줄임";
