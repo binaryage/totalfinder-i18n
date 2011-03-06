@@ -344,7 +344,7 @@ end
 def validate_strings_files
     begin
         require 'cmess/guess_encoding'
-    rescue
+    rescue LoadError
         die 'You must "gem install cmess" to use character encoding detection'
     end
 

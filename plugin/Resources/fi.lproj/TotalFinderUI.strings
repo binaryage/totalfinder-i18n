@@ -15,11 +15,11 @@
 "Pin Visor" = "Jätä esille";
 
 "Animation:" = "Animaatio:";
-"Fade Window" = "Haihduta Ikkuna";
-"Slide Window" = "Liu'uta Ikkuna";
+"Fade Window" = "Haihduta ikkuna";
+"Slide Window" = "Liu'uta ikkuna";
 
-"Screen:" = "Ikkuna:";
-"Show on all Spaces" = "Näytä kaikissa Spaces-ikkunoissa";
+"Screen:" = "Näyttö:";
+"Show on all Spaces" = "Näytä jokaisessa Spaces-tilassa";
 "Show on top of the Dock" = "Näytä Dockin päällä";
 "Free Form Window" = "Muotoiltava ikkuna";
 
