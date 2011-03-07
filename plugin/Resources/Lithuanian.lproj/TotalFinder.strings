@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Patikrinti atnaujinimus";
+"Uninstall TotalFinder" = "Pašalinti TotalFinder";
+"Restart Finder" = "Iš naujo Finder";
+"Show Visor" = "Rodyti skydelio";
+"Hide Visor" = "Slėpti skydelio";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Atsijungti";
+"Connect" = "Prisijungti";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Nepavyko susisiekti su branduolio pratęsimas! Ar turite TotalFinder.kext įdėta teisingai?";
+
+/* About preferences pane */
+"from Beta Channel" = "iš Beta kanalas";
+"from Dev Channel" = "iš Dev kanalas";
+"from Stable Channel" = "iš Stabili kanalas";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Atstatyti";
+"Cancel" = "Atšaukti";
+"Do you really want reset to defaults?" = "Ar tikrai norite iš naujo nustatyti numatytąsias reikšmes?";
+"This will restore initial TotalFinder settings." = "Tai bus atkurti pradinį TotalFinder nustatymus.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Pašalinti";
+"Really want to uninstall TotalFinder?" = "Ar tikrai norite pašalinti TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Šis pradės pašalinti scenarijų, kuris bus pašalinti TotalFinder iš šio kompiuterio ir atkurkite pradinį paieška elgesį.";
+
+/* MainMenu items */
+"New Finder Tab" = "Nauja Finder kortelę";
+"Close Tab" = "Užverti kortelėje";
+"Close Window" = "Uždaryti langą";
+"Show System Files" = "Rodyti sisteminius failus.";
+"Folders On Top" = "Katalogai On Top";
+"Toggle Dual Mode" = "Perjungti Dual Mode";
+"Narrow Tabs Bar" = "Siaurojo Kortelės Baras";
+"Pin Visor" = "Prisegti skydelio";
+"TotalFinder Preferences…" = "TotalFinder Nustatymai…";
+"Visit Homepage…" = "Aplankykite puslapis…";
+"Select Next Tab" = "Pasirinkite Kitas Kortelėje";
+"Select Previous Tab" = "Pasirinkite Ankstesnis Kortelėje";
+
+/* misc. */
+"Screen %d" = "Ekrano %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - Neregistruotas versijos";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 diena kairėje - pirkti dabar!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dienos kairės - pirkti dabar!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dienos kairės - pirkti dabar!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dienos kairės - pirkti dabar!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dienos kairės - pirkti dabar!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dienos kairės - pirkti dabar!";
+
+/* registration */
+"Licensed to %@" = "Licencijuota %@";
+"Change License" = "Pakeisti licencija";
+"Unregistered version in trial mode" = "Neregistruota versija bandomuoju režimu";
+"Register" = "Registruotis";
