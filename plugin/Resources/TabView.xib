@@ -2,9 +2,14 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10F569</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1197</string>
-		<string key="IBDocument.AppKitVersion">1038.29</string>
+		<string key="IBDocument.SystemVersion">11A390</string>
+		<string key="IBDocument.InterfaceBuilderVersion">1510</string>
+		<string key="IBDocument.AppKitVersion">1110.91</string>
+		<string key="IBDocument.HIToolboxVersion">544.00</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			<string key="NS.object.0">1510</string>
+		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSTextField</string>
 			<string>NSCustomObject</string>
@@ -82,7 +87,7 @@
 									<object class="NSFont" key="NSSupport" id="255090231">
 										<string key="NSName">LucidaGrande</string>
 										<double key="NSSize">13</double>
-										<int key="NSfFlags">1040</int>
+										<int key="NSfFlags">1044</int>
 									</object>
 									<reference key="NSControlView" ref="910427947"/>
 									<int key="NSButtonFlags">139215103</int>
@@ -108,7 +113,7 @@
 									<object class="NSFont" key="NSSupport" id="26">
 										<string key="NSName">LucidaGrande</string>
 										<double key="NSSize">11</double>
-										<int key="NSfFlags">3088</int>
+										<int key="NSfFlags">3100</int>
 									</object>
 									<reference key="NSControlView" ref="906207332"/>
 									<object class="NSColor" key="NSBackgroundColor" id="337834333">
@@ -227,7 +232,7 @@
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array key="connectionRecords">
+			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">iconView_</string>
@@ -291,38 +296,6 @@
 						<reference key="destination" ref="1001"/>
 					</object>
 					<int key="connectionID">126</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: titleView_.stringValue</string>
-						<reference key="source" ref="745226941"/>
-						<reference key="destination" ref="1001"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="745226941"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">value: titleView_.stringValue</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">titleView_.stringValue</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">132</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: titleView2.stringValue</string>
-						<reference key="source" ref="846138425"/>
-						<reference key="destination" ref="1001"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="846138425"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">value: titleView2.stringValue</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">titleView2.stringValue</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">135</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -573,7 +546,7 @@
 					<string key="superclassName">NSView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/BackgroundGradientView.h</string>
+						<string key="minorKey">./Classes/BackgroundGradientView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -581,7 +554,7 @@
 					<string key="superclassName">NSTextFieldCell</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/GTMFadeTruncatingTextFieldCell.h</string>
+						<string key="minorKey">./Classes/GTMFadeTruncatingTextFieldCell.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -592,9 +565,23 @@
 						<string key="owner_">id</string>
 						<string key="yetAnotherObjectToLocalize_">id</string>
 					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="otherObjectToLocalize_">
+							<string key="name">otherObjectToLocalize_</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="owner_">
+							<string key="name">owner_</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="yetAnotherObjectToLocalize_">
+							<string key="name">yetAnotherObjectToLocalize_</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/GTMUILocalizer.h</string>
+						<string key="minorKey">./Classes/GTMUILocalizer.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -602,7 +589,7 @@
 					<string key="superclassName">NSButton</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/HoverButton.h</string>
+						<string key="minorKey">./Classes/HoverButton.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -610,7 +597,7 @@
 					<string key="superclassName">HoverButton</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/HoverCloseButton.h</string>
+						<string key="minorKey">./Classes/HoverCloseButton.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -619,55 +606,115 @@
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="closeTab2:">id</string>
 						<string key="closeTab:">id</string>
-						<string key="performDoubleClick2:">id</string>
 						<string key="performDoubleClick:">id</string>
 					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="closeTab2:">
+							<string key="name">closeTab2:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="closeTab:">
+							<string key="name">closeTab:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="performDoubleClick:">
+							<string key="name">performDoubleClick:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="closeButton2_">id</string>
-						<string key="closeButton_">id</string>
-						<string key="iconView2_">id</string>
-						<string key="iconView_">id</string>
-						<string key="titleView2_">id</string>
-						<string key="titleView_">id</string>
-						<string key="view2_">id</string>
-						<string key="view_">id</string>
+						<string key="closeButton2_">HoverCloseButton</string>
+						<string key="closeButton_">HoverCloseButton</string>
+						<string key="iconView2_">NSView</string>
+						<string key="iconView_">NSView</string>
+						<string key="titleView2_">NSTextField</string>
+						<string key="titleView_">NSTextField</string>
+						<string key="view2_">NSView</string>
+						<string key="view_">NSView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="closeButton2_">
+							<string key="name">closeButton2_</string>
+							<string key="candidateClassName">HoverCloseButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="closeButton_">
+							<string key="name">closeButton_</string>
+							<string key="candidateClassName">HoverCloseButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="iconView2_">
+							<string key="name">iconView2_</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="iconView_">
+							<string key="name">iconView_</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="titleView2_">
+							<string key="name">titleView2_</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="titleView_">
+							<string key="name">titleView_</string>
+							<string key="candidateClassName">NSTextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="view2_">
+							<string key="name">view2_</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="view_">
+							<string key="name">view_</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/TabController.h</string>
+						<string key="minorKey">./Classes/TabController.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">TabView</string>
 					<string key="superclassName">BackgroundGradientView</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="closeButton2_">id</string>
-						<string key="closeButton_">id</string>
-						<string key="controller_">id</string>
+						<string key="closeButton2_">HoverCloseButton</string>
+						<string key="closeButton_">HoverCloseButton</string>
+						<string key="controller_">TabController</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="closeButton2_">
+							<string key="name">closeButton2_</string>
+							<string key="candidateClassName">HoverCloseButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="closeButton_">
+							<string key="name">closeButton_</string>
+							<string key="candidateClassName">HoverCloseButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="controller_">
+							<string key="name">controller_</string>
+							<string key="candidateClassName">TabController</string>
+						</object>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/TabView.h</string>
+						<string key="minorKey">./Classes/TabView.h</string>
 					</object>
 				</object>
 			</array>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSDictionary" key="IBDocument.PluginDeclaredDependencies">
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<integer value="1060" key="NS.object.0"/>
 		</object>
-		<object class="NSDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<integer value="1060" key="NS.object.0"/>
 		</object>
-		<object class="NSDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
 			<integer value="3200" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../../TotalFinder.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
 </archive>
