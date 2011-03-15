@@ -50,7 +50,7 @@
 "Experimental:" = "Kehityksen alla:";
 "Freelance Windows" = "Freelance ikkunoille";
 "Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
-"Show CutPaste buttons in Context Menus" = "Näytä Leikkaa&Sijoita-napit pikavalikossa";
+"Show CutPaste buttons in Context Menus" = "Kopioi/Leikkaa/Sijoita-napit pikavalikkoon";
 "Allow path copying from Context Menus" = "Salli polun kopiointi pikavalikosta";
 
 /* about page */

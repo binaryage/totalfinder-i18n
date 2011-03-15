@@ -72,7 +72,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 > Please note that it may end in conflict if you modified same files as I did. Please consult [git docs](http://git-scm.com/documentation) how to resolve it.
 
 ### I want to modify the UI. How can I compile XIB files?
-> TotalFinder uses NIBs, to compile them from source XIBs please run `./compile.sh` (you have to have installed [XCode command line tools from Apple](http://developer.apple.com/technologies/tools/xcode.html))
+> TotalFinder uses NIBs, to compile them from source XIBs please run `./compile.sh` (you have to have installed [XCode4 command line tools from Apple](http://developer.apple.com/technologies/tools/xcode.html))
 
 ### May I alter dimensions in the UI to fit my language?
 > Although it is possible to copy XIB into language folder and make it language-specific I prefer to keep one shared XIB file for all languages. I'm using technique for defining flexible areas to fit different languages as [described here](http://code.google.com/p/google-toolbox-for-mac/wiki/UILocalization). Please see the `TotalFinder.xib` where it is already used on several places in the Preferences Window.

@@ -2,7 +2,7 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10J842</string>
+		<string key="IBDocument.SystemVersion">10J860</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1278</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
@@ -1507,7 +1507,7 @@
 																				<object class="NSButton" id="431276056">
 																					<reference key="NSNextResponder" ref="68865413"/>
 																					<int key="NSvFlags">268</int>
-																					<string key="NSFrame">{{23, 75}, {170, 18}}</string>
+																					<string key="NSFrame">{{23, 75}, {316, 18}}</string>
 																					<reference key="NSSuperview" ref="68865413"/>
 																					<reference key="NSWindow"/>
 																					<reference key="NSNextKeyView" ref="490831146"/>
@@ -1743,7 +1743,7 @@
 																				<object class="NSButton" id="289317766">
 																					<reference key="NSNextResponder" ref="68865413"/>
 																					<int key="NSvFlags">268</int>
-																					<string key="NSFrame">{{25, 267}, {168, 18}}</string>
+																					<string key="NSFrame">{{25, 267}, {305, 18}}</string>
 																					<reference key="NSSuperview" ref="68865413"/>
 																					<reference key="NSWindow"/>
 																					<reference key="NSNextKeyView" ref="1046365897"/>
@@ -1927,10 +1927,7 @@
 																		<dictionary class="NSMutableDictionary" key="Values">
 																			<integer value="12" key="WebKitDefaultFixedFontSize"/>
 																			<integer value="12" key="WebKitDefaultFontSize"/>
-																			<boolean value="NO" key="WebKitJavaEnabled"/>
-																			<boolean value="NO" key="WebKitJavaScriptCanOpenWindowsAutomatically"/>
 																			<integer value="1" key="WebKitMinimumFontSize"/>
-																			<boolean value="NO" key="WebKitPluginsEnabled"/>
 																		</dictionary>
 																	</object>
 																	<bool key="UseBackForwardList">YES</bool>
