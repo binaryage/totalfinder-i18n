@@ -8,11 +8,11 @@
 "Visor Feature" = "Visor Funktion";
 "a system-wide window sliding from the bottom on a hot-key" = "ein systemweit per Tastenkombination einblendbares Fenster";
 
-"Activation:" = "Einblenden";
+"Activation:" = "Einblenden:";
 
 "Control:" = "Steuerung:";
 "Hide on ESC" = "Mit ESC ausblenden";
-"Pin Visor" = "Anheften";
+"Pin Visor" = "Visor Anheften";
 
 "Animation:" = "Animation:";
 "Fade Window" = "Überblenden animieren";
@@ -30,12 +30,12 @@
 "this folder should be set as writable for all users of TotalFinder" = "Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
 "Launch Migration Assistant" = "Migrationsassistent starten";
 "TotalFinder.kext status" = "TotalFinder.kext Status";
-"Unable to connect" = "Verbindung fehlgeschlagen";
+"Unable to connect" = "Verbindung zur Kernel-Erweiterung fehlgeschlagen!\n Haben Sie die TotalFinder Kernel-Erweiterung installiert?";
 "Advanced:" = "Erweitert:";
 "Don't write .DS_Store to Network" = ".DS_Store Dateien nicht im Netzwerk erstellen";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Standardeinstellungen wiederherstellen";
+"Reset TotalFinder to defaults" = "auf Standardeinstellungen zurücksetzen";
 
 "File Browser:" = "Datei Browser:";
 "Show System Files" = "Zeige Systemdateien";
@@ -51,7 +51,7 @@
 "Freelance Windows" = "Unabhängige Fenster";
 "Use narrow Tabs Bar" = "Tableiste verkleinern";
 "Show CutPaste buttons in Context Menus" = "Ausschneiden/Einfügen im Kontextmenü";
-"Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";
+"Allow path copying from Context Menus" = "Erlaube Kopieren von Pfaden aus dem Kontextmenü";
 
 /* about page */
 "Check for updates…" = "Updates suchen…";
