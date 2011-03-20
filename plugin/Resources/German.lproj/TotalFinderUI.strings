@@ -51,7 +51,7 @@
 "Freelance Windows" = "Unabhängige Fenster";
 "Use narrow Tabs Bar" = "Tableiste verkleinern";
 "Show CutPaste buttons in Context Menus" = "Ausschneiden/Einfügen im Kontextmenü";
-"Allow path copying from Context Menus" = "Erlaube Kopieren von Pfaden im Kontextmenü";
+"Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";
 
 /* about page */
 "Check for updates…" = "Updates suchen…";
