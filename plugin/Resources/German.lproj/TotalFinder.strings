@@ -18,7 +18,7 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Zurücksetzen";
 "Cancel" = "Abbrechen";
-"Do you really want reset to defaults?" = "Wollen Sie wirklich die Standardeinstellungen wiederherstellen?";
+"Do you really want reset to defaults?" = "Wollen Sie wirklich auf die Standardeinstellungen zurücksetzen?";
 "This will restore initial TotalFinder settings." = "Damit werden die ursprünglichen Einstellungen wiederhergestellt.";
 
 /* Unistall Alert Box */
