@@ -40,7 +40,6 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 ### Final step
 
 1. [push to github](http://help.github.com/remotes) and send a [pull request](http://help.github.com/pull-requests)
-
 2. (optional) run `./undev.sh` to return to unaltered TotalFinder state (this won't delete your files, it will [just unlink](totalfinder-i18n/blob/master/undev.sh) sym-linked folder)
 
 ## Questions?
