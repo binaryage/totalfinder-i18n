@@ -7,7 +7,7 @@
 
 /* Asepsis preferences pane */
 "Disconnect" = "Odklopi";
-"Connect" = "Poveži";
+"Connect" = "Priklopi";
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Povezava z razširitvijo kernela ni uspela! Ali imate TotalFinder.kext pravilno nameščen?";
 
 /* About preferences pane */
