@@ -45,12 +45,12 @@
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - незарэгістраваная версія";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - застаўся 1 дзень - купіце зараз";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - застаўся 1 дзень - купіце зараз!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - засталося 2 дні - купіце зараз!";
 "TotalFinder - 3 days left - buy now!" = "TotalFinder - засталося 3 дні - купіце зараз!";
 "TotalFinder - 4 days left - buy now!" = "TotalFinder - засталося 4 дні - купіце зараз!";
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - засталося 5 дзен - купіце зараз!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - осталося %d днен - купіце зараз!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - засталося %d днен - купіце зараз!";
 
 /* registration */
 "Licensed to %@" = "Ліцэнзія выдадзена %@";
