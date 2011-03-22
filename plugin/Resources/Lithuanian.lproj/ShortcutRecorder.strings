@@ -1,0 +1,13 @@
+"Space" = "Erdvė";
+"Use old shortcut" = "Naudokite senosios nuorodą";
+"Type shortcut" = "Tipas nuorodą";
+"Click to record shortcut" = "Spustelėkite, norėdami įrašyti nuorodą";
+"Pad %@" = "bloknotas %@";
+"The key combination %@ can't be used!" = "Klavišų kombinacija %@ negali būti naudojama!";
+"The key combination \"%@\" can't be used because %@." = "Klavišų kombinacija \"%@\" negali būti naudojama nes %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Klavišų kombinacija \"%@\" negali būti naudojamas, nes jis jau naudojamas visoje sistemoje sparčiuosius klaviatūros klavišus. (Jei tikrai norite naudoti šią klavišų kombinaciją, labiausiai klavišai gali būti pakeisti Keyboard & Mouse skydelis Sistemos Nustatymus";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Klavišų kombinacija \"%@\" negali būti naudojamas, nes jis jau naudojamas meniu punktą \"%@\".";
+"Command + " = "Cmd + ";
+"Option + " = "Parinktis + ";
+"Shift + " = "Shift + ";
+"Control + " = "Ctrl + ";
