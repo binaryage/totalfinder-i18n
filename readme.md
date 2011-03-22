@@ -17,16 +17,16 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 
 1. Read something about git version control system. Here is [the best place to start](http://git-scm.com/documentation).
 2. Get familiar with GitHub. They have also [nice docs](http://help.github.com).
-3. Create GitHub user and don't forget to [setup your local git user](http://help.github.com/git-email-settings) so your commits are linked to your GitHub account.
+3. Create GitHub user and don't forget to [setup your local git](http://help.github.com/mac-set-up-git) so your commits are linked to your GitHub account.
 4. See how others are working on [TotalFinder localization](http://github.com/binaryage/totalfinder-i18n/network).
 
 ## The Workflow
 
 ### Initial step
 
-1. fork this project on GitHub
-2. clone your fork (let's assume you have it in `~/totalfinder-i18n`)
-3. make sure you have installed latest TotalFinder version
+1. [fork this project](http://help.github.com/fork-a-repo) on GitHub
+2. [clone your fork](http://help.github.com/remotes) (let's assume you have it in `~/totalfinder-i18n`)
+3. make sure you have [installed latest TotalFinder](http://totalfinder.binaryage.com/beta-changes) version
 4. `cd ~/totalfinder-i18n` and run `./dev.sh`
 
 ### Development
@@ -39,14 +39,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 
 ### Final step
 
-1. push to github and send a pull request to:
-   * Spanish => [rsanchezsaez](http://github.com/rsanchezsaez)
-   * Italian => [diegotheblind](http://github.com/diegotheblind)
-   * Japanese => [kueda99](http://github.com/kueda99)
-   * French => [Yann-R](http://github.com/Yann-R)
-   * Russian => [akahan](http://github.com/akahan)
-   * in all other cases => [darwin](http://github.com/darwin) 
-
+1. [push to github](http://help.github.com/remotes) and send a [pull request](http://help.github.com/pull-requests)
 2. (optional) run `./undev.sh` to return to unaltered TotalFinder state (this won't delete your files, it will [just unlink](totalfinder-i18n/blob/master/undev.sh) sym-linked folder)
 
 ## Questions?
