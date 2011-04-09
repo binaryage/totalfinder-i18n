@@ -1,0 +1,13 @@
+"Space" = "เว้นวรรค";
+"Use old shortcut" = "ใช้คีย์ลัดเดิม";
+"Type shortcut" = "กดคีย์ลัด";
+"Click to record shortcut" = "คลิกเพื่อตั้งคีย์ลัด";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "ใช้คีย์ %@ นี้ร่วมกันไม่ได้";
+"The key combination \"%@\" can't be used because %@." = "ใช้คีย์ \"%@\" นี้ไม่ได้เพราะว่า %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "ใช้คีย์ \"%@\" นี้ไม่ได้เพราะว่า มันได้ถูกใช้เป็นคีย์ลัดของระบบแล้ว (หากคุณต้องการใช้จริงๆ คีย์ลัดของระบบส่วนใหญ่สามารถปรับเปลี่ยนได้ที่ส่วน Keyboard & Mouse ใน System Preferences)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "ใช้คีย์ \"%@\" นี้ไม่ได้เพราะว่า มันได้ถูกใช้โดยรายการ \"%@\" นี้แล้ว";
+"Command + " = "Command + ";
+"Option + " = "Option + ";
+"Shift + " = "Shift + ";
+"Control + " = "Control + ";
