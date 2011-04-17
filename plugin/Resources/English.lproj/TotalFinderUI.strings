@@ -25,7 +25,7 @@
 
 /* asepsis page */
 "Asepsis Feature" = "The Asepsis Feature";
-"prevents .DS_Store files to be created in local folders" = "prevents .DS_Store files to be created in local folders";
+"prevents .DS_Store files to be created in local folders" = "prevents .DS_Store files from being created in local folders";
 ".DS_Store files will be redirected into" = ".DS_Store files will be redirected into";
 "this folder should be set as writable for all users of TotalFinder" = "this folder should be set as writable for all users of TotalFinder";
 "Launch Migration Assistant" = "Launch Migration Assistant";
