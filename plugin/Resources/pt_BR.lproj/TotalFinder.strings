@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Procurar Actualizações";
+"Check for Updates" = "Procurar Atualizações";
 "Uninstall TotalFinder" = "Desinstalar o TotalFinder";
 "Restart Finder" = "Reiniciar o Finder";
 "Show Visor" = "Mostrar Visor";
@@ -8,7 +8,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Desligar";
 "Connect" = "Ligar";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não foi possível ligar à extensão do kernel!\nDe certeza que esta foi instalada?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não foi possível ligar à extensão do kernel!\nTem certeza que esta foi instalada?";
 
 /* About preferences pane */
 "from Beta Channel" = "do Canal Beta";
@@ -18,13 +18,13 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Restaurar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "Tem a certeza que deseja restaurar as definições padrão?";
-"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração do TotalFinder para os valores padrão..";
+"Do you really want reset to defaults?" = "Tem a certeza que deseja restaurar as configurações padrão?";
+"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
 "Really want to uninstall TotalFinder?" = "Deseja mesmo desinstalar o TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Isto irá iniciar um script que irá remover o TotalFinder deste computador e restaurar o comportamento original do Finder.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Isto irá executar um script que removerá o TotalFinder deste computador e restaurar o comportamento original do Finder.";
 
 /* MainMenu items */
 "New Finder Tab" = "Nova aba do Finder";
@@ -32,25 +32,25 @@
 "Close Window" = "Fechar janela";
 "Show System Files" = "Mostrar Arquivos de Sistema";
 "Folders On Top" = "Pastas em Cima";
-"Toggle Dual Mode" = "Activar/Desactivar Modo Dual";
+"Toggle Dual Mode" = "Ativar/Desativar Modo Dual";
 "Narrow Tabs Bar" = "Barra de Abas Fina";
 "Pin Visor" = "Fixar Visor";
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
 "Visit Homepage…" = "Visitar Homepage…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Selecionar a próxima aba";
+"Select Previous Tab" = "Selecionar aba anterior";
 
 /* misc. */
-"Screen %d" = "Ecrã %d";
+"Screen %d" = "Tela %d";
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - versão não registada";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia para testar - compre já!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias para testar - compre já!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias para testar - compre já!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias para testar - compre já!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias para testar - compre já!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias para testar - compre já!";
 
 /* registration */
 "Licensed to %@" = "Registado para %@";
