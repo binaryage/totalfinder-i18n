@@ -1,27 +1,27 @@
 /* navigation bar */
-"Visor" = "Visor";
-"Asepsis" = "Asepsis";
+"Visor" = "Επόπτης";
+"Asepsis" = "Ασφάλεια";
 "Tweaks" = "Κόλπα";
 "About" = "Σχετικά";
 
 /* visor page */
-"Visor Feature" = "Visor";
+"Visor Feature" = "Επόπτης";
 "a system-wide window sliding from the bottom on a hot-key" = "Kυλιόμενο παράθυρο από τη βάση της οθόνης";
 
 "Activation:" = "Ενεργό:";
 
 "Control:" = "Έλεγχος:";
 "Hide on ESC" = "Απόκρυψη με ESC";
-"Pin Visor" = "Καρφίτσωμα Visor";
+"Pin Visor" = "Καρφίτσωμα επόπτη";
 
-"Animation:" = "Animation:";
+"Animation:" = "Εφέ:";
 "Fade Window" = "Εξασθένιση παραθύρου";
 "Slide Window" = "Ολίσθηση παραθύρου";
 
 "Screen:" = "Οθόνη:";
 "Show on all Spaces" = "Εμφάνιση σε όλα τα Spaces";
 "Show on top of the Dock" = "Εμφάνιση πάνω από το Dock";
-"Free Form Window" = "Ελέυθερο παράθυρο";
+"Free Form Window" = "Ελεύθερο παράθυρο";
 
 /* asepsis page */
 "Asepsis Feature" = "Asepsis";
@@ -53,7 +53,7 @@
 "Show CutPaste buttons in Context Menus" = "Αποκοπή-Επικόλληση στο δεξί κλικ";
 
 /* about page */
-"Check for updates…" = "Έλεγχος αναβαθμήσεων…";
+"Check for updates…" = "Έλεγχος αναβαθμίσεων…";
 
 /* registration */
 "TotalFinder Registration" = "Ενεργοποίηση TotalFinder";

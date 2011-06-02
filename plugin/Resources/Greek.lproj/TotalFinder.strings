@@ -2,8 +2,8 @@
 "Check for Updates" = "Έλεγχος αναβαθμίσεων";
 "Uninstall TotalFinder" = "Απεγκατάσταση TotalFinder";
 "Restart Finder" = "Επανεκκίνηση Finder";
-"Show Visor" = "Εμφάνιση Visor";
-"Hide Visor" = "Απόκρυψη Visor";
+"Show Visor" = "Εμφάνιση επόπτη";
+"Hide Visor" = "Απόκρυψη επόπτη";
 
 /* Asepsis preferences pane */
 "Disconnect" = "Αποσύνδεση";
@@ -34,7 +34,7 @@
 "Folders On Top" = "Φάκελοι σε πρώτο πλάνο";
 "Toggle Dual Mode" = "Dual mode";
 "Narrow Tabs Bar" = "Štíhlé taby";
-"Pin Visor" = "Καρφίτσωμα Visor";
+"Pin Visor" = "Καρφίτσωμα επόπτη";
 "TotalFinder Preferences…" = "Επιλογές TotalFinder";
 "Visit Homepage…" = "Ιστοσελίδα…";
 "Select Next Tab" = "Επιλογή επόμενης καρτέλας";
