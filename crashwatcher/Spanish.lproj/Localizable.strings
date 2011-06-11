@@ -1,0 +1,12 @@
+"crashDialogHeader" = "TotalFinder se ha cerrado inesperadamente";
+"crashDialogMsg" = "Lo sentimos, pero ha habido un problema inesperado con TotalFinder, y el Finder ha fallado.";
+"crashDialogNote" = "Nota: El Finder se ha reiniciado, pero para utilizar TotalFinder tendrás que abrirlo manualmente.";
+
+"sendReportButton" = "Enviar informe por email";
+"cancelButton" = "Cancelar";
+
+"countdownMsgSecondsPlural" = "Faltan %d segundos.";
+"countdownMsgSecondSingular" = "Falta %d segundo.";
+
+"countdownMsgMinutesPlural" = "Faltan %d minutos.";
+"countdownMsgMinuteSingular" = "Falta %d minuto.";
