@@ -54,11 +54,11 @@
 "Allow path copying from Context Menus" = "Ruta copiable desde el menú contextual";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Buscar ahora";
+"Check for Updates" = "Buscar actualizaciones";
+"Automatically check the website for updates" = "Buscar actualizaciones automáticamente";
+"Include pre-releases" = "Incluir pre-lanzamientos";
+"Participate in TotalFinder testing" = "Ayudar a hacer de TotalFinder un poco mejor";
 
 /* registration */
 "TotalFinder Registration" = "Registro de TotalFinder";
