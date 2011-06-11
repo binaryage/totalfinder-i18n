@@ -27,10 +27,6 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación eliminará TotalFinder de este ordenador y restaurará el comportamiento original del Finder.";
 
 /* MainMenu items */
-/* Spanish Mac OS X uses proper sentence casing in menu items
-rather than upper casing first letter of all words,
-except for 'proper product names' lile: 'Finder', 'Cover Flow', etc.
-I used this rule when upper casing 'Visor'. */
 "New Finder Tab" = "Nueva pestaña del Finder";
 "Close Tab" = "Cerrar pestaña";
 "Close Window" = "Cerrar ventana";

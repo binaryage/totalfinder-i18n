@@ -54,7 +54,11 @@
 "Allow path copying from Context Menus" = "Leisti kelias kopijavimas iš kontekstinio meniu";
 
 /* about page */
-"Check for updates…" = "Check for updates…";
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
 
 /* registration */
 "TotalFinder Registration" = "Patikrinti atnaujinimus";

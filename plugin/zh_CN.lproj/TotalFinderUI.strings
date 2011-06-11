@@ -54,7 +54,11 @@
 "Allow path copying from Context Menus" = "允许在右键菜单中拷贝路径";
 
 /* about page */
-"Check for updates…" = "检查更新…";
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
 
 /* registration */
 "TotalFinder Registration" = "注册 TotalFinder";
