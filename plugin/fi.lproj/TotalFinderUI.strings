@@ -54,11 +54,11 @@
 "Allow path copying from Context Menus" = "Salli polun kopiointi pikavalikosta";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Tarkista nyt";
+"Check for Updates" = "Tarkista päivitykset";
+"Automatically check the website for updates" = "Tarkista päivitykset automaattosesti";
+"Include pre-releases" = "Huomioi ennakkojulkaisut";
+"Participate in TotalFinder testing" = "Osallista TotalFinderin testaamiseen";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinderin rekisteröinti";
