@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Aseptyka";
+"Tweaks" = "Usprawnienia";
+"About" = "O programie";
+
+/* visor page */
+"Visor Feature" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "okno dostępne w całym systemie po naciśnięciu skrótu";
+
+"Activation:" = "Aktywacja:";
+
+"Control:" = "Kontrola:";
+"Hide on ESC" = "Ukryj po naciśnięciu ESC";
+"Pin Visor" = "Przypinanie:";
+
+"Animation:" = "Animacja:";
+"Fade Window" = "Zanikanie";
+"Slide Window" = "Wysuwanie";
+
+"Screen:" = "Ekran:";
+"Show on all Spaces" = "Pokazuj na każdej przestrzeni";
+"Show on top of the Dock" = "Pokazuj nad Dockiem";
+"Free Form Window" = "Okno dowolnego rozmiaru";
+
+/* asepsis page */
+"Asepsis Feature" = "Aseptyka";
+"prevents .DS_Store files to be created in local folders" = "zapobiega tworzeniu plików .DS_Store w lokalnych folderach";
+".DS_Store files will be redirected into" = "Pliki .DS_Store zostaną skierowane do";
+"this folder should be set as writable for all users of TotalFinder" = "ten folder powinien być zapisywalny dla wszystkich użytkowników";
+"Launch Migration Assistant" = "Uruchom asystenta migracji";
+"TotalFinder.kext status" = "Stan rozszerzenia jądra (TotalFinder.kext)";
+"Unable to connect" = "Wystąpił problem podczas łączenia z rozszerzeniem!\nCzy rozszerzenie TotalFinder.kext jest załadowane?";
+"Advanced:" = "Zaawansowane:";
+"Don't write .DS_Store to Network" = "Nie zapisuj plików .DS_Store w sieci";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Przywróć ustawienia domyślne";
+
+"File Browser:" = "Przeglądarka plików:";
+"Show System Files" = "Pokazuj pliki systemowe";
+"Folders on Top" = "Foldery na górze";
+"Always Maximize" = "Zawsze maksymalizuj";
+"Toggle Dual Mode" = "Wł/wył tryb podwójny";
+
+"Menu and Dock:" = "Menu i Dock:";
+"Hide icon in Menu Bar" = "Schowaj ikonę w pasku menu";
+"Keep original Dock icon" = "Zachowaj oryginalną ikonkę docka";
+
+"Experimental:" = "Eksperymentalne:";
+"Freelance Windows" = "Wolne okna";
+"Use narrow Tabs Bar" = "Użyj wąskich zakładek";
+"Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Rejestracja TotalFindera";
+"Registration" = "Rejestracja";
+"Please enter your license details from the email we have sent you:" = "Podaj dane które przesłaliśmy Ci na e-mail:";
+"Buy TotalFinder Now" = "Kup teraz TotalFindera";
+"Register" = "Zarejestruj";
+"Thanks for registering!" = "Dzięki za rejestrację!";
+"This TotalFinder copy is licensed to:" = "Ta kopia TotalFindera jest licencjonowana dla:";
+"Close" = "Zamknij";
+"Change License" = "Zmień licencję";
+"Back" = "Wróć";
+"Invalid license code" = "Kod licencyjny jest nieprawidłowy";
+"Please go back and try again." = "Wróć i spróbuj jeszcze raz.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Aby kupić TotalFindera, odwiedź sklep BinaryAge.";
+"Thank you for using TotalFinder!" = "Dziękujemy za używanie TotalFindera!";

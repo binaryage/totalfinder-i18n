@@ -6,7 +6,7 @@ require 'rake'
 ROOT_DIR = File.expand_path('.')
 FINDER_DIR = '/System/Library/CoreServices/Finder.app'
 FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
-PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin', 'Resources')
+PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin')
 INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
 ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
 TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-plugin', 'plugin')
@@ -444,7 +444,7 @@ end
 
 desc "normalize Finder.app so it contains all our language folders (run with sudo)"
 task :normalize do 
-    lprojs = File.join(ROOT_DIR, 'plugin', 'Resources', '*.lproj')
+    lprojs = File.join(PLUGIN_RESOURCES_DIR, '*.lproj')
     Dir.glob(lprojs) do |folder|
         dir = File.join(FINDER_RESOURCES_DIR, File.basename(folder))
         if File.exists? dir then
@@ -493,7 +493,7 @@ task :propagate do
     propagate_from_english_to_other_lprojs
 end
 
-desc "make stub lproj folders for installer, creates all which exist in plugin/Resources"
+desc "make stub lproj folders for installer, creates all which exist in plugin"
 task :stub do
     stub_installer_lprojs
 end

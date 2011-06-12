@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepse";
+"Tweaks" = "Nastavení";
+"About" = "O programu";
+
+/* visor page */
+"Visor Feature" = "Funkcionalita Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "globální okno vyjíždějící zespodu na klávesovou zkratku";
+
+"Activation:" = "Aktivace:";
+
+"Control:" = "Ovládání:";
+"Hide on ESC" = "Skrýt po ESC";
+"Pin Visor" = "Přišpendlit";
+
+"Animation:" = "Animace:";
+"Fade Window" = "Zprůhlednit okno";
+"Slide Window" = "Vyjíždět okno";
+
+"Screen:" = "Obrazovka:";
+"Show on all Spaces" = "Zobrazit na všech plochách";
+"Show on top of the Dock" = "Zobrazit nad Dockem";
+"Free Form Window" = "FreeForm Okno";
+
+/* asepsis page */
+"Asepsis Feature" = "Funkcionalita Asepse";
+"prevents .DS_Store files to be created in local folders" = "zabraňuje vytváření .DS_Store souborů v lokálních složkách";
+".DS_Store files will be redirected into" = ".DS_Store soubory budou přesměrovány do";
+"this folder should be set as writable for all users of TotalFinder" = "tato složka má mít povolen zápis pro uživatele TotalFinderu";
+"Launch Migration Assistant" = "Spusťit migračního asistenta";
+"TotalFinder.kext status" = "Stav TotalFinder.kext";
+"Unable to connect" = "Nemohu se propojit s extenzí kernelu!\nOpravdu máte TotalFinder.kext správně nainstalovaný?";
+"Advanced:" = "Pokročilé:";
+"Don't write .DS_Store to Network" = "Nezapisovat .DS_Store do síťových složek";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Resetuj TotalFinder do výchozího nastavení";
+
+"File Browser:" = "Správce souborů:";
+"Show System Files" = "Zobrazit skryté";
+"Folders on Top" = "Adresáře nahoru";
+"Always Maximize" = "Vždy maximalizovat";
+"Toggle Dual Mode" = "Přepnout dualní panel";
+
+"Menu and Dock:" = "Menu a Dock:";
+"Hide icon in Menu Bar" = "Skrýt ikonu ve status menu";
+"Keep original Dock icon" = "Vrátit původní ikonu do Docku";
+
+"Experimental:" = "Experimentální:";
+"Freelance Windows" = "Volná okna";
+"Use narrow Tabs Bar" = "Štíhlé taby";
+"Show CutPaste buttons in Context Menus" = "Výjmout-vložit tlačítka v kontext menu";
+"Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Registrace TotalFinderu";
+"Registration" = "Registrace";
+"Please enter your license details from the email we have sent you:" = "Prosím zadejte licenční údaje z emailu, který jsme vám poslali:";
+"Buy TotalFinder Now" = "Koupit TotalFinder";
+"Register" = "Registrovat";
+"Thanks for registering!" = "Díky za registraci!";
+"This TotalFinder copy is licensed to:" = "Licencován na jméno:";
+"Close" = "Zavřít";
+"Change License" = "Změnit licenci";
+"Back" = "Zpět";
+"Invalid license code" = "Neplatný licenční klíč";
+"Please go back and try again." = "Prosím vraťte se zpět a zkuste to znovu.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licenci pro TotalFinder můžete koupit ve webovém obchodu BinaryAge.";
+"Thank you for using TotalFinder!" = "Díky, že používáte TotalFinder!";

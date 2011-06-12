@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Vizor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Adaptări";
+"About" = "Despre";
+
+/* visor page */
+"Visor Feature" = "Vizorul";
+"a system-wide window sliding from the bottom on a hot-key" = "o fereastră globală atașată de marginea de jos, activabilă din taste";
+
+"Activation:" = "Activare:";
+
+"Control:" = "Control:";
+"Hide on ESC" = "Ascunde la ESC";
+"Pin Visor" = "Pioneză";
+
+"Animation:" = "Animație:";
+"Fade Window" = "Dizolvă Fereastra";
+"Slide Window" = "Culisează Fereastra";
+
+"Screen:" = "Ecran:";
+"Show on all Spaces" = "Prezent în toate Spațiile";
+"Show on top of the Dock" = "Afișează deasupra Dock-ului";
+"Free Form Window" = "Fereastră redimensionabilă";
+
+/* asepsis page */
+"Asepsis Feature" = "Asepsis";
+"prevents .DS_Store files to be created in local folders" = "Împiedică crearea fișierelor .DS_Store în directoarele locale";
+".DS_Store files will be redirected into" = "Fișierele .DS_Store vor fi mutate în";
+"this folder should be set as writable for all users of TotalFinder" = "Toți utilizatorii TotalFinder trebuie să aibă drept de scriere în acest director";
+"Launch Migration Assistant" = "Pornește Asistentul de Migrare";
+"TotalFinder.kext status" = "Stare TotalFinder.kext";
+"Unable to connect" = "Conectarea extensiei de kernel nu poate fi realizată. Ați instalat TotalFinder.kext?";
+"Advanced:" = "Avansat:";
+"Don't write .DS_Store to Network" = "Nu scrie fișiere .DS_Store în Rețea";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Revenire la setările inițiale";
+
+"File Browser:" = "Browser de Fișiere:";
+"Show System Files" = "Afișează fișiere sistem";
+"Folders on Top" = "Directoarele deasupra";
+"Always Maximize" = "Maximizează mereu";
+"Toggle Dual Mode" = "Comută în modul dual";
+
+"Menu and Dock:" = "Menu și Dock:";
+"Hide icon in Menu Bar" = "Ascunde iconița TotalFinder din Meniul de Stare";
+"Keep original Dock icon" = "Păstrează iconița originală de Finder în Dock";
+
+"Experimental:" = "Experimental:";
+"Freelance Windows" = "Ferestre Libere";
+"Use narrow Tabs Bar" = "Tab-uri înguste";
+"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Înregistrare TotalFinder";
+"Registration" = "Înregistrare";
+"Please enter your license details from the email we have sent you:" = "Vă rog introduceți detaliile de licență din email-ul pe care vi l-am trimis:";
+"Buy TotalFinder Now" = "Cumpără TotalFinder acum";
+"Register" = "Înregistrează-te";
+"Thanks for registering!" = "Mulțumesc pentru înregistrare!";
+"This TotalFinder copy is licensed to:" = "Aceasta copie TotalFinder este licențiata către:";
+"Close" = "Închide";
+"Change License" = "Schimba licența";
+"Back" = "Înapoi";
+"Invalid license code" = "Cod de licență invalid";
+"Please go back and try again." = "Vă rog dați înapoi și încercați din nou.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Pentru a cumpăra o licență TotalFinder, vă rugam visitati magazinul online BinaryAge";
+"Thank you for using TotalFinder!" = "Vă multumim ca folosiți TotalFinder!";

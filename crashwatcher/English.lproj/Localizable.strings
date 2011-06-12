@@ -1,0 +1,12 @@
+"crashDialogHeader" = "TotalFinder has quit unexpectedly";
+"crashDialogMsg" = "We are sorry, but TotalFinder hit an unexpected problem and crashed Finder.";
+"crashDialogNote" = "Note: Finder was restarted automatically but you have to launch TotalFinder.app manually again.";
+
+"sendReportButton" = "Send Report via email";
+"cancelButton" = "Cancel";
+
+"countdownMsgSecondsPlural" = "%d seconds remaining.";
+"countdownMsgSecondSingular" = "%d second remaining.";
+
+"countdownMsgMinutesPlural" = "%d minutes remaining.";
+"countdownMsgMinuteSingular" = "%d minute remaining.";

@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "skydelio";
+"Asepsis" = "aseptikos";
+"Tweaks" = "pataisymai";
+"About" = "Apie";
+
+/* visor page */
+"Visor Feature" = "Skydelio priemonė";
+"a system-wide window sliding from the bottom on a hot-key" = "visoje sistemoje langas stumdomas iš apačios į karštą klavišą";
+
+"Activation:" = "Aktyvinimas:";
+
+"Control:" = "Ctrl:";
+"Hide on ESC" = "Slėpti ESRK";
+"Pin Visor" = "Prisegti skydelio";
+
+"Animation:" = "Animacija:";
+"Fade Window" = "Išblukimas Langas";
+"Slide Window" = "Pristatymas Langas";
+
+"Screen:" = "Ekranas:";
+"Show on all Spaces" = "Rodyti visas erdves";
+"Show on top of the Dock" = "Rodyti viršuje doko";
+"Free Form Window" = "Laisvos Langas";
+
+/* asepsis page */
+"Asepsis Feature" = "aseptikos priemonė";
+"prevents .DS_Store files to be created in local folders" = "neleidžia .DS_Store failai turi būti sukurta vietos aplankų";
+".DS_Store files will be redirected into" = ".DS_Store failai bus nukreipiami į";
+"this folder should be set as writable for all users of TotalFinder" = "Šiame aplanke turėtų būti nustatyti kaip rašyti visiems TotalFinder vartotojai";
+"Launch Migration Assistant" = "Paleisti Migration Assistant";
+"TotalFinder.kext status" = "TotalFinder.kext statusas";
+"Unable to connect" = "Nepavyko susisiekti su branduolio pratęsimo!\nnAr esate TotalFinder branduolys pratęsimo įdiegta?";
+"Advanced:" = "Detaliai:";
+"Don't write .DS_Store to Network" = "Negalima rašyti .DS_Store Network";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Atstatyti TotalFinder negrąžinimo";
+
+"File Browser:" = "Failas naršyklė:";
+"Show System Files" = "Rodyti failų sistemos";
+"Folders on Top" = "Katalogai viršų";
+"Always Maximize" = "Visada Padidinimas";
+"Toggle Dual Mode" = "Perjungti Dvigubas būsenoje";
+
+"Menu and Dock:" = "Meniu ir Dokas:";
+"Hide icon in Menu Bar" = "Slėpti piktogramą Meniu juosta";
+"Keep original Dock icon" = "Palikti original doko piktogramą";
+
+"Experimental:" = "Eksperimentinė:";
+"Freelance Windows" = "Laisvai samdomi Windows";
+"Use narrow Tabs Bar" = "Naudoti siauras Kortelės Baras";
+"Show CutPaste buttons in Context Menus" = "Rodyti Iškirpkite ir įklijuokite mygtukų kontekstinio meniu";
+"Allow path copying from Context Menus" = "Leisti kelias kopijavimas iš kontekstinio meniu";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Patikrinti atnaujinimus";
+"Registration" = "Registracija";
+"Please enter your license details from the email we have sent you:" = "Prašome įvesti savo licencijos duomenis iš elektroninio pašto mes išsiuntėme jums:";
+"Buy TotalFinder Now" = "Pirkti TotalFinder Dabar";
+"Register" = "Registruotis";
+"Thanks for registering!" = "Dėkojame už registraciją!";
+"This TotalFinder copy is licensed to:" = "Šis TotalFinder kopija yra licencijuotas su:";
+"Close" = "Uždaryti";
+"Change License" = "Pakeisti licencija";
+"Back" = "Atgal";
+"Invalid license code" = "Neteisingas licencija kodas";
+"Please go back and try again." = "Prašome grįžti atgal ir bandykite dar kartą.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Norėdami įsigyti licenciją TotalFinder, apsilankykite BinaryAge internetinėje parduotuvėje.";
+"Thank you for using TotalFinder!" = "Dėkojame, kad naudojatės TotalFinder!";

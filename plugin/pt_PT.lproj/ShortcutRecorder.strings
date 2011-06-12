@@ -1,0 +1,13 @@
+"Space" = "Espaço";
+"Use old shortcut" = "Usar atalho antigo";
+"Type shortcut" = "Introduza o atalho";
+"Click to record shortcut" = "Clique para gravar atalho";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "A combinação de teclas %@ não pode ser utilizada!";
+"The key combination \"%@\" can't be used because %@." = "A combinação de teclas \"%@\" não pode ser utilizada porque %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "A combinação de teclas \"%@\" não pode ser utilizada porque já está em utilização por um atalho de teclado do sistema. (Se realmente deseja utilizar esta combinação de teclas, a maioria dos atalhos podem ser alterados no painel de Teclado nas Preferências do Sistema.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "A combinação de teclas \"%@\" não pode ser utilizada porque já está em utilização pelo item de menu \"%@\".";
+"Command + " = "Comando + ";
+"Option + " = "Opção + ";
+"Shift + " = "Maiúsculas + ";
+"Control + " = "Controlo + ";

@@ -20,5 +20,5 @@ fi
 
 # ok, we should be safe to do the replacement
 sudo mv "$TOTALFINDER_RESOURCES" "$TOTALFINDER_RESOURCES_BACKUP"
-sudo ln -s "$ROOT/plugin/Resources" "$TOTALFINDER_RESOURCES"
+sudo ln -s "$ROOT/plugin" "$TOTALFINDER_RESOURCES"
 sudo cp "$TOTALFINDER_RESOURCES_BACKUP/"*.nib "$TOTALFINDER_RESOURCES" # steal compiled nibs from production
