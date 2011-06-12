@@ -4,7 +4,7 @@
 "Click to record shortcut" = "Klikkaa nauhoittaaksesi oikotien";
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "Näppäinyhdistelmä %@ ei ole käytettävissä.";
-"The key combination \"%@\" can't be used because %@." = "Näppäinyhdistelmää \"%@\" ei voi käyttää %@ vuoksi.";
+"The key combination \"%@\" can't be used because %@." = "Näppäinyhdistelmää \"%@\" ei voi käyttää %@ takia.";
 "The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Näppäinyhdistelmää \"%@\" ei voida käyttää koska se on jo järjestelmän kattavassa käytössä. (Jos kuitenkin haluat käyttää tätä näppäinyhdistelmää niin voit vaihtaa sen Järjestelmäasetukset - Hiiri & Näppäimistö alta.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Näppäinyhdistelmää ei voida käyttää koska sitä käyttää jo \"%@\".";
 "Command + " = "Command + ";
