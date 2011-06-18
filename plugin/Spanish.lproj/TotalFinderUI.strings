@@ -38,7 +38,7 @@
 "Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */
 
 "File Browser:" = "Navegador de archivos:";
-"Show System Files" = "Ver archiv. del sistema"; /* Don't like using abreviations but a longer sentence won't fit the UI */
+"Show System Files" = "Ver archivos ocultos";
 "Folders on Top" = "Carpetas primero";
 "Always Maximize" = "Maximizar completamente";
 "Toggle Dual Mode" = "Alternar modo dual";
@@ -50,8 +50,8 @@
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "No agrupar ventanas";
 "Use narrow Tabs Bar" = "Barra pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */
-"Show CutPaste buttons in Context Menus" = "Botones cortar/pegar en menú contextual";
-"Allow path copying from Context Menus" = "Ruta copiable desde el menú contextual";
+"Show CutPaste buttons in Context Menus" = "Cortar y Pegar desde el menú contextual";
+"Allow path copying from Context Menus" = "Copiar rutas desde el menú contextual";
 
 /* about page */
 "Check Now" = "Buscar ahora";
