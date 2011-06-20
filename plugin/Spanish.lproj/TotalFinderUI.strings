@@ -56,9 +56,9 @@
 /* about page */
 "Check Now" = "Buscar ahora";
 "Check for Updates" = "Buscar actualizaciones";
-"Automatically check the website for updates" = "Buscar actualizaciones automáticamente";
+"Automatically check the website for updates" = "Comprueba la web automáticamente";
 "Include pre-releases" = "Incluir pre-lanzamientos";
-"Participate in TotalFinder testing" = "Ayudar a hacer de TotalFinder un poco mejor";
+"Participate in TotalFinder testing" = "Ayuda a hacer TotalFinder un poco mejor"; //Traducción libre, para hacerlo más entendible
 
 /* registration */
 "TotalFinder Registration" = "Registro de TotalFinder";
