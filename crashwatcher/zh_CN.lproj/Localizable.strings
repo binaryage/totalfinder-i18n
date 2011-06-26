@@ -1,0 +1,12 @@
+"crashDialogHeader" = "TotalFinder 意外退出";
+"crashDialogMsg" = "非常抱歉，TotalFinder 遇到不可预知的问题而退出。";
+"crashDialogNote" = "注意：Finder 会自动重新运行，但是 TotalFinder 必须手动运行。";
+
+"sendReportButton" = "发送邮件报告";
+"cancelButton" = "取消";
+
+"countdownMsgSecondsPlural" = "剩余 %d 秒钟。";
+"countdownMsgSecondSingular" = "剩余 %d 秒钟。";
+
+"countdownMsgMinutesPlural" = "剩余 %d 分钟。";
+"countdownMsgMinuteSingular" = "剩余 %d 分钟。";
