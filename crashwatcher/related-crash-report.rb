@@ -35,7 +35,7 @@ report = File.read(file)
 # 25  com.apple.AppKit                  0x00007fff895d4eda -[NSView rightMouseDown:] + 129
 # 26  com.apple.AppKit                  0x00007fff892d2458 -[NSControl _rightMouseUpOrDown:] + 459
 # 27  com.apple.AppKit                  0x00007fff8902f62a -[NSWindow sendEvent:] + 7404
-# 28  com.binaryage.totalfinder         0x0000000105681b0a -[NSWindow(TotalFinder) TotalFinder_TBrowserWindow_sendEvent:] + 56
+# 28  com.binaryage.totalfinder         0x0000000105681b0a -[NSWindow(TotalFinder) TotalFinder_Core_TBrowserWindow_sendEvent:] + 56
 # 29  com.apple.AppKit                  0x00007fff88fc7b20 -[NSApplication sendEvent:] + 4924
 # 30  com.apple.AppKit                  0x00007fff88f5e9b0 -[NSApplication run] + 541
 # 31  com.apple.AppKit                  0x00007fff891dc2ad NSApplicationMain + 860
