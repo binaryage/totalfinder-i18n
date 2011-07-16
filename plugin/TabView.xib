@@ -111,7 +111,7 @@
 							<object class="NSButton" id="114381901">
 								<reference key="NSNextResponder" ref="279050519"/>
 								<int key="NSvFlags">268</int>
-								<string key="NSFrame">{{56, -12}, {48, 48}}</string>
+								<string key="NSFrame">{{56, 18}, {48, 16}}</string>
 								<reference key="NSSuperview" ref="279050519"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="910427947"/>
@@ -184,7 +184,7 @@
 							<object class="NSButton" id="282918268">
 								<reference key="NSNextResponder" ref="1005"/>
 								<int key="NSvFlags">268</int>
-								<string key="NSFrame">{{56, 17}, {48, 19}}</string>
+								<string key="NSFrame">{{56, 18.5}, {48, 16}}</string>
 								<reference key="NSSuperview" ref="1005"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="1054640993"/>
