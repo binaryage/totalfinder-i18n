@@ -11,18 +11,32 @@ begin
     rescue
 end
 
+details = []
+
 begin
-    type = content.match(/Exception Type:(.*?)\n/m)[1]
-    x = type.match(/(.*?)\(.*\)/)
-    type = x[1] if x # remove braced part if present
-    res += type.strip + " "
-rescue
+    version = content.match(/Version:(.*?)\n/m)[1].split(" ")[0]
+    details << "OS "+version.strip
+    rescue
 end
 
 begin
     thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(" ")[0]
-    res += "(T"+thread.strip+") "
+    details << "thread "+thread.strip
     rescue
 end
+
+begin
+    type = content.match(/Exception Type:(.*?)\n/m)[1]
+    x = type.match(/(.*?)\(.*\)/)
+    type = x[1] if x # remove braced part if present
+    type.downcase! 
+    type.sub!("exc_", "")
+    type.sub!("_", " ")
+    details << type.strip
+rescue
+end
+
+
+res += "(#{details.join(", ")})"
 
 puts res
