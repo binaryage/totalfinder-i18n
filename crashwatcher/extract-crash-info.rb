@@ -8,21 +8,21 @@ res = ""
 begin
     plugin = content.match(/PlugIn Identifier:(.*?)\n/m)[1]
     res += "in " + plugin.strip + " "
-    rescue
+rescue
 end
 
 details = []
 
 begin
     version = content.match(/Version:(.*?)\n/m)[1].split(" ")[0]
-    details << "OS "+version.strip
-    rescue
+    details << "v"+version.strip
+rescue
 end
 
 begin
     thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(" ")[0]
     details << "thread "+thread.strip
-    rescue
+rescue
 end
 
 begin
@@ -36,6 +36,11 @@ begin
 rescue
 end
 
+begin
+    version = content.match(/OS Version:.*?\((.*?)\)\n/m)[1]
+    details << "OS "+version.strip
+rescue
+end
 
 res += "(#{details.join(", ")})"
 
