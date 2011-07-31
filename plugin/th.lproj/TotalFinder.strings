@@ -19,12 +19,12 @@
 "Reset" = "ตั้งค่าใหม่";
 "Cancel" = "ยกเลิก";
 "Do you really want reset to defaults?" = "คุณแน่ใจหรือว่าต้องการตั้งค่าทั้งหมดเป็นค่าเริ่มต้น?";
-"This will restore initial TotalFinder settings." = "นี่จะทำการย้อนการตั้งค่าของ TotalFinder เป็นค่าเริ่มต้น";
+"This will restore initial TotalFinder settings." = "ตกลงเพื่อทำการย้อนการตั้งค่าของ TotalFinder เป็นค่าเริ่มต้น";
 
 /* Unistall Alert Box */
 "Uninstall" = "ถอนการติดตั้ง";
 "Really want to uninstall TotalFinder?" = "คุณต้องการถอนการติดตั้ง TotalFinder จริงหรือ?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "นี่จะเรียก script เพื่อทำการถอด TotalFinder ออกจากคอมพิวเตอร์เครื่องนี้และ Finder จะกลับไปทำงานเหมือนเดิม";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "ตกลงเพื่อเรียก script เพื่อทำการถอด TotalFinder ออกจากคอมพิวเตอร์เครื่องนี้และ Finder จะกลับไปทำงานเหมือนเดิม";
 
 /* MainMenu items */
 "New Finder Tab" = "เปิดแท็บใหม่";
@@ -54,6 +54,6 @@
 
 /* registration */
 "Licensed to %@" = "ให้ %@ อนุญาตใช้งาน";
-"Change License" = "เปลี่ยนคำอนุญาตใช้งาน";
+"Change License" = "เปลี่ยนใบอนุญาตใช้งาน";
 "Unregistered version in trial mode" = "เวอร์ชั่นนี้ไม่ได้ลงทะเบียน อยู่ในขั้นทดลองใช้";
 "Register" = "ลงทะเบียน";
