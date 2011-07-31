@@ -2,9 +2,9 @@
 /* as Main Menu > Edit > Copy item works in your localized Finder */
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
-"Edit" = "à¹à¸à¹‰à¹„à¸‚";
-"Cut" = "à¸•à¸±à¸”";
-"Cut â€œ%@â€" = "à¸•à¸±à¸” â€œ%@â€";
-"Cut %u Items" = "à¸•à¸±à¸” %u à¸£à¸²à¸¢à¸à¸²à¸£";
-"Paste" = "à¸§à¸²à¸‡";
-"Paste %u Items" = "à¸§à¸²à¸‡ %u à¸£à¸²à¸¢à¸à¸²à¸£";
+"Edit" = "á¡éä¢";
+"Cut" = "ÂéÒÂ";
+"Cut %@" = "ÂéÒÂ %@";
+"Cut %u Items" = "¤Ñ´ÅÍ¡ %u ÃÒÂ¡ÒÃ";
+"Paste" = "ÇÒ§";
+"Paste %u Items" = "ÇÒ§ %u ÃÒÂ¡ÒÃ";

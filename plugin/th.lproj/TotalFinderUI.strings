@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature" = "ฟังก์ชั่น Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "หน้าต่างสไลด์จากด้านล่างที่สามารถเรียกจากคีย์ลัดได้เสมอ";
+"a system-wide window sliding from the bottom on a hot-key" = "หน้าต่างสไลด์จากด้านล่าง สามารถเรียกจากคีย์ลัดได้เสมอ";
 
 "Activation:" = "เรียกใช้:";
 
@@ -28,7 +28,7 @@
 "prevents .DS_Store files to be created in local folders" = "ป้องกันการสร้างไฟล์ .DS_Store ในโฟล์เดอร์ของเครื่องนี้";
 ".DS_Store files will be redirected into" = "ไฟล์ .DS_Store จะถูกเปลี่ยนทิศทางไปที่";
 "this folder should be set as writable for all users of TotalFinder" = "โฟล์เดอร์นี้ควรจะตั้งค่าให้สามารถเขียนได้โดยผู้ใช้ทุกคนที่ใช้ TotalFinder";
-"Launch Migration Assistant" = "เรียก Migration Assistant";
+"Launch Migration Assistant" = "เปิด Migration Assistant";
 "TotalFinder.kext status" = "สภานะของ TotalFinder.kext";
 "Unable to connect" = "ไม่สามารถเชื่อมต่อกับส่วนเสริมของ kernel ได้!\nคุณได้ติดตั้งส่วนเสริม TotalFinder ของ kernel หรือยัง?";
 "Advanced:" = "ขั้นสูง:";
@@ -54,11 +54,11 @@
 "Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "ตรวจสอบเดี๋ยวนี้";
+"Check for Updates" = "ตรวจสอบอัพเดท";
+"Automatically check the website for updates" = "ตรวจหาอัพเดทใหม่โดยอัตโนมัติ";
+"Include pre-releases" = "รวมเวอร์ชั่นทดสอบด้วย";
+"Participate in TotalFinder testing" = "ช่วยทดสอบ TotalFinder ก่อนออกอัพเดทจริง";
 
 /* registration */
 "TotalFinder Registration" = "การลงทะเบียนใช้ TotalFinder";
@@ -67,7 +67,7 @@
 "Buy TotalFinder Now" = "ซื้อ TotalFinder";
 "Register" = "ลงทะเบียน";
 "Thanks for registering!" = "ขอบคุณที่ลงทะเบียน!";
-"This TotalFinder copy is licensed to:" = "TotalFinder นี้ได้ออกใบอนุญาตให้:";
+"This TotalFinder copy is licensed to:" = "TotalFinder บนเครื่องนี้ใช้ภายใต้ใบอนุญาตที่ออกให้:";
 "Close" = "ปิด";
 "Change License" = "เปลี่ยนใบอนุญาต";
 "Back" = "กลับ";
