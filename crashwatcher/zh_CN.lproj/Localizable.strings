@@ -1,9 +1,17 @@
 "crashDialogHeader" = "TotalFinder 意外退出";
 "crashDialogMsg" = "非常抱歉，TotalFinder 遇到不可预知的问题而退出。";
 "crashDialogNote" = "注意：Finder 会自动重新运行，但是 TotalFinder 必须手动运行。";
+"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+
+"failDialogHeader" = "Unable to upload crash report to gist.github.com";
+"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
+"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogOK" = "OK";
 
 "sendReportButton" = "发送邮件报告";
 "cancelButton" = "取消";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
 
 "countdownMsgSecondsPlural" = "剩余 %d 秒钟。";
 "countdownMsgSecondSingular" = "剩余 %d 秒钟。";
