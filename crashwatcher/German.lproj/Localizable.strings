@@ -1,9 +1,17 @@
 "crashDialogHeader" = "TotalFinder wurde unerwartet beendet.";
 "crashDialogMsg" = "Es tut uns Leid, ein unerwartetes Problem ist in TotalFinder aufgetreten und hat den Finder zum Absturz gebracht.";
 "crashDialogNote" = "Benachrichtigung: Der Finder wurde automatisch neugestartet, Sie müssen TotalFinder.app jedoch selbst neu starten.";
+"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+
+"failDialogHeader" = "Unable to upload crash report to gist.github.com";
+"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
+"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogOK" = "OK";
 
 "sendReportButton" = "Sende einen Bericht via E-Mail";
 "cancelButton" = "Abbrechen";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
 
 "countdownMsgSecondsPlural" = "%d Sekunden verbleibend.";
 "countdownMsgSecondSingular" = "%d Sekunde verbleibend.";
