@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Налаштування";
+"About" = "Про програму";
+
+/* visor page */
+"Visor Feature" = "Використовувати Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобальне вікно, що з'являється знизу за гарячею клавішою";
+
+"Activation:" = "Активація:";
+
+"Control:" = "Керування:";
+"Hide on ESC" = "Ховати окно по ESC";
+"Pin Visor" = "Закріпити";
+
+"Animation:" = "Анимація:";
+"Fade Window" = "Вікно розчиняється";
+"Slide Window" = "Вікно ковзає вниз";
+
+"Screen:" = "Екран:";
+"Show on all Spaces" = "Показувати на усіх Spaces";
+"Show on top of the Dock" = "Показувати над Dock";
+"Free Form Window" = "Змінний розмір вікна";
+
+/* asepsis page */
+"Asepsis Feature" = "Використовувати Asepsis";
+"prevents .DS_Store files to be created in local folders" = "запобігає створенню файлів .DS_Store у локальних папках";
+".DS_Store files will be redirected into" = "файли .DS_Store будуть перенаправлені у";
+"this folder should be set as writable for all users of TotalFinder" = "дозвольте запис у папку усім користовачам TotalFinder";
+"Launch Migration Assistant" = "Запустити Ассістент Міграції";
+"TotalFinder.kext status" = "Статус TotalFinder.kext";
+"Unable to connect" = "Неможливо з'єднатися з розширенням ядра!";
+"Advanced:" = "Поширені можливості:";
+"Don't write .DS_Store to Network" = "Не записувати файли .DS_Store в мережі";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Відновити налаштування за замовчуванням";
+
+"File Browser:" = "Файловий менеджер:";
+"Show System Files" = "Приховані файли";
+"Folders on Top" = "Папки згори";
+"Always Maximize" = "Завжди розвертати";
+"Toggle Dual Mode" = "Двохпанельний режим";
+
+"Menu and Dock:" = "Меню й Dock:";
+"Hide icon in Menu Bar" = "Видалити TotalFinder зі строки меню";
+"Keep original Dock icon" = "Не змінювати іконку Finder у Dock";
+
+"Experimental:" = "Експериментальні можливості:";
+"Freelance Windows" = "Незалежні окна";
+"Use narrow Tabs Bar" = "Вузька панель вкладок";
+"Show CutPaste buttons in Context Menus" = "Команди редагування у вигляді кнопок";
+"Allow path copying from Context Menus" = "Дозволити копіювання шляху з контекстного меню";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Реєстрація TotalFinder";
+"Registration" = "Реєстрація";
+"Please enter your license details from the email we have sent you:" = "Будь ласка, введіть деталі Вашої ліцензії, які ми відправили Вам Вам електронною поштою:";
+"Buy TotalFinder Now" = "Купіть TotalFinder зараз";
+"Register" = "Зареєструвати";
+"Thanks for registering!" = "Дякуємо за реєстрацію!";
+"This TotalFinder copy is licensed to:" = "Ця копія TotalFinder ліцензована на:";
+"Close" = "Закрити";
+"Change License" = "Змінити ліцензію";
+"Back" = "Повернутися";
+"Invalid license code" = "Недійсний код ліцензії";
+"Please go back and try again." = "Будьласка, спробуйте ще раз.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Щоб купити ліцензію TotalFinder, будь ласка, відвідайте онлайн магазин BinaryAge.";
+"Thank you for using TotalFinder!" = "Дякуємо за користування TotalFinder!";

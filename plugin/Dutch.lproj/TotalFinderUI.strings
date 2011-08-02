@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Tweaks";
+"About" = "Over";
+
+/* visor page */
+"Visor Feature" = "De Visor Optie";
+"a system-wide window sliding from the bottom on a hot-key" = "een venster even breed als uw monitor dat binnenschuift van beneden bij een toetscombinatie";
+
+"Activation:" = "Activatie:";
+
+"Control:" = "Control:";
+"Hide on ESC" = "Verberg met ESC";
+"Pin Visor" = "Zet Visor vast";
+
+"Animation:" = "Animatie:";
+"Fade Window" = "Geest uit fles";
+"Slide Window" = "Glijdende schaal";
+
+"Screen:" = "Scherm:";
+"Show on all Spaces" = "Laat op alle Spaces zien";
+"Show on top of the Dock" = "Blijf boven de Dock";
+"Free Form Window" = "Vrij venster";
+
+/* asepsis page */
+"Asepsis Feature" = "De asepsis optie";
+"prevents .DS_Store files to be created in local folders" = "voorkomt aanmaken van .DS_Store bestanden in lokale mappen";
+".DS_Store files will be redirected into" = ".DS_Store bestanden worden omgezet naar";
+"this folder should be set as writable for all users of TotalFinder" = "deze map moet schrijfbaar zijn voor alle TotalFinder gebruikers";
+"Launch Migration Assistant" = "Start Migratie Assistent";
+"TotalFinder.kext status" = "TotalFinder.kext status";
+"Unable to connect" = "Kan niet verbinden met de kernel extensie!\nIs de TotalFinder kernel extensie geïnstalleerd?";
+"Advanced:" = "Geavanceerd:";
+"Don't write .DS_Store to Network" = "Schrijf geen .DS_Store naar het netwerk";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Herstel de TotalFinder standaard instellingen";
+
+"File Browser:" = "Bestandverkenner:";
+"Show System Files" = "Toon systeembestanden";
+"Folders on Top" = "Mappen eerst";
+"Always Maximize" = "Altijd maximaliseren";
+"Toggle Dual Mode" = "Dubbele/enkele kolom";
+
+"Menu and Dock:" = "Menu en Dock:";
+"Hide icon in Menu Bar" = "Verwijder TotalFinder uit het status menu";
+"Keep original Dock icon" = "Behoud het originele Finder dock icon";
+
+"Experimental:" = "Experimenteel:";
+"Freelance Windows" = "Freelance schermen";
+"Use narrow Tabs Bar" = "Smalle tabbladbalk";
+"Show CutPaste buttons in Context Menus" = "Knip en plak knoppen in contextmenu's";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder registratie";
+"Registration" = "Registreren";
+"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens die u per e-mail van ons ontvangen hebt in:";
+"Buy TotalFinder Now" = "Koop TotalFinder nu";
+"Register" = "Registreer";
+"Thanks for registering!" = "Bedankt voor uw registratie!";
+"This TotalFinder copy is licensed to:" = "Deze TotalFinder is gelicenseerd aan:";
+"Close" = "Sluit";
+"Change License" = "Wijzig licentie";
+"Back" = "Terug";
+"Invalid license code" = "Ongeldige licentiecode";
+"Please go back and try again." = "Ga terug en probeer het opnieuw.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Bezoek de BinaryAge webwinkel om een licentie voor het gebruik van Totalfinder te kopen.";
+"Thank you for using TotalFinder!" = "Bedankt voor het gebruiken van TotalFinder!";

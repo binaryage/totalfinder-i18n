@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Έλεγχος αναβαθμίσεων";
+"Uninstall TotalFinder" = "Απεγκατάσταση TotalFinder";
+"Restart Finder" = "Επανεκκίνηση Finder";
+"Show Visor" = "Εμφάνιση επόπτη";
+"Hide Visor" = "Απόκρυψη επόπτη";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Αποσύνδεση";
+"Connect" = "Σύνδεση";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Αδυναμία σύνδεσης με επέκταση kernel! Έχετε εγκατεστημένο το TotalFinder.kext;";
+
+/* About preferences pane */
+"from Beta Channel" = "Beta";
+"from Dev Channel" = "Dev";
+"from Stable Channel" = "Stable";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Αρχικοποίηση";
+"Cancel" = "Άκυρο";
+"Do you really want reset to defaults?" = "Θέλετε να επαναφέρετε τα αρχικά΄";
+"This will restore initial TotalFinder settings." = "Πρόκειται να επανέλθουν οι αρχικές ρυθμίσεις.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Απεγκατάσταση";
+"Really want to uninstall TotalFinder?" = "Θέλετε σίγουρα να επεγκαταστήσετε τον TotalFinder";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Αυτό θα απεγκαταστήσει τον TotalFinder και θα επαναφέρει τον Finder.";
+
+/* MainMenu items */
+"New Finder Tab" = "Νέα καρτέλα";
+"Close Tab" = "Κλείσιμο καρτέλας";
+"Close Window" = "Κλείσιμο παραθύρου";
+"Show System Files" = "Εμφάνιση αρχείων συστήματος";
+"Folders On Top" = "Φάκελοι σε πρώτο πλάνο";
+"Toggle Dual Mode" = "Dual mode";
+"Narrow Tabs Bar" = "Štíhlé taby";
+"Pin Visor" = "Καρφίτσωμα επόπτη";
+"TotalFinder Preferences…" = "Επιλογές TotalFinder";
+"Visit Homepage…" = "Ιστοσελίδα…";
+"Select Next Tab" = "Επιλογή επόμενης καρτέλας";
+"Select Previous Tab" = "Επιλογή προηγούμενης καρτέλας";
+
+/* misc. */
+"Screen %d" = "Οθόνη %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - αδήλωτη έκδοση";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 ημέρα έμεινε - αγορά!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 ημέρες έμειναν - αγορά!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 ημέρες έμειναν - αγορά!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 ημέρες έμειναν - αγορά!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 ημέρες έμειναν - αγορά!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d ημέρες έμειναν - αγορά!";
+
+/* registration */
+"Licensed to %@" = "Δηλωμένο σε %@";
+"Change License" = "Αλλαγή πιστοποιητικού";
+"Unregistered version in trial mode" = "Αδήλωτη έκδοση σε δοκιμαστική μορφή";
+"Register" = "Δήλωση";

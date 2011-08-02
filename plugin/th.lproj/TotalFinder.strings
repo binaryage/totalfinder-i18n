@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "ตรวจสอบอัพเดท";
+"Uninstall TotalFinder" = "ถอนการติดตั้ง TotalFinder";
+"Restart Finder" = "รีสตาร์ท Finder";
+"Show Visor" = "แสดง Visor";
+"Hide Visor" = "ซ่อน Visor";
+
+/* Asepsis preferences pane */
+"Disconnect" = "ปิดการเชื่อมต่อ";
+"Connect" = "เชื่อมต่อ";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "ไม่สามารถเชื่อมต่อกับส่วนเสริมของ Kernel ได้ คุณแน่ใจหรือว่าส่วนเสริม TotalFinder.kext ถูกติดตั้งอย่างถูกต้องแล้ว";
+
+/* About preferences pane */
+"from Beta Channel" = "จากช่อง Beta";
+"from Dev Channel" = "จากช่องของผู้พัฒนา";
+"from Stable Channel" = "จากช่องที่เสถียร";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "ตั้งค่าใหม่";
+"Cancel" = "ยกเลิก";
+"Do you really want reset to defaults?" = "คุณแน่ใจหรือว่าต้องการตั้งค่าทั้งหมดเป็นค่าเริ่มต้น?";
+"This will restore initial TotalFinder settings." = "ตกลงเพื่อทำการย้อนการตั้งค่าของ TotalFinder เป็นค่าเริ่มต้น";
+
+/* Unistall Alert Box */
+"Uninstall" = "ถอนการติดตั้ง";
+"Really want to uninstall TotalFinder?" = "คุณต้องการถอนการติดตั้ง TotalFinder จริงหรือ?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "ตกลงเพื่อเรียก script เพื่อทำการถอด TotalFinder ออกจากคอมพิวเตอร์เครื่องนี้และ Finder จะกลับไปทำงานเหมือนเดิม";
+
+/* MainMenu items */
+"New Finder Tab" = "เปิดแท็บใหม่";
+"Close Tab" = "ปิดแท็บ";
+"Close Window" = "ปิดหน้าต่าง";
+"Show System Files" = "แสดงไฟล์ระบบ";
+"Folders On Top" = "แสดงโฟล์เดอร์ไว้ด้านบน";
+"Toggle Dual Mode" = "เรียกใช้หน้าต่างคู่";
+"Narrow Tabs Bar" = "แถบแท็บแบบเล็ก";
+"Pin Visor" = "ปักหมุด Visor";
+"TotalFinder Preferences…" = "ตั้งค่า TotalFinder…";
+"Visit Homepage…" = "เปิดหน้าเว็บเพจ…";
+"Select Next Tab" = "เลือกแท็บถัดไป";
+"Select Previous Tab" = "เลือกแท็บก่อนหน้า";
+
+/* misc. */
+"Screen %d" = "จอ %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - ทดลองใช้งาน";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - เหลือเวลา 1 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - เหลือเวลา 2 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - เหลือเวลา 3 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - เหลือเวลา 4 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - เหลือเวลา 5 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - เหลือเวลา %d วัน - ซื้อเดี๋ยวนี้!";
+
+/* registration */
+"Licensed to %@" = "ให้ %@ อนุญาตใช้งาน";
+"Change License" = "เปลี่ยนใบอนุญาตใช้งาน";
+"Unregistered version in trial mode" = "เวอร์ชั่นนี้ไม่ได้ลงทะเบียน อยู่ในขั้นทดลองใช้";
+"Register" = "ลงทะเบียน";

@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "滑入窗口";
+"Asepsis" = "隔离";
+"Tweaks" = "配置";
+"About" = "关于";
+
+/* visor page */
+"Visor Feature" = "滑入窗口";
+"a system-wide window sliding from the bottom on a hot-key" = "一个从屏幕下方滑入的文件管理器，通过快捷键激活";
+
+"Activation:" = "激活:";
+
+"Control:" = "控制:";
+"Hide on ESC" = "使用 ESC 隐藏窗口";
+"Pin Visor" = "窗口固定热键:";
+
+"Animation:" = "效果:";
+"Fade Window" = "窗口淡入/淡出";
+"Slide Window" = "窗口滑入/滑出";
+
+"Screen:" = "屏幕:";
+"Show on all Spaces" = "在所有 Spaces 中显示";
+"Show on top of the Dock" = "显示在 Dock 上面";
+"Free Form Window" = "随意控制滑入窗口大小位置";
+
+/* asepsis page */
+"Asepsis Feature" = "隔离隐藏文件";
+"prevents .DS_Store files to be created in local folders" = "防止 .DS_Store 文件写入在本地文件夹";
+".DS_Store files will be redirected into" = "将所有 .DS_Store 文件重定向到";
+"this folder should be set as writable for all users of TotalFinder" = "该文件夹必须对所有 TotalFinder 用户可写入";
+"Launch Migration Assistant" = "启动迁移助理";
+"TotalFinder.kext status" = "TotalFinder.kext 状态";
+"Unable to connect" = "无法连接";
+"Advanced:" = "高级:";
+"Don't write .DS_Store to Network" = "禁止系统在网络设备中生成 .DS_Store";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "初始化 TotalFinder 配置";
+
+"File Browser:" = "文件浏览:";
+"Show System Files" = "显示系统文件";
+"Folders on Top" = "文件夹总在最前";
+"Always Maximize" = "默认最大化";
+"Toggle Dual Mode" = "双窗口模式";
+
+"Menu and Dock:" = "菜单及 Dock:";
+"Hide icon in Menu Bar" = "在菜单栏中隐藏 TotalFinder 图标";
+"Keep original Dock icon" = "使用原始 Finder Dock 图标";
+
+"Experimental:" = "实验功能:";
+"Freelance Windows" = "使用自由窗口";
+"Use narrow Tabs Bar" = "使用窄标签栏";
+"Show CutPaste buttons in Context Menus" = "在右键菜单中使用剪切/粘贴/拷贝按钮";
+"Allow path copying from Context Menus" = "允许在右键菜单中拷贝路径";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "注册 TotalFinder";
+"Registration" = "注册";
+"Please enter your license details from the email we have sent you:" = "请按照我们发给您的电子邮件内容输入授权信息:";
+"Buy TotalFinder Now" = "立即购买 TotalFinder";
+"Register" = "注册";
+"Thanks for registering!" = "感谢您的注册!";
+"This TotalFinder copy is licensed to:" = "本 TotalFinder 副本授权于:";
+"Close" = "关闭";
+"Change License" = "更换授权";
+"Back" = "后退";
+"Invalid license code" = "无效的授权码";
+"Please go back and try again." = "请返回后重试。";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "请访问 BinaryAge 的在线商店来购买 TotalFinder 授权。";
+"Thank you for using TotalFinder!" = "感谢您使用 TotalFinder!";

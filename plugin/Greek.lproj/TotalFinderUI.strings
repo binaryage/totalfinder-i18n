@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Επόπτης";
+"Asepsis" = "Ασφάλεια";
+"Tweaks" = "Κόλπα";
+"About" = "Σχετικά";
+
+/* visor page */
+"Visor Feature" = "Επόπτης";
+"a system-wide window sliding from the bottom on a hot-key" = "Kυλιόμενο παράθυρο από τη βάση της οθόνης";
+
+"Activation:" = "Ενεργό:";
+
+"Control:" = "Έλεγχος:";
+"Hide on ESC" = "Απόκρυψη με ESC";
+"Pin Visor" = "Καρφίτσωμα επόπτη";
+
+"Animation:" = "Εφέ:";
+"Fade Window" = "Εξασθένιση παραθύρου";
+"Slide Window" = "Ολίσθηση παραθύρου";
+
+"Screen:" = "Οθόνη:";
+"Show on all Spaces" = "Εμφάνιση σε όλα τα Spaces";
+"Show on top of the Dock" = "Εμφάνιση πάνω από το Dock";
+"Free Form Window" = "Ελεύθερο παράθυρο";
+
+/* asepsis page */
+"Asepsis Feature" = "Asepsis";
+"prevents .DS_Store files to be created in local folders" = "απέτρεψε δημιουργία .DS_Store αρχείων τοπικά";
+".DS_Store files will be redirected into" = "Τα .DS_Store αρχεία προωθούνται";
+"this folder should be set as writable for all users of TotalFinder" = "ο φάκελος πρέπει να είναι εγγράψιμος από όλους";
+"Launch Migration Assistant" = "Εκκίνηση της συσχέτισης";
+"TotalFinder.kext status" = "Κατάσταση TotalFinder.kext";
+"Unable to connect" = "Αδυναμία σύνδεσης";
+"Advanced:" = "Προχωρημένα:";
+"Don't write .DS_Store to Network" = "Μην γράψεις τα .DS_Store αρχεία στο δίκτυο";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Επαναφορά αρχικών ρυθμίσεων του TotalFinder";
+
+"File Browser:" = "Ερευνητής αρχείων:";
+"Show System Files" = "Kρυφά αρχεία";
+"Folders on Top" = "Πρώτα οι φάκελοι";
+"Always Maximize" = "Μεγιστοποίηση";
+"Toggle Dual Mode" = "Εναλλαγή Dual mode";
+
+"Menu and Dock:" = "Μενού και Dock:";
+"Hide icon in Menu Bar" = "Απόκρυψη εικονιδίου από το μενού";
+"Keep original Dock icon" = "Αρχικό εικονίδιο του Finder";
+
+"Experimental:" = "Πειραματικό:";
+"Freelance Windows" = "Ελεύθερα παράθυρα";
+"Use narrow Tabs Bar" = "Σμίκρυνση καρτελών";
+"Show CutPaste buttons in Context Menus" = "Αποκοπή-Επικόλληση στο δεξί κλικ";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Ενεργοποίηση TotalFinder";
+"Registration" = "Εγγραφή";
+"Please enter your license details from the email we have sent you:" = "Παρακαλώ εισάγετε τις πληροφορίες από το mail που λάβατε:";
+"Buy TotalFinder Now" = "Αγορά TotalFinder";
+"Register" = "Εγγραφή";
+"Thanks for registering!" = "Eυχαριστούμε για την εγγραφή!";
+"This TotalFinder copy is licensed to:" = "Αυτό το αντίγραφο του λογισμικού ανήκει:";
+"Close" = "Κλείσιμο";
+"Change License" = "Αλλαγή άδειας";
+"Back" = "Πίσω";
+"Invalid license code" = "Λάθος κλειδί αδείας";
+"Please go back and try again." = "Παρακαλώ πηγαίνετε πίσω και προσπαθήστε ξανά.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Για την απόκτηση αδείας παρακαλώ επισκεφτείτε το ηλεκτρονικό κατάστημα.";
+"Thank you for using TotalFinder!" = "Σας ευχαριστούμε για την χρήση του TotalFinder!";
