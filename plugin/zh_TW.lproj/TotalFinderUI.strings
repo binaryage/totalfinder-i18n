@@ -54,11 +54,11 @@
 "Allow path copying from Context Menus" = "允許從右鍵選單拷貝路徑";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "馬上檢查";
+"Check for Updates" = "檢查更新";
+"Automatically check the website for updates" = "自動檢查更新";
+"Include pre-releases" = "包含預先釋出版本";
+"Participate in TotalFinder testing" = "參與 TotalFinder 測試";
 
 /* registration */
 "TotalFinder Registration" = "註冊 TotalFinder";
