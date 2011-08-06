@@ -1,17 +1,17 @@
-"crashDialogHeader" = "TotalTerminal si è chiuso improvvisamente";
-"crashDialogMsg" = "Siamo spiacenti, ma TotalTerminal ha incontrato un problema inaspettato e ha mandato in crash il Terminal.";
+"crashDialogHeader" = "TotalFinder si è chiuso improvvisamente";
+"crashDialogMsg" = "Siamo spiacenti, ma TotalFinder ha incontrato un problema inaspettato e ha mandato in crash il Finder.";
 "crashDialogNote" = "Nota: TotalTerminal.app va riavviato manualmente.";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogExplanation" = "Il tasto Invia manderà il Resoconto al sito gist.github.com e lancerà Mail.app con il modello di email.";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogHeader" = "Impossibile inviare il Resoconto al sito gist.github.com";
+"failDialogMsg1" = "È successo un inconveniente. Non è stato possibile trovare il Resoconto nella tua cartella ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Il resoconto è stato trovato, ma l'invio al sito gist.github.com è fallito per qualche motivo.\n\nSe è urgente, puoi mandarmelo manualmente:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Invia il Resoconto via email";
 "cancelButton" = "Annulla";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Puoi aiutarmi a correggere il problema descrivendomi cosa è successo prima del crash.\n> Apprezzo il tuo aiuto e leggo questi Resoconti, ma non aspettarti una mia risposta diretta.\n> Per una discussione più approfondita, per favore apri un topic su\n> http://getsatisfaction.com/binaryage.\n>\n> Grazie, Antonin";
 
 "countdownMsgSecondsPlural" = "%d secondi rimanenti.";
 "countdownMsgSecondSingular" = "%d secondo rimanente.";
