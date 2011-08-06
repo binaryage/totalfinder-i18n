@@ -1,12 +1,12 @@
 "crashDialogHeader" = "TotalFinder 意外退出";
 "crashDialogMsg" = "非常抱歉，TotalFinder 遇到不可预知的问题而退出。";
 "crashDialogNote" = "注意：Finder 会自动重新运行，但是 TotalFinder 必须手动运行。";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogExplanation" = "\"发送\"按钮将通过 Mail.app 按照邮件模板内容将软件崩溃报告发送到 gist.github.com。";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
-"failDialogOK" = "OK";
+"failDialogHeader" = "无法将崩溃报告发送到 gist.github.com";
+"failDialogMsg1" = "真糟糕。我没有在 ~/Logs/CrashReporter 找到崩溃报告耶>.<";
+"failDialogMsg2" = "我成功找到了软件的崩溃报告，但是因为其它的一些原因，未能成功将报告发送到 gist.github.com。\n\n如果情况紧急，你可以直接通过电子邮件将报告发送给我：\n%@";
+"failDialogOK" = "确定";
 
 "sendReportButton" = "发送邮件报告";
 "cancelButton" = "取消";
