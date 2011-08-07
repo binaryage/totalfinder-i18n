@@ -4,9 +4,9 @@
 "Click to record shortcut" = "点击更改快捷键";
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "快捷键组合 %@ 不可用！";
-"The key combination \"%@\" can't be used because %@." = "快捷键组合 \"%@\" 不可用因为 %@。";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "快捷键组合 \"%@\" 不可用因为已经被系统使用。(如果您的确想试用此快捷键，请先在系统偏好设定中的键盘-键盘快捷键设定中修改冲突的快捷键。)";
-"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "快捷键组合 \"%@\" 不可用因为已经被菜单项 \"%@\" 占用。";
+"The key combination \"%@\" can't be used because %@." = "快捷键组合 \"%@\" 不可用，因为 %@。";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "快捷键组合 \"%@\" 不可用，因为已被系统使用。(如果您的确想使用此快捷键，请先在系统偏好设定中的键盘-键盘快捷键设定中修改冲突的快捷键。)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "快捷键组合 \"%@\" 不可用，因为已被菜单项 \"%@\" 占用。";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
 "Shift + " = "Shift + ";
