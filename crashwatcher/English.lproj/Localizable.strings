@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalTerminal has quit unexpectedly";
-"crashDialogMsg" = "We are sorry, but TotalTerminal hit an unexpected problem and crashed Terminal.";
-"crashDialogNote" = "Note: You have to launch TotalTerminal.app again.";
+"crashDialogHeader" = "TotalFinder has quit unexpectedly";
+"crashDialogMsg" = "We are sorry, but TotalFinder hit an unexpected problem and crashed Finder.";
+"crashDialogNote" = "Note: Finder was restarted automatically but you have to launch TotalFinder.app manually again.";
 "crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
 
 "failDialogHeader" = "Unable to upload crash report to gist.github.com";
