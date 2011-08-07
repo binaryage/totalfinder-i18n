@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "更新检查";
+"Check for Updates" = "检查更新";
 "Uninstall TotalFinder" = "卸载 TotalFinder";
 "Restart Finder" = "重启 Finder";
 "Show Visor" = "显示滑入窗口";
@@ -8,7 +8,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "中断";
 "Connect" = "连接";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "无法链接到核心扩展！\nTotalFinder.kext 是否正确安装？";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "无法连接到内核扩展！\nTotalFinder.kext 是否正确安装？";
 
 /* About preferences pane */
 "from Beta Channel" = "使用测试通道";

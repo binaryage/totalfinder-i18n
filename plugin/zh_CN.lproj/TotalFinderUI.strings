@@ -25,7 +25,7 @@
 
 /* asepsis page */
 "Asepsis Feature" = "隔离隐藏文件";
-"prevents .DS_Store files to be created in local folders" = "防止 .DS_Store 文件写入在本地文件夹";
+"prevents .DS_Store files to be created in local folders" = "不在本地文件夹中创建 .DS_Store 文件";
 ".DS_Store files will be redirected into" = "将所有 .DS_Store 文件重定向到";
 "this folder should be set as writable for all users of TotalFinder" = "该文件夹必须对所有 TotalFinder 用户可写入";
 "Launch Migration Assistant" = "启动迁移助理";
