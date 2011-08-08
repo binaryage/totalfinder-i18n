@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder lopetti yllättäen toimintansa";
+"crashDialogMsg" = "Pahoittelumme, sillä TotalFinder kohtasi ongelman ja kaatoi Finderin.";
+"crashDialogNote" = "Huomio: Finder käynnistettiin automaattisesti uudestaan mutta TotalFinder.app pitää käynnistää itse uudelleen.";
+"crashDialogExplanation" = "Lähetä-nappi tallentaa kaatumisraportin sähköpostiviestiin ja lähettää sen Mail.app:lla osoitteeseen gist.github.com.";
+
+"failDialogHeader" = "Kaatumisraporttia ei voitu lähettää osoitteeseen gist.github.com";
+"failDialogMsg1" = "Kaatumisraporttia ei löydetty sijainnista ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Kaatumisraportti löytyi, mutta syystä tai toisesta sen lähettäminen osoitteeseen gist.github.com epäonnistui.\n\nJos kiire, niin voit lähettää raportin myös osoitteeseen:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Lähetä sähköposti";
+"cancelButton" = "Peruuta";
+
+"emailTemplate" = "Hei Antonin,\n\nMy %@ kaatui juuri!\n\nKaatumisraportin löydät täältä:\n%@\n\n>\n> Kaatumiseen johtavan tilanteen kuvaus auttaisi tarkentamaan ongelman lähdettä.\n> Luin kaatumisraportit ja arvostaisinkin apuasi. En kumminkaan varsinaisesti odota vastausta sinulta.\n> Keskustellaksemme lisää asiasta avaathan ketjun aiheesta osoitteeseen \n> http://getsatisfaction.com/binaryage.\n>\n> Kiitos, Antonin";
+
+"countdownMsgSecondsPlural" = "%d sekuntia jäljellä.";
+"countdownMsgSecondSingular" = "%d sekunti jäljellä.";
+
+"countdownMsgMinutesPlural" = "%d minuuttia jäljellä.";
+"countdownMsgMinuteSingular" = "%d minuutti jäljellä.";
