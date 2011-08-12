@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder is onverwacht gestopt";
+"crashDialogMsg" = "Het spijt ons, in TotalFinder is een probleem opgetreden waardoor Finder is gecrasht.";
+"crashDialogNote" = "NB: Finder is automatisch opnieuw opgestart maar u dient TotalFinder.app nog handmatig te openen.";
+"crashDialogExplanation" = "Door op Stuur Email te klikken wordt het rapport naar gist.github.com geüpload en zal Mail.app worden geopend met een mailconcept.";
+
+"failDialogHeader" = "Het rapport kon niet worden geüpload naar gist.github.com";
+"failDialogMsg1" = "Het rapport is niet gevonden in ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Het rapport is gevonden, maar uploaden naar gist.github.com is mislukt.\n\nDringend? Stuur alstublieft een email naar:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Stuur Email";
+"cancelButton" = "Annuleer";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> U kunt me helpen het probleem op te lossen door te beschrijven wat u deed vóór de crash.\n> Ik waardeer uw help en lees de rapporten, verwacht echter geen direct antwoord.\n> Voor verdere opmerkingen meldt u het probleem op\n> http://getsatisfaction.com/binaryage.\n>\n> Hartelijk dank, Antonin";
+
+"countdownMsgSecondsPlural" = "%d seconden resterend.";
+"countdownMsgSecondSingular" = "%d seconde resterend.";
+
+"countdownMsgMinutesPlural" = "%d minuten resterend.";
+"countdownMsgMinuteSingular" = "%d minuut resterend.";
