@@ -1,12 +1,12 @@
 "crashDialogHeader" = "TotalFinder 未預期的結束了";
 "crashDialogMsg" = "很抱歉，但 TotalFinder 遭遇到一個未知的問題並且使 Finder 當掉了。";
 "crashDialogNote" = "注意: Finder 將會自動重新啟動，但是你必須自行啟動 TotalFinder.app。";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogExplanation" = "「傳送」按鈕將會上傳錯誤報告至 gist.github.com 並啟動 Mail.app。";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
-"failDialogOK" = "OK";
+"failDialogHeader" = "無法上傳錯誤報告至 gist.github.com";
+"failDialogMsg1" = "糟糕。我無法在你的 ~/Logs/CrashReporter 找到錯誤報告。";
+"failDialogMsg2" = "我有找到錯誤報告，但由於一些因素上傳至 gist.github.com 失敗了。\n\n如果很緊急，你可以手動將檔案傳送給我：\n%@";
+"failDialogOK" = "確定";
 
 "sendReportButton" = "透過 email 傳送報告";
 "cancelButton" = "取消";

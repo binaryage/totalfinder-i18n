@@ -1,17 +1,17 @@
-"crashDialogHeader" = "TotalTerminal se ha cerrado inesperadamente";
-"crashDialogMsg" = "Lo sentimos, pero ha habido un problema inesperado con TotalTerminal, y el Terminal ha fallado.";
-"crashDialogNote" = "Nota: utilizar TotalTerminal tendrás que abrirlo manualmente.";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogHeader" = "TotalFinder se ha cerrado inesperadamente";
+"crashDialogMsg" = "Lo sentimos, pero ha habido un problema inesperado con TotalFinder, y el Finder ha fallado.";
+"crashDialogNote" = "Nota: para volver a utilizar TotalFinder tendrás que abrirlo manualmente.";
+"crashDialogExplanation" = "El botón Enviar subirá un informe sobre el error a gist.github.com, y abrirá una ventana de Mail con una plantilla.";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogHeader" = "No se pudo subir el informe de error a gist.github.com";
+"failDialogMsg1" = "Ouch! No pude encontrar el informe de error en ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Pude encontrar el informe de error, pero no pude subirlo a gist.github.com\n\nSi es urgente, puedes mandármelo manualmente:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Enviar informe por email";
 "cancelButton" = "Cancelar";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Podrías ayudarme explicando que estabas haciendo o que pasó antes del fallo.\n> Aprecio tu ayuda y leo los informes de errores, pero, por favor, no esperes una respuesta directa.\n> Para más ayuda, abre un tema en:\n> http://getsatisfaction.com/binaryage.\n>\n> Gracias, Antonin";
 
 "countdownMsgSecondsPlural" = "Faltan %d segundos.";
 "countdownMsgSecondSingular" = "Falta %d segundo.";
