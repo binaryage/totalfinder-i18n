@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder непередбачено завершив роботу";
+"crashDialogMsg" = "Пробачте, в TotalFinder сталася непередбачена помилка, що призвела до завершення  Finder.";
+"crashDialogNote" = "Примітка: Finder був автоматично перезапущений, але Вам потрібно самостійно запустити TotalFinder.app.";
+"crashDialogExplanation" = "Кнопка Відправити Email завантажить звіт на gist.github.com і відкриє шаблон повідомлення в Mail.app.";
+
+"failDialogHeader" = "Неможливо відправити звіт про помилку на gist.github.com";
+"failDialogMsg1" = "Погані новини, я не можу знайти звіт про помилку в директорії ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Звіт про помилку було знайдено, але завантаження на gist.github.com завершилось невдачею за невідомою причиною.\n\nВи можете самостійно надіслати його мені, якщо це терміново:\n%@";
+"failDialogOK" = "Ok";
+
+"sendReportButton" = "Відправити Email";
+"cancelButton" = "Відміна";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Ви можете допомогти мені починити проблему, якщо докладно опишете Ваші дії перед тим, як виникла помилка.\n>Я дуже ціню Вашу допомогу і щиро дякую Вам за це. Будьте впевнені, що я читаю кожен звіт про помилку, але не розраховуйте на те, що я надішлю Вам персональну відповідь.\n> Для подальшого обговорення, будь ласка, створіть нову тему на\n> http://getsatisfaction.com/binaryage.\n>\n> Дякую Вам за допомогу, Антонін";
+
+"countdownMsgSecondsPlural" = "Залишилося %d секунд.";
+"countdownMsgSecondSingular" = "Залишилося %d секунд.";
+
+"countdownMsgMinutesPlural" = "Залишилося %d хвилин.";
+"countdownMsgMinuteSingular" = "Залишилося %d хвилин.";
