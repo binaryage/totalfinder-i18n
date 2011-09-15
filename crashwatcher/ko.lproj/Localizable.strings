@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder가 예기치 못하게 종료되었습니다.";
+"crashDialogMsg" = "죄송합니다, TotalFinder에 예상치 못한 문제가 생겨 Finder가 충돌했습니다.";
+"crashDialogNote" = "안내: Finder는 재시작되었지만 TotalFinder.app을 수동으로 다시 실행시켜주셔야 합니다.";
+"crashDialogExplanation" = "보내기 단추를 누르면 충돌 보고서를 gist.github.com에 올리고 해당 내용을 메일로 보내기 위해 Mail.app이 열릴 것입니다.";
+
+"failDialogHeader" = "충돌 보고서를 gist.github.com에 올릴 수 없습니다.";
+"failDialogMsg1" = "영 좋지 못하군요. ~/Logs/CrashReporter에서 충돌 보고서를 찾을 수 없습니다.";
+"failDialogMsg2" = "충돌 보고서는 찾았으나, 어떠한 이유로 gist.github.com에 올릴 수 없었습니다.\n\n급하다면, 저에게 수동으로 보내주세요:\n%@";
+"failDialogOK" = "확인";
+
+"sendReportButton" = "이메일 보내기";
+"cancelButton" = "취소";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d초 남음.";
+"countdownMsgSecondSingular" = "%d초 남음.";
+
+"countdownMsgMinutesPlural" = "%d분 남음.";
+"countdownMsgMinuteSingular" = "%d분 남음.";
