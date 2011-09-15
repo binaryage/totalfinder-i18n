@@ -1,12 +1,12 @@
 "Space" = "스페이스";
 "Use old shortcut" = "이전 단축키 사용하기";
 "Type shortcut" = "단축키를 눌러주세요";
-"Click to record shortcut" = "단축키 입력을 위해 눌러주세요";
+"Click to record shortcut" = "단축키를 기록하려면 누르세요";
 "Pad %@" = "Pad %@";
-"The key combination %@ can't be used!" = "단축키 %@ 는 사용하실 수 없습니다!";
-"The key combination \"%@\" can't be used because %@." = "단축키 \"%@\" 는 사용하실 수 없습니다. %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "단축키 \"%@\" 는 이미 다른 응용프로그램에 등록되어 있기 때문에 사용하실 수 없습니다. (응용프로그램이나 시스템 키보드의 설정에서 기존 단축키를 해제해 주세요.)";
-"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "단축키 \"%@\" 는 이미 \"%@\"에 등록되어 있어 사용할 수 없습니다.";
+"The key combination %@ can't be used!" = "%@ 키 조합은 사용하실 수 없습니다!";
+"The key combination \"%@\" can't be used because %@." = "\"%@\" 키 조합은 사용하실 수 없습니다. 이유: %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "\"%@\" 키 조합은 이미 사용 중이기 때문에 사용하실 수 없습니다. (정말로 이 키 조합을 사용하고 싶다면, 시스템 환경설정에 있는 키보드 및 마우스 패널에서 대부분의 단축키를 바꿀 수 있습니다.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "\"%@\" 키 조합은 이미 \"%@\"에 등록되어 있어 사용할 수 없습니다.";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
 "Shift + " = "Shift + ";
