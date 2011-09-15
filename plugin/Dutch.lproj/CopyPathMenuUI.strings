@@ -1,6 +1,6 @@
-"Copy Path" = "Kopieer pad";
-"POSIX Path" = "POSIX pad";
+"Copy Path" = "Kopieerpad";
+"POSIX Path" = "POSIX-pad";
 "URL" = "URL";
-"Windows Path" = "Windows pad";
-"HFS Path" = "HFS pad";
-"Terminal Path" = "Terminal pad";
+"Windows Path" = "Windows-pad";
+"HFS Path" = "HFS-pad";
+"Terminal Path" = "Terminal-pad";
