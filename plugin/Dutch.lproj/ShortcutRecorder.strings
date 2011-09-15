@@ -1,7 +1,7 @@
-"Space" = "Spatiebalk";
+"Space" = "Spatie";
 "Use old shortcut" = "Gebruik vorige toetscombinatie";
 "Type shortcut" = "Druk toetscombinatie in";
-"Click to record shortcut" = "Toetscombinatie opnemen";
+"Click to record shortcut" = "Toetscombinatie kiezen";
 "Pad %@" = "Nummertoets %@";
 "The key combination %@ can't be used!" = "De toetscombinatie %@ kan niet gebruikt worden!";
 "The key combination \"%@\" can't be used because %@." = "De toetscombinatie \"%@\" kan niet gebruikt worden, omdat %@.";

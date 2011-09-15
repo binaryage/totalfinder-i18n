@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Check voor updates";
+"Check for Updates" = "Controleren op updates";
 "Uninstall TotalFinder" = "Verwijder TotalFinder";
 "Restart Finder" = "Herstart Finder";
 "Show Visor" = "Activeer Visor";
@@ -8,32 +8,32 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Verbinding verbreken";
 "Connect" = "Verbinden";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kan niet verbinden met de kernel extensie! Is de TotalFinder.kext goed geïnstalleerd?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Kan niet verbinden met de kernelextensie! Is de TotalFinder.kext goed geïnstalleerd?";
 
 /* About preferences pane */
-"from Beta Channel" = "in het Beta kanaal";
-"from Dev Channel" = "in het Dev kanaal";
-"from Stable Channel" = "in het Stable kanaal";
+"from Beta Channel" = "in het Beta-kanaal";
+"from Dev Channel" = "in het Dev-kanaal";
+"from Stable Channel" = "in het Stable-kanaal";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Herstel";
 "Cancel" = "Annuleren";
-"Do you really want reset to defaults?" = "Wilt u echt terug naar de standaard instellingen?";
-"This will restore initial TotalFinder settings." = "Dit zal de standaard instellingen van TotalFinder herstellen.";
+"Do you really want reset to defaults?" = "Wilt u echt terug naar de standaardinstellingen?";
+"This will restore initial TotalFinder settings." = "Dit zal de standaardinstellingen van TotalFinder herstellen.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Verwijderen";
 "Really want to uninstall TotalFinder?" = "Wilt u echt TotalFinder verwijderen?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dit start een script dat TotalFinder van de computer zal verwijderen en het originele Finder gedrag zal herstellen.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dit start een script dat TotalFinder van de computer zal verwijderen en het originele Finder-gedrag zal herstellen.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nieuw Finder tabblad";
+"New Finder Tab" = "Nieuw Finder-tabblad";
 "Close Tab" = "Sluit tabblad";
 "Close Window" = "Sluit venster";
 "Show System Files" = "Toon systeembestanden";
-"Folders On Top" = "Mappen eerst";
+"Folders On Top" = "Mappen bovenaan";
 "Toggle Dual Mode" = "Dubbele/enkele kolom";
-"Narrow Tabs Bar" = "Smalle tabbladen balk";
+"Narrow Tabs Bar" = "Smalle tabbalk";
 "Pin Visor" = "Zet Visor vast";
 "TotalFinder Preferences…" = "TotalFinder voorkeuren…";
 "Visit Homepage…" = "Ga naar de homepage…";
@@ -45,15 +45,15 @@
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - ongelicenseerde versie";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag over - koop nu!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dagen over - koop nu!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dagen over - koop nu!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dagen over - koop nu!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dagen over - koop nu!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dagen over - koop nu!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - nog 1 dag - koop nu!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - nog 2 dagen - koop nu!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - nog 3 dagen - koop nu!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - nog 4 dagen - koop nu!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - nog 5 dagen - koop nu!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - nog %d dagen - koop nu!";
 
 /* registration */
 "Licensed to %@" = "Gelicenseerd aan %@";
 "Change License" = "Wijzig licentie";
-"Unregistered version in trial mode" = "Ongeregistreerde verse in demo mode";
+"Unregistered version in trial mode" = "Ongeregistreerde versie in probeermodus";
 "Register" = "Registreer";
