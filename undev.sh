@@ -1,6 +1,6 @@
 #!/bin/bash
-TOTALFINDER_RESOURCES='/Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/Resources'
-TOTALFINDER_RESOURCES_BACKUP='/Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/ResourcesOrig'
+TOTALFINDER_RESOURCES='/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources'
+TOTALFINDER_RESOURCES_BACKUP='/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/ResourcesOrig'
 
 if [ -d "$TOTALFINDER_RESOURCES" ]; then # is it a folder?
     if [ -L "$TOTALFINDER_RESOURCES" ]; then # is is a symlink?
