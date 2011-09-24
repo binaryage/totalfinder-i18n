@@ -54,11 +54,11 @@
 "Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Jetzt prüfen";
+"Check for Updates" = "Auf Aktualisierungen prüfen";
+"Automatically check the website for updates" = "Automatisch auf Aktualisierungen prüfen";
+"Include pre-releases" = "Schließe Vorabversionen ein";
+"Participate in TotalFinder testing" = "Beteilige dich am Testen von TotalFinder Vorabversionen";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder Registrierung";
@@ -66,7 +66,7 @@
 "Please enter your license details from the email we have sent you:" = "Bitte geben die die Lizenz-Daten aus der E-Mail ein, die wir Ihnen geschickt haben:";
 "Buy TotalFinder Now" = "TotalFinder jetzt kaufen";
 "Register" = "Registrieren";
-"Thanks for registering!" = "Danke für's Registrieren!";
+"Thanks for registering!" = "Danke fürs Registrieren!";
 "This TotalFinder copy is licensed to:" = "Diese Kopie von TotalFinder ist lizensiert für:";
 "Close" = "Schließen";
 "Change License" = "Lizenz ändern";
