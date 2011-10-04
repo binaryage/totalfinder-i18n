@@ -2,9 +2,9 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">11C43</string>
+		<string key="IBDocument.SystemVersion">11C55</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1617</string>
-		<string key="IBDocument.AppKitVersion">1138.17</string>
+		<string key="IBDocument.AppKitVersion">1138.20</string>
 		<string key="IBDocument.HIToolboxVersion">567.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="com.apple.InterfaceBuilder.CocoaPlugin">1617</string>
@@ -129,7 +129,6 @@
 												<string key="NSFrame">{{0, -3}, {355, 420}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="289444769"/>
 												<array class="NSMutableArray" key="NSTabViewItems">
 													<object class="NSTabViewItem" id="624044904">
 														<string key="NSIdentifier">1</string>
@@ -1019,7 +1018,7 @@
 																		<string>public.url</string>
 																		<string>public.url-name</string>
 																	</set>
-																	<string key="NSFrame">{{10, 264}, {334, 119}}</string>
+																	<string key="NSFrame">{{10, 79}, {334, 304}}</string>
 																	<reference key="NSSuperview" ref="289444769"/>
 																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView"/>
@@ -1923,7 +1922,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="481997597"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {2560, 1418}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
