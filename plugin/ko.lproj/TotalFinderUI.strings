@@ -61,11 +61,11 @@
 "Participate in TotalFinder testing" = "TotalFinder 테스팅에 참여합니다";
 
 /* registration */
-"TotalFinder Registration" = "TotalFinder 정품 등록";
-"Registration" = "정품 등록";
+"TotalFinder Registration" = "TotalFinder 등록";
+"Registration" = "등록";
 "Please enter your license details from the email we have sent you:" = "보내드린 이메일에 적혀있는 라이센스 정보를 입력해 주세요:";
 "Buy TotalFinder Now" = "지금 TotalFinder를 구매하세요!";
-"Register" = "정품 등록";
+"Register" = "등록";
 "Thanks for registering!" = "등록해 주셔서 감사합니다!";
 "This TotalFinder copy is licensed to:" = "TotalFinder는 다음 사용자에게 등록되었습니다:";
 "Close" = "닫기";
@@ -73,5 +73,5 @@
 "Back" = "뒤로";
 "Invalid license code" = "잘못된 라이센스 코드 입니다.";
 "Please go back and try again." = "되돌아가서 다시 시도해보세요.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder 정품 등록을 원하시는 분들은 BinaryAge 홈페이지를 방문해주세요.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder 라이센스를 구매하려면 BinaryAge 홈페이지를 방문해주세요.";
 "Thank you for using TotalFinder!" = "TotalFinder를 사용해주셔서 고맙습니다!";
