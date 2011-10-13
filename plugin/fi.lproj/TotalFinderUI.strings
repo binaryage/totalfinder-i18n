@@ -8,7 +8,7 @@
 "Visor Feature" = "Visor";
 "a system-wide window sliding from the bottom on a hot-key" = "näppäinyhdistelmällä esiintuotava ikkuna";
 
-"Activation:" = "Näppäinyhdistelmä:";
+"Activation:" = "Yhdistelmä:";
 
 "Control:" = "Asetukset:";
 "Hide on ESC" = "Piilota ESC-näppäimellä";
@@ -58,7 +58,7 @@
 "Check for Updates" = "Tarkista päivitykset";
 "Automatically check the website for updates" = "Tarkista päivitykset automaattosesti";
 "Include pre-releases" = "Huomioi kehitysversiot";
-"Participate in TotalFinder testing" = "Osallista TotalFinderin testaamiseen";
+"Participate in TotalFinder testing" = "Osallistu TotalFinderin testaamiseen";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinderin rekisteröinti";
