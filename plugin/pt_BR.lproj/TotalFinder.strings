@@ -6,8 +6,8 @@
 "Hide Visor" = "Ocultar Visor";
 
 /* Asepsis preferences pane */
-"Disconnect" = "Desligar";
-"Connect" = "Ligar";
+"Disconnect" = "Desconectar";
+"Connect" = "Conectar";
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não foi possível ligar à extensão do kernel!\nTem certeza que esta foi instalada?";
 
 /* About preferences pane */
@@ -18,7 +18,7 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Restaurar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "Tem a certeza que deseja restaurar as configurações padrão?";
+"Do you really want reset to defaults?" = "Tem certeza que deseja restaurar as configurações para o padrão?";
 "This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
 
 /* Unistall Alert Box */
@@ -27,9 +27,9 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Isto irá executar um script que removerá o TotalFinder deste computador e restaurar o comportamento original do Finder.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nova aba do Finder";
-"Close Tab" = "Fechar aba";
-"Close Window" = "Fechar janela";
+"New Finder Tab" = "Nova Aba do Finder";
+"Close Tab" = "Fechar Aba";
+"Close Window" = "Fechar Janela";
 "Show System Files" = "Mostrar Arquivos de Sistema";
 "Folders On Top" = "Pastas em Cima";
 "Toggle Dual Mode" = "Ativar/Desativar Modo Dual";
@@ -44,7 +44,7 @@
 "Screen %d" = "Tela %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - versão não registada";
+"TotalFinder - unregistered version" = "TotalFinder - versão não registrada";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia para testar - compre já!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias para testar - compre já!";
 "TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias para testar - compre já!";
@@ -53,7 +53,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias para testar - compre já!";
 
 /* registration */
-"Licensed to %@" = "Registado para %@";
+"Licensed to %@" = "Registrado para %@";
 "Change License" = "Mudar Licença";
 "Unregistered version in trial mode" = "Versão não registrada em modo de teste";
-"Register" = "Registar";
+"Register" = "Registrar";
