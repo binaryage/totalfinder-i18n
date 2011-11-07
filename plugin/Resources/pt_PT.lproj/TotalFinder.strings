@@ -11,15 +11,15 @@
 "Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não é possível ligar à extensão do kernel! Tem a certeza que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
 
 /* About preferences pane */
-"from Beta Channel" = "do Canal Beta";
-"from Dev Channel" = "do Canal Desenvolvimento";
-"from Stable Channel" = "do Canal Estável";
+"from Beta Channel" = "do canal Beta";
+"from Dev Channel" = "do canal Desenvolvimento";
+"from Stable Channel" = "do canal Estável";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Reniciar";
 "Cancel" = "Cancelar";
 "Do you really want reset to defaults?" = "Tem a certeza que quer restaurar as configurações predefinidas?";
-"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
+"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração inicial do TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
@@ -55,5 +55,5 @@
 /* registration */
 "Licensed to %@" = "Registado a %@";
 "Change License" = "Alterar licença";
-"Unregistered version in trial mode" = "Versão não registada no modo de demonstração";
+"Unregistered version in trial mode" = "Versão não registada em modo de demonstração";
 "Register" = "Registar";
