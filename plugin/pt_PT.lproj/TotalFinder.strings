@@ -8,22 +8,22 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Desligar";
 "Connect" = "Ligar";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não é possível ligar à extensão do kernel! Tem a certeza que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não é possível ligar à extensão do kernel! Tem a certeza de que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
 
 /* About preferences pane */
-"from Beta Channel" = "do Canal Beta";
-"from Dev Channel" = "do Canal Desenvolvimento";
-"from Stable Channel" = "do Canal Estável";
+"from Beta Channel" = "do canal Beta";
+"from Dev Channel" = "do canal Desenvolvimento";
+"from Stable Channel" = "do canal Estável";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Reniciar";
+"Reset" = "Restaurar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "Tem a certeza que quer restaurar as configurações predefinidas?";
-"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
+"Do you really want reset to defaults?" = "Tem a certeza de que deseja restaurar as configurações predefinidas?";
+"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração inicial do TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
-"Really want to uninstall TotalFinder?" = "Tem a certeza que deseja desinstalar o TotalFinder?";
+"Really want to uninstall TotalFinder?" = "Tem a certeza de que deseja desinstalar o TotalFinder?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta acção iniciará um script que irá remover o TotalFinder deste computador e restaurar o comportamento original do Finder.";
 
 /* MainMenu items */
@@ -55,5 +55,5 @@
 /* registration */
 "Licensed to %@" = "Registado a %@";
 "Change License" = "Alterar licença";
-"Unregistered version in trial mode" = "Versão não registada no modo de demonstração";
+"Unregistered version in trial mode" = "Versão não registada em modo de demonstração";
 "Register" = "Registar";
