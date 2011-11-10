@@ -30,7 +30,7 @@
 "this folder should be set as writable for all users of TotalFinder" = "esta pasta deve ter permissões de escrita para todos os utilizadores";
 "Launch Migration Assistant" = "Abrir Assistente de Migração";
 "TotalFinder.kext status" = "Estado do TotalFinder.kext";
-"Unable to connect" = "Não é possível ligar à extensão do kernel! Tem a certeza que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
+"Unable to connect" = "Não é possível ligar à extensão do kernel! Tem a certeza de que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
 "Advanced:" = "Avançadas:";
 "Don't write .DS_Store to Network" = "Não guardar .DS_Store em locais na rede";
 
@@ -54,16 +54,16 @@
 "Allow path copying from Context Menus" = "Permitir copiar caminho no menu contexto";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Procurar agora";
+"Check for Updates" = "Procurar actualizações";
+"Automatically check the website for updates" = "Procurar actualizações automaticamente";
+"Include pre-releases" = "Incluir pré-lançamentos";
+"Participate in TotalFinder testing" = "Participar nos testes de novas versões do TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "Registo do TotalFinder";
 "Registration" = "Registo";
-"Please enter your license details from the email we have sent you:" = "Por favor insira os detalhes da licença que lhe foi enviada por email:";
+"Please enter your license details from the email we have sent you:" = "Por favor insira os detalhes da licença que lhe foi enviada por e-mail:";
 "Buy TotalFinder Now" = "Comprar o TotalFinder";
 "Register" = "Registar";
 "Thanks for registering!" = "Obrigado por registar!";
@@ -73,5 +73,5 @@
 "Back" = "Voltar";
 "Invalid license code" = "Código de licença inválido";
 "Please go back and try again." = "Por favor, volte e tente novamente.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença para o TotalFinder, por favor visite a loja online BinaryAge.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder, por favor visite a loja online BinaryAge.";
 "Thank you for using TotalFinder!" = "Obrigado por usar o TotalFinder!";
