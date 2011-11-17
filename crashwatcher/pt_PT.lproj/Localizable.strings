@@ -1,0 +1,20 @@
+"crashDialogHeader" = "O TotalFinder encerrou inesperadamente";
+"crashDialogMsg" = "Lamentamos, mas o TotalFinder encontrou um problema inesperado e causou o encerramento do Finder.";
+"crashDialogNote" = "Nota: O Finder foi automaticamente reiniciado mas tem de abrir de novo o TotalFinder.app manualmente.";
+"crashDialogExplanation" = "O botão Enviar irá submeter o relatório de falha para gist.github.com e iniciar o Mail.app com um modelo de e-mail.";
+
+"failDialogHeader" = "Não foi possível submeter o relatório de falha para gist.github.com";
+"failDialogMsg1" = "Não foi possível encontrar o relatório de falha na pasta ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Foi encontrado o relatório de falha, mas a submissão para gist.github.com falhou por algum motivo.\n\nSe for urgente, pode enviá-lo manualmente:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Enviar E-mail";
+"cancelButton" = "Cancelar";
+
+"emailTemplate" = "Olá Antonin,\n\nO meu %@ acabou de falhar!\n\nO relatório da falha está disponível aqui:\n%@\n\n>\n> Pode ajudar-me a resolver o problema ao descrever o que aconteceu antes da falha.\n> Agradeço a sua ajuda e irei ler estes relatórios, mas não espere uma resposta directa da minha parte.\n> Para discussão posterior por favor crie um tópico em \n> http://getsatisfaction.com/binaryage.\n>\n> Obrigado, Antonin";
+
+"countdownMsgSecondsPlural" = "%d segundos restantes.";
+"countdownMsgSecondSingular" = "%d segundo restante.";
+
+"countdownMsgMinutesPlural" = "%d minutos restantes.";
+"countdownMsgMinuteSingular" = "%d minuto restante.";
