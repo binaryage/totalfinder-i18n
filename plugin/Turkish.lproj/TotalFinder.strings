@@ -37,8 +37,8 @@
 "Pin Visor" = "Bakacı Sabitle";
 "TotalFinder Preferences…" = "TotalFinder Ayarları…";
 "Visit Homepage…" = "TotalFinder Ana Sayfası...";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Sonraki Sekmeye Git";
+"Select Previous Tab" = "Önceki Sekmeye Git";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
