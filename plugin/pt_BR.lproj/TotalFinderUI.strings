@@ -54,24 +54,24 @@
 "Allow path copying from Context Menus" = "Permitir cópia do caminho em menus contextuais";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Verificar agora";
+"Check for Updates" = "Verificar por atualizações";
+"Automatically check the website for updates" = "Verificar atualizações pelo website automaticamente";
+"Include pre-releases" = "Incluir pré-lançamentos";
+"Participate in TotalFinder testing" = "Participar das versões de teste do TotalFinder";
 
 /* registration */
-"TotalFinder Registration" = "Registo do TotalFinder";
-"Registration" = "Registo";
-"Please enter your license details from the email we have sent you:" = "Por favor escreva os detalhes da licença (que estão no email que lhe enviamos):";
+"TotalFinder Registration" = "Registro do TotalFinder";
+"Registration" = "Registro";
+"Please enter your license details from the email we have sent you:" = "Por favor, escreva os detalhes da licença (que estão no email que lhe enviamos):";
 "Buy TotalFinder Now" = "Comprar o TotalFinder";
-"Register" = "Registar";
-"Thanks for registering!" = "Obrigado pelo seu registo!";
-"This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registada para:";
+"Register" = "Registrar";
+"Thanks for registering!" = "Obrigado pelo seu registro!";
+"This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registrada para:";
 "Close" = "Fechar";
 "Change License" = "Alterar Licença";
 "Back" = "Voltar";
 "Invalid license code" = "Código de licença inválido";
-"Please go back and try again." = "Por favor tente novamente.";
+"Please go back and try again." = "Por favor, tente novamente.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder visite a loja virtual do BinaryAge.";
-"Thank you for using TotalFinder!" = "Obrigado por utlizar o TotalFinder!";
+"Thank you for using TotalFinder!" = "Obrigado por utilizar o TotalFinder!";

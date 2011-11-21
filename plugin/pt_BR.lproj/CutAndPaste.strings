@@ -5,6 +5,6 @@
 "Edit" = "Editar";
 "Cut" = "Cortar";
 "Cut “%@”" = "Cortar “%@”";
-"Cut %u Items" = "Copiar %u elementos";
+"Cut %u Items" = "Cortar %u elementos";
 "Paste" = "Colar";
 "Paste %u Items" = "Colar %u elementos";

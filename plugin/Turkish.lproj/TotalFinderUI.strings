@@ -50,15 +50,15 @@
 "Experimental:" = "Deneysel:";
 "Freelance Windows" = "Bağımsız Pencereler";
 "Use narrow Tabs Bar" = "Sekme Çubuğunu daralt";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır seçeneklerini menü'de göster";
+"Allow path copying from Context Menus" = "Menü'den kopyalamayı kabul et";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Şimdi kontrol et";
+"Check for Updates" = "Güncellemeleri kontrol et";
+"Automatically check the website for updates" = "Güncellemeler için otomatik olarak internet sitesini kontrol et";
+"Include pre-releases" = "Önsürümleri dahil et";
+"Participate in TotalFinder testing" = "TotalFinder'ın test sürecine katıl";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder Kaydı";
