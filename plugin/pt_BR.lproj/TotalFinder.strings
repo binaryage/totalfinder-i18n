@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Procurar Atualizações";
+"Check for Updates" = "Procurar por Atualizações";
 "Uninstall TotalFinder" = "Desinstalar o TotalFinder";
 "Restart Finder" = "Reiniciar o Finder";
 "Show Visor" = "Mostrar Visor";
@@ -8,7 +8,7 @@
 /* Asepsis preferences pane */
 "Disconnect" = "Desconectar";
 "Connect" = "Conectar";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não foi possível ligar à extensão do kernel!\nTem certeza que esta foi instalada?";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não foi possível conectar com a extensão do kernel!\nO TotalFinder.kext foi instalado corretamente?";
 
 /* About preferences pane */
 "from Beta Channel" = "do Canal Beta";
@@ -31,12 +31,12 @@
 "Close Tab" = "Fechar Aba";
 "Close Window" = "Fechar Janela";
 "Show System Files" = "Mostrar Arquivos de Sistema";
-"Folders On Top" = "Pastas em Cima";
+"Folders On Top" = "Pastas no Topo";
 "Toggle Dual Mode" = "Ativar/Desativar Modo Dual";
 "Narrow Tabs Bar" = "Barra de Abas Fina";
 "Pin Visor" = "Fixar Visor";
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
-"Visit Homepage…" = "Visitar Homepage…";
+"Visit Homepage…" = "Visitar o site…";
 "Select Next Tab" = "Selecionar a próxima aba";
 "Select Previous Tab" = "Selecionar aba anterior";
 
@@ -45,12 +45,12 @@
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - versão não registrada";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia para testar - compre já!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias para testar - compre já!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias para testar - compre já!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias para testar - compre já!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias para testar - compre já!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias para testar - compre já!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia para testar - compre agora!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias para testar - compre agora!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias para testar - compre agora!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias para testar - compre agora!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias para testar - compre agora!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias para testar - compre agora!";
 
 /* registration */
 "Licensed to %@" = "Registrado para %@";
