@@ -20,7 +20,7 @@
 
 "Screen:" = "Tela:";
 "Show on all Spaces" = "Mostrar em todos os Spaces";
-"Show on top of the Dock" = "Exibir em cima da Dock";
+"Show on top of the Dock" = "Exibir em cima do Dock";
 "Free Form Window" = "Janela FreeForm";
 
 /* asepsis page */
@@ -45,12 +45,12 @@
 
 "Menu and Dock:" = "Menu e Dock:";
 "Hide icon in Menu Bar" = "Esconder ícone na Barra de Menus";
-"Keep original Dock icon" = "Manter ícone original na Dock";
+"Keep original Dock icon" = "Manter ícone original no Dock";
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Janelas Freelance";
 "Use narrow Tabs Bar" = "Utilizar barra com abas finas";
-"Show CutPaste buttons in Context Menus" = "Exibir botões Cortar &amp; Colar nos menus contextuais";
+"Show CutPaste buttons in Context Menus" = "Exibir botões Recortar &amp; Colar nos menus contextuais";
 "Allow path copying from Context Menus" = "Permitir cópia do caminho em menus contextuais";
 
 /* about page */
