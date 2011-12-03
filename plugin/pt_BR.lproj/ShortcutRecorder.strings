@@ -3,9 +3,9 @@
 "Type shortcut" = "Digite o atalho";
 "Click to record shortcut" = "Clique para gravar o atalho";
 "Pad %@" = "Pad %@";
-"The key combination %@ can't be used!" = "O conjunto de teclas %@ não pode ser utilizado!";
-"The key combination \"%@\" can't be used because %@." = "O conjunto de teclas \"%@\" não pode ser utilizado devido a %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "A combinação de teclas \"%@\" não pode ser usada porque já está em uso por um atalho de teclado do sistema. (Se deseja realmente utilizar esta combinação, a maioria dos atalhos podem ser modificados no painel Preferências do Sistema, em Teclado & Mouse.)";
+"The key combination %@ can't be used!" = "A combinação de teclas %@ não pode ser usada!";
+"The key combination \"%@\" can't be used because %@." = "A combinação de teclas \"%@\" não pode ser usada devido a %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "A combinação de teclas \"%@\" não pode ser usada porque já está em uso por um atalho de teclado do sistema. (Se realmente deseja utilizar esta combinação, a maioria dos atalhos podem ser modificados no painel Preferências do Sistema, em Teclado & Mouse.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "A combinação de teclas \"%@\" não pode ser usada porque já está em uso por outro item de menu \"%@\".";
 "Command + " = "Cmd + ";
 "Option + " = "Option + ";
