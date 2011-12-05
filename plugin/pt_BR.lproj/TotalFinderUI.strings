@@ -21,7 +21,7 @@
 "Screen:" = "Tela:";
 "Show on all Spaces" = "Mostrar em todos os Spaces";
 "Show on top of the Dock" = "Exibir em cima do Dock";
-"Free Form Window" = "Janela FreeForm";
+"Free Form Window" = "Janela de Forma Livre";
 
 /* asepsis page */
 "Asepsis Feature" = "Funcionalidade Asepsis";
@@ -41,21 +41,21 @@
 "Show System Files" = "Arquivos de Sistema";
 "Folders on Top" = "Pastas no Topo";
 "Always Maximize" = "Sempre Maximizado";
-"Toggle Dual Mode" = "Ativar Modo Dual";
+"Toggle Dual Mode" = "Ativar Modo Duplo";
 
 "Menu and Dock:" = "Menu e Dock:";
 "Hide icon in Menu Bar" = "Esconder ícone na Barra de Menus";
 "Keep original Dock icon" = "Manter ícone original no Dock";
 
 "Experimental:" = "Experimental:";
-"Freelance Windows" = "Janelas Freelance";
+"Freelance Windows" = "Janelas Autônomas";
 "Use narrow Tabs Bar" = "Utilizar barra com abas finas";
-"Show CutPaste buttons in Context Menus" = "Exibir botões Recortar &amp; Colar nos menus contextuais";
-"Allow path copying from Context Menus" = "Permitir cópia do caminho em menus contextuais";
+"Show CutPaste buttons in Context Menus" = "Exibir botões Recortar &amp; Colar nos menus de contexto";
+"Allow path copying from Context Menus" = "Permitir cópia do caminho em menus de contexto";
 
 /* about page */
 "Check Now" = "Verificar agora";
-"Check for Updates" = "Verificar por atualizações";
+"Check for Updates" = "Verificar atualizações";
 "Automatically check the website for updates" = "Verificar atualizações pelo website automaticamente";
 "Include pre-releases" = "Incluir pré-lançamentos";
 "Participate in TotalFinder testing" = "Participar das versões de teste do TotalFinder";
@@ -66,7 +66,7 @@
 "Please enter your license details from the email we have sent you:" = "Por favor, escreva os detalhes da licença (que estão no email que lhe enviamos):";
 "Buy TotalFinder Now" = "Comprar o TotalFinder";
 "Register" = "Registrar";
-"Thanks for registering!" = "Obrigado pelo seu registro!";
+"Thanks for registering!" = "Obrigado por se registrar!";
 "This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registrada para:";
 "Close" = "Fechar";
 "Change License" = "Alterar Licença";
