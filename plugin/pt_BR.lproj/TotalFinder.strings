@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Procurar por Atualizações";
+"Check for Updates" = "Verificar atualizações";
 "Uninstall TotalFinder" = "Desinstalar o TotalFinder";
 "Restart Finder" = "Reiniciar o Finder";
 "Show Visor" = "Mostrar Visor";
@@ -32,8 +32,8 @@
 "Close Window" = "Fechar Janela";
 "Show System Files" = "Mostrar Arquivos de Sistema";
 "Folders On Top" = "Pastas no Topo";
-"Toggle Dual Mode" = "Ativar/Desativar Modo Dual";
-"Narrow Tabs Bar" = "Barra de Abas Fina";
+"Toggle Dual Mode" = "Ativar/Desativar Modo Duplo";
+"Narrow Tabs Bar" = "Barra de Abas Finas";
 "Pin Visor" = "Fixar Visor";
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
 "Visit Homepage…" = "Visitar o site…";
