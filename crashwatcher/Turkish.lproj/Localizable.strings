@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder beklenmedik bir şekilde kapanmıştır";
+"crashDialogMsg" = "Üzgünüz, TotalFinder beklenmedik bir arızadan dolayı Finder'ın kapanmasına neden olmuştur";
+"crashDialogNote" = "Not: Finder otomatik bir şekilde tekrar başlatılmıştır ama kendinizden TotalFinder.app programını başlatmanız gerekmektedir";
+"crashDialogExplanation" = "Gönder seçeneği arızayı gist.github.com sitesine yükleyip Mail.app programını hazır bir email ile açacaktır.";
+
+"failDialogHeader" = "Arıza ile ilgili bilgiler gist.github.com'a gönderilememiştir";
+"failDialogMsg1" = "Maalesef arıza ile ilgili detaylar ~/Logs/CrashReporter dosyasında bulunamamıştır.";
+"failDialogMsg2" = "Arıza ile ilgili detaylar bulunmuştur ama gist.github.com'a yüklenememiştir.\n\nAcil durumda lütfen kendinizden bana gönderirmisiniz:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Email Gönder";
+"cancelButton" = "Iptal";
+
+"emailTemplate" = "Merhaba Antonin,\n\n%@ programında bir arıza meydana geldi!\n\nArıza ile ilgili detayları buradan görebilirsin:\n%@\n\n>\n> Arıza'yı düzeltmek için bana arıza'dan önce veya arıza'ya yol açan anı anlatırmısınız.\n> Yardımınız için çok teşekür ederim, arıza ile ilgileneceğim ama size hemen cevap yazmayabilirim .\n> Daha fazla bilgi için\n> http://getsatisfaction.com/binaryage sitesinde konu açabilirsiniz.\n>\n> Teşekürler, Antonin";
+
+"countdownMsgSecondsPlural" = "%d saniye kaldı.";
+"countdownMsgSecondSingular" = "%d saniye kaldı.";
+
+"countdownMsgMinutesPlural" = "%d dakika kaldı.";
+"countdownMsgMinuteSingular" = "%d dakika kaldı.";
