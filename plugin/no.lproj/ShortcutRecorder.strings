@@ -1,0 +1,13 @@
+"Space" = "Mellomrom";
+"Use old shortcut" = "Bruk gammel snarvei";
+"Type shortcut" = "Velg snarvei";
+"Click to record shortcut" = "Klikk for å ta opp snarvei";
+"Pad %@" = "Num %@";
+"The key combination %@ can't be used!" = "Tastatursnarveien %@ kan ikke brukes!";
+"The key combination \"%@\" can't be used because %@." = "Tastatursnarveien \"%@\" kan ikke brukes fordi %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Tastatursnarveien \"%@\" kan ikke brukes fordi det allerede eksisterer en global system-snarvei for denne taste-kombinasjonen. (Hvis du virkelig vil bruke denne tastatursnarveien kan du endre de globale system-snarveiene under Tastatur i Systemvalg.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Tastatursnarveien \"%@\" kan ikke brukes fordi den allerede er i bruk av menyvalget \"%@\".";
+"Command + " = "Kommando + ";
+"Option + " = "Tilvalg + ";
+"Shift + " = "Shift + ";
+"Control + " = "Kontroll + ";

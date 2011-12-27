@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder has avsluttet uventet";
+"crashDialogMsg" = "Vi beklager, men TotalFinder traff et uventet problem og forårsaket en krasj av Finder.";
+"crashDialogNote" = "Merk: Finder ble started om automatisk, men du må starte om TotalFinder.app manuelt.";
+"crashDialogExplanation" = "Send-knappen vil laste opp en krasj-rapport til gist.gihub.com og starte Mail.app med en e-post-mal.";
+
+"failDialogHeader" = "Kunne ikke laste opp krasj-rapport til gist.github.com";
+"failDialogMsg1" = "Synd. Jeg klarte ikke å finne en krasj-rapport i ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Jeg klarte å finne en krasj-rapport, men opplasting til gist.github.com feilet av en ukjent grunn.\n\nHvis det haster kan du sende den til meg manuelt:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Send e-post";
+"cancelButton" = "Avbryt";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d sekunder igjen.";
+"countdownMsgSecondSingular" = "%d sekund igjen.";
+
+"countdownMsgMinutesPlural" = "%d minutter igjen.";
+"countdownMsgMinuteSingular" = "%d minutt igjen.";
