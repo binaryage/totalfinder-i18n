@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Modifiseringer";
+"About" = "Om";
+
+/* visor page */
+"Visor Feature" = "Visor-funksjonen";
+"a system-wide window sliding from the bottom on a hot-key" = "et Finder-vindu som glir inn fra bunnen av skjermen ved aktivering av en tastatursnarvei";
+
+"Activation:" = "Aktivering:";
+
+"Control:" = "Kontroll:";
+"Hide on ESC" = "Skjul med escape-tasten";
+"Pin Visor" = "Lås Visor";
+
+"Animation:" = "Animasjon:";
+"Fade Window" = "Fade inn";
+"Slide Window" = "Gli inn";
+
+"Screen:" = "Skjerm:";
+"Show on all Spaces" = "Vis på alle arbeidsområder";
+"Show on top of the Dock" = "Vis framfor Docken";
+"Free Form Window" = "Redigerbart vindu";
+
+/* asepsis page */
+"Asepsis Feature" = "Asepsis-funksjonen";
+"prevents .DS_Store files to be created in local folders" = "forhindrer at .DS_Store-filer blir laget i lokale mapper";
+".DS_Store files will be redirected into" = ".DS_Store-filer vil bli omdirigert til";
+"this folder should be set as writable for all users of TotalFinder" = "denne mappen må være skrivbar for alle brukere av TotalFinder";
+"Launch Migration Assistant" = "Åpne migreringsassistenten";
+"TotalFinder.kext status" = "TotalFinder.kext status";
+"Unable to connect" = "Kan ikke kommunisere med kjerne-utvidelsen!\nEr TotalFinder.kext installert?";
+"Advanced:" = "Avansert:";
+"Don't write .DS_Store to Network" = "Lag ikke .DS_Store-filer i nettverksmapper";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Gjenopprett standardinnstillinger";
+
+"File Browser:" = "Filutforskeren:";
+"Show System Files" = "Vis systemfiler";
+"Folders on Top" = "Sorter mapper før filer";
+"Always Maximize" = "Alltid maksimert";
+"Toggle Dual Mode" = "Skru av/på Dual Mode";
+
+"Menu and Dock:" = "Meny og Dock:";
+"Hide icon in Menu Bar" = "Skjul ikon i menylinjen";
+"Keep original Dock icon" = "Bruk originalt Dock ikon";
+
+"Experimental:" = "Eksperimentelt:";
+"Freelance Windows" = "Freelance-vinduer";
+"Use narrow Tabs Bar" = "Bruk smaler faner";
+"Show CutPaste buttons in Context Menus" = "Vi klipp ut og lim inn i kontekstmenyer";
+"Allow path copying from Context Menus" = "Tillat kopiering av bane fra kontekstmenyer";
+
+/* about page */
+"Check Now" = "Sjekk nå";
+"Check for Updates" = "Sjekk etter oppdateringer";
+"Automatically check the website for updates" = "Sjekker websiden automatisk for oppdateringer";
+"Include pre-releases" = "Inkludér uferdige versjoner";
+"Participate in TotalFinder testing" = "Delta i testingen av TotalFinder";
+
+/* registration */
+"TotalFinder Registration" = "Registrering av TotalFinder";
+"Registration" = "Registrering";
+"Please enter your license details from the email we have sent you:" = "Vennligst skriv inn lisens-detaljene fra eposten vi har sendt deg:";
+"Buy TotalFinder Now" = "Kjøp TotalFinder nå";
+"Register" = "Registrér";
+"Thanks for registering!" = "Takk for registreringen!";
+"This TotalFinder copy is licensed to:" = "Denne kopien av TotalFinder er lisensiert til:";
+"Close" = "Lukk";
+"Change License" = "Endre lisens";
+"Back" = "Tilbake";
+"Invalid license code" = "Feil lisens-kode";
+"Please go back and try again." = "Vennligst gå tilbake og prøv igjen.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "For å kjøpe en lisens for TotalFinder vennligst besøk BinaryAges netthandel.";
+"Thank you for using TotalFinder!" = "Takk for at du bruker TotalFinder!";
