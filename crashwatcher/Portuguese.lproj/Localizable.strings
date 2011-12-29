@@ -11,7 +11,7 @@
 "sendReportButton" = "Enviar Email";
 "cancelButton" = "Cancelar";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Você pode me ajudar a corrigir o problema descrevendo o que ocorreu antes do travamento.\n> Eu agradeço sua ajuda e irei ler os relatórios de travamento, porém não espere uma resposta direta.\n> Para maiores esclarecimentos, por favor inicie um novo tópico em\n> http://getsatisfaction.com/binaryage.\n>\n> Muito obrigado, Antonin";
+"emailTemplate" = "Olá Antonin,\n\nMeu %@ acabou de travar!\n\nO relatório de travamento está disponível aqui:\n%@\n\n>\n> Você pode me ajudar a corrigir o problema descrevendo o que ocorreu antes do travamento.\n> Eu agradeço sua ajuda e irei ler os relatórios de travamento, porém não espere uma resposta direta.\n> Para maiores esclarecimentos, por favor inicie um novo tópico em\n> http://getsatisfaction.com/binaryage.\n>\n> Muito obrigado, Antonin";
 
 "countdownMsgSecondsPlural" = "%d segundos restantes.";
 "countdownMsgSecondSingular" = "%d segundo restante.";
