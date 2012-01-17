@@ -133,7 +133,7 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">newTabButton</string>
+						<string key="label">plusTabButton</string>
 						<reference key="source" ref="1029219716"/>
 						<reference key="destination" ref="131944810"/>
 					</object>
@@ -296,13 +296,13 @@
 					<string key="className">TabStripView</string>
 					<string key="superclassName">NSView</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">newTabButton</string>
+						<string key="NS.key.0">plusTabButton</string>
 						<string key="NS.object.0">NSButton</string>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">newTabButton</string>
+						<string key="NS.key.0">plusTabButton</string>
 						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">newTabButton</string>
+							<string key="name">plusTabButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
 					</object>
