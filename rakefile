@@ -47,7 +47,7 @@ def get_list_of_features(filter=nil)
         end
     end
 
-    features.uniq.reject{|x| x=="FeaturesFramework"}
+    features.uniq.reject{|x| x=="Features"}
 end
 
 def extract_code_strings(folder)
