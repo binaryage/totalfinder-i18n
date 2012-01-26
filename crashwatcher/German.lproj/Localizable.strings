@@ -1,11 +1,11 @@
 "crashDialogHeader" = "TotalFinder wurde unerwartet beendet.";
 "crashDialogMsg" = "Es tut uns Leid, ein unerwartetes Problem ist in TotalFinder aufgetreten und hat den Finder zum Absturz gebracht.";
 "crashDialogNote" = "Benachrichtigung: Der Finder wurde automatisch neugestartet, Sie müssen TotalFinder.app jedoch selbst neu starten.";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogExplanation" = "Durch das Drücken auf Senden wird eine Absturzbenachrichtigung auf gist.github.com hochgeladen und Mail.app mit einem E-Mail Entwurf geöffnet.";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogHeader" = "Es ist nicht möglich den Absturzbericht auf gist.github.com hochzuladen.";
+"failDialogMsg1" = "Leider war es nicht möglich den Absturzbericht in Ihrem Order ~/Logs/CrashReporter zu finden.";
+"failDialogMsg2" = "Es war möglich den Absturzbericht zu finden, aber das Hochladen auf gist.github.com hat, warum auch immer, nicht funktioniert.\n\nWenn es sehr dringend ist, können Sie mir den Bericht auch per E-Mail schicken:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Sende einen Bericht via E-Mail";
