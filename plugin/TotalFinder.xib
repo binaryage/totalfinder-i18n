@@ -4476,8 +4476,8 @@
 							<string key="name">switchEchelon:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="toggleTotalFinder:">
-							<string key="name">toggleTotalFinder:</string>
+						<object class="IBActionInfo" key="cmdToggle:">
+							<string key="name">cmdToggle:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="visitBuyNow:">
