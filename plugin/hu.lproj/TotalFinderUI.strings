@@ -1,32 +1,32 @@
 /* navigation bar */
 "Visor" = "Visor";
 "Asepsis" = "Asepsis";
-"Tweaks" = "Erweitert";
+"Tweaks" = "Tweaks";
 "About" = "Névjegy";
 
 /* visor page */
-"Visor Feature" = "Visor Funktion";
-"a system-wide window sliding from the bottom on a hot-key" = "ein systemweit per Tastenkombination einblendbares Fenster";
+"Visor Feature" = "Visor funkció";
+"a system-wide window sliding from the bottom on a hot-key" = "a system-wide window sliding from the bottom on a hot-key";
 
 "Activation:" = "Aktiválás:";
 
 "Control:" = "Steuerung:";
 "Hide on ESC" = "Elrejtés kilépéskor";
-"Pin Visor" = "Visor Anheften";
+"Pin Visor" = "Visor rögzítése";
 
 "Animation:" = "Animáció:";
-"Fade Window" = "Überblenden animieren";
-"Slide Window" = "Hineingleiten animieren";
+"Fade Window" = "Fade Window";
+"Slide Window" = "Slide Window";
 
-"Screen:" = "Bildschirm:";
+"Screen:" = "Képernyő:";
 "Show on all Spaces" = "Megjelenítés minden Íróasztalon";
-"Show on top of the Dock" = "Über dem Dock anzeigen";
-"Free Form Window" = "Fenstergröße veränderbar";
+"Show on top of the Dock" = "Megjelenítés a Dock felett";
+"Free Form Window" = "Szabadon méretezhető ablak";
 
 /* asepsis page */
-"Asepsis Feature" = "Asepsis Funktion";
-"prevents .DS_Store files to be created in local folders" = "verhindert die Erstellung von .DS_Store Dateien in lokalen Ordnern";
-".DS_Store files will be redirected into" = ".DS_Store Dateien werden verschoben nach";
+"Asepsis Feature" = "Asepsis funkció";
+"prevents .DS_Store files to be created in local folders" = "vprevents .DS_Store files to be created in local folders";
+".DS_Store files will be redirected into" = ".DS_Store files will be redirected into";
 "this folder should be set as writable for all users of TotalFinder" = "Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
 "Launch Migration Assistant" = "Migrationsassistent starten";
 "TotalFinder.kext status" = "TotalFinder.kext Status";
