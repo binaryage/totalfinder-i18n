@@ -25,45 +25,45 @@
 
 /* asepsis page */
 "Asepsis Feature" = "Asepsis funkció";
-"prevents .DS_Store files to be created in local folders" = "vprevents .DS_Store files to be created in local folders";
-".DS_Store files will be redirected into" = ".DS_Store files will be redirected into";
-"this folder should be set as writable for all users of TotalFinder" = "Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
-"Launch Migration Assistant" = "Migrationsassistent starten";
-"TotalFinder.kext status" = "TotalFinder.kext Status";
-"Unable to connect" = "Verbindung zur Kernel-Erweiterung fehlgeschlagen!\n Haben Sie die TotalFinder Kernel-Erweiterung installiert?";
-"Advanced:" = "Erweitert:";
-"Don't write .DS_Store to Network" = ".DS_Store Dateien nicht im Netzwerk erstellen";
+"prevents .DS_Store files to be created in local folders" = "meggátolja a .DS_Store fájlok létrehozását a helyi mappákban";
+".DS_Store files will be redirected into" = ".DS_Store fájlok át lesznek irányítva";
+"this folder should be set as writable for all users of TotalFinder" = "A mappára írási joga lesz minden TotalFinder felhasználónak";
+"Launch Migration Assistant" = "A Költöztető asszisztens elindítása";
+"TotalFinder.kext status" = "TotalFinder.kext állapota";
+"Unable to connect" = "Nem lehet csatlakozni";
+"Advanced:" = "Haladó:";
+"Don't write .DS_Store to Network" = "Nem ír .DS_Store fájlokat a hálózatra";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "auf Standardeinstellungen zurücksetzen";
+"Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";
 
-"File Browser:" = "Datei Browser:";
+"File Browser:" = "Fájlböngésző:";
 "Show System Files" = "Rendszerfájlok megjelenítése";
-"Folders on Top" = "Ordner am Anfang";
-"Always Maximize" = "Immer maximieren";
-"Toggle Dual Mode" = "Dual-Modus an/aus";
+"Folders on Top" = "Mappák felül";
+"Always Maximize" = "Mindig teljes méret";
+"Toggle Dual Mode" = "Váltás kettős módra";
 
 "Menu and Dock:" = "Menü és Dock:";
 "Hide icon in Menu Bar" = "Ikon elrejtése a menüsoron";
 "Keep original Dock icon" = "Eredeti Dock-ikon megtartása";
 
-"Experimental:" = "Experimentell:";
-"Freelance Windows" = "Unabhängige Fenster";
-"Use narrow Tabs Bar" = "Tableiste verkleinern";
-"Show CutPaste buttons in Context Menus" = "Ausschneiden/Einfügen im Kontextmenü";
-"Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";
+"Experimental:" = "Kísérleti:";
+"Freelance Windows" = "Szabadúszó ablak";
+"Use narrow Tabs Bar" = "Keskeny fülek használata";
+"Show CutPaste buttons in Context Menus" = "Kivágás/Beillesztés megjelenítése a helyi menüben";
+"Allow path copying from Context Menus" = "Elérési út másolásának engedélyezése a helyi menüben";
 
 /* about page */
-"Check Now" = "Überprüfe jetzt";
-"Check for Updates" = "Überprüfe auf Updates";
-"Automatically check the website for updates" = "Überprüfe die Webseite automatisch auf Updates";
-"Include pre-releases" = "Schließe Beta-Versionen ein";
-"Participate in TotalFinder testing" = "Mache beim Testen von TotalFinder mit";
+"Check Now" = "Ellenőrzés most";
+"Check for Updates" = "Frissítések keresése";
+"Automatically check the website for updates" = "Frissítések automatikus keresése";
+"Include pre-releases" = "Kiadás előtti verziók keresése";
+"Participate in TotalFinder testing" = "Részvétel a TotalFinder tesztelésében";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder regisztrálása";
-"Registration" = "Registrierung";
-"Please enter your license details from the email we have sent you:" = "Bitte geben die die Lizenz-Daten aus der E-Mail ein, die wir Ihnen geschickt haben:";
+"Registration" = "Regisztráció";
+"Please enter your license details from the email we have sent you:" = "Másolja be az e-mailben kapott regisztrációs adatokat:";
 "Buy TotalFinder Now" = "TotalFinder megvásárlása";
 "Register" = "Regisztrálás";
 "Thanks for registering!" = "Köszönjük a regisztrációt!";

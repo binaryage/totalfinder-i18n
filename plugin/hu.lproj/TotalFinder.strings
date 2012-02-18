@@ -18,42 +18,42 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Visszaállítás";
 "Cancel" = "Mégsem";
-"Do you really want reset to defaults?" = "Valóban vissza akarod állítani az alapbeállításokat?";
+"Do you really want reset to defaults?" = "Valóban vissza akarja állítani az alapbeállításokat?";
 "This will restore initial TotalFinder settings." = "Ezzel a TotalFinder alapbeállításai lesznek visszaállítva";
 
 /* Unistall Alert Box */
-"Uninstall" = "Deinstallieren";
-"Really want to uninstall TotalFinder?" = "Wollen Sie TotalFinder wirklich deinstallieren?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dies wird ein Skript starten, welches TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt.";
+"Uninstall" = "Eltávolítás";
+"Really want to uninstall TotalFinder?" = "Biztosan szeretné eltávolítani a TotalFinder-t?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "A folyamat egy eltávolító scriptet indít, amely törli a TotalFinder-t és visszaállítja az eredeti Finder-t.";
 
 /* MainMenu items */
-"New Finder Tab" = "Neuer Finder Tab";
-"Close Tab" = "Tab schließen";
-"Close Window" = "Fenster schließen";
-"Show System Files" = "Systemdateien anzeigen";
-"Folders On Top" = "Ordner immer am Anfang";
-"Toggle Dual Mode" = "Dual-Modus an-/ausschalten";
-"Narrow Tabs Bar" = "Tableiste verkleinern";
-"Pin Visor" = "Visor anheften";
-"TotalFinder Preferences…" = "TotalFinder Einstellungen…";
-"Visit Homepage…" = "Website besuchen…";
-"Select Next Tab" = "Nächster Tab";
-"Select Previous Tab" = "Vorheriger Tab";
+"New Finder Tab" = "Új Finder fül";
+"Close Tab" = "Fül bezárása";
+"Close Window" = "Ablak bezárása";
+"Show System Files" = "Rendszerfájlok megjelenítése";
+"Folders On Top" = "Mappák felül";
+"Toggle Dual Mode" = "Váltás kettős módra";
+"Narrow Tabs Bar" = "Keskeny fülek";
+"Pin Visor" = "Visor rögzítése";
+"TotalFinder Preferences…" = "TotalFinder beállítások…";
+"Visit Homepage…" = "Honlap meglátogatása…";
+"Select Next Tab" = "Következő fül kiválasztása";
+"Select Previous Tab" = "Előző fül kiválasztása";
 
 /* misc. */
-"Screen %d" = "Bildschirm %d";
+"Screen %d" = "Képernyő %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - Unregistrierte Version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 Tag verbleibend - jetzt kaufen!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 Tage verbleibend - jetzt kaufen!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 Tage verbleibend - jetzt kaufen!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 Tage verbleibend - jetzt kaufen!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 Tage verbleibend - jetzt kaufen!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d Tage verbleibend - jetzt kaufen!";
+"TotalFinder - unregistered version" = "TotalFinder - Nem regisztrált verzió";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 nap maradt - vásárlás most!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 nap maradt - vásárlás most!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 nap maradt - vásárlás most!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 nap maradt - vásárlás most!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 nap maradt - vásárlás most!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d nap maradt - vásárlás most!";
 
 /* registration */
-"Licensed to %@" = "Lizensiert für %@";
-"Change License" = "Lizenz ändern";
-"Unregistered version in trial mode" = "Unregistrierte Version";
-"Register" = "Registrieren";
+"Licensed to %@" = "Regisztrálva %@";
+"Change License" = "Licensz cseréje";
+"Unregistered version in trial mode" = "Regisztrálatlan verzió, próbaidőszakban";
+"Register" = "Regisztráció";
