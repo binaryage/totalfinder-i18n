@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Erweitert";
+"About" = "Névjegy";
+
+/* visor page */
+"Visor Feature" = "Visor Funktion";
+"a system-wide window sliding from the bottom on a hot-key" = "ein systemweit per Tastenkombination einblendbares Fenster";
+
+"Activation:" = "Aktiválás:";
+
+"Control:" = "Steuerung:";
+"Hide on ESC" = "Elrejtés kilépéskor";
+"Pin Visor" = "Visor Anheften";
+
+"Animation:" = "Animáció:";
+"Fade Window" = "Überblenden animieren";
+"Slide Window" = "Hineingleiten animieren";
+
+"Screen:" = "Bildschirm:";
+"Show on all Spaces" = "Megjelenítés minden Íróasztalon";
+"Show on top of the Dock" = "Über dem Dock anzeigen";
+"Free Form Window" = "Fenstergröße veränderbar";
+
+/* asepsis page */
+"Asepsis Feature" = "Asepsis Funktion";
+"prevents .DS_Store files to be created in local folders" = "verhindert die Erstellung von .DS_Store Dateien in lokalen Ordnern";
+".DS_Store files will be redirected into" = ".DS_Store Dateien werden verschoben nach";
+"this folder should be set as writable for all users of TotalFinder" = "Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
+"Launch Migration Assistant" = "Migrationsassistent starten";
+"TotalFinder.kext status" = "TotalFinder.kext Status";
+"Unable to connect" = "Verbindung zur Kernel-Erweiterung fehlgeschlagen!\n Haben Sie die TotalFinder Kernel-Erweiterung installiert?";
+"Advanced:" = "Erweitert:";
+"Don't write .DS_Store to Network" = ".DS_Store Dateien nicht im Netzwerk erstellen";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "auf Standardeinstellungen zurücksetzen";
+
+"File Browser:" = "Datei Browser:";
+"Show System Files" = "Rendszerfájlok megjelenítése";
+"Folders on Top" = "Ordner am Anfang";
+"Always Maximize" = "Immer maximieren";
+"Toggle Dual Mode" = "Dual-Modus an/aus";
+
+"Menu and Dock:" = "Menü és Dock:";
+"Hide icon in Menu Bar" = "Ikon elrejtése a menüsoron";
+"Keep original Dock icon" = "Eredeti Dock-ikon megtartása";
+
+"Experimental:" = "Experimentell:";
+"Freelance Windows" = "Unabhängige Fenster";
+"Use narrow Tabs Bar" = "Tableiste verkleinern";
+"Show CutPaste buttons in Context Menus" = "Ausschneiden/Einfügen im Kontextmenü";
+"Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";
+
+/* about page */
+"Check Now" = "Überprüfe jetzt";
+"Check for Updates" = "Überprüfe auf Updates";
+"Automatically check the website for updates" = "Überprüfe die Webseite automatisch auf Updates";
+"Include pre-releases" = "Schließe Beta-Versionen ein";
+"Participate in TotalFinder testing" = "Mache beim Testen von TotalFinder mit";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder regisztrálása";
+"Registration" = "Registrierung";
+"Please enter your license details from the email we have sent you:" = "Bitte geben die die Lizenz-Daten aus der E-Mail ein, die wir Ihnen geschickt haben:";
+"Buy TotalFinder Now" = "TotalFinder megvásárlása";
+"Register" = "Regisztrálás";
+"Thanks for registering!" = "Köszönjük a regisztrációt!";
+"This TotalFinder copy is licensed to:" = "A TotalFinder ezen példánya regisztrálva:";
+"Close" = "Bezárás";
+"Change License" = "Licensz cseréje";
+"Back" = "Vissza";
+"Invalid license code" = "Hibás licenszkód";
+"Please go back and try again." = "Kérem próbálja újra";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licensz vásárlásáért kérem keresse fel a BinaryAge webshopját";
+"Thank you for using TotalFinder!" = "Köszönjük, hogy a TotalFinder-t használja!";

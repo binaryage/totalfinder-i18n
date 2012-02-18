@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Frissítések keresése";
+"Uninstall TotalFinder" = "TotalFinder eltávolítása";
+"Restart Finder" = "Finder újraindítása";
+"Show Visor" = "Visor megjelenítése";
+"Hide Visor" = "Visor elrejtése";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Szétkapcsolás";
+"Connect" = "Kapcsolódás";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Nem lehetséges a csatlakozás a kernel kiterjesztéshez! Megfelelően van telepítve a TotalFinder.kext állomány?";
+
+/* About preferences pane */
+"from Beta Channel" = "Béta verzió";
+"from Dev Channel" = "Fejlesztői verzió";
+"from Stable Channel" = "Végső kiadás";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Visszaállítás";
+"Cancel" = "Mégsem";
+"Do you really want reset to defaults?" = "Valóban vissza akarod állítani az alapbeállításokat?";
+"This will restore initial TotalFinder settings." = "Ezzel a TotalFinder alapbeállításai lesznek visszaállítva";
+
+/* Unistall Alert Box */
+"Uninstall" = "Deinstallieren";
+"Really want to uninstall TotalFinder?" = "Wollen Sie TotalFinder wirklich deinstallieren?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dies wird ein Skript starten, welches TotalFinder von Ihrem Rechner entfernt und das ursprüngliche Verhalten des Finders wiederherstellt.";
+
+/* MainMenu items */
+"New Finder Tab" = "Neuer Finder Tab";
+"Close Tab" = "Tab schließen";
+"Close Window" = "Fenster schließen";
+"Show System Files" = "Systemdateien anzeigen";
+"Folders On Top" = "Ordner immer am Anfang";
+"Toggle Dual Mode" = "Dual-Modus an-/ausschalten";
+"Narrow Tabs Bar" = "Tableiste verkleinern";
+"Pin Visor" = "Visor anheften";
+"TotalFinder Preferences…" = "TotalFinder Einstellungen…";
+"Visit Homepage…" = "Website besuchen…";
+"Select Next Tab" = "Nächster Tab";
+"Select Previous Tab" = "Vorheriger Tab";
+
+/* misc. */
+"Screen %d" = "Bildschirm %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - Unregistrierte Version";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 Tag verbleibend - jetzt kaufen!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 Tage verbleibend - jetzt kaufen!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 Tage verbleibend - jetzt kaufen!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 Tage verbleibend - jetzt kaufen!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 Tage verbleibend - jetzt kaufen!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d Tage verbleibend - jetzt kaufen!";
+
+/* registration */
+"Licensed to %@" = "Lizensiert für %@";
+"Change License" = "Lizenz ändern";
+"Unregistered version in trial mode" = "Unregistrierte Version";
+"Register" = "Registrieren";
