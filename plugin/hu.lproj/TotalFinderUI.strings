@@ -1,7 +1,7 @@
 /* navigation bar */
 "Visor" = "Visor";
 "Asepsis" = "Asepsis";
-"Tweaks" = "Tweaks";
+"Tweaks" = "Trükkök";
 "About" = "Névjegy";
 
 /* visor page */
@@ -10,13 +10,13 @@
 
 "Activation:" = "Aktiválás:";
 
-"Control:" = "Steuerung:";
+"Control:" = "Vezérlés:";
 "Hide on ESC" = "Elrejtés kilépéskor";
 "Pin Visor" = "Visor rögzítése";
 
 "Animation:" = "Animáció:";
-"Fade Window" = "Fade Window";
-"Slide Window" = "Slide Window";
+"Fade Window" = "Ablak elhalványítása";
+"Slide Window" = "Ablak csúsztatása";
 
 "Screen:" = "Képernyő:";
 "Show on all Spaces" = "Megjelenítés minden Íróasztalon";
@@ -38,7 +38,7 @@
 "Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";
 
 "File Browser:" = "Fájlböngésző:";
-"Show System Files" = "Rendszerfájlok megjelenítése";
+"Show System Files" = "Rendszerfájlok látszanak";
 "Folders on Top" = "Mappák felül";
 "Always Maximize" = "Mindig teljes méret";
 "Toggle Dual Mode" = "Váltás kettős módra";
@@ -50,8 +50,8 @@
 "Experimental:" = "Kísérleti:";
 "Freelance Windows" = "Szabadúszó ablak";
 "Use narrow Tabs Bar" = "Keskeny fülek használata";
-"Show CutPaste buttons in Context Menus" = "Kivágás/Beillesztés megjelenítése a helyi menüben";
-"Allow path copying from Context Menus" = "Elérési út másolásának engedélyezése a helyi menüben";
+"Show CutPaste buttons in Context Menus" = "Kivágás/Beillesztés a helyi menüben";
+"Allow path copying from Context Menus" = "Elérési út másolható a helyi menüben";
 
 /* about page */
 "Check Now" = "Ellenőrzés most";
