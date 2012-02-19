@@ -6,7 +6,7 @@
 
 /* visor page */
 "Visor Feature" = "Visor funkció";
-"a system-wide window sliding from the bottom on a hot-key" = "a system-wide window sliding from the bottom on a hot-key";
+"a system-wide window sliding from the bottom on a hot-key" = "Gyorsgombbal elérhető csúszóablak az egész rendszerben";
 
 "Activation:" = "Aktiválás:";
 
@@ -38,7 +38,7 @@
 "Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";
 
 "File Browser:" = "Fájlböngésző:";
-"Show System Files" = "Rendszerfájlok látszanak";
+"Show System Files" = "Látható Rendszerfájlok";
 "Folders on Top" = "Mappák felül";
 "Always Maximize" = "Mindig teljes méret";
 "Toggle Dual Mode" = "Váltás kettős módra";

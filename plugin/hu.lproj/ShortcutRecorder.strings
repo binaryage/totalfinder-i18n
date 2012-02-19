@@ -1,12 +1,12 @@
 "Space" = "Szóköz";
 "Use old shortcut" = "Előző gyorsgomb használata";
 "Type shortcut" = "Gyorsgomb megadása";
-"Click to record shortcut" = "Click to record shortcut";
+"Click to record shortcut" = "Kattintson a gyorsgomb felvételéhez";
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "A billentyűkombináció %@ nem használható!";
-"The key combination \"%@\" can't be used because %@." = "The key combination \"%@\" can't be used because %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)";
-"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\".";
+"The key combination \"%@\" can't be used because %@." = "A billentyűkombináció \"%@\" nem használható, mert %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "A billentyűkombináció \"%@\" nem használható, mert egy rendszerhez társított billentyűkombináció. (Amennyiben ezt a kombinációt szeretné használni, távolítsa el Rendszerbeállítások - Billentyűzet panelen.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "A billntyűkombináció \"%@\" nem használható, mert az már egy másik menühöz van rendelve \"%@\".";
 "Command + " = "Command + ";
 "Option + " = "Option + ";
 "Shift + " = "Shift + ";
