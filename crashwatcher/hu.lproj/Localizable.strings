@@ -1,0 +1,20 @@
+"crashDialogHeader" = "A TotalFinder váratlanul kilépett";
+"crashDialogMsg" = "Sajnáljuk, de a TotalFinder váratlan hibába ütközött és a Finder összeomlott.";
+"crashDialogNote" = "Megjegyzés: A Finder automatikusan újraindul, de a TotalFindert kézzel kell újra elindítani.";
+"crashDialogExplanation" = "A küldés gomb megnyomására a program automatikusan hibajelentést küld a gist.github.com-ra és megnyitja a Mail alkalmazást egy előre elkészített e-maillel.";
+
+"failDialogHeader" = "A hibajelentést nem lehet feltölteni a gist.github.com-ra";
+"failDialogMsg1" = "A hibajelentés nem található a ~/Logs/CrashReporter mappában.";
+"failDialogMsg2" = "A hibajelentés elkészült, de valamilyen okból nem lehet feltölteni a gist.github.com-ra.\n\nAmennyiben sürgős, úgy kérem küldje el nekem kézzel:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Email küldése";
+"cancelButton" = "Mégsem";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d másodperc maradt.";
+"countdownMsgSecondSingular" = "%d másodperc maradt.";
+
+"countdownMsgMinutesPlural" = "%d perc maradt.";
+"countdownMsgMinuteSingular" = "%d perc maradt.";

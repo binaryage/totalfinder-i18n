@@ -1,0 +1,77 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Asepsis" = "Asepsis";
+"Tweaks" = "Trükkök";
+"About" = "Névjegy";
+
+/* visor page */
+"Visor Feature" = "Visor funkció";
+"a system-wide window sliding from the bottom on a hot-key" = "Gyorsgombbal elérhető csúszóablak az egész rendszerben";
+
+"Activation:" = "Aktiválás:";
+
+"Control:" = "Vezérlés:";
+"Hide on ESC" = "Elrejtés kilépéskor";
+"Pin Visor" = "Visor rögzítése";
+
+"Animation:" = "Animáció:";
+"Fade Window" = "Ablak elhalványítása";
+"Slide Window" = "Ablak csúsztatása";
+
+"Screen:" = "Képernyő:";
+"Show on all Spaces" = "Megjelenítés minden Íróasztalon";
+"Show on top of the Dock" = "Megjelenítés a Dock felett";
+"Free Form Window" = "Szabadon méretezhető ablak";
+
+/* asepsis page */
+"Asepsis Feature" = "Asepsis funkció";
+"prevents .DS_Store files to be created in local folders" = "meggátolja a .DS_Store fájlok létrehozását a helyi mappákban";
+".DS_Store files will be redirected into" = ".DS_Store fájlok át lesznek irányítva";
+"this folder should be set as writable for all users of TotalFinder" = "A mappára írási joga lesz minden TotalFinder felhasználónak";
+"Launch Migration Assistant" = "A Költöztető asszisztens elindítása";
+"TotalFinder.kext status" = "TotalFinder.kext állapota";
+"Unable to connect" = "Nem lehet csatlakozni";
+"Advanced:" = "Haladó:";
+"Don't write .DS_Store to Network" = "Nem ír .DS_Store fájlokat a hálózatra";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";
+
+"File Browser:" = "Fájlböngésző:";
+"Show System Files" = "Látható Rendszerfájlok";
+"Folders on Top" = "Mappák felül";
+"Always Maximize" = "Mindig teljes méret";
+"Toggle Dual Mode" = "Váltás kettős módra";
+
+"Menu and Dock:" = "Menü és Dock:";
+"Hide icon in Menu Bar" = "Ikon elrejtése a menüsoron";
+"Keep original Dock icon" = "Eredeti Dock-ikon megtartása";
+
+"Experimental:" = "Kísérleti:";
+"Freelance Windows" = "Szabadúszó ablak";
+"Use narrow Tabs Bar" = "Keskeny fülek használata";
+"Show CutPaste buttons in Context Menus" = "Kivágás/Beillesztés a helyi menüben";
+"Allow path copying from Context Menus" = "Elérési út másolható a helyi menüben";
+
+/* about page */
+"Check Now" = "Ellenőrzés most";
+"Check for Updates" = "Frissítések keresése";
+"Automatically check the website for updates" = "Frissítések automatikus keresése";
+"Include pre-releases" = "Kiadás előtti verziók keresése";
+"Participate in TotalFinder testing" = "Részvétel a TotalFinder tesztelésében";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder regisztrálása";
+"Registration" = "Regisztráció";
+"Please enter your license details from the email we have sent you:" = "Másolja be az e-mailben kapott regisztrációs adatokat:";
+"Buy TotalFinder Now" = "TotalFinder megvásárlása";
+"Register" = "Regisztrálás";
+"Thanks for registering!" = "Köszönjük a regisztrációt!";
+"This TotalFinder copy is licensed to:" = "A TotalFinder ezen példánya regisztrálva:";
+"Close" = "Bezárás";
+"Change License" = "Licensz cseréje";
+"Back" = "Vissza";
+"Invalid license code" = "Hibás licenszkód";
+"Please go back and try again." = "Kérem próbálja újra";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licensz vásárlásáért kérem keresse fel a BinaryAge webshopját";
+"Thank you for using TotalFinder!" = "Köszönjük, hogy a TotalFinder-t használja!";
