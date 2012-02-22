@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder a quitté inopinément";
+"crashDialogMsg" = "Nous sommes désolés mais TotalFinder a rencontré un problème inopiné et a planté le Finder.";
+"crashDialogNote" = "Note: Finder a redémarré automatiquement mais vous devez relancer TotalFinder.app manuellement.";
+"crashDialogExplanation" = "Le boutton 'envoyer' va télécharger le rapport d'incident sur gist.github.com et lancer l'application Mail.app avec un modèle de courrier.";
+
+"failDialogHeader" = "Impossible de télécharger le rapport d'incident sur gist.github.com";
+"failDialogMsg1" = "Désolé. Impossible de trouver le rapport d'incident dans votre dossier ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Le rapport d'incident a été trouvé, but le téléchargement sur gist.github.com a échoué pour une raison inconnue.\n\nEn cas d'urgence vous pouvez me l'envoyer manuellement:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Envoyer l'e-mail";
+"cancelButton" = "Annuller";
+
+"emailTemplate" = "Bonjour Antonin,\n\nMon %@ a quitté inopinément!\n\nLe rapport d'incident est disponible ici:\n%@\n\n>\n> Vous pouvez m'aider à résoudre ce problème en décrivant (en anglais) ce qui c'est passé avant l'incident.\n> J'apprécie votre aide et je lis ces rapports d'incidents, par contre ne vous attendez pas à une réponse directe.\n> Pour continuer la discussion, veuillez commencer un sujet sur \n> http://getsatisfaction.com/binaryage.\n>\n> Merci, Antonin";
+
+"countdownMsgSecondsPlural" = "%d secondes restantes.";
+"countdownMsgSecondSingular" = "%d second restante.";
+
+"countdownMsgMinutesPlural" = "%d minutes restantes.";
+"countdownMsgMinuteSingular" = "%d minute restante.";
