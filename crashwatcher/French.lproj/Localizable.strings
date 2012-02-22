@@ -1,7 +1,7 @@
 "crashDialogHeader" = "TotalFinder a quitté inopinément";
-"crashDialogMsg" = "Nous sommes désolés mais TotalFinder a rencontré un problème inopiné  et a crashé le Finder.";
+"crashDialogMsg" = "Nous sommes désolés mais TotalFinder a rencontré un problème inopiné et a planté le Finder.";
 "crashDialogNote" = "Note: Finder a redémarré automatiquement mais vous devez relancer TotalFinder.app manuellement.";
-"crashDialogExplanation" = "Le boutton envoyer va télécharger le rapport d'incident sur gist.github.com et lancer l'application Mail.app avec un modèle de courrier.";
+"crashDialogExplanation" = "Le boutton 'envoyer' va télécharger le rapport d'incident sur gist.github.com et lancer l'application Mail.app avec un modèle de courrier.";
 
 "failDialogHeader" = "Impossible de télécharger le rapport d'incident sur gist.github.com";
 "failDialogMsg1" = "Désolé. Impossible de trouver le rapport d'incident dans votre dossier ~/Logs/CrashReporter.";
