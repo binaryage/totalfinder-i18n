@@ -9,7 +9,7 @@ FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin')
 INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
 ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
-TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-plugin', 'plugin')
+TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'plugin')
 TOTALFINDER_FEATURES_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-features')
 
 ################################################################################################
@@ -47,7 +47,7 @@ def get_list_of_features(filter=nil)
         end
     end
 
-    features.uniq.reject{|x| x=="FeaturesFramework"}
+    features.uniq.reject{|x| x=="Features"}
 end
 
 def extract_code_strings(folder)
