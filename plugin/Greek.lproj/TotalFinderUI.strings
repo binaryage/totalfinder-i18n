@@ -54,11 +54,11 @@
 "Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Έλεγχος τώρα";
+"Check for Updates" = "Έλεγχος αναβαθμίσεων";
+"Automatically check the website for updates" = "Αυτόματος έλεγχος αναβαθμίσεων";
+"Include pre-releases" = "Περιλαμβάνονται προ-εκδόσεις";
+"Participate in TotalFinder testing" = "Bοηθήσετε την ανάπτυξη του TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "Ενεργοποίηση TotalFinder";
