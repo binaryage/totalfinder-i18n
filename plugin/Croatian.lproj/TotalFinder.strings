@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Provjeri Nadogradnje";
+"Uninstall TotalFinder" = "Deinstaliraj TotalFinder";
+"Restart Finder" = "Ponovno pokreni Finder";
+"Show Visor" = "Pokaži Visor";
+"Hide Visor" = "Sakrij Visor";
+
+/* Asepsis preferences pane */
+"Disconnect" = "Odspoji se";
+"Connect" = "Spoji se";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Ne mogu se spojiti na ekstenziju kernela! Je li TotalFinder.kext pravilno instaliran?";
+
+/* About preferences pane */
+"from Beta Channel" = "iz Beta Kanala";
+"from Dev Channel" = "iz Razvojnog Kanala";
+"from Stable Channel" = "iz Stabilnog Kanala";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Resetiraj";
+"Cancel" = "Otkaži";
+"Do you really want reset to defaults?" = "Želite li zaista vratiti početne postavke?";
+"This will restore initial TotalFinder settings." = "Ovo će vratiti početne postavke TotalFinder-a.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Deinstaliraj";
+"Really want to uninstall TotalFinder?" = "Želite li zaista deinstalirati TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ovo će pokrenuti skriptu za deinstalaciju koja će ukloniti TotalFinder sa ovog računala i vratiti izvorno ponašanje Finder-a.";
+
+/* MainMenu items */
+"New Finder Tab" = "Nova Finder Kartica";
+"Close Tab" = "Zatvori Karticu";
+"Close Window" = "Zatvori Prozor";
+"Show System Files" = "Prikaži Sistemske Datoteke";
+"Folders On Top" = "Mape Na Vrhu";
+"Toggle Dual Mode" = "Uključi/isključi Dual Način Rada";
+"Narrow Tabs Bar" = "Uske Kartice";
+"Pin Visor" = "Zalijepi Visor";
+"TotalFinder Preferences…" = "Postavke TotalFinder-a…";
+"Visit Homepage…" = "Posjetite Web stranicu…";
+"Select Next Tab" = "Odaberi Slijedeću Karticu";
+"Select Previous Tab" = "Odaberi Prethodnu Karticu";
+
+/* misc. */
+"Screen %d" = "Ekran %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - neregistrirana verzija";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dan preostao - kupite sada!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dana preostala - kupite sada!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dana preostala - kupite sada!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dana preostala - kupite sada!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dana preostala - kupite sada!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dana preostalo - kupite sada!";
+
+/* registration */
+"Licensed to %@" = "Licencirano na %@";
+"Change License" = "Promijenite Licencu";
+"Unregistered version in trial mode" = "Neregistrirana verzija u periodu isprobavanja";
+"Register" = "Registriraj";

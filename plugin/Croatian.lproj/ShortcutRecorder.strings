@@ -1,0 +1,13 @@
+"Space" = "Razmaknica";
+"Use old shortcut" = "Koristi staru kraticu";
+"Type shortcut" = "Unesi kraticu";
+"Click to record shortcut" = "Klikni za snimanje kratice";
+"Pad %@" = "Pad %@";
+"The key combination %@ can't be used!" = "Kombinacija tipaka %@ se ne može koristiti!";
+"The key combination \"%@\" can't be used because %@." = "Kombinacija tipaka \"%@\" se ne može koristiti jer %@.";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "Kombinacija tipaka \"%@\" se ne może koristiti jer ju već koristi sistemska kratica. (Ako zaista żelite koristiti ovu kraticu, većina kraticase może izmijeniti u Keyboard & Mouse panelu u System Preferences-u.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "Kombinacija tipaka \"%@\" se ne može koristiti jer ju već koristi element izbornika \"%@\".";
+"Command + " = "Command + ";
+"Option + " = "Option + ";
+"Shift + " = "Shift + ";
+"Control + " = "Control + ";
