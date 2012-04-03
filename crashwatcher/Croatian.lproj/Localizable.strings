@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder se neočekivano ugasio";
+"crashDialogMsg" = "Žao nam je, ali TotalFinder je došao do neočekivanog problema i srušio Finder.";
+"crashDialogNote" = "Obavijest: Finder je automatski ponovno pokrenut, ali TotalFinder.app morate pokrenuti ponovno ručno.";
+"crashDialogExplanation" = "Tipka za slanje će prenijeti izvješće o rušenju na gist.github.com i pokrenuti Mail.app sa email predloškom.";
+
+"failDialogHeader" = "Ne mogu prenijeti izvješće o rušenju na gist.github.com";
+"failDialogMsg1" = "Šteta. Ne mogu pronaći izvješće o rušenju u ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Pronašao sam izvješće o rušenju, ali prijenos na gist.github.com nije uspio.\n\nAko je hitno, pošalji ga ručno na:\n%@";
+"failDialogOK" = "U redu";
+
+"sendReportButton" = "Pošalji Email";
+"cancelButton" = "Otkaži";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d sekundi preostalo.";
+"countdownMsgSecondSingular" = "%d sekunda preostala.";
+
+"countdownMsgMinutesPlural" = "%d minuta preostalo.";
+"countdownMsgMinuteSingular" = "%d minuta preostala.";
