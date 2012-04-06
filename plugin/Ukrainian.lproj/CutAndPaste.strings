@@ -2,9 +2,9 @@
 /* as Main Menu > Edit > Copy item works in your localized Finder */
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
-"Edit" = "Змінити";
+"Edit" = "Редагувати";
 "Cut" = "Вирізати";
 "Cut “%@”" = "Вирізати «%@»";
-"Cut %u Items" = "Вирізати об'єкти: %u";
+"Cut %u Items" = "Вирізати %u об'єкти(ів)";
 "Paste" = "Вставити";
-"Paste %u Items" = "Вставити об'єкти: %u";
+"Paste %u Items" = "Вставити %u об'єкти(ів)";

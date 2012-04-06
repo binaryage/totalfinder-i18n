@@ -6,19 +6,19 @@
 
 /* visor page */
 "Visor Feature" = "Використовувати Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Глобальне вікно, що з'являється знизу за гарячею клавішою";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобальне вікно, що з'являється знизу за гарячою клавішою";
 
 "Activation:" = "Активація:";
 
 "Control:" = "Керування:";
-"Hide on ESC" = "Ховати окно по ESC";
+"Hide on ESC" = "Ховати вікно по ESC";
 "Pin Visor" = "Закріпити";
 
-"Animation:" = "Анимація:";
+"Animation:" = "Анімація:";
 "Fade Window" = "Вікно розчиняється";
 "Slide Window" = "Вікно ковзає вниз";
 
-"Screen:" = "Екран:";
+"Screen:" = "Дисплей:";
 "Show on all Spaces" = "Показувати на усіх Spaces";
 "Show on top of the Dock" = "Показувати над Dock";
 "Free Form Window" = "Змінний розмір вікна";
@@ -31,7 +31,7 @@
 "Launch Migration Assistant" = "Запустити Ассістент Міграції";
 "TotalFinder.kext status" = "Статус TotalFinder.kext";
 "Unable to connect" = "Неможливо з'єднатися з розширенням ядра!";
-"Advanced:" = "Поширені можливості:";
+"Advanced:" = "Додаткові можливості:";
 "Don't write .DS_Store to Network" = "Не записувати файли .DS_Store в мережі";
 
 /* tweaks page */
@@ -39,31 +39,31 @@
 
 "File Browser:" = "Файловий менеджер:";
 "Show System Files" = "Приховані файли";
-"Folders on Top" = "Папки згори";
-"Always Maximize" = "Завжди розвертати";
-"Toggle Dual Mode" = "Двохпанельний режим";
+"Folders on Top" = "Папки завжди згори";
+"Always Maximize" = "Завжди розгортати";
+"Toggle Dual Mode" = "Двопанельний режим";
 
-"Menu and Dock:" = "Меню й Dock:";
-"Hide icon in Menu Bar" = "Видалити TotalFinder зі строки меню";
+"Menu and Dock:" = "Меню та Dock:";
+"Hide icon in Menu Bar" = "Видалити TotalFinder із стрічки меню";
 "Keep original Dock icon" = "Не змінювати іконку Finder у Dock";
 
 "Experimental:" = "Експериментальні можливості:";
-"Freelance Windows" = "Незалежні окна";
+"Freelance Windows" = "Незалежні вікна";
 "Use narrow Tabs Bar" = "Вузька панель вкладок";
-"Show CutPaste buttons in Context Menus" = "Команди редагування у вигляді кнопок";
-"Allow path copying from Context Menus" = "Дозволити копіювання шляху з контекстного меню";
+"Show CutPaste buttons in Context Menus" = "'Вирізати-Вставити' в контекстному меню";
+"Allow path copying from Context Menus" = "Копіювання шляху з контекстного меню";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Перевірити зараз";
+"Check for Updates" = "Перевіряти на оновлення";
+"Automatically check the website for updates" = "Автоматично перевіряти оновлення";
+"Include pre-releases" = "А також перед-релізні збірки";
+"Participate in TotalFinder testing" = "Членство в тестуванні TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "Реєстрація TotalFinder";
 "Registration" = "Реєстрація";
-"Please enter your license details from the email we have sent you:" = "Будь ласка, введіть деталі Вашої ліцензії, які ми відправили Вам Вам електронною поштою:";
+"Please enter your license details from the email we have sent you:" = "Будь ласка, введіть деталі Вашої ліцензії, які ми відправили Вам електронною поштою:";
 "Buy TotalFinder Now" = "Купіть TotalFinder зараз";
 "Register" = "Зареєструвати";
 "Thanks for registering!" = "Дякуємо за реєстрацію!";
@@ -72,6 +72,6 @@
 "Change License" = "Змінити ліцензію";
 "Back" = "Повернутися";
 "Invalid license code" = "Недійсний код ліцензії";
-"Please go back and try again." = "Будьласка, спробуйте ще раз.";
+"Please go back and try again." = "Будь ласка, спробуйте ще раз.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Щоб купити ліцензію TotalFinder, будь ласка, відвідайте онлайн магазин BinaryAge.";
 "Thank you for using TotalFinder!" = "Дякуємо за користування TotalFinder!";
