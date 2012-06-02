@@ -1,7 +1,7 @@
 "Space" = "Spațiu";
 "Use old shortcut" = "Folosește vechea combinație";
 "Type shortcut" = "Tastați combinația";
-"Click to record shortcut" = "Click pentru înregsitrare";
+"Click to record shortcut" = "Click pentru înregsitrare scurtătură";
 "Pad %@" = "Pad %@";
 "The key combination %@ can't be used!" = "Combinația %@ nu poate fi utilizată!";
 "The key combination \"%@\" can't be used because %@." = "Combinația \"%@\" nu poate fi utilizată pentru că %@.";
