@@ -8,7 +8,7 @@
 "failDialogMsg2" = "Pude encontrar el informe de error, pero no pude subirlo a gist.github.com\n\nSi es urgente, puedes mandármelo manualmente:\n%@";
 "failDialogOK" = "OK";
 
-"sendReportButton" = "Enviar informe por email";
+"sendReportButton" = "Enviar email";
 "cancelButton" = "Cancelar";
 
 "emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Podrías ayudarme explicando que estabas haciendo o que pasó antes del fallo.\n> Aprecio tu ayuda y leo los informes de errores, pero, por favor, no esperes una respuesta directa.\n> Para más ayuda, abre un tema en:\n> http://getsatisfaction.com/binaryage.\n>\n> Gracias, Antonin";
