@@ -31,14 +31,14 @@
 "Close Tab" = "Cerrar pestaña";
 "Close Window" = "Cerrar ventana";
 "Show System Files" = "Mostrar archivos del sistema";
-"Folders On Top" = "Carpetas arriba";
+"Folders On Top" = "Carpetas primero"; /* To be consistent with TotalFinderUI.strings */
 "Toggle Dual Mode" = "Modo dual";
 "Narrow Tabs Bar" = "Barra de pestañas estrecha";
 "Pin Visor" = "Fijar Visor";
 "TotalFinder Preferences…" = "Preferencias de TotalFinder…";
 "Visit Homepage…" = "Visitar página web…";
-"Select Next Tab" = "Pestaña siguiente";
-"Select Previous Tab" = "Pestaña anterior";
+"Select Next Tab" = "Seleccionar pestaña siguiente"; /* Safari's and Chrome's translation */
+"Select Previous Tab" = "Seleccionar pestaña anterior";
 
 /* misc. */
 "Screen %d" = "Pantalla %d";
