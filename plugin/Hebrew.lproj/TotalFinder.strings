@@ -1,0 +1,59 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "בדוק אם יש עדכונים";
+"Uninstall TotalFinder" = "הסר TotalFinder";
+"Restart Finder" = "הפעל Finder מחדש";
+"Show Visor" = "הרות מצחיה";
+"Hide Visor" = "הסתיר מצחיה";
+
+/* Asepsis preferences pane */
+"Disconnect" = "נתוק";
+"Connect" = "התחבר";
+"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "לא ניתן להתחבר עם סיומת הקרנל! האם יש לך TotalFinder.kext מותקן כראוי?";
+
+/* About preferences pane */
+"from Beta Channel" = "מערוץ Beta";
+"from Dev Channel" = "מערוץ Dev";
+"from Stable Channel" = "מערוץ Stable";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "אתחל";
+"Cancel" = "בטל";
+"Do you really want reset to defaults?" = "האם אתה באמת רוצה לאפס לברירת המחדל?";
+"This will restore initial TotalFinder settings." = "זה יהיה לשחזר את הגדרות TotalFinder הראשונים.";
+
+/* Unistall Alert Box */
+"Uninstall" = "הסר";
+"Really want to uninstall TotalFinder?" = "באמת רוצה להסיר TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "זה תשיק סקריפט להסיר אשר תסיר TotalFinder ממחשב זה ושחזור התנהגות Finder המקורי.";
+
+/* MainMenu items */
+"New Finder Tab" = "לשונית Finder חדש";
+"Close Tab" = "סגור לשונית Finder";
+"Close Window" = "סגור חלון";
+"Show System Files" = "הצג קבצי מערכת";
+"Folders On Top" = "תיקיות למעלה";
+"Toggle Dual Mode" = "עבור מצב כפול";
+"Narrow Tabs Bar" = "שורה לשוניות מצומצם";
+"Pin Visor" = "הצמיד מצחית";
+"TotalFinder Preferences…" = "עודפות TotalFinder…";
+"Visit Homepage…" = "בקר בדף הבית…";
+"Select Next Tab" = "בחר לשונית הבא";
+"Select Previous Tab" = "בחר לשונית הקודם";
+
+/* misc. */
+"Screen %d" = "מסך %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - גירסה לא רשום";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - יום אחר נותר - buy now!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 ימים נותרים - קנה עכשיב!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 ימים נותרים - קנה עכשיב!!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 ימים נותרים - קנה עכשיב!!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 ימים נותרים - קנה עכשיב!!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d ימים נותרים - קנה עכשיב!!";
+
+/* registration */
+"Licensed to %@" = "רשום ל־ %@";
+"Change License" = "שנה רשימה";
+"Unregistered version in trial mode" = "הגרסה רשום במצב מדגם";
+"Register" = "לרשום";
