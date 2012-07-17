@@ -119,7 +119,6 @@
 							<string key="NSFrame">{{19, 25}, {355, 448}}</string>
 							<reference key="NSSuperview" ref="249417821"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="164090357"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="463743529">
 									<string key="NSIdentifier">TotalFinderPane</string>
@@ -133,7 +132,6 @@
 												<string key="NSFrame">{{0, -3}, {355, 420}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="445906066"/>
 												<array class="NSMutableArray" key="NSTabViewItems">
 													<object class="NSTabViewItem" id="624044904">
 														<string key="NSIdentifier">1</string>
@@ -4323,7 +4321,6 @@
 						<string key="resetToDefaults:">id</string>
 						<string key="showLicensingWindow:">id</string>
 						<string key="visitHelp:">id</string>
-						<string key="visitHelpAsepsis:">id</string>
 						<string key="visitHelpTweaks:">id</string>
 						<string key="visitHelpVisor:">id</string>
 					</dictionary>
@@ -4344,10 +4341,6 @@
 							<string key="name">visitHelp:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="visitHelpAsepsis:">
-							<string key="name">visitHelpAsepsis:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="visitHelpTweaks:">
 							<string key="name">visitHelpTweaks:</string>
 							<string key="candidateClassName">id</string>
@@ -4358,7 +4351,6 @@
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="asepsisExplanation">WebView</string>
 						<string key="infoLine">WebView</string>
 						<string key="modifierIcon1_">TotalFinderPreferencesModifierButtonImageView</string>
 						<string key="modifierIcon2_">TotalFinderPreferencesModifierButtonImageView</string>
@@ -4370,10 +4362,6 @@
 						<string key="versionTitle">NSTextField</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="asepsisExplanation">
-							<string key="name">asepsisExplanation</string>
-							<string key="candidateClassName">WebView</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="infoLine">
 							<string key="name">infoLine</string>
 							<string key="candidateClassName">WebView</string>

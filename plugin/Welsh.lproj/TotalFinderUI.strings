@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "gwyliwr";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Tweaks";
 "About" = "Amdanom ni";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Dangos ar yr holl fannau";
 "Show on top of the Dock" = "Dangos ar ben y Dock";
 "Free Form Window" = "ffenestr ffurflen am ddim";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis Nodwedd";
-"prevents .DS_Store files to be created in local folders" = "atal. DS_Store ffeiliau i gael eu creu mewn ffolderi lleol";
-".DS_Store files will be redirected into" = "Bydd y ffeiliau DS_Store. cael ei ailgyfeirio i mewn i";
-"this folder should be set as writable for all users of TotalFinder" = "Dylid ffolder yn cael eu gosod fel ysgrifenadwy ar gyfer holl ddefnyddwyr y TotalFinder";
-"Launch Migration Assistant" = "Cynorthwy-ydd Lansio Mudo";
-"TotalFinder.kext status" = "TotalFinder.kext statws";
-"Unable to connect" = "Methu cysylltu";
-"Advanced:" = "Uwch:";
-"Don't write .DS_Store to Network" = "Peidiwch ag ysgrifennu. DS_Store i Rwydwaith";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Ailosod TotalFinder i ddiffygion";

@@ -5,11 +5,6 @@
 "Show Visor" = "Εμφάνιση επόπτη";
 "Hide Visor" = "Απόκρυψη επόπτη";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Αποσύνδεση";
-"Connect" = "Σύνδεση";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Αδυναμία σύνδεσης με επέκταση kernel! Έχετε εγκατεστημένο το TotalFinder.kext;";
-
 /* About preferences pane */
 "from Beta Channel" = "Beta";
 "from Dev Channel" = "Dev";

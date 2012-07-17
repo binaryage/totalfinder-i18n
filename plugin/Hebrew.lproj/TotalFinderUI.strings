@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "מצחית";
-"Asepsis" = "אי אלח";
 "Tweaks" = "צביטות";
 "About" = "אודות";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "הצג על כל מרחבים";
 "Show on top of the Dock" = "הצג על גבי Dock";
 "Free Form Window" = "חלון חופשי";
-
-/* asepsis page */
-"Asepsis Feature" = "תכונת האי אלח";
-"prevents .DS_Store files to be created in local folders" = "מונעת קבצים .DS_Store מיצירתם בתיקיות מקומיות";
-".DS_Store files will be redirected into" = "קבצים .DS_Store ינותבו אל";
-"this folder should be set as writable for all users of TotalFinder" = "בתיקייה זו יש להגדיר בתור לכתיבה עבור כל משתמשי TotalFinder";
-"Launch Migration Assistant" = "הפעל עוזר הגירה";
-"TotalFinder.kext status" = "TotalFinder.kext יציבה";
-"Unable to connect" = "לא ניתן להתחבר עם סיומת הקרנל! האם יש לך הרחבה TotalFinder הקרנל מותקן?";
-"Advanced:" = "מתקדם:";
-"Don't write .DS_Store to Network" = "אל תכתבו .DS_Store לרשת";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "איפוס TotalFinder לברירת המחדל";

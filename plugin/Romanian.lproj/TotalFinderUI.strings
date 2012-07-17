@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Vizor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Adaptări";
 "About" = "Despre";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Prezent în toate Spațiile";
 "Show on top of the Dock" = "Afișează deasupra Dock-ului";
 "Free Form Window" = "Fereastră redimensionabilă";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis";
-"prevents .DS_Store files to be created in local folders" = "Împiedică crearea fișierelor .DS_Store în directoarele locale";
-".DS_Store files will be redirected into" = "Fișierele .DS_Store vor fi mutate în";
-"this folder should be set as writable for all users of TotalFinder" = "Toți utilizatorii TotalFinder trebuie să aibă drept de scriere în acest director";
-"Launch Migration Assistant" = "Pornește Asistentul de Migrare";
-"TotalFinder.kext status" = "Stare TotalFinder.kext";
-"Unable to connect" = "Imposibil de conectat";
-"Advanced:" = "Avansat:";
-"Don't write .DS_Store to Network" = "Nu scrie fișiere .DS_Store în Rețea";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Revenire la setările inițiale";

@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Tweaks";
 "About" = "Over";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Laat zien op alle Spaces";
 "Show on top of the Dock" = "Blijf boven de Dock";
 "Free Form Window" = "Vrij venster";
-
-/* asepsis page */
-"Asepsis Feature" = "De asepsis-functie";
-"prevents .DS_Store files to be created in local folders" = "voorkomt aanmaken van .DS_Store bestanden in lokale mappen";
-".DS_Store files will be redirected into" = ".DS_Store bestanden worden omgeleid naar";
-"this folder should be set as writable for all users of TotalFinder" = "deze map moet beschrijfbaar zijn voor alle TotalFinder-gebruikers";
-"Launch Migration Assistant" = "Start Migratie-assistent";
-"TotalFinder.kext status" = "Status van TotalFinder.kext";
-"Unable to connect" = "Kan niet verbinden met de kernelextensie!\nIs de TotalFinder kernelextensie geïnstalleerd?";
-"Advanced:" = "Geavanceerd:";
-"Don't write .DS_Store to Network" = "Schrijf geen .DS_Store naar het netwerk";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Herstel de standaardinstellingen van TotalFinder";

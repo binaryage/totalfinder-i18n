@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "滑入視窗";
-"Asepsis" = "隔離";
 "Tweaks" = "設定";
 "About" = "關於";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "顯示於每個 Spaces 空間";
 "Show on top of the Dock" = "顯示在 Dock 上層";
 "Free Form Window" = "自由調整視窗大小位置";
-
-/* asepsis page */
-"Asepsis Feature" = "啟用隔離";
-"prevents .DS_Store files to be created in local folders" = "防止 .DS_Store 檔案寫入本地檔案夾";
-".DS_Store files will be redirected into" = "把所有 .DS_Store 檔案儲存到";
-"this folder should be set as writable for all users of TotalFinder" = "該檔案夾必須是所有 TotalFinder 使用者都可寫入";
-"Launch Migration Assistant" = "啟動搬移助理";
-"TotalFinder.kext status" = "TotalFinder.kext 狀態";
-"Unable to connect" = "無法連接";
-"Advanced:" = "進階:";
-"Don't write .DS_Store to Network" = "不要寫入 .DS_Store 到網路";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "將 TotalFinder 重設到預設值";

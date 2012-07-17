@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Фини настройки";
 "About" = "Относно..";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Показване на всички Spaces";
 "Show on top of the Dock" = "Показване върху Dock";
 "Free Form Window" = "Прозорец с произволна форма";
-
-/* asepsis page */
-"Asepsis Feature" = "Използване на Asepsis";
-"prevents .DS_Store files to be created in local folders" = "предотвратява създаването на .DS_Store файлове в лок.папки";
-".DS_Store files will be redirected into" = "пренасочване на .DS_Store файловете към";
-"this folder should be set as writable for all users of TotalFinder" = "папкаta ще бъде достъпна в режим 'запис' за всички потребители";
-"Launch Migration Assistant" = "Помощник за мигриране";
-"TotalFinder.kext status" = "Статус на TotalFinder.kext";
-"Unable to connect" = "Не е възможна връзката с драйвера на ядрото!\nИмате ли инсталиран TotalFinder драйвер за ядрото?";
-"Advanced:" = "Разширени настройки:";
-"Don't write .DS_Store to Network" = "Не записвай .DS_Store в мрежови папки";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Настройки по подразбиране на TotalFinder";

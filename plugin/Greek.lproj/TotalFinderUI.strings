@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Επόπτης";
-"Asepsis" = "Ασφάλεια";
 "Tweaks" = "Κόλπα";
 "About" = "Σχετικά";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Εμφάνιση σε όλα τα Spaces";
 "Show on top of the Dock" = "Εμφάνιση πάνω από το Dock";
 "Free Form Window" = "Ελεύθερο παράθυρο";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis";
-"prevents .DS_Store files to be created in local folders" = "απέτρεψε δημιουργία .DS_Store αρχείων τοπικά";
-".DS_Store files will be redirected into" = "Τα .DS_Store αρχεία προωθούνται";
-"this folder should be set as writable for all users of TotalFinder" = "ο φάκελος πρέπει να είναι εγγράψιμος από όλους";
-"Launch Migration Assistant" = "Εκκίνηση της συσχέτισης";
-"TotalFinder.kext status" = "Κατάσταση TotalFinder.kext";
-"Unable to connect" = "Αδυναμία σύνδεσης";
-"Advanced:" = "Προχωρημένα:";
-"Don't write .DS_Store to Network" = "Μην γράψεις τα .DS_Store αρχεία στο δίκτυο";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Επαναφορά αρχικών ρυθμίσεων του TotalFinder";

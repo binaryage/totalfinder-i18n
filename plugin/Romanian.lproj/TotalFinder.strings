@@ -5,11 +5,6 @@
 "Show Visor" = "Activează Vizorul";
 "Hide Visor" = "Ascunde Vizorul";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Deconectare";
-"Connect" = "Conectare";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Imposibil să se conecteze cu extensia kernel-ului! Aveți TotalFinder.kext instalat corect?";
-
 /* About preferences pane */
 "from Beta Channel" = "de pe Canalul Beta";
 "from Dev Channel" = "de pe Canalul Dev";

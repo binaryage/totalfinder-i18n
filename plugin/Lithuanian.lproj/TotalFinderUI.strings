@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "skydelio";
-"Asepsis" = "aseptikos";
 "Tweaks" = "pataisymai";
 "About" = "Apie";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Rodyti visas erdves";
 "Show on top of the Dock" = "Rodyti viršuje doko";
 "Free Form Window" = "Laisvos Langas";
-
-/* asepsis page */
-"Asepsis Feature" = "aseptikos priemonė";
-"prevents .DS_Store files to be created in local folders" = "neleidžia .DS_Store failai turi būti sukurta vietos aplankų";
-".DS_Store files will be redirected into" = ".DS_Store failai bus nukreipiami į";
-"this folder should be set as writable for all users of TotalFinder" = "Šiame aplanke turėtų būti nustatyti kaip rašyti visiems TotalFinder vartotojai";
-"Launch Migration Assistant" = "Paleisti Migration Assistant";
-"TotalFinder.kext status" = "TotalFinder.kext statusas";
-"Unable to connect" = "Nepavyko susisiekti su branduolio pratęsimo!\nnAr esate TotalFinder branduolys pratęsimo įdiegta?";
-"Advanced:" = "Detaliai:";
-"Don't write .DS_Store to Network" = "Negalima rašyti .DS_Store Network";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Atstatyti TotalFinder negrąžinimo";

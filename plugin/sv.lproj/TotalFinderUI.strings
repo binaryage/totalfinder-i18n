@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Modifieringar";
 "About" = "Om";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Visa på alla Spaces";
 "Show on top of the Dock" = "Visa framför Dockan";
 "Free Form Window" = "Omformbart fönster";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis-funktionen";
-"prevents .DS_Store files to be created in local folders" = "förhindrar att .DS_Store filer skapas i lokala mappar";
-".DS_Store files will be redirected into" = ".DS_Store filer omdirigeras till";
-"this folder should be set as writable for all users of TotalFinder" = "den här mappen måste vara skrivbar för alla TotalFinder-användare";
-"Launch Migration Assistant" = "Öppna migrationsassistenten";
-"TotalFinder.kext status" = "TotalFinder.kext status";
-"Unable to connect" = "Kan inte kommunicera med Kernel-utbyggnad!\nÄr TotalFinder.kext installerad?";
-"Advanced:" = "Avancerat:";
-"Don't write .DS_Store to Network" = "Skapa inte .DS_Store filer i nätverksmappar";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Återställ standardinställningarna";

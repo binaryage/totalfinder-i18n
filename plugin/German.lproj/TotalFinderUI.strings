@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Erweitert";
 "About" = "Über";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Auf allen Spaces sichtbar";
 "Show on top of the Dock" = "Über dem Dock anzeigen";
 "Free Form Window" = "Fenstergröße veränderbar";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis Funktion";
-"prevents .DS_Store files to be created in local folders" = "verhindert die Erstellung von .DS_Store Dateien in lokalen Ordnern";
-".DS_Store files will be redirected into" = ".DS_Store Dateien werden verschoben nach";
-"this folder should be set as writable for all users of TotalFinder" = "Dieser Ordner sollte für alle Nutzer von TotalFinder beschreibbar sein";
-"Launch Migration Assistant" = "Migrationsassistent starten";
-"TotalFinder.kext status" = "TotalFinder.kext Status";
-"Unable to connect" = "Verbindung zur Kernel-Erweiterung fehlgeschlagen!\n Haben Sie die TotalFinder Kernel-Erweiterung installiert?";
-"Advanced:" = "Erweitert:";
-"Don't write .DS_Store to Network" = ".DS_Store Dateien nicht im Netzwerk erstellen";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "auf Standardeinstellungen zurücksetzen";

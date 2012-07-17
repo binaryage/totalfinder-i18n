@@ -5,11 +5,6 @@
 "Show Visor" = "הרות מצחיה";
 "Hide Visor" = "הסתיר מצחיה";
 
-/* Asepsis preferences pane */
-"Disconnect" = "נתוק";
-"Connect" = "התחבר";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "לא ניתן להתחבר עם סיומת הקרנל! האם יש לך TotalFinder.kext מותקן כראוי?";
-
 /* About preferences pane */
 "from Beta Channel" = "מערוץ Beta";
 "from Dev Channel" = "מערוץ Dev";
