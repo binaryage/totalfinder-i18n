@@ -1,6 +1,6 @@
-"Copy Path" = "Copy Path";
-"POSIX Path" = "POSIX Path";
+"Copy Path" = "Замыг хуулах";
+"POSIX Path" = "POSIX зам";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
+"Windows Path" = "Windows зам";
+"HFS Path" = "HFS зам";
+"Terminal Path" = "Терминалын зам";
