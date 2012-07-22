@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder үл мэдэгдэх шалтгаанаар хаагдлаа";
+"crashDialogMsg" = "Уучлаарай, TotalFinder-т үл мэдэгдэх алдаа гарч Finder-г гацаалаа.";
+"crashDialogNote" = "Мэдээлэл: Finder автоматаар дахин ачаалагдах болно. Харин та TotalFinder.app програмыг ажиллуулна уу.";
+"crashDialogExplanation" = "Илгээх товчийг дарж алдааны мэдээллийг gist.github.com хаяг руу Mail.app програмаар хүргэнэ.";
+
+"failDialogHeader" = "Алдааны мэдээллийг gist.github.com хаяг руу илгээж чадсангүй";
+"failDialogMsg1" = "Уучлаарай. Алдааны мэдээллийг таны ~/Logs/CrashReporter хэсгээс олсонгүй.";
+"failDialogMsg2" = "Алдааны мэдээлэл олдсон боловч gist.github.com хаягт илгээж чадсангүй.\n\nХэрвээ яаралтай бол, та дараах хаяг руу илгээнэ үү:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Илгээх";
+"cancelButton" = "Болих";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d секунд үлдлээ.";
+"countdownMsgSecondSingular" = "%d секунд үлдлээ.";
+
+"countdownMsgMinutesPlural" = "%d минут үлдлээ.";
+"countdownMsgMinuteSingular" = "%d минут үлдлээ.";

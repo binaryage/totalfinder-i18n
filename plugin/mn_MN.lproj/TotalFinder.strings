@@ -1,0 +1,54 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Шинэчлэлтийг шалгах";
+"Uninstall TotalFinder" = "Uninstall TotalFinder";
+"Restart Finder" = "Restart Finder";
+"Show Visor" = "Show Visor";
+"Hide Visor" = "Hide Visor";
+
+/* About preferences pane */
+"from Beta Channel" = "from Beta Channel";
+"from Dev Channel" = "from Dev Channel";
+"from Stable Channel" = "from Stable Channel";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Reset";
+"Cancel" = "Cancel";
+"Do you really want reset to defaults?" = "Do you really want reset to defaults?";
+"This will restore initial TotalFinder settings." = "This will restore initial TotalFinder settings.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Uninstall";
+"Really want to uninstall TotalFinder?" = "Really want to uninstall TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior.";
+
+/* MainMenu items */
+"New Finder Tab" = "New Finder Tab";
+"Close Tab" = "Close Tab";
+"Close Window" = "Close Window";
+"Show System Files" = "Show System Files";
+"Folders On Top" = "Folders On Top";
+"Toggle Dual Mode" = "Toggle Dual Mode";
+"Narrow Tabs Bar" = "Narrow Tabs Bar";
+"Pin Visor" = "Pin Visor";
+"TotalFinder Preferences…" = "TotalFinder Preferences…";
+"Visit Homepage…" = "Visit Homepage…";
+"Select Next Tab" = "Select Next Tab";
+"Select Previous Tab" = "Select Previous Tab";
+
+/* misc. */
+"Screen %d" = "Screen %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+
+/* registration */
+"Licensed to %@" = "Licensed to %@";
+"Change License" = "Change License";
+"Unregistered version in trial mode" = "Unregistered version in trial mode";
+"Register" = "Register";
