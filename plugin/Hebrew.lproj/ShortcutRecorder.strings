@@ -1,0 +1,13 @@
+"Space" = "רווח";
+"Use old shortcut" = "השתמש קיצור הישן";
+"Type shortcut" = "הקלט קיצור";
+"Click to record shortcut" = "לחץ כדי להקליט קיצור";
+"Pad %@" = "כרית %@";
+"The key combination %@ can't be used!" = "אינך יכול להשתמש בשילוב המקש %@!";
+"The key combination \"%@\" can't be used because %@." = "אינך יכול להשתמש בשילוב המקש \"%@\" בגלל ש־ %@";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "אינך יכול להשתמש בשילוב המקש \"%@\" בגלל שהוא כבר בשימוש בתור שילוב מקש  מערכתית. (אם אתה ממש רוצה להשתמש בשילוב מקש זו, רוב שילובות מקש מערכתיות משתנות בחלון מקלדת ועכבר בעודפות המערכת.)";
+"The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "אינך יכול להשתמש בשילוב המקש \"%@\" בגלל שהוא כבר בשימוש על ידי פריט התפרית \"%@\"";
+"Command + " = "פקודה + ";
+"Option + " = "אפשרות + ";
+"Shift + " = "Shift + ";
+"Control + " = "שליטה + ";

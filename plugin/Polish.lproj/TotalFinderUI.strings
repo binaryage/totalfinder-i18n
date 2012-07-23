@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Aseptyka";
 "Tweaks" = "Usprawnienia";
 "About" = "O programie";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Pokazuj na każdej przestrzeni";
 "Show on top of the Dock" = "Pokazuj nad Dockiem";
 "Free Form Window" = "Okno dowolnego rozmiaru";
-
-/* asepsis page */
-"Asepsis Feature" = "Aseptyka";
-"prevents .DS_Store files to be created in local folders" = "zapobiega tworzeniu plików .DS_Store w lokalnych folderach";
-".DS_Store files will be redirected into" = "Pliki .DS_Store zostaną skierowane do";
-"this folder should be set as writable for all users of TotalFinder" = "ten folder powinien być zapisywalny dla wszystkich użytkowników";
-"Launch Migration Assistant" = "Uruchom asystenta migracji";
-"TotalFinder.kext status" = "Stan rozszerzenia jądra (TotalFinder.kext)";
-"Unable to connect" = "Wystąpił problem podczas łączenia z rozszerzeniem!\nCzy rozszerzenie TotalFinder.kext jest załadowane?";
-"Advanced:" = "Zaawansowane:";
-"Don't write .DS_Store to Network" = "Nie zapisuj plików .DS_Store w sieci";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Przywróć ustawienia domyślne";

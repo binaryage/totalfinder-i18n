@@ -5,11 +5,6 @@
 "Show Visor" = "Dango Visor";
 "Hide Visor" = "Cuddio Visor";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Datgysylltu";
-"Connect" = "Cyswllt";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Methu cysylltu â estyniad cnewyllyn! A oes gennych TotalFinder.kext gosod yn iawn?";
-
 /* About preferences pane */
 "from Beta Channel" = "o Beta Channel";
 "from Dev Channel" = "o Dev Channel";

@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "バイザー";
-"Asepsis" = "隔離";
 "Tweaks" = "調整";
 "About" = "情報";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "すべてのSpacesの画面で表示";
 "Show on top of the Dock" = "Dock よりも前面に表示";
 "Free Form Window" = "ウィンドウのサイズ変更を許可";
-
-/* asepsis page */
-"Asepsis Feature" = "隔離機能を有効にする";
-"prevents .DS_Store files to be created in local folders" = "ローカルフォルダに .DS_Store ファイルを作成させません";
-".DS_Store files will be redirected into" = ".DS_Store ファイルを次のフォルダへ移動する";
-"this folder should be set as writable for all users of TotalFinder" = "すべてのユーザが書き込み可能でなければなりません";
-"Launch Migration Assistant" = "移行アシスタントを起動";
-"TotalFinder.kext status" = "TotalFinder.kext の状況";
-"Unable to connect" = "カーネル拡張機能に接続できませんでした！\nTotalFinder.kext が正しくインストールされているか確認してください。";
-"Advanced:" = "詳細：";
-"Don't write .DS_Store to Network" = "ネットワーク上に .DS_Store を作成しない";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "初期設定に戻す";

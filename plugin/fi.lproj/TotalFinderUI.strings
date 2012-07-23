@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Hienosäädöt";
 "About" = "Tietoa";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Näytä kaikissa Spacesin tiloissa";
 "Show on top of the Dock" = "Näytä Dockin päällä";
 "Free Form Window" = "Muotoiltava ikkuna";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis";
-"prevents .DS_Store files to be created in local folders" = "estää luomasta .DS_Store-tiedostoja paikallisissa kansioissa";
-".DS_Store files will be redirected into" = ".DS_Store-tiedostot ohjataan";
-"this folder should be set as writable for all users of TotalFinder" = "tämän kansion pitäisi olla oikeuksiltaan kirjoitettava kaikille";
-"Launch Migration Assistant" = "Käynnistä Siirtymisapuri";
-"TotalFinder.kext status" = "TotalFinder.kext tilanne";
-"Unable to connect" = "Yhdistäminen epäonnistui";
-"Advanced:" = "Lisäasetukset:";
-"Don't write .DS_Store to Network" = "Älä luo .DS_Store-tiedostoja verkkolaitteisiin";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Palauta TotalFinderin asetukset";

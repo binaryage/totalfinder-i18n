@@ -5,18 +5,13 @@
 "Show Visor" = "Activează Vizorul";
 "Hide Visor" = "Ascunde Vizorul";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Deconectare";
-"Connect" = "Conectare";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Conectarea extensiei de kernel nu poate fi realizată. Ați instalat TotalFinder.kext?";
-
 /* About preferences pane */
-"from Beta Channel" = "de pe Beta Channel";
-"from Dev Channel" = "de pe Dev Channel";
-"from Stable Channel" = "de pe Stable Channel";
+"from Beta Channel" = "de pe Canalul Beta";
+"from Dev Channel" = "de pe Canalul Dev";
+"from Stable Channel" = "de pe Canalul Stabil";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Reset";
+"Reset" = "Resetare";
 "Cancel" = "Anulare";
 "Do you really want reset to defaults?" = "Vreți să reveniți la setările inițiale?";
 "This will restore initial TotalFinder settings." = "Revenire la setările inițiale.";
@@ -37,23 +32,23 @@
 "Pin Visor" = "Pioneză";
 "TotalFinder Preferences…" = "Preferințe TotalFinder…";
 "Visit Homepage…" = "Vizitați site-ul nostru…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
+"Select Next Tab" = "Selectare Tab următor";
+"Select Previous Tab" = "Selectare tab-ul anterior";
 
 /* misc. */
 "Screen %d" = "Ecranul %d";
 
 /* status badge */
 "TotalFinder - unregistered version" = "TotalFinder - versiune neînregistrată";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 zi rămasă - Cumpară acum!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 zile rămase - Cumpară acum!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 zile rămase - Cumpară acum!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 zile rămase - Cumpară acum!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 zile rămase - Cumpară acum!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d zile rămase - Cumpară acum!";
 
 /* registration */
 "Licensed to %@" = "Licențiat lui %@";
 "Change License" = "Schimbă licența";
-"Unregistered version in trial mode" = "Versiune neînregistrată în mod de încercare";
+"Unregistered version in trial mode" = "Versiune neînregistrată, în mod de încercare";
 "Register" = "Înregistrează";

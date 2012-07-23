@@ -5,11 +5,6 @@
 "Show Visor" = "顯示滑入視窗";
 "Hide Visor" = "隱藏滑入視窗";
 
-/* Asepsis preferences pane */
-"Disconnect" = "中斷";
-"Connect" = "連接";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "無法連接到 kernel extension! TotalFinder kernel extension是否已經正確安裝?";
-
 /* About preferences pane */
 "from Beta Channel" = "從 Beta 頻道";
 "from Dev Channel" = "從 Dev 頻道";

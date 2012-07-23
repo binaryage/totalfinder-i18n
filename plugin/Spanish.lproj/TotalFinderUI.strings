@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Ajustes";
 "About" = "Acerca de";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Mostrar en todos los Spaces"; /* 'Spaces' is standard for Mac OS X in Spanish */
 "Show on top of the Dock" = "Mostrar sobre el Dock";
 "Free Form Window" = "Ventana redimensionable";
-
-/* asepsis page */
-"Asepsis Feature" = "Activar Asepsis";
-"prevents .DS_Store files to be created in local folders" = "evita que se creen archivos .DS_Store en las carpetas locales";
-".DS_Store files will be redirected into" = "Los archivos .DS_Store serán redirigidos a";
-"this folder should be set as writable for all users of TotalFinder" = "(necesita permisos de escritura para todos los usarios de TotalFinder)";
-"Launch Migration Assistant" = "Lanzar asistente de migración";
-"TotalFinder.kext status" = "Estado de TotalFinder.kext";
-"Unable to connect" = "No es posible conectar con la extensión del kernel.\n¿Tiene la extensión del kernel correctamente instalada?";
-"Advanced:" = "Avanzado:";
-"Don't write .DS_Store to Network" = "No escribir .DS_Store en unidades de Red"; /* 'unidades de Red' deducido de aquí: http://www.apple.com/es/macosx/what-is-macosx/dock-and-finder.html */
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */

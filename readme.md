@@ -1,6 +1,6 @@
 # TotalFinder Internationalization ([totalfinder.binaryage.com](http://totalfinder.binaryage.com))
 
-**TotalFinder** is a plugin for Apples's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
+**TotalFinder** is a plugin for Apple's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
 
 <img src="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot.png">
 
@@ -80,4 +80,4 @@ Each contributor in [http://github.com/binaryage/totalfinder-i18n/contributors](
 2. You are contributing your work under [MIT license](totalfinder-i18n/raw/master/license.txt)
 3. You may want to explore [Network Graph](http://github.com/binaryage/totalfinder-i18n/network) to see if someone has not already been working on your language
 
-#### License: [MIT-Style](totalfinder-i18n/raw/master/license.txt)
+#### License: [MIT-Style](https://raw.github.com/binaryage/totalfinder-i18n/master/license.txt)

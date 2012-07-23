@@ -5,11 +5,6 @@
 "Show Visor" = "Tunjukkan Visor";
 "Hide Visor" = "Sembunyikan Visor";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Putuskan koneksi";
-"Connect" = "Sambungkan koneksi";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Tidak dapat terhubung dengan ekstensi kernel! Apakah anda telah menginstal TotalFinder.kext dengan benar?";
-
 /* About preferences pane */
 "from Beta Channel" = "dari Channel Beta";
 "from Dev Channel" = "dari Channel Dev";

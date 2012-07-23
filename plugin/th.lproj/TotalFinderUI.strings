@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "ปรับแต่ง";
 "About" = "เกี่ยวกับ";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "แสดงในทุกๆ Space";
 "Show on top of the Dock" = "แสดงเหนือ Dock";
 "Free Form Window" = "ปรับขนาดหน้าต่างอิสระ";
-
-/* asepsis page */
-"Asepsis Feature" = "ฟังก์ชั่น Asepsis";
-"prevents .DS_Store files to be created in local folders" = "ป้องกันการสร้างไฟล์ .DS_Store ในโฟล์เดอร์ของเครื่องนี้";
-".DS_Store files will be redirected into" = "ไฟล์ .DS_Store จะถูกเปลี่ยนทิศทางไปที่";
-"this folder should be set as writable for all users of TotalFinder" = "โฟล์เดอร์นี้ควรจะตั้งค่าให้สามารถเขียนได้โดยผู้ใช้ทุกคนที่ใช้ TotalFinder";
-"Launch Migration Assistant" = "เปิด Migration Assistant";
-"TotalFinder.kext status" = "สภานะของ TotalFinder.kext";
-"Unable to connect" = "ไม่สามารถเชื่อมต่อกับส่วนเสริมของ kernel ได้!\nคุณได้ติดตั้งส่วนเสริม TotalFinder ของ kernel หรือยัง?";
-"Advanced:" = "ขั้นสูง:";
-"Don't write .DS_Store to Network" = "ห้ามเขียนไฟล์ .DS_Store ที่อยู่บนเครือข่าย";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "ตั้งค่า TotalFinder เป็นค่าเริ่มต้น";

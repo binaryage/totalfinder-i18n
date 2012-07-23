@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsia";
 "Tweaks" = "Nastavenia";
 "About" = "O programe";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Zobraziť na všetkých plochách";
 "Show on top of the Dock" = "Zobraziť nad Dockom";
 "Free Form Window" = "Upraviteľné okno";
-
-/* asepsis page */
-"Asepsis Feature" = "Funkcia Asepsia";
-"prevents .DS_Store files to be created in local folders" = "Prevencia proti vytváraniu .DS_Store súborov v lokálnych zložkách";
-".DS_Store files will be redirected into" = ".DS_Store súbory budú presmerované do";
-"this folder should be set as writable for all users of TotalFinder" = "zložka musí mať nastavené práva zápisu pre užívateľov TotalFindera";
-"Launch Migration Assistant" = "Spustiť migračného asistenta";
-"TotalFinder.kext status" = "Stav TotalFinder.kext";
-"Unable to connect" = "Nemôžem sa pripojiť k rozšíreniu kernelu!\nMáte naozaj TotalFinder rozšírenie kernelu nainstalované?";
-"Advanced:" = "Pokročilé nastavenia:";
-"Don't write .DS_Store to Network" = "Nezapisovať .DS_Store do sieťových zložiek";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Resetuj TotalFinder do predvoleného nastavenia";

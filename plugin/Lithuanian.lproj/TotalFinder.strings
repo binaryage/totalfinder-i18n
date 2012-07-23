@@ -5,11 +5,6 @@
 "Show Visor" = "Rodyti skydelio";
 "Hide Visor" = "Slėpti skydelio";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Atsijungti";
-"Connect" = "Prisijungti";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Nepavyko susisiekti su branduolio pratęsimas! Ar turite TotalFinder.kext įdėta teisingai?";
-
 /* About preferences pane */
 "from Beta Channel" = "iš Beta kanalas";
 "from Dev Channel" = "iš Dev kanalas";

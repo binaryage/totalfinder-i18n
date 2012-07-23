@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder s-a închis în mod neaşteptat";
+"crashDialogMsg" = "Ne pare rău, dar a apărut o problemă neaşteptată iar TotalFinder a închis Finder.";
+"crashDialogNote" = "Notă: Finder a fost repornit în mod automat, dar trebuie să lansați TotalFinder.app manual din nou.";
+"crashDialogExplanation" = "Butonul Trimite va încărca raportul de accident la gist.github.com şi va lanseza Mail.app cu şablonul de e-mail.";
+
+"failDialogHeader" = "Imposibil de a încărca raportul de accident la gist.github.com";
+"failDialogMsg1" = "Păcat. Am fost în imposibilitatea de a localiza raportul de accident din ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Am fost capabil de a localiza raportul de accident, dar încărcarea la gist.github.com nu s-a efectuat dintr-un motiv oarecare.\n\nDacă este urgent, puteți să mi le trimiteți manual:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Email Trimis";
+"cancelButton" = "Revocare";
+
+"emailTemplate" = "Bună Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d secunde rămase.";
+"countdownMsgSecondSingular" = "%d secundă rămasă.";
+
+"countdownMsgMinutesPlural" = "%d minute rămase.";
+"countdownMsgMinuteSingular" = "%d minut rămas.";

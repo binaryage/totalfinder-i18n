@@ -5,11 +5,6 @@
 "Show Visor" = "Pokaż Visora";
 "Hide Visor" = "Schowaj Visora";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Rozłącz";
-"Connect" = "Połącz";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Wystąpił problem podczas łączenia z rozszerzeniem!\nCzy masz zainstalowane rozszerzenie TotalFinder w kernelu?";
-
 /* About preferences pane */
 "from Beta Channel" = "z kanału beta";
 "from Dev Channel" = "z kanału deweloperskiego";

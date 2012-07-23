@@ -1,0 +1,65 @@
+/* navigation bar */
+"Visor" = "מצחית";
+"Tweaks" = "צביטות";
+"About" = "אודות";
+
+/* visor page */
+"Visor Feature" = "תכונת המצחית";
+"a system-wide window sliding from the bottom on a hot-key" = "חלון מערכתית שמזזה מלמטה על שילוב מקשים";
+
+"Activation:" = "הפעלה:";
+
+"Control:" = "שליטה:";
+"Hide on ESC" = "הסתיר ב־ ESC";
+"Pin Visor" = "הצמד מצחית";
+
+"Animation:" = "אנימציה:";
+"Fade Window" = "דעוך חלון";
+"Slide Window" = "מזזה חלון";
+
+"Screen:" = "מסך:";
+"Show on all Spaces" = "הצג על כל מרחבים";
+"Show on top of the Dock" = "הצג על גבי Dock";
+"Free Form Window" = "חלון חופשי";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "איפוס TotalFinder לברירת המחדל";
+
+"File Browser:" = "דפדפן קבצים:";
+"Show System Files" = "הראה קבצי המערכת";
+"Folders on Top" = "תיקיות למעלה";
+"Always Maximize" = "תמיד מקסם";
+"Toggle Dual Mode" = "עבור מצב כפול";
+
+"Menu and Dock:" = "תפרית ו -Dock:";
+"Hide icon in Menu Bar" = "הסתר סמל בשורת התפריטים";
+"Keep original Dock icon" = "שמור על סמל Dock המקורי";
+
+"Experimental:" = "נסיוני:";
+"Freelance Windows" = "חלונות חופשיים";
+"Use narrow Tabs Bar" = "השתמש בשורה לשוניות מצומצמת";
+"Show CutPaste buttons in Context Menus" = "הצג כפתורים גזור והדבק בתפריטי ההקשר";
+"Allow path copying from Context Menus" = "אפשר העתקה דרך תפריטי ההקשר";
+
+/* about page */
+"Check Now" = "בדוק עכשיב";
+"Check for Updates" = "בדוק עידכונים";
+"Automatically check the website for updates" = "באופן אוטומטי בדוק את אתר האינטרנט לקבלת עדכונים";
+"Include pre-releases" = "כלול מראש משחרר";
+"Participate in TotalFinder testing" = "להשתתף בדיקות TotalFinder";
+
+/* registration */
+"TotalFinder Registration" = "רשימת TotalFinder";
+"Registration" = "רשימה";
+"Please enter your license details from the email we have sent you:" = "השלם את הרישיון שלך בדוא׳׳ל ששלחנו לך:";
+"Buy TotalFinder Now" = "קנה TotalFinder עכשיב";
+"Register" = "רשום";
+"Thanks for registering!" = "תודה שרשמת!";
+"This TotalFinder copy is licensed to:" = "עותק זה TotalFinder מורשה ל־:";
+"Close" = "סגור";
+"Change License" = "שנה רשיון";
+"Back" = "קודם";
+"Invalid license code" = "קוד רישיון לא חוקי";
+"Please go back and try again." = "אנא חזור ונסה שוב.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "כדי לרכוש רישיון עבור TotalFinder, בקר בחנות האינטרנט BinaryAge.";
+"Thank you for using TotalFinder!" = "תודה ששימשת ב־ TotalFinder!";

@@ -5,11 +5,6 @@
 "Show Visor" = "Mostrar Visor";
 "Hide Visor" = "Ocultar Visor";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Desligar";
-"Connect" = "Ligar";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Não é possível ligar à extensão do kernel! Tem a certeza de que a extensão do kernel TotalFinder.kext foi correctamente instalada?";
-
 /* About preferences pane */
 "from Beta Channel" = "do canal Beta";
 "from Dev Channel" = "do canal Desenvolvimento";

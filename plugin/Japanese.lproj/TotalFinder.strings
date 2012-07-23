@@ -5,11 +5,6 @@
 "Show Visor" = "バイザーを表示";
 "Hide Visor" = "バイザーを隠す";
 
-/* Asepsis preferences pane */
-"Disconnect" = "切断";
-"Connect" = "接続";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "カーネル拡張と接続できません！ TotalFinder.kext を適切にインストールしましたか？";
-
 /* About preferences pane */
 "from Beta Channel" = "ベータ版";
 "from Dev Channel" = "開発版";

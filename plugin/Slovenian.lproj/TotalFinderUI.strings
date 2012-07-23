@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Prilagoditev";
 "About" = "O aplikaciji";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Prikaži na vseh namizjih";
 "Show on top of the Dock" = "Prikaži nad Dock-om";
 "Free Form Window" = "Premično okno";
-
-/* asepsis page */
-"Asepsis Feature" = "Funkcija Asepsis";
-"prevents .DS_Store files to be created in local folders" = "prepreči ustvarjanje datotek DS_Store v lokalnih mapah";
-".DS_Store files will be redirected into" = "datoteke .DS_Store bodo preusmerjene v";
-"this folder should be set as writable for all users of TotalFinder" = "ta mapa naj bi imela nastavljene pravice za pisanje vseh uporabnikov";
-"Launch Migration Assistant" = "Poženi pomočnika za migracijo";
-"TotalFinder.kext status" = "TotalFinder.kext stanje";
-"Unable to connect" = "Povezava ni bila uspešna";
-"Advanced:" = "Napredno:";
-"Don't write .DS_Store to Network" = "Ne piši DS_Store na mrežne diske";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Ponastavi TotalFinder";

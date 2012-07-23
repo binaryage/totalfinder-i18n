@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "붙박이창";
-"Asepsis" = ".DS_Store";
 "Tweaks" = "고급";
 "About" = "정보";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "모든 Spaces에서 보이기";
 "Show on top of the Dock" = "Dock보다 위에 보이기";
 "Free Form Window" = "화면 가장자리에서 분리";
-
-/* asepsis page */
-"Asepsis Feature" = ".DS_Store 파일 생성 제한";
-"prevents .DS_Store files to be created in local folders" = "로컬 폴더에 .DS_Store 파일을 생성하지 않습니다.";
-".DS_Store files will be redirected into" = ".DS_Store 파일을 다음 폴더로 모두 이동:";
-"this folder should be set as writable for all users of TotalFinder" = "주의: 모든 계정에서 접근할 수 있는 권한을 가진 폴더여야 합니다.";
-"Launch Migration Assistant" = "마이그레이션 도우미 실행";
-"TotalFinder.kext status" = "TotalFinder.kext 상태";
-"Unable to connect" = "커널 확장 기능을 연결할 수 없습니다\nTotalFinder 커널 확장 기능을 설치하셨습니까?";
-"Advanced:" = "고급:";
-"Don't write .DS_Store to Network" = "네트워크 폴더에 .DS_Store 파일 생성하지 않기";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "초기값으로 복원";

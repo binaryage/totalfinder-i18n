@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Tweaks";
 "About" = "Tentang";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Tampilkan semuanya";
 "Show on top of the Dock" = "Show di atas Dock";
 "Free Form Window" = "Jendela dengan Free Form";
-
-/* asepsis page */
-"Asepsis Feature" = "Fitus Asepsis";
-"prevents .DS_Store files to be created in local folders" = "cegah membuat file .DS_Store di folder lokal";
-".DS_Store files will be redirected into" = "File .DS_Store akan dipindahkan ke";
-"this folder should be set as writable for all users of TotalFinder" = "Folder ini sebaiknya diset dapat dimodifikasi oleh semua pengguna TotalFinder";
-"Launch Migration Assistant" = "Jalankan Asisten Migrasi";
-"TotalFinder.kext status" = "Status TotalFinder.kext";
-"Unable to connect" = "Tidak dapat terhubung dengan ekstensi kernel!\nApakah anda telah menginstal ekstensi kernel TotalFinder";
-"Advanced:" = "Lebih Advance:";
-"Don't write .DS_Store to Network" = "Jangan tulis .DS_Store dalam jaringan";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Kembalikan TotalFinder ke setingan awal";

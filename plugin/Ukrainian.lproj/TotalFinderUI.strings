@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Налаштування";
 "About" = "Про програму";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Показувати на усіх Spaces";
 "Show on top of the Dock" = "Показувати над Dock";
 "Free Form Window" = "Змінний розмір вікна";
-
-/* asepsis page */
-"Asepsis Feature" = "Використовувати Asepsis";
-"prevents .DS_Store files to be created in local folders" = "запобігає створенню файлів .DS_Store у локальних папках";
-".DS_Store files will be redirected into" = "файли .DS_Store будуть перенаправлені у";
-"this folder should be set as writable for all users of TotalFinder" = "дозвольте запис у папку усім користовачам TotalFinder";
-"Launch Migration Assistant" = "Запустити Ассістент Міграції";
-"TotalFinder.kext status" = "Статус TotalFinder.kext";
-"Unable to connect" = "Неможливо з'єднатися з розширенням ядра!";
-"Advanced:" = "Додаткові можливості:";
-"Don't write .DS_Store to Network" = "Не записувати файли .DS_Store в мережі";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Відновити налаштування за замовчуванням";
