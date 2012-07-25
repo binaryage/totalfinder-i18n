@@ -1,0 +1,65 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Өөрчлөлт";
+"About" = "Тухай";
+
+/* visor page */
+"Visor Feature" = "Visor өөрчлөлтүүд";
+"a system-wide window sliding from the bottom on a hot-key" = "бүх цонхны хөдөлгөөнд өөрчлөлт оруулна";
+
+"Activation:" = "Идэвхижүүлэлт:";
+
+"Control:" = "Удирдлага:";
+"Hide on ESC" = "ESC нуух";
+"Pin Visor" = "Visor хатгах";
+
+"Animation:" = "Хөдөлгөөн:";
+"Fade Window" = "Цонх уусах";
+"Slide Window" = "Цонх шилжих";
+
+"Screen:" = "Дэлгэц:";
+"Show on all Spaces" = "Бүх Space-д харуулах";
+"Show on top of the Dock" = "Dock-н дээр харуулах";
+"Free Form Window" = "FreeForm цонх";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "TotalFinder-г анхны тохиргоонд шилжүүлэх";
+
+"File Browser:" = "Файл хөтөч:";
+"Show System Files" = "Системийн файлыг харуулах";
+"Folders on Top" = "Хавтасууд дээр харагдах";
+"Always Maximize" = "Үргэлж дэлгэц дүүрэн";
+"Toggle Dual Mode" = "Дуал горим";
+
+"Menu and Dock:" = "Цэс болон Dock:";
+"Hide icon in Menu Bar" = "Цэснээс дүрс нуух";
+"Keep original Dock icon" = "Dock дүрсийг өөрчлөхгүй";
+
+"Experimental:" = "Нэмэлт:";
+"Freelance Windows" = "Freelance цонхнууд";
+"Use narrow Tabs Bar" = "Нарийн таб бар";
+"Show CutPaste buttons in Context Menus" = "Зөөх, Паст товчнуудыг баруун товчид харуулах";
+"Allow path copying from Context Menus" = "Баруун товчоор файлын замыг хуулах";
+
+/* about page */
+"Check Now" = "Одоо шалгах";
+"Check for Updates" = "Шинэчлэлт шалгах";
+"Automatically check the website for updates" = "Вэб сайтаас шинэчлэлтийг автоматаар шалгах";
+"Include pre-releases" = "Туршилтын хувилбарыг оруулах";
+"Participate in TotalFinder testing" = "TotalFinder-н туршилтанд оролцох";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder бүртгэл";
+"Registration" = "Бүртгүүлэх";
+"Please enter your license details from the email we have sent you:" = "Бидний илгээсэн захидлын лицензийн мэдээллийг оруулна уу:";
+"Buy TotalFinder Now" = "TotalFinder Худалдаж Авах";
+"Register" = "Бүртгүүлэх";
+"Thanks for registering!" = "Бүртгүүлсэнд баярлалаа!";
+"This TotalFinder copy is licensed to:" = "Энэ TotalFinder-н лиценз эзэмшигч:";
+"Close" = "Хаах";
+"Change License" = "Лиценз өөрчлөх";
+"Back" = "Буцах";
+"Invalid license code" = "Лицензийн код буруу байна";
+"Please go back and try again." = "Буцаад дахин оролдоно уу.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder програмыг худалдан авахыг хүсвэл BinaryAge вэбийн дэлгүүрт зочлоорой.";
+"Thank you for using TotalFinder!" = "TotalFinder-г ашигласанд баярлалаа!";
