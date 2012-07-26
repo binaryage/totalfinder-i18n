@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Modificações";
 "About" = "Sobre";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Mostrar em todos os Spaces";
 "Show on top of the Dock" = "Exibir em cima do Dock";
 "Free Form Window" = "Janela de Forma Livre";
-
-/* asepsis page */
-"Asepsis Feature" = "Funcionalidade Asepsis";
-"prevents .DS_Store files to be created in local folders" = "evita que arquivos .DS_Store sejam criados em pastas locais";
-".DS_Store files will be redirected into" = "arquivos .DS_Store serão redirecionados para";
-"this folder should be set as writable for all users of TotalFinder" = "esta pasta deve poder ser escrita por todos usuários do TotalFinder";
-"Launch Migration Assistant" = "Abrir Assistente de Migração";
-"TotalFinder.kext status" = "Status do TotalFinder.kext";
-"Unable to connect" = "Não foi possível estabelecer conexão!";
-"Advanced:" = "Avançado:";
-"Don't write .DS_Store to Network" = "Não gravar .DS_Store em arquivos da rede";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Restaurar configurações padrão do TotalFinder";

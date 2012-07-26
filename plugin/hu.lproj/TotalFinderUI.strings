@@ -1,6 +1,5 @@
 /* navigation bar */
 "Visor" = "Visor";
-"Asepsis" = "Asepsis";
 "Tweaks" = "Trükkök";
 "About" = "Névjegy";
 
@@ -22,17 +21,6 @@
 "Show on all Spaces" = "Megjelenítés minden Íróasztalon";
 "Show on top of the Dock" = "Megjelenítés a Dock felett";
 "Free Form Window" = "Szabadon méretezhető ablak";
-
-/* asepsis page */
-"Asepsis Feature" = "Asepsis funkció";
-"prevents .DS_Store files to be created in local folders" = "meggátolja a .DS_Store fájlok létrehozását a helyi mappákban";
-".DS_Store files will be redirected into" = ".DS_Store fájlok át lesznek irányítva";
-"this folder should be set as writable for all users of TotalFinder" = "A mappára írási joga lesz minden TotalFinder felhasználónak";
-"Launch Migration Assistant" = "A Költöztető asszisztens elindítása";
-"TotalFinder.kext status" = "TotalFinder.kext állapota";
-"Unable to connect" = "Nem lehet csatlakozni";
-"Advanced:" = "Haladó:";
-"Don't write .DS_Store to Network" = "Nem ír .DS_Store fájlokat a hálózatra";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";

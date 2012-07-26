@@ -5,11 +5,6 @@
 "Show Visor" = "Pokaži Visor";
 "Hide Visor" = "Sakrij Visor";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Odspoji se";
-"Connect" = "Spoji se";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Ne mogu se spojiti na ekstenziju kernela! Je li TotalFinder.kext pravilno instaliran?";
-
 /* About preferences pane */
 "from Beta Channel" = "iz Beta Kanala";
 "from Dev Channel" = "iz Razvojnog Kanala";
