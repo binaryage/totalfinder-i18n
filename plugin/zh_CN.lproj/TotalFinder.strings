@@ -34,6 +34,7 @@
 "Visit Homepage…" = "访问主页…";
 "Select Next Tab" = "选择下一个标签";
 "Select Previous Tab" = "选择上一个标签";
+"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "显示器 %d";
