@@ -39,14 +39,14 @@
 "Freelance Windows" = "Wolne okna";
 "Use narrow Tabs Bar" = "Użyj wąskich zakładek";
 "Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Allow path copying from Context Menus" = "Pozwól kopiować ścieżkę z menu kontekstowego.";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Sprawdź teraz";
+"Check for Updates" = "Sprawdź uaktualnienia";
+"Automatically check the website for updates" = "Automatycznie sprawdzaj dostępność uaktualnień";
+"Include pre-releases" = "Sprawdzaj wstępne wersje";
+"Participate in TotalFinder testing" = "Uczestnicz w testowaniu TotalFindera";
 
 /* registration */
 "TotalFinder Registration" = "Rejestracja TotalFindera";
