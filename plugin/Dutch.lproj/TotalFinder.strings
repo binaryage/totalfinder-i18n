@@ -8,7 +8,7 @@
 /* About preferences pane */
 "from Beta Channel" = "in het Beta-kanaal";
 "from Dev Channel" = "in het Dev-kanaal";
-"from Stable Channel" = "in het Stable-kanaal";
+"from Stable Channel" = "in het Stabiel-kanaal";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Herstel";
@@ -34,7 +34,7 @@
 "Visit Homepage…" = "Ga naar de homepage…";
 "Select Next Tab" = "Kies volgend tabblad";
 "Select Previous Tab" = "Kies vorig tabblad";
-"Switch Active Panel" = "Switch Active Panel";
+"Switch Active Panel" = "Verander Actief Paneel";
 
 /* misc. */
 "Screen %d" = "Scherm %d";
