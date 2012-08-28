@@ -34,6 +34,7 @@
 "Visit Homepage…" = "Käy kotisivulla…";
 "Select Next Tab" = "Valitse seuraava välilehti";
 "Select Previous Tab" = "Valitse edellinen välilehti";
+"Switch Active Panel" = "Vaihda paneelien välillä";
 
 /* misc. */
 "Screen %d" = "%d";

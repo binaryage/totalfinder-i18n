@@ -5,11 +5,6 @@
 "Show Visor" = "Visor megjelenítése";
 "Hide Visor" = "Visor elrejtése";
 
-/* Asepsis preferences pane */
-"Disconnect" = "Szétkapcsolás";
-"Connect" = "Kapcsolódás";
-"Unable to connect with kernel extension! Do you have TotalFinder.kext properly installed?" = "Nem lehetséges a csatlakozás a kernel kiterjesztéshez! Megfelelően van telepítve a TotalFinder.kext állomány?";
-
 /* About preferences pane */
 "from Beta Channel" = "Béta verzió";
 "from Dev Channel" = "Fejlesztői verzió";
@@ -39,6 +34,7 @@
 "Visit Homepage…" = "Honlap meglátogatása…";
 "Select Next Tab" = "Következő fül kiválasztása";
 "Select Previous Tab" = "Előző fül kiválasztása";
+"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Képernyő %d";

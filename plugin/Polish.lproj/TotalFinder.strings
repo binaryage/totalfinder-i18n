@@ -14,12 +14,12 @@
 "Reset" = "Resetuj";
 "Cancel" = "Anuluj";
 "Do you really want reset to defaults?" = "Czy na pewno chcesz przywrócić ustawienia domyślne?";
-"This will restore initial TotalFinder settings." = "Przywróci to wszystkie ustanienia TotalFindera.";
+"This will restore initial TotalFinder settings." = "Przywróci to wszystkie ustawienia domyślne TotalFindera.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Odinstaluj";
 "Really want to uninstall TotalFinder?" = "Na pewno chcesz odinstalować TotalFindera?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Zostanie uruchomiony skrypt odinstalowujący TotalFindera i przywracający domyślne zachowanie Findera.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Zostanie uruchomiony skrypt odinstalowujący TotalFindera, który odinstaluje TotalFinder'a i przywróci domyślne zachowanie Findera.";
 
 /* MainMenu items */
 "New Finder Tab" = "Nowa karta Findera";
@@ -34,6 +34,7 @@
 "Visit Homepage…" = "Przejdź na stronę domową…";
 "Select Next Tab" = "Wybierz następną zakładkę";
 "Select Previous Tab" = "Wybierz poprzednią zakładkę";
+"Switch Active Panel" = "Przełącz aktywny panel";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
