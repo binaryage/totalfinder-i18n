@@ -1,0 +1,55 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Kiểm Tra Phiên Bản Mới";
+"Uninstall TotalFinder" = "Xoá TotalFinder";
+"Restart Finder" = "Khởi Động Lại Finder";
+"Show Visor" = "Hiển thị Visor";
+"Hide Visor" = "Làm Ẩn Visor";
+
+/* About preferences pane */
+"from Beta Channel" = "Từ kênh Beta";
+"from Dev Channel" = "Từ kênh Dev";
+"from Stable Channel" = "Từ kênh table";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Khôi phục lại";
+"Cancel" = "Huỷ";
+"Do you really want reset to defaults?" = "Bản có muốn khôi phục lại như mặc định?";
+"This will restore initial TotalFinder settings." = "Khôi phục lại như sắp đặt ban đầu.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Xoá";
+"Really want to uninstall TotalFinder?" = "Bạn có thực sự muốn xoá TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Chường trình xoá sẽ được chạy và gỡ bỏ TotoFinder khỏi máy tính của bạn, chương trình Finder sẽ trở lại như trước.";
+
+/* MainMenu items */
+"New Finder Tab" = "Tab Finder Mới";
+"Close Tab" = "Đóng Tab";
+"Close Window" = "Đóng Cửa Sổ";
+"Show System Files" = "Hiển Thị File Hệ Thống";
+"Folders On Top" = "Xếp Danh Mục Trên Cùng";
+"Toggle Dual Mode" = "Kích Hoạt Chế Độ Hai Của Sổ";
+"Narrow Tabs Bar" = "Tab Hẹp";
+"Pin Visor" = "Ghim Visor";
+"TotalFinder Preferences…" = "TotalFinder Tuỳ chọn...";
+"Visit Homepage…" = "Viếng Thăm Trang Chủ…";
+"Select Next Tab" = "Chọn Tab Kế Tiếp";
+"Select Previous Tab" = "Chọn Tab Đằng Sau";
+"Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
+
+/* misc. */
+"Screen %d" = "Màn Hình %d";
+
+/* status badge */
+"TotalFinder - unregistered version" = "TotalFinder - phiên bản chưa đăng ký";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - còn 1 ngày -mua ngay!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - còn 2 ngày - mua ngay!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - còn 3 ngày - ngay!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - còn 4 ngày - mua ngay!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - còn 5 ngày - nagy!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - còn %d ngày - mua ngay!";
+
+/* registration */
+"Licensed to %@" = "Giấy phép cho %@";
+"Change License" = "Đổi giấy phép";
+"Unregistered version in trial mode" = "Phiên bản chưa đăng ký trong chế độ xài thử";
+"Register" = "Đăng ký";

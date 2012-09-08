@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder bị thoát";
+"crashDialogMsg" = "Chúng tôi rất, Totalfinder bị trục trặc và tự động đóng lại";
+"crashDialogNote" = "Chú ý: Finder tự động khởi động lại nhưng bạn có thể mở lại chương trình Totalfinder.app bằng phương pháp thủ công.";
+"crashDialogExplanation" = "Nút gửi sẽ gửi thông báo lỗi đến gist.github.com và mở trương trình Mail.app có sẵn email mẫu.";
+
+"failDialogHeader" = "Không thể gửi thông báo lỗi đến gist.github.com";
+"failDialogMsg1" = "Rất tiếc. Tôi Không thể tìm ra thông báo lỗi của bạn trong ~/Logs/CrashReporter";
+"failDialogMsg2" = "Tôi đã thấy thông báo lỗi nhưng không thể gửi đến gist.github.com. vì lý do nào đó. \n\nTrường hợp khẩn, bản có thể gửi bằng phương pháp thủ công:\n%@";
+"failDialogOK" = "Đồng ý";
+
+"sendReportButton" = "Gửi email";
+"cancelButton" = "Thoát";
+
+"emailTemplate" = "Chào Antonin,\n\nTrương trình %@ bị lỗi!\n\nThông báo lỗi ở tại đây:\n%@\n\n>\n> Bạn có thể giúp tôi sửa chữa vấn đề bằng cách giúp tôi mô tả chuyện gì xẩy ra trước khi chương trình bị lỗi.\n> Tôi đánh giá cao sự hổ trợ của bạn nhưng đừng chờ trả lời trực tiếp của tôi.\n> Để thảo luận thêm vấn đề này bạn có thể vào đây\n> http://getsatisfaction.com/binaryage.\n>\n> Cảm ơn, Antonin";
+
+"countdownMsgSecondsPlural" = "còn lại %d giây.";
+"countdownMsgSecondSingular" = "còn lại %d giây.";
+
+"countdownMsgMinutesPlural" = "còn lại %d phút.";
+"countdownMsgMinuteSingular" = "còn lại %d Phút.";
