@@ -1,0 +1,65 @@
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Hiệu Chỉnh";
+"About" = "Giới Thiệu";
+
+/* visor page */
+"Visor Feature" = "Chức năng Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "một hệ thống trươt từ dưới bằng phím nóng";
+
+"Activation:" = "Kích hoạt:";
+
+"Control:" = "Điều Khiển:";
+"Hide on ESC" = "Ẩn khi bấm ESC";
+"Pin Visor" = "Ghim Visor";
+
+"Animation:" = "Chuyển động:";
+"Fade Window" = "Cửa sồ phai dần";
+"Slide Window" = "Cửa sồ trượt";
+
+"Screen:" = "Màn hình:";
+"Show on all Spaces" = "Hiển thị tất cả khoản trắng";
+"Show on top of the Dock" = "Hiển thị trên Dock";
+"Free Form Window" = "Cửa sồ biến đổi";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Thiết lập lại như ban đầu";
+
+"File Browser:" = "Tìm kiếm file:";
+"Show System Files" = "Hiển thị file hệ thống";
+"Folders on Top" = "Xếp thư mục trên cùng";
+"Always Maximize" = "Luôn luôn mở lớn ra";
+"Toggle Dual Mode" = "Kích hoạt chế độ hai của sổ";
+
+"Menu and Dock:" = "Danh bạ và Dock:";
+"Hide icon in Menu Bar" = "Ẩn biểu tượng trên thanh Danh Bạ";
+"Keep original Dock icon" = "Sử dụng biểu tượng của Finder";
+
+"Experimental:" = "Thí nghiệm:";
+"Freelance Windows" = "Của sổ Freelance";
+"Use narrow Tabs Bar" = "Sử dụng tab hẹp";
+"Show CutPaste buttons in Context Menus" = "Hiển thị nút cắt và dán trong menu ngữ cảnh";
+"Allow path copying from Context Menus" = "Cho phép đường dẫn sao chép từ menu ngữ cảnh";
+
+/* about page */
+"Check Now" = "Kiểm tra ngay";
+"Check for Updates" = "Kiểm tra cập nhật mới";
+"Automatically check the website for updates" = "Tự đông kiểm tra cập nhật mới";
+"Include pre-releases" = "Bảo gồm phiên bản pre-releases";
+"Participate in TotalFinder testing" = "Tham dự trương trình thử nghiệm TotalFinder";
+
+/* registration */
+"TotalFinder Registration" = "Đăng ký TotalFinder";
+"Registration" = "Đăng Ký";
+"Please enter your license details from the email we have sent you:" = "Làm ơn điền số giấy phép từ trong email chúng gửi cho bạn";
+"Buy TotalFinder Now" = "Mua TotalFinder Ngay";
+"Register" = "Đăng ký";
+"Thanks for registering!" = "Cảm ơn đã đăng ký!";
+"This TotalFinder copy is licensed to:" = "Bản TotalFinder này được cấp phép cho:";
+"Close" = "Đóng";
+"Change License" = "Thay đổi giấy phép";
+"Back" = "Trở lại";
+"Invalid license code" = "Giấy phép không hợp lệ";
+"Please go back and try again." = "Vui lòng thử lại";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Mua bản quyền TotalFinder, vui lòng viếng thăm của hàng online BinaryAge";
+"Thank you for using TotalFinder!" = "Cảm ơn bạn đã sử dụng TotalFinder!";
