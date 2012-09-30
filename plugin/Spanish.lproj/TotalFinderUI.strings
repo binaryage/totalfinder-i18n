@@ -29,7 +29,7 @@
 "Show System Files" = "Ver archivos ocultos";
 "Folders on Top" = "Carpetas primero";
 "Always Maximize" = "Maximizar completamente";
-"Toggle Dual Mode" = "Alternar modo de paneles duo";
+"Toggle Dual Mode" = "Alternar paneles duo";
 
 "Menu and Dock:" = "Menú y Dock:";
 "Hide icon in Menu Bar" = "Ocultar icono en barra de menús"; /* both 'icono' and 'ícono' are correct, Mac OS X calls it 'iconos'. 'Barra de menús' translation is the same as in the 'Networking preference pane' */
@@ -37,7 +37,7 @@
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "No agrupar ventanas";
-"Use narrow Tabs Bar" = "Usar barra de pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */ /* Edit by Eduan: Changed it to an actual Spanish sentence, README.md says that it doesn't matter that much, counting on you Antonin! */
+"Use narrow Tabs Bar" = "Barra pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */ /* Edit by Eduan: Changed it to an actual Spanish sentence, README.md says that it doesn't matter that much, counting on you Antonin! */
 "Show CutPaste buttons in Context Menus" = "Cortar y Pegar desde el menú contextual";
 "Allow path copying from Context Menus" = "Copiar rutas desde el menú contextual";
 
