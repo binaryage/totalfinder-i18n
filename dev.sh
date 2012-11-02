@@ -9,13 +9,13 @@ ROOT=$PWD
 popd > /dev/null
 
 if [ ! -d "$TOTALFINDER_RESOURCES" ]; then # is it a folder?
-    echo "Please install TotalFinder. Folder '$TOTALFINDER_RESOURCES' not found".
-    exit
+  echo "Please install TotalFinder. Folder '$TOTALFINDER_RESOURCES' not found".
+  exit
 fi
 
 if [ -L "$TOTALFINDER_RESOURCES" ]; then # is is a symlink?
-    echo "TotalFinder is already in dev mode. Folder '$TOTALFINDER_RESOURCES' is a symlink! Exiting.".
-    exit
+  echo "TotalFinder is already in dev mode. Folder '$TOTALFINDER_RESOURCES' is a symlink! Exiting.".
+  exit
 fi
 
 # ok, we should be safe to do the replacement
