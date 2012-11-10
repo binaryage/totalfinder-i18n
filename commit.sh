@@ -9,6 +9,6 @@ git commit -a -m "$REPLY"
 read -p "Succesfully commited! Do you want to push? [y/n] " -n 1
 echo ""
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-	git push
-	echo "Pushed!"
+  git push
+  echo "Pushed!"
 fi
