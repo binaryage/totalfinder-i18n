@@ -1,0 +1,20 @@
+"crashDialogHeader" = "Ο TotalFinder τερματίστηκε απρόσμενα";
+"crashDialogMsg" = "Συγγνώμη, αλλά ο TotalFinder παρουσίασε ένα τυχαίο σφάλμα και τερμάτισε τον Finder.";
+"crashDialogNote" = "Σημ.: Ο Finder επανεκκίνησε αυτόματα αλλά πρέπει να τρέξετε ξανά το TotalFinder.app.";
+"crashDialogExplanation" = "Το κουμπί Αποστολή θα στείλει φόρμα αναφοράς σφαλμάτων στο gist.github.com μέσω του Mail.app.";
+
+"failDialogHeader" = "Αδυναμία αποστολής αναφοράς σφαλμάτων στο gist.github.com";
+"failDialogMsg1" = "Κρίμα. Δεν μπόρεσα να εντοπίσω την αναφορά σφαλμάτων στο ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Μπόρεσα να εντοπίσω την αναφορά σφαλμάτων, αλλά η αποστολή στο gist.github.com απέτυχε.\n\nΕάν είναι επείγον, δοκιμάστε ξανά:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Αποστολή Email";
+"cancelButton" = "Άκυρο";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d δευτερόλεπτα απομένουν.";
+"countdownMsgSecondSingular" = "%d δευτερόλεπτο απομένει.";
+
+"countdownMsgMinutesPlural" = "%d λεπτά απομένουν.";
+"countdownMsgMinuteSingular" = "%d λεπτό απομένει.";

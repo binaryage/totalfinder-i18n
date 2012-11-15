@@ -8,7 +8,7 @@
 /* About preferences pane */
 "from Beta Channel" = "Beta";
 "from Dev Channel" = "Dev";
-"from Stable Channel" = "Stable";
+"from Stable Channel" = "Σταθερή";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Αρχικοποίηση";

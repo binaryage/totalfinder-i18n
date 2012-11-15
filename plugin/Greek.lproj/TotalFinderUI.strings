@@ -39,14 +39,14 @@
 "Freelance Windows" = "Ελεύθερα παράθυρα";
 "Use narrow Tabs Bar" = "Σμίκρυνση καρτελών";
 "Show CutPaste buttons in Context Menus" = "Αποκοπή-Επικόλληση στο δεξί κλικ";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Allow path copying from Context Menus" = "Αντιγραφή Path με δεξί κλικ";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Έλεγχος τώρα";
+"Check for Updates" = "Έλεγχος αναβαθμίσεων";
+"Automatically check the website for updates" = "Αυτόματος έλεγχος αναβαθμίσεων";
+"Include pre-releases" = "Περιλαμβάνονται προ-εκδόσεις";
+"Participate in TotalFinder testing" = "Bοηθήστε την ανάπτυξη του TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "Ενεργοποίηση TotalFinder";
