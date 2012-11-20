@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">11G15</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2809</string>
-		<string key="IBDocument.AppKitVersion">1138.47</string>
-		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<int key="IBDocument.SystemTarget">1080</int>
+		<string key="IBDocument.SystemVersion">12C3006</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">2809</string>
+			<string key="NS.object.0">2844</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSCustomObject</string>
@@ -67,6 +67,15 @@
 						<reference key="NSMixedImage" ref="909841666"/>
 						<int key="NSTag">2</int>
 					</object>
+					<object class="NSMenuItem" id="448916902">
+						<reference key="NSMenu" ref="642325171"/>
+						<string key="NSTitle">^UNC Path</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="964447011"/>
+						<reference key="NSMixedImage" ref="909841666"/>
+						<int key="NSTag">3</int>
+					</object>
 					<object class="NSMenuItem" id="1071539412">
 						<reference key="NSMenu" ref="642325171"/>
 						<string key="NSTitle">^HFS Path</string>
@@ -74,7 +83,7 @@
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="964447011"/>
 						<reference key="NSMixedImage" ref="909841666"/>
-						<int key="NSTag">3</int>
+						<int key="NSTag">4</int>
 					</object>
 					<object class="NSMenuItem" id="5251494">
 						<reference key="NSMenu" ref="642325171"/>
@@ -83,7 +92,7 @@
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="964447011"/>
 						<reference key="NSMixedImage" ref="909841666"/>
-						<int key="NSTag">4</int>
+						<int key="NSTag">5</int>
 					</object>
 				</array>
 			</object>
@@ -142,6 +151,14 @@
 					<int key="connectionID">75</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">cmdCopyPath:</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="448916902"/>
+					</object>
+					<int key="connectionID">92</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">owner_</string>
 						<reference key="source" ref="328250918"/>
@@ -193,6 +210,7 @@
 							<reference ref="900285697"/>
 							<reference ref="176295097"/>
 							<reference ref="5251494"/>
+							<reference ref="448916902"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -231,6 +249,11 @@
 						<reference key="parent" ref="0"/>
 						<string key="objectName">Localizer And Layout Tweaker</string>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">91</int>
+						<reference key="object" ref="448916902"/>
+						<reference key="parent" ref="642325171"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -245,12 +268,13 @@
 				<string key="64.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="65.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="86.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="91.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">90</int>
+			<int key="maxID">92</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
