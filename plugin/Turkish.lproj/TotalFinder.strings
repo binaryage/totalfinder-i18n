@@ -6,15 +6,15 @@
 "Hide Visor" = "Vizör'ü Gizle";
 
 /* About preferences pane */
-"from Beta Channel" = "Beta Kanalından";
-"from Dev Channel" = "Geliştirme Kanalından";
-"from Stable Channel" = "Stabil Kanalından";
+"from Beta Channel" = "Beta Kanal";
+"from Dev Channel" = "Geliştirme Kanal";
+"from Stable Channel" = "Stabil Kanal";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Sıfırla";
-"Cancel" = "Vazgeç";
+"Cancel" = "İptal";
 "Do you really want reset to defaults?" = "Varsayılan ayarlara dönmek istediğinizden emin misiniz?";
-"This will restore initial TotalFinder settings." = "Bu işlem TotalFinder'ı öntanımlı ayarlarına döndürecektir.";
+"This will restore initial TotalFinder settings." = "Bu işlem TotalFinder'ı başlangıç ayarlarına döndürecektir.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Kaldır";
@@ -29,12 +29,12 @@
 "Folders On Top" = "Klasörler Üstte";
 "Toggle Dual Mode" = "İkili Paneli Aç/Kapat";
 "Narrow Tabs Bar" = "Sekme Çubuğunu Daralt";
-"Pin Visor" = "Bakacı Sabitle";
+"Pin Visor" = "Vizörü Sabitle";
 "TotalFinder Preferences…" = "TotalFinder Ayarları…";
 "Visit Homepage…" = "TotalFinder Ana Sayfası...";
 "Select Next Tab" = "Sonraki Sekmeye Git";
 "Select Previous Tab" = "Önceki Sekmeye Git";
-"Switch Active Panel" = "Switch Active Panel";
+"Switch Active Panel" = "Aktif Panele geç";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
@@ -51,5 +51,5 @@
 /* registration */
 "Licensed to %@" = "%@ adına tescil edilmiştir.";
 "Change License" = "Tescili değiştir";
-"Unregistered version in trial mode" = "Kayıtsız deneme sürümü";
+"Unregistered version in trial mode" = "Tescilsiz deneme sürümü";
 "Register" = "Kayıt";
