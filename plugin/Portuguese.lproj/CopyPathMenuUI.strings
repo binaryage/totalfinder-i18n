@@ -4,3 +4,4 @@
 "Windows Path" = "Local Windows";
 "HFS Path" = "Local HFS";
 "Terminal Path" = "Local Terminal";
+"UNC Path" = "UNC Path";
