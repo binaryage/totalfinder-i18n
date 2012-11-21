@@ -24,6 +24,7 @@
 /* MainMenu items */
 "New Finder Tab" = "Nouvel onglet Finder";
 "Close Tab" = "Fermer un onglet";
+"Reopen Closed Tab" = "Rouvrir l'onglet fermé";
 "Close Window" = "Fermer une fenêtre";
 "Show System Files" = "Afficher les fichiers système";
 "Folders On Top" = "Afficher les dossiers en tête";
