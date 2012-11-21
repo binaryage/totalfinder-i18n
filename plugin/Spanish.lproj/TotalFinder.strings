@@ -24,6 +24,7 @@
 /* MainMenu items */
 "New Finder Tab" = "Nueva pestaña del Finder";
 "Close Tab" = "Cerrar pestaña";
+"Reopen Closed Tab" = "Volver a abrir pestaña cerrada";
 "Close Window" = "Cerrar ventana";
 "Show System Files" = "Mostrar archivos del sistema";
 "Folders On Top" = "Carpetas primero"; /* To be consistent with TotalFinderUI.strings */
