@@ -18,8 +18,8 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
-"Really want to uninstall TotalFinder?" = "¿Está seguro que desea desinstalar TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación eliminará TotalFinder de esta computadora y restaurará el comportamiento original del Finder.";
+"Really want to uninstall TotalFinder?" = "¿Está seguro de que desea desinstalar TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta operación eliminará TotalFinder de este ordenador y restaurará el comportamiento original del Finder.";
 
 /* MainMenu items */
 "New Finder Tab" = "Nueva pestaña del Finder";
@@ -27,7 +27,7 @@
 "Close Window" = "Cerrar ventana";
 "Show System Files" = "Mostrar archivos del sistema";
 "Folders On Top" = "Carpetas primero"; /* To be consistent with TotalFinderUI.strings */
-"Toggle Dual Mode" = "Modo de paneles duo";
+"Toggle Dual Mode" = "Modo dual";
 "Narrow Tabs Bar" = "Barra de pestañas estrecha";
 "Pin Visor" = "Fijar Visor";
 "TotalFinder Preferences…" = "Preferencias de TotalFinder…";
@@ -40,7 +40,7 @@
 "Screen %d" = "Pantalla %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - versión sin registrarse";
+"TotalFinder - unregistered version" = "TotalFinder - versión no registrada";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 día restante - ¡cómpralo ya!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 días restantes - ¡cómpralo ya!";
 "TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 días restantes - ¡cómpralo ya!";
