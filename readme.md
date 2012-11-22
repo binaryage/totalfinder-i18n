@@ -9,7 +9,7 @@
 You can tweak resource files and add your preferred language.
 
 The idea is to install TotalFinder and then symlink its `Resources` folder to the copy of this repository where you can edit it.
-You should push your changes back to GitHub and I will then incorporate your work into next TotalFinder release.
+You should push your changes back to GitHub and I will then incorporate your work into [next TotalFinder release](http://totalfinder.binaryage.com/beta-changes).
 
 You may want to read [TotalFinder opened for localization](http://blog.binaryage.com/totalfinder-localization/) blog post.
 
