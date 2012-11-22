@@ -2,13 +2,6 @@
 "Check for Updates" = "Провери за обновления";
 "Uninstall TotalFinder" = "Деинсталирай TotalFinder";
 "Restart Finder" = "Рестартирай Finder";
-"Show Visor" = "Покажи Visor";
-"Hide Visor" = "Скрий Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "от Beta Channel";
-"from Dev Channel" = "от Dev Channel";
-"from Stable Channel" = "от Stable Channel";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Настройки по подразбиране";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ще бъде стартирана процедура по деинсталация, която ще премахне TotalFinder от този компютър и ще възстанови оригиналния вид на Finder.";
 
 /* MainMenu items */
-"New Finder Tab" = "Нов Finder раздел";
-"Close Tab" = "Затвори раздела";
-"Close Window" = "Затвори прозореца";
-"Show System Files" = "Покажи системни файлове";
-"Folders On Top" = "Покажи директориите най-отгоре";
-"Toggle Dual Mode" = "Двупанелен режим";
-"Narrow Tabs Bar" = "Тънка лента с раздели";
-"Pin Visor" = "Прикрепи трайно Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Настройки на TotalFinder…";
 "Visit Homepage…" = "Посетете страницата на проекта…";
-"Select Next Tab" = "Следващ раздел";
-"Select Previous Tab" = "Предишен раздел";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Екран %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - нерегистрирана версия";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - Остава 1 ден - Купете сега!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - Остават 2 дни - Купете сега!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - Остават 3 дни - Купете сега!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - Остават 4 дни - Купете сега!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - Остават 5 дни - Купете сега!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - Остават %d дни - Купете сега!";
 
 /* registration */
 "Licensed to %@" = "Лицензирано копие на %@";

@@ -2,13 +2,6 @@
 "Check for Updates" = "Tjek for Opdateringer";
 "Uninstall TotalFinder" = "Afinstaller TotalFinder";
 "Restart Finder" = "Genstart Finder";
-"Show Visor" = "Vis Visor";
-"Hide Visor" = "Skjul Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "fra Beta Channel";
-"from Dev Channel" = "fra Dev Channel";
-"from Stable Channel" = "fra Stable Channel";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Nulstil";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dette vil køre et afinstallations script som vil fjerne TotalFinder fra denne computer og gendanne Finders originale adfærd.";
 
 /* MainMenu items */
-"New Finder Tab" = "Ny Finder Fane";
-"Close Tab" = "Luk Fane";
-"Close Window" = "Luk Vindue";
-"Show System Files" = "Vis System Filer";
-"Folders On Top" = "Mapper Øverst";
-"Toggle Dual Mode" = "Skift Dual-mode";
-"Narrow Tabs Bar" = "Indsnæver Fane Bar";
-"Pin Visor" = "Fastgør Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinder Indstillinger…";
 "Visit Homepage…" = "Besøg Hjemmeside…";
-"Select Next Tab" = "Vælg Næste Fane";
-"Select Previous Tab" = "Vælg Forrige Fane";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Skærm %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - ikke-registreret version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag tilbage - køb nu!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dage tilbage - køb nu!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dage tilbage - køb nu!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dage tilbage - køb nu!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dage tilbage - køb nu!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dage tilbage - køb nu!";
 
 /* registration */
 "Licensed to %@" = "Licenseret til %@";

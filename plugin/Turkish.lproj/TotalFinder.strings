@@ -2,13 +2,6 @@
 "Check for Updates" = "Güncelleştirmeleri Denetle";
 "Uninstall TotalFinder" = "TotalFinder'ı Kaldır";
 "Restart Finder" = "Finder'ı Yeniden Başlat";
-"Show Visor" = "Vizör'ü Göster";
-"Hide Visor" = "Vizör'ü Gizle";
-
-/* About preferences pane */
-"from Beta Channel" = "Beta Kanal";
-"from Dev Channel" = "Geliştirme Kanal";
-"from Stable Channel" = "Stabil Kanal";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Sıfırla";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bu işlem TotalFinder'ı bu bilgisayardan kaldırmak ve orijinal Finder davranışını geri getirmek için bir kaldırma betiği başlatacaktır.";
 
 /* MainMenu items */
-"New Finder Tab" = "Yeni Finder Sekmesi";
-"Close Tab" = "Sekmeyi Kapat";
-"Close Window" = "Pencereyi Kapat";
-"Show System Files" = "Sistem Dosyalarını Göster";
-"Folders On Top" = "Klasörler Üstte";
-"Toggle Dual Mode" = "İkili Paneli Aç/Kapat";
-"Narrow Tabs Bar" = "Sekme Çubuğunu Daralt";
-"Pin Visor" = "Vizörü Sabitle";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinder Ayarları…";
 "Visit Homepage…" = "TotalFinder Ana Sayfası...";
-"Select Next Tab" = "Sonraki Sekmeye Git";
-"Select Previous Tab" = "Önceki Sekmeye Git";
-"Switch Active Panel" = "Aktif Panele geç";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - Tescilsiz Sürüm";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - şimdi satın al!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - şimdi satın al!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 gün kaldı - şimdi satın al!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 gün kaldı - şimdi satın al!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 gün kaldı - şimdi satın al!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d gün kaldı - şimdi satın al!";
 
 /* registration */
 "Licensed to %@" = "%@ adına tescil edilmiştir.";

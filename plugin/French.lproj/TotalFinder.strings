@@ -2,13 +2,6 @@
 "Check for Updates" = "Mise à jour";
 "Uninstall TotalFinder" = "Désinstaller TotalFinder";
 "Restart Finder" = "Relancer le Finder";
-"Show Visor" = "Afficher Visor";
-"Hide Visor" = "Masquer Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "en version béta";
-"from Dev Channel" = "en version dév";
-"from Stable Channel" = "en version stable";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Réinitialiser";
@@ -22,32 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Cela déclenchera un script de désinstallation qui supprimera TotalFinder de votre système et restaurera le comportement original du Finder.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nouvel onglet Finder";
-"Close Tab" = "Fermer un onglet";
-"Reopen Closed Tab" = "Rouvrir l'onglet fermé";
-"Close Window" = "Fermer une fenêtre";
-"Show System Files" = "Afficher les fichiers système";
-"Folders On Top" = "Afficher les dossiers en tête";
-"Toggle Dual Mode" = "Activer/désactiver le mode double";
-"Narrow Tabs Bar" = "Compacter la barre d'onglets";
-"Pin Visor" = "Épingler Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Préférences TotalFinder…";
 "Visit Homepage…" = "Voir le site Web…";
-"Select Next Tab" = "Sélectionner l'onglet suivant";
-"Select Previous Tab" = "Sélectionner l'onglet précédent";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Écran %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - version non enregistrée";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - Encore 1 jour - Acheter !";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - Encore 2 jours - Acheter !";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - Encore 3 jours - Acheter !";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - Encore 4 jours - Acheter !";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - Encore 5 jours - Acheter !";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - Encore %d jours - Acheter !";
 
 /* registration */
 "Licensed to %@" = "Licence accordée à %@";

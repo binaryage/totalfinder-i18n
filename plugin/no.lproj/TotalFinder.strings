@@ -2,13 +2,6 @@
 "Check for Updates" = "Se etter oppdateringer";
 "Uninstall TotalFinder" = "Avinstaller TotalFinder";
 "Restart Finder" = "Start Finder på nytt";
-"Show Visor" = "Vis Visor";
-"Hide Visor" = "Skjul Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "fra beta-versjoner";
-"from Dev Channel" = "fra utvikler-versjoner";
-"from Stable Channel" = "fra stabile versjoner";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Gjenopprett";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dette vil starte et avinstallerings-script som vil fjerne TotalFinder fra datamaskinen og gjenopprette den originale Finder-oppførselen.";
 
 /* MainMenu items */
-"New Finder Tab" = "Ny Finder-fane";
-"Close Tab" = "Lukk fane";
-"Close Window" = "Lukk vindu";
-"Show System Files" = "Vis systemfiler";
-"Folders On Top" = "Sorter mapper før filer";
-"Toggle Dual Mode" = "Skru av/på Dual Mode";
-"Narrow Tabs Bar" = "Bruk smale faner";
-"Pin Visor" = "Lås Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Instillinger for TotalFinder…";
 "Visit Homepage…" = "Besøk hjemmesiden…";
-"Select Next Tab" = "Velg neste fane";
-"Select Previous Tab" = "Velg forrige fane";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Skjerm %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - uregistrert versjon";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag igjen - kjøp nå!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dager igjen - kjøp nå!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dager igjen - kjøp nå!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dager igjen - kjøp nå!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dager igjen - kjøp nå!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dager igjen - kjøp nå!";
 
 /* registration */
 "Licensed to %@" = "Lisensiert til %@";

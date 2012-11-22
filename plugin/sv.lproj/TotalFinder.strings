@@ -2,13 +2,6 @@
 "Check for Updates" = "Kolla efter Uppdateringar";
 "Uninstall TotalFinder" = "Avinstallera TotalFinder";
 "Restart Finder" = "Starta om Finder";
-"Show Visor" = "Visa Visor";
-"Hide Visor" = "Göm Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "Beta versioner";
-"from Dev Channel" = "Utvecklar versioner";
-"from Stable Channel" = "Stabila versioner";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Återställ";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Detta startar ett skript vilket kommer avinstallera TotalFinder och återställa Finder till originalfunktionalitet.";
 
 /* MainMenu items */
-"New Finder Tab" = "Ny Finder-flik";
-"Close Tab" = "Stäng flik";
-"Close Window" = "Stäng fönster";
-"Show System Files" = "Visa systemfiler";
-"Folders On Top" = "Sortera mappar före filer";
-"Toggle Dual Mode" = "Av-/Aktivera Dual Mode";
-"Narrow Tabs Bar" = "Använd smalare Flikar";
-"Pin Visor" = "Nåla Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinder inställningar…";
 "Visit Homepage…" = "Besök hemsidan…";
-"Select Next Tab" = "Välj nästa flik";
-"Select Previous Tab" = "Välj föregående flik";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Bildskärm %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - oregistrerad version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag kvar - köp nu!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dagar kvar - köp nu!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dagar kvar - köp nu!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dagar kvar - köp nu!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dagar kvar - köp nu!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dagar kvar - köp nu!";
 
 /* registration */
 "Licensed to %@" = "Registrerad till %@";

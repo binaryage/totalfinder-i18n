@@ -211,9 +211,11 @@ def update_english_localizable_strings(project, xib_mask)
   puts " #{"+#{added_count}".blue} #{"-#{removed_count}".red} of #{localizable_strings.size} in #{target}"
 end
 
-def inprint_strings(source, dest)
+def inprint_strings(source, dest, shared_originals=[])
   strings = parse_strings_file(source)
-  originals = parse_strings_file(dest)
+  originals = []
+  originals.concat shared_originals
+  originals.concat parse_strings_file(dest)
 
   # transform lang back to english
   index = 0
@@ -262,9 +264,15 @@ end
 def propagate_english_to_cwd
   puts Dir.pwd.blue
   total = 0
+
+  # TotalFinder*.strings are master files, some strings may move from shared master to some plugin
+  shared1 = parse_strings_file File.join(Dir.pwd, "TotalFinder.strings")
+  shared2 = parse_strings_file File.join(Dir.pwd, "TotalFinderUI.strings")
+  shared = ([].concat shared1).concat shared2
+
   Dir.glob(File.join(ENGLISH_LPROJ, "*.strings")) do |file|
     puts "  #{File.basename(file)}".yellow
-    total += inprint_strings(file, File.join(Dir.pwd, File.basename(file))).size
+    total += inprint_strings(file, File.join(Dir.pwd, File.basename(file)), shared).size
   end
   puts "  -> "+total.to_s.green+" strings processed"
 end

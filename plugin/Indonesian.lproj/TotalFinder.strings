@@ -2,13 +2,6 @@
 "Check for Updates" = "Periksa jika ada update";
 "Uninstall TotalFinder" = "Uninstall TotalFinder";
 "Restart Finder" = "Jalankan ulang Finder";
-"Show Visor" = "Tunjukkan Visor";
-"Hide Visor" = "Sembunyikan Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "dari Channel Beta";
-"from Dev Channel" = "dari Channel Dev";
-"from Stable Channel" = "dari Channel Stabil";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Reset";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ini akan menjalankan sebuah script uninstall yang akan menghilangkan TotalFinder dari komputer ini dan mengembalikan Finder anda ke aslinya.";
 
 /* MainMenu items */
-"New Finder Tab" = "Finder Tab Baru";
-"Close Tab" = "Tutup Tab";
-"Close Window" = "Tutup Window";
-"Show System Files" = "Tunjukkan System Files";
-"Folders On Top" = "Folder Selalu Di Atas";
-"Toggle Dual Mode" = "Ganti dari/ke Dual Mode";
-"Narrow Tabs Bar" = "Sempitkan Tabs Bar";
-"Pin Visor" = "Tahan Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Preferensi TotalFinder..";
 "Visit Homepage…" = "Kunjungi Halaman Web…";
-"Select Next Tab" = "Pilih Tab Berikutnya";
-"Select Previous Tab" = "Pilih Tab Sebelumnya";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Screen %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - versi belum teregistrasi";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 hari tersisa - beli sekarang!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 hari tersisa - beli sekarang!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 hari tersisa - beli sekarang!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 hari tersisa - beli sekarang!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 hari tersisa - beli sekarang!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d hari tersisa - beli sekarang!";
 
 /* registration */
 "Licensed to %@" = "Lisensi unutuk %@";

@@ -2,13 +2,6 @@
 "Check for Updates" = "Frissítések keresése";
 "Uninstall TotalFinder" = "TotalFinder eltávolítása";
 "Restart Finder" = "Finder újraindítása";
-"Show Visor" = "Visor megjelenítése";
-"Hide Visor" = "Visor elrejtése";
-
-/* About preferences pane */
-"from Beta Channel" = "Béta verzió";
-"from Dev Channel" = "Fejlesztői verzió";
-"from Stable Channel" = "Végső kiadás";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Visszaállítás";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "A folyamat egy eltávolító scriptet indít, amely törli a TotalFinder-t és visszaállítja az eredeti Finder-t.";
 
 /* MainMenu items */
-"New Finder Tab" = "Új Finder fül";
-"Close Tab" = "Fül bezárása";
-"Close Window" = "Ablak bezárása";
-"Show System Files" = "Rendszerfájlok megjelenítése";
-"Folders On Top" = "Mappák felül";
-"Toggle Dual Mode" = "Váltás kettős módra";
-"Narrow Tabs Bar" = "Keskeny fülek";
-"Pin Visor" = "Visor rögzítése";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinder beállítások…";
 "Visit Homepage…" = "Honlap meglátogatása…";
-"Select Next Tab" = "Következő fül kiválasztása";
-"Select Previous Tab" = "Előző fül kiválasztása";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Képernyő %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - Nem regisztrált verzió";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 nap maradt - vásárlás most!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 nap maradt - vásárlás most!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 nap maradt - vásárlás most!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 nap maradt - vásárlás most!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 nap maradt - vásárlás most!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d nap maradt - vásárlás most!";
 
 /* registration */
 "Licensed to %@" = "Regisztrálva %@";

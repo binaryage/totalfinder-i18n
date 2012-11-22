@@ -2,13 +2,6 @@
 "Check for Updates" = "Sprawdź aktualizacje";
 "Uninstall TotalFinder" = "Odinstaluj TotalFindera";
 "Restart Finder" = "Zrestartuj Findera";
-"Show Visor" = "Pokaż Visora";
-"Hide Visor" = "Schowaj Visora";
-
-/* About preferences pane */
-"from Beta Channel" = "z kanału beta";
-"from Dev Channel" = "z kanału deweloperskiego";
-"from Stable Channel" = "z kanału stabilnego";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Resetuj";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Zostanie uruchomiony skrypt odinstalowujący TotalFindera, który odinstaluje TotalFinder'a i przywróci domyślne zachowanie Findera.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nowa karta Findera";
-"Close Tab" = "Zamknij kartę";
-"Close Window" = "Zamknij okno";
-"Show System Files" = "Pokazuj pliki systemowe";
-"Folders On Top" = "Foldery na górze";
-"Toggle Dual Mode" = "Wł/wył tryb podwójny";
-"Narrow Tabs Bar" = "Użyj wąskich zakładek";
-"Pin Visor" = "Przypnij Visora";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Ustawienia TotalFindera…";
 "Visit Homepage…" = "Przejdź na stronę domową…";
-"Select Next Tab" = "Wybierz następną zakładkę";
-"Select Previous Tab" = "Wybierz poprzednią zakładkę";
-"Switch Active Panel" = "Przełącz aktywny panel";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - niezarejestrowana wersja";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - Pozostał jeden dzień - kup teraz!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - Pozostały dwa dni - kup teraz!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - Pozostały trzy dni - kup teraz!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - Pozostały cztery dni- kup teraz!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - Pozostało pięć - kup teraz!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - Pozostało %d dni - kup teraz!";
 
 /* registration */
 "Licensed to %@" = "Licencjonowano dla %@";
