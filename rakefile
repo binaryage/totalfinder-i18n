@@ -47,7 +47,6 @@ def get_list_of_plugins(filter=nil)
     end
   end
 
-#  features.uniq.reject{|x| x=="Features"}
   plugins.uniq
 end
 
