@@ -9,8 +9,8 @@ FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin')
 INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
 ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
-TOTALFINDER_PLUGIN_SOURCES = File.join(ROOT_DIR, '..', '..', 'plugin')
-TOTALFINDER_FEATURES_SOURCES = File.join(ROOT_DIR, '..', '..', 'totalfinder-features')
+TOTALFINDER_SOURCES = File.join(ROOT_DIR, '..', '..', 'shell')
+TOTALFINDER_PLUGINS_SOURCES = File.join(ROOT_DIR, '..', 'plugins')
 
 ################################################################################################
 # dependencies
@@ -37,17 +37,18 @@ end
 ################################################################################################
 # routines
 
-def get_list_of_features(filter=nil)
+def get_list_of_plugins(filter=nil)
   filter = "*" unless filter
 
-  features = []
-  Dir.glob(File.join(TOTALFINDER_FEATURES_SOURCES, filter)) do |file|
+  plugins = []
+  Dir.glob(File.join(TOTALFINDER_PLUGINS_SOURCES, filter)) do |file|
     if File.directory?(file) and File.exists? File.join(file, File.basename(file)+".xcodeproj")  then
-      features << File.basename(file)
+      plugins << File.basename(file)
     end
   end
 
-  features.uniq.reject{|x| x=="Features"}
+#  features.uniq.reject{|x| x=="Features"}
+  plugins.uniq
 end
 
 def extract_code_strings(folder)
@@ -462,28 +463,28 @@ desc "cherrypicks strings from sources and applies missing strings to English.lp
 task :cherrypick do
   die "install ack 1.92+ | for example via homebrew:> brew install ack" if `which ack`==""
 
-  features = get_list_of_features()
+  plugins = get_list_of_plugins()
   totalfinder_xibs = []
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "*.xib")) do |file|
     name = File.basename(file, ".xib")
-    totalfinder_xibs << name unless features.include? name
+    totalfinder_xibs << name unless plugins.include? name
   end
 
   totalfinder_filter = "'(#{totalfinder_xibs.join("|")})\\.xib'"
 
-  if File.exists? TOTALFINDER_PLUGIN_SOURCES then
+  if File.exists? TOTALFINDER_SOURCES then
     puts "Processing TotalFinder...".yellow
-    update_english_strings("TotalFinder", TOTALFINDER_PLUGIN_SOURCES)
+    update_english_strings("TotalFinder", TOTALFINDER_SOURCES)
     update_english_localizable_strings("TotalFinder", totalfinder_filter) # process just TotalFinder's xibs
   end
 
-  features.each do |feature|
-    feature_dir = File.join(TOTALFINDER_FEATURES_SOURCES, feature)
-    if File.exists? feature_dir then
-      puts "Processing #{feature}...".yellow
-      update_english_strings(feature, feature_dir)
-      feature_filter = "'(#{feature})\\.xib'"
-      update_english_localizable_strings(feature, feature_filter) # process just feature's xibs
+  plugins.each do |plugin|
+    plugin_dir = File.join(TOTALFINDER_PLUGINS_SOURCES, plugin)
+    if File.exists? plugin_dir then
+      puts "Processing #{plugin}...".yellow
+      update_english_strings(plugin, plugin_dir)
+      plugin_filter = "'(#{plugin})\\.xib'"
+      update_english_localizable_strings(plugin, plugin_filter) # process just plugin's xibs
     end
   end
 end
