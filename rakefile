@@ -424,22 +424,22 @@ end
 
 desc "switch /Applications/TotalFinder.app into dev mode"
 task :dev do
-  sys("./dev.sh")
+  sys("./bin/dev.sh")
 end
 
 desc "switch /Applications/TotalFinder.app into non-dev mode"
 task :undev do
-  sys("./undev.sh")
+  sys("./bin/undev.sh")
 end
 
 desc "compile XIBs to NIBs (you need this only when you modify UI in the InterfaceBuilder)"
 task :compile do
-  sys("./compile.sh")
+  sys("./bin/compile.sh")
 end
 
 desc "restart Finder.app"
 task :restart do
-  sys("./restart.sh")
+  sys("./bin/restart.sh")
 end
 
 desc "normalize Finder.app so it contains all our language folders (run with sudo)"
