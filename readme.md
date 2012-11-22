@@ -2,7 +2,7 @@
 
 **TotalFinder** is a plugin for Apple's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
 
-<img src="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot.png">
+<img src="http://totalfinder.binaryage.com/images/showcase/showcase-dual-mode.png">
 
 ## Do you want to translate TotalFinder into your language?
 
