@@ -4,7 +4,7 @@
 "Restart Finder" = "Start Finder på nytt";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Gjenopprett";
+"Reset" = "Tilbakestill";
 "Cancel" = "Avbryt";
 "Do you really want reset to defaults?" = "Vil du virkelig gjenopprette standardinnstillingene?";
 "This will restore initial TotalFinder settings." = "Dette vil gjenopprette TotalFinders standardinnstillinger.";
