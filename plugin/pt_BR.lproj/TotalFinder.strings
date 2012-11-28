@@ -7,7 +7,7 @@
 "Reset" = "Restaurar";
 "Cancel" = "Cancelar";
 "Do you really want reset to defaults?" = "Tem certeza que deseja restaurar as configurações para o padrão?";
-"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
+"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração inicial do TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
