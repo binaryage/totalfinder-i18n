@@ -6,24 +6,24 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "重置";
 "Cancel" = "取消";
-"Do you really want reset to defaults?" = "你真的想恢复到默认配置？";
-"This will restore initial TotalFinder settings." = "这将会初始化 TotalFinder 配置。";
+"Do you really want reset to defaults?" = "你真的想恢复到默认设置？";
+"This will restore initial TotalFinder settings." = "这将会初始化 TotalFinder 设置。";
 
 /* Unistall Alert Box */
 "Uninstall" = "卸载";
-"Really want to uninstall TotalFinder?" = "您真的想要卸载 TotalFinder 吗？";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "这将会执行卸载脚本卸载 TotalFinder 并恢复到原始的 Finder 程序。";
+"Really want to uninstall TotalFinder?" = "您确定想要卸载 TotalFinder 吗？";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "这将会执行 TotalFinder 的卸载命令，恢复您原来的 Finder 。";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder 配置…";
+"TotalFinder Preferences…" = "TotalFinder 设置…";
 "Visit Homepage…" = "访问主页…";
 
 /* misc. */
-"Screen %d" = "显示器 %d";
+"Screen %d" = "屏幕 %d";
 
 /* registration */
-"Licensed to %@" = "已授权给 %@";
-"Change License" = "更换授权";
-"Unregistered version in trial mode" = "未注册的试用版";
+"Licensed to %@" = "已注册给：%@";
+"Change License" = "更换注册码";
+"Unregistered version in trial mode" = "未注册试用版";
 "Register" = "注册";
