@@ -5,7 +5,7 @@
 
 /* visor page */
 "Visor Feature" = "Vizör özelliği";
-"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde kısayol ile alttan açılarak ekranı kapsayan pencere";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan açılan pencere";
 
 "Activation:" = "Aktivasyon:";
 
@@ -19,11 +19,11 @@
 
 "Screen:" = "Ekran:";
 "Show on all Spaces" = "Bütün Alanlarda göster";
-"Show on top of the Dock" = "İskeleyi(Dock) ört";
+"Show on top of the Dock" = "İskelenin(Dock) üzerinde göster";
 "Free Form Window" = "Serbest şekillendirilebilir pencere";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "TotalFinder'ı varsayılan ayarlara sıfırla";
+"Reset TotalFinder to defaults" = "TotalFinder ayarlarını varsayılan ayarlara döndür";
 
 "File Browser:" = "Dosya tarayıcısı:";
 "Show System Files" = "Sistem dosyalarını göster";
@@ -32,36 +32,36 @@
 "Toggle Dual Mode" = "İkili Pencereyi Aç/Kapat";
 
 "Menu and Dock:" = "Menü ve İskele(dock):";
-"Hide icon in Menu Bar" = "TotalFinder simgesini menüden kaldır";
-"Keep original Dock icon" = "Orjinal İskele(Dock) simgesini kullan";
+"Hide icon in Menu Bar" = "TotalFinder simgesini menü çubuğunda gizle";
+"Keep original Dock icon" = "Orijinal İskele(Dock) simgesini kullan";
 
 "Experimental:" = "Deneysel:";
 "Freelance Windows" = "Bağımsız Pencereler";
-"Use narrow Tabs Bar" = "Dar sekmeleri kullan";
-"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır seçeneklerini sağ tık menüsünde göster";
-"Allow path copying from Context Menus" = "Menü'den kopyalamaya izin ver";
+"Use narrow Tabs Bar" = "Dar sekme çubuğu kullan";
+"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır butonlarını sağ tık menüsünde göster";
+"Allow path copying from Context Menus" = "Menü'den Yol kopyalamaya izin ver";
 
 /* about page */
 "Check Now" = "Şimdi kontrol et";
 "Check for Updates" = "Güncellemeleri kontrol et";
-"Automatically check the website for updates" = "Güncellemeleri otomatik kontrol et";
-"Include pre-releases" = "Önsürümleri dahil et";
+"Automatically check the website for updates" = "Güncellemeleri otomatik olarak kontrol et";
+"Include pre-releases" = "Ön-sürümleri dahil et";
 "Participate in TotalFinder testing" = "TotalFinder'ın test sürecine katıl";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder Kaydı";
 "Registration" = "Kayıt";
-"Please enter your license details from the email we have sent you:" = "Lütfen size gönderdiğimiz e-postadaki lisans bilgilerini aktarınız:";
+"Please enter your license details from the email we have sent you:" = "Lütfen size gönderdiğimiz e-postadaki lisans bilgilerini giriniz:";
 "Buy TotalFinder Now" = "TotalFinder'ı Satın Alın";
 "Register" = "Kayıt";
 "Thanks for registering!" = "Kaydınız için teşekkürler!";
-"This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının tescili:";
+"This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının lisans sahibi:";
 "Close" = "Kapat";
-"Change License" = "Tescili Değiştir";
+"Change License" = "Lisansı Değiştir";
 "Back" = "Geri";
-"Invalid license code" = "Yanlış tescil kodu";
+"Invalid license code" = "Hatalı lisans kodu";
 "Please go back and try again." = "Lütfen geri dönüp tekrar deneyin";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder tescilini satın almak için lütfen BinaryAge internet sitesini ziyaret edin.";
-"Thank you for using TotalFinder!" = "TotalFinder kullandığınız için teşekkürler!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder için lisans satın almak için lütfen BinaryAge web sitesini ziyaret edin.";
+"Thank you for using TotalFinder!" = "TotalFinder'ı kullandığınız için teşekkürler!";
+"License Name" = "Lisans İsmi";
+"License Key" = "Lisans Anahtarı";
