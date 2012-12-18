@@ -1,5 +1,5 @@
 "crashDialogHeader" = "TotalFinder is onverwacht gestopt";
-"crashDialogMsg" = "Het spijt ons, in TotalFinder is een probleem opgetreden waardoor Finder is gecrasht.";
+"crashDialogMsg" = "Het spijt ons, in TotalFinder is een probleem opgetreden waardoor de Finder is gecrasht.";
 "crashDialogNote" = "NB: Finder is automatisch opnieuw opgestart, maar u dient TotalFinder.app nog handmatig te starten.";
 "crashDialogExplanation" = "Door op 'Stuur e-mail' te klikken wordt het rapport naar gist.github.com geüpload en zal Mail.app worden geopend met een mailconcept.";
 
