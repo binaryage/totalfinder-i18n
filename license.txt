@@ -23,3 +23,23 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+DUTCH LICENSE INFORMATIE:
+
+Copyright (c) 2010-2013, BinaryAge Limited
+Deelnemers: http://github.com/binaryage/totalfinder-i18n/contributors
+All rights reserved.
+
+Aanpassen van de code die beschikbaar is gesteld mag onder bepaalde voorwaarden:
+    * Aanpassingen aan de code moetten overzicht bieden aan de oude ontwikkelaard.
+    * RDe Copyright van alle uitgaves moeten blijven staan en mogen niet weggehaalt worden
+    * De naam Antonin Hildebrand of die van andere mogen niet gebruikt worden zonder toestemming
+      van de eigenaar zonder hiervan in kennis gesteld te worden
+
+DEZE SOFTWARE IS AANGELEVERD DOOR BINARYAGE LIMITED ``IS'' IS GELEVERD
+ZONDER WAARSCHUWING, KAN FOUTEN BEVATTEN EN HIER IS BINARYAGE LIMITED NIET AANSPRAKELIJK VOOR
+SCHADE DIE GELEDEN IS DOOR GEBRUIK VAN DE SOFTWARE. ER KUNNEN GEEN RECHTEN ONTLEED WORDEN
+AAN GEBRUIK VAN DEZE SOFTWARE EN MOET WORDEN GENOMEN ZOALS HET IS. BIJ VERKEERD GEBRUIK
+IS HET RISICO VOOR DE GEBRUIKER EN NIEMAND NOCH DE ONTWIKKELAARS OF VRIJWILLIGERS KUNNEN
+DOOR GEBRUIK AANSPRAKELIJK GESTELD WORDEN VOOR DEZE SOFTWARE.
