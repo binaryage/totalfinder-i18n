@@ -2,13 +2,6 @@
 "Check for Updates" = "Праверыць абнаўлення";
 "Uninstall TotalFinder" = "Выдаліць TotalFinder";
 "Restart Finder" = "Перазапусціць Finder";
-"Show Visor" = "Паказаць Visor";
-"Hide Visor" = "Схаваць Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "з Beta Channel";
-"from Dev Channel" = "з Dev Channel";
-"from Stable Channel" = "з Stable Channel";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Скінуць";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Будзе запушчаны скрыпт, які выдаліць TotalFinder і адновіць першапачатковае паводзіны Finder.";
 
 /* MainMenu items */
-"New Finder Tab" = "Новая ўкладка Finder";
-"Close Tab" = "Зачыніць укладку";
-"Close Window" = "Зачыніць акно";
-"Show System Files" = "Паказваць схаваныя файлы";
-"Folders On Top" = "Паказваць папкі зверху";
-"Toggle Dual Mode" = "Пераключыць двухпанельный рэжым";
-"Narrow Tabs Bar" = "Вузкая панэль укладак";
-"Pin Visor" = "Замацаваць Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Налады TotalFinder…";
 "Visit Homepage…" = "Адкрыць хатнюю старонку праекту…";
-"Select Next Tab" = "Выбраць наступную ўкладку";
-"Select Previous Tab" = "Выбраць папярэднюю ўкладку";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Экран %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - незарэгістраваная версія";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - застаўся 1 дзень - купіце зараз!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - засталося 2 дні - купіце зараз!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - засталося 3 дні - купіце зараз!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - засталося 4 дні - купіце зараз!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - засталося 5 дзен - купіце зараз!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - засталося %d днен - купіце зараз!";
 
 /* registration */
 "Licensed to %@" = "Ліцэнзія выдадзена %@";

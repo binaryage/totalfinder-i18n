@@ -2,13 +2,6 @@
 "Check for Updates" = "アップデートを確認";
 "Uninstall TotalFinder" = "TotalFinder をアンインストールする";
 "Restart Finder" = "Finder を再起動";
-"Show Visor" = "バイザーを表示";
-"Hide Visor" = "バイザーを隠す";
-
-/* About preferences pane */
-"from Beta Channel" = "ベータ版";
-"from Dev Channel" = "開発版";
-"from Stable Channel" = "安定版";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "リセット";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "この操作で TotalFinder をアンインストールするスクリプトを実行し、Finder を元の状態に戻します。";
 
 /* MainMenu items */
-"New Finder Tab" = "新規 Finder タブ";
-"Close Tab" = "タブを閉じる";
-"Close Window" = "ウィンドウを閉じる";
-"Show System Files" = "不可視ファイルを表示";
-"Folders On Top" = "フォルダをまとめて表示";
-"Toggle Dual Mode" = "デュアルモードの切替";
-"Narrow Tabs Bar" = "細いタブバーを使う";
-"Pin Visor" = "バイザー固定";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "環境設定…";
 "Visit Homepage…" = "ホームページ（英語）を開く…";
-"Select Next Tab" = "次のタブを選択";
-"Select Previous Tab" = "前のタブを選択";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "スクリーン %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - 未登録";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 試用期限の残りはあと 1 日です - 購入してください！";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 2 日です - 購入してください！";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 3 日です - 購入してください！";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 4 日です - 購入してください！";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 5 日です - 購入してください！";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - 試用期限の残りはあと %d 日です - 購入してください！";
 
 /* registration */
 "Licensed to %@" = "%@ にライセンスされています";

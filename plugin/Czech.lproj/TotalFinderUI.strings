@@ -42,11 +42,11 @@
 "Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";
 
 /* about page */
-"Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Zkusit";
+"Check for Updates" = "Dotazovat se na aktualizace";
+"Automatically check the website for updates" = "Automaticky se dotazovat na aktualizace z webu";
+"Include pre-releases" = "Nabízet také testovací verze";
+"Participate in TotalFinder testing" = "Díky za pomoc s testováním TotalFinderu";
 
 /* registration */
 "TotalFinder Registration" = "Registrace TotalFinderu";
@@ -63,3 +63,5 @@
 "Please go back and try again." = "Prosím vraťte se zpět a zkuste to znovu.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licenci pro TotalFinder můžete koupit ve webovém obchodu BinaryAge.";
 "Thank you for using TotalFinder!" = "Díky, že používáte TotalFinder!";
+"License Name" = "Licenční jméno";
+"License Key" = "Licenční klíč";

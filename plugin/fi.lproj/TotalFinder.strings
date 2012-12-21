@@ -2,13 +2,6 @@
 "Check for Updates" = "Tarkista päivitykset";
 "Uninstall TotalFinder" = "Poista TotalFinder";
 "Restart Finder" = "Käynnistä Finder uudelleen";
-"Show Visor" = "Näytä Visor";
-"Hide Visor" = "Piilota Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "Beta-kanavalta";
-"from Dev Channel" = "Kehittäjä-kanavalta";
-"from Stable Channel" = "Julkaisu-kanavalta";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Palauta asetukset";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tämä poistaa TotalFinderin ja palauttaa normaalin Finderin käyttöösi.";
 
 /* MainMenu items */
-"New Finder Tab" = "Uusi Finderin välilehti";
-"Close Tab" = "Sulje välilehti";
-"Close Window" = "Sulje ikkuna";
-"Show System Files" = "Näytä piilotiedostot";
-"Folders On Top" = "Kansiot ensin";
-"Toggle Dual Mode" = "Kaksoispaneeliselaus";
-"Narrow Tabs Bar" = "Ohenna välilehtipalkkia";
-"Pin Visor" = "Jätä Visor-ikkuna esille";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinderin asetukset…";
 "Visit Homepage…" = "Käy kotisivulla…";
-"Select Next Tab" = "Valitse seuraava välilehti";
-"Select Previous Tab" = "Valitse edellinen välilehti";
-"Switch Active Panel" = "Vaihda paneelien välillä";
 
 /* misc. */
 "Screen %d" = "%d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - rekisteröimätön versio";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 päivä jäljellä - osta nyt!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 päivää jäljellä - osta nyt!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 päivää jäljellä - osta nyt!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 päivää jäljellä - osta nyt!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 päivää jäljellä - osta nyt!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d päivää jäljellä - osta nyt!";
 
 /* registration */
 "Licensed to %@" = "Lisenssin omistaja: %@.";

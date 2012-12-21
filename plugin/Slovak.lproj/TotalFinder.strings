@@ -2,13 +2,6 @@
 "Check for Updates" = "Vyhľadať aktualizácie";
 "Uninstall TotalFinder" = "Odinštalovať TotalFinder";
 "Restart Finder" = "Restartovať Finder";
-"Show Visor" = "Aktivovať Visor";
-"Hide Visor" = "Deaktivovať Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "from Beta Channel";
-"from Dev Channel" = "from Dev Channel";
-"from Stable Channel" = "from Stable Channel";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Reset";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Táto akcia spustí odinštalačný skript, ktorý odstráni TotalFinder zo systému a obnoví Finder do pôvodného stavu.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nový Finder tab";
-"Close Tab" = "Zatvoriť tab";
-"Close Window" = "Zatvoriť okno";
-"Show System Files" = "Zobraziť skryté súbory";
-"Folders On Top" = "Adresáre vždy hore";
-"Toggle Dual Mode" = "Prepnúť na duálny panel";
-"Narrow Tabs Bar" = "Úzke taby";
-"Pin Visor" = "Pripnúť Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Nastavenia TotalFindera…";
 "Visit Homepage…" = "Navštíviť stránku projektu…";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Obrazovka %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
 
 /* registration */
 "Licensed to %@" = "Licensed to %@";

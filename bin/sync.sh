@@ -1,5 +1,9 @@
 #!/bin/bash
 
+pushd . > /dev/null
+cd "$(dirname "$0")"
+cd ..
+
 echo "This may end in conflict, see git docs."
 
 #point to server
@@ -21,3 +25,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   git push
   echo "Pushed!"
 fi
+
+popd > /dev/null

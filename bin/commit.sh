@@ -1,4 +1,9 @@
 #!/bin/bash
+
+pushd . > /dev/null
+cd "$(dirname "$0")"
+cd ..
+
 echo "Committing last changes..."
 echo "Note you maybe have to manually add new files you changed ('git add mynewfile.ext')"
 
@@ -12,3 +17,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   git push
   echo "Pushed!"
 fi
+
+popd > /dev/null

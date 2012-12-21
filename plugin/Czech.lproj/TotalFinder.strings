@@ -2,13 +2,6 @@
 "Check for Updates" = "Vyhledat aktualizace";
 "Uninstall TotalFinder" = "Odinstalovat TotalFinder";
 "Restart Finder" = "Restartovat Finder";
-"Show Visor" = "Aktivovat Visor";
-"Hide Visor" = "Deaktivovat Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "z beta kanálu";
-"from Dev Channel" = "z dev kanálu";
-"from Stable Channel" = "ze stabilního kanálu";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Reset";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Tato akce spustí odinstalační skript, který odstraní TotalFinder ze systému a uvede Finder do původního stavu.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nový tab Finderu";
-"Close Tab" = "Zavřít tab";
-"Close Window" = "Zavřít okno";
-"Show System Files" = "Zobrazit skryté soubory";
-"Folders On Top" = "Složky řadit nahoru";
-"Toggle Dual Mode" = "Zapnout duální panel";
-"Narrow Tabs Bar" = "Štíhlé taby";
-"Pin Visor" = "Přišpendlit Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Nastavení TotalFinderu…";
 "Visit Homepage…" = "Navštívit stránku projektu…";
-"Select Next Tab" = "Následující tab";
-"Select Previous Tab" = "Předchozí tab";
-"Switch Active Panel" = "Přepnout aktivní panel";
 
 /* misc. */
 "Screen %d" = "Obrazovka %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - neregistrovaná verze";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - zbývá 1 den - koupit teď!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - zbývají 2 dny - koupit teď!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - zbývají 3 dny - koupit teď!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - zbývají 4 dny - koupit teď!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - zbývá 5 dnů - koupit teď!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - zbývá %d dnů - koupit teď!";
 
 /* registration */
 "Licensed to %@" = "Licencováno na jméno %@";

@@ -2,13 +2,6 @@
 "Check for Updates" = "Patikrinti atnaujinimus";
 "Uninstall TotalFinder" = "Pašalinti TotalFinder";
 "Restart Finder" = "Iš naujo Finder";
-"Show Visor" = "Rodyti skydelio";
-"Hide Visor" = "Slėpti skydelio";
-
-/* About preferences pane */
-"from Beta Channel" = "iš Beta kanalas";
-"from Dev Channel" = "iš Dev kanalas";
-"from Stable Channel" = "iš Stabili kanalas";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Atstatyti";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Šis pradės pašalinti scenarijų, kuris bus pašalinti TotalFinder iš šio kompiuterio ir atkurkite pradinį paieška elgesį.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nauja Finder kortelę";
-"Close Tab" = "Užverti kortelėje";
-"Close Window" = "Uždaryti langą";
-"Show System Files" = "Rodyti sisteminius failus.";
-"Folders On Top" = "Katalogai On Top";
-"Toggle Dual Mode" = "Perjungti Dual Mode";
-"Narrow Tabs Bar" = "Siaurojo Kortelės Baras";
-"Pin Visor" = "Prisegti skydelio";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinder Nustatymai…";
 "Visit Homepage…" = "Aplankykite puslapis…";
-"Select Next Tab" = "Pasirinkite Kitas Kortelėje";
-"Select Previous Tab" = "Pasirinkite Ankstesnis Kortelėje";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Ekrano %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - Neregistruotas versijos";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 diena kairėje - pirkti dabar!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dienos kairės - pirkti dabar!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dienos kairės - pirkti dabar!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dienos kairės - pirkti dabar!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dienos kairės - pirkti dabar!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dienos kairės - pirkti dabar!";
 
 /* registration */
 "Licensed to %@" = "Licencijuota %@";

@@ -1,14 +1,7 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Provjeri Nadogradnje";
+"Check for Updates" = "Provjeri nadogradnje";
 "Uninstall TotalFinder" = "Deinstaliraj TotalFinder";
 "Restart Finder" = "Ponovno pokreni Finder";
-"Show Visor" = "Pokaži Visor";
-"Hide Visor" = "Sakrij Visor";
-
-/* About preferences pane */
-"from Beta Channel" = "iz Beta Kanala";
-"from Dev Channel" = "iz Razvojnog Kanala";
-"from Stable Channel" = "iz Stabilnog Kanala";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Resetiraj";
@@ -22,31 +15,12 @@
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ovo će pokrenuti skriptu za deinstalaciju koja će ukloniti TotalFinder sa ovog računala i vratiti izvorno ponašanje Finder-a.";
 
 /* MainMenu items */
-"New Finder Tab" = "Nova Finder Kartica";
-"Close Tab" = "Zatvori Karticu";
-"Close Window" = "Zatvori Prozor";
-"Show System Files" = "Prikaži Sistemske Datoteke";
-"Folders On Top" = "Mape Na Vrhu";
-"Toggle Dual Mode" = "Uključi/isključi Dual Način Rada";
-"Narrow Tabs Bar" = "Uske Kartice";
-"Pin Visor" = "Zalijepi Visor";
+"TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Postavke TotalFinder-a…";
 "Visit Homepage…" = "Posjetite Web stranicu…";
-"Select Next Tab" = "Odaberi Slijedeću Karticu";
-"Select Previous Tab" = "Odaberi Prethodnu Karticu";
-"Switch Active Panel" = "Switch Active Panel";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
-
-/* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - neregistrirana verzija";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dan preostao - kupite sada!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dana preostala - kupite sada!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dana preostala - kupite sada!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dana preostala - kupite sada!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dana preostala - kupite sada!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dana preostalo - kupite sada!";
 
 /* registration */
 "Licensed to %@" = "Licencirano na %@";
