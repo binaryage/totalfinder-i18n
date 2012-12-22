@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!-- ===== Directory ===== -->
+	<key>tAps</key>
+	<array>
+		<string>/Applications</string>
+		<string>~/Applications</string>
+	</array>
+	<key>tDsk</key>
+	<array>
+		<string>~/Desktop</string>
+	</array>
+	<key>tDoc</key>
+	<array>
+		<string>~/Documents</string>
+	</array>
+	<key>tDwn</key>
+	<array>
+		<string>~/Downloads</string>
+	</array>
+	<key>tLib</key>
+	<array>
+		<string>/Library</string>
+		<string>~/Library</string>
+	</array>
+	<key>tMov</key>
+	<array>
+		<string>~/Movies</string>
+	</array>
+	<key>tMus</key>
+	<array>
+		<string>~/Music</string>
+	</array>
+	<key>tPic</key>
+	<array>
+		<string>~/Pictures</string>
+	</array>
+	<key>tPub</key>
+	<array>
+		<string>~/Public</string>
+	</array>
+	<key>tSts</key>
+	<array>
+		<string>~/Sites</string>
+	</array>
+	<key>tUtl</key>
+	<array>
+		<string>/Applications/Utilities</string>
+	</array>
+<!-- ===== Other ===== -->
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/iDiskGenericIcon.icns</key>
+	<array>
+		<string>iDisk</string>
+	</array>
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AirDrop.icns</key>
+	<array>
+		<string>nwnode://domain-AirDrop</string>
+	</array>
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/CDAudioVolumeIcon.icns</key>
+	<array>
+		<string>nwnode://domain-Remote%20Disc</string>
+	</array>
+<!-- ===== Media ===== -->
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/ToolbarMusicFolderIcon.icns</key>
+	<array>
+		<string>NSMediaBrowserMediaTypeAudioTemplate32</string>
+	</array>
+	<key>NSMediaBrowserMediaTypePhotos</key>
+	<array>
+		<string>NSMediaBrowserMediaTypePhotosTemplate32</string>
+	</array>
+	<key>NSMediaBrowserMediaTypeMovies</key>
+	<array>
+		<string>NSMediaBrowserMediaTypeMoviesTemplate32</string>
+	</array>
+</dict>
+</plist>
