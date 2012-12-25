@@ -1,0 +1,29 @@
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "Kontrolli Uuendusi";
+"Uninstall TotalFinder" = "Eemalda TotalFinder";
+"Restart Finder" = "Taaskäivita Finder";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "Reset";
+"Cancel" = "Katkesta";
+"Do you really want reset to defaults?" = "Kas sa tõesti tahad taastada algseaded?";
+"This will restore initial TotalFinder settings." = "See tegevus taastab algsed TotalFinderi seaded.";
+
+/* Unistall Alert Box */
+"Uninstall" = "Eemalda";
+"Really want to uninstall TotalFinder?" = "Kas sa tõesti tahad eemaldada TotalFinderit?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "See käivitab skripti, mis eemaldab TotalFinderi sellest arvutist ja taastab algse Finderi.";
+
+/* MainMenu items */
+"TotalFinder" = "TotalFinder";
+"TotalFinder Preferences…" = "TotalFinderi Seadistused…";
+"Visit Homepage…" = "Külasta kodulehte…";
+
+/* misc. */
+"Screen %d" = "Ekraan %d";
+
+/* registration */
+"Licensed to %@" = "Litsentseeritud: %@";
+"Change License" = "Muuda litsentsi";
+"Unregistered version in trial mode" = "Registreerimata versioon proovirežiimis";
+"Register" = "Registreeri";
