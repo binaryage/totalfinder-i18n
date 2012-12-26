@@ -1,7 +1,7 @@
 "Copy Path" = "Kopya Yolu";
-"POSIX Path" = "POSIX (Hiyerarşik Dosya Sistemi) Yolu";
+"POSIX Path" = "POSIX Yolu";
 "URL" = "URL";
 "Windows Path" = "Windows Yolu";
-"HFS Path" = "Apple Yolu";
+"HFS Path" = "HFS Yolu";
 "Terminal Path" = "Terminal Yolu";
 "UNC Path" = "UNC Path";

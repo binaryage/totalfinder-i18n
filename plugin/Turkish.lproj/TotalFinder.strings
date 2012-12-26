@@ -11,19 +11,19 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "Kaldır";
-"Really want to uninstall TotalFinder?" = "TotalFinder'ı kaldırmayı gerçekten istiyor musunuz?";
+"Really want to uninstall TotalFinder?" = "TotalFinder'ı kaldırmak istediğinizden emin misiniz?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bu işlem TotalFinder'ı bu bilgisayardan kaldırmak ve orijinal Finder davranışını geri getirmek için bir kaldırma betiği başlatacaktır.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder Ayarları…";
-"Visit Homepage…" = "TotalFinder Ana Sayfası...";
+"TotalFinder Preferences…" = "TotalFinder Tercihleri…";
+"Visit Homepage…" = "Web Sitesini Ziyaret Et…";
 
 /* misc. */
 "Screen %d" = "Ekran %d";
 
 /* registration */
-"Licensed to %@" = "%@ adına tescil edilmiştir.";
-"Change License" = "Tescili değiştir";
-"Unregistered version in trial mode" = "Tescilsiz deneme sürümü";
+"Licensed to %@" = "%@ adına lisanslıdır.";
+"Change License" = "Lisansı değiştir";
+"Unregistered version in trial mode" = "Lisanssız deneme sürümü";
 "Register" = "Kayıt";
