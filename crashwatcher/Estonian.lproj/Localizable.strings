@@ -1,17 +1,17 @@
 "crashDialogHeader" = "TotalFinder lõpetas ootamatult töö";
-"crashDialogMsg" = "We are sorry, but TotalFinder hit an unexpected problem and crashed Finder.";
-"crashDialogNote" = "Note: Finder was restarted automatically but you have to launch TotalFinder.app manually again.";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogMsg" = "TotalFinderis tekkis tõrge ning lõpetas ootamatult Finderi töö, vabandame.";
+"crashDialogNote" = "Teave: Finderile tehti automaatselt restart, kuid pead TotalFinder.app'i käsitsi taaskäivitama.";
+"crashDialogExplanation" = "Saada nupp laeb vearaporti gist.github.com lehele ning käivitab Mail.app rakenduse sobiva e-kirja põhjaga.";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogHeader" = "Vearaporti üleslaadimine gist.github.com-i ebaõnnestus";
+"failDialogMsg1" = "Kahjuks ma ei suutnud leida vearaportit sinu ~/Logs/CrashReporter kaustast.";
+"failDialogMsg2" = "Leidsin vearaporti, kuid üleslaadimine gist.github.com-i ebaõnnestus tundmatul põhjusel.\n\nKui on kiire, siis võib selle saata mulle käsitsi:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Saada Email";
 "cancelButton" = "Katkesta";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Aitäh, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Sa saad aidata mul viga parandada, kirjeldades inglise keeles enda tegevust rakenduses enne selle kokku jooksmist.\n> Ma hindan Teie abi ning ma loen neid vearaporteid, kuid alati ei pruugi ma tagasi kirjutada.\n> Edasise abi saamiseks alusta vestlust:\n> http://getsatisfaction.com/binaryage.\n>\n> Aitäh, Antonin";
 
 "countdownMsgSecondsPlural" = "%d sekundit jäänud.";
 "countdownMsgSecondSingular" = "%d sekund jäänud.";

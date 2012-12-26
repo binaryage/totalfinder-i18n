@@ -4,7 +4,7 @@
 "Restart Finder" = "Taaskäivita Finder";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Reset";
+"Reset" = "Taasta";
 "Cancel" = "Katkesta";
 "Do you really want reset to defaults?" = "Kas sa tõesti tahad taastada algseaded?";
 "This will restore initial TotalFinder settings." = "See tegevus taastab algsed TotalFinderi seaded.";
