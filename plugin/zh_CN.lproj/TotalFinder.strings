@@ -20,7 +20,7 @@
 "Visit Homepage…" = "访问主页…";
 
 /* misc. */
-"Screen %d" = "屏幕 %d";
+"Screen" = "屏幕";
 
 /* registration */
 "Licensed to %@" = "已注册给：%@";

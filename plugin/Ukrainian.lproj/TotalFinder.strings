@@ -20,7 +20,7 @@
 "Visit Homepage…" = "Відвідати домашню сторінку проекту…";
 
 /* misc. */
-"Screen %d" = "Дисплей %d";
+"Screen" = "Дисплей";
 
 /* registration */
 "Licensed to %@" = "Ліцензію видано %@";

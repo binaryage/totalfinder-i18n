@@ -20,7 +20,7 @@
 "Visit Homepage…" = "Przejdź na stronę domową…";
 
 /* misc. */
-"Screen %d" = "Ekran %d";
+"Screen" = "Ekran";
 
 /* registration */
 "Licensed to %@" = "Licencjonowano dla %@";

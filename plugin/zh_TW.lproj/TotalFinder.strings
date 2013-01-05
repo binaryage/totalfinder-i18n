@@ -20,7 +20,7 @@
 "Visit Homepage…" = "造訪網站…";
 
 /* misc. */
-"Screen %d" = "顯示器 %d";
+"Screen" = "顯示器";
 
 /* registration */
 "Licensed to %@" = "授權給 %@";

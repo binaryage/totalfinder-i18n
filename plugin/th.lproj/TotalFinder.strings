@@ -20,7 +20,7 @@
 "Visit Homepage…" = "เปิดหน้าเว็บเพจ…";
 
 /* misc. */
-"Screen %d" = "จอ %d";
+"Screen" = "จอ";
 
 /* registration */
 "Licensed to %@" = "ให้ %@ อนุญาตใช้งาน";

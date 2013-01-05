@@ -20,7 +20,7 @@
 "Visit Homepage…" = "Honlap meglátogatása…";
 
 /* misc. */
-"Screen %d" = "Képernyő %d";
+"Screen" = "Képernyő";
 
 /* registration */
 "Licensed to %@" = "Regisztrálva %@";

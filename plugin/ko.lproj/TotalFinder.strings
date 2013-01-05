@@ -20,7 +20,7 @@
 "Visit Homepage…" = "홈페이지 방문…";
 
 /* misc. */
-"Screen %d" = "스크린 %d";
+"Screen" = "스크린";
 
 /* registration */
 "Licensed to %@" = "다음 사용자에게 등록되었습니다: %@";

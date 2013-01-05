@@ -20,7 +20,7 @@
 "Visit Homepage…" = "Navštíviť stránku projektu…";
 
 /* misc. */
-"Screen %d" = "Obrazovka %d";
+"Screen" = "Obrazovka";
 
 /* registration */
 "Licensed to %@" = "Licensed to %@";

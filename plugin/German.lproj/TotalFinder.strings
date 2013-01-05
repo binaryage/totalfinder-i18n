@@ -20,7 +20,7 @@
 "Visit Homepage…" = "Website besuchen…";
 
 /* misc. */
-"Screen %d" = "Bildschirm %d";
+"Screen" = "Bildschirm";
 
 /* registration */
 "Licensed to %@" = "Lizensiert für %@";
