@@ -1,6 +1,6 @@
 "crashDialogHeader" = "TotalFinder se ha cerrado inesperadamente";
-"crashDialogMsg" = "Lo sentimos, pero ha habido un problema inesperado con TotalFinder y el Finder se cerró.";
-"crashDialogNote" = "Nota: El Finder fue reiniciado automáticamente, pero tienes que abrir TotalFinder manualmente para volver a utilizarlo.";
+"crashDialogMsg" = "Lo sentimos, pero ha habido un problema inesperado con TotalFinder y Finder se cerró.";
+"crashDialogNote" = "Nota: Finder fue reiniciado automáticamente, pero debe abrir TotalFinder manualmente para volver a utilizarlo.";
 "crashDialogExplanation" = "El botón Enviar subirá un reporte sobre el error a gist.github.com, y abrirá una ventana de Mail con una plantilla.";
 
 "failDialogHeader" = "No se pudo subir el informe de error a gist.github.com";
