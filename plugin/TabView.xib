@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">12D32</string>
+		<int key="IBDocument.SystemTarget">1080</int>
+		<string key="IBDocument.SystemVersion">12D44</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
-		<string key="IBDocument.AppKitVersion">1187.35</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -52,7 +52,6 @@
 								<int key="NSvFlags">297</int>
 								<string key="NSFrame">{{144, 5}, {16, 16}}</string>
 								<reference key="NSSuperview" ref="279050519"/>
-								<reference key="NSWindow"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="142837763">
 									<int key="NSCellFlags">67108864</int>
@@ -78,7 +77,6 @@
 								<int key="NSvFlags">42</int>
 								<string key="NSFrame">{{16, 6}, {128, 14}}</string>
 								<reference key="NSSuperview" ref="279050519"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="114381901"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSTextFieldCell" key="NSCell" id="846138425">
@@ -117,7 +115,6 @@
 								<int key="NSvFlags">268</int>
 								<string key="NSFrame">{{56, 18}, {48, 16}}</string>
 								<reference key="NSSuperview" ref="279050519"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="910427947"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="425414974">
@@ -138,7 +135,6 @@
 						</array>
 						<string key="NSFrameSize">{160, 25}</string>
 						<reference key="NSSuperview" ref="629875298"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="906207332"/>
 						<string key="NSClassName">NSView</string>
 					</object>
@@ -151,7 +147,6 @@
 								<int key="NSvFlags">297</int>
 								<string key="NSFrame">{{144, 5}, {16, 16}}</string>
 								<reference key="NSSuperview" ref="1005"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="279050519"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="348599947">
@@ -174,7 +169,6 @@
 								<int key="NSvFlags">42</int>
 								<string key="NSFrame">{{16, 6}, {128, 14}}</string>
 								<reference key="NSSuperview" ref="1005"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="282918268"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSTextFieldCell" key="NSCell" id="745226941">
@@ -193,7 +187,6 @@
 								<int key="NSvFlags">268</int>
 								<string key="NSFrame">{{56, 18.5}, {48, 16}}</string>
 								<reference key="NSSuperview" ref="1005"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="1054640993"/>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="269186804">
@@ -214,14 +207,12 @@
 						</array>
 						<string key="NSFrameSize">{160, 25}</string>
 						<reference key="NSSuperview" ref="629875298"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="22122319"/>
 						<string key="NSClassName">NSView</string>
 					</object>
 				</array>
 				<string key="NSFrameSize">{160, 25}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="1005"/>
 				<string key="NSClassName">TabView</string>
 			</object>
@@ -735,13 +726,9 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<integer value="1060" key="NS.object.0"/>
-		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
-			<integer value="3200" key="NS.object.0"/>
+			<real value="4500" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>

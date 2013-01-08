@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1060</int>
+		<int key="IBDocument.SystemTarget">1080</int>
 		<string key="IBDocument.SystemVersion">12D44</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
 		<string key="IBDocument.AppKitVersion">1187.37</string>
@@ -118,8 +118,6 @@
 							<int key="NSvFlags">18</int>
 							<string key="NSFrame">{{19, 25}, {355, 448}}</string>
 							<reference key="NSSuperview" ref="249417821"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="164090357"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="463743529">
 									<string key="NSIdentifier">TotalFinderPane</string>
@@ -132,8 +130,6 @@
 												<int key="NSvFlags">12</int>
 												<string key="NSFrame">{{0, -3}, {355, 420}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
-												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="514572075"/>
 												<array class="NSMutableArray" key="NSTabViewItems">
 													<object class="NSTabViewItem" id="624044904">
 														<string key="NSIdentifier">1</string>
@@ -1469,7 +1465,6 @@
 																			<int key="NSvFlags">268</int>
 																			<string key="NSFrame">{{0, 5}, {222, 19}}</string>
 																			<reference key="NSSuperview" ref="592094316"/>
-																			<reference key="NSNextKeyView"/>
 																			<bool key="NSEnabled">YES</bool>
 																			<object class="NSButtonCell" key="NSCell" id="388266909">
 																				<int key="NSCellFlags">-2080374784</int>
@@ -1512,7 +1507,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{21, 66}, {322, 18}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="370687859"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSButtonCell" key="NSCell" id="566740179">
@@ -1537,7 +1531,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{21, 102}, {325, 18}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="785667125"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSButtonCell" key="NSCell" id="37981849">
@@ -1562,7 +1555,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{40, 92.5}, {328, 11}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="189573539"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSTextFieldCell" key="NSCell" id="1066627136">
@@ -1606,7 +1598,6 @@
 																	</set>
 																	<string key="NSFrame">{{14, 149}, {334, 119}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView"/>
 																	<string key="FrameName"/>
 																	<string key="GroupName"/>
@@ -1630,7 +1621,6 @@
 																			<int key="NSvFlags">265</int>
 																			<string key="NSFrame">{{249, 0}, {79, 32}}</string>
 																			<reference key="NSSuperview" ref="216325892"/>
-																			<reference key="NSWindow"/>
 																			<reference key="NSNextKeyView" ref="678460745"/>
 																			<bool key="NSEnabled">YES</bool>
 																			<object class="NSButtonCell" key="NSCell" id="276063502">
@@ -1656,7 +1646,6 @@
 																	</array>
 																	<string key="NSFrame">{{14, 98}, {334, 26}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="666374867"/>
 																	<string key="NSClassName">GTMWidthBasedTweaker</string>
 																</object>
@@ -1665,7 +1654,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{11, 364}, {334, 29}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="1059319158"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSTextFieldCell" key="NSCell" id="960356961">
@@ -1688,7 +1676,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{14, 347}, {334, 18}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="516170572"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSTextFieldCell" key="NSCell" id="989870497">
@@ -1707,7 +1694,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{14, 276}, {334, 18}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="801712136"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSTextFieldCell" key="NSCell" id="532458201">
@@ -1730,7 +1716,6 @@
 																			<int key="NSvFlags">268</int>
 																			<string key="NSFrame">{{0, 4}, {102, 19}}</string>
 																			<reference key="NSSuperview" ref="516170572"/>
-																			<reference key="NSWindow"/>
 																			<reference key="NSNextKeyView" ref="334605002"/>
 																			<bool key="NSEnabled">YES</bool>
 																			<object class="NSButtonCell" key="NSCell" id="608528615">
@@ -1752,7 +1737,6 @@
 																	</array>
 																	<string key="NSFrame">{{14, 314}, {334, 28}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="493243271"/>
 																	<string key="NSClassName">GTMWidthBasedTweaker</string>
 																</object>
@@ -1761,7 +1745,6 @@
 																	<int key="NSvFlags">265</int>
 																	<string key="NSFrame">{{323, 394}, {25, 25}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="107099390"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSButtonCell" key="NSCell" id="223171468">
@@ -1784,7 +1767,6 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{40, 56}, {328, 11}}</string>
 																	<reference key="NSSuperview" ref="514572075"/>
-																	<reference key="NSWindow"/>
 																	<reference key="NSNextKeyView" ref="567253236"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSTextFieldCell" key="NSCell" id="569942740">
@@ -1801,7 +1783,6 @@
 															</array>
 															<string key="NSFrameSize">{355, 420}</string>
 															<reference key="NSSuperview" ref="567253236"/>
-															<reference key="NSWindow"/>
 															<reference key="NSNextKeyView" ref="150945752"/>
 														</object>
 														<string key="NSLabel">Purchase</string>
@@ -1840,7 +1821,6 @@
 												</set>
 												<string key="NSFrame">{{27, -5}, {301, 30}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView"/>
 												<string key="FrameName"/>
 												<string key="GroupName"/>
@@ -1857,7 +1837,6 @@
 														<int key="NSvFlags">268</int>
 														<string key="NSFrame">{{0, -2}, {207, 25}}</string>
 														<reference key="NSSuperview" ref="341337731"/>
-														<reference key="NSWindow"/>
 														<reference key="NSNextKeyView" ref="567253236"/>
 														<bool key="NSEnabled">YES</bool>
 														<object class="NSSegmentedCell" key="NSCell" id="223368448">
@@ -1888,14 +1867,12 @@
 												</array>
 												<string key="NSFrame">{{7, 422}, {341, 23}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="1009375690"/>
 												<string key="NSClassName">GTMWidthBasedTweaker</string>
 											</object>
 										</array>
 										<string key="NSFrameSize">{355, 448}</string>
 										<reference key="NSSuperview" ref="481997597"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="341337731"/>
 									</object>
 									<string key="NSLabel">TotalFinder</string>
@@ -1915,7 +1892,6 @@
 					</array>
 					<string key="NSFrameSize">{394, 493}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="481997597"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {2560, 1418}}</string>
@@ -4454,13 +4430,9 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<integer value="1060" key="NS.object.0"/>
-		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
-			<real value="4300" key="NS.object.0"/>
+			<real value="4500" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>

@@ -46,8 +46,6 @@
 						<int key="NSvFlags">299</int>
 						<string key="NSFrame">{{169, 19}, {130, 19}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSClassName">MASShortcutView</string>
 					</object>
 					<object class="NSCustomView" id="240216938">
@@ -55,7 +53,6 @@
 						<int key="NSvFlags">299</int>
 						<string key="NSFrame">{{184, 43}, {130, 19}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1058962962"/>
 						<string key="NSClassName">MASShortcutView</string>
 					</object>
@@ -64,7 +61,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{36, 20}, {128, 17}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1015076090"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="874073757">
@@ -103,7 +99,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{18, 43}, {160, 18}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="240216938"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="868835506">
@@ -135,7 +130,6 @@
 				</array>
 				<string key="NSFrameSize">{480, 79}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="784531237"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -684,6 +678,10 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<real value="4500" key="NS.object.0"/>
+		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">

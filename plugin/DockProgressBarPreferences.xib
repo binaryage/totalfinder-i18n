@@ -44,7 +44,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{18, -2}, {224, 18}}</string>
 						<reference key="NSSuperview" ref="179634383"/>
-						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="1000329054">
 							<int key="NSCellFlags">67108864</int>
@@ -75,7 +74,6 @@
 				</array>
 				<string key="NSFrameSize">{480, 34}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="882002125"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -315,6 +313,10 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<real value="4500" key="NS.object.0"/>
+		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
