@@ -3948,7 +3948,7 @@
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">ShowSystemFiles</string>
 							</object>
 						</array>
@@ -3963,7 +3963,7 @@
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">FoldersOnTop</string>
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">
@@ -3983,7 +3983,7 @@
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">NarrowTabsBar</string>
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">
@@ -4005,7 +4005,7 @@
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">DualMode</string>
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">
@@ -4030,7 +4030,7 @@
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">ToggleVisor</string>
 							</object>
 						</array>
@@ -4045,7 +4045,7 @@
 						<array key="userDefinedRuntimeAttributes">
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">PinVisor</string>
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">

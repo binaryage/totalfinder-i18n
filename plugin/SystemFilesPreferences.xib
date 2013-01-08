@@ -363,7 +363,7 @@
 							</object>
 							<object class="IBUserDefinedRuntimeAttribute">
 								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
-								<string key="keyPath">shortcut</string>
+								<string key="keyPath">shortcutName</string>
 								<string key="value">ShowSystemFiles</string>
 							</object>
 						</array>
