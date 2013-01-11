@@ -440,34 +440,6 @@ task :cherrypick do
   end
 end
 
-desc "merge non-ui and ui strings"
-task :merge_strings do
-  glob = ENV["to"] || "*.lproj"
-
-  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
-    puts dir.blue
-    Dir.chdir dir do
-      Dir.glob(File.join(dir, "*UI.strings")) do |file|
-        base = File.basename(file, "UI.strings")
-        puts base
-
-        a = File.readlines "#{base}.strings"
-        b = File.readlines "#{base}UI.strings"
-        a << "\n"
-        strings = a.concat b
-
-        strings.reject! {|line| line =~ /no strings/ }
-
-        File.open("#{base}.strings", "w") do |f|
-          f << strings.join
-        end
-
-        File.unlink file
-      end
-    end
-  end
-end
-
 desc "propagates structure of English.lproj to all other language folders while keeping already translated strings"
 task :propagate do
   propagate_from_english_to_other_lprojs
