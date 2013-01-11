@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
 "Automatically check the website for updates" = "Automatically check the website for updates";
 "Include pre-releases" = "Include pre-releases";
 "Participate in TotalFinder testing" = "Participate in TotalFinder testing";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Dėkojame už registraciją!";
 "This TotalFinder copy is licensed to:" = "Šis TotalFinder kopija yra licencijuotas su:";
 "Close" = "Uždaryti";
-"Change License" = "Pakeisti licencija";
 "Back" = "Atgal";
 "Invalid license code" = "Neteisingas licencija kodas";
 "Please go back and try again." = "Prašome grįžti atgal ir bandykite dar kartą.";

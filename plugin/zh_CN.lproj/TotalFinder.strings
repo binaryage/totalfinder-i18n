@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "立即检查";
-"Check for Updates" = "检查更新";
 "Automatically check the website for updates" = "自动检测最新版本";
 "Include pre-releases" = "包括测试版本";
 "Participate in TotalFinder testing" = "加入 TotalFinder 新版测试";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "感谢您的注册!";
 "This TotalFinder copy is licensed to:" = "TotalFinder 注册给:";
 "Close" = "关闭";
-"Change License" = "更换注册码";
 "Back" = "后退";
 "Invalid license code" = "无效的注册码";
 "Please go back and try again." = "请返回后重试。";

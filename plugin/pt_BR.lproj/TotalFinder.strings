@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Registrado para %@";
-"Change License" = "Mudar Licença";
+"Change License" = "Alterar Licença";
 "Unregistered version in trial mode" = "Versão não registrada em modo de teste";
 "Register" = "Registrar";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Verificar agora";
-"Check for Updates" = "Verificar atualizações";
 "Automatically check the website for updates" = "Verificar atualizações pelo website automaticamente";
 "Include pre-releases" = "Incluir pré-lançamentos";
 "Participate in TotalFinder testing" = "Participar das versões de teste do TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Obrigado por se registrar!";
 "This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registrada para:";
 "Close" = "Fechar";
-"Change License" = "Alterar Licença";
 "Back" = "Voltar";
 "Invalid license code" = "Código de licença inválido";
 "Please go back and try again." = "Por favor, tente novamente.";

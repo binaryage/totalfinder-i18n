@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "בדוק אם יש עדכונים";
+"Check for Updates" = "בדוק עידכונים";
 "Uninstall TotalFinder" = "הסר TotalFinder";
 "Restart Finder" = "הפעל Finder מחדש";
 
@@ -24,9 +24,9 @@
 
 /* registration */
 "Licensed to %@" = "רשום ל־ %@";
-"Change License" = "שנה רשימה";
+"Change License" = "שנה רשיון";
 "Unregistered version in trial mode" = "הגרסה רשום במצב מדגם";
-"Register" = "לרשום";
+"Register" = "רשום";
 
 /* navigation bar */
 "Visor" = "מצחית";
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "בדוק עכשיב";
-"Check for Updates" = "בדוק עידכונים";
 "Automatically check the website for updates" = "באופן אוטומטי בדוק את אתר האינטרנט לקבלת עדכונים";
 "Include pre-releases" = "כלול מראש משחרר";
 "Participate in TotalFinder testing" = "להשתתף בדיקות TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "תודה שרשמת!";
 "This TotalFinder copy is licensed to:" = "עותק זה TotalFinder מורשה ל־:";
 "Close" = "סגור";
-"Change License" = "שנה רשיון";
 "Back" = "קודם";
 "Invalid license code" = "קוד רישיון לא חוקי";
 "Please go back and try again." = "אנא חזור ונסה שוב.";

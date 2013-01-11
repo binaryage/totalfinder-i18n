@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Шинэчлэлтийг шалгах";
+"Check for Updates" = "Шинэчлэлт шалгах";
 "Uninstall TotalFinder" = "TotalFinder-г устгах";
 "Restart Finder" = "Finder-г дахин эхлүүлэх";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Одоо шалгах";
-"Check for Updates" = "Шинэчлэлт шалгах";
 "Automatically check the website for updates" = "Вэб сайтаас шинэчлэлтийг автоматаар шалгах";
 "Include pre-releases" = "Туршилтын хувилбарыг оруулах";
 "Participate in TotalFinder testing" = "TotalFinder-н туршилтанд оролцох";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Бүртгүүлсэнд баярлалаа!";
 "This TotalFinder copy is licensed to:" = "Энэ TotalFinder-н лиценз эзэмшигч:";
 "Close" = "Хаах";
-"Change License" = "Лиценз өөрчлөх";
 "Back" = "Буцах";
 "Invalid license code" = "Лицензийн код буруу байна";
 "Please go back and try again." = "Буцаад дахин оролдоно уу.";

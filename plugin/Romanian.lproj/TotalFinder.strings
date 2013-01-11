@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Verifică dacă există versiuni noi";
+"Check for Updates" = "Verifică actualizări";
 "Uninstall TotalFinder" = "Dezinstalează TotalFinder";
 "Restart Finder" = "Repornește Finder";
 
@@ -26,7 +26,7 @@
 "Licensed to %@" = "Licențiat lui %@";
 "Change License" = "Schimbă licența";
 "Unregistered version in trial mode" = "Versiune neînregistrată, în mod de încercare";
-"Register" = "Înregistrează";
+"Register" = "Înregistrează-te";
 
 /* navigation bar */
 "Visor" = "Vizor";
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Verifică acum";
-"Check for Updates" = "Verifică actualizări";
 "Automatically check the website for updates" = "Verifică automat site-ul pentru actualizări";
 "Include pre-releases" = "Include versiuni nelansate încă";
 "Participate in TotalFinder testing" = "Participă în testarea TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Mulțumesc pentru înregistrare!";
 "This TotalFinder copy is licensed to:" = "Această copie TotalFinder este licențiată către:";
 "Close" = "Închide";
-"Change License" = "Schimbă licența";
 "Back" = "Înapoi";
 "Invalid license code" = "Cod de licență invalid";
 "Please go back and try again." = "Vă rog dați înapoi și încercați din nou.";

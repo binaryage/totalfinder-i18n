@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "ให้ %@ อนุญาตใช้งาน";
-"Change License" = "เปลี่ยนใบอนุญาตใช้งาน";
+"Change License" = "เปลี่ยนใบอนุญาต";
 "Unregistered version in trial mode" = "เวอร์ชั่นนี้ไม่ได้ลงทะเบียน อยู่ในขั้นทดลองใช้";
 "Register" = "ลงทะเบียน";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "ตรวจสอบเดี๋ยวนี้";
-"Check for Updates" = "ตรวจสอบอัพเดท";
 "Automatically check the website for updates" = "ตรวจหาอัพเดทใหม่โดยอัตโนมัติ";
 "Include pre-releases" = "รวมเวอร์ชั่นทดสอบด้วย";
 "Participate in TotalFinder testing" = "ช่วยทดสอบ TotalFinder ก่อนออกอัพเดทจริง";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "ขอบคุณที่ลงทะเบียน!";
 "This TotalFinder copy is licensed to:" = "TotalFinder บนเครื่องนี้ใช้ภายใต้ใบอนุญาตที่ออกให้:";
 "Close" = "ปิด";
-"Change License" = "เปลี่ยนใบอนุญาต";
 "Back" = "กลับ";
 "Invalid license code" = "เลขใบอนุญาตผิด";
 "Please go back and try again." = "กรุณาย้อนกลับแล้วลองอีกครั้ง";

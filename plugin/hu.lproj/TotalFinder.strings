@@ -26,7 +26,7 @@
 "Licensed to %@" = "Regisztrálva %@";
 "Change License" = "Licensz cseréje";
 "Unregistered version in trial mode" = "Regisztrálatlan verzió, próbaidőszakban";
-"Register" = "Regisztráció";
+"Register" = "Regisztrálás";
 
 /* navigation bar */
 "Visor" = "Visor";
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Ellenőrzés most";
-"Check for Updates" = "Frissítések keresése";
 "Automatically check the website for updates" = "Frissítések automatikus keresése";
 "Include pre-releases" = "Kiadás előtti verziók keresése";
 "Participate in TotalFinder testing" = "Részvétel a TotalFinder tesztelésében";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Köszönjük a regisztrációt!";
 "This TotalFinder copy is licensed to:" = "A TotalFinder ezen példánya regisztrálva:";
 "Close" = "Bezárás";
-"Change License" = "Licensz cseréje";
 "Back" = "Vissza";
 "Invalid license code" = "Hibás licenszkód";
 "Please go back and try again." = "Kérem próbálja újra";

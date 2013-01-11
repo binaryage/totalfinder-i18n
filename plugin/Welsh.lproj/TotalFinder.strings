@@ -24,9 +24,9 @@
 
 /* registration */
 "Licensed to %@" = "Trwyddedig i %@";
-"Change License" = "Newid Trwydded";
+"Change License" = "Newid trwydded";
 "Unregistered version in trial mode" = "Fersiwn heb ei gofrestru yn y treial modd";
-"Register" = "Gofrestr";
+"Register" = "Cofrestr";
 
 /* navigation bar */
 "Visor" = "gwyliwr";
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
 "Automatically check the website for updates" = "Automatically check the website for updates";
 "Include pre-releases" = "Include pre-releases";
 "Participate in TotalFinder testing" = "Participate in TotalFinder testing";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Diolch am gofrestru!";
 "This TotalFinder copy is licensed to:" = "Mae'r copi TotalFinder wedi'i drwyddedu i'r:";
 "Close" = "Agos";
-"Change License" = "Newid trwydded";
 "Back" = "Ewch yn ôl";
 "Invalid license code" = "trwydded cod annilys";
 "Please go back and try again." = "Os gwelwch yn dda ewch yn ôl a rhoi cynnig eto.";

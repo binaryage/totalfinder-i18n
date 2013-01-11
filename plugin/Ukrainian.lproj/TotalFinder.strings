@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Перевірити оновлення";
+"Check for Updates" = "Перевіряти на оновлення";
 "Uninstall TotalFinder" = "Видалити TotalFinder";
 "Restart Finder" = "Перезапустити Finder";
 
@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Ліцензію видано %@";
-"Change License" = "Змінити Ліцензію";
+"Change License" = "Змінити ліцензію";
 "Unregistered version in trial mode" = "Не зареєстрована версія в пробному режимі";
 "Register" = "Зареєструвати";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Перевірити зараз";
-"Check for Updates" = "Перевіряти на оновлення";
 "Automatically check the website for updates" = "Автоматично перевіряти оновлення";
 "Include pre-releases" = "А також перед-релізні збірки";
 "Participate in TotalFinder testing" = "Членство в тестуванні TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Дякуємо за реєстрацію!";
 "This TotalFinder copy is licensed to:" = "Ця копія TotalFinder ліцензована на:";
 "Close" = "Закрити";
-"Change License" = "Змінити ліцензію";
 "Back" = "Повернутися";
 "Invalid license code" = "Недійсний код ліцензії";
 "Please go back and try again." = "Будь ласка, спробуйте ще раз.";

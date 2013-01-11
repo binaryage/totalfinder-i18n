@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
 "Automatically check the website for updates" = "Automatically check the website for updates";
 "Include pre-releases" = "Include pre-releases";
 "Participate in TotalFinder testing" = "Participate in TotalFinder testing";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Ви благодариме за регистрацијата!";
 "This TotalFinder copy is licensed to:" = "Оваа копија на TotalFinder е лиценцирана на:";
 "Close" = "Затвори";
-"Change License" = "Промени Лиценца";
 "Back" = "Назад";
 "Invalid license code" = "Погрешен код за лиценца";
 "Please go back and try again." = "Ве молиме одете назад и обидете се повторно.";

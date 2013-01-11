@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Kiểm Tra Phiên Bản Mới";
+"Check for Updates" = "Kiểm tra cập nhật mới";
 "Uninstall TotalFinder" = "Xoá TotalFinder";
 "Restart Finder" = "Khởi Động Lại Finder";
 
@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Giấy phép cho %@";
-"Change License" = "Đổi giấy phép";
+"Change License" = "Thay đổi giấy phép";
 "Unregistered version in trial mode" = "Phiên bản chưa đăng ký trong chế độ xài thử";
 "Register" = "Đăng ký";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Kiểm tra ngay";
-"Check for Updates" = "Kiểm tra cập nhật mới";
 "Automatically check the website for updates" = "Tự đông kiểm tra cập nhật mới";
 "Include pre-releases" = "Bảo gồm phiên bản pre-releases";
 "Participate in TotalFinder testing" = "Tham dự trương trình thử nghiệm TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Cảm ơn đã đăng ký!";
 "This TotalFinder copy is licensed to:" = "Bản TotalFinder này được cấp phép cho:";
 "Close" = "Đóng";
-"Change License" = "Thay đổi giấy phép";
 "Back" = "Trở lại";
 "Invalid license code" = "Giấy phép không hợp lệ";
 "Please go back and try again." = "Vui lòng thử lại";

@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Controleren op updates";
+"Check for Updates" = "Controleer op updates";
 "Uninstall TotalFinder" = "Verwijder TotalFinder";
 "Restart Finder" = "Herstart Finder";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Controleer nu";
-"Check for Updates" = "Controleer op updates";
 "Automatically check the website for updates" = "Controleer automatisch of er updates zijn";
 "Include pre-releases" = "Inclusief pre-releases";
 "Participate in TotalFinder testing" = "Help mee met het testen van TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Bedankt voor uw registratie!";
 "This TotalFinder copy is licensed to:" = "Dit exemplaar van TotalFinder is gelicenseerd aan:";
 "Close" = "Sluiten";
-"Change License" = "Wijzig licentie";
 "Back" = "Terug";
 "Invalid license code" = "Ongeldige licentiecode";
 "Please go back and try again." = "Ga terug en probeer het opnieuw.";

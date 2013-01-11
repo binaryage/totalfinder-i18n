@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Licenseret til %@";
-"Change License" = "Ændr Licensering";
+"Change License" = "Skift Licens";
 "Unregistered version in trial mode" = "Ikke-registreret version i prøve-mode";
 "Register" = "Registrer";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
 "Automatically check the website for updates" = "Automatically check the website for updates";
 "Include pre-releases" = "Include pre-releases";
 "Participate in TotalFinder testing" = "Participate in TotalFinder testing";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Tak fordi du registrerede!";
 "This TotalFinder copy is licensed to:" = "Denne TotalFinder kopi er licenseret til:";
 "Close" = "Luk";
-"Change License" = "Skift Licens";
 "Back" = "Tilbage";
 "Invalid license code" = "Invalid licens kode";
 "Please go back and try again." = "Gå venligst tilbage og prøv igen.";

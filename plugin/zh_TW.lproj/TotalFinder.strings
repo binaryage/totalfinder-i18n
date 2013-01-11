@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "馬上檢查";
-"Check for Updates" = "檢查更新";
 "Automatically check the website for updates" = "自動檢查更新";
 "Include pre-releases" = "包含預先釋出版本";
 "Participate in TotalFinder testing" = "參與 TotalFinder 測試";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "感謝您的註冊!";
 "This TotalFinder copy is licensed to:" = "這份 TotalFinder 授權給:";
 "Close" = "關閉";
-"Change License" = "變更授權";
 "Back" = "返回";
 "Invalid license code" = "無效的授權碼";
 "Please go back and try again." = "請返回再試一次。";

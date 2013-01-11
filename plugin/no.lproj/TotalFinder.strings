@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Se etter oppdateringer";
+"Check for Updates" = "Sjekk etter oppdateringer";
 "Uninstall TotalFinder" = "Avinstaller TotalFinder";
 "Restart Finder" = "Start Finder på nytt";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Sjekk nå";
-"Check for Updates" = "Sjekk etter oppdateringer";
 "Automatically check the website for updates" = "Sjekker websiden automatisk for oppdateringer";
 "Include pre-releases" = "Inkludér uferdige versjoner";
 "Participate in TotalFinder testing" = "Delta i testingen av TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Takk for registreringen!";
 "This TotalFinder copy is licensed to:" = "Denne kopien av TotalFinder er lisensiert til:";
 "Close" = "Lukk";
-"Change License" = "Endre lisens";
 "Back" = "Tilbake";
 "Invalid license code" = "Ugyldig lisens-kode";
 "Please go back and try again." = "Vennligst gå tilbake og prøv igjen.";

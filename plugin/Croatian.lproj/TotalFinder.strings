@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Licencirano na %@";
-"Change License" = "Promijenite Licencu";
+"Change License" = "Promijeni Licencu";
 "Unregistered version in trial mode" = "Neregistrirana verzija u periodu isprobavanja";
 "Register" = "Registriraj";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Provjeri sada";
-"Check for Updates" = "Provjeri nadogradnje";
 "Automatically check the website for updates" = "Automatski provjeri web stranicu za nadogradnje";
 "Include pre-releases" = "Uključi testne verzije";
 "Participate in TotalFinder testing" = "Sudjelujte u TotalFinder testiranju";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Hvala na registraciji!";
 "This TotalFinder copy is licensed to:" = "Ova TotalFinder kopija glasi na:";
 "Close" = "Zatvori";
-"Change License" = "Promijeni Licencu";
 "Back" = "Natrag";
 "Invalid license code" = "Pogrešna licenca";
 "Please go back and try again." = "Molimo vratite se i pokušajte opet.";

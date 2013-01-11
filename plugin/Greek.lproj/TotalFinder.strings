@@ -24,9 +24,9 @@
 
 /* registration */
 "Licensed to %@" = "Δηλωμένο σε %@";
-"Change License" = "Αλλαγή πιστοποιητικού";
+"Change License" = "Αλλαγή άδειας";
 "Unregistered version in trial mode" = "Αδήλωτη έκδοση σε δοκιμαστική μορφή";
-"Register" = "Δήλωση";
+"Register" = "Εγγραφή";
 
 /* navigation bar */
 "Visor" = "Επόπτης";
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Έλεγχος τώρα";
-"Check for Updates" = "Έλεγχος αναβαθμίσεων";
 "Automatically check the website for updates" = "Αυτόματος έλεγχος αναβαθμίσεων";
 "Include pre-releases" = "Περιλαμβάνονται προ-εκδόσεις";
 "Participate in TotalFinder testing" = "Bοηθήστε την ανάπτυξη του TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Eυχαριστούμε για την εγγραφή!";
 "This TotalFinder copy is licensed to:" = "Αυτό το αντίγραφο του λογισμικού ανήκει:";
 "Close" = "Κλείσιμο";
-"Change License" = "Αλλαγή άδειας";
 "Back" = "Πίσω";
 "Invalid license code" = "Λάθος κλειδί αδείας";
 "Please go back and try again." = "Παρακαλώ πηγαίνετε πίσω και προσπαθήστε ξανά.";

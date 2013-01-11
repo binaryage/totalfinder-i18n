@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Zkusit";
-"Check for Updates" = "Dotazovat se na aktualizace";
 "Automatically check the website for updates" = "Automaticky se dotazovat na aktualizace z webu";
 "Include pre-releases" = "Nabízet také testovací verze";
 "Participate in TotalFinder testing" = "Díky za pomoc s testováním TotalFinderu";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Díky za registraci!";
 "This TotalFinder copy is licensed to:" = "Licencován na jméno:";
 "Close" = "Zavřít";
-"Change License" = "Změnit licenci";
 "Back" = "Zpět";
 "Invalid license code" = "Neplatný licenční klíč";
 "Please go back and try again." = "Prosím vraťte se zpět a zkuste to znovu.";

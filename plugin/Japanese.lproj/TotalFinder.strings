@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "%@ にライセンスされています";
-"Change License" = "ライセンスを変更";
+"Change License" = "ライセンスを変更する";
 "Unregistered version in trial mode" = "未登録の試用版";
 "Register" = "登録する";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Check Now";
-"Check for Updates" = "Check for Updates";
 "Automatically check the website for updates" = "Automatically check the website for updates";
 "Include pre-releases" = "Include pre-releases";
 "Participate in TotalFinder testing" = "Participate in TotalFinder testing";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "登録ありがとうございます！";
 "This TotalFinder copy is licensed to:" = "TotalFinder はこの方にライセンスされています：";
 "Close" = "閉じる";
-"Change License" = "ライセンスを変更する";
 "Back" = "戻る";
 "Invalid license code" = "無効なライセンスコード";
 "Please go back and try again." = "前に戻ってやり直してください。";

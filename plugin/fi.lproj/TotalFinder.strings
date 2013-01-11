@@ -20,11 +20,11 @@
 "Visit Homepage…" = "Käy kotisivulla…";
 
 /* misc. */
-"Screen %d" = "%d";
+"Screen" = "Screen";
 
 /* registration */
 "Licensed to %@" = "Lisenssin omistaja: %@.";
-"Change License" = "Vaihda lisenssiä";
+"Change License" = "Vaihda lisenssi";
 "Unregistered version in trial mode" = "Rekisteröimätön versio (kokeilu-versio)";
 "Register" = "Rekisteröi";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Tarkista nyt";
-"Check for Updates" = "Tarkista päivitykset";
 "Automatically check the website for updates" = "Tarkista päivitykset automaattisesti";
 "Include pre-releases" = "Huomioi kehitysversiot";
 "Participate in TotalFinder testing" = "Osallistu TotalFinderin testaamiseen";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Kiitos rekisteröinnistä!";
 "This TotalFinder copy is licensed to:" = "Tämä TotalFinder on lisenssöity:";
 "Close" = "Sulje";
-"Change License" = "Vaihda lisenssi";
 "Back" = "Takaisin";
 "Invalid license code" = "Virheellinen lisenssiavain";
 "Please go back and try again." = "Ole hyvä ja mene takaisin yrittääksesi uudelleen.";

@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Güncelleştirmeleri Denetle";
+"Check for Updates" = "Güncellemeleri kontrol et";
 "Uninstall TotalFinder" = "TotalFinder'ı Kaldır";
 "Restart Finder" = "Finder'ı Yeniden Başlat";
 
@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "%@ adına lisanslıdır.";
-"Change License" = "Lisansı değiştir";
+"Change License" = "Lisansı Değiştir";
 "Unregistered version in trial mode" = "Lisanssız deneme sürümü";
 "Register" = "Kayıt";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Şimdi kontrol et";
-"Check for Updates" = "Güncellemeleri kontrol et";
 "Automatically check the website for updates" = "Güncellemeleri otomatik olarak kontrol et";
 "Include pre-releases" = "Ön-sürümleri dahil et";
 "Participate in TotalFinder testing" = "TotalFinder'ın test sürecine katıl";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Kaydınız için teşekkürler!";
 "This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının lisans sahibi:";
 "Close" = "Kapat";
-"Change License" = "Lisansı Değiştir";
 "Back" = "Geri";
 "Invalid license code" = "Hatalı lisans kodu";
 "Please go back and try again." = "Lütfen geri dönüp tekrar deneyin";

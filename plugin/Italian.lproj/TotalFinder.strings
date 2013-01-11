@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Controlla adesso";
-"Check for Updates" = "Controlla aggiornamenti";
 "Automatically check the website for updates" = "Controlla automaticamente il sito web per aggiornamenti";
 "Include pre-releases" = "Includi i rilasci di test in anteprima";
 "Participate in TotalFinder testing" = "Participa al test di TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Grazie per aver registrato!";
 "This TotalFinder copy is licensed to:" = "Questa copia di TotalFinder è concessa in licenza a:";
 "Close" = "Chiudi";
-"Change License" = "Cambia licenza";
 "Back" = "Indietro";
 "Invalid license code" = "Codice di licenza non valido";
 "Please go back and try again." = "Per favore torna indietro e prova di nuovo.";

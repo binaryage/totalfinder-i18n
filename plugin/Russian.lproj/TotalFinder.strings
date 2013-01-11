@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Лицензия выдана %@";
-"Change License" = "Сменить Лицензию";
+"Change License" = "Сменить лицензию";
 "Unregistered version in trial mode" = "Незарегистрированная версия в испытательном режиме";
 "Register" = "Зарегистрировать";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Проверить сейчас";
-"Check for Updates" = "Проверить обновления";
 "Automatically check the website for updates" = "Автоматически проверять обновления на веб-странице";
 "Include pre-releases" = "Включить в обновления pre-релизы";
 "Participate in TotalFinder testing" = "Принять участие в программе тестирования TotalFinder";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Спасибо за регистрацию!";
 "This TotalFinder copy is licensed to:" = "Эта копия TotalFinder залицензирована на:";
 "Close" = "Закрыть";
-"Change License" = "Сменить лицензию";
 "Back" = "Назад";
 "Invalid license code" = "Неверный код лицензии";
 "Please go back and try again." = "Пожалуйста, попытайтесь еще раз.";

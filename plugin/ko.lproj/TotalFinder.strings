@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "업데이트 확인";
+"Check for Updates" = "업데이트 확인하기";
 "Uninstall TotalFinder" = "TotalFinder 제거";
 "Restart Finder" = "Finder 재시작";
 
@@ -24,9 +24,9 @@
 
 /* registration */
 "Licensed to %@" = "다음 사용자에게 등록되었습니다: %@";
-"Change License" = "라이센스 바꾸기";
+"Change License" = "라이센스 변경";
 "Unregistered version in trial mode" = "체험판";
-"Register" = "정품 등록";
+"Register" = "등록";
 
 /* navigation bar */
 "Visor" = "붙박이창";
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "지금 확인";
-"Check for Updates" = "업데이트 확인하기";
 "Automatically check the website for updates" = "자동으로 업데이트를 확인합니다";
 "Include pre-releases" = "불안정 버전 포함";
 "Participate in TotalFinder testing" = "TotalFinder 테스팅에 참여합니다";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "등록해 주셔서 감사합니다!";
 "This TotalFinder copy is licensed to:" = "TotalFinder는 다음 사용자에게 등록되었습니다:";
 "Close" = "닫기";
-"Change License" = "라이센스 변경";
 "Back" = "뒤로";
 "Invalid license code" = "잘못된 라이센스 코드 입니다.";
 "Please go back and try again." = "되돌아가서 다시 시도해보세요.";

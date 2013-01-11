@@ -24,7 +24,7 @@
 
 /* registration */
 "Licensed to %@" = "Litsentseeritud: %@";
-"Change License" = "Muuda litsentsi";
+"Change License" = "Muuda Litsentsi";
 "Unregistered version in trial mode" = "Registreerimata versioon proovirežiimis";
 "Register" = "Registreeri";
 
@@ -73,7 +73,6 @@
 
 /* about page */
 "Check Now" = "Kontrolli nüüd";
-"Check for Updates" = "Kontrolli Uuendusi";
 "Automatically check the website for updates" = "Automaatselt kontrolli kodulehelt uuendusi";
 "Include pre-releases" = "Osale prooviversioonides";
 "Participate in TotalFinder testing" = "Osale TotalFinderi testimises";
@@ -87,7 +86,6 @@
 "Thanks for registering!" = "Aitäh registreerumast!";
 "This TotalFinder copy is licensed to:" = "See TotalFinderi koopia on litsentseeritud:";
 "Close" = "Sulge";
-"Change License" = "Muuda Litsentsi";
 "Back" = "Tagasi";
 "Invalid license code" = "Vigane litsentsi kood";
 "Please go back and try again." = "Palun mine tagasi ja proovi uuesti.";
