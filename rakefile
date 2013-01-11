@@ -1,4 +1,5 @@
 require 'rake'
+require 'pp'
 
 ################################################################################################
 # constants
@@ -101,6 +102,7 @@ def update_english_strings(project, src_folder, xib_mask)
   code_strings = extract_code_strings(src_folder)
   ui_strings = extract_ui_strings(PLUGIN_RESOURCES_DIR, xib_mask)
   new_strings = code_strings.concat(ui_strings)
+  new_strings.uniq!
   strings = parse_strings_file(target)
 
   # comment out all existing strings as REMOVED
@@ -412,11 +414,12 @@ task :cherrypick do
 
   # collect all xibs which are not prefixed with some plugin name, we will treat them as shell_xibs
   shell_xibs = []
-  plugin_xibs = []
+  plugins_xibs = Hash.new
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "*.xib")) do |file|
     name = File.basename(file, ".xib")
     # does name begin with some plugin name?
-    if plugins.any? { |plugin| plugin.index(name) == 0  } then
+    plugin = plugins.find { |plugin| plugin==name or name.index(plugin) == 0  }
+    unless plugin.nil? then
       plugins_xibs[plugin] ||= []
       plugins_xibs[plugin] << name
     else
@@ -434,6 +437,9 @@ task :cherrypick do
     plugin_dir = File.join(TOTALFINDER_PLUGINS_SOURCES, plugin)
     if File.exists? plugin_dir then
       puts "Processing #{plugin}...".yellow
+      if plugins_xibs[plugin].nil? or plugins_xibs[plugin].size == 0 then
+        plugins_xibs[plugin] = ["NONEXISTING"] # edge case for empty array
+      end
       plugin_filter = "'(#{plugins_xibs[plugin].join("|")})\\.xib'"
       update_english_strings(plugin, plugin_dir, plugin_filter) # process just plugin xibs
     end
