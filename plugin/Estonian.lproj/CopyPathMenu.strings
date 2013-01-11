@@ -5,3 +5,7 @@
 "HFS Path" = "HFS";
 "Terminal Path" = "Terminal";
 "UNC Path" = "UNC";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Luba teekonna kopeerimist hüpikmenüüs";

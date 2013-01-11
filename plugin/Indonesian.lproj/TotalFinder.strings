@@ -26,7 +26,7 @@
 "Licensed to %@" = "Lisensi unutuk %@";
 "Change License" = "Ganti Lisensi";
 "Unregistered version in trial mode" = "Versi belum teregistrasi di mode trial";
-"Register" = "Daftar";
+"Register" = "Register";
 
 /* navigation bar */
 "Visor" = "Visor";
@@ -82,7 +82,6 @@
 "Registration" = "Registrasi";
 "Please enter your license details from the email we have sent you:" = "Silahkan masukkan detail lisensi dari email yang telah kami kirimkan kepada anda:";
 "Buy TotalFinder Now" = "Beli TotalFinder Sekarang";
-"Register" = "Register";
 "Thanks for registering!" = "Terima kasih telah melakukan registrasi!";
 "This TotalFinder copy is licensed to:" = "Salinan TotalFinder ini dilisensikan untuk:";
 "Close" = "Tutup";

@@ -9,3 +9,7 @@
 "Paste" = "Yapıştır";
 "Paste %u Items" = "%u Seçilenleri Yapıştır";
 "Copy" = "Kopyala";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır butonlarını sağ tık menüsünde göster";

@@ -9,3 +9,7 @@
 "Paste" = "Incolla";
 "Paste %u Items" = "Incolla %u elementi";
 "Copy" = "Copia";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Mostra i pulsanti Taglia&Incolla nei menu contestuali";

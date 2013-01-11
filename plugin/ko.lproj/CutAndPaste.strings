@@ -9,3 +9,7 @@
 "Paste" = "붙여넣기";
 "Paste %u Items" = "%u개 항목 붙여넣기";
 "Copy" = "복사";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "컨텍스트 메뉴에 파일 잘라내기/붙여넣기 추가";

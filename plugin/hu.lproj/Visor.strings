@@ -2,3 +2,18 @@
 "Show Visor" = "Visor megjelenítése";
 "Hide Visor" = "Visor elrejtése";
 
+"Screen" = "Képernyő";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Gyorsgombbal elérhető csúszóablak az egész rendszerben";
+"Visor Feature" = "Visor funkció";
+"Activation:" = "Aktiválás:";
+"Show on all Spaces" = "Megjelenítés minden Íróasztalon";
+"Animation:" = "Animáció:";
+"Control:" = "Vezérlés:";
+"Slide Window" = "Ablak csúsztatása";
+"Fade Window" = "Ablak elhalványítása";
+"Show on top of the Dock" = "Megjelenítés a Dock felett";
+"Free Form Window" = "Szabadon méretezhető ablak";
+"Hide on ESC" = "Elrejtés kilépéskor";
+"Screen:" = "Képernyő:";

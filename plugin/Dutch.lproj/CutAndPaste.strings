@@ -9,3 +9,7 @@
 "Paste" = "Plakken";
 "Paste %u Items" = "Plak %u onderdelen";
 "Copy" = "Kopiëren";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Toon knip- en plakknoppen in contextmenu's";

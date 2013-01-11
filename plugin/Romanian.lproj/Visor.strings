@@ -2,3 +2,18 @@
 "Show Visor" = "Activează Vizorul";
 "Hide Visor" = "Ascunde Vizorul";
 
+"Screen" = "Ecranul";
+"BASIC" = "BASIC";
+"Visor" = "Vizor";
+"a system-wide window sliding from the bottom on a hot-key" = "o fereastră globală atașată de marginea de jos, activabilă din taste";
+"Visor Feature" = "Vizorul";
+"Activation:" = "Activare:";
+"Show on all Spaces" = "Prezent în toate Spațiile";
+"Animation:" = "Animație:";
+"Control:" = "Control:";
+"Slide Window" = "Culisează Fereastra";
+"Fade Window" = "Dizolvă Fereastra";
+"Show on top of the Dock" = "Afișează deasupra Dock-ului";
+"Free Form Window" = "Fereastră redimensionabilă";
+"Hide on ESC" = "Ascunde la ESC";
+"Screen:" = "Ecran:";

@@ -9,3 +9,7 @@
 "Paste" = "Vložit";
 "Paste %u Items" = "Vložit %u položek";
 "Copy" = "Kopírovat";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Výjmout-vložit tlačítka v kontext menu";

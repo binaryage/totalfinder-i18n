@@ -5,3 +5,7 @@
 "HFS Path" = "แบบ HFS";
 "Terminal Path" = "แบบ Terminal";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";

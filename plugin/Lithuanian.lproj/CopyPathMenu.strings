@@ -5,3 +5,7 @@
 "HFS Path" = "HFS kelias";
 "Terminal Path" = "Terminalo kelias";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Leisti kelias kopijavimas iš kontekstinio meniu";

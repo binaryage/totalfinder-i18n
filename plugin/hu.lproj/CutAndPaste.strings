@@ -9,3 +9,7 @@
 "Paste" = "Beillesztés";
 "Paste %u Items" = "%u elem beillesztése";
 "Copy" = "Másolás";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Kivágás/Beillesztés a helyi menüben";

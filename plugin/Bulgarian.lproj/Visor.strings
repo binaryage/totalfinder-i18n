@@ -2,3 +2,18 @@
 "Show Visor" = "Покажи Visor";
 "Hide Visor" = "Скрий Visor";
 
+"Screen" = "Екран";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобален прозорец, приплъзващ се от долната част на екрана";
+"Visor Feature" = "Използване на Visor";
+"Activation:" = "Активация:";
+"Show on all Spaces" = "Показване на всички Spaces";
+"Animation:" = "Анимации:";
+"Control:" = "Контрол:";
+"Slide Window" = "Плъзгане на прозореца";
+"Fade Window" = "Избледняване на прозореца";
+"Show on top of the Dock" = "Показване върху Dock";
+"Free Form Window" = "Прозорец с произволна форма";
+"Hide on ESC" = "Скриване с ESC";
+"Screen:" = "Екран:";

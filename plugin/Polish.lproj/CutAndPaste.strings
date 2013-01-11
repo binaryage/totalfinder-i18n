@@ -9,3 +9,7 @@
 "Paste" = "Wklej";
 "Paste %u Items" = "Wklej %u rzeczy";
 "Copy" = "Kopiuj";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";

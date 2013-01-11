@@ -9,3 +9,7 @@
 "Paste" = "ペースト";
 "Paste %u Items" = "%u 項目をペースト";
 "Copy" = "コピー";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "コンテキストメニューにカットボタン等を表示";

@@ -5,3 +5,7 @@
 "HFS Path" = "HFS cesta";
 "Terminal Path" = "Cesta pro terminál";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";

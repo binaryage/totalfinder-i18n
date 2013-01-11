@@ -5,3 +5,7 @@
 "HFS Path" = "Шлях HFS";
 "Terminal Path" = "Шлях Тэрмінала";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Дазваляць капіяванне шляху з кантэкстнага меню";

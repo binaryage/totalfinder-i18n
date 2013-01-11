@@ -2,3 +2,18 @@
 "Show Visor" = "Mostra Visor";
 "Hide Visor" = "Nascondi Visor";
 
+"Screen" = "Schermo";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "una finestra di sistema che scorre dal basso grazie a una hot-key";
+"Visor Feature" = "Funzione Visor";
+"Activation:" = "Attivazione:";
+"Show on all Spaces" = "Mostra su tutti gli Spazi";
+"Animation:" = "Animazioni:";
+"Control:" = "Controllo:";
+"Slide Window" = "Finestra a scorrimento";
+"Fade Window" = "Finestra con dissolvenza";
+"Show on top of the Dock" = "Mostra sopra il Dock";
+"Free Form Window" = "Finestra ridimensionabile";
+"Hide on ESC" = "Premi ESC per nascondere";
+"Screen:" = "Schermo:";

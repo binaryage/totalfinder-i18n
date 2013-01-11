@@ -2,3 +2,18 @@
 "Show Visor" = "Rodyti skydelio";
 "Hide Visor" = "Slėpti skydelio";
 
+"Screen" = "Ekrano";
+"BASIC" = "BASIC";
+"Visor" = "skydelio";
+"a system-wide window sliding from the bottom on a hot-key" = "visoje sistemoje langas stumdomas iš apačios į karštą klavišą";
+"Visor Feature" = "Skydelio priemonė";
+"Activation:" = "Aktyvinimas:";
+"Show on all Spaces" = "Rodyti visas erdves";
+"Animation:" = "Animacija:";
+"Control:" = "Ctrl:";
+"Slide Window" = "Pristatymas Langas";
+"Fade Window" = "Išblukimas Langas";
+"Show on top of the Dock" = "Rodyti viršuje doko";
+"Free Form Window" = "Laisvos Langas";
+"Hide on ESC" = "Slėpti ESRK";
+"Screen:" = "Ekranas:";

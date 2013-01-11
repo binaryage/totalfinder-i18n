@@ -2,3 +2,18 @@
 "Show Visor" = "Visa Visor";
 "Hide Visor" = "Göm Visor";
 
+"Screen" = "Bildskärm";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "ett Finder fönster som glider in från skärmbotten via ett systemomspännande kortkommando";
+"Visor Feature" = "Visor-funktionen";
+"Activation:" = "Aktivering:";
+"Show on all Spaces" = "Visa på alla Spaces";
+"Animation:" = "Animation:";
+"Control:" = "Kontroll:";
+"Slide Window" = "Glid in";
+"Fade Window" = "Tona in";
+"Show on top of the Dock" = "Visa framför Dockan";
+"Free Form Window" = "Omformbart fönster";
+"Hide on ESC" = "Göm med ESC";
+"Screen:" = "Bildskärm:";

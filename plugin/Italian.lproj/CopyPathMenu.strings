@@ -5,3 +5,7 @@
 "HFS Path" = "Percorso HFS";
 "Terminal Path" = "Percorso del Terminale";
 "UNC Path" = "Percorso UNC";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Permetti la copia del percorso dal menu contestuale";

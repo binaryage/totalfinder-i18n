@@ -9,3 +9,7 @@
 "Paste" = "Вставити";
 "Paste %u Items" = "Вставити %u об'єкти(ів)";
 "Copy" = "Копіювати";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "'Вирізати-Вставити' в контекстному меню";

@@ -2,3 +2,18 @@
 "Show Visor" = "Hiển thị Visor";
 "Hide Visor" = "Làm Ẩn Visor";
 
+"Screen" = "Màn Hình";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "một hệ thống trươt từ dưới bằng phím nóng";
+"Visor Feature" = "Chức năng Visor";
+"Activation:" = "Kích hoạt:";
+"Show on all Spaces" = "Hiển thị tất cả khoản trắng";
+"Animation:" = "Chuyển động:";
+"Control:" = "Điều Khiển:";
+"Slide Window" = "Cửa sồ trượt";
+"Fade Window" = "Cửa sồ phai dần";
+"Show on top of the Dock" = "Hiển thị trên Dock";
+"Free Form Window" = "Cửa sồ biến đổi";
+"Hide on ESC" = "Ẩn khi bấm ESC";
+"Screen:" = "Màn hình:";

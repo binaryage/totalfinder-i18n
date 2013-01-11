@@ -5,3 +5,7 @@
 "HFS Path" = "Путь HFS";
 "Terminal Path" = "Для Терминала";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Меню копирования пути файла";

@@ -5,3 +5,7 @@
 "HFS Path" = "HFS-bane";
 "Terminal Path" = "Terminal-bane";
 "UNC Path" = "UNC Bane";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Tillat kopiering av bane fra kontekstmenyer";

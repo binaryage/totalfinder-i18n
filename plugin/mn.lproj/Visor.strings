@@ -2,3 +2,18 @@
 "Show Visor" = "Visor харуулах";
 "Hide Visor" = "Visor нуух";
 
+"Screen" = "Screen";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "бүх цонхны хөдөлгөөнд өөрчлөлт оруулна";
+"Visor Feature" = "Visor өөрчлөлтүүд";
+"Activation:" = "Идэвхижүүлэлт:";
+"Show on all Spaces" = "Бүх Space-д харуулах";
+"Animation:" = "Хөдөлгөөн:";
+"Control:" = "Удирдлага:";
+"Slide Window" = "Цонх шилжих";
+"Fade Window" = "Цонх уусах";
+"Show on top of the Dock" = "Dock-н дээр харуулах";
+"Free Form Window" = "FreeForm цонх";
+"Hide on ESC" = "ESC нуух";
+"Screen:" = "Дэлгэц:";

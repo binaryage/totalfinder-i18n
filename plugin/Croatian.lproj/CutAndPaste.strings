@@ -9,3 +9,7 @@
 "Paste" = "Zalijepi";
 "Paste %u Items" = "Zalijepi %u stavki";
 "Copy" = "Kopiraj";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Prikaži Izreži i Zalijepi tipke u kontekstnim menijima";

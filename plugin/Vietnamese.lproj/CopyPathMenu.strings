@@ -5,3 +5,7 @@
 "HFS Path" = "Đường Dẫn HFS";
 "Terminal Path" = "Đường Dẫn Terminal";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Cho phép đường dẫn sao chép từ menu ngữ cảnh";

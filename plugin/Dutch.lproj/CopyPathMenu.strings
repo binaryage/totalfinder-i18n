@@ -5,3 +5,7 @@
 "HFS Path" = "HFS-pad";
 "Terminal Path" = "Terminal-pad";
 "UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Sta kopiëren van paden uit contextmenu's toe";
