@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - versi belum teregistrasi";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 hari tersisa - beli sekarang!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 hari tersisa - beli sekarang!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Pilih Tab Berikutnya";
 "Select Previous Tab" = "Pilih Tab Sebelumnya";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

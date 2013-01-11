@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Putanja kopiranja";
+"POSIX Path" = "POSIX putanja";
+"URL" = "URL";
+"Windows Path" = "Windows putanja";
+"HFS Path" = "HFS putanja";
+"Terminal Path" = "Putanja terminala";
+"UNC Path" = "UNC putanja";

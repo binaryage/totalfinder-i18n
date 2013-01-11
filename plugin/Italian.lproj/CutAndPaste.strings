@@ -8,3 +8,7 @@
 "Cut %u Items" = "Taglia %u elementi";
 "Paste" = "Incolla";
 "Paste %u Items" = "Incolla %u elementi";
+
+"Paste" = "Incolla";
+"Copy" = "Copia";
+"Cut" = "Taglia";

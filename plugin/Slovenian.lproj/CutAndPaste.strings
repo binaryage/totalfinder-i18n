@@ -8,3 +8,7 @@
 "Cut %u Items" = "Izreži %u elemente";
 "Paste" = "Prilepi";
 "Paste %u Items" = "Prilepi %u elemente";
+
+"Paste" = "Prilepi";
+"Copy" = "Kopiraj";
+"Cut" = "Izreži";

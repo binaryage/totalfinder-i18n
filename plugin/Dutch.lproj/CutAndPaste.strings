@@ -8,3 +8,7 @@
 "Cut %u Items" = "Knip %u onderdelen";
 "Paste" = "Plakken";
 "Paste %u Items" = "Plak %u onderdelen";
+
+"Paste" = "Plakken";
+"Copy" = "Kopiëren";
+"Cut" = "Knippen";

@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Copy lokasi file";
+"POSIX Path" = "POSIX lokasi file";
+"URL" = "URL";
+"Windows Path" = "Lokasi windows";
+"HFS Path" = "Lokasi HSF";
+"Terminal Path" = "Lokasi Terminal";
+"UNC Path" = "UNC Path";

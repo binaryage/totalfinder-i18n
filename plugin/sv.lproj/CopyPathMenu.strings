@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Kopiera sökväg";
+"POSIX Path" = "POSIX Sökväg";
+"URL" = "URL";
+"Windows Path" = "Windows Sökväg";
+"HFS Path" = "HFS Sökväg";
+"Terminal Path" = "Terminal Sökväg";
+"UNC Path" = "UNC Path";

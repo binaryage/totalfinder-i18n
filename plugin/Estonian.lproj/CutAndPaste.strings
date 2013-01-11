@@ -8,3 +8,7 @@
 "Cut %u Items" = "Lõika %u Asja";
 "Paste" = "Kleebi";
 "Paste %u Items" = "Kleebi %u Asja";
+
+"Paste" = "Kleebi";
+"Copy" = "Kopeeri";
+"Cut" = "Lõika";

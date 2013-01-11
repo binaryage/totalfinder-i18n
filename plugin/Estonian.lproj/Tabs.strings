@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - registreerimata versioon";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 päev jäänud - osta kohe!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 päeva jäänud - osta kohe!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Vali Järgmine Vaheleht";
 "Select Previous Tab" = "Vali Eelmine Vaheleht";
 "Switch Active Panel" = "Vaheta Aktiivset Paneeli";
+
+"New Tab" = "Uus Vaheleht"; /* the tooltip of the "plus button" in tabs bar */

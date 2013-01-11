@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - Tescilsiz Sürüm";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - şimdi satın al!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - şimdi satın al!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Sonraki Sekmeye Git";
 "Select Previous Tab" = "Önceki Sekmeye Git";
 "Switch Active Panel" = "Aktif Paneli Değiştir";
+
+"New Tab" = "Yeni Sekme";

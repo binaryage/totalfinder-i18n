@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - versiune neînregistrată";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 zi rămasă - Cumpară acum!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 zile rămase - Cumpară acum!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Selectare Tab următor";
 "Select Previous Tab" = "Selectare tab-ul anterior";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

@@ -27,3 +27,71 @@
 "Change License" = "Ændr Licensering";
 "Unregistered version in trial mode" = "Ikke-registreret version i prøve-mode";
 "Register" = "Registrer";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Justeringer";
+"About" = "Om";
+
+/* visor page */
+"Visor Feature" = "Visor Funktionen";
+"a system-wide window sliding from the bottom on a hot-key" = "et system-bredt vindue der kommer ind fra bunden ved tryk på en knap";
+
+"Activation:" = "Aktivation:";
+
+"Control:" = "Kontrol:";
+"Hide on ESC" = "ESC for at Skjule";
+"Pin Visor" = "Fastgør Visor";
+
+"Animation:" = "Animation:";
+"Fade Window" = "Fade Vindue";
+"Slide Window" = "Glid Vindue";
+
+"Screen:" = "Skærm:";
+"Show on all Spaces" = "Vis på alle Spaces";
+"Show on top of the Dock" = "Vis ovenpå Docken";
+"Free Form Window" = "FreeForm Vindue";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Nulstil TotalFinder til standard";
+
+"File Browser:" = "Fil Browser:";
+"Show System Files" = "Vis System Filer";
+"Folders on Top" = "Mapper Øverst";
+"Always Maximize" = "Altid Maximer";
+"Toggle Dual Mode" = "Skift Dual-mode";
+
+"Menu and Dock:" = "Menu og Dock:";
+"Hide icon in Menu Bar" = "Skjul ikon i Menu Baren";
+"Keep original Dock icon" = "Behold original Dock ikon";
+
+"Experimental:" = "Experimental:";
+"Freelance Windows" = "Freelance Vinduer";
+"Use narrow Tabs Bar" = "Brug smalle Fane Barer";
+"Show CutPaste buttons in Context Menus" = "Vis Klip&Sæt ind knapper i Kontekst Menuer";
+"Allow path copying from Context Menus" = "Tillad sti kopiering fra Kontekst Menuer";
+
+/* about page */
+"Check Now" = "Check Now";
+"Check for Updates" = "Check for Updates";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder Registration";
+"Registration" = "Registration";
+"Please enter your license details from the email we have sent you:" = "Indtast venligst license detaljer fra emailen vi har sendt til dig:";
+"Buy TotalFinder Now" = "Køb TotalFinder Nu";
+"Register" = "Registrer";
+"Thanks for registering!" = "Tak fordi du registrerede!";
+"This TotalFinder copy is licensed to:" = "Denne TotalFinder kopi er licenseret til:";
+"Close" = "Luk";
+"Change License" = "Skift Licens";
+"Back" = "Tilbage";
+"Invalid license code" = "Invalid licens kode";
+"Please go back and try again." = "Gå venligst tilbage og prøv igen.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "For at købe en licens til TotalFinder, besøg venligst BinaryAge net butik.";
+"Thank you for using TotalFinder!" = "Tak for du bruger TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

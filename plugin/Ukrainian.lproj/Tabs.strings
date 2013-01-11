@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - не зареєстрована версія";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - залишився 1 день - купіть зараз!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - залишилось 2 дні - купіть зараз!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Вибрати наступну вкладку";
 "Select Previous Tab" = "Вибрати попередню вкладку";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

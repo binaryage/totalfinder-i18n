@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - 체험판";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 체험 기간이 1일 남았습니다 - 지금 구매하세요!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 체험 기간이 2일 남았습니다 - 지금 구매하세요!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "다음 탭 선택";
 "Select Previous Tab" = "이전 탭 선택";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

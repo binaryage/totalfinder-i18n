@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Kopioi polku muodossa";
+"POSIX Path" = "POSIX";
+"URL" = "URL";
+"Windows Path" = "Windows";
+"HFS Path" = "HFS";
+"Terminal Path" = "Pääte";
+"UNC Path" = "UNC";

@@ -8,3 +8,7 @@
 "Cut %u Items" = "%u elem kivágása";
 "Paste" = "Beillesztés";
 "Paste %u Items" = "%u elem beillesztése";
+
+"Paste" = "Beillesztés";
+"Copy" = "Másolás";
+"Cut" = "Kivágás";

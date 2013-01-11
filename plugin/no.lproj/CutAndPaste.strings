@@ -8,3 +8,7 @@
 "Cut %u Items" = "Klipp ut %u objekter";
 "Paste" = "Lim inn";
 "Paste %u Items" = "Lim inn %u objekter";
+
+"Paste" = "Lim inn";
+"Copy" = "Kopier";
+"Cut" = "Klipp ut";

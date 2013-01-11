@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Copiază cale";
+"POSIX Path" = "Cale POSIX";
+"URL" = "URL";
+"Windows Path" = "Cale Windows";
+"HFS Path" = "Cale HFS";
+"Terminal Path" = "Cale Terminal";
+"UNC Path" = "UNC Path";

@@ -8,3 +8,7 @@
 "Cut %u Items" = "Leikkaa %u kohdetta";
 "Paste" = "Sijoita kohde";
 "Paste %u Items" = "Sijoita %u kohdetta";
+
+"Paste" = "Sijoita";
+"Copy" = "Kopioi";
+"Cut" = "Leikkaa";

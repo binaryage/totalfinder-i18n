@@ -8,3 +8,7 @@
 "Cut %u Items" = "Taie %u elemente";
 "Paste" = "Lipește";
 "Paste %u Items" = "Lipește %u elemente";
+
+"Paste" = "Lipește";
+"Copy" = "Copiază";
+"Cut" = "Taie";

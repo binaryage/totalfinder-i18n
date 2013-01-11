@@ -8,3 +8,7 @@
 "Cut %u Items" = "剪切 %u 项";
 "Paste" = "粘贴";
 "Paste %u Items" = "粘贴 %u 项";
+
+"Paste" = "粘贴";
+"Copy" = "拷贝";
+"Cut" = "剪切";

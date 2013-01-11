@@ -8,3 +8,7 @@
 "Cut %u Items" = "Cortar %u elementos";
 "Paste" = "Colar";
 "Paste %u Items" = "Colar %u elementos";
+
+"Paste" = "Colar";
+"Copy" = "Copiar";
+"Cut" = "Cortar";

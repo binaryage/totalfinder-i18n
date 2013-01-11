@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - нерегистрирана верзија";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - преостанат 1 ден - купете го сега!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - преостанати 2 дена - купете го сега!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Избери Следно Јазиче";
 "Select Previous Tab" = "Избери Претходно Јазиче";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

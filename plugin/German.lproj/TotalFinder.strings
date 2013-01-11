@@ -27,3 +27,71 @@
 "Change License" = "Lizenz ändern";
 "Unregistered version in trial mode" = "Unregistrierte Version";
 "Register" = "Registrieren";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Erweitert";
+"About" = "Über";
+
+/* visor page */
+"Visor Feature" = "Visor Funktion";
+"a system-wide window sliding from the bottom on a hot-key" = "ein systemweit per Tastenkombination einblendbares Fenster";
+
+"Activation:" = "Aktivierung:";
+
+"Control:" = "Steuerung:";
+"Hide on ESC" = "Mit ESC ausblenden";
+"Pin Visor" = "Visor Anheften";
+
+"Animation:" = "Animation:";
+"Fade Window" = "Überblenden animieren";
+"Slide Window" = "Hineingleiten animieren";
+
+"Screen:" = "Bildschirm:";
+"Show on all Spaces" = "Auf allen Spaces sichtbar";
+"Show on top of the Dock" = "Über dem Dock anzeigen";
+"Free Form Window" = "Fenstergröße veränderbar";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "auf Standardeinstellungen zurücksetzen";
+
+"File Browser:" = "Datei Browser:";
+"Show System Files" = "Zeige Systemdateien";
+"Folders on Top" = "Ordner am Anfang";
+"Always Maximize" = "Immer maximieren";
+"Toggle Dual Mode" = "Dual-Modus an/aus";
+
+"Menu and Dock:" = "Menü und Dock:";
+"Hide icon in Menu Bar" = "Icon in der Menüleiste nicht anzeigen";
+"Keep original Dock icon" = "Original Finder-Icon im Dock verwenden";
+
+"Experimental:" = "Experimentell:";
+"Freelance Windows" = "Unabhängige Fenster";
+"Use narrow Tabs Bar" = "Tableiste verkleinern";
+"Show CutPaste buttons in Context Menus" = "Ausschneiden/Einfügen im Kontextmenü";
+"Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";
+
+/* about page */
+"Check Now" = "Überprüfe jetzt";
+"Check for Updates" = "Überprüfe auf Updates";
+"Automatically check the website for updates" = "Überprüfe die Webseite automatisch auf Updates";
+"Include pre-releases" = "Schließe Beta-Versionen ein";
+"Participate in TotalFinder testing" = "Mache beim Testen von TotalFinder mit";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder Registrierung";
+"Registration" = "Registrierung";
+"Please enter your license details from the email we have sent you:" = "Bitte geben die die Lizenz-Daten aus der E-Mail ein, die wir Ihnen geschickt haben:";
+"Buy TotalFinder Now" = "TotalFinder jetzt kaufen";
+"Register" = "Registrieren";
+"Thanks for registering!" = "Danke fürs Registrieren!";
+"This TotalFinder copy is licensed to:" = "Diese Kopie von TotalFinder ist lizensiert für:";
+"Close" = "Schließen";
+"Change License" = "Lizenz ändern";
+"Back" = "Zurück";
+"Invalid license code" = "Ungültiger Lizenzschlüssel";
+"Please go back and try again." = "Bitte gehen Sie zurück und versuchen es erneut.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Um eine Lizenz für TotalFinder zu erwerben, besuchen Sie bitte den BinaryAge Onlineshop.";
+"Thank you for using TotalFinder!" = "Danke, dass Sie TotalFinder verwenden!";
+"License Name" = "Lizenzname";
+"License Key" = "Lizenzschlüssel";

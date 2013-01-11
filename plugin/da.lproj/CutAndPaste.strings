@@ -8,3 +8,7 @@
 "Cut %u Items" = "Klip %u emner";
 "Paste" = "Sæt ind";
 "Paste %u Items" = "Indsæt %u emner";
+
+"Paste" = "Sæt ind";
+"Copy" = "Kopier";
+"Cut" = "Klip";

@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "경로 복사";
+"POSIX Path" = "POSIX 경로";
+"URL" = "URL";
+"Windows Path" = "윈도우 경로";
+"HFS Path" = "HFS 경로";
+"Terminal Path" = "터미널 경로";
+"UNC Path" = "UNC Path";

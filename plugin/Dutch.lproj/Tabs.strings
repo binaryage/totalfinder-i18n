@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - ongelicenseerde versie";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - nog 1 dag - koop nu!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - nog 2 dagen - koop nu!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Kies volgend tabblad";
 "Select Previous Tab" = "Kies vorig tabblad";
 "Switch Active Panel" = "Verander Actief Paneel";
+
+"New Tab" = "New Tab";

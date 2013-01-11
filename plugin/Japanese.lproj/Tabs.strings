@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - 未登録";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 試用期限の残りはあと 1 日です - 購入してください！";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 2 日です - 購入してください！";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "次のタブを選択";
 "Select Previous Tab" = "前のタブを選択";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

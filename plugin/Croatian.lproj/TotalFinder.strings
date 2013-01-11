@@ -27,3 +27,71 @@
 "Change License" = "Promijenite Licencu";
 "Unregistered version in trial mode" = "Neregistrirana verzija u periodu isprobavanja";
 "Register" = "Registriraj";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Ugađanje";
+"About" = "Više o";
+
+/* visor page */
+"Visor Feature" = "Mogućnosti Visor-a";
+"a system-wide window sliding from the bottom on a hot-key" = "prozor koji izvire iz dna ekrana na kraticu";
+
+"Activation:" = "Aktivacija:";
+
+"Control:" = "Control:";
+"Hide on ESC" = "Sakrij na ESC";
+"Pin Visor" = "Zalijepi Visor";
+
+"Animation:" = "Animacija:";
+"Fade Window" = "Izblijedi prozor";
+"Slide Window" = "Kliži prozor";
+
+"Screen:" = "Ekran:";
+"Show on all Spaces" = "Prikaži na svim Spaces-ima";
+"Show on top of the Dock" = "Prikaži na vrhu Dock-a";
+"Free Form Window" = "Free Form Prozor";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Vratite TotalFinder na početne postavke";
+
+"File Browser:" = "Preglednik datoteka:";
+"Show System Files" = "Prikaži sistemske datoteke";
+"Folders on Top" = "Mape na vrhu";
+"Always Maximize" = "Uvijek uvećaj prozor";
+"Toggle Dual Mode" = "Uključi/isključi Dual Mode";
+
+"Menu and Dock:" = "Meni i Dock:";
+"Hide icon in Menu Bar" = "Sakrij ikonu u Menu Bar-u";
+"Keep original Dock icon" = "Zadrži originalnu Dock ikonu";
+
+"Experimental:" = "Eksperimentalno:";
+"Freelance Windows" = "Freelance Prozori";
+"Use narrow Tabs Bar" = "Koristi uske kartice";
+"Show CutPaste buttons in Context Menus" = "Prikaži Izreži i Zalijepi tipke u kontekstnim menijima";
+"Allow path copying from Context Menus" = "Omogući kopiranje putanje kroz kontekstne menije";
+
+/* about page */
+"Check Now" = "Provjeri sada";
+"Check for Updates" = "Provjeri nadogradnje";
+"Automatically check the website for updates" = "Automatski provjeri web stranicu za nadogradnje";
+"Include pre-releases" = "Uključi testne verzije";
+"Participate in TotalFinder testing" = "Sudjelujte u TotalFinder testiranju";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder Registracija";
+"Registration" = "Registracija";
+"Please enter your license details from the email we have sent you:" = "Molimo Vas, unesite licencu koju ste primili na email:";
+"Buy TotalFinder Now" = "Kupite TotalFinder sada";
+"Register" = "Registriraj";
+"Thanks for registering!" = "Hvala na registraciji!";
+"This TotalFinder copy is licensed to:" = "Ova TotalFinder kopija glasi na:";
+"Close" = "Zatvori";
+"Change License" = "Promijeni Licencu";
+"Back" = "Natrag";
+"Invalid license code" = "Pogrešna licenca";
+"Please go back and try again." = "Molimo vratite se i pokušajte opet.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Ako želite kupiti licencu za TotalFinder, molimo Vas posjetite BinaryAge web trgovinu.";
+"Thank you for using TotalFinder!" = "Hvala što koristite TotalFinder!";
+"License Name" = "Ime licence";
+"License Key" = "Ključ licence";

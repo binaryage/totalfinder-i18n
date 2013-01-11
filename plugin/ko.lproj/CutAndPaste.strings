@@ -8,3 +8,7 @@
 "Cut %u Items" = "%u개 항목 잘라내기";
 "Paste" = "붙여넣기";
 "Paste %u Items" = "%u개 항목 붙여넣기";
+
+"Paste" = "붙여넣기";
+"Copy" = "복사";
+"Cut" = "잘라내기";

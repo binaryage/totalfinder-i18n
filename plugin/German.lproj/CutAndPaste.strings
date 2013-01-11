@@ -8,3 +8,7 @@
 "Cut %u Items" = "%u Elemente ausschneiden";
 "Paste" = "Einfügen";
 "Paste %u Items" = "%u Elemente einfügen";
+
+"Paste" = "Einfügen";
+"Copy" = "Kopieren";
+"Cut" = "Ausschneiden";

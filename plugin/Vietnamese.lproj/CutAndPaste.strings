@@ -8,3 +8,7 @@
 "Cut %u Items" = "Cắt %u Hạng Mục";
 "Paste" = "Paste";
 "Paste %u Items" = "Dán %u Hạng Mục";
+
+"Paste" = "Dán";
+"Copy" = "Sao Chép";
+"Cut" = "Cắt";

@@ -27,3 +27,71 @@
 "Change License" = "Změnit licenci";
 "Unregistered version in trial mode" = "Neregistrovaná verze ve zkušebním módu";
 "Register" = "Registrovat";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Nastavení";
+"About" = "O programu";
+
+/* visor page */
+"Visor Feature" = "Funkcionalita Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "globální okno vyjíždějící zespodu na klávesovou zkratku";
+
+"Activation:" = "Aktivace:";
+
+"Control:" = "Ovládání:";
+"Hide on ESC" = "Skrýt po ESC";
+"Pin Visor" = "Přišpendlit";
+
+"Animation:" = "Animace:";
+"Fade Window" = "Zprůhlednit okno";
+"Slide Window" = "Vyjíždět okno";
+
+"Screen:" = "Obrazovka:";
+"Show on all Spaces" = "Zobrazit na všech plochách";
+"Show on top of the Dock" = "Zobrazit nad Dockem";
+"Free Form Window" = "FreeForm Okno";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Resetuj TotalFinder do výchozího nastavení";
+
+"File Browser:" = "Správce souborů:";
+"Show System Files" = "Zobrazit skryté";
+"Folders on Top" = "Adresáře nahoru";
+"Always Maximize" = "Vždy maximalizovat";
+"Toggle Dual Mode" = "Přepnout dualní panel";
+
+"Menu and Dock:" = "Menu a Dock:";
+"Hide icon in Menu Bar" = "Skrýt ikonu ve status menu";
+"Keep original Dock icon" = "Vrátit původní ikonu do Docku";
+
+"Experimental:" = "Experimentální:";
+"Freelance Windows" = "Volná okna";
+"Use narrow Tabs Bar" = "Štíhlé taby";
+"Show CutPaste buttons in Context Menus" = "Výjmout-vložit tlačítka v kontext menu";
+"Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";
+
+/* about page */
+"Check Now" = "Zkusit";
+"Check for Updates" = "Dotazovat se na aktualizace";
+"Automatically check the website for updates" = "Automaticky se dotazovat na aktualizace z webu";
+"Include pre-releases" = "Nabízet také testovací verze";
+"Participate in TotalFinder testing" = "Díky za pomoc s testováním TotalFinderu";
+
+/* registration */
+"TotalFinder Registration" = "Registrace TotalFinderu";
+"Registration" = "Registrace";
+"Please enter your license details from the email we have sent you:" = "Prosím zadejte licenční údaje z emailu, který jsme vám poslali:";
+"Buy TotalFinder Now" = "Koupit TotalFinder";
+"Register" = "Registrovat";
+"Thanks for registering!" = "Díky za registraci!";
+"This TotalFinder copy is licensed to:" = "Licencován na jméno:";
+"Close" = "Zavřít";
+"Change License" = "Změnit licenci";
+"Back" = "Zpět";
+"Invalid license code" = "Neplatný licenční klíč";
+"Please go back and try again." = "Prosím vraťte se zpět a zkuste to znovu.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licenci pro TotalFinder můžete koupit ve webovém obchodu BinaryAge.";
+"Thank you for using TotalFinder!" = "Díky, že používáte TotalFinder!";
+"License Name" = "Licenční jméno";
+"License Key" = "Licenční klíč";

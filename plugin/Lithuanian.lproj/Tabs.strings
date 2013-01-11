@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - Neregistruotas versijos";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 diena kairėje - pirkti dabar!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dienos kairės - pirkti dabar!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Pasirinkite Kitas Kortelėje";
 "Select Previous Tab" = "Pasirinkite Ankstesnis Kortelėje";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

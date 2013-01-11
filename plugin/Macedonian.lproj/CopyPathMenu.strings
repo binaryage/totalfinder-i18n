@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Копирај Патека";
+"POSIX Path" = "POSIX Патека";
+"URL" = "URL";
+"Windows Path" = "Windows Патека";
+"HFS Path" = "HFS Патека";
+"Terminal Path" = "Terminal Патека";
+"UNC Path" = "UNC Path";

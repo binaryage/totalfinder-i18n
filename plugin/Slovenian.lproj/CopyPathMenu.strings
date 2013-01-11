@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Pot za kopiranje";
+"POSIX Path" = "POSIX pot";
+"URL" = "URL";
+"Windows Path" = "Windows pot";
+"HFS Path" = "HFS pot";
+"Terminal Path" = "Terminal pot";
+"UNC Path" = "UNC Path";

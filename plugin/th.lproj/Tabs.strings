@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - ทดลองใช้งาน";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - เหลือเวลา 1 วัน - ซื้อเดี๋ยวนี้!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - เหลือเวลา 2 วัน - ซื้อเดี๋ยวนี้!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "เลือกแท็บถัดไป";
 "Select Previous Tab" = "เลือกแท็บก่อนหน้า";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

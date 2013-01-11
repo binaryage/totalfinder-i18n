@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - αδήλωτη έκδοση";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 ημέρα έμεινε - αγορά!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 ημέρες έμειναν - αγορά!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Επιλογή επόμενης καρτέλας";
 "Select Previous Tab" = "Επιλογή προηγούμενης καρτέλας";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab";

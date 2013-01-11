@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - neregistrovaná verze";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - zbývá 1 den - koupit teď!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - zbývají 2 dny - koupit teď!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Následující tab";
 "Select Previous Tab" = "Předchozí tab";
 "Switch Active Panel" = "Přepnout aktivní panel";
+
+"New Tab" = "New Tab";

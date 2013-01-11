@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - unregistered version";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
@@ -15,3 +14,5 @@
 "Select Next Tab" = "Select Next Tab";
 "Select Previous Tab" = "Select Previous Tab";
 "Switch Active Panel" = "Switch Active Panel";
+
+"New Tab" = "New Tab"; /* the tooltip of the "plus button" in tabs bar */

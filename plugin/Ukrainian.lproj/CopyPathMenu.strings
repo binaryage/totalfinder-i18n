@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Копіювати шлях";
+"POSIX Path" = "Шлях POSIX";
+"URL" = "Стрічка URL";
+"Windows Path" = "Шлях Windows";
+"HFS Path" = "Шлях HFS";
+"Terminal Path" = "Для Терміналу";
+"UNC Path" = "UNC Path";

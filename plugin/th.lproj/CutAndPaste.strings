@@ -8,3 +8,7 @@
 "Cut %u Items" = "ตัด %u รายการ";
 "Paste" = "วาง";
 "Paste %u Items" = "วาง %u รายการ";
+
+"Paste" = "วาง";
+"Copy" = "คัดลอก";
+"Cut" = "ตัด";

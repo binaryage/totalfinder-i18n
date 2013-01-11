@@ -8,3 +8,7 @@
 "Cut %u Items" = "Výjmout %u položek";
 "Paste" = "Vložit";
 "Paste %u Items" = "Vložit %u položek";
+
+"Paste" = "Vložit";
+"Copy" = "Kopírovat";
+"Cut" = "Výjmout";

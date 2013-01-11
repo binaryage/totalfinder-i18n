@@ -1,1 +1,8 @@
-/* no strings */
+
+"Copy Path" = "Kopeeri Teekond";
+"POSIX Path" = "POSIX";
+"URL" = "URL";
+"Windows Path" = "Windows";
+"HFS Path" = "HFS";
+"Terminal Path" = "Terminal";
+"UNC Path" = "UNC";
