@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.SystemVersion">12D44</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string key="NS.object.0">2844</string>
@@ -202,22 +202,22 @@
 				<reference key="NSNextKeyView" ref="669985325"/>
 				<string key="NSClassName">NSView</string>
 			</object>
-			<object class="NSUserDefaultsController" id="1047803397">
-				<bool key="NSSharedInstance">YES</bool>
-			</object>
 			<object class="NSCustomObject" id="569065874">
 				<string key="NSClassName">GTMUILocalizer</string>
+			</object>
+			<object class="NSUserDefaultsController" id="1047803397">
+				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">_preferencesView</string>
+						<string key="label">_sharingPreferences</string>
 						<reference key="source" ref="1001"/>
 						<reference key="destination" ref="1005"/>
 					</object>
-					<int key="connectionID">1459</int>
+					<int key="connectionID">1463</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -431,7 +431,7 @@
 							<reference ref="313008477"/>
 						</array>
 						<reference key="parent" ref="0"/>
-						<string key="objectName">Preferences</string>
+						<string key="objectName">Sharing Preferences</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">457</int>
@@ -667,6 +667,7 @@
 						<int key="objectID">810</int>
 						<reference key="object" ref="569065874"/>
 						<reference key="parent" ref="0"/>
+						<string key="objectName">Sharing Localizer</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">1184</int>
@@ -812,7 +813,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1462</int>
+			<int key="maxID">1463</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -852,16 +853,24 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+					<string key="className">NSLayoutConstraint</string>
+					<string key="superclassName">NSObject</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/NSLayoutConstraint.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
 					<string key="className">PublishBoxPluginPreferencesController</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">_preferencesView</string>
+						<string key="NS.key.0">_sharingPreferences</string>
 						<string key="NS.object.0">NSView</string>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">_preferencesView</string>
+						<string key="NS.key.0">_sharingPreferences</string>
 						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">_preferencesView</string>
+							<string key="name">_sharingPreferences</string>
 							<string key="candidateClassName">NSView</string>
 						</object>
 					</object>

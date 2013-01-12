@@ -91,11 +91,11 @@
 			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">_preferencesView</string>
+						<string key="label">_experimentalPreferences</string>
 						<reference key="source" ref="1001"/>
 						<reference key="destination" ref="103045758"/>
 					</object>
-					<int key="connectionID">12</int>
+					<int key="connectionID">15</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -160,6 +160,7 @@
 						<int key="objectID">2</int>
 						<reference key="object" ref="864545609"/>
 						<reference key="parent" ref="0"/>
+						<string key="objectName">Experimental Localizer</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>
@@ -206,7 +207,7 @@
 							<reference ref="306029277"/>
 						</array>
 						<reference key="parent" ref="0"/>
-						<string key="objectName">Preferences</string>
+						<string key="objectName">Experimental Preferences</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
@@ -254,7 +255,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">14</int>
+			<int key="maxID">15</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -297,13 +298,13 @@
 					<string key="className">TemplatePluginPreferencesController</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">_preferencesView</string>
+						<string key="NS.key.0">_experimentalPreferences</string>
 						<string key="NS.object.0">NSView</string>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">_preferencesView</string>
+						<string key="NS.key.0">_experimentalPreferences</string>
 						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">_preferencesView</string>
+							<string key="name">_experimentalPreferences</string>
 							<string key="candidateClassName">NSView</string>
 						</object>
 					</object>
