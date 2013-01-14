@@ -11,7 +11,7 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "Verwijderen";
-"Really want to uninstall TotalFinder?" = "Wilt u echt TotalFinder verwijderen?";
+"Really want to uninstall TotalFinder?" = "Wilt u TotalFinder echt verwijderen?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dit start een script dat TotalFinder van de computer zal verwijderen en het originele Finder-gedrag zal herstellen.";
 
 /* MainMenu items */
@@ -80,7 +80,7 @@
 /* registration */
 "TotalFinder Registration" = "Registratie van TotalFinder";
 "Registration" = "Registreren";
-"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens die u per e-mail van ons ontvangen hebt in:";
+"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens, die u per e-mail van ons ontvangen hebt, in:";
 "Buy TotalFinder Now" = "Koop TotalFinder nu";
 "Thanks for registering!" = "Bedankt voor uw registratie!";
 "This TotalFinder copy is licensed to:" = "Dit exemplaar van TotalFinder is gelicenseerd aan:";
@@ -90,5 +90,5 @@
 "Please go back and try again." = "Ga terug en probeer het opnieuw.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Bezoek de BinaryAge webwinkel om een licentie voor het gebruik van Totalfinder te kopen.";
 "Thank you for using TotalFinder!" = "Bedankt voor het gebruiken van TotalFinder!";
-"License Name" = "Licentie naam";
-"License Key" = "Licentie code";
+"License Name" = "Licentienaam";
+"License Key" = "Licentiecode";
