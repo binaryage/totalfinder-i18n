@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Kopi Sti";
+"POSIX Path" = "POSIX Sti";
+"URL" = "URL";
+"Windows Path" = "Windows Sti";
+"HFS Path" = "HFS Sti";
+"Terminal Path" = "Terminal Sti";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Tillad sti kopiering fra Kontekst Menuer";

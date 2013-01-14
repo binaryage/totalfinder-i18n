@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Controleren op updates";
+"Check for Updates" = "Controleer op updates";
 "Uninstall TotalFinder" = "Verwijder TotalFinder";
 "Restart Finder" = "Herstart Finder";
 
@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Ga naar de homepage…";
 
 /* misc. */
-"Screen %d" = "Scherm %d";
+"Screen" = "Scherm";
 
 /* registration */
 "Licensed to %@" = "Gelicenseerd aan %@";
 "Change License" = "Wijzig licentie";
 "Unregistered version in trial mode" = "Ongeregistreerde versie in probeermodus";
 "Register" = "Registreer";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Tweaks";
+"About" = "Over";
+
+/* visor page */
+"Visor Feature" = "De Visor-functie";
+"a system-wide window sliding from the bottom on a hot-key" = "een schermbreed venster dat van beneden binnenschuift met één toetscombinatie";
+
+"Activation:" = "Activatie:";
+
+"Control:" = "Control:";
+"Hide on ESC" = "Verberg met ESC";
+"Pin Visor" = "Zet Visor vast";
+
+"Animation:" = "Animatie:";
+"Fade Window" = "Venster fade-in"; /* This word exists, according to the Van Dale dictionary */
+"Slide Window" = "Venster inschuiven";
+
+"Screen:" = "Scherm:";
+"Show on all Spaces" = "Laat zien op alle Spaces";
+"Show on top of the Dock" = "Blijf boven de Dock";
+"Free Form Window" = "Vrij venster";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Herstel de standaardinstellingen van TotalFinder";
+
+"File Browser:" = "Bestandverkenner:";
+"Show System Files" = "Toon systeembestanden";
+"Folders on Top" = "Mappen bovenaan";
+"Always Maximize" = "Altijd maximaliseren";
+"Toggle Dual Mode" = "Dubbele/enkele kolom";
+
+"Menu and Dock:" = "Menu en Dock:";
+"Hide icon in Menu Bar" = "Verberg icoon in menubalk";
+"Keep original Dock icon" = "Behoud het originele Dockicoon";
+
+"Experimental:" = "Experimenteel:";
+"Freelance Windows" = "Freelance-schermen";
+"Use narrow Tabs Bar" = "Gebruik smalle tabbalk";
+"Show CutPaste buttons in Context Menus" = "Toon knip- en plakknoppen in contextmenu's";
+"Allow path copying from Context Menus" = "Sta kopiëren van paden uit contextmenu's toe";
+
+/* about page */
+"Check Now" = "Controleer nu";
+"Automatically check the website for updates" = "Controleer automatisch of er updates zijn";
+"Include pre-releases" = "Inclusief pre-releases";
+"Participate in TotalFinder testing" = "Help mee met het testen van TotalFinder";
+
+/* registration */
+"TotalFinder Registration" = "Registratie van TotalFinder";
+"Registration" = "Registreren";
+"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens die u per e-mail van ons ontvangen hebt in:";
+"Buy TotalFinder Now" = "Koop TotalFinder nu";
+"Thanks for registering!" = "Bedankt voor uw registratie!";
+"This TotalFinder copy is licensed to:" = "Dit exemplaar van TotalFinder is gelicenseerd aan:";
+"Close" = "Sluiten";
+"Back" = "Terug";
+"Invalid license code" = "Ongeldige licentiecode";
+"Please go back and try again." = "Ga terug en probeer het opnieuw.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Bezoek de BinaryAge webwinkel om een licentie voor het gebruik van Totalfinder te kopen.";
+"Thank you for using TotalFinder!" = "Bedankt voor het gebruiken van TotalFinder!";
+"License Name" = "Licentie naam";
+"License Key" = "Licentie code";

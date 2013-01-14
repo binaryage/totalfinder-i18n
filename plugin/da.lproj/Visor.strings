@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Fastgør Visor";
 "Show Visor" = "Vis Visor";
 "Hide Visor" = "Skjul Visor";
+
+"Screen" = "Skærm";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "et system-bredt vindue der kommer ind fra bunden ved tryk på en knap";
+"Visor Feature" = "Visor Funktionen";
+"Activation:" = "Aktivation:";
+"Show on all Spaces" = "Vis på alle Spaces";
+"Animation:" = "Animation:";
+"Control:" = "Kontrol:";
+"Slide Window" = "Glid Vindue";
+"Fade Window" = "Fade Vindue";
+"Show on top of the Dock" = "Vis ovenpå Docken";
+"Free Form Window" = "FreeForm Vindue";
+"Hide on ESC" = "ESC for at Skjule";
+"Screen:" = "Skærm:";

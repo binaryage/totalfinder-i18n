@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "העתק נתיב";
+"POSIX Path" = "העתק נתיב POSIX";
+"URL" = "URL";
+"Windows Path" = "נתיב Windows";
+"HFS Path" = "נתיב HFS";
+"Terminal Path" = "נתיב Terminal";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "אפשר העתקה דרך תפריטי ההקשר";

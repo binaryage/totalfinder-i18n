@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - phiên bản chưa đăng ký";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - còn 1 ngày -mua ngay!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - còn 2 ngày - mua ngay!";
@@ -15,3 +14,8 @@
 "Select Next Tab" = "Chọn Tab Kế Tiếp";
 "Select Previous Tab" = "Chọn Tab Đằng Sau";
 "Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
+
+"BASIC" = "BASIC";
+"New Tab" = "New Tab";
+"Tabs" = "Tabs";
+"Use narrow Tabs Bar" = "Sử dụng tab hẹp";

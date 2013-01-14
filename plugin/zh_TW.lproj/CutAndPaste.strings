@@ -8,3 +8,8 @@
 "Cut %u Items" = "剪下 %u 個項目";
 "Paste" = "貼上";
 "Paste %u Items" = "貼上 %u 個項目";
+"Copy" = "拷貝";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "在右鍵選單顯示剪下和貼上按鈕";

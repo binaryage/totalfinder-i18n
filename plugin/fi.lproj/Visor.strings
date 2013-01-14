@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Jätä esille";
 "Show Visor" = "Näytä Visor";
 "Hide Visor" = "Piilota Visor";
+
+"Screen" = "Screen";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "näppäinyhdistelmällä esiintuotava ikkuna";
+"Visor Feature" = "Visor";
+"Activation:" = "Yhdistelmä:";
+"Show on all Spaces" = "Näytä kaikissa Spacesin tiloissa";
+"Animation:" = "Animaatio:";
+"Control:" = "Asetukset:";
+"Slide Window" = "Liu'uta ikkuna";
+"Fade Window" = "Haihduta ikkuna";
+"Show on top of the Dock" = "Näytä Dockin päällä";
+"Free Form Window" = "Muotoiltava ikkuna";
+"Hide on ESC" = "Piilota ESC-näppäimellä";
+"Screen:" = "Monitori:";

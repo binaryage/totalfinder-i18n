@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - versione non registrata";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 giorno rimasto - acquista adesso!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 giorni rimasti - acquista adesso!";
@@ -15,3 +14,8 @@
 "Select Next Tab" = "Seleziona la scheda successiva";
 "Select Previous Tab" = "Seleziona la scheda precedente";
 "Switch Active Panel" = "Cambia il pannello attivo";
+
+"BASIC" = "BASIC";
+"New Tab" = "Nuova scheda";
+"Tabs" = "Tabs";
+"Use narrow Tabs Bar" = "Barra delle tab ridotta";

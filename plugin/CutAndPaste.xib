@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">11G15</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2809</string>
-		<string key="IBDocument.AppKitVersion">1138.47</string>
-		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<int key="IBDocument.SystemTarget">1080</int>
+		<string key="IBDocument.SystemVersion">12D44</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">2809</string>
+			<string key="NS.object.0">2844</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSButton</string>
@@ -50,7 +50,7 @@
 								<int key="NSTag">36003</int>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="255309879">
-									<int key="NSCellFlags">604110336</int>
+									<int key="NSCellFlags">603979776</int>
 									<int key="NSCellFlags2">134348800</int>
 									<string key="NSContents">^Paste</string>
 									<object class="NSFont" key="NSSupport" id="26">
@@ -59,13 +59,14 @@
 										<int key="NSfFlags">3100</int>
 									</object>
 									<reference key="NSControlView" ref="108046656"/>
-									<int key="NSButtonFlags">-2038284033</int>
+									<int key="NSButtonFlags">-2038284288</int>
 									<int key="NSButtonFlags2">162</int>
 									<string key="NSAlternateContents"/>
 									<string key="NSKeyEquivalent"/>
 									<int key="NSPeriodicDelay">200</int>
 									<int key="NSPeriodicInterval">25</int>
 								</object>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 							</object>
 							<object class="NSButton" id="457316811">
 								<reference key="NSNextResponder" ref="30201436"/>
@@ -77,18 +78,19 @@
 								<int key="NSTag">36001</int>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="734675010">
-									<int key="NSCellFlags">604110336</int>
+									<int key="NSCellFlags">603979776</int>
 									<int key="NSCellFlags2">134348800</int>
 									<string key="NSContents">^Copy</string>
 									<reference key="NSSupport" ref="26"/>
 									<reference key="NSControlView" ref="457316811"/>
-									<int key="NSButtonFlags">-2038284033</int>
+									<int key="NSButtonFlags">-2038284288</int>
 									<int key="NSButtonFlags2">162</int>
 									<string key="NSAlternateContents"/>
 									<string key="NSKeyEquivalent"/>
 									<int key="NSPeriodicDelay">200</int>
 									<int key="NSPeriodicInterval">25</int>
 								</object>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 							</object>
 							<object class="NSButton" id="191486710">
 								<reference key="NSNextResponder" ref="30201436"/>
@@ -100,18 +102,19 @@
 								<int key="NSTag">36000</int>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="648904861">
-									<int key="NSCellFlags">604110336</int>
+									<int key="NSCellFlags">603979776</int>
 									<int key="NSCellFlags2">134348800</int>
 									<string key="NSContents">^Cut</string>
 									<reference key="NSSupport" ref="26"/>
 									<reference key="NSControlView" ref="191486710"/>
-									<int key="NSButtonFlags">-2038284033</int>
+									<int key="NSButtonFlags">-2038284288</int>
 									<int key="NSButtonFlags2">162</int>
 									<string key="NSAlternateContents"/>
 									<string key="NSKeyEquivalent"/>
 									<int key="NSPeriodicDelay">200</int>
 									<int key="NSPeriodicInterval">25</int>
 								</object>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 							</object>
 						</array>
 						<string key="NSFrameSize">{241, 20}</string>
@@ -133,38 +136,6 @@
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">editMenuItemView_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="811052242"/>
-					</object>
-					<int key="connectionID">39</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">copyButton_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="457316811"/>
-					</object>
-					<int key="connectionID">43</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">cutButton_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="191486710"/>
-					</object>
-					<int key="connectionID">44</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">pasteButton_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="108046656"/>
-					</object>
-					<int key="connectionID">45</int>
-				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">commandsDispatcher:</string>
@@ -188,6 +159,38 @@
 						<reference key="destination" ref="108046656"/>
 					</object>
 					<int key="connectionID">50</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_editMenuItemView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="811052242"/>
+					</object>
+					<int key="connectionID">86</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_pasteButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="108046656"/>
+					</object>
+					<int key="connectionID">87</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_cutButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="191486710"/>
+					</object>
+					<int key="connectionID">88</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_copyButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="457316811"/>
+					</object>
+					<int key="connectionID">89</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -324,7 +327,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">85</int>
+			<int key="maxID">89</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -343,26 +346,26 @@
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="copyButton_">NSButton</string>
-						<string key="cutButton_">NSButton</string>
-						<string key="editMenuItemView_">MenuTrackedRootView</string>
-						<string key="pasteButton_">NSButton</string>
+						<string key="_copyButton">NSButton</string>
+						<string key="_cutButton">NSButton</string>
+						<string key="_editMenuItemView">MenuTrackedRootView</string>
+						<string key="_pasteButton">NSButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="copyButton_">
-							<string key="name">copyButton_</string>
+						<object class="IBToOneOutletInfo" key="_copyButton">
+							<string key="name">_copyButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="cutButton_">
-							<string key="name">cutButton_</string>
+						<object class="IBToOneOutletInfo" key="_cutButton">
+							<string key="name">_cutButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="editMenuItemView_">
-							<string key="name">editMenuItemView_</string>
+						<object class="IBToOneOutletInfo" key="_editMenuItemView">
+							<string key="name">_editMenuItemView</string>
 							<string key="candidateClassName">MenuTrackedRootView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="pasteButton_">
-							<string key="name">pasteButton_</string>
+						<object class="IBToOneOutletInfo" key="_pasteButton">
+							<string key="name">_pasteButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
 					</dictionary>
@@ -480,6 +483,10 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<real value="4500" key="NS.object.0"/>
+		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>

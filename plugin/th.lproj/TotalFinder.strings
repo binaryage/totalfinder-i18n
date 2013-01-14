@@ -20,10 +20,75 @@
 "Visit Homepage…" = "เปิดหน้าเว็บเพจ…";
 
 /* misc. */
-"Screen %d" = "จอ %d";
+"Screen" = "จอ";
 
 /* registration */
 "Licensed to %@" = "ให้ %@ อนุญาตใช้งาน";
-"Change License" = "เปลี่ยนใบอนุญาตใช้งาน";
+"Change License" = "เปลี่ยนใบอนุญาต";
 "Unregistered version in trial mode" = "เวอร์ชั่นนี้ไม่ได้ลงทะเบียน อยู่ในขั้นทดลองใช้";
 "Register" = "ลงทะเบียน";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "ปรับแต่ง";
+"About" = "เกี่ยวกับ";
+
+/* visor page */
+"Visor Feature" = "ฟังก์ชั่น Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "หน้าต่างสไลด์จากด้านล่าง สามารถเรียกจากคีย์ลัดได้เสมอ";
+
+"Activation:" = "เรียกใช้:";
+
+"Control:" = "ควบคุม:";
+"Hide on ESC" = "ซ่อนเมื่อกด ESC";
+"Pin Visor" = "ปักหมุด Visor";
+
+"Animation:" = "แอนิเมชั่น:";
+"Fade Window" = "หน้าต่างค่อยๆ จาง";
+"Slide Window" = "หน้าต่างเลื่อนเข้ามา";
+
+"Screen:" = "จอ:";
+"Show on all Spaces" = "แสดงในทุกๆ Space";
+"Show on top of the Dock" = "แสดงเหนือ Dock";
+"Free Form Window" = "ปรับขนาดหน้าต่างอิสระ";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "ตั้งค่า TotalFinder เป็นค่าเริ่มต้น";
+
+"File Browser:" = "หน้าต่างค้นหาไฟล์:";
+"Show System Files" = "แสดงไฟล์ระบบ";
+"Folders on Top" = "แสดงโฟล์เดอร์ไว้ด้านบน";
+"Always Maximize" = "เต็มจอตลอด";
+"Toggle Dual Mode" = "เรียกใช้หน้าต่างคู่";
+
+"Menu and Dock:" = "แถบเมนูและ Dock:";
+"Hide icon in Menu Bar" = "ซ่อนไอคอนบน Menu Bar";
+"Keep original Dock icon" = "แสดงไอคอนแบบเดิมบน Dock";
+
+"Experimental:" = "ฟังก์ชั่นทดลองใช้:";
+"Freelance Windows" = "หน้าต่างอิสระ";
+"Use narrow Tabs Bar" = "ใช้แถบแท็บแบบเล็ก";
+"Show CutPaste buttons in Context Menus" = "แสดงปุ่มตัดและคัดลอกในเมนูคลิกขวา";
+"Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";
+
+/* about page */
+"Check Now" = "ตรวจสอบเดี๋ยวนี้";
+"Automatically check the website for updates" = "ตรวจหาอัพเดทใหม่โดยอัตโนมัติ";
+"Include pre-releases" = "รวมเวอร์ชั่นทดสอบด้วย";
+"Participate in TotalFinder testing" = "ช่วยทดสอบ TotalFinder ก่อนออกอัพเดทจริง";
+
+/* registration */
+"TotalFinder Registration" = "การลงทะเบียนใช้ TotalFinder";
+"Registration" = "การลงทะเบียน";
+"Please enter your license details from the email we have sent you:" = "โปรดกรอกข้อมูลใบอนุญาตใช้งานที่ได้รับจากอีเมล์ของคุณ:";
+"Buy TotalFinder Now" = "ซื้อ TotalFinder";
+"Thanks for registering!" = "ขอบคุณที่ลงทะเบียน!";
+"This TotalFinder copy is licensed to:" = "TotalFinder บนเครื่องนี้ใช้ภายใต้ใบอนุญาตที่ออกให้:";
+"Close" = "ปิด";
+"Back" = "กลับ";
+"Invalid license code" = "เลขใบอนุญาตผิด";
+"Please go back and try again." = "กรุณาย้อนกลับแล้วลองอีกครั้ง";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "หากต้องการซื้อใบอนุญาตสำหรับ TotalFinder กรุณาไปที่ร้านค้าบนเว็บของ BinaryAge";
+"Thank you for using TotalFinder!" = "ขอบคุณที่ใช้ TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

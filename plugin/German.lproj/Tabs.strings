@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - Unregistrierte Version";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 Tag verbleibend - jetzt kaufen!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 Tage verbleibend - jetzt kaufen!";
@@ -14,4 +13,9 @@
 "Narrow Tabs Bar" = "Tableiste verkleinern";
 "Select Next Tab" = "Nächster Tab";
 "Select Previous Tab" = "Vorheriger Tab";
-"Switch Active Panel" = "Wechsel aktives Panel";
+"Switch Active Panel" = "Aktives Panel wechseln";
+
+"BASIC" = "BASIC";
+"New Tab" = "Neuer Tab";
+"Tabs" = "Tabs";
+"Use narrow Tabs Bar" = "Tableiste verkleinern";

@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "붙박이창 고정";
 "Show Visor" = "붙박이창 보이기";
 "Hide Visor" = "붙박이창 감추기";
+
+"Screen" = "스크린";
+"BASIC" = "BASIC";
+"Visor" = "붙박이창";
+"a system-wide window sliding from the bottom on a hot-key" = "단축키로 언제 어디서나 붙박이 형태의 Finder 창을 불러옵니다.";
+"Visor Feature" = "붙박이창 기능";
+"Activation:" = "활성화:";
+"Show on all Spaces" = "모든 Spaces에서 보이기";
+"Animation:" = "애니메이션:";
+"Control:" = "창 조절:";
+"Slide Window" = "슬라이드";
+"Fade Window" = "페이드";
+"Show on top of the Dock" = "Dock보다 위에 보이기";
+"Free Form Window" = "화면 가장자리에서 분리";
+"Hide on ESC" = "ESC 키로 숨기기";
+"Screen:" = "스크린:";

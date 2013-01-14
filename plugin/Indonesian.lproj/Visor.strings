@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Tahan Visor";
 "Show Visor" = "Tunjukkan Visor";
 "Hide Visor" = "Sembunyikan Visor";
+
+"Screen" = "Screen";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "sistem-wide menggunakan jendela geser dari bawah dengan hot-key";
+"Visor Feature" = "Fitur Visor";
+"Activation:" = "Aktivasi:";
+"Show on all Spaces" = "Tampilkan semuanya";
+"Animation:" = "Animasi:";
+"Control:" = "Control:";
+"Slide Window" = "Geser Jendela";
+"Fade Window" = "Kaburkan Jendela";
+"Show on top of the Dock" = "Show di atas Dock";
+"Free Form Window" = "Jendela dengan Free Form";
+"Hide on ESC" = "Sembunyikan dengan ESC";
+"Screen:" = "Layar:";

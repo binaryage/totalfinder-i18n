@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - neregistrirana verzija";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dan preostao - kupite sada!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dana preostala - kupite sada!";
@@ -15,3 +14,8 @@
 "Select Next Tab" = "Odaberi slijedeću karticu";
 "Select Previous Tab" = "Odaberi prethodnu karticu";
 "Switch Active Panel" = "Promijeni aktivnu ploču";
+
+"BASIC" = "BASIC";
+"New Tab" = "Nova kartica";
+"Tabs" = "Tabs";
+"Use narrow Tabs Bar" = "Koristi uske kartice";

@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Копирај Патека";
+"POSIX Path" = "POSIX Патека";
+"URL" = "URL";
+"Windows Path" = "Windows Патека";
+"HFS Path" = "HFS Патека";
+"Terminal Path" = "Terminal Патека";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Овозможи копирање на патека од Мени";

@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Посетете страницата на проекта…";
 
 /* misc. */
-"Screen %d" = "Екран %d";
+"Screen" = "Екран";
 
 /* registration */
 "Licensed to %@" = "Лицензирано копие на %@";
 "Change License" = "Промени лиценза";
 "Unregistered version in trial mode" = "Нерегистрирана версия в пробен режим";
 "Register" = "Регистрирай";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Фини настройки";
+"About" = "Относно..";
+
+/* visor page */
+"Visor Feature" = "Използване на Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобален прозорец, приплъзващ се от долната част на екрана";
+
+"Activation:" = "Активация:";
+
+"Control:" = "Контрол:";
+"Hide on ESC" = "Скриване с ESC";
+"Pin Visor" = "Забоди";
+
+"Animation:" = "Анимации:";
+"Fade Window" = "Избледняване на прозореца";
+"Slide Window" = "Плъзгане на прозореца";
+
+"Screen:" = "Екран:";
+"Show on all Spaces" = "Показване на всички Spaces";
+"Show on top of the Dock" = "Показване върху Dock";
+"Free Form Window" = "Прозорец с произволна форма";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Настройки по подразбиране на TotalFinder";
+
+"File Browser:" = "Файлов мениджър:";
+"Show System Files" = "Покажи сист.файлове";
+"Folders on Top" = "Папките най-отгоре";
+"Always Maximize" = "Винаги максимизиран";
+"Toggle Dual Mode" = "Двупанелен режим";
+
+"Menu and Dock:" = "Меню и Dock:";
+"Hide icon in Menu Bar" = "Скриване на иконата в Menu Bar";
+"Keep original Dock icon" = "Запази оригиналната Finder икона в Dock";
+
+"Experimental:" = "Експериментални настройки:";
+"Freelance Windows" = "Независими прозорци";
+"Use narrow Tabs Bar" = "Тясна лента с раздели";
+"Show CutPaste buttons in Context Menus" = "Покажи бутони Cut&Paste в контекст.менюта";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+
+/* about page */
+"Check Now" = "Check Now";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Регистрация на TotalFinder";
+"Registration" = "Регистрация";
+"Please enter your license details from the email we have sent you:" = "Моля, Въведете данните за Вашия лиценз от e-mail/а, който Ви изпратихме:";
+"Buy TotalFinder Now" = "Купи TotalFinder сега";
+"Thanks for registering!" = "Благодарим Ви за регистрацията!";
+"This TotalFinder copy is licensed to:" = "Това копие на TotalFinder е лицензирано на:";
+"Close" = "Затвори";
+"Back" = "Назад";
+"Invalid license code" = "Невалиден код на лиценз";
+"Please go back and try again." = "Моля, върнете се назад и опитайте отново.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "За да закупите лиценз за TotalFinder, моля, посетете онлайн магазина BinaryAge.";
+"Thank you for using TotalFinder!" = "Благодарим Ви, че използвате TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

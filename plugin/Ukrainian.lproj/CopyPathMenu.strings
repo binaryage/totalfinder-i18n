@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Копіювати шлях";
+"POSIX Path" = "Шлях POSIX";
+"URL" = "Стрічка URL";
+"Windows Path" = "Шлях Windows";
+"HFS Path" = "Шлях HFS";
+"Terminal Path" = "Для Терміналу";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Копіювання шляху з контекстного меню";

@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "הצמד מצחית";
 "Show Visor" = "הרות מצחיה";
 "Hide Visor" = "הסתיר מצחיה";
+
+"Screen" = "מסך";
+"BASIC" = "BASIC";
+"Visor" = "מצחית";
+"a system-wide window sliding from the bottom on a hot-key" = "חלון מערכתית שמזזה מלמטה על שילוב מקשים";
+"Visor Feature" = "תכונת המצחית";
+"Activation:" = "הפעלה:";
+"Show on all Spaces" = "הצג על כל מרחבים";
+"Animation:" = "אנימציה:";
+"Control:" = "שליטה:";
+"Slide Window" = "מזזה חלון";
+"Fade Window" = "דעוך חלון";
+"Show on top of the Dock" = "הצג על גבי Dock";
+"Free Form Window" = "חלון חופשי";
+"Hide on ESC" = "הסתיר ב־ ESC";
+"Screen:" = "מסך:";

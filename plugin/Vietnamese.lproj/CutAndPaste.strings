@@ -6,5 +6,10 @@
 "Cut" = "Cắt";
 "Cut “%@”" = "Cắt “%@”";
 "Cut %u Items" = "Cắt %u Hạng Mục";
-"Paste" = "Paste";
+"Paste" = "Dán";
 "Paste %u Items" = "Dán %u Hạng Mục";
+"Copy" = "Sao Chép";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Hiển thị nút cắt và dán trong menu ngữ cảnh";

@@ -1,0 +1,11 @@
+"Copy Path" = "Kopeeri Teekond";
+"POSIX Path" = "POSIX";
+"URL" = "URL";
+"Windows Path" = "Windows";
+"HFS Path" = "HFS";
+"Terminal Path" = "Terminal";
+"UNC Path" = "UNC";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Luba teekonna kopeerimist hüpikmenüüs";

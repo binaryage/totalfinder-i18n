@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Visita la homepage…";
 
 /* misc. */
-"Screen %d" = "Schermo %d";
+"Screen" = "Schermo";
 
 /* registration */
 "Licensed to %@" = "Concesso in licenza a %@";
 "Change License" = "Cambia licenza";
 "Unregistered version in trial mode" = "Versione non registrata in modalità di prova";
 "Register" = "Registra";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Modifiche";
+"About" = "Informazioni";
+
+/* visor page */
+"Visor Feature" = "Funzione Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "una finestra di sistema che scorre dal basso grazie a una hot-key";
+
+"Activation:" = "Attivazione:";
+
+"Control:" = "Controllo:";
+"Hide on ESC" = "Premi ESC per nascondere";
+"Pin Visor" = "Blocca Visor";
+
+"Animation:" = "Animazioni:";
+"Fade Window" = "Finestra con dissolvenza";
+"Slide Window" = "Finestra a scorrimento";
+
+"Screen:" = "Schermo:";
+"Show on all Spaces" = "Mostra su tutti gli Spazi";
+"Show on top of the Dock" = "Mostra sopra il Dock";
+"Free Form Window" = "Finestra ridimensionabile";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Riporta TotalFinder alle impostazioni iniziali";
+
+"File Browser:" = "Esploratore di file:";
+"Show System Files" = "Mostra file di sistema";
+"Folders on Top" = "Cartelle in cima";
+"Always Maximize" = "Massimizza sempre";
+"Toggle Dual Mode" = "Vista a doppio pannello";
+
+"Menu and Dock:" = "Menu e Dock:";
+"Hide icon in Menu Bar" = "Nascondi l'icona dalla barra dei menu";
+"Keep original Dock icon" = "Mantieni l'icona originale nel Dock";
+
+"Experimental:" = "Sperimentale:";
+"Freelance Windows" = "Finestre libere";
+"Use narrow Tabs Bar" = "Barra delle tab ridotta";
+"Show CutPaste buttons in Context Menus" = "Mostra i pulsanti Taglia&Incolla nei menu contestuali";
+"Allow path copying from Context Menus" = "Permetti la copia del percorso dal menu contestuale";
+
+/* about page */
+"Check Now" = "Controlla adesso";
+"Automatically check the website for updates" = "Controlla automaticamente il sito web per aggiornamenti";
+"Include pre-releases" = "Includi i rilasci di test in anteprima";
+"Participate in TotalFinder testing" = "Participa al test di TotalFinder";
+
+/* registration */
+"TotalFinder Registration" = "Registrazione di TotalFinder";
+"Registration" = "Registrazione";
+"Please enter your license details from the email we have sent you:" = "Per favore inserisci i dettagli della tua licenza che trovi nella email che ti è stata inviata:";
+"Buy TotalFinder Now" = "Acquista TotalFinder adesso";
+"Thanks for registering!" = "Grazie per aver registrato!";
+"This TotalFinder copy is licensed to:" = "Questa copia di TotalFinder è concessa in licenza a:";
+"Close" = "Chiudi";
+"Back" = "Indietro";
+"Invalid license code" = "Codice di licenza non valido";
+"Please go back and try again." = "Per favore torna indietro e prova di nuovo.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Per acquistare una licenza per TotalFinder, per favore visita il negozio sul sito di BinaryAge.";
+"Thank you for using TotalFinder!" = "Grazie per aver usato TotalFinder!";
+"License Name" = "Nome della licenza";
+"License Key" = "Chiave di licenza";

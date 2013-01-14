@@ -20,10 +20,75 @@
 "Visit Homepage…" = "造訪網站…";
 
 /* misc. */
-"Screen %d" = "顯示器 %d";
+"Screen" = "顯示器";
 
 /* registration */
 "Licensed to %@" = "授權給 %@";
 "Change License" = "變更授權";
 "Unregistered version in trial mode" = "未註冊版本 試用模式";
 "Register" = "註冊";
+
+/* navigation bar */
+"Visor" = "滑入視窗";
+"Tweaks" = "設定";
+"About" = "關於";
+
+/* visor page */
+"Visor Feature" = "啟用滑入視窗";
+"a system-wide window sliding from the bottom on a hot-key" = "以快速鍵呼叫視窗由螢幕底部滑入";
+
+"Activation:" = "快速鍵:";
+
+"Control:" = "控制:";
+"Hide on ESC" = "按 ESC 隱藏";
+"Pin Visor" = "固定滑入視窗:";
+
+"Animation:" = "動畫特效:";
+"Fade Window" = "視窗淡入/淡出";
+"Slide Window" = "視窗滑入/滑出";
+
+"Screen:" = "顯示器:";
+"Show on all Spaces" = "顯示於每個 Spaces 空間";
+"Show on top of the Dock" = "顯示在 Dock 上層";
+"Free Form Window" = "自由調整視窗大小位置";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "將 TotalFinder 重設到預設值";
+
+"File Browser:" = "檔案瀏覽:";
+"Show System Files" = "顯示系統檔案";
+"Folders on Top" = "檔案夾置頂";
+"Always Maximize" = "總是最大化";
+"Toggle Dual Mode" = "切換雙視窗模式";
+
+"Menu and Dock:" = "選單及 Dock:";
+"Hide icon in Menu Bar" = "隱藏選單列圖示";
+"Keep original Dock icon" = "保留原始 Dock 圖示";
+
+"Experimental:" = "實驗性:";
+"Freelance Windows" = "使用自由視窗";
+"Use narrow Tabs Bar" = "使用較窄分頁列";
+"Show CutPaste buttons in Context Menus" = "在右鍵選單顯示剪下和貼上按鈕";
+"Allow path copying from Context Menus" = "允許從右鍵選單拷貝路徑";
+
+/* about page */
+"Check Now" = "馬上檢查";
+"Automatically check the website for updates" = "自動檢查更新";
+"Include pre-releases" = "包含預先釋出版本";
+"Participate in TotalFinder testing" = "參與 TotalFinder 測試";
+
+/* registration */
+"TotalFinder Registration" = "註冊 TotalFinder";
+"Registration" = "註冊";
+"Please enter your license details from the email we have sent you:" = "請輸入我們寄給您的授權資訊:";
+"Buy TotalFinder Now" = "馬上購買 TotalFinder";
+"Thanks for registering!" = "感謝您的註冊!";
+"This TotalFinder copy is licensed to:" = "這份 TotalFinder 授權給:";
+"Close" = "關閉";
+"Back" = "返回";
+"Invalid license code" = "無效的授權碼";
+"Please go back and try again." = "請返回再試一次。";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "要購買 TotalFinder 授權，請造訪 BinaryAge 網路商店。";
+"Thank you for using TotalFinder!" = "感謝您使用 TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

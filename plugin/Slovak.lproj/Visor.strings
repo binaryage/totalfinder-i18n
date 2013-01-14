@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Pripnúť Visor";
 "Show Visor" = "Aktivovať Visor";
 "Hide Visor" = "Deaktivovať Visor";
+
+"Screen" = "Obrazovka";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Výsuvné okno zospodu obrazovky pomocou klavesovej skratky";
+"Visor Feature" = "Funkcia Visor";
+"Activation:" = "Aktivácia:";
+"Show on all Spaces" = "Zobraziť na všetkých plochách";
+"Animation:" = "Animácie:";
+"Control:" = "Ovládánie:";
+"Slide Window" = "Vysúvať okno";
+"Fade Window" = "Zpriehladniť okno";
+"Show on top of the Dock" = "Zobraziť nad Dockom";
+"Free Form Window" = "Upraviteľné okno";
+"Hide on ESC" = "Skryť po stlačení ESC";
+"Screen:" = "Obrazovka:";

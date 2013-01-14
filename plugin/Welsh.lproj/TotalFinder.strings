@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Ewch i Homepage...";
 
 /* misc. */
-"Screen %d" = "Sgrîn %d";
+"Screen" = "Sgrîn";
 
 /* registration */
 "Licensed to %@" = "Trwyddedig i %@";
-"Change License" = "Newid Trwydded";
+"Change License" = "Newid trwydded";
 "Unregistered version in trial mode" = "Fersiwn heb ei gofrestru yn y treial modd";
-"Register" = "Gofrestr";
+"Register" = "Cofrestr";
+
+/* navigation bar */
+"Visor" = "gwyliwr";
+"Tweaks" = "Tweaks";
+"About" = "Amdanom ni";
+
+/* visor page */
+"Visor Feature" = "Miswrn Nodwedd";
+"a system-wide window sliding from the bottom on a hot-key" = "ffenestr system-gyfan yn llithro o'r gwaelod ar poeth-allweddol";
+
+"Activation:" = "Activation:";
+
+"Control:" = "Rheoli:";
+"Hide on ESC" = "Cuddio ar ESC";
+"Pin Visor" = "Pin Visor";
+
+"Animation:" = "Animeiddio:";
+"Fade Window" = "Pylu Ffenestr";
+"Slide Window" = "Ffenestr symud";
+
+"Screen:" = "Sgrîn:";
+"Show on all Spaces" = "Dangos ar yr holl fannau";
+"Show on top of the Dock" = "Dangos ar ben y Dock";
+"Free Form Window" = "ffenestr ffurflen am ddim";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Ailosod TotalFinder i ddiffygion";
+
+"File Browser:" = "Delwedd porwr:";
+"Show System Files" = "Ffeiliau System Dangos:";
+"Folders on Top" = "Ffolderi ar ben:";
+"Always Maximize" = "Bob amser Ehangu";
+"Toggle Dual Mode" = "Modd togl deuol";
+
+"Menu and Dock:" = "Bwydlen a Dock:";
+"Hide icon in Menu Bar" = "Cuddio icon mewn bar dewislenni";
+"Keep original Dock icon" = "Cadwch gwreiddiol Dock icon";
+
+"Experimental:" = "Arbrofol:";
+"Freelance Windows" = "Ffenestri Llawrydd";
+"Use narrow Tabs Bar" = "Defnyddiwch y bar cul Tabs";
+"Show CutPaste buttons in Context Menus" = "Show CutPaste buttons in Context Menus";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+
+/* about page */
+"Check Now" = "Check Now";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Cofrestru TotalFinder";
+"Registration" = "Cofrestru";
+"Please enter your license details from the email we have sent you:" = "Rhowch eich manylion trwydded oddi wrth yr e-bost rydym wedi'i anfon atoch:";
+"Buy TotalFinder Now" = "Prynu Nawr TotalFinder";
+"Thanks for registering!" = "Diolch am gofrestru!";
+"This TotalFinder copy is licensed to:" = "Mae'r copi TotalFinder wedi'i drwyddedu i'r:";
+"Close" = "Agos";
+"Back" = "Ewch yn ôl";
+"Invalid license code" = "trwydded cod annilys";
+"Please go back and try again." = "Os gwelwch yn dda ewch yn ôl a rhoi cynnig eto.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "I brynu trwydded ar gyfer TotalFinder, ewch i siop we BinaryAge.";
+"Thank you for using TotalFinder!" = "Diolch am ddefnyddio TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

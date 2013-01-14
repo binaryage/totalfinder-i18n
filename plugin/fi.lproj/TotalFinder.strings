@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Käy kotisivulla…";
 
 /* misc. */
-"Screen %d" = "%d";
+"Screen" = "Screen";
 
 /* registration */
 "Licensed to %@" = "Lisenssin omistaja: %@.";
-"Change License" = "Vaihda lisenssiä";
+"Change License" = "Vaihda lisenssi";
 "Unregistered version in trial mode" = "Rekisteröimätön versio (kokeilu-versio)";
 "Register" = "Rekisteröi";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Hienosäädöt";
+"About" = "Tietoa";
+
+/* visor page */
+"Visor Feature" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "näppäinyhdistelmällä esiintuotava ikkuna";
+
+"Activation:" = "Yhdistelmä:";
+
+"Control:" = "Asetukset:";
+"Hide on ESC" = "Piilota ESC-näppäimellä";
+"Pin Visor" = "Jätä esille";
+
+"Animation:" = "Animaatio:";
+"Fade Window" = "Haihduta ikkuna";
+"Slide Window" = "Liu'uta ikkuna";
+
+"Screen:" = "Monitori:";
+"Show on all Spaces" = "Näytä kaikissa Spacesin tiloissa";
+"Show on top of the Dock" = "Näytä Dockin päällä";
+"Free Form Window" = "Muotoiltava ikkuna";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Palauta TotalFinderin asetukset";
+
+"File Browser:" = "Tiedostoselain:";
+"Show System Files" = "Näytä piilotiedostot";
+"Folders on Top" = "Kansiot ensin";
+"Always Maximize" = "Laajenna ikkunat koko näytön kattaviksi";
+"Toggle Dual Mode" = "Kaksoispaneeliselaus";
+
+"Menu and Dock:" = "Menu ja Dock:";
+"Hide icon in Menu Bar" = "Piilota kuvake tilariviltä";
+"Keep original Dock icon" = "Pidä alkuperäinen kuvake Dockissa";
+
+"Experimental:" = "Työn alla:";
+"Freelance Windows" = "Älä avaa uusia ikkunoita välilehtiin";
+"Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
+"Show CutPaste buttons in Context Menus" = "Kopioi/Leikkaa/Sijoita-napit pikavalikkoon";
+"Allow path copying from Context Menus" = "Salli polun kopiointi pikavalikosta";
+
+/* about page */
+"Check Now" = "Tarkista nyt";
+"Automatically check the website for updates" = "Tarkista päivitykset automaattisesti";
+"Include pre-releases" = "Huomioi kehitysversiot";
+"Participate in TotalFinder testing" = "Osallistu TotalFinderin testaamiseen";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinderin rekisteröinti";
+"Registration" = "Rekisteröinti";
+"Please enter your license details from the email we have sent you:" = "Ole hyvä ja täytä lisenssisi tiedot, mitkä sait sähköpostiisi:";
+"Buy TotalFinder Now" = "Osta TotalFinder nyt";
+"Thanks for registering!" = "Kiitos rekisteröinnistä!";
+"This TotalFinder copy is licensed to:" = "Tämä TotalFinder on lisenssöity:";
+"Close" = "Sulje";
+"Back" = "Takaisin";
+"Invalid license code" = "Virheellinen lisenssiavain";
+"Please go back and try again." = "Ole hyvä ja mene takaisin yrittääksesi uudelleen.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Ostaaksesi lisenssin TotalFinderiin käy BinaryAgen nettikaupassa";
+"Thank you for using TotalFinder!" = "Kiitos, kun käytit TotalFinderia!";
+"License Name" = "Lisenssin nimi";
+"License Key" = "Lisenssin avain";

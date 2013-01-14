@@ -8,3 +8,8 @@
 "Cut %u Items" = "Supjaustyti %u elementus";
 "Paste" = "Įklijuoti";
 "Paste %u Items" = "Įklijuoti %u elementus";
+"Copy" = "Kopijuoti";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Rodyti Iškirpkite ir įklijuokite mygtukų kontekstinio meniu";

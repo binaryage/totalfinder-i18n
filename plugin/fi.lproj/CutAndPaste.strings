@@ -6,5 +6,10 @@
 "Cut" = "Leikkaa";
 "Cut “%@”" = "Leikkaa “%@”";
 "Cut %u Items" = "Leikkaa %u kohdetta";
-"Paste" = "Sijoita kohde";
+"Paste" = "Sijoita";
 "Paste %u Items" = "Sijoita %u kohdetta";
+"Copy" = "Kopioi";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Kopioi/Leikkaa/Sijoita-napit pikavalikkoon";

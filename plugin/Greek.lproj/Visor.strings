@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Καρφίτσωμα επόπτη";
 "Show Visor" = "Εμφάνιση επόπτη";
 "Hide Visor" = "Απόκρυψη επόπτη";
+
+"Screen" = "Οθόνη";
+"BASIC" = "BASIC";
+"Visor" = "Επόπτης";
+"a system-wide window sliding from the bottom on a hot-key" = "Kυλιόμενο παράθυρο από τη βάση της οθόνης";
+"Visor Feature" = "Επόπτης";
+"Activation:" = "Ενεργό:";
+"Show on all Spaces" = "Εμφάνιση σε όλα τα Spaces";
+"Animation:" = "Εφέ:";
+"Control:" = "Έλεγχος:";
+"Slide Window" = "Ολίσθηση παραθύρου";
+"Fade Window" = "Εξασθένιση παραθύρου";
+"Show on top of the Dock" = "Εμφάνιση πάνω από το Dock";
+"Free Form Window" = "Ελεύθερο παράθυρο";
+"Hide on ESC" = "Απόκρυψη με ESC";
+"Screen:" = "Οθόνη:";

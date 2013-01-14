@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Kopya Yolu";
+"POSIX Path" = "POSIX Yolu";
+"URL" = "URL";
+"Windows Path" = "Windows Yolu";
+"HFS Path" = "HFS Yolu";
+"Terminal Path" = "Terminal Yolu";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Menü'den Yol kopyalamaya izin ver";

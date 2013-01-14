@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Kopiuj ścieżkę";
+"POSIX Path" = "Ścieżka POSIX";
+"URL" = "URL";
+"Windows Path" = "Ścieżka Windows";
+"HFS Path" = "Ścieżka HFS";
+"Terminal Path" = "Ścieżka terminala";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Pozwól kopiować ścieżkę z menu kontekstowego.";

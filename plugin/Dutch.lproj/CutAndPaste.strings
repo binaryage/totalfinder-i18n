@@ -8,3 +8,8 @@
 "Cut %u Items" = "Knip %u onderdelen";
 "Paste" = "Plakken";
 "Paste %u Items" = "Plak %u onderdelen";
+"Copy" = "Kopiëren";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menu en Dock";
+"Show CutPaste buttons in Context Menus" = "Toon knip- en plakknoppen in contextmenu's";

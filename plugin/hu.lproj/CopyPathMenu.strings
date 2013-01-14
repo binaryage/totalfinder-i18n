@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Másolási útvonal";
+"POSIX Path" = "POSIX útvonal";
+"URL" = "URL";
+"Windows Path" = "Windows útvonal";
+"HFS Path" = "HFS útvonal";
+"Terminal Path" = "Terminál útvonal";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Elérési út másolható a helyi menüben";

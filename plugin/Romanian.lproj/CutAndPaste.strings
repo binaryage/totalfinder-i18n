@@ -8,3 +8,8 @@
 "Cut %u Items" = "Taie %u elemente";
 "Paste" = "Lipește";
 "Paste %u Items" = "Lipește %u elemente";
+"Copy" = "Copiază";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Arată butoanele Taie&amp;Lipește în meniurile contextuale";

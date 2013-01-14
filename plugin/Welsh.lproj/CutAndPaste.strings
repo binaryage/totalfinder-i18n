@@ -8,3 +8,8 @@
 "Cut %u Items" = "Torri %u Eitemau";
 "Paste" = "Gludo";
 "Paste %u Items" = "Gludo %u Eitemau";
+"Copy" = "Copy";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Show CutPaste buttons in Context Menus";

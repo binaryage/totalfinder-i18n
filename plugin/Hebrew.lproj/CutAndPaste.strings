@@ -8,3 +8,8 @@
 "Cut %u Items" = "גזור %u פריטים";
 "Paste" = "הדבק";
 "Paste %u Items" = "הדבק %u פריטים";
+"Copy" = "העתק";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "הצג כפתורים גזור והדבק בתפריטי ההקשר";

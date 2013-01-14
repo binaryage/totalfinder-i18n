@@ -8,3 +8,8 @@
 "Cut %u Items" = "Klip %u emner";
 "Paste" = "Sæt ind";
 "Paste %u Items" = "Indsæt %u emner";
+"Copy" = "Kopier";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Vis Klip&Sæt ind knapper i Kontekst Menuer";

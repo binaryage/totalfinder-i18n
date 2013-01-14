@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder lõpetas ootamatult töö";
+"crashDialogMsg" = "TotalFinderis tekkis tõrge ning lõpetas ootamatult Finderi töö, vabandame.";
+"crashDialogNote" = "Teave: Finderile tehti automaatselt restart, kuid pead TotalFinder.app'i käsitsi taaskäivitama.";
+"crashDialogExplanation" = "Saada nupp laeb vearaporti gist.github.com lehele ning käivitab Mail.app rakenduse sobiva e-kirja põhjaga.";
+
+"failDialogHeader" = "Vearaporti üleslaadimine gist.github.com-i ebaõnnestus";
+"failDialogMsg1" = "Kahjuks ma ei suutnud leida vearaportit sinu ~/Logs/CrashReporter kaustast.";
+"failDialogMsg2" = "Leidsin vearaporti, kuid üleslaadimine gist.github.com-i ebaõnnestus tundmatul põhjusel.\n\nKui on kiire, siis võib selle saata mulle käsitsi:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Saada Email";
+"cancelButton" = "Katkesta";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Sa saad aidata mul viga parandada, kirjeldades inglise keeles enda tegevust rakenduses enne selle kokku jooksmist.\n> Ma hindan Teie abi ning ma loen neid vearaporteid, kuid alati ei pruugi ma tagasi kirjutada.\n> Edasise abi saamiseks alusta vestlust:\n> http://getsatisfaction.com/binaryage.\n>\n> Aitäh, Antonin";
+
+"countdownMsgSecondsPlural" = "%d sekundit jäänud.";
+"countdownMsgSecondSingular" = "%d sekund jäänud.";
+
+"countdownMsgMinutesPlural" = "%d minutit jäänud.";
+"countdownMsgMinuteSingular" = "%d minut jäänud.";

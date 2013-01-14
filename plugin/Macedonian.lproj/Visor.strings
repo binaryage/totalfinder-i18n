@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Заклучи Visor";
 "Show Visor" = "Прикажи Visor";
 "Hide Visor" = "Сокриј Visor";
+
+"Screen" = "Екран";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "системско-достапен прозорец којшто се повикува со кратенка";
+"Visor Feature" = "Функција Visor";
+"Activation:" = "Активирај:";
+"Show on all Spaces" = "Прикажи на сите површини";
+"Animation:" = "Анимации:";
+"Control:" = "Контрола:";
+"Slide Window" = "Лизгачки";
+"Fade Window" = "Исчезнува";
+"Show on top of the Dock" = "Прикажи над Dock";
+"Free Form Window" = "Променлив прозорец";
+"Hide on ESC" = "Сокриј на ESC";
+"Screen:" = "Екран:";

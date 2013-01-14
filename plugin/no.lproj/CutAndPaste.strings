@@ -8,3 +8,8 @@
 "Cut %u Items" = "Klipp ut %u objekter";
 "Paste" = "Lim inn";
 "Paste %u Items" = "Lim inn %u objekter";
+"Copy" = "Kopier";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Vis klipp ut og lim inn i kontekstmenyer";

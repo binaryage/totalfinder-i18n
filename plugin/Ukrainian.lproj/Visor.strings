@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Закріпити";
 "Show Visor" = "Показати Visor";
 "Hide Visor" = "Сховати Visor";
+
+"Screen" = "Дисплей";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобальне вікно, що з'являється знизу за гарячою клавішою";
+"Visor Feature" = "Використовувати Visor";
+"Activation:" = "Активація:";
+"Show on all Spaces" = "Показувати на усіх Spaces";
+"Animation:" = "Анімація:";
+"Control:" = "Керування:";
+"Slide Window" = "Вікно ковзає вниз";
+"Fade Window" = "Вікно розчиняється";
+"Show on top of the Dock" = "Показувати над Dock";
+"Free Form Window" = "Змінний розмір вікна";
+"Hide on ESC" = "Ховати вікно по ESC";
+"Screen:" = "Дисплей:";

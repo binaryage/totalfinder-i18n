@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Épingler";
 "Show Visor" = "Afficher Visor";
 "Hide Visor" = "Masquer Visor";
+
+"Screen" = "Écran";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "fenêtre unique apparaissant du bas par un raccourci clavier";
+"Visor Feature" = "Fonction Visor";
+"Activation:" = "Activation :";
+"Show on all Spaces" = "Afficher sur chaque bureau";
+"Animation:" = "Animation :";
+"Control:" = "Contrôle :";
+"Slide Window" = "Glissement de fenêtre";
+"Fade Window" = "Fondu de fenêtre";
+"Show on top of the Dock" = "Afficher au-dessus du Dock";
+"Free Form Window" = "Fenêtre de forme libre";
+"Hide on ESC" = "Masquer avec ESC";
+"Screen:" = "Écran :";

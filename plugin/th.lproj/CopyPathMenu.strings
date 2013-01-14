@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "คัดลอกที่อยู่ของไฟล์";
+"POSIX Path" = "แบบ POSIX";
+"URL" = "แบบ URL";
+"Windows Path" = "แบบ Windows";
+"HFS Path" = "แบบ HFS";
+"Terminal Path" = "แบบ Terminal";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";

@@ -8,3 +8,8 @@
 "Cut %u Items" = "Izreži %u elemente";
 "Paste" = "Prilepi";
 "Paste %u Items" = "Prilepi %u elemente";
+"Copy" = "Kopiraj";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Show CutPaste buttons in Context Menus" = "Izreži/Prilepi gumbi kontekstualnega menija";

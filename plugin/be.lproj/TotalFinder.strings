@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Адкрыць хатнюю старонку праекту…";
 
 /* misc. */
-"Screen %d" = "Экран %d";
+"Screen" = "Экран";
 
 /* registration */
 "Licensed to %@" = "Ліцэнзія выдадзена %@";
-"Change License" = "Памяняць Ліцэнзію";
+"Change License" = "Памяняць ліцэнзію";
 "Unregistered version in trial mode" = "Незарэгістраваная версія ў выпрабавальным рэжыме";
 "Register" = "Зарэгістраваць";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Налады";
+"About" = "Аб праграме";
+
+/* visor page */
+"Visor Feature" = "Выкарыстоўваць Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глябальнае акно, якое з'яўляецца знізу, па гарачай клавішы";
+
+"Activation:" = "Актывацыя:";
+
+"Control:" = "Кіраванне:";
+"Hide on ESC" = "Хаваць па ESC";
+"Pin Visor" = "Замацаваць";
+
+"Animation:" = "Анімацыя:";
+"Fade Window" = "Згасанне";
+"Slide Window" = "З'язджанне";
+
+"Screen:" = "Экран:";
+"Show on all Spaces" = "Паказваць на ўсіх Spaces";
+"Show on top of the Dock" = "Паказвать над Dock";
+"Free Form Window" = "Адвольны памер акна";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Аднавіць налады па-змаўчанню";
+
+"File Browser:" = "Файлавы менеджэр:";
+"Show System Files" = "Схаваная файлы";
+"Folders on Top" = "Папкі зверху";
+"Always Maximize" = "Заўсёды разгортваць";
+"Toggle Dual Mode" = "Здвоены рэжым";
+
+"Menu and Dock:" = "Меню і Dock:";
+"Hide icon in Menu Bar" = "Выдаліць TotalFinder з радка меню";
+"Keep original Dock icon" = "Не змяняць абразок Finder у Dock";
+
+"Experimental:" = "Эксперыментальныя магчымасці:";
+"Freelance Windows" = "Незалежныя вокны";
+"Use narrow Tabs Bar" = "Вузкая панэль укладак";
+"Show CutPaste buttons in Context Menus" = "Каманды рэдагавання ў выглядзе кнопак";
+"Allow path copying from Context Menus" = "Дазваляць капіяванне шляху з кантэкстнага меню";
+
+/* about page */
+"Check Now" = "Check Now";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "Рэгістрацыя TotalFinder";
+"Registration" = "Рэгістрацыя";
+"Please enter your license details from the email we have sent you:" = "Калі ласка, ўвядзіце дэталі Вашай ліцэнзіі, якія мы адправілі Вам электроннай поштай:";
+"Buy TotalFinder Now" = "Купіце TotalFinder зараз";
+"Thanks for registering!" = "Дзякуй за рэгістрацыю!";
+"This TotalFinder copy is licensed to:" = "Гэтая копія TotalFinder ліцэнзавана на:";
+"Close" = "Закрыць";
+"Back" = "Назад";
+"Invalid license code" = "Няправільны код ліцэнзіі";
+"Please go back and try again." = "Калі ласка, паспрабуйце яшчэ раз.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Для куплі ліцэнзіі TotalFinder, калі ласка, наведайце онлайн магазін BinaryAge.";
+"Thank you for using TotalFinder!" = "Дзякуй за выкарыстанне TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

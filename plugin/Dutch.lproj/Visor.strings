@@ -1,4 +1,19 @@
-/* no strings */
 "Pin Visor" = "Zet Visor vast";
 "Show Visor" = "Activeer Visor";
 "Hide Visor" = "Deactiveer Visor";
+
+"Screen" = "Scherm";
+"BASIC" = "BASIC";
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "een schermbreed venster dat van beneden binnenschuift met één toetscombinatie";
+"Visor Feature" = "De Visor-functie";
+"Activation:" = "Activatie:";
+"Show on all Spaces" = "Laat zien op alle Spaces";
+"Animation:" = "Animatie:";
+"Control:" = "Control:";
+"Slide Window" = "Venster inschuiven";
+"Fade Window" = "Venster fade-in"; /* This word exists, according to the Van Dale dictionary */
+"Show on top of the Dock" = "Blijf boven de Dock";
+"Free Form Window" = "Vrij venster";
+"Hide on ESC" = "Verberg met ESC";
+"Screen:" = "Scherm:";

@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Копирай пътя";
+"POSIX Path" = "POSIX път";
+"URL" = "URL";
+"Windows Path" = "Windows път";
+"HFS Path" = "HFS път";
+"Terminal Path" = "Terminal път";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Allow path copying from Context Menus";

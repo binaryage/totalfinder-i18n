@@ -20,10 +20,75 @@
 "Visit Homepage…" = "Посетета ја Страницата…";
 
 /* misc. */
-"Screen %d" = "Екран %d";
+"Screen" = "Екран";
 
 /* registration */
 "Licensed to %@" = "Лиценцирано на %@";
 "Change License" = "Промени Лиценца";
 "Unregistered version in trial mode" = "Нерегистрирана верзија во пробен мод";
 "Register" = "Регистрирај";
+
+/* navigation bar */
+"Visor" = "Visor";
+"Tweaks" = "Промени";
+"About" = "Информации";
+
+/* visor page */
+"Visor Feature" = "Функција Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "системско-достапен прозорец којшто се повикува со кратенка";
+
+"Activation:" = "Активирај:";
+
+"Control:" = "Контрола:";
+"Hide on ESC" = "Сокриј на ESC";
+"Pin Visor" = "Заклучи Visor";
+
+"Animation:" = "Анимации:";
+"Fade Window" = "Исчезнува";
+"Slide Window" = "Лизгачки";
+
+"Screen:" = "Екран:";
+"Show on all Spaces" = "Прикажи на сите површини";
+"Show on top of the Dock" = "Прикажи над Dock";
+"Free Form Window" = "Променлив прозорец";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "Ресетирај ги TotalFinder поставките";
+
+"File Browser:" = "Прелистувач на Датотеки:";
+"Show System Files" = "Системски Датотеки";
+"Folders on Top" = "Папките Најгоре";
+"Always Maximize" = "Секогаш Зголеми";
+"Toggle Dual Mode" = "Изменичен Двоен Мод";
+
+"Menu and Dock:" = "Мени и Dock:";
+"Hide icon in Menu Bar" = "Тргни го TotalFinder од Менито";
+"Keep original Dock icon" = "Чувај ја оригиналната Dock икона";
+
+"Experimental:" = "Експериментално:";
+"Freelance Windows" = "Слободни прозорци";
+"Use narrow Tabs Bar" = "Тенка Линија со Јазичиња";
+"Show CutPaste buttons in Context Menus" = "Прикажи Отсечи/Залепи копчиња во Мени";
+"Allow path copying from Context Menus" = "Овозможи копирање на патека од Мени";
+
+/* about page */
+"Check Now" = "Check Now";
+"Automatically check the website for updates" = "Automatically check the website for updates";
+"Include pre-releases" = "Include pre-releases";
+"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder Регистрација";
+"Registration" = "Регистрација";
+"Please enter your license details from the email we have sent you:" = "Ве молиме внесете ги деталите за лиценцата од пораката што Ви ја пуштивме:";
+"Buy TotalFinder Now" = "Купи го TotalFinder Сега";
+"Thanks for registering!" = "Ви благодариме за регистрацијата!";
+"This TotalFinder copy is licensed to:" = "Оваа копија на TotalFinder е лиценцирана на:";
+"Close" = "Затвори";
+"Back" = "Назад";
+"Invalid license code" = "Погрешен код за лиценца";
+"Please go back and try again." = "Ве молиме одете назад и обидете се повторно.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "За да купите лиценца за TotalFinder, Ве молиме посетете ја продавницата на BinaryAge.";
+"Thank you for using TotalFinder!" = "Ви благодариме што го користите TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";

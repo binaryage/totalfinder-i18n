@@ -1,1 +1,11 @@
-/* no strings */
+"Copy Path" = "Αντιγραφή διεύθυνσης";
+"POSIX Path" = "POSIX διεύθυνση";
+"URL" = "URL";
+"Windows Path" = "Διεύθυνση παραθύρου ";
+"HFS Path" = "Διεύθυνση HFS";
+"Terminal Path" = "Διεύθυνση τερματικού";
+"UNC Path" = "UNC Path";
+
+"BASIC" = "BASIC";
+"Menus and Dock" = "Menus and Dock";
+"Allow path copying from Context Menus" = "Αντιγραφή Path με δεξί κλικ";

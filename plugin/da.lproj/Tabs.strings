@@ -1,4 +1,3 @@
-/* no strings */
 "TotalFinder - unregistered version" = "TotalFinder - ikke-registreret version";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag tilbage - køb nu!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dage tilbage - køb nu!";
@@ -15,3 +14,8 @@
 "Select Next Tab" = "Vælg Næste Fane";
 "Select Previous Tab" = "Vælg Forrige Fane";
 "Switch Active Panel" = "Switch Active Panel";
+
+"BASIC" = "BASIC";
+"New Tab" = "New Tab";
+"Tabs" = "Tabs";
+"Use narrow Tabs Bar" = "Brug smalle Fane Barer";

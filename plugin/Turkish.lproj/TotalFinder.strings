@@ -1,5 +1,5 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Güncelleştirmeleri Denetle";
+"Check for Updates" = "Güncellemeleri kontrol et";
 "Uninstall TotalFinder" = "TotalFinder'ı Kaldır";
 "Restart Finder" = "Finder'ı Yeniden Başlat";
 
@@ -11,19 +11,84 @@
 
 /* Unistall Alert Box */
 "Uninstall" = "Kaldır";
-"Really want to uninstall TotalFinder?" = "TotalFinder'ı kaldırmayı gerçekten istiyor musunuz?";
+"Really want to uninstall TotalFinder?" = "TotalFinder'ı kaldırmak istediğinizden emin misiniz?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Bu işlem TotalFinder'ı bu bilgisayardan kaldırmak ve orijinal Finder davranışını geri getirmek için bir kaldırma betiği başlatacaktır.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder Ayarları…";
-"Visit Homepage…" = "TotalFinder Ana Sayfası...";
+"TotalFinder Preferences…" = "TotalFinder Tercihleri…";
+"Visit Homepage…" = "Web Sitesini Ziyaret Et…";
 
 /* misc. */
-"Screen %d" = "Ekran %d";
+"Screen" = "Ekran";
 
 /* registration */
-"Licensed to %@" = "%@ adına tescil edilmiştir.";
-"Change License" = "Tescili değiştir";
-"Unregistered version in trial mode" = "Tescilsiz deneme sürümü";
+"Licensed to %@" = "%@ adına lisanslıdır.";
+"Change License" = "Lisansı Değiştir";
+"Unregistered version in trial mode" = "Lisanssız deneme sürümü";
 "Register" = "Kayıt";
+
+/* navigation bar */
+"Visor" = "Vizör";
+"Tweaks" = "İnce Ayar";
+"About" = "Hakkında";
+
+/* visor page */
+"Visor Feature" = "Vizör özelliği";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan açılan pencere";
+
+"Activation:" = "Aktivasyon:";
+
+"Control:" = "Kontrol:";
+"Hide on ESC" = "ESC ile gizle";
+"Pin Visor" = "Vizörü sabitle";
+
+"Animation:" = "Animasyon:";
+"Fade Window" = "Pencereyi söndür";
+"Slide Window" = "Pencereyi kaydır";
+
+"Screen:" = "Ekran:";
+"Show on all Spaces" = "Bütün Alanlarda göster";
+"Show on top of the Dock" = "İskelenin(Dock) üzerinde göster";
+"Free Form Window" = "Serbest şekillendirilebilir pencere";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "TotalFinder ayarlarını varsayılan ayarlara döndür";
+
+"File Browser:" = "Dosya tarayıcısı:";
+"Show System Files" = "Sistem dosyalarını göster";
+"Folders on Top" = "Klasörleri üstte göster";
+"Always Maximize" = "Her zaman büyüterek aç";
+"Toggle Dual Mode" = "İkili Pencereyi Aç/Kapat";
+
+"Menu and Dock:" = "Menü ve İskele(dock):";
+"Hide icon in Menu Bar" = "TotalFinder simgesini menü çubuğunda gizle";
+"Keep original Dock icon" = "Orijinal İskele(Dock) simgesini kullan";
+
+"Experimental:" = "Deneysel:";
+"Freelance Windows" = "Bağımsız Pencereler";
+"Use narrow Tabs Bar" = "Dar sekme çubuğu kullan";
+"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır butonlarını sağ tık menüsünde göster";
+"Allow path copying from Context Menus" = "Menü'den Yol kopyalamaya izin ver";
+
+/* about page */
+"Check Now" = "Şimdi kontrol et";
+"Automatically check the website for updates" = "Güncellemeleri otomatik olarak kontrol et";
+"Include pre-releases" = "Ön-sürümleri dahil et";
+"Participate in TotalFinder testing" = "TotalFinder'ın test sürecine katıl";
+
+/* registration */
+"TotalFinder Registration" = "TotalFinder Kaydı";
+"Registration" = "Kayıt";
+"Please enter your license details from the email we have sent you:" = "Lütfen size gönderdiğimiz e-postadaki lisans bilgilerini giriniz:";
+"Buy TotalFinder Now" = "TotalFinder'ı Satın Alın";
+"Thanks for registering!" = "Kaydınız için teşekkürler!";
+"This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının lisans sahibi:";
+"Close" = "Kapat";
+"Back" = "Geri";
+"Invalid license code" = "Hatalı lisans kodu";
+"Please go back and try again." = "Lütfen geri dönüp tekrar deneyin";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder için lisans satın almak için lütfen BinaryAge web sitesini ziyaret edin.";
+"Thank you for using TotalFinder!" = "TotalFinder'ı kullandığınız için teşekkürler!";
+"License Name" = "Lisans İsmi";
+"License Key" = "Lisans Anahtarı";

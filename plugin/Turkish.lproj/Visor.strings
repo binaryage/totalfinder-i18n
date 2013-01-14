@@ -1,4 +1,19 @@
-/* no strings */
-"Pin Visor" = "Vizörü sabitle";
-"Show Visor" = "Vizör'ü Göster";
-"Hide Visor" = "Vizör'ü Gizle";
+"Pin Visor" = "Vizörü Sabitle";
+"Show Visor" = "Vizörü Göster";
+"Hide Visor" = "Vizörü Gizle";
+
+"Screen" = "Ekran";
+"BASIC" = "BASIC";
+"Visor" = "Vizör";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan açılan pencere";
+"Visor Feature" = "Vizör özelliği";
+"Activation:" = "Aktivasyon:";
+"Show on all Spaces" = "Bütün Alanlarda göster";
+"Animation:" = "Animasyon:";
+"Control:" = "Kontrol:";
+"Slide Window" = "Pencereyi kaydır";
+"Fade Window" = "Pencereyi söndür";
+"Show on top of the Dock" = "İskelenin(Dock) üzerinde göster";
+"Free Form Window" = "Serbest şekillendirilebilir pencere";
+"Hide on ESC" = "ESC ile gizle";
+"Screen:" = "Ekran:";
