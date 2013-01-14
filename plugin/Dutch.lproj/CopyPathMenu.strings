@@ -1,10 +1,10 @@
-"Copy Path" = "Kopieerpad";
+"Copy Path" = "Kopieer het pad";
 "POSIX Path" = "POSIX-pad";
 "URL" = "URL";
 "Windows Path" = "Windows-pad";
 "HFS Path" = "HFS-pad";
 "Terminal Path" = "Terminal-pad";
-"UNC Path" = "UNC Path";
+"UNC Path" = "UNC-pad";
 
 "BASIC" = "BASIC";
 "Menus and Dock" = "Menu en Dock";
