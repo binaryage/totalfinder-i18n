@@ -46,6 +46,7 @@
 								<int key="NSvFlags">300</int>
 								<string key="NSFrame">{{158, 0}, {69, 20}}</string>
 								<reference key="NSSuperview" ref="30201436"/>
+								<reference key="NSWindow"/>
 								<int key="NSTag">36003</int>
 								<bool key="NSEnabled">YES</bool>
 								<object class="NSButtonCell" key="NSCell" id="255309879">
@@ -72,6 +73,7 @@
 								<int key="NSvFlags">300</int>
 								<string key="NSFrame">{{90, 0}, {69, 20}}</string>
 								<reference key="NSSuperview" ref="30201436"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="108046656"/>
 								<int key="NSTag">36001</int>
 								<bool key="NSEnabled">YES</bool>
@@ -95,6 +97,7 @@
 								<int key="NSvFlags">300</int>
 								<string key="NSFrame">{{22, 0}, {69, 20}}</string>
 								<reference key="NSSuperview" ref="30201436"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="457316811"/>
 								<int key="NSTag">36000</int>
 								<bool key="NSEnabled">YES</bool>
@@ -116,12 +119,14 @@
 						</array>
 						<string key="NSFrameSize">{241, 20}</string>
 						<reference key="NSSuperview" ref="811052242"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="191486710"/>
 						<string key="NSClassName">GTMWidthBasedTweaker</string>
 					</object>
 				</array>
 				<string key="NSFrameSize">{241, 20}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="30201436"/>
 				<string key="NSClassName">MenuTrackedRootView</string>
 			</object>
@@ -131,38 +136,6 @@
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">editMenuItemView_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="811052242"/>
-					</object>
-					<int key="connectionID">39</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">copyButton_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="457316811"/>
-					</object>
-					<int key="connectionID">43</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">cutButton_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="191486710"/>
-					</object>
-					<int key="connectionID">44</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">pasteButton_</string>
-						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="108046656"/>
-					</object>
-					<int key="connectionID">45</int>
-				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">commandsDispatcher:</string>
@@ -186,6 +159,38 @@
 						<reference key="destination" ref="108046656"/>
 					</object>
 					<int key="connectionID">50</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_editMenuItemView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="811052242"/>
+					</object>
+					<int key="connectionID">86</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_pasteButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="108046656"/>
+					</object>
+					<int key="connectionID">87</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_cutButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="191486710"/>
+					</object>
+					<int key="connectionID">88</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_copyButton</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="457316811"/>
+					</object>
+					<int key="connectionID">89</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -322,7 +327,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">85</int>
+			<int key="maxID">89</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -341,26 +346,26 @@
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="copyButton_">NSButton</string>
-						<string key="cutButton_">NSButton</string>
-						<string key="editMenuItemView_">MenuTrackedRootView</string>
-						<string key="pasteButton_">NSButton</string>
+						<string key="_copyButton">NSButton</string>
+						<string key="_cutButton">NSButton</string>
+						<string key="_editMenuItemView">MenuTrackedRootView</string>
+						<string key="_pasteButton">NSButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="copyButton_">
-							<string key="name">copyButton_</string>
+						<object class="IBToOneOutletInfo" key="_copyButton">
+							<string key="name">_copyButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="cutButton_">
-							<string key="name">cutButton_</string>
+						<object class="IBToOneOutletInfo" key="_cutButton">
+							<string key="name">_cutButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="editMenuItemView_">
-							<string key="name">editMenuItemView_</string>
+						<object class="IBToOneOutletInfo" key="_editMenuItemView">
+							<string key="name">_editMenuItemView</string>
 							<string key="candidateClassName">MenuTrackedRootView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="pasteButton_">
-							<string key="name">pasteButton_</string>
+						<object class="IBToOneOutletInfo" key="_pasteButton">
+							<string key="name">_pasteButton</string>
 							<string key="candidateClassName">NSButton</string>
 						</object>
 					</dictionary>
