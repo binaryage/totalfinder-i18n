@@ -5,7 +5,7 @@
 "Pad %@" = "Nummertoets %@";
 "The key combination %@ can't be used!" = "De toetscombinatie %@ kan niet gebruikt worden!";
 "The key combination \"%@\" can't be used because %@." = "De toetscombinatie \"%@\" kan niet gebruikt worden, omdat %@.";
-"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "De toetscombinatie \"%@\" kan niet gebruikt worden, omdat deze al gebruikt wordt door het systeem. (U kunt de bestaande toetscombinatie wijzigen in het paneel 'Toetsenbord en Muis' onder Systeemvoorkeuren.)";
+"The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "De toetscombinatie \"%@\" kan niet worden gebruikt, omdat deze al wordt gebruikt door het systeem. (U kunt bestaande toetscombinatie wijzigen in het paneel 'Toetscombinaties' van 'Toetsenbord' onder de Systeemvoorkeuren.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "De toetscombinatie \"%@\" kan niet gebruikt worden, omdat deze al gebruikt wordt door het menu-item \"%@\".";
 "Command + " = "Command + ";
 "Option + " = "Optie + ";
