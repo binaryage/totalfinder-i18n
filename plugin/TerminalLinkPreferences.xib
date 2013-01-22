@@ -42,7 +42,7 @@
 					<object class="NSButton" id="799669167">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{18, 18}, {177, 18}}</string>
+						<string key="NSFrame">{{18, 18}, {279, 18}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -50,7 +50,7 @@
 						<object class="NSButtonCell" key="NSCell" id="356021245">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">^Link Terminal directory</string>
+							<string key="NSContents">^Link Terminal directory to Finder target</string>
 							<object class="NSFont" key="NSSupport">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">13</double>
