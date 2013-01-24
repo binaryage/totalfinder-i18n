@@ -7,7 +7,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - Pozostało %d dni - kup teraz!";
 "Close Tab" = "Zamknij kartę";
 "New Finder Tab" = "Nowa karta Findera";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Reopen Closed Tab" = "Otwórz ponownie zamknięte zakładki";
 "Close Window" = "Zamknij okno";
 "Toggle Dual Mode" = "Wł/wył tryb podwójny";
 "Narrow Tabs Bar" = "Użyj wąskich zakładek";
@@ -16,6 +16,6 @@
 "Switch Active Panel" = "Przełącz aktywny panel";
 
 "BASIC" = "BASIC";
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "Nowa zakładka";
+"Tabs" = "Zakładki";
 "Use narrow Tabs Bar" = "Użyj wąskich zakładek";
