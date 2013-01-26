@@ -4,8 +4,8 @@
 "Windows Path" = "Ścieżka Windows";
 "HFS Path" = "Ścieżka HFS";
 "Terminal Path" = "Ścieżka terminala";
-"UNC Path" = "UNC Path";
+"UNC Path" = "Ścieżka UNC";
 
 "BASIC" = "BASIC";
-"Menus and Dock" = "Menus and Dock";
+"Menus and Dock" = "Menu i Dock";
 "Allow path copying from Context Menus" = "Pozwól kopiować ścieżkę z menu kontekstowego.";
