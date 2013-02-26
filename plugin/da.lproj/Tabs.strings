@@ -5,17 +5,17 @@
 "TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dage tilbage - køb nu!";
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dage tilbage - køb nu!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d dage tilbage - køb nu!";
-"Close Tab" = "Luk Fane";
-"New Finder Tab" = "Ny Finder Fane";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Close Tab" = "Luk fane";
+"New Finder Tab" = "Ny finder fane";
+"Reopen Closed Tab" = "Åbn lukkede fane igen";
 "Close Window" = "Luk Vindue";
 "Toggle Dual Mode" = "Skift Dual-mode";
-"Narrow Tabs Bar" = "Indsnæver Fane Bar";
-"Select Next Tab" = "Vælg Næste Fane";
-"Select Previous Tab" = "Vælg Forrige Fane";
-"Switch Active Panel" = "Switch Active Panel";
+"Narrow Tabs Bar" = "Indsnæver fanebar";
+"Select Next Tab" = "Gå til næste fane";
+"Select Previous Tab" = "Gå til forrige fane";
+"Switch Active Panel" = "Skift aktivt panel";
 
 "BASIC" = "BASIC";
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
-"Use narrow Tabs Bar" = "Brug smalle Fane Barer";
+"New Tab" = "Ny fane";
+"Tabs" = "Faner";
+"Use narrow Tabs Bar" = "Brug smal fanebar";
