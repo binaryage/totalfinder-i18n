@@ -1,17 +1,17 @@
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Tjek for Opdateringer";
+"Check for Updates" = "Tjek for opdateringer";
 "Uninstall TotalFinder" = "Afinstaller TotalFinder";
 "Restart Finder" = "Genstart Finder";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Nulstil";
 "Cancel" = "Anuller";
-"Do you really want reset to defaults?" = "Er du sikker på du vil nulstille tilbage til standard?";
+"Do you really want reset to defaults?" = "Er du sikker på, at du vil nulstille tilbage til standardindstillingerne?";
 "This will restore initial TotalFinder settings." = "Dette vil gendanne dine start indstillinge for TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Afinstaller";
-"Really want to uninstall TotalFinder?" = "Er du sikker på at du vil afinstallere TotalFinder?";
+"Really want to uninstall TotalFinder?" = "Er du sikker på, at du vil afinstallere TotalFinder?";
 "This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Dette vil køre et afinstallations script som vil fjerne TotalFinder fra denne computer og gendanne Finders originale adfærd.";
 
 /* MainMenu items */
@@ -23,9 +23,9 @@
 "Screen" = "Skærm";
 
 /* registration */
-"Licensed to %@" = "Licenseret til %@";
-"Change License" = "Skift Licens";
-"Unregistered version in trial mode" = "Ikke-registreret version i prøve-mode";
+"Licensed to %@" = "Licens til %@";
+"Change License" = "Skift licens";
+"Unregistered version in trial mode" = "Ikke-registreret version i prøvetilstand";
 "Register" = "Registrer";
 
 /* navigation bar */
@@ -40,42 +40,42 @@
 "Activation:" = "Aktivation:";
 
 "Control:" = "Kontrol:";
-"Hide on ESC" = "ESC for at Skjule";
+"Hide on ESC" = "Skjul via ESC";
 "Pin Visor" = "Fastgør Visor";
 
 "Animation:" = "Animation:";
-"Fade Window" = "Fade Vindue";
-"Slide Window" = "Glid Vindue";
+"Fade Window" = "Fade vindue";
+"Slide Window" = "Slide vindue";
 
 "Screen:" = "Skærm:";
 "Show on all Spaces" = "Vis på alle Spaces";
 "Show on top of the Dock" = "Vis ovenpå Docken";
-"Free Form Window" = "FreeForm Vindue";
+"Free Form Window" = "Fri Form vindue";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Nulstil TotalFinder til standard";
+"Reset TotalFinder to defaults" = "Nulstil TotalFinder til standardindstillingerne";
 
-"File Browser:" = "Fil Browser:";
-"Show System Files" = "Vis System Filer";
-"Folders on Top" = "Mapper Øverst";
+"File Browser:" = "Fil browser:";
+"Show System Files" = "Vis systemfiler";
+"Folders on Top" = "Vis mapper øverst";
 "Always Maximize" = "Altid Maximer";
 "Toggle Dual Mode" = "Skift Dual-mode";
 
 "Menu and Dock:" = "Menu og Dock:";
-"Hide icon in Menu Bar" = "Skjul ikon i Menu Baren";
+"Hide icon in Menu Bar" = "Skjul ikon i menulinje";
 "Keep original Dock icon" = "Behold original Dock ikon";
 
 "Experimental:" = "Experimental:";
-"Freelance Windows" = "Freelance Vinduer";
-"Use narrow Tabs Bar" = "Brug smalle Fane Barer";
-"Show CutPaste buttons in Context Menus" = "Vis Klip&Sæt ind knapper i Kontekst Menuer";
-"Allow path copying from Context Menus" = "Tillad sti kopiering fra Kontekst Menuer";
+"Freelance Windows" = "Freelance vinduer";
+"Use narrow Tabs Bar" = "Brug smal fanebar";
+"Show CutPaste buttons in Context Menus" = "Vis klip/sæt ind-knapper i kontekstmenuer";
+"Allow path copying from Context Menus" = "Tillad sti kopiering fra kontekstmenuer";
 
 /* about page */
-"Check Now" = "Check Now";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Kontroller nu";
+"Automatically check the website for updates" = "Kontroller automatisk for opdateringer";
+"Include pre-releases" = "Inkluder pre-releases";
+"Participate in TotalFinder testing" = "Deltag i testning af TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder Registration";
@@ -86,7 +86,7 @@
 "This TotalFinder copy is licensed to:" = "Denne TotalFinder kopi er licenseret til:";
 "Close" = "Luk";
 "Back" = "Tilbage";
-"Invalid license code" = "Invalid licens kode";
+"Invalid license code" = "Ugyldig licens kode";
 "Please go back and try again." = "Gå venligst tilbage og prøv igen.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "For at købe en licens til TotalFinder, besøg venligst BinaryAge net butik.";
 "Thank you for using TotalFinder!" = "Tak for du bruger TotalFinder!";
