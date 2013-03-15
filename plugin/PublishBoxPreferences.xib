@@ -45,7 +45,7 @@
 					<object class="NSTextField" id="728529397">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{37, 390}, {295, 11}}</string>
+						<string key="NSFrame">{{37, 389}, {295, 12}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="313008477"/>
@@ -53,7 +53,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="644189741">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">4457472</int>
-							<string key="NSContents">^</string>
+							<string key="NSContents"/>
 							<object class="NSFont" key="NSSupport">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">9</double>
@@ -189,6 +189,7 @@
 										<string key="NSFrame">{{14, 275}, {175, 18}}</string>
 										<reference key="NSSuperview" ref="565651701"/>
 										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSButtonCell" key="NSCell" id="969455068">
@@ -216,7 +217,7 @@
 								<reference key="NSNextKeyView" ref="852413069"/>
 							</object>
 						</array>
-						<string key="NSFrame">{{17, 16}, {443, 368}}</string>
+						<string key="NSFrame">{{17, 15}, {443, 368}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="565651701"/>
