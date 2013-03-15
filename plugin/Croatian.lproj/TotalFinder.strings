@@ -92,3 +92,6 @@
 "Thank you for using TotalFinder!" = "Hvala što koristite TotalFinder!";
 "License Name" = "Ime licence";
 "License Key" = "Ključ licence";
+
+/* shared strings between plugins */
+"Menus" = "Menus";
