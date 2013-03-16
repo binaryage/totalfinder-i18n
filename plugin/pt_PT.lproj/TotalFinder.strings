@@ -56,7 +56,7 @@
 "Reset TotalFinder to defaults" = "Restaurar configurações predefinidas";
 
 "File Browser:" = "Navegador de ficheiros:";
-"Show System Files" = "Mostrar fich. sistema";
+"Show System Files" = "Mostrar ficheiros de sistema";
 "Folders on Top" = "Mostrar pastas no topo";
 "Always Maximize" = "Maximizar sempre";
 "Toggle Dual Mode" = "Modo de painel duplo";
@@ -87,8 +87,8 @@
 "Close" = "Fechar";
 "Back" = "Voltar";
 "Invalid license code" = "Código de licença inválido";
-"Please go back and try again." = "Por favor, volte e tente novamente.";
+"Please go back and try again." = "Por favor, volte atrás e tente novamente.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder, por favor visite a loja online BinaryAge.";
 "Thank you for using TotalFinder!" = "Obrigado por usar o TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"License Name" = "Nome na Licença";
+"License Key" = "Chave da Licença";
