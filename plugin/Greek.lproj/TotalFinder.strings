@@ -92,3 +92,6 @@
 "Thank you for using TotalFinder!" = "Σας ευχαριστούμε για την χρήση του TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+
+/* shared strings between plugins */
+"Menus" = "Menus";

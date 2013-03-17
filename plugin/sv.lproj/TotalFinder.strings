@@ -92,3 +92,6 @@
 "Thank you for using TotalFinder!" = "Tack för att du använder TotalFinder!";
 "License Name" = "Licensnamn";
 "License Key" = "Licensnyckel";
+
+/* shared strings between plugins */
+"Menus" = "Menus";
