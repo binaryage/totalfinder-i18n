@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">12D44</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
+		<string key="IBDocument.SystemVersion">12D78</string>
+		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
 		<string key="IBDocument.AppKitVersion">1187.37</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="com.apple.InterfaceBuilder.CocoaPlugin">2844</string>
-			<string key="com.apple.WebKitIBPlugin">1810</string>
+			<string key="com.apple.InterfaceBuilder.CocoaPlugin">3084</string>
+			<string key="com.apple.WebKitIBPlugin">2053</string>
 		</dictionary>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBNSLayoutConstraint</string>
@@ -88,6 +88,7 @@
 						<string key="NSFrame">{{20, 0}, {62, 19}}</string>
 						<reference key="NSSuperview" ref="703299086"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="6587822">
 							<int key="NSCellFlags">-2080374784</int>
@@ -262,6 +263,7 @@
 						<string key="NSFrame">{{37, 5}, {152, 11}}</string>
 						<reference key="NSSuperview" ref="919588573"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="283669792">
 							<int key="NSCellFlags">68157504</int>
@@ -321,6 +323,7 @@
 						<string key="NSFrame">{{20, -1}, {190, 19}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="679412950">
 							<int key="NSCellFlags">-2080374784</int>
@@ -433,6 +436,7 @@
 						<string key="NSFrame">{{18, -2}, {180, 18}}</string>
 						<reference key="NSSuperview" ref="509877492"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="240093548">
 							<int key="NSCellFlags">67108864</int>
@@ -472,6 +476,7 @@
 						<string key="NSFrame">{{18, -2}, {169, 18}}</string>
 						<reference key="NSSuperview" ref="141104577"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="648467943">
 							<int key="NSCellFlags">67108864</int>
@@ -721,10 +726,14 @@
 							<string key="NSLabel">value: values.TotalFinderShowStatusItem</string>
 							<string key="NSBinding">value</string>
 							<string key="NSKeyPath">values.TotalFinderShowStatusItem</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">362</int>
+					<int key="connectionID">367</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -772,7 +781,7 @@
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">364</int>
+					<int key="connectionID">369</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1951,7 +1960,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">366</int>
+			<int key="maxID">369</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2046,7 +2055,9 @@
 						<string key="_aboutContent">WebView</string>
 						<string key="_aboutIcon">NSImage</string>
 						<string key="_aboutPreferences">NSView</string>
+						<string key="_dockIcon">NSImage</string>
 						<string key="_dockPreferences">NSView</string>
+						<string key="_menusIcon">NSImage</string>
 						<string key="_menusPreferences">NSView</string>
 						<string key="_registerButton">NSButton</string>
 						<string key="_registeredTo">NSTextField</string>
@@ -2071,9 +2082,17 @@
 							<string key="name">_aboutPreferences</string>
 							<string key="candidateClassName">NSView</string>
 						</object>
+						<object class="IBToOneOutletInfo" key="_dockIcon">
+							<string key="name">_dockIcon</string>
+							<string key="candidateClassName">NSImage</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="_dockPreferences">
 							<string key="name">_dockPreferences</string>
 							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="_menusIcon">
+							<string key="name">_menusIcon</string>
+							<string key="candidateClassName">NSImage</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="_menusPreferences">
 							<string key="name">_menusPreferences</string>
