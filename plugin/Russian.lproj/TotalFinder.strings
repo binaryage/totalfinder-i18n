@@ -25,7 +25,7 @@
 /* registration */
 "Licensed to %@" = "Лицензия выдана %@";
 "Change License" = "Сменить лицензию";
-"Unregistered version in trial mode" = "Незарегистрированная версия в испытательном режиме";
+"Unregistered version in trial mode" = "Незарегистрированная версия";
 "Register" = "Зарегистрировать";
 
 /* navigation bar */
@@ -72,7 +72,7 @@
 "Allow path copying from Context Menus" = "Меню копирования пути файла";
 
 /* about page */
-"Check Now" = "Проверить сейчас";
+"Check Now" = "Проверить";
 "Automatically check the website for updates" = "Автоматически проверять обновления на веб-странице";
 "Include pre-releases" = "Включить в обновления pre-релизы";
 "Participate in TotalFinder testing" = "Принять участие в программе тестирования TotalFinder";
