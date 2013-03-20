@@ -4,8 +4,8 @@
 "Windows Path" = "Путь Windows";
 "HFS Path" = "Путь HFS";
 "Terminal Path" = "Для Терминала";
-"UNC Path" = "UNC Path";
+"UNC Path" = "Путь UNC";
 
 "BASIC" = "BASIC";
-"Allow path copying from Context Menus" = "Меню копирования пути файла";
-"Menus" = "Menus";
+"Allow path copying from Context Menus" = "Копирование пути файла из контекстных меню";
+"Menus" = "Меню";
