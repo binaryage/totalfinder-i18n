@@ -19,3 +19,4 @@
 "New Tab" = "Uus Vaheleht"; /* the tooltip of the "plus button" in tabs bar */
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Kitsas Vaheleheriba";
+"Open new tabs with previous location" = "Open new tabs with previous location";
