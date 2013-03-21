@@ -6,6 +6,7 @@
 "Terminal Path" = "Caminho Terminal";
 "UNC Path" = "UNC Path";
 
-"BASIC" = "BASIC";
-"Allow path copying from Context Menus" = "Permitir copiar caminho no menu contexto";
+"BASIC" = "BASICO";
+"Menus and Dock" = "Menus e Dock";
+"Allow path copying from Context Menus" = "Permitir copiar caminho no menu contextual";
 "Menus" = "Menus";

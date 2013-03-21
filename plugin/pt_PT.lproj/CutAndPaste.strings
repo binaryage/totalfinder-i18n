@@ -10,6 +10,7 @@
 "Paste %u Items" = "Colar %u elementos";
 "Copy" = "Copiar";
 
-"BASIC" = "BASIC";
-"Show CutPaste buttons in Context Menus" = "Mostrar Cortar/Colar nos menus contexto";
+"BASIC" = "BASICO";
+"Menus and Dock" = "Menus e Dock";
+"Show CutPaste buttons in Context Menus" = "Mostrar Cortar/Colar nos menus contextuais";
 "Menus" = "Menus";
