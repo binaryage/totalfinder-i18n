@@ -2,6 +2,7 @@
 "BASIC" = "PERUS";
 "SYSTEM" = "JÄRJESTELMÄ";
 "Menus" = "Valikot";
+"Updates" = "Updates";
 "File Browser" = "Tiedostoselain";
 
 /* TotalFinder Status Menu Item */
