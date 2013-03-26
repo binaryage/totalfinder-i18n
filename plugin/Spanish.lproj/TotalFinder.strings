@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Pantalla";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Buscar actualizaciones";
@@ -33,22 +35,13 @@
 "Register" = "Registrar";
 
 /* navigation bar */
-"Tweaks" = "Ajustes";
 "About" = "Acerca de";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */
 
-"File Browser:" = "Navegador de archivos:";
-"Folders on Top" = "Carpetas primero";
-"Always Maximize" = "Maximizar completamente";
-
-"Menu and Dock:" = "Menú y Dock:";
 "Hide icon in Menu Bar" = "Ocultar icono en barra de menús"; /* both 'icono' and 'ícono' are correct, Mac OS X calls it 'iconos'. 'Barra de menús' translation is the same as in the 'Networking preference pane' */
 "Keep original Dock icon" = "Usar icono original de Finder en el Dock";
-
-"Experimental:" = "Experimental:";
-"Freelance Windows" = "No agrupar ventanas";
 
 /* about page */
 "Check Now" = "Buscar ahora";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "¡Gracias por utilizar TotalFinder!";
 "License Name" = "Nombre de la licencia";
 "License Key" = "Clave de la licencia";
+

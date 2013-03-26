@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Ekrano";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Patikrinti atnaujinimus";
@@ -33,22 +35,13 @@
 "Register" = "Registruotis";
 
 /* navigation bar */
-"Tweaks" = "pataisymai";
 "About" = "Apie";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Atstatyti TotalFinder negrąžinimo";
 
-"File Browser:" = "Failas naršyklė:";
-"Folders on Top" = "Katalogai viršų";
-"Always Maximize" = "Visada Padidinimas";
-
-"Menu and Dock:" = "Meniu ir Dokas:";
 "Hide icon in Menu Bar" = "Slėpti piktogramą Meniu juosta";
 "Keep original Dock icon" = "Palikti original doko piktogramą";
-
-"Experimental:" = "Eksperimentinė:";
-"Freelance Windows" = "Laisvai samdomi Windows";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Dėkojame, kad naudojatės TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

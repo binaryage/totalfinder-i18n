@@ -19,3 +19,7 @@
 "Tabs" = "Taby";
 "Use narrow Tabs Bar" = "Štíhlé taby";
 "Open new tabs with previous location" = "Otevírat nové taby v předchozí lokaci";
+
+/* preferences */
+"Always Maximize" = "Vždy maximalizovat";
+"Freelance Windows" = "Volná okna";

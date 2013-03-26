@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Képernyő";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Frissítések keresése";
@@ -33,22 +35,13 @@
 "Register" = "Regisztrálás";
 
 /* navigation bar */
-"Tweaks" = "Trükkök";
 "About" = "Névjegy";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";
 
-"File Browser:" = "Fájlböngésző:";
-"Folders on Top" = "Mappák felül";
-"Always Maximize" = "Mindig teljes méret";
-
-"Menu and Dock:" = "Menü és Dock:";
 "Hide icon in Menu Bar" = "Ikon elrejtése a menüsoron";
 "Keep original Dock icon" = "Eredeti Dock-ikon megtartása";
-
-"Experimental:" = "Kísérleti:";
-"Freelance Windows" = "Szabadúszó ablak";
 
 /* about page */
 "Check Now" = "Ellenőrzés most";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Köszönjük, hogy a TotalFinder-t használja!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

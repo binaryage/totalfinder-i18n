@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "Fil browser";
+"Screen" = "Skærm";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Tjek for opdateringer";
@@ -33,22 +35,13 @@
 "Register" = "Registrer";
 
 /* navigation bar */
-"Tweaks" = "Justeringer";
 "About" = "Om";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Nulstil TotalFinder til standardindstillingerne";
 
-"File Browser:" = "Fil browser:";
-"Folders on Top" = "Vis mapper øverst";
-"Always Maximize" = "Altid Maximer";
-
-"Menu and Dock:" = "Menu og Dock:";
 "Hide icon in Menu Bar" = "Skjul ikon i menulinje";
 "Keep original Dock icon" = "Behold original Dock ikon";
-
-"Experimental:" = "Experimental:";
-"Freelance Windows" = "Freelance vinduer";
 
 /* about page */
 "Check Now" = "Kontroller nu";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Tak for du bruger TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

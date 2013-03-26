@@ -19,3 +19,7 @@
 "Tabs" = "Zakładki";
 "Use narrow Tabs Bar" = "Użyj wąskich zakładek";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Zawsze maksymalizuj";
+"Freelance Windows" = "Wolne okna";

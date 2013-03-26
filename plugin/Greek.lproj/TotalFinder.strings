@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Οθόνη";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Έλεγχος αναβαθμίσεων";
@@ -33,22 +35,13 @@
 "Register" = "Εγγραφή";
 
 /* navigation bar */
-"Tweaks" = "Κόλπα";
 "About" = "Σχετικά";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Επαναφορά αρχικών ρυθμίσεων του TotalFinder";
 
-"File Browser:" = "Ερευνητής αρχείων:";
-"Folders on Top" = "Πρώτα οι φάκελοι";
-"Always Maximize" = "Μεγιστοποίηση";
-
-"Menu and Dock:" = "Μενού και Dock:";
 "Hide icon in Menu Bar" = "Απόκρυψη εικονιδίου από το μενού";
 "Keep original Dock icon" = "Αρχικό εικονίδιο του Finder";
-
-"Experimental:" = "Πειραματικό:";
-"Freelance Windows" = "Ελεύθερα παράθυρα";
 
 /* about page */
 "Check Now" = "Έλεγχος τώρα";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Σας ευχαριστούμε για την χρήση του TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Σμίκρυνση καρτελών";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Μεγιστοποίηση";
+"Freelance Windows" = "Ελεύθερα παράθυρα";

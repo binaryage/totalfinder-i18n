@@ -19,3 +19,7 @@
 "Tabs" = "Painéis";
 "Use narrow Tabs Bar" = "Barra separadores fina";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Maximizar sempre";
+"Freelance Windows" = "Janelas Freelance";

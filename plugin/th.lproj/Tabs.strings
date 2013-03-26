@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "ใช้แถบแท็บแบบเล็ก";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "เต็มจอตลอด";
+"Freelance Windows" = "หน้าต่างอิสระ";

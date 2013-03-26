@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Ekraan";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Kontrolli Uuendusi";
@@ -33,22 +35,13 @@
 "Register" = "Registreeri";
 
 /* navigation bar */
-"Tweaks" = "Seaded";
 "About" = "Teave";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Taasta TotalFinderi algseadistus";
 
-"File Browser:" = "Failisirvija:";
-"Folders on Top" = "Kaustad Üleval";
-"Always Maximize" = "Alati Maksimeeri";
-
-"Menu and Dock:" = "Menüü ja Dock:";
 "Hide icon in Menu Bar" = "Peida ikoon menüüribas";
 "Keep original Dock icon" = "Jäta algne Dock'i ikoon";
-
-"Experimental:" = "Experimentaalne:";
-"Freelance Windows" = "Ava Uues Aknas";
 
 /* about page */
 "Check Now" = "Kontrolli nüüd";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Aitäh kasutamast TotalFinderit!";
 "License Name" = "Litsentsi Nimi";
 "License Key" = "Litsentsi Võti";
+

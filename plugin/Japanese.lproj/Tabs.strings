@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "タブバーを狭くする";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "常に最大化";
+"Freelance Windows" = "タブの代わりに新しいウィンドウで開く";

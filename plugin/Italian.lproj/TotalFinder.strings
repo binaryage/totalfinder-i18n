@@ -4,6 +4,8 @@
 "Menus" = "Menu";
 "Updates" = "Updates";
 "File Browser" = "Esploratore di file";
+"Screen" = "Schermo";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Controlla aggiornamenti";
@@ -33,22 +35,13 @@
 "Register" = "Registra";
 
 /* navigation bar */
-"Tweaks" = "Modifiche";
 "About" = "Informazioni";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Riporta TotalFinder alle impostazioni iniziali";
 
-"File Browser:" = "Esploratore di file:";
-"Folders on Top" = "Cartelle in cima";
-"Always Maximize" = "Massimizza sempre";
-
-"Menu and Dock:" = "Menu e Dock:";
 "Hide icon in Menu Bar" = "Nascondi l'icona dalla barra dei menu";
 "Keep original Dock icon" = "Mantieni l'icona originale nel Dock";
-
-"Experimental:" = "Sperimentale:";
-"Freelance Windows" = "Finestre libere";
 
 /* about page */
 "Check Now" = "Controlla adesso";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Grazie per aver usato TotalFinder!";
 "License Name" = "Nome della licenza";
 "License Key" = "Chiave di licenza";
+

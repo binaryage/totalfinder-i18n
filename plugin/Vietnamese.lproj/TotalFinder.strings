@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Màn Hình";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Kiểm tra cập nhật mới";
@@ -33,22 +35,13 @@
 "Register" = "Đăng ký";
 
 /* navigation bar */
-"Tweaks" = "Hiệu Chỉnh";
 "About" = "Giới Thiệu";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Thiết lập lại như ban đầu";
 
-"File Browser:" = "Tìm kiếm file:";
-"Folders on Top" = "Xếp thư mục trên cùng";
-"Always Maximize" = "Luôn luôn mở lớn ra";
-
-"Menu and Dock:" = "Danh bạ và Dock:";
 "Hide icon in Menu Bar" = "Ẩn biểu tượng trên thanh Danh Bạ";
 "Keep original Dock icon" = "Sử dụng biểu tượng của Finder";
-
-"Experimental:" = "Thí nghiệm:";
-"Freelance Windows" = "Của sổ Freelance";
 
 /* about page */
 "Check Now" = "Kiểm tra ngay";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Cảm ơn bạn đã sử dụng TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

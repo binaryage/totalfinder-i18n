@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Екран";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Провери за обновления";
@@ -33,22 +35,13 @@
 "Register" = "Регистрирай";
 
 /* navigation bar */
-"Tweaks" = "Фини настройки";
 "About" = "Относно..";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Настройки по подразбиране на TotalFinder";
 
-"File Browser:" = "Файлов мениджър:";
-"Folders on Top" = "Папките най-отгоре";
-"Always Maximize" = "Винаги максимизиран";
-
-"Menu and Dock:" = "Меню и Dock:";
 "Hide icon in Menu Bar" = "Скриване на иконата в Menu Bar";
 "Keep original Dock icon" = "Запази оригиналната Finder икона в Dock";
-
-"Experimental:" = "Експериментални настройки:";
-"Freelance Windows" = "Независими прозорци";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Благодарим Ви, че използвате TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Дисплей";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Перевіряти на оновлення";
@@ -33,22 +35,13 @@
 "Register" = "Зареєструвати";
 
 /* navigation bar */
-"Tweaks" = "Налаштування";
 "About" = "Про програму";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Відновити налаштування за замовчуванням";
 
-"File Browser:" = "Файловий менеджер:";
-"Folders on Top" = "Папки завжди згори";
-"Always Maximize" = "Завжди розгортати";
-
-"Menu and Dock:" = "Меню та Dock:";
 "Hide icon in Menu Bar" = "Видалити TotalFinder із стрічки меню";
 "Keep original Dock icon" = "Не змінювати іконку Finder у Dock";
-
-"Experimental:" = "Експериментальні можливості:";
-"Freelance Windows" = "Незалежні вікна";
 
 /* about page */
 "Check Now" = "Перевірити зараз";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Дякуємо за користування TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

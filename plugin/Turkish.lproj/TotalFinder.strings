@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Ekran";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Güncellemeleri kontrol et";
@@ -33,22 +35,13 @@
 "Register" = "Kayıt";
 
 /* navigation bar */
-"Tweaks" = "İnce Ayar";
 "About" = "Hakkında";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "TotalFinder ayarlarını varsayılan ayarlara döndür";
 
-"File Browser:" = "Dosya tarayıcısı:";
-"Folders on Top" = "Klasörleri üstte göster";
-"Always Maximize" = "Her zaman büyüterek aç";
-
-"Menu and Dock:" = "Menü ve İskele(dock):";
 "Hide icon in Menu Bar" = "TotalFinder simgesini menü çubuğunda gizle";
 "Keep original Dock icon" = "Orijinal İskele(Dock) simgesini kullan";
-
-"Experimental:" = "Deneysel:";
-"Freelance Windows" = "Bağımsız Pencereler";
 
 /* about page */
 "Check Now" = "Şimdi kontrol et";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "TotalFinder'ı kullandığınız için teşekkürler!";
 "License Name" = "Lisans İsmi";
 "License Key" = "Lisans Anahtarı";
+

@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Вузька панель вкладок";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Завжди розгортати";
+"Freelance Windows" = "Незалежні вікна";

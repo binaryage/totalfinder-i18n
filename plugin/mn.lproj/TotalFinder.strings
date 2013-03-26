@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Screen";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Шинэчлэлт шалгах";
@@ -33,22 +35,13 @@
 "Register" = "Бүртгүүлэх";
 
 /* navigation bar */
-"Tweaks" = "Өөрчлөлт";
 "About" = "Тухай";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "TotalFinder-г анхны тохиргоонд шилжүүлэх";
 
-"File Browser:" = "Файл хөтөч:";
-"Folders on Top" = "Хавтасууд дээр харагдах";
-"Always Maximize" = "Үргэлж дэлгэц дүүрэн";
-
-"Menu and Dock:" = "Цэс болон Dock:";
 "Hide icon in Menu Bar" = "Цэснээс дүрс нуух";
 "Keep original Dock icon" = "Dock дүрсийг өөрчлөхгүй";
-
-"Experimental:" = "Нэмэлт:";
-"Freelance Windows" = "Freelance цонхнууд";
 
 /* about page */
 "Check Now" = "Одоо шалгах";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "TotalFinder-г ашигласанд баярлалаа!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

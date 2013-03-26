@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "标签栏紧凑模式";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "最大化缩放至整个屏幕";
+"Freelance Windows" = "新窗口不于标签页打开";

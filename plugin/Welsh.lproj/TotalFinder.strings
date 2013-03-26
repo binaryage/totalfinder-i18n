@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Sgrîn";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Gwirio am ddiweddariadau";
@@ -33,22 +35,13 @@
 "Register" = "Cofrestr";
 
 /* navigation bar */
-"Tweaks" = "Tweaks";
 "About" = "Amdanom ni";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Ailosod TotalFinder i ddiffygion";
 
-"File Browser:" = "Delwedd porwr:";
-"Folders on Top" = "Ffolderi ar ben:";
-"Always Maximize" = "Bob amser Ehangu";
-
-"Menu and Dock:" = "Bwydlen a Dock:";
 "Hide icon in Menu Bar" = "Cuddio icon mewn bar dewislenni";
 "Keep original Dock icon" = "Cadwch gwreiddiol Dock icon";
-
-"Experimental:" = "Arbrofol:";
-"Freelance Windows" = "Ffenestri Llawrydd";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Diolch am ddefnyddio TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

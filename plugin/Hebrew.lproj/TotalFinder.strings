@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "מסך";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "בדוק עידכונים";
@@ -33,22 +35,13 @@
 "Register" = "רשום";
 
 /* navigation bar */
-"Tweaks" = "צביטות";
 "About" = "אודות";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "איפוס TotalFinder לברירת המחדל";
 
-"File Browser:" = "דפדפן קבצים:";
-"Folders on Top" = "תיקיות למעלה";
-"Always Maximize" = "תמיד מקסם";
-
-"Menu and Dock:" = "תפרית ו -Dock:";
 "Hide icon in Menu Bar" = "הסתר סמל בשורת התפריטים";
 "Keep original Dock icon" = "שמור על סמל Dock המקורי";
-
-"Experimental:" = "נסיוני:";
-"Freelance Windows" = "חלונות חופשיים";
 
 /* about page */
 "Check Now" = "בדוק עכשיב";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "תודה ששימשת ב־ TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

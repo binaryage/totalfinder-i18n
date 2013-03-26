@@ -4,6 +4,8 @@
 "Menus" = "Menu";
 "Updates" = "Aktualizace";
 "File Browser" = "Prohlížeč souborů";
+"Screen" = "Obrazovka";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Vyhledat aktualizace";
@@ -33,22 +35,13 @@
 "Register" = "Registrovat";
 
 /* navigation bar */
-"Tweaks" = "Nastavení";
 "About" = "O programu";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Resetuj TotalFinder do výchozího nastavení";
 
-"File Browser:" = "Správce souborů:";
-"Folders on Top" = "Adresáře nahoru";
-"Always Maximize" = "Vždy maximalizovat";
-
-"Menu and Dock:" = "Menu a Dock:";
 "Hide icon in Menu Bar" = "Skrýt ikonu ve status menu";
 "Keep original Dock icon" = "Vrátit původní ikonu do Docku";
-
-"Experimental:" = "Experimentální:";
-"Freelance Windows" = "Volná okna";
 
 /* about page */
 "Check Now" = "Zkusit";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Díky, že používáte TotalFinder!";
 "License Name" = "Licenční jméno";
 "License Key" = "Licenční klíč";
+

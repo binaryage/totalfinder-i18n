@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Ecranul";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Verifică actualizări";
@@ -33,22 +35,13 @@
 "Register" = "Înregistrează-te";
 
 /* navigation bar */
-"Tweaks" = "Adaptări";
 "About" = "Despre";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Revenire la setările inițiale";
 
-"File Browser:" = "Browser de Fișiere:";
-"Folders on Top" = "Directoarele deasupra";
-"Always Maximize" = "Maximizează mereu";
-
-"Menu and Dock:" = "Menu și Dock:";
 "Hide icon in Menu Bar" = "Ascunde iconița TotalFinder din Meniul de Stare";
 "Keep original Dock icon" = "Păstrează iconița originală de Finder în Dock";
-
-"Experimental:" = "Experimental:";
-"Freelance Windows" = "Ferestre Libere";
 
 /* about page */
 "Check Now" = "Verifică acum";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Vă mulțumim că folosiți TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

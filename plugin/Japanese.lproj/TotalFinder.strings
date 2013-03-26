@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "スクリーン";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "アップデートを確認";
@@ -33,22 +35,13 @@
 "Register" = "登録する";
 
 /* navigation bar */
-"Tweaks" = "調整";
 "About" = "情報";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "初期設定に戻す";
 
-"File Browser:" = "ファイルブラウザ：";
-"Folders on Top" = "フォルダを上部に表示";
-"Always Maximize" = "常に最大化";
-
-"Menu and Dock:" = "メニューと Dock：";
 "Hide icon in Menu Bar" = "メニューバーから TotalFinder を取り除く";
 "Keep original Dock icon" = "Finder アイコンはオリジナルを使う";
-
-"Experimental:" = "実験的な機能：";
-"Freelance Windows" = "タブの代わりに新しいウィンドウで開く";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "TotalFinder をご使用いただきありがとうございます！";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

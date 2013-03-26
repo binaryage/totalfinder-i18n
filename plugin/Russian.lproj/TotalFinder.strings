@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Экран";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Проверить обновления";
@@ -33,22 +35,13 @@
 "Register" = "Зарегистрировать";
 
 /* navigation bar */
-"Tweaks" = "Настройки";
 "About" = "О программе";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Восстановить настройки по-умолчанию";
 
-"File Browser:" = "Файловый менеджер:";
-"Folders on Top" = "Папки сверху";
-"Always Maximize" = "Всегда разворачивать";
-
-"Menu and Dock:" = "Меню и Dock:";
 "Hide icon in Menu Bar" = "Удалить TotalFinder из строки меню";
 "Keep original Dock icon" = "Не изменять иконку Finder в Dock";
-
-"Experimental:" = "Экспериментальные возможности:";
-"Freelance Windows" = "Независимые окна";
 
 /* about page */
 "Check Now" = "Проверить";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Спасибо за использование TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

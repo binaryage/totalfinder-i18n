@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "탭 칸 세로폭 줄임";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "창을 항상 최대화";
+"Freelance Windows" = "프리랜스 윈도우";

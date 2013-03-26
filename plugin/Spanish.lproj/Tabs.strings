@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Barra pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */ /* Edit by Eduan: Changed it to an actual Spanish sentence, README.md says that it doesn't matter that much, counting on you Antonin! */
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Maximizar completamente";
+"Freelance Windows" = "No agrupar ventanas";

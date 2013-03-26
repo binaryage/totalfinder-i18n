@@ -19,3 +19,7 @@
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Тенка Линија со Јазичиња";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Секогаш Зголеми";
+"Freelance Windows" = "Слободни прозорци";

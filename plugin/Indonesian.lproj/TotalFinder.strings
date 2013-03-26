@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Screen";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Periksa jika ada update";
@@ -33,22 +35,13 @@
 "Register" = "Register";
 
 /* navigation bar */
-"Tweaks" = "Tweaks";
 "About" = "Tentang";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Kembalikan TotalFinder ke setingan awal";
 
-"File Browser:" = "Peramban File:";
-"Folders on Top" = "Folder di Atas";
-"Always Maximize" = "Selalu Maximize";
-
-"Menu and Dock:" = "Menu dan Dock:";
 "Hide icon in Menu Bar" = "Sembunyikan ikon di Menu Bar";
 "Keep original Dock icon" = "Tetap meggunakan ikon Dock asli";
-
-"Experimental:" = "Eksperimental:";
-"Freelance Windows" = "Jendela Freelance";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Terima kasih telah menggunakan TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

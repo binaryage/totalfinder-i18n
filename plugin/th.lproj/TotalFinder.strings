@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "จอ";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "ตรวจสอบอัพเดท";
@@ -33,22 +35,13 @@
 "Register" = "ลงทะเบียน";
 
 /* navigation bar */
-"Tweaks" = "ปรับแต่ง";
 "About" = "เกี่ยวกับ";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "ตั้งค่า TotalFinder เป็นค่าเริ่มต้น";
 
-"File Browser:" = "หน้าต่างค้นหาไฟล์:";
-"Folders on Top" = "แสดงโฟล์เดอร์ไว้ด้านบน";
-"Always Maximize" = "เต็มจอตลอด";
-
-"Menu and Dock:" = "แถบเมนูและ Dock:";
 "Hide icon in Menu Bar" = "ซ่อนไอคอนบน Menu Bar";
 "Keep original Dock icon" = "แสดงไอคอนแบบเดิมบน Dock";
-
-"Experimental:" = "ฟังก์ชั่นทดลองใช้:";
-"Freelance Windows" = "หน้าต่างอิสระ";
 
 /* about page */
 "Check Now" = "ตรวจสอบเดี๋ยวนี้";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "ขอบคุณที่ใช้ TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

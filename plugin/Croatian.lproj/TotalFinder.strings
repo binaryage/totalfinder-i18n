@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Ekran";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Provjeri nadogradnje";
@@ -33,22 +35,13 @@
 "Register" = "Registriraj";
 
 /* navigation bar */
-"Tweaks" = "Ugađanje";
 "About" = "Više o";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Vratite TotalFinder na početne postavke";
 
-"File Browser:" = "Preglednik datoteka:";
-"Folders on Top" = "Mape na vrhu";
-"Always Maximize" = "Uvijek uvećaj prozor";
-
-"Menu and Dock:" = "Meni i Dock:";
 "Hide icon in Menu Bar" = "Sakrij ikonu u Menu Bar-u";
 "Keep original Dock icon" = "Zadrži originalnu Dock ikonu";
-
-"Experimental:" = "Eksperimentalno:";
-"Freelance Windows" = "Freelance Prozori";
 
 /* about page */
 "Check Now" = "Provjeri sada";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Hvala što koristite TotalFinder!";
 "License Name" = "Ime licence";
 "License Key" = "Ključ licence";
+

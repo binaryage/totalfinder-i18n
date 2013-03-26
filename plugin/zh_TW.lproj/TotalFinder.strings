@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "顯示器";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "檢查更新";
@@ -33,22 +35,13 @@
 "Register" = "註冊";
 
 /* navigation bar */
-"Tweaks" = "設定";
 "About" = "關於";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "將 TotalFinder 重設到預設值";
 
-"File Browser:" = "檔案瀏覽:";
-"Folders on Top" = "檔案夾置頂";
-"Always Maximize" = "總是最大化";
-
-"Menu and Dock:" = "選單及 Dock:";
 "Hide icon in Menu Bar" = "隱藏選單列圖示";
 "Keep original Dock icon" = "保留原始 Dock 圖示";
-
-"Experimental:" = "實驗性:";
-"Freelance Windows" = "使用自由視窗";
 
 /* about page */
 "Check Now" = "馬上檢查";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "感謝您使用 TotalFinder!";
 "License Name" = "License Name";
 "License Key" = "License Key";
+

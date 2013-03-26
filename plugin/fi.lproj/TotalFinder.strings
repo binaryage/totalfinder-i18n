@@ -4,6 +4,8 @@
 "Menus" = "Valikot";
 "Updates" = "Päivitykset";
 "File Browser" = "Tiedostoselain";
+"Screen" = "Monitori";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Tarkista päivitykset";
@@ -33,22 +35,13 @@
 "Register" = "Rekisteröi";
 
 /* navigation bar */
-"Tweaks" = "Hienosäädöt";
 "About" = "Tietoa";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Palauta TotalFinderin asetukset";
 
-"File Browser:" = "Tiedostoselain:";
-"Folders on Top" = "Kansiot ensin";
-"Always Maximize" = "Laajenna ikkunat koko näytön kattaviksi";
-
-"Menu and Dock:" = "Menu ja Dock:";
 "Hide icon in Menu Bar" = "Piilota kuvake tilariviltä";
 "Keep original Dock icon" = "Pidä alkuperäinen kuvake Dockissa";
-
-"Experimental:" = "Työn alla:";
-"Freelance Windows" = "Älä avaa uusia ikkunoita välilehtiin";
 
 /* about page */
 "Check Now" = "Tarkista nyt";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Kiitos, kun käytit TotalFinderia!";
 "License Name" = "Lisenssin nimi";
 "License Key" = "Lisenssin avain";
+

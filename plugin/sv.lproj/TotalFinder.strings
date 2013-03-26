@@ -4,6 +4,8 @@
 "Menus" = "Menus";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
+"Screen" = "Bildskärm";
+"Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Kolla efter uppdateringar";
@@ -33,22 +35,13 @@
 "Register" = "Registrera";
 
 /* navigation bar */
-"Tweaks" = "Modifieringar";
 "About" = "Om";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Återställ standardinställningarna";
 
-"File Browser:" = "Filhanteraren:";
-"Folders on Top" = "Sortera mappar före filer";
-"Always Maximize" = "Alltid maximerad";
-
-"Menu and Dock:" = "Meny och Docka:";
 "Hide icon in Menu Bar" = "Göm TotalFinder från statusfältet";
 "Keep original Dock icon" = "Behåll originalikonen i Dockan";
-
-"Experimental:" = "Experimentella inställningar:";
-"Freelance Windows" = "Frilans Fönster";
 
 /* about page */
 "Check Now" = "Kolla nu";
@@ -71,3 +64,4 @@
 "Thank you for using TotalFinder!" = "Tack för att du använder TotalFinder!";
 "License Name" = "Licensnamn";
 "License Key" = "Licensnyckel";
+
