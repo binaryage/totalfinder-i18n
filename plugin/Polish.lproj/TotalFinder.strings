@@ -1,5 +1,7 @@
-/* shared keys from preferences */
+/* preferences */
 "BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
 "File Browser" = "Przeglądarka plików";
 
 /* TotalFinder Status Menu Item */
@@ -68,6 +70,3 @@
 "Thank you for using TotalFinder!" = "Dziękujemy za używanie TotalFindera!";
 "License Name" = "License Name";
 "License Key" = "License Key";
-
-/* shared strings between plugins */
-"Menus" = "Menus";
