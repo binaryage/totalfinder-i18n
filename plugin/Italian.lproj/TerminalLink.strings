@@ -1,4 +1,3 @@
-"BASIC" = "BASIC";
 "Terminal Link" = "Collegamento al Terminale";
 "Allows Finder to sync the current directory with Terminal" = "Permetti al Finder di sincronizzare la cartella attuale con il Terminale";
 "Automatically sync Terminal directory to Finder target" = "Sincronizza automaticamente la cartella del Terminale con il Finder";

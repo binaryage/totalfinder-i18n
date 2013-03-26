@@ -1,3 +1,7 @@
+/* shared keys from preferences */
+"BASIC" = "BASIC";
+"File Browser" = "File Browser";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Vyhľadať aktualizácie";
 "Uninstall TotalFinder" = "Odinštalovať TotalFinder";

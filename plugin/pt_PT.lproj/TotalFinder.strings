@@ -1,3 +1,7 @@
+/* shared keys from preferences */
+"BASIC" = "BASICO";
+"File Browser" = "Navegador de Ficheiros";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Procurar actualizações";
 "Uninstall TotalFinder" = "Desinstalar o TotalFinder";

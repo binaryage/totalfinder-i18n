@@ -1,3 +1,7 @@
+/* shared keys from preferences */
+"BASIC" = "PERUS";
+"File Browser" = "Tiedostoselain";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Tarkista päivitykset";
 "Uninstall TotalFinder" = "Poista TotalFinder";

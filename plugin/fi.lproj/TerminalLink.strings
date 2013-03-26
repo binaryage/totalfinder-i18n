@@ -1,4 +1,3 @@
-"BASIC" = "PERUS";
 "Terminal Link" = "Päätteen linkittäminen";
 "Allows Finder to sync the current directory with Terminal" = "Sallii Finderin synkronoivan nykyisen kansion Päätteen kanssa";
 "Automatically sync Terminal directory to Finder target" = "Synkronoi automaattisesti Päätteen kansio Finderin kohdekansioon";

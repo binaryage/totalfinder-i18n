@@ -15,7 +15,6 @@
 "Select Previous Tab" = "Seleccionar pestaña anterior";
 "Switch Active Panel" = "Cambiar el panel activo";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Barra pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */ /* Edit by Eduan: Changed it to an actual Spanish sentence, README.md says that it doesn't matter that much, counting on you Antonin! */
