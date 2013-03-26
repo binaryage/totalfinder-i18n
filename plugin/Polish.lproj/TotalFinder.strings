@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Ustawienia TotalFindera…";
 "Visit Homepage…" = "Przejdź na stronę domową…";
 
-/* misc. */
-"Screen" = "Ekran";
-
 /* registration */
 "Licensed to %@" = "Licencjonowano dla %@";
 "Change License" = "Zmień licencję";
@@ -33,37 +30,15 @@
 "Register" = "Zarejestruj";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Usprawnienia";
 "About" = "O programie";
-
-/* visor page */
-"Visor Feature" = "Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "okno dostępne w całym systemie po naciśnięciu skrótu";
-
-"Activation:" = "Aktywacja:";
-
-"Control:" = "Kontrola:";
-"Hide on ESC" = "Ukryj po naciśnięciu ESC";
-"Pin Visor" = "Przypinanie:";
-
-"Animation:" = "Animacja:";
-"Fade Window" = "Zanikanie";
-"Slide Window" = "Wysuwanie";
-
-"Screen:" = "Ekran:";
-"Show on all Spaces" = "Pokazuj na każdej przestrzeni";
-"Show on top of the Dock" = "Pokazuj nad Dockiem";
-"Free Form Window" = "Okno dowolnego rozmiaru";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Przywróć ustawienia domyślne";
 
 "File Browser:" = "Przeglądarka plików:";
-"Show System Files" = "Pokazuj pliki systemowe";
 "Folders on Top" = "Foldery na górze";
 "Always Maximize" = "Zawsze maksymalizuj";
-"Toggle Dual Mode" = "Wł/wył tryb podwójny";
 
 "Menu and Dock:" = "Menu i Dock:";
 "Hide icon in Menu Bar" = "Schowaj ikonę w pasku menu";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Eksperymentalne:";
 "Freelance Windows" = "Wolne okna";
-"Use narrow Tabs Bar" = "Użyj wąskich zakładek";
-"Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";
-"Allow path copying from Context Menus" = "Pozwól kopiować ścieżkę z menu kontekstowego.";
 
 /* about page */
 "Check Now" = "Sprawdź teraz";

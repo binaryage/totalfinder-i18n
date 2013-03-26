@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Налаштування TotalFinder…";
 "Visit Homepage…" = "Відвідати домашню сторінку проекту…";
 
-/* misc. */
-"Screen" = "Дисплей";
-
 /* registration */
 "Licensed to %@" = "Ліцензію видано %@";
 "Change License" = "Змінити ліцензію";
@@ -33,37 +30,15 @@
 "Register" = "Зареєструвати";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Налаштування";
 "About" = "Про програму";
-
-/* visor page */
-"Visor Feature" = "Використовувати Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Глобальне вікно, що з'являється знизу за гарячою клавішою";
-
-"Activation:" = "Активація:";
-
-"Control:" = "Керування:";
-"Hide on ESC" = "Ховати вікно по ESC";
-"Pin Visor" = "Закріпити";
-
-"Animation:" = "Анімація:";
-"Fade Window" = "Вікно розчиняється";
-"Slide Window" = "Вікно ковзає вниз";
-
-"Screen:" = "Дисплей:";
-"Show on all Spaces" = "Показувати на усіх Spaces";
-"Show on top of the Dock" = "Показувати над Dock";
-"Free Form Window" = "Змінний розмір вікна";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Відновити налаштування за замовчуванням";
 
 "File Browser:" = "Файловий менеджер:";
-"Show System Files" = "Приховані файли";
 "Folders on Top" = "Папки завжди згори";
 "Always Maximize" = "Завжди розгортати";
-"Toggle Dual Mode" = "Двопанельний режим";
 
 "Menu and Dock:" = "Меню та Dock:";
 "Hide icon in Menu Bar" = "Видалити TotalFinder із стрічки меню";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Експериментальні можливості:";
 "Freelance Windows" = "Незалежні вікна";
-"Use narrow Tabs Bar" = "Вузька панель вкладок";
-"Show CutPaste buttons in Context Menus" = "'Вирізати-Вставити' в контекстному меню";
-"Allow path copying from Context Menus" = "Копіювання шляху з контекстного меню";
 
 /* about page */
 "Check Now" = "Перевірити зараз";

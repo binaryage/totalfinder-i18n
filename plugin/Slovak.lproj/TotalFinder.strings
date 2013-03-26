@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Nastavenia TotalFindera…";
 "Visit Homepage…" = "Navštíviť stránku projektu…";
 
-/* misc. */
-"Screen" = "Obrazovka";
-
 /* registration */
 "Licensed to %@" = "Licensed to %@";
 "Change License" = "Change License";
@@ -33,37 +30,15 @@
 "Register" = "Register";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Nastavenia";
 "About" = "O programe";
-
-/* visor page */
-"Visor Feature" = "Funkcia Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Výsuvné okno zospodu obrazovky pomocou klavesovej skratky";
-
-"Activation:" = "Aktivácia:";
-
-"Control:" = "Ovládánie:";
-"Hide on ESC" = "Skryť po stlačení ESC";
-"Pin Visor" = "Pripnúť Visor";
-
-"Animation:" = "Animácie:";
-"Fade Window" = "Zpriehladniť okno";
-"Slide Window" = "Vysúvať okno";
-
-"Screen:" = "Obrazovka:";
-"Show on all Spaces" = "Zobraziť na všetkých plochách";
-"Show on top of the Dock" = "Zobraziť nad Dockom";
-"Free Form Window" = "Upraviteľné okno";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Resetuj TotalFinder do predvoleného nastavenia";
 
 "File Browser:" = "Správca súborov:";
-"Show System Files" = "Zobraziť skryté";
 "Folders on Top" = "Adresáre vždy hore";
 "Always Maximize" = "Vždy maximalizovať";
-"Toggle Dual Mode" = "Prepnúť na dual panel";
 
 "Menu and Dock:" = "Menu a Dock:";
 "Hide icon in Menu Bar" = "Odstrániť TotalFinder ikonu zo stavovej lišty";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Experimentálne nastavenia:";
 "Freelance Windows" = "Nezávislé okná";
-"Use narrow Tabs Bar" = "Úzke taby";
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check Now" = "Check Now";

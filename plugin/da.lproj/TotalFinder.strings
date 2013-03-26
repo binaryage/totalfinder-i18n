@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder Indstillinger…";
 "Visit Homepage…" = "Besøg Hjemmeside…";
 
-/* misc. */
-"Screen" = "Skærm";
-
 /* registration */
 "Licensed to %@" = "Licens til %@";
 "Change License" = "Skift licens";
@@ -33,37 +30,15 @@
 "Register" = "Registrer";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Justeringer";
 "About" = "Om";
-
-/* visor page */
-"Visor Feature" = "Visor Funktionen";
-"a system-wide window sliding from the bottom on a hot-key" = "et system-bredt vindue der kommer ind fra bunden ved tryk på en knap";
-
-"Activation:" = "Aktivation:";
-
-"Control:" = "Kontrol:";
-"Hide on ESC" = "Skjul via ESC";
-"Pin Visor" = "Fastgør Visor";
-
-"Animation:" = "Animation:";
-"Fade Window" = "Fade vindue";
-"Slide Window" = "Slide vindue";
-
-"Screen:" = "Skærm:";
-"Show on all Spaces" = "Vis på alle Spaces";
-"Show on top of the Dock" = "Vis ovenpå Docken";
-"Free Form Window" = "Fri Form vindue";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Nulstil TotalFinder til standardindstillingerne";
 
 "File Browser:" = "Fil browser:";
-"Show System Files" = "Vis systemfiler";
 "Folders on Top" = "Vis mapper øverst";
 "Always Maximize" = "Altid Maximer";
-"Toggle Dual Mode" = "Skift Dual-mode";
 
 "Menu and Dock:" = "Menu og Dock:";
 "Hide icon in Menu Bar" = "Skjul ikon i menulinje";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Freelance vinduer";
-"Use narrow Tabs Bar" = "Brug smal fanebar";
-"Show CutPaste buttons in Context Menus" = "Vis klip/sæt ind-knapper i kontekstmenuer";
-"Allow path copying from Context Menus" = "Tillad sti kopiering fra kontekstmenuer";
 
 /* about page */
 "Check Now" = "Kontroller nu";

@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "עודפות TotalFinder…";
 "Visit Homepage…" = "בקר בדף הבית…";
 
-/* misc. */
-"Screen" = "מסך";
-
 /* registration */
 "Licensed to %@" = "רשום ל־ %@";
 "Change License" = "שנה רשיון";
@@ -33,37 +30,15 @@
 "Register" = "רשום";
 
 /* navigation bar */
-"Visor" = "מצחית";
 "Tweaks" = "צביטות";
 "About" = "אודות";
-
-/* visor page */
-"Visor Feature" = "תכונת המצחית";
-"a system-wide window sliding from the bottom on a hot-key" = "חלון מערכתית שמזזה מלמטה על שילוב מקשים";
-
-"Activation:" = "הפעלה:";
-
-"Control:" = "שליטה:";
-"Hide on ESC" = "הסתיר ב־ ESC";
-"Pin Visor" = "הצמד מצחית";
-
-"Animation:" = "אנימציה:";
-"Fade Window" = "דעוך חלון";
-"Slide Window" = "מזזה חלון";
-
-"Screen:" = "מסך:";
-"Show on all Spaces" = "הצג על כל מרחבים";
-"Show on top of the Dock" = "הצג על גבי Dock";
-"Free Form Window" = "חלון חופשי";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "איפוס TotalFinder לברירת המחדל";
 
 "File Browser:" = "דפדפן קבצים:";
-"Show System Files" = "הראה קבצי המערכת";
 "Folders on Top" = "תיקיות למעלה";
 "Always Maximize" = "תמיד מקסם";
-"Toggle Dual Mode" = "עבור מצב כפול";
 
 "Menu and Dock:" = "תפרית ו -Dock:";
 "Hide icon in Menu Bar" = "הסתר סמל בשורת התפריטים";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "נסיוני:";
 "Freelance Windows" = "חלונות חופשיים";
-"Use narrow Tabs Bar" = "השתמש בשורה לשוניות מצומצמת";
-"Show CutPaste buttons in Context Menus" = "הצג כפתורים גזור והדבק בתפריטי ההקשר";
-"Allow path copying from Context Menus" = "אפשר העתקה דרך תפריטי ההקשר";
 
 /* about page */
 "Check Now" = "בדוק עכשיב";

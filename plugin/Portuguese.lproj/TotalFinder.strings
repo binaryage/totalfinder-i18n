@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
 "Visit Homepage…" = "Visitar o site…";
 
-/* misc. */
-"Screen" = "Tela";
-
 /* registration */
 "Licensed to %@" = "Registrado para %@";
 "Change License" = "Alterar Licença";
@@ -33,37 +30,15 @@
 "Register" = "Registrar";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Modificações";
 "About" = "Sobre";
-
-/* visor page */
-"Visor Feature" = "Funcionalidade do Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "uma janela deslizante que é ativada por um atalho";
-
-"Activation:" = "Ativação:";
-
-"Control:" = "Controle:";
-"Hide on ESC" = "Fechar com ESC";
-"Pin Visor" = "Fixar Visor";
-
-"Animation:" = "Animação:";
-"Fade Window" = "Escurecer Janela";
-"Slide Window" = "Deslizar Janela";
-
-"Screen:" = "Tela:";
-"Show on all Spaces" = "Mostrar em todos os Spaces";
-"Show on top of the Dock" = "Exibir em cima do Dock";
-"Free Form Window" = "Janela de Forma Livre";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Restaurar configurações padrão do TotalFinder";
 
 "File Browser:" = "Explorador de Arquivos:";
-"Show System Files" = "Arquivos de Sistema";
 "Folders on Top" = "Pastas no Topo";
 "Always Maximize" = "Sempre Maximizado";
-"Toggle Dual Mode" = "Ativar Modo Duplo";
 
 "Menu and Dock:" = "Menu e Dock:";
 "Hide icon in Menu Bar" = "Esconder ícone na Barra de Menus";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Janelas Autônomas";
-"Use narrow Tabs Bar" = "Utilizar barra com abas finas";
-"Show CutPaste buttons in Context Menus" = "Exibir botões Recortar &amp; Colar nos menus de contexto";
-"Allow path copying from Context Menus" = "Permitir cópia do caminho em menus de contexto";
 
 /* about page */
 "Check Now" = "Verificar agora";

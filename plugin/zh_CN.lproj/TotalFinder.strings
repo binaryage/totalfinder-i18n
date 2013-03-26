@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder 设置…";
 "Visit Homepage…" = "访问主页…";
 
-/* misc. */
-"Screen" = "屏幕";
-
 /* registration */
 "Licensed to %@" = "已注册给：%@";
 "Change License" = "更换注册码";
@@ -33,37 +30,15 @@
 "Register" = "注册";
 
 /* navigation bar */
-"Visor" = "滑入窗口";
 "Tweaks" = "设置";
 "About" = "关于";
-
-/* visor page */
-"Visor Feature" = "滑入窗口";
-"a system-wide window sliding from the bottom on a hot-key" = "一个从屏幕下方滑入的文件管理器，通过快捷键激活";
-
-"Activation:" = "激活窗口:";
-
-"Control:" = "控制按键:";
-"Hide on ESC" = "按 ESC 键隐";
-"Pin Visor" = "置顶:";
-
-"Animation:" = "显示效果:";
-"Fade Window" = "窗口淡入/淡出";
-"Slide Window" = "窗口滑入/滑出";
-
-"Screen:" = "指定屏幕:";
-"Show on all Spaces" = "在所有 Spaces 窗口中显示";
-"Show on top of the Dock" = "显示于 Dock 之上";
-"Free Form Window" = "自由控制滑入窗口大小位置";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "初始化 TotalFinder 所有设置";
 
 "File Browser:" = "文件浏览:";
-"Show System Files" = "显示隐藏文件";
 "Folders on Top" = "文件夹总在最前";
 "Always Maximize" = "最大化缩放至整个屏幕";
-"Toggle Dual Mode" = "切换单/双窗口模式";
 
 "Menu and Dock:" = "菜单及 Dock:";
 "Hide icon in Menu Bar" = "隐藏菜单栏图标";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "实验功能:";
 "Freelance Windows" = "新窗口不于标签页打开";
-"Use narrow Tabs Bar" = "标签栏紧凑模式";
-"Show CutPaste buttons in Context Menus" = "右键菜单中显示拷贝/粘贴按钮";
-"Allow path copying from Context Menus" = "右键菜单中显示拷贝路径命令";
 
 /* about page */
 "Check Now" = "立即检查";

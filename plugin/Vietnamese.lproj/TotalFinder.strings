@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder Tuỳ chọn...";
 "Visit Homepage…" = "Viếng Thăm Trang Chủ…";
 
-/* misc. */
-"Screen" = "Màn Hình";
-
 /* registration */
 "Licensed to %@" = "Giấy phép cho %@";
 "Change License" = "Thay đổi giấy phép";
@@ -33,37 +30,15 @@
 "Register" = "Đăng ký";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Hiệu Chỉnh";
 "About" = "Giới Thiệu";
-
-/* visor page */
-"Visor Feature" = "Chức năng Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "một hệ thống trươt từ dưới bằng phím nóng";
-
-"Activation:" = "Kích hoạt:";
-
-"Control:" = "Điều Khiển:";
-"Hide on ESC" = "Ẩn khi bấm ESC";
-"Pin Visor" = "Ghim Visor";
-
-"Animation:" = "Chuyển động:";
-"Fade Window" = "Cửa sồ phai dần";
-"Slide Window" = "Cửa sồ trượt";
-
-"Screen:" = "Màn hình:";
-"Show on all Spaces" = "Hiển thị tất cả khoản trắng";
-"Show on top of the Dock" = "Hiển thị trên Dock";
-"Free Form Window" = "Cửa sồ biến đổi";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Thiết lập lại như ban đầu";
 
 "File Browser:" = "Tìm kiếm file:";
-"Show System Files" = "Hiển thị file hệ thống";
 "Folders on Top" = "Xếp thư mục trên cùng";
 "Always Maximize" = "Luôn luôn mở lớn ra";
-"Toggle Dual Mode" = "Kích hoạt chế độ hai của sổ";
 
 "Menu and Dock:" = "Danh bạ và Dock:";
 "Hide icon in Menu Bar" = "Ẩn biểu tượng trên thanh Danh Bạ";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Thí nghiệm:";
 "Freelance Windows" = "Của sổ Freelance";
-"Use narrow Tabs Bar" = "Sử dụng tab hẹp";
-"Show CutPaste buttons in Context Menus" = "Hiển thị nút cắt và dán trong menu ngữ cảnh";
-"Allow path copying from Context Menus" = "Cho phép đường dẫn sao chép từ menu ngữ cảnh";
 
 /* about page */
 "Check Now" = "Kiểm tra ngay";

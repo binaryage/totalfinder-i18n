@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Preferințe TotalFinder…";
 "Visit Homepage…" = "Vizitați site-ul nostru…";
 
-/* misc. */
-"Screen" = "Ecranul";
-
 /* registration */
 "Licensed to %@" = "Licențiat lui %@";
 "Change License" = "Schimbă licența";
@@ -33,37 +30,15 @@
 "Register" = "Înregistrează-te";
 
 /* navigation bar */
-"Visor" = "Vizor";
 "Tweaks" = "Adaptări";
 "About" = "Despre";
-
-/* visor page */
-"Visor Feature" = "Vizorul";
-"a system-wide window sliding from the bottom on a hot-key" = "o fereastră globală atașată de marginea de jos, activabilă din taste";
-
-"Activation:" = "Activare:";
-
-"Control:" = "Control:";
-"Hide on ESC" = "Ascunde la ESC";
-"Pin Visor" = "Pioneză";
-
-"Animation:" = "Animație:";
-"Fade Window" = "Dizolvă Fereastra";
-"Slide Window" = "Culisează Fereastra";
-
-"Screen:" = "Ecran:";
-"Show on all Spaces" = "Prezent în toate Spațiile";
-"Show on top of the Dock" = "Afișează deasupra Dock-ului";
-"Free Form Window" = "Fereastră redimensionabilă";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Revenire la setările inițiale";
 
 "File Browser:" = "Browser de Fișiere:";
-"Show System Files" = "Afișează fișiere sistem";
 "Folders on Top" = "Directoarele deasupra";
 "Always Maximize" = "Maximizează mereu";
-"Toggle Dual Mode" = "Comută în modul dual";
 
 "Menu and Dock:" = "Menu și Dock:";
 "Hide icon in Menu Bar" = "Ascunde iconița TotalFinder din Meniul de Stare";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Experimental:";
 "Freelance Windows" = "Ferestre Libere";
-"Use narrow Tabs Bar" = "Tab-uri înguste";
-"Show CutPaste buttons in Context Menus" = "Arată butoanele Taie&amp;Lipește în meniurile contextuale";
-"Allow path copying from Context Menus" = "Permite copiere Cale în meniurile contextuale";
 
 /* about page */
 "Check Now" = "Verifică acum";

@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder voorkeuren…";
 "Visit Homepage…" = "Ga naar de homepage…";
 
-/* misc. */
-"Screen" = "Scherm";
-
 /* registration */
 "Licensed to %@" = "Gelicenseerd aan %@";
 "Change License" = "Wijzig licentie";
@@ -33,37 +30,15 @@
 "Register" = "Registreer";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Tweaks";
 "About" = "Over";
-
-/* visor page */
-"Visor Feature" = "De Visor-functie";
-"a system-wide window sliding from the bottom on a hot-key" = "een schermbreed venster dat van beneden binnenschuift met één toetscombinatie";
-
-"Activation:" = "Activatie:";
-
-"Control:" = "Control:";
-"Hide on ESC" = "Verberg met ESC";
-"Pin Visor" = "Zet Visor vast";
-
-"Animation:" = "Animatie:";
-"Fade Window" = "Venster fade-in"; /* This word exists, according to the Van Dale dictionary */
-"Slide Window" = "Venster inschuiven";
-
-"Screen:" = "Scherm:";
-"Show on all Spaces" = "Laat zien op alle Spaces";
-"Show on top of the Dock" = "Blijf boven de Dock";
-"Free Form Window" = "Vrij venster";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Herstel de standaardinstellingen van TotalFinder";
 
 "File Browser:" = "Bestandverkenner:";
-"Show System Files" = "Toon systeembestanden";
 "Folders on Top" = "Mappen bovenaan";
 "Always Maximize" = "Altijd maximaliseren";
-"Toggle Dual Mode" = "Dubbele/enkele kolom";
 
 "Menu and Dock:" = "Menu en Dock:";
 "Hide icon in Menu Bar" = "Verberg icoon in menubalk";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Experimenteel:";
 "Freelance Windows" = "Freelance-schermen";
-"Use narrow Tabs Bar" = "Gebruik smalle tabbalk";
-"Show CutPaste buttons in Context Menus" = "Toon knip- en plakknoppen in contextmenu's";
-"Allow path copying from Context Menus" = "Sta kopiëren van paden uit contextmenu's toe";
 
 /* about page */
 "Check Now" = "Controleer nu";

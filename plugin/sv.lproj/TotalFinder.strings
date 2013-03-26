@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder inställningar…";
 "Visit Homepage…" = "Besök hemsidan…";
 
-/* misc. */
-"Screen" = "Bildskärm";
-
 /* registration */
 "Licensed to %@" = "Registrerad till %@";
 "Change License" = "Ändra licens";
@@ -33,37 +30,15 @@
 "Register" = "Registrera";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Modifieringar";
 "About" = "Om";
-
-/* visor page */
-"Visor Feature" = "Visor-funktionen";
-"a system-wide window sliding from the bottom on a hot-key" = "ett Finder fönster som glider in från skärmbotten via ett systemomspännande kortkommando";
-
-"Activation:" = "Aktivering:";
-
-"Control:" = "Kontroll:";
-"Hide on ESC" = "Göm med ESC";
-"Pin Visor" = "Nåla Visor";
-
-"Animation:" = "Animation:";
-"Fade Window" = "Tona in";
-"Slide Window" = "Glid in";
-
-"Screen:" = "Bildskärm:";
-"Show on all Spaces" = "Visa på alla Spaces";
-"Show on top of the Dock" = "Visa framför Dockan";
-"Free Form Window" = "Omformbart fönster";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Återställ standardinställningarna";
 
 "File Browser:" = "Filhanteraren:";
-"Show System Files" = "Visa systemfiler";
 "Folders on Top" = "Sortera mappar före filer";
 "Always Maximize" = "Alltid maximerad";
-"Toggle Dual Mode" = "Av-/Aktivera Dual Mode";
 
 "Menu and Dock:" = "Meny och Docka:";
 "Hide icon in Menu Bar" = "Göm TotalFinder från statusfältet";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Experimentella inställningar:";
 "Freelance Windows" = "Frilans Fönster";
-"Use narrow Tabs Bar" = "Använd smalare Flikar";
-"Show CutPaste buttons in Context Menus" = "Visa Klipp&amp;Klistra knappar i högerklick-menyer";
-"Allow path copying from Context Menus" = "Tillåt kopiering av sökväg från högerklick-menyer";
 
 /* about page */
 "Check Now" = "Kolla nu";

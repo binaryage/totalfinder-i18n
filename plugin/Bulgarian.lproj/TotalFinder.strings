@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Настройки на TotalFinder…";
 "Visit Homepage…" = "Посетете страницата на проекта…";
 
-/* misc. */
-"Screen" = "Екран";
-
 /* registration */
 "Licensed to %@" = "Лицензирано копие на %@";
 "Change License" = "Промени лиценза";
@@ -33,37 +30,15 @@
 "Register" = "Регистрирай";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Фини настройки";
 "About" = "Относно..";
-
-/* visor page */
-"Visor Feature" = "Използване на Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Глобален прозорец, приплъзващ се от долната част на екрана";
-
-"Activation:" = "Активация:";
-
-"Control:" = "Контрол:";
-"Hide on ESC" = "Скриване с ESC";
-"Pin Visor" = "Забоди";
-
-"Animation:" = "Анимации:";
-"Fade Window" = "Избледняване на прозореца";
-"Slide Window" = "Плъзгане на прозореца";
-
-"Screen:" = "Екран:";
-"Show on all Spaces" = "Показване на всички Spaces";
-"Show on top of the Dock" = "Показване върху Dock";
-"Free Form Window" = "Прозорец с произволна форма";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Настройки по подразбиране на TotalFinder";
 
 "File Browser:" = "Файлов мениджър:";
-"Show System Files" = "Покажи сист.файлове";
 "Folders on Top" = "Папките най-отгоре";
 "Always Maximize" = "Винаги максимизиран";
-"Toggle Dual Mode" = "Двупанелен режим";
 
 "Menu and Dock:" = "Меню и Dock:";
 "Hide icon in Menu Bar" = "Скриване на иконата в Menu Bar";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Експериментални настройки:";
 "Freelance Windows" = "Независими прозорци";
-"Use narrow Tabs Bar" = "Тясна лента с раздели";
-"Show CutPaste buttons in Context Menus" = "Покажи бутони Cut&Paste в контекст.менюта";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check Now" = "Check Now";

@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "ตั้งค่า TotalFinder…";
 "Visit Homepage…" = "เปิดหน้าเว็บเพจ…";
 
-/* misc. */
-"Screen" = "จอ";
-
 /* registration */
 "Licensed to %@" = "ให้ %@ อนุญาตใช้งาน";
 "Change License" = "เปลี่ยนใบอนุญาต";
@@ -33,37 +30,15 @@
 "Register" = "ลงทะเบียน";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "ปรับแต่ง";
 "About" = "เกี่ยวกับ";
-
-/* visor page */
-"Visor Feature" = "ฟังก์ชั่น Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "หน้าต่างสไลด์จากด้านล่าง สามารถเรียกจากคีย์ลัดได้เสมอ";
-
-"Activation:" = "เรียกใช้:";
-
-"Control:" = "ควบคุม:";
-"Hide on ESC" = "ซ่อนเมื่อกด ESC";
-"Pin Visor" = "ปักหมุด Visor";
-
-"Animation:" = "แอนิเมชั่น:";
-"Fade Window" = "หน้าต่างค่อยๆ จาง";
-"Slide Window" = "หน้าต่างเลื่อนเข้ามา";
-
-"Screen:" = "จอ:";
-"Show on all Spaces" = "แสดงในทุกๆ Space";
-"Show on top of the Dock" = "แสดงเหนือ Dock";
-"Free Form Window" = "ปรับขนาดหน้าต่างอิสระ";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "ตั้งค่า TotalFinder เป็นค่าเริ่มต้น";
 
 "File Browser:" = "หน้าต่างค้นหาไฟล์:";
-"Show System Files" = "แสดงไฟล์ระบบ";
 "Folders on Top" = "แสดงโฟล์เดอร์ไว้ด้านบน";
 "Always Maximize" = "เต็มจอตลอด";
-"Toggle Dual Mode" = "เรียกใช้หน้าต่างคู่";
 
 "Menu and Dock:" = "แถบเมนูและ Dock:";
 "Hide icon in Menu Bar" = "ซ่อนไอคอนบน Menu Bar";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "ฟังก์ชั่นทดลองใช้:";
 "Freelance Windows" = "หน้าต่างอิสระ";
-"Use narrow Tabs Bar" = "ใช้แถบแท็บแบบเล็ก";
-"Show CutPaste buttons in Context Menus" = "แสดงปุ่มตัดและคัดลอกในเมนูคลิกขวา";
-"Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";
 
 /* about page */
 "Check Now" = "ตรวจสอบเดี๋ยวนี้";

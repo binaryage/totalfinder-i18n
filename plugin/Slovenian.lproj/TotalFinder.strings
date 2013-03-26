@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder nastavitve…";
 "Visit Homepage…" = "Obiščite domačo stran…";
 
-/* misc. */
-"Screen" = "Zaslon";
-
 /* registration */
 "Licensed to %@" = "Licencirano na %@";
 "Change License" = "Spremeni licenco";
@@ -33,37 +30,15 @@
 "Register" = "Registriraj";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Prilagoditev";
 "About" = "O aplikaciji";
-
-/* visor page */
-"Visor Feature" = "Funkcija Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "prikaže okno od spodaj ob pritisku izbrane kombinacije tipk";
-
-"Activation:" = "Aktivacija:";
-
-"Control:" = "Nadzor:";
-"Hide on ESC" = "Skrij ob prtisku tipke ESC";
-"Pin Visor" = "Zakleni Visor";
-
-"Animation:" = "Animacije:";
-"Fade Window" = "Okno, ki zbledi";
-"Slide Window" = "Drsno okno";
-
-"Screen:" = "Zaslon:";
-"Show on all Spaces" = "Prikaži na vseh namizjih";
-"Show on top of the Dock" = "Prikaži nad Dock-om";
-"Free Form Window" = "Premično okno";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Ponastavi TotalFinder";
 
 "File Browser:" = "Brskalnik datotek:";
-"Show System Files" = "Prikaži skrite datoteke";
 "Folders on Top" = "Mape na vrhu";
 "Always Maximize" = "Vedno povečaj";
-"Toggle Dual Mode" = "Preklopi v dvojni način";
 
 "Menu and Dock:" = "Menijska vrstica in Dock:";
 "Hide icon in Menu Bar" = "Skrij ikono v menijski vrstici";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Eksperimentalno:";
 "Freelance Windows" = "Premična okna";
-"Use narrow Tabs Bar" = "Uporabi ozko vrstico";
-"Show CutPaste buttons in Context Menus" = "Izreži/Prilepi gumbi kontekstualnega menija";
-"Allow path copying from Context Menus" = "Kopiranje poti iz kontekstualnega menija";
 
 /* about page */
 "Check Now" = "Check Now";

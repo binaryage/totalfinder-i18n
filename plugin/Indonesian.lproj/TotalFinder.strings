@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "Preferensi TotalFinder..";
 "Visit Homepage…" = "Kunjungi Halaman Web…";
 
-/* misc. */
-"Screen" = "Screen";
-
 /* registration */
 "Licensed to %@" = "Lisensi unutuk %@";
 "Change License" = "Ganti Lisensi";
@@ -33,37 +30,15 @@
 "Register" = "Register";
 
 /* navigation bar */
-"Visor" = "Visor";
 "Tweaks" = "Tweaks";
 "About" = "Tentang";
-
-/* visor page */
-"Visor Feature" = "Fitur Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "sistem-wide menggunakan jendela geser dari bawah dengan hot-key";
-
-"Activation:" = "Aktivasi:";
-
-"Control:" = "Control:";
-"Hide on ESC" = "Sembunyikan dengan ESC";
-"Pin Visor" = "Tahan Visor";
-
-"Animation:" = "Animasi:";
-"Fade Window" = "Kaburkan Jendela";
-"Slide Window" = "Geser Jendela";
-
-"Screen:" = "Layar:";
-"Show on all Spaces" = "Tampilkan semuanya";
-"Show on top of the Dock" = "Show di atas Dock";
-"Free Form Window" = "Jendela dengan Free Form";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Kembalikan TotalFinder ke setingan awal";
 
 "File Browser:" = "Peramban File:";
-"Show System Files" = "Tunjukkan System Files";
 "Folders on Top" = "Folder di Atas";
 "Always Maximize" = "Selalu Maximize";
-"Toggle Dual Mode" = "Aktifkan Mode Dual";
 
 "Menu and Dock:" = "Menu dan Dock:";
 "Hide icon in Menu Bar" = "Sembunyikan ikon di Menu Bar";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "Eksperimental:";
 "Freelance Windows" = "Jendela Freelance";
-"Use narrow Tabs Bar" = "Gunakan Tabs Bar sempit";
-"Show CutPaste buttons in Context Menus" = "Tunjukkan tombol Cut&Paste di Menu Context";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check Now" = "Check Now";

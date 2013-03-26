@@ -23,9 +23,6 @@
 "TotalFinder Preferences…" = "TotalFinder 설정…";
 "Visit Homepage…" = "홈페이지 방문…";
 
-/* misc. */
-"Screen" = "스크린";
-
 /* registration */
 "Licensed to %@" = "다음 사용자에게 등록되었습니다: %@";
 "Change License" = "라이센스 변경";
@@ -33,37 +30,15 @@
 "Register" = "등록";
 
 /* navigation bar */
-"Visor" = "붙박이창";
 "Tweaks" = "고급";
 "About" = "정보";
-
-/* visor page */
-"Visor Feature" = "붙박이창 기능";
-"a system-wide window sliding from the bottom on a hot-key" = "단축키로 언제 어디서나 붙박이 형태의 Finder 창을 불러옵니다.";
-
-"Activation:" = "활성화:";
-
-"Control:" = "창 조절:";
-"Hide on ESC" = "ESC 키로 숨기기";
-"Pin Visor" = "붙박이창 고정";
-
-"Animation:" = "애니메이션:";
-"Fade Window" = "페이드";
-"Slide Window" = "슬라이드";
-
-"Screen:" = "스크린:";
-"Show on all Spaces" = "모든 Spaces에서 보이기";
-"Show on top of the Dock" = "Dock보다 위에 보이기";
-"Free Form Window" = "화면 가장자리에서 분리";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "초기값으로 복원";
 
 "File Browser:" = "파일 탐색:";
-"Show System Files" = "숨겨진 시스템 파일 보기";
 "Folders on Top" = "폴더를 목록 최상단에";
 "Always Maximize" = "창을 항상 최대화";
-"Toggle Dual Mode" = "듀얼 모드 단축키";
 
 "Menu and Dock:" = "메뉴 바/Dock:";
 "Hide icon in Menu Bar" = "메뉴바에서 아이콘 감추기";
@@ -71,9 +46,6 @@
 
 "Experimental:" = "실험적인 기능:";
 "Freelance Windows" = "프리랜스 윈도우";
-"Use narrow Tabs Bar" = "탭 칸 세로폭 줄임";
-"Show CutPaste buttons in Context Menus" = "컨텍스트 메뉴에 파일 잘라내기/붙여넣기 추가";
-"Allow path copying from Context Menus" = "컨텍스트 메뉴에 파일 경로 복사 기능 추가";
 
 /* about page */
 "Check Now" = "지금 확인";
