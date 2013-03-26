@@ -341,15 +341,40 @@ def validate_strings_files
 
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob, "*.strings")) do |path|
     counter += 1
-
+    ok = 1
     input   = File.read path
-    charset = CMess::GuessEncoding::Automatic.guess(input)
-
-    ok = ((validate_strings_file path) and (charset=="ASCII" or charset=="UTF-8"))
-
+    charset = "ASCII"
+    if input.strip.size>0 then
+      charset = CMess::GuessEncoding::Automatic.guess(input)
+      ok = ((validate_strings_file path) and (charset=="ASCII" or charset=="UTF-8"))
+    end
     puts charset.magenta+" "+path.blue+" "+"ok".yellow if ok
     puts charset.magenta+" "+path.blue+" "+"failed".red unless ok
     failed +=1 unless ok
+  end
+
+  all = []
+  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "English.lproj", "*.strings")) do |file|
+    all.concat parse_strings_file(file)
+  end
+
+  list = []
+  all.each do |original|
+    next unless (original.strip[0...1]=='"')
+
+    original =~ /^\s*?"(.*)"\s*?=/
+    list << $1
+  end
+
+  dups = list.inject(Hash.new(0)) {|h,v| h[v] += 1; h}.reject{|k,v| v==1}.keys
+
+  if dups.size>0 then
+    puts
+    puts "found duplicate keys:".red
+    dups.each { |x| puts "  #{x}" }
+    puts
+    puts "solution:".yellow + " shared keys should be placed in TotalFinder.strings".blue
+    puts
   end
 
   puts "-----------------------------------"
