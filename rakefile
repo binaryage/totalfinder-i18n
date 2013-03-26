@@ -209,13 +209,18 @@ def propagate_english_to_cwd
   puts Dir.pwd.blue
   total = 0
 
-  # TotalFinder.strings are master files, some strings may move from shared master to some plugin
-  shared = parse_strings_file File.join(Dir.pwd, "TotalFinder.strings")
+  # TotalFinder.strings are master files, some strings may move between files
+  all = parse_strings_file File.join(Dir.pwd, "TotalFinder.strings")
+  Dir.glob(File.join(ENGLISH_LPROJ, "*.strings")) do |file|
+    next if File.basename(file)=="TotalFinder.strings"
+    all.concat parse_strings_file(File.join(Dir.pwd, File.basename(file)))
+  end
 
   Dir.glob(File.join(ENGLISH_LPROJ, "*.strings")) do |file|
     puts "  #{File.basename(file)}".yellow
-    total += inprint_strings(file, File.join(Dir.pwd, File.basename(file)), shared).size
+    total += inprint_strings(file, File.join(Dir.pwd, File.basename(file)), all).size
   end
+
   puts "  -> "+total.to_s.green+" strings processed"
 end
 
