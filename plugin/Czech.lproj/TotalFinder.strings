@@ -1,8 +1,8 @@
 /* preferences */
 "BASIC" = "ZÁKLADNÍ";
-"SYSTEM" = "SYSTEM";
+"SYSTEM" = "SYSTÉM";
 "Menus" = "Menu";
-"Updates" = "Updates";
+"Updates" = "Aktualizace";
 "File Browser" = "Prohlížeč souborů";
 
 /* TotalFinder Status Menu Item */
