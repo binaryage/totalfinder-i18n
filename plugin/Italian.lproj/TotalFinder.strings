@@ -1,6 +1,6 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
+"BASIC" = "BASE";
+"SYSTEM" = "SISTEMA";
 "Menus" = "Menu";
 "Updates" = "Updates";
 "File Browser" = "Esploratore di file";
