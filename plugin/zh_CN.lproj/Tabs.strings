@@ -16,9 +16,9 @@
 "Switch Active Panel" = "切换当前激活窗口";
 
 "New Tab" = "新建标签页";
-"Tabs" = "Tabs";
+"Tabs" = "标签";
 "Use narrow Tabs Bar" = "标签栏紧凑模式";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "在以前的位置打开新标签";
 
 /* preferences */
 "Always Maximize" = "最大化缩放至整个屏幕";
