@@ -1,9 +1,9 @@
 /* preferences */
 "BASIC" = "BASIC";
 "SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"Menus" = "菜单";
+"Updates" = "升级";
+"File Browser" = "文件浏览器";
 "Screen" = "屏幕";
 "Dock" = "Dock";
 
