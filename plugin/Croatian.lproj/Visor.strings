@@ -1,17 +1,17 @@
-"Pin Visor" = "Zalijepi Visor";
-"Show Visor" = "Pokaži Visor";
-"Hide Visor" = "Sakrij Visor";
-
-"Visor" = "Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "prozor koji izvire iz dna ekrana na kraticu";
-"Visor Feature" = "Mogućnosti Visor-a";
 "Activation:" = "Aktivacija:";
-"Show on all Spaces" = "Prikaži na svim Spaces-ima";
 "Animation:" = "Animacija:";
-"Control:" = "Control:";
-"Slide Window" = "Kliži prozor";
-"Fade Window" = "Izblijedi prozor";
-"Show on top of the Dock" = "Prikaži na vrhu Dock-a";
-"Free Form Window" = "Free Form Prozor";
-"Hide on ESC" = "Sakrij na ESC";
-"Screen:" = "Ekran:";
+
+"Control:" = "Kontrola:";
+"Fade Window" = "Prozirnost prozora";
+"Free Form Window" = "Plutajući prozor";
+"Hide Visor" = "Sakrij Vizir";
+"Hide on ESC" = "Sakrij kod ESC";
+"Pin Visor" = "Zakači Vizir";
+"Screen:" = "Zaslon:";
+"Show Visor" = "Prikaži Vizir";
+"Show on all Spaces" = "Prikaz na svim površinama";
+"Show on top of the Dock" = "Prikaz na vrhu Docka";
+"Slide Window" = "Pomak prozora";
+"Visor" = Vizir;
+"Visor Feature" = "Svojstva Vizira";
+"a system-wide window sliding from the bottom on a hot-key" = "glavni prozor izlazeći odozdo na tipkovnički prečac";
