@@ -1,4 +1,4 @@
-"Terminal Link" = "Terminal Link";
-"Allows Finder to sync the current directory with Terminal" = "Allows Finder to sync the current directory with Terminal";
-"Automatically sync Terminal directory to Finder target" = "Automatically sync Terminal directory to Finder target";
-"Open In Terminal:" = "Open In Terminal:";
+"Terminal Link" = "Terminal link";
+"Allows Finder to sync the current directory with Terminal" = "Omogućuje Finderu sinkronizaciju trenutnog direktorija u Terminalu";
+"Automatically sync Terminal directory to Finder target" = "Automatski sinkroniziraj direktorij u Terminalu prema odredištu u Finderu";
+"Open In Terminal:" = "Otvori u Terminalu:";
