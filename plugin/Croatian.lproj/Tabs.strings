@@ -6,20 +6,20 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dana preostala - kupite sada!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d dana preostalo - kupite sada!";
 "Close Tab" = "Zatvori karticu";
-"New Finder Tab" = "Nova Finder kartica";
+"New Finder Tab" = "Nova kartica Findera";
 "Reopen Closed Tab" = "Ponovno otvori zatvorenu karticu";
 "Close Window" = "Zatvori prozor";
-"Toggle Dual Mode" = "Uključi/isključi Dual Mode";
-"Narrow Tabs Bar" = "Uske kartice";
-"Select Next Tab" = "Odaberi slijedeću karticu";
+"Toggle Dual Mode" = "Prebaci Dual môd";
+"Narrow Tabs Bar" = "Uska traka kartica";
+"Select Next Tab" = "Odaberi sljedeću karticu";
 "Select Previous Tab" = "Odaberi prethodnu karticu";
-"Switch Active Panel" = "Promijeni aktivnu ploču";
+"Switch Active Panel" = "Prebaci aktivni panel";
 
 "New Tab" = "Nova kartica";
-"Tabs" = "Tabs";
-"Use narrow Tabs Bar" = "Koristi uske kartice";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Tabs" = "Kartice";
+"Use narrow Tabs Bar" = "Koristi usku traku kartica";
+"Open new tabs with previous location" = "Otvori nove kartice prethodnih lokacija";
 
 /* preferences */
 "Always Maximize" = "Uvijek uvećaj prozor";
-"Freelance Windows" = "Freelance Prozori";
+"Freelance Windows" = "Plutajući prozori";
