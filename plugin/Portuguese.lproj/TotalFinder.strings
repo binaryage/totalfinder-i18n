@@ -1,9 +1,9 @@
 /* preferences */
 "BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
+"SYSTEM" = "SISTEMA";
 "Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"Updates" = "Atualizações";
+"File Browser" = "Navegador de Arquivos";
 "Screen" = "Tela";
 "Dock" = "Dock";
 
