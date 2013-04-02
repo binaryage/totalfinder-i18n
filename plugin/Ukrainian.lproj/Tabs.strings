@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Вибрати попередню вкладку";
 "Switch Active Panel" = "Switch Active Panel";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Вузька панель вкладок";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Завжди розгортати";
+"Freelance Windows" = "Незалежні вікна";

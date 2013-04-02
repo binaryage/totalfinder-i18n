@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Select Previous Tab";
 "Switch Active Panel" = "Switch Active Panel";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Defnyddiwch y bar cul Tabs";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Bob amser Ehangu";
+"Freelance Windows" = "Ffenestri Llawrydd";

@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "ZÁKLADNÍ";
+"SYSTEM" = "SYSTÉM";
+"Menus" = "Menu";
+"Updates" = "Aktualizace";
+"File Browser" = "Prohlížeč souborů";
+"Screen" = "Obrazovka";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Vyhledat aktualizace";
 "Uninstall TotalFinder" = "Odinstalovat TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "Nastavení TotalFinderu…";
 "Visit Homepage…" = "Navštívit stránku projektu…";
 
-/* misc. */
-"Screen" = "Obrazovka";
-
 /* registration */
 "Licensed to %@" = "Licencováno na jméno %@";
 "Change License" = "Změnit licenci";
@@ -29,47 +35,13 @@
 "Register" = "Registrovat";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Nastavení";
 "About" = "O programu";
-
-/* visor page */
-"Visor Feature" = "Funkcionalita Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "globální okno vyjíždějící zespodu na klávesovou zkratku";
-
-"Activation:" = "Aktivace:";
-
-"Control:" = "Ovládání:";
-"Hide on ESC" = "Skrýt po ESC";
-"Pin Visor" = "Přišpendlit";
-
-"Animation:" = "Animace:";
-"Fade Window" = "Zprůhlednit okno";
-"Slide Window" = "Vyjíždět okno";
-
-"Screen:" = "Obrazovka:";
-"Show on all Spaces" = "Zobrazit na všech plochách";
-"Show on top of the Dock" = "Zobrazit nad Dockem";
-"Free Form Window" = "FreeForm Okno";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Resetuj TotalFinder do výchozího nastavení";
 
-"File Browser:" = "Správce souborů:";
-"Show System Files" = "Zobrazit skryté";
-"Folders on Top" = "Adresáře nahoru";
-"Always Maximize" = "Vždy maximalizovat";
-"Toggle Dual Mode" = "Přepnout dualní panel";
-
-"Menu and Dock:" = "Menu a Dock:";
 "Hide icon in Menu Bar" = "Skrýt ikonu ve status menu";
 "Keep original Dock icon" = "Vrátit původní ikonu do Docku";
-
-"Experimental:" = "Experimentální:";
-"Freelance Windows" = "Volná okna";
-"Use narrow Tabs Bar" = "Štíhlé taby";
-"Show CutPaste buttons in Context Menus" = "Výjmout-vložit tlačítka v kontext menu";
-"Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";
 
 /* about page */
 "Check Now" = "Zkusit";
@@ -93,5 +65,3 @@
 "License Name" = "Licenční jméno";
 "License Key" = "Licenční klíč";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Předchozí tab";
 "Switch Active Panel" = "Přepnout aktivní panel";
 
-"BASIC" = "BASIC";
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "Nový tab";
+"Tabs" = "Taby";
 "Use narrow Tabs Bar" = "Štíhlé taby";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Otevírat nové taby v předchozí lokaci";
+
+/* preferences */
+"Always Maximize" = "Vždy maximalizovat";
+"Freelance Windows" = "Volná okna";

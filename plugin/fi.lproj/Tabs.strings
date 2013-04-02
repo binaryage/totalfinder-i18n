@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Valitse edellinen välilehti";
 "Switch Active Panel" = "Vaihda paneelien välillä";
 
-"BASIC" = "PERUS";
 "New Tab" = "Uusi välilehti";
 "Tabs" = "Välilehdet";
 "Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Avaa edelliset välilehdet uudelleen";
+
+/* preferences */
+"Always Maximize" = "Laajenna ikkunat koko näytön kattaviksi";
+"Freelance Windows" = "Älä avaa uusia ikkunoita välilehtiin";

@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Sélectionner l'onglet précédent";
 "Switch Active Panel" = "Commuter le panneau actif";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Onglets compacts";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Toujours maximisé";
+"Freelance Windows" = "Nouvelles ouvertures en fenêtres";

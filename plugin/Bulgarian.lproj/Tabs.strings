@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Предишен раздел";
 "Switch Active Panel" = "Switch Active Panel";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Тясна лента с раздели";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Винаги максимизиран";
+"Freelance Windows" = "Независими прозорци";

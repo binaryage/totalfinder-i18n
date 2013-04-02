@@ -13,10 +13,13 @@
 "Narrow Tabs Bar" = "Usar barra de separadores fina";
 "Select Next Tab" = "Seleccionar separador seguinte";
 "Select Previous Tab" = "Seleccionar separador anterior";
-"Switch Active Panel" = "Switch Active Panel";
+"Switch Active Panel" = "Trocar de Painel Activo";
 
-"BASIC" = "BASIC";
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "Novo Painel";
+"Tabs" = "Painéis";
 "Use narrow Tabs Bar" = "Barra separadores fina";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Maximizar sempre";
+"Freelance Windows" = "Janelas Freelance";

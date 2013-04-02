@@ -6,6 +6,4 @@
 "Terminal Path" = "终端格式";
 "UNC Path" = "UNC格式";
 
-"BASIC" = "BASIC";
 "Allow path copying from Context Menus" = "右键菜单中显示拷贝路径命令";
-"Menus" = "Menus";

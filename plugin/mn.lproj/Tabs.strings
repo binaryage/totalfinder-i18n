@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Өмнөх таб сонгох";
 "Switch Active Panel" = "Switch Active Panel";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Нарийн таб бар";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Үргэлж дэлгэц дүүрэн";
+"Freelance Windows" = "Freelance цонхнууд";

@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Экран";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Проверить обновления";
 "Uninstall TotalFinder" = "Удалить TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "Настройки TotalFinder…";
 "Visit Homepage…" = "Открыть домашнюю страницу проекта…";
 
-/* misc. */
-"Screen" = "Экран";
-
 /* registration */
 "Licensed to %@" = "Лицензия выдана %@";
 "Change License" = "Сменить лицензию";
@@ -29,47 +35,13 @@
 "Register" = "Зарегистрировать";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Настройки";
 "About" = "О программе";
-
-/* visor page */
-"Visor Feature" = "Использовать Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Глобальное окно, появляющееся снизу, по горячей клавише";
-
-"Activation:" = "Активация:";
-
-"Control:" = "Управлять:";
-"Hide on ESC" = "Скрывать по ESC";
-"Pin Visor" = "Закрепить";
-
-"Animation:" = "Анимация:";
-"Fade Window" = "Затухание";
-"Slide Window" = "Смещение";
-
-"Screen:" = "Экран:";
-"Show on all Spaces" = "Показывать на всех Spaces";
-"Show on top of the Dock" = "Показывать поверх Dock";
-"Free Form Window" = "Изменяемый размер окна";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Восстановить настройки по-умолчанию";
 
-"File Browser:" = "Файловый менеджер:";
-"Show System Files" = "Скрытые файлы";
-"Folders on Top" = "Папки сверху";
-"Always Maximize" = "Всегда разворачивать";
-"Toggle Dual Mode" = "Двухпанельный режим";
-
-"Menu and Dock:" = "Меню и Dock:";
 "Hide icon in Menu Bar" = "Удалить TotalFinder из строки меню";
 "Keep original Dock icon" = "Не изменять иконку Finder в Dock";
-
-"Experimental:" = "Экспериментальные возможности:";
-"Freelance Windows" = "Независимые окна";
-"Use narrow Tabs Bar" = "Узкая панель вкладок";
-"Show CutPaste buttons in Context Menus" = "Команды редактирования в виде кнопок";
-"Allow path copying from Context Menus" = "Меню копирования пути файла";
 
 /* about page */
 "Check Now" = "Проверить";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

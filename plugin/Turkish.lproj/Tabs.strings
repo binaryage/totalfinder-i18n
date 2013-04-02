@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Önceki Sekmeye Git";
 "Switch Active Panel" = "Aktif Paneli Değiştir";
 
-"BASIC" = "BASIC";
 "New Tab" = "Yeni Sekme";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Dar sekme çubuğu kullan";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Her zaman büyüterek aç";
+"Freelance Windows" = "Bağımsız Pencereler";

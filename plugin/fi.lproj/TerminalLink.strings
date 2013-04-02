@@ -1,5 +1,4 @@
-"BASIC" = "BASIC";
-"Terminal Link" = "Terminal Link";
-"Allows Finder to sync the current directory with Terminal" = "Allows Finder to sync the current directory with Terminal";
-"Automatically sync Terminal directory to Finder target" = "Automatically sync Terminal directory to Finder target";
-"Open In Terminal:" = "Open In Terminal:";
+"Terminal Link" = "Päätteen linkittäminen";
+"Allows Finder to sync the current directory with Terminal" = "Sallii Finderin synkronoivan nykyisen kansion Päätteen kanssa";
+"Automatically sync Terminal directory to Finder target" = "Synkronoi automaattisesti Päätteen kansio Finderin kohdekansioon";
+"Open In Terminal:" = "Avaa Päätteessä:";

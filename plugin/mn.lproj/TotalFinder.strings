@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Screen";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Шинэчлэлт шалгах";
 "Uninstall TotalFinder" = "TotalFinder-г устгах";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinder тохиргоо…";
 "Visit Homepage…" = "Сайтад зочлох…";
 
-/* misc. */
-"Screen" = "Screen";
-
 /* registration */
 "Licensed to %@" = "Лиценз эзэмшигч: %@";
 "Change License" = "Лиценз өөрчлөх";
@@ -29,47 +35,13 @@
 "Register" = "Бүртгүүлэх";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Өөрчлөлт";
 "About" = "Тухай";
-
-/* visor page */
-"Visor Feature" = "Visor өөрчлөлтүүд";
-"a system-wide window sliding from the bottom on a hot-key" = "бүх цонхны хөдөлгөөнд өөрчлөлт оруулна";
-
-"Activation:" = "Идэвхижүүлэлт:";
-
-"Control:" = "Удирдлага:";
-"Hide on ESC" = "ESC нуух";
-"Pin Visor" = "Visor хатгах";
-
-"Animation:" = "Хөдөлгөөн:";
-"Fade Window" = "Цонх уусах";
-"Slide Window" = "Цонх шилжих";
-
-"Screen:" = "Дэлгэц:";
-"Show on all Spaces" = "Бүх Space-д харуулах";
-"Show on top of the Dock" = "Dock-н дээр харуулах";
-"Free Form Window" = "FreeForm цонх";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "TotalFinder-г анхны тохиргоонд шилжүүлэх";
 
-"File Browser:" = "Файл хөтөч:";
-"Show System Files" = "Системийн файлыг харуулах";
-"Folders on Top" = "Хавтасууд дээр харагдах";
-"Always Maximize" = "Үргэлж дэлгэц дүүрэн";
-"Toggle Dual Mode" = "Дуал горим";
-
-"Menu and Dock:" = "Цэс болон Dock:";
 "Hide icon in Menu Bar" = "Цэснээс дүрс нуух";
 "Keep original Dock icon" = "Dock дүрсийг өөрчлөхгүй";
-
-"Experimental:" = "Нэмэлт:";
-"Freelance Windows" = "Freelance цонхнууд";
-"Use narrow Tabs Bar" = "Нарийн таб бар";
-"Show CutPaste buttons in Context Menus" = "Зөөх, Паст товчнуудыг баруун товчид харуулах";
-"Allow path copying from Context Menus" = "Баруун товчоор файлын замыг хуулах";
 
 /* about page */
 "Check Now" = "Одоо шалгах";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

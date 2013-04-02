@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Écran";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Mise à jour";
 "Uninstall TotalFinder" = "Désinstaller TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "Préférences TotalFinder…";
 "Visit Homepage…" = "Voir le site Web…";
 
-/* misc. */
-"Screen" = "Écran";
-
 /* registration */
 "Licensed to %@" = "Licence accordée à %@";
 "Change License" = "Changer la licence";
@@ -29,47 +35,13 @@
 "Register" = "Enregistrer";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Peaufinages";
 "About" = "À propos";
-
-/* visor page */
-"Visor Feature" = "Fonction Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "fenêtre unique apparaissant du bas par un raccourci clavier";
-
-"Activation:" = "Activation :";
-
-"Control:" = "Contrôle :";
-"Hide on ESC" = "Masquer avec ESC";
-"Pin Visor" = "Épingler";
-
-"Animation:" = "Animation :";
-"Fade Window" = "Fondu de fenêtre";
-"Slide Window" = "Glissement de fenêtre";
-
-"Screen:" = "Écran :";
-"Show on all Spaces" = "Afficher sur chaque bureau";
-"Show on top of the Dock" = "Afficher au-dessus du Dock";
-"Free Form Window" = "Fenêtre de forme libre";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Réinitialiser TotalFinder";
 
-"File Browser:" = "Explorateur de fichiers :";
-"Show System Files" = "Avec fichiers système";
-"Folders on Top" = "Avec dossiers en tête";
-"Always Maximize" = "Toujours maximisé";
-"Toggle Dual Mode" = "Mode double";
-
-"Menu and Dock:" = "Menu et Dock :";
 "Hide icon in Menu Bar" = "Sans TotalFinder dans la barre des menus";
 "Keep original Dock icon" = "Avec l'icône originale du Finder dans le Dock";
-
-"Experimental:" = "Expérimental :";
-"Freelance Windows" = "Nouvelles ouvertures en fenêtres";
-"Use narrow Tabs Bar" = "Onglets compacts";
-"Show CutPaste buttons in Context Menus" = "Menu contextuel avec boutons copier/coller";
-"Allow path copying from Context Menus" = "Menu contextuel avec copie de chemin";
 
 /* about page */
 "Check Now" = "Maintenant";
@@ -93,5 +65,3 @@
 "License Name" = "Nom (License Name)";
 "License Key" = "Clé (License Key)";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

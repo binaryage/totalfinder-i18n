@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Ekrano";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Patikrinti atnaujinimus";
 "Uninstall TotalFinder" = "Pašalinti TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinder Nustatymai…";
 "Visit Homepage…" = "Aplankykite puslapis…";
 
-/* misc. */
-"Screen" = "Ekrano";
-
 /* registration */
 "Licensed to %@" = "Licencijuota %@";
 "Change License" = "Pakeisti licencija";
@@ -29,47 +35,13 @@
 "Register" = "Registruotis";
 
 /* navigation bar */
-"Visor" = "skydelio";
-"Tweaks" = "pataisymai";
 "About" = "Apie";
-
-/* visor page */
-"Visor Feature" = "Skydelio priemonė";
-"a system-wide window sliding from the bottom on a hot-key" = "visoje sistemoje langas stumdomas iš apačios į karštą klavišą";
-
-"Activation:" = "Aktyvinimas:";
-
-"Control:" = "Ctrl:";
-"Hide on ESC" = "Slėpti ESRK";
-"Pin Visor" = "Prisegti skydelio";
-
-"Animation:" = "Animacija:";
-"Fade Window" = "Išblukimas Langas";
-"Slide Window" = "Pristatymas Langas";
-
-"Screen:" = "Ekranas:";
-"Show on all Spaces" = "Rodyti visas erdves";
-"Show on top of the Dock" = "Rodyti viršuje doko";
-"Free Form Window" = "Laisvos Langas";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Atstatyti TotalFinder negrąžinimo";
 
-"File Browser:" = "Failas naršyklė:";
-"Show System Files" = "Rodyti failų sistemos";
-"Folders on Top" = "Katalogai viršų";
-"Always Maximize" = "Visada Padidinimas";
-"Toggle Dual Mode" = "Perjungti Dvigubas būsenoje";
-
-"Menu and Dock:" = "Meniu ir Dokas:";
 "Hide icon in Menu Bar" = "Slėpti piktogramą Meniu juosta";
 "Keep original Dock icon" = "Palikti original doko piktogramą";
-
-"Experimental:" = "Eksperimentinė:";
-"Freelance Windows" = "Laisvai samdomi Windows";
-"Use narrow Tabs Bar" = "Naudoti siauras Kortelės Baras";
-"Show CutPaste buttons in Context Menus" = "Rodyti Iškirpkite ir įklijuokite mygtukų kontekstinio meniu";
-"Allow path copying from Context Menus" = "Leisti kelias kopijavimas iš kontekstinio meniu";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

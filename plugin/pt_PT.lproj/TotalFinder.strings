@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASICO";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "Navegador de Ficheiros";
+"Screen" = "Ecrã";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Procurar actualizações";
 "Uninstall TotalFinder" = "Desinstalar o TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
 "Visit Homepage…" = "Visitar página web do TotalFinder…";
 
-/* misc. */
-"Screen" = "Ecrã";
-
 /* registration */
 "Licensed to %@" = "Registado a %@";
 "Change License" = "Alterar licença";
@@ -29,47 +35,13 @@
 "Register" = "Registar";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Modificações";
 "About" = "Acerca";
-
-/* visor page */
-"Visor Feature" = "Funcionalidade Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Janela Finder em todo o sistema que surge ao accionar um atalho";
-
-"Activation:" = "Activação:";
-
-"Control:" = "Controlo:";
-"Hide on ESC" = "Ocultar com ESC";
-"Pin Visor" = "Fixar Visor";
-
-"Animation:" = "Animação:";
-"Fade Window" = "Desvanecer janela";
-"Slide Window" = "Deslizar janela";
-
-"Screen:" = "Ecrã:";
-"Show on all Spaces" = "Mostrar em todos os espaços";
-"Show on top of the Dock" = "Mostrar por cima da Dock";
-"Free Form Window" = "Janela com forma livre";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Restaurar configurações predefinidas";
 
-"File Browser:" = "Navegador de ficheiros:";
-"Show System Files" = "Mostrar fich. sistema";
-"Folders on Top" = "Mostrar pastas no topo";
-"Always Maximize" = "Maximizar sempre";
-"Toggle Dual Mode" = "Modo de painel duplo";
-
-"Menu and Dock:" = "Menu e Dock:";
 "Hide icon in Menu Bar" = "Ocultar ícone na barra de menus";
 "Keep original Dock icon" = "Manter ícone original do Finder na Dock";
-
-"Experimental:" = "Experimental:";
-"Freelance Windows" = "Janelas Freelance";
-"Use narrow Tabs Bar" = "Barra separadores fina";
-"Show CutPaste buttons in Context Menus" = "Mostrar Cortar/Colar nos menus contexto";
-"Allow path copying from Context Menus" = "Permitir copiar caminho no menu contexto";
 
 /* about page */
 "Check Now" = "Procurar agora";
@@ -87,11 +59,9 @@
 "Close" = "Fechar";
 "Back" = "Voltar";
 "Invalid license code" = "Código de licença inválido";
-"Please go back and try again." = "Por favor, volte e tente novamente.";
+"Please go back and try again." = "Por favor, volte atrás e tente novamente.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder, por favor visite a loja online BinaryAge.";
 "Thank you for using TotalFinder!" = "Obrigado por usar o TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"License Name" = "Nome na Licença";
+"License Key" = "Chave da Licença";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

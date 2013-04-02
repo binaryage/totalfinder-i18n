@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Képernyő";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Frissítések keresése";
 "Uninstall TotalFinder" = "TotalFinder eltávolítása";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinder beállítások…";
 "Visit Homepage…" = "Honlap meglátogatása…";
 
-/* misc. */
-"Screen" = "Képernyő";
-
 /* registration */
 "Licensed to %@" = "Regisztrálva %@";
 "Change License" = "Licensz cseréje";
@@ -29,47 +35,13 @@
 "Register" = "Regisztrálás";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Trükkök";
 "About" = "Névjegy";
-
-/* visor page */
-"Visor Feature" = "Visor funkció";
-"a system-wide window sliding from the bottom on a hot-key" = "Gyorsgombbal elérhető csúszóablak az egész rendszerben";
-
-"Activation:" = "Aktiválás:";
-
-"Control:" = "Vezérlés:";
-"Hide on ESC" = "Elrejtés kilépéskor";
-"Pin Visor" = "Visor rögzítése";
-
-"Animation:" = "Animáció:";
-"Fade Window" = "Ablak elhalványítása";
-"Slide Window" = "Ablak csúsztatása";
-
-"Screen:" = "Képernyő:";
-"Show on all Spaces" = "Megjelenítés minden Íróasztalon";
-"Show on top of the Dock" = "Megjelenítés a Dock felett";
-"Free Form Window" = "Szabadon méretezhető ablak";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "A TotalFinder alaphelyzetbe állítása";
 
-"File Browser:" = "Fájlböngésző:";
-"Show System Files" = "Látható Rendszerfájlok";
-"Folders on Top" = "Mappák felül";
-"Always Maximize" = "Mindig teljes méret";
-"Toggle Dual Mode" = "Váltás kettős módra";
-
-"Menu and Dock:" = "Menü és Dock:";
 "Hide icon in Menu Bar" = "Ikon elrejtése a menüsoron";
 "Keep original Dock icon" = "Eredeti Dock-ikon megtartása";
-
-"Experimental:" = "Kísérleti:";
-"Freelance Windows" = "Szabadúszó ablak";
-"Use narrow Tabs Bar" = "Keskeny fülek használata";
-"Show CutPaste buttons in Context Menus" = "Kivágás/Beillesztés a helyi menüben";
-"Allow path copying from Context Menus" = "Elérési út másolható a helyi menüben";
 
 /* about page */
 "Check Now" = "Ellenőrzés most";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

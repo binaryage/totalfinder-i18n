@@ -13,10 +13,13 @@
 "Narrow Tabs Bar" = "Barra de Abas Finas";
 "Select Next Tab" = "Selecionar a próxima aba";
 "Select Previous Tab" = "Selecionar aba anterior";
-"Switch Active Panel" = "Switch Active Panel";
+"Switch Active Panel" = "Trocar Painel Ativo";
 
-"BASIC" = "BASIC";
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "Nova Aba";
+"Tabs" = "Abas";
 "Use narrow Tabs Bar" = "Utilizar barra com abas finas";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Abrir novas abas com o local anterior";
+
+/* preferences */
+"Always Maximize" = "Sempre Maximizado";
+"Freelance Windows" = "Janelas Autônomas";

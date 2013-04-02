@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Chọn Tab Đằng Sau";
 "Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Sử dụng tab hẹp";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Luôn luôn mở lớn ra";
+"Freelance Windows" = "Của sổ Freelance";

@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Sgrîn";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Gwirio am ddiweddariadau";
 "Uninstall TotalFinder" = "Uninstall TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "Dewisiadau TotalFinder...";
 "Visit Homepage…" = "Ewch i Homepage...";
 
-/* misc. */
-"Screen" = "Sgrîn";
-
 /* registration */
 "Licensed to %@" = "Trwyddedig i %@";
 "Change License" = "Newid trwydded";
@@ -29,47 +35,13 @@
 "Register" = "Cofrestr";
 
 /* navigation bar */
-"Visor" = "gwyliwr";
-"Tweaks" = "Tweaks";
 "About" = "Amdanom ni";
-
-/* visor page */
-"Visor Feature" = "Miswrn Nodwedd";
-"a system-wide window sliding from the bottom on a hot-key" = "ffenestr system-gyfan yn llithro o'r gwaelod ar poeth-allweddol";
-
-"Activation:" = "Activation:";
-
-"Control:" = "Rheoli:";
-"Hide on ESC" = "Cuddio ar ESC";
-"Pin Visor" = "Pin Visor";
-
-"Animation:" = "Animeiddio:";
-"Fade Window" = "Pylu Ffenestr";
-"Slide Window" = "Ffenestr symud";
-
-"Screen:" = "Sgrîn:";
-"Show on all Spaces" = "Dangos ar yr holl fannau";
-"Show on top of the Dock" = "Dangos ar ben y Dock";
-"Free Form Window" = "ffenestr ffurflen am ddim";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Ailosod TotalFinder i ddiffygion";
 
-"File Browser:" = "Delwedd porwr:";
-"Show System Files" = "Ffeiliau System Dangos:";
-"Folders on Top" = "Ffolderi ar ben:";
-"Always Maximize" = "Bob amser Ehangu";
-"Toggle Dual Mode" = "Modd togl deuol";
-
-"Menu and Dock:" = "Bwydlen a Dock:";
 "Hide icon in Menu Bar" = "Cuddio icon mewn bar dewislenni";
 "Keep original Dock icon" = "Cadwch gwreiddiol Dock icon";
-
-"Experimental:" = "Arbrofol:";
-"Freelance Windows" = "Ffenestri Llawrydd";
-"Use narrow Tabs Bar" = "Defnyddiwch y bar cul Tabs";
-"Show CutPaste buttons in Context Menus" = "Show CutPaste buttons in Context Menus";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

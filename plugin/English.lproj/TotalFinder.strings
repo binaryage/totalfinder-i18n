@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Screen";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Check for Updates";
 "Uninstall TotalFinder" = "Uninstall TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinder Preferences…";
 "Visit Homepage…" = "Visit Homepage…";
 
-/* misc. */
-"Screen" = "Screen";
-
 /* registration */
 "Licensed to %@" = "Licensed to %@";
 "Change License" = "Change License";
@@ -29,47 +35,13 @@
 "Register" = "Register";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Tweaks";
 "About" = "About";
-
-/* visor page */
-"Visor Feature" = "The Visor Feature";
-"a system-wide window sliding from the bottom on a hot-key" = "a system-wide window sliding from the bottom on a hot-key";
-
-"Activation:" = "Activation:";
-
-"Control:" = "Control:";
-"Hide on ESC" = "Hide on ESC";
-"Pin Visor" = "Pin Visor";
-
-"Animation:" = "Animation:";
-"Fade Window" = "Fade Window";
-"Slide Window" = "Slide Window";
-
-"Screen:" = "Screen:";
-"Show on all Spaces" = "Show on all Spaces";
-"Show on top of the Dock" = "Show on top of the Dock";
-"Free Form Window" = "FreeForm Window";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Reset TotalFinder to defaults";
 
-"File Browser:" = "File Browser:";
-"Show System Files" = "Show System Files";
-"Folders on Top" = "Folders on Top";
-"Always Maximize" = "Always Maximize";
-"Toggle Dual Mode" = "Toggle Dual Mode";
-
-"Menu and Dock:" = "Menu and Dock:";
 "Hide icon in Menu Bar" = "Hide icon in Menu Bar";
 "Keep original Dock icon" = "Keep original Dock icon";
-
-"Experimental:" = "Experimental:";
-"Freelance Windows" = "Freelance Windows";
-"Use narrow Tabs Bar" = "Use narrow Tabs Bar";
-"Show CutPaste buttons in Context Menus" = "Show Cut&Paste buttons in Context Menus";
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
 
 /* about page */
 "Check Now" = "Check Now";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

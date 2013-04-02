@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Vali Eelmine Vaheleht";
 "Switch Active Panel" = "Vaheta Aktiivset Paneeli";
 
-"BASIC" = "BASIC";
 "New Tab" = "Uus Vaheleht"; /* the tooltip of the "plus button" in tabs bar */
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Kitsas Vaheleheriba";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Alati Maksimeeri";
+"Freelance Windows" = "Ava Uues Aknas";

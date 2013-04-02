@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Gå til forrige fane";
 "Switch Active Panel" = "Skift aktivt panel";
 
-"BASIC" = "BASIC";
 "New Tab" = "Ny fane";
 "Tabs" = "Faner";
 "Use narrow Tabs Bar" = "Brug smal fanebar";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Altid Maximer";
+"Freelance Windows" = "Freelance vinduer";

@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "顯示器";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "檢查更新";
 "Uninstall TotalFinder" = "移除 TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinder 設定…";
 "Visit Homepage…" = "造訪網站…";
 
-/* misc. */
-"Screen" = "顯示器";
-
 /* registration */
 "Licensed to %@" = "授權給 %@";
 "Change License" = "變更授權";
@@ -29,47 +35,13 @@
 "Register" = "註冊";
 
 /* navigation bar */
-"Visor" = "滑入視窗";
-"Tweaks" = "設定";
 "About" = "關於";
-
-/* visor page */
-"Visor Feature" = "啟用滑入視窗";
-"a system-wide window sliding from the bottom on a hot-key" = "以快速鍵呼叫視窗由螢幕底部滑入";
-
-"Activation:" = "快速鍵:";
-
-"Control:" = "控制:";
-"Hide on ESC" = "按 ESC 隱藏";
-"Pin Visor" = "固定滑入視窗:";
-
-"Animation:" = "動畫特效:";
-"Fade Window" = "視窗淡入/淡出";
-"Slide Window" = "視窗滑入/滑出";
-
-"Screen:" = "顯示器:";
-"Show on all Spaces" = "顯示於每個 Spaces 空間";
-"Show on top of the Dock" = "顯示在 Dock 上層";
-"Free Form Window" = "自由調整視窗大小位置";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "將 TotalFinder 重設到預設值";
 
-"File Browser:" = "檔案瀏覽:";
-"Show System Files" = "顯示系統檔案";
-"Folders on Top" = "檔案夾置頂";
-"Always Maximize" = "總是最大化";
-"Toggle Dual Mode" = "切換雙視窗模式";
-
-"Menu and Dock:" = "選單及 Dock:";
 "Hide icon in Menu Bar" = "隱藏選單列圖示";
 "Keep original Dock icon" = "保留原始 Dock 圖示";
-
-"Experimental:" = "實驗性:";
-"Freelance Windows" = "使用自由視窗";
-"Use narrow Tabs Bar" = "使用較窄分頁列";
-"Show CutPaste buttons in Context Menus" = "在右鍵選單顯示剪下和貼上按鈕";
-"Allow path copying from Context Menus" = "允許從右鍵選單拷貝路徑";
 
 /* about page */
 "Check Now" = "馬上檢查";
@@ -93,5 +65,3 @@
 "License Name" = "License Name";
 "License Key" = "License Key";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

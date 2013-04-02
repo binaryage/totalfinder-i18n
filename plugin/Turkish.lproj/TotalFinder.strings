@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Ekran";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Güncellemeleri kontrol et";
 "Uninstall TotalFinder" = "TotalFinder'ı Kaldır";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinder Tercihleri…";
 "Visit Homepage…" = "Web Sitesini Ziyaret Et…";
 
-/* misc. */
-"Screen" = "Ekran";
-
 /* registration */
 "Licensed to %@" = "%@ adına lisanslıdır.";
 "Change License" = "Lisansı Değiştir";
@@ -29,47 +35,13 @@
 "Register" = "Kayıt";
 
 /* navigation bar */
-"Visor" = "Vizör";
-"Tweaks" = "İnce Ayar";
 "About" = "Hakkında";
-
-/* visor page */
-"Visor Feature" = "Vizör özelliği";
-"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan açılan pencere";
-
-"Activation:" = "Aktivasyon:";
-
-"Control:" = "Kontrol:";
-"Hide on ESC" = "ESC ile gizle";
-"Pin Visor" = "Vizörü sabitle";
-
-"Animation:" = "Animasyon:";
-"Fade Window" = "Pencereyi söndür";
-"Slide Window" = "Pencereyi kaydır";
-
-"Screen:" = "Ekran:";
-"Show on all Spaces" = "Bütün Alanlarda göster";
-"Show on top of the Dock" = "İskelenin(Dock) üzerinde göster";
-"Free Form Window" = "Serbest şekillendirilebilir pencere";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "TotalFinder ayarlarını varsayılan ayarlara döndür";
 
-"File Browser:" = "Dosya tarayıcısı:";
-"Show System Files" = "Sistem dosyalarını göster";
-"Folders on Top" = "Klasörleri üstte göster";
-"Always Maximize" = "Her zaman büyüterek aç";
-"Toggle Dual Mode" = "İkili Pencereyi Aç/Kapat";
-
-"Menu and Dock:" = "Menü ve İskele(dock):";
 "Hide icon in Menu Bar" = "TotalFinder simgesini menü çubuğunda gizle";
 "Keep original Dock icon" = "Orijinal İskele(Dock) simgesini kullan";
-
-"Experimental:" = "Deneysel:";
-"Freelance Windows" = "Bağımsız Pencereler";
-"Use narrow Tabs Bar" = "Dar sekme çubuğu kullan";
-"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır butonlarını sağ tık menüsünde göster";
-"Allow path copying from Context Menus" = "Menü'den Yol kopyalamaya izin ver";
 
 /* about page */
 "Check Now" = "Şimdi kontrol et";
@@ -93,5 +65,3 @@
 "License Name" = "Lisans İsmi";
 "License Key" = "Lisans Anahtarı";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

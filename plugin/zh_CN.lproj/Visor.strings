@@ -2,8 +2,6 @@
 "Show Visor" = "显示滑入窗口";
 "Hide Visor" = "隐藏滑入窗口";
 
-"Screen" = "屏幕";
-"BASIC" = "BASIC";
 "Visor" = "滑入窗口";
 "a system-wide window sliding from the bottom on a hot-key" = "一个从屏幕下方滑入的文件管理器，通过快捷键激活";
 "Visor Feature" = "滑入窗口";

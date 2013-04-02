@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "Menus";
+"Updates" = "Updates";
+"File Browser" = "File Browser";
+"Screen" = "Ekraan";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Kontrolli Uuendusi";
 "Uninstall TotalFinder" = "Eemalda TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "TotalFinderi Seadistused…";
 "Visit Homepage…" = "Külasta kodulehte…";
 
-/* misc. */
-"Screen" = "Ekraan";
-
 /* registration */
 "Licensed to %@" = "Litsentseeritud: %@";
 "Change License" = "Muuda Litsentsi";
@@ -29,47 +35,13 @@
 "Register" = "Registreeri";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Seaded";
 "About" = "Teave";
-
-/* visor page */
-"Visor Feature" = "Visori Aken";
-"a system-wide window sliding from the bottom on a hot-key" = "kiirklahviga aktiveeritav globaalne Finderi aken";
-
-"Activation:" = "Aktiveeri:";
-
-"Control:" = "Kontroll:";
-"Hide on ESC" = "Peida ESC vajutamisel";
-"Pin Visor" = "Kinnita Visor";
-
-"Animation:" = "Animatsion:";
-"Fade Window" = "Hajuv Aken";
-"Slide Window" = "Liuglev Aken";
-
-"Screen:" = "Ekraan:";
-"Show on all Spaces" = "Näita kõigil Ruumidel";
-"Show on top of the Dock" = "Näita Kõige Peal";
-"Free Form Window" = "Vabavormi Aken";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Taasta TotalFinderi algseadistus";
 
-"File Browser:" = "Failisirvija:";
-"Show System Files" = "Näita Süsteemi Faile";
-"Folders on Top" = "Kaustad Üleval";
-"Always Maximize" = "Alati Maksimeeri";
-"Toggle Dual Mode" = "Lülitu Paarisaknarežiimi";
-
-"Menu and Dock:" = "Menüü ja Dock:";
 "Hide icon in Menu Bar" = "Peida ikoon menüüribas";
 "Keep original Dock icon" = "Jäta algne Dock'i ikoon";
-
-"Experimental:" = "Experimentaalne:";
-"Freelance Windows" = "Ava Uues Aknas";
-"Use narrow Tabs Bar" = "Kitsas Vaheleheriba";
-"Show CutPaste buttons in Context Menus" = "Näita Lõika&Kleebi nuppe hüpikmenüüs";
-"Allow path copying from Context Menus" = "Luba teekonna kopeerimist hüpikmenüüs";
 
 /* about page */
 "Check Now" = "Kontrolli nüüd";
@@ -93,5 +65,3 @@
 "License Name" = "Litsentsi Nimi";
 "License Key" = "Litsentsi Võti";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

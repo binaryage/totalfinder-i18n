@@ -13,10 +13,13 @@
 "Narrow Tabs Bar" = "탭 칸 세로폭 줄임";
 "Select Next Tab" = "다음 탭 선택";
 "Select Previous Tab" = "이전 탭 선택";
-"Switch Active Panel" = "Switch Active Panel";
+"Switch Active Panel" = "활성 패널 전환";
 
-"BASIC" = "BASIC";
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "새 탭";
+"Tabs" = "탭";
 "Use narrow Tabs Bar" = "탭 칸 세로폭 줄임";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "이전 위치에서 새 탭 열기";
+
+/* preferences */
+"Always Maximize" = "창을 항상 최대화";
+"Freelance Windows" = "프리랜스 윈도우";

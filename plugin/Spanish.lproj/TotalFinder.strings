@@ -1,3 +1,12 @@
+/* preferences */
+"BASIC" = "GENERAL";
+"SYSTEM" = "SISTEMA";
+"Menus" = "Menús";
+"Updates" = "Actualizaciones";
+"File Browser" = "Explorador de archivos";
+"Screen" = "Pantalla";
+"Dock" = "Dock";
+
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Buscar actualizaciones";
 "Uninstall TotalFinder" = "Desinstalar TotalFinder";
@@ -19,9 +28,6 @@
 "TotalFinder Preferences…" = "Preferencias de TotalFinder…";
 "Visit Homepage…" = "Visitar página web…";
 
-/* misc. */
-"Screen" = "Pantalla";
-
 /* registration */
 "Licensed to %@" = "Licenciado a %@";
 "Change License" = "Cambiar Licencia";
@@ -29,47 +35,13 @@
 "Register" = "Registrar";
 
 /* navigation bar */
-"Visor" = "Visor";
-"Tweaks" = "Ajustes";
 "About" = "Acerca de";
-
-/* visor page */
-"Visor Feature" = "Activar Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "ventana global invocada con una tecla de acceso directo";
-
-"Activation:" = "Activación:";
-
-"Control:" = "Control:";
-"Hide on ESC" = "ESC para ocultar";
-"Pin Visor" = "Fijar Visor";
-
-"Animation:" = "Animación:";
-"Fade Window" = "Desvanecer ventana";
-"Slide Window" = "Deslizar ventana";
-
-"Screen:" = "Pantalla:";
-"Show on all Spaces" = "Mostrar en todos los Spaces"; /* 'Spaces' is standard for Mac OS X in Spanish */
-"Show on top of the Dock" = "Mostrar sobre el Dock";
-"Free Form Window" = "Ventana redimensionable";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Restaurar valores por omisión"; /* 'Valores por omisión' is Mac OS X standard translation */
 
-"File Browser:" = "Navegador de archivos:";
-"Show System Files" = "Ver archivos de sistema";
-"Folders on Top" = "Carpetas primero";
-"Always Maximize" = "Maximizar completamente";
-"Toggle Dual Mode" = "Desplegar modo dual";
-
-"Menu and Dock:" = "Menú y Dock:";
 "Hide icon in Menu Bar" = "Ocultar icono en barra de menús"; /* both 'icono' and 'ícono' are correct, Mac OS X calls it 'iconos'. 'Barra de menús' translation is the same as in the 'Networking preference pane' */
 "Keep original Dock icon" = "Usar icono original de Finder en el Dock";
-
-"Experimental:" = "Experimental:";
-"Freelance Windows" = "No agrupar ventanas";
-"Use narrow Tabs Bar" = "Barra pestañas estrecha"; /* 'Barra pestañas' is not proper Spanish but a longer sentence won't fit the UI */ /* Edit by Eduan: Changed it to an actual Spanish sentence, README.md says that it doesn't matter that much, counting on you Antonin! */
-"Show CutPaste buttons in Context Menus" = "Cortar y Pegar desde el menú contextual";
-"Allow path copying from Context Menus" = "Copiar rutas desde el menú contextual";
 
 /* about page */
 "Check Now" = "Buscar ahora";
@@ -93,5 +65,3 @@
 "License Name" = "Nombre de la licencia";
 "License Key" = "Clave de la licencia";
 
-/* shared strings between plugins */
-"Menus" = "Menus";

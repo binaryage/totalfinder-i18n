@@ -15,8 +15,11 @@
 "Select Previous Tab" = "Selecionar aba anterior";
 "Switch Active Panel" = "Trocar Painel Ativo";
 
-"BASIC" = "BASIC";
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Utilizar barra com abas finas";
 "Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Always Maximize" = "Sempre Maximizado";
+"Freelance Windows" = "Janelas Autônomas";
