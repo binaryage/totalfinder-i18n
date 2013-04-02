@@ -32,7 +32,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 ### Development
 
 1. edit files
-2. validate your changes with `rake validate` (before first run execute `sudo gem install cmess` to install supporting library)
+2. validate your changes with `rake validate` (before first run execute `sudo gem install cmess colored` to install supporting library)
 3. use `./bin/restart.sh` to restart TotalFinder to reflect your changes
 4. commit if needed - you can `./bin/commit.sh`
 5. goto 1
