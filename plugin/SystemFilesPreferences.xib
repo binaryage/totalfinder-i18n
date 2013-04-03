@@ -386,7 +386,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">33</int>
+			<int key="maxID">48</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -439,6 +439,7 @@
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="_browserIcon">NSImage</string>
 						<string key="_fileBrowserPreferences">NSView</string>
+						<string key="_openDimmedPreferences">NSView</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="_browserIcon">
@@ -447,6 +448,10 @@
 						</object>
 						<object class="IBToOneOutletInfo" key="_fileBrowserPreferences">
 							<string key="name">_fileBrowserPreferences</string>
+							<string key="candidateClassName">NSView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="_openDimmedPreferences">
+							<string key="name">_openDimmedPreferences</string>
 							<string key="candidateClassName">NSView</string>
 						</object>
 					</dictionary>
