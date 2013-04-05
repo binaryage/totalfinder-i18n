@@ -31,7 +31,7 @@
 "Narrow Tabs Bar" = "Sekme Çubuğunu Daralt";
 "Pin Visor" = "Vizörü Sabitle";
 "TotalFinder Preferences…" = "TotalFinder Ayarları…";
-"Visit Homepage…" = "TotalFinder Ana Sayfası...";
+"Visit Homepage…" = "TotalFinder Web Sitesi";
 "Select Next Tab" = "Sonraki Sekmeye Git";
 "Select Previous Tab" = "Önceki Sekmeye Git";
 "Switch Active Panel" = "Aktif Panele geç";
@@ -40,7 +40,7 @@
 "Screen %d" = "Ekran %d";
 
 /* status badge */
-"TotalFinder - unregistered version" = "TotalFinder - Tescilsiz Sürüm";
+"TotalFinder - unregistered version" = "TotalFinder - Lisanssız Sürüm";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - şimdi satın al!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - şimdi satın al!";
 "TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 gün kaldı - şimdi satın al!";
@@ -49,7 +49,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d gün kaldı - şimdi satın al!";
 
 /* registration */
-"Licensed to %@" = "%@ adına tescil edilmiştir.";
-"Change License" = "Tescili değiştir";
-"Unregistered version in trial mode" = "Tescilsiz deneme sürümü";
+"Licensed to %@" = "%@ adına lisanslıdır.";
+"Change License" = "Lisans adını değiştir";
+"Unregistered version in trial mode" = "Lisanssız deneme sürümü";
 "Register" = "Kayıt";
