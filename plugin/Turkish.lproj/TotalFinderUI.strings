@@ -19,8 +19,8 @@
 
 "Screen:" = "Ekran:";
 "Show on all Spaces" = "Bütün Alanlarda göster";
-"Show on top of the Dock" = "İskeleyi(Dock) ört";
-"Free Form Window" = "Serbest şekillendirilebilir pencere";
+"Show on top of the Dock" = "Menüyü (Dock) ört";
+"Free Form Window" = "Serbest pencere";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "TotalFinder'ı varsayılan ayarlara sıfırla";
@@ -33,7 +33,7 @@
 
 "Menu and Dock:" = "Menü ve İskele(dock):";
 "Hide icon in Menu Bar" = "TotalFinder simgesini menüden kaldır";
-"Keep original Dock icon" = "Orjinal İskele(Dock) simgesini kullan";
+"Keep original Dock icon" = "Orjinal Menü (Dock) simgesini kullan";
 
 "Experimental:" = "Deneysel:";
 "Freelance Windows" = "Bağımsız Pencereler";
@@ -55,11 +55,11 @@
 "Buy TotalFinder Now" = "TotalFinder'ı Satın Alın";
 "Register" = "Kayıt";
 "Thanks for registering!" = "Kaydınız için teşekkürler!";
-"This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının tescili:";
+"This TotalFinder copy is licensed to:" = "Bu TotalFinder kopyasının lisansı:";
 "Close" = "Kapat";
-"Change License" = "Tescili Değiştir";
+"Change License" = "Lisansı Değiştir";
 "Back" = "Geri";
-"Invalid license code" = "Yanlış tescil kodu";
+"Invalid license code" = "Yanlış lisans kodu";
 "Please go back and try again." = "Lütfen geri dönüp tekrar deneyin";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder tescilini satın almak için lütfen BinaryAge internet sitesini ziyaret edin.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder lisansını satın almak için lütfen BinaryAge internet sitesini ziyaret edin.";
 "Thank you for using TotalFinder!" = "TotalFinder kullandığınız için teşekkürler!";
