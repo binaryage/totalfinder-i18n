@@ -7,7 +7,7 @@
 "The key combination \"%@\" can't be used because %@." = "\"%@\" tuş kombinasyonu kullanılamaz çünkü %@.";
 "The key combination \"%@\" can't be used because it's already used by a system-wide keyboard shortcut. (If you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.)" = "\"%@\" tuş kombinasyonu kullanılamaz çünkü bu kısayol sistem tarafından kullanılmaktadır. (Bu tuş birleşimini kullanmak istiyorsanız, Sistem Ayarları'nın içerisindeki birçok kısayolun bulunduğu Klavye & Fare bölümünden değiştirebilirsiniz.)";
 "The key combination \"%@\" can't be used because it's already used by the menu item \"%@\"." = "\"%@\" tuş kombinasyonu kullanılamaz çünkü \"%@\" menü öğesi tarafından kullanılmakta.";
-"Command + " = "Cmd + ";
+"Command + " = "Command + ";
 "Option + " = "Alt + ";
 "Shift + " = "Shift + ";
 "Control + " = "Kntrl + ";
