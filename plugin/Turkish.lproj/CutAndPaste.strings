@@ -5,6 +5,6 @@
 "Edit" = "Düzenle";
 "Cut" = "Kes";
 "Cut “%@”" = "“%@” Kes";
-"Cut %u Items" = "%u Seçilenleri Kes";
+"Cut %u Items" = "%u Seçileni Kes";
 "Paste" = "Yapıştır";
-"Paste %u Items" = "%u Seçilenleri Yapıştır";
+"Paste %u Items" = "%u Seçileni Yapıştır";
