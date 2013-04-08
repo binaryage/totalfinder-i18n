@@ -7,18 +7,18 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - залишилось %d днів - купіть зараз!";
 "Close Tab" = "Закрити вкладку";
 "New Finder Tab" = "Нова вкладка Finder";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Reopen Closed Tab" = "Знову відкрити закриту вкладку";
 "Close Window" = "Закрити вікно";
 "Toggle Dual Mode" = "Двопанельний режим";
 "Narrow Tabs Bar" = "Вузька панель вкладок";
 "Select Next Tab" = "Вибрати наступну вкладку";
 "Select Previous Tab" = "Вибрати попередню вкладку";
-"Switch Active Panel" = "Switch Active Panel";
+"Switch Active Panel" = "Поміняти активну панель";
 
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "Нова вкладка";
+"Tabs" = "Вкладки";
 "Use narrow Tabs Bar" = "Вузька панель вкладок";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Відкривати нові вкладки на пепередніх позиціях";
 
 /* preferences */
 "Always Maximize" = "Завжди розгортати";
