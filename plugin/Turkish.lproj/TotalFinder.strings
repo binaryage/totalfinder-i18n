@@ -1,9 +1,9 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"BASIC" = "TEMEL";
+"SYSTEM" = "SİSTEM";
+"Menus" = "Menüler";
+"Updates" = "Güncellemeler";
+"File Browser" = "Dosya Tarayıcısı";
 "Screen" = "Ekran";
 "Dock" = "Dock";
 

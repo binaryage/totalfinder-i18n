@@ -1,9 +1,9 @@
 "Copy Path" = "Копіювати шлях";
-"POSIX Path" = "Шлях POSIX";
-"URL" = "Стрічка URL";
-"Windows Path" = "Шлях Windows";
-"HFS Path" = "Шлях HFS";
-"Terminal Path" = "Для Терміналу";
-"UNC Path" = "UNC Path";
+"POSIX Path" = "POSIX шлях";
+"URL" = "URL";
+"Windows Path" = "Windows шлях";
+"HFS Path" = "HFS шлях";
+"Terminal Path" = "Terminal шлях";
+"UNC Path" = "UNC шлях";
 
-"Allow path copying from Context Menus" = "Копіювання шляху з контекстного меню";
+"Allow path copying from Context Menus" = "Дозволити копіювати шляху з контекстного меню";
