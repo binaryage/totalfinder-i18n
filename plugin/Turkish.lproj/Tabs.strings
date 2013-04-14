@@ -1,4 +1,4 @@
-"TotalFinder - unregistered version" = "TotalFinder - Tescilsiz Sürüm";
+"TotalFinder - unregistered version" = "TotalFinder - Lisanssız sürüm";
 "TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - şimdi satın al!";
 "TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - şimdi satın al!";
 "TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 gün kaldı - şimdi satın al!";
@@ -13,12 +13,12 @@
 "Narrow Tabs Bar" = "Sekme Çubuğunu Daralt";
 "Select Next Tab" = "Sonraki Sekmeye Git";
 "Select Previous Tab" = "Önceki Sekmeye Git";
-"Switch Active Panel" = "Aktif Paneli Değiştir";
+"Switch Active Panel" = "Aktif Panele Geç";
 
 "New Tab" = "Yeni Sekme";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Dar sekme çubuğu kullan";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Yeni sekmeleri bir önceki klasör ile aç";
 
 /* preferences */
 "Always Maximize" = "Her zaman büyüterek aç";
