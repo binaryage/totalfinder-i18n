@@ -7,7 +7,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias restantes - compre agora!";
 "Close Tab" = "Fechar separador";
 "New Finder Tab" = "Novo separador do Finder";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Reopen Closed Tab" = "Reabrir separador Fechado";
 "Close Window" = "Fechar janela";
 "Toggle Dual Mode" = "Modo de painel duplo";
 "Narrow Tabs Bar" = "Usar barra de separadores fina";
@@ -16,9 +16,9 @@
 "Switch Active Panel" = "Trocar de Painel Activo";
 
 "New Tab" = "Novo Painel";
-"Tabs" = "Painéis";
+"Tabs" = "Separadores";
 "Use narrow Tabs Bar" = "Barra separadores fina";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Abrir novos separadores na localização prévia";
 
 /* preferences */
 "Always Maximize" = "Maximizar sempre";
