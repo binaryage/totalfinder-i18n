@@ -1,11 +1,11 @@
 /* preferences */
 "BASIC" = "BASICO";
-"SYSTEM" = "SYSTEM";
+"SYSTEM" = "SYSTEMA";
 "Menus" = "Menus";
-"Updates" = "Updates";
+"Updates" = "Actualizações";
 "File Browser" = "Navegador de Ficheiros";
 "Screen" = "Ecrã";
-"Dock" = "Dock";
+"Dock" = "Doca";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Procurar actualizações";
@@ -41,7 +41,7 @@
 "Reset TotalFinder to defaults" = "Restaurar configurações predefinidas";
 
 "Hide icon in Menu Bar" = "Ocultar ícone na barra de menus";
-"Keep original Dock icon" = "Manter ícone original do Finder na Dock";
+"Keep original Dock icon" = "Manter ícone original do Finder na Doca";
 
 /* about page */
 "Check Now" = "Procurar agora";
