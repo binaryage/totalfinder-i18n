@@ -1,14 +1,14 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
+"BASIC" = "FINDER";
+"SYSTEM" = "SYSTÈME";
 "Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"Updates" = "Mises à jour";
+"File Browser" = "Explorateur de fichiers";
 "Screen" = "Écran";
 "Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Mise à jour";
+"Check for Updates" = "Vérifier les mises à jour";
 "Uninstall TotalFinder" = "Désinstaller TotalFinder";
 "Restart Finder" = "Relancer le Finder";
 
@@ -40,13 +40,13 @@
 /* tweaks page */
 "Reset TotalFinder to defaults" = "Réinitialiser TotalFinder";
 
-"Hide icon in Menu Bar" = "Sans TotalFinder dans la barre des menus";
-"Keep original Dock icon" = "Avec l'icône originale du Finder dans le Dock";
+"Hide icon in Menu Bar" = "Masquer l'icône de TotalFinder de la barre des menus";
+"Keep original Dock icon" = "Afficher l'icône originale du Finder dans le Dock";
 
 /* about page */
 "Check Now" = "Maintenant";
 "Automatically check the website for updates" = "Mise à jour automatique via le site Web";
-"Include pre-releases" = "Inclure les préversions";
+"Include pre-releases" = "Inclure les pré-versions";
 "Participate in TotalFinder testing" = "Participation aux tests de TotalFinder";
 
 /* registration */
