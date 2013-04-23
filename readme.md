@@ -54,12 +54,6 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 >
 > Second, please note that TotalFinder is a plugin for Finder.app and it inherits preferred language from Finder.app. Finder.app does not pick MYLANGUAGE if `/System/Library/CoreServices/Finder.app/Contents/Resources/MYLANGUAGE.lproj` does not exist. You may create empty folder by hand or you may fix this by running `sudo rake normalize` task, which will create missing folders in `/System/Library/CoreServices/Finder.app/Contents/Resources` according to language folders available in TotalFinder's Resources.
 
-### I want to modify the UI. How can I compile XIB files?
-> TotalFinder uses NIBs, to compile them from source XIBs please run `./bin/compile.sh` (you have to have installed [XCode4 command line tools from Apple](http://developer.apple.com/technologies/tools/xcode.html))
-
-### May I alter dimensions in the UI to fit my language?
-> Although it is possible to copy XIB into your language folder and make it language-specific I prefer to keep one shared XIB file for all languages. I'm using technique for defining flexible areas to fit different languages as [described here](http://code.google.com/p/google-toolbox-for-mac/wiki/UILocalization). Please see the `TotalFinder.xib` where it is already used on several places in the Preferences Window.
-
 ## Thank you!
 
 Every contributor in [http://github.com/binaryage/totalfinder-i18n/contributors](http://github.com/binaryage/totalfinder-i18n/contributors) will get a free TotalFinder license. Please note that you will appear there with delay and only if your commits are properly recognized as authored by your github's account. You have to [setup your local git user](http://help.github.com/git-email-settings) properly.

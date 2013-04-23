@@ -264,15 +264,12 @@ def validate_strings_file path
       next
     end
     next if in_multi_line_comment
+    line = line.gsub(/\r\n?/, "") + "\n"
     next if line =~ /^".*?"\s*=\s*".*?";\s*$/
     next if line =~ /^".*?"\s*=\s*".*?";\s*\/\*.*?\*\/$/
     next if line =~ /^".*?"\s*=\s*".*?";\s*\/\/.*?$/
     next if line =~ /^\/\*.*?\*\/$/
-    next if line =~ /^$/
-    # last line may be without new-line character
-    next if counter==count and line =~ /^".*?"\s*=\s*".*?";\s*/
-    next if counter==count and line =~ /^".*?"\s*=\s*".*?";\s*\/\*.*?\*\//
-    next if counter==count and line =~ /^".*?"\s*=\s*".*?";\s*\/\/.*?$/
+    next if line =~ /^\s*$/
     if line =~ /^\/\*[^\*]*/ then
       in_multi_line_comment = true
       next
@@ -401,11 +398,6 @@ end
 desc "switch /Applications/TotalFinder.app into non-dev mode"
 task :undev do
   sys("./bin/undev.sh")
-end
-
-desc "compile XIBs to NIBs (you need this only when you modify UI in the InterfaceBuilder)"
-task :compile do
-  sys("./bin/compile.sh")
 end
 
 desc "restart Finder.app"
