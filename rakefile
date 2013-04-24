@@ -400,11 +400,6 @@ task :undev do
   sys("./bin/undev.sh")
 end
 
-desc "compile XIBs to NIBs (you need this only when you modify UI in the InterfaceBuilder)"
-task :compile do
-  sys("./bin/compile.sh")
-end
-
 desc "restart Finder.app"
 task :restart do
   sys("./bin/restart.sh")
