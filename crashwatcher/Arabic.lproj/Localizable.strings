@@ -1,7 +1,7 @@
 "crashDialogHeader" = "TotalFinder أغلق بشكل غير متوقع";
-"crashDialogMsg" = "نحن نعتذر, ولكن TotalFinder واجه مشكلة غير متوقعة فتم إغلاق Finder.";
-"crashDialogNote" = "ملاحظة: لقد أعيد تشغيلFinder ولكن يجب إعادة تشغيل TotalFinder.app بشكل يدوي.";
-"crashDialogExplanation" = "زر الإرسال سوف يرفع تقرير العطل إلى gist.github.com و يبدأ Mail.app بقالب رسالة جاهز.";
+"crashDialogMsg" = "نحن نعتذر و لكن TotalFinder واجه مشكلة غير متوقعة فتم إغلاق Finder.";
+"crashDialogNote" = "ملاحظة: لقد أعيد تشغيل Finder ولكن يجب إعادة تشغيل TotalFinder.app بشكل يدوي.";
+"crashDialogExplanation" = "زر الإرسال سوف يرفع تقرير العطل إلى gist.github.com و يشغل Mail.app بقالب رسالة جاهز.";
 
 "failDialogHeader" = "تعذر إرسال تقرير العطل إلى gist.github.com";
 "failDialogMsg1" = "للأسف، لم أتمكن من العثور على تقرير العطل في ~/Logs/CrashReporter.";
