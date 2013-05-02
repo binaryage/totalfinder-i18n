@@ -18,7 +18,7 @@
 "New Tab" = "Neuer Tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Tableiste verkleinern";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Neue Tabs an zuletzt besuchtem Ort öffnen";
 
 /* preferences */
 "Always Maximize" = "Immer maximieren";
