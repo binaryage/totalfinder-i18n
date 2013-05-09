@@ -1,6 +1,6 @@
-# TotalFinder Internationalization ([totalfinder.binaryage.com](http://totalfinder.binaryage.com))
+# TotalFinder Internationalization
 
-**TotalFinder** is a plugin for Apple's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
+**[TotalFinder](http://totalfinder.binaryage.com)** is a plugin for Apple's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
 
 <img width="500" src="http://totalfinder.binaryage.com/images/showcase/showcase-dual-mode.png">
 
