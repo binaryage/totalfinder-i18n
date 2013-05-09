@@ -1,4 +1,4 @@
-"Terminal Link" = "Liens du Terminal";
-"Allows Finder to sync the current directory with Terminal" = "Autoriser le Finder à synchroniser le répertoire actuel avec le Terminal";
+"Terminal Link" = "Liaison avec le Terminal";
+"Allows Finder to sync the current directory with Terminal" = "Autoriser le Finder à synchroniser le répertoire courant avec le Terminal";
 "Automatically sync Terminal directory to Finder target" = "Synchroniser automatiquement le répertoire du terminal avec celui du Finder";
-"Open In Terminal:" = "Ouvrir dans le Terminal:";
+"Open In Terminal:" = "Ouvrir dans le Terminal :";

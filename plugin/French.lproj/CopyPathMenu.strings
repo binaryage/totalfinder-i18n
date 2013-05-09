@@ -6,4 +6,4 @@
 "Terminal Path" = "Chemin Terminal";
 "UNC Path" = "Chemin UNC";
 
-"Allow path copying from Context Menus" = "Autoriser la copie à partir du Menu contextuel";
+"Allow path copying from Context Menus" = "Permettre la copie de chemin par le menu contextuel";
