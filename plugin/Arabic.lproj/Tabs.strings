@@ -1,0 +1,25 @@
+"TotalFinder - unregistered version" = "TotalFinder - نسخة غير مسجلة";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - بقي يوم واحد - اشتر الآن!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - بقي يومان - اشتر الآن!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - بقي ثلاثة أيام - اشتر الآن!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - بقي أربعة أيام - اشتر الآن!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - بقي خمسة أيام - اشتر الآن!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - بقي %d ايام - اشتر الآن!";
+"Close Tab" = "اغلق علامة التبويب";
+"New Finder Tab" = "علامة تبويب جديدة";
+"Reopen Closed Tab" = "إعادة فتح علامة التبويب";
+"Close Window" = "اغلق النافذة";
+"Toggle Dual Mode" = "غير وضع ثنائي الواجهة";
+"Narrow Tabs Bar" = "لوحة علامات تبويب ضيقة";
+"Select Next Tab" = "اختر علامة التبويب التالية";
+"Select Previous Tab" = "اختر علامة التبويب السابقة";
+"Switch Active Panel" = "بدل الواجهة الفعالة";
+
+"New Tab" = "علامة تبويب جديدة"; /* the tooltip of the "plus button" in tabs bar */
+"Tabs" = "علامات تبويب";
+"Use narrow Tabs Bar" = "استعمل لوحة علامات تبويب ضيقة";
+"Open new tabs with previous location" = "افتح علامات تبويب جديدة بأماكن قديمة";
+
+/* preferences */
+"Always Maximize" = "دائما كبر النافذة";
+"Freelance Windows" = "نوافذ مستقلة";
