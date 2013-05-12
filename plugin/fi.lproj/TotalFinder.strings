@@ -1,10 +1,10 @@
 /* preferences */
-"BASIC" = "PERUS";
+"BASIC" = "YLEISET";
 "SYSTEM" = "JÄRJESTELMÄ";
 "Menus" = "Valikot";
 "Updates" = "Päivitykset";
 "File Browser" = "Tiedostoselain";
-"Screen" = "Monitori";
+"Screen" = "";
 "Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
@@ -61,7 +61,7 @@
 "Invalid license code" = "Virheellinen lisenssiavain";
 "Please go back and try again." = "Ole hyvä ja mene takaisin yrittääksesi uudelleen.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Ostaaksesi lisenssin TotalFinderiin käy BinaryAgen nettikaupassa";
-"Thank you for using TotalFinder!" = "Kiitos, kun käytit TotalFinderia!";
+"Thank you for using TotalFinder!" = "Kiitos että käytät TotalFinderia!";
 "License Name" = "Lisenssin nimi";
 "License Key" = "Lisenssin avain";
 
