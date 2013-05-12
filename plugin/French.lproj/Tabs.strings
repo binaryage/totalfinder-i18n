@@ -15,11 +15,11 @@
 "Select Previous Tab" = "Sélectionner l'onglet précédent";
 "Switch Active Panel" = "Commuter le panneau actif";
 
-"New Tab" = "Nouvel onglet";
+"New Tab" = "Nouvel onglet"; /* the tooltip of the "plus button" in tabs bar */
 "Tabs" = "Onglets";
-"Use narrow Tabs Bar" = "Onglets compacts";
-"Open new tabs with previous location" = "Ouvrir les onglets sur l'emplacement précédent";
+"Use narrow Tabs Bar" = "Utiliser des onglets compacts";
+"Open new tabs with previous location" = "Ouvrir les nouveaux onglets sur le dernier emplacement";
 
 /* preferences */
-"Always Maximize" = "Toujours maximisé";
-"Freelance Windows" = "Les onglets s'ouvrent dans une nouvelle fenêtre";
+"Always Maximize" = "Toujours maximiser";
+"Freelance Windows" = "Ouvrir dans une nouvelle fenêtre";
