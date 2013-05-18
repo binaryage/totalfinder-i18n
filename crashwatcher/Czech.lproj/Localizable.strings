@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder byl neočekávaně ukončen";
+"crashDialogMsg" = "Omlouváme se, ale TotalFinder narazil na neočekávaný problém a způsobil pád Finderu.";
+"crashDialogNote" = "Poznámka: Finder byl automaticky zrestartován, ale TotalFinder.app musíte spustit znovu manuálně.";
+"crashDialogExplanation" = "Tlačítko odeslat nahraje soubor s informacemi o pádu aplikace na gist.github.com a otevře aplikaci Mail.app s šablonou emailu.";
+
+"failDialogHeader" = "Nepodařilo se nahrát soubor s informacemi o pádu aplikace na gist.github.com";
+"failDialogMsg1" = "Bohužel. Nepodařilo se mi najít soubor s informacemi o pádu v složce ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Podařilo se mi najít soubor s informacemi o pádu aplikace, ale nahrání na gist.github.com z nějakého důvodu selhalo.\n\nPokud je to urgentní, můžete mi soubor poslat manuálně:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Odeslat email";
+"cancelButton" = "Zrušit";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d vteřin zbývá.";
+"countdownMsgSecondSingular" = "%d vteřin zbývá.";
+
+"countdownMsgMinutesPlural" = "%d minut zbývá.";
+"countdownMsgMinuteSingular" = "%d minut zbývá.";

@@ -2,12 +2,12 @@
 /* as Main Menu > Edit > Copy item works in your localized Finder */
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
-"Edit" = "Muokkaa";
-"Cut" = "Leikkaa";
-"Cut “%@”" = "Leikkaa “%@”";
-"Cut %u Items" = "Leikkaa %u kohdetta";
-"Paste" = "Sijoita";
-"Paste %u Items" = "Sijoita %u kohdetta";
-"Copy" = "Kopioi";
+"Edit" = "تحرير";
+"Cut" = "قص";
+"Cut “%@”" = "قص “%@”";
+"Cut %u Items" = "قص %u عنصر";
+"Paste" = "Paste";
+"Paste %u Items" = "لصق %u عنصر";
+"Copy" = "نسخ";
 
-"Show CutPaste buttons in Context Menus" = "Kopioi/Leikkaa/Sijoita-napit pikavalikkoon";
+"Show CutPaste buttons in Context Menus" = "اظهر ازرار القص/اللزق في القواائم";
