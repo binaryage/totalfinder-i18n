@@ -1,0 +1,67 @@
+/* preferences */
+"BASIC" = "أساسي";
+"SYSTEM" = "النظام";
+"Menus" = "القوائم";
+"Updates" = "التحديثات";
+"File Browser" = "متصفح الملفات";
+"Screen" = "الشاشة";
+"Dock" = "Dock";
+
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "تحقق من التحديثات";
+"Uninstall TotalFinder" = "إزالة TotalFinder";
+"Restart Finder" = "إعادة تشغيل Finder";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "إعادة";
+"Cancel" = "إلغاء";
+"Do you really want reset to defaults?" = "هل تريد الإعادة الى الخيارات الافتراضية فعلا؟";
+"This will restore initial TotalFinder settings." = "هذا سوف يعيد اعدادات TotalFinder الأساسية.";
+
+/* Unistall Alert Box */
+"Uninstall" = "إزالة";
+"Really want to uninstall TotalFinder?" = "هل تريد إزالة TotalFinder فعلا؟";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "هذا سوف يشغل برنامج إزالة لإزالة TotalFinder من هذا الجهاز و يعيد Finder إلى وضعه الطبيعي.";
+
+/* MainMenu items */
+"TotalFinder" = "TotalFinder";
+"TotalFinder Preferences…" = "إعدادات TotalFinder...";
+"Visit Homepage…" = "قم بزيارتنا...";
+
+/* registration */
+"Licensed to %@" = "مرخص مـ %@";
+"Change License" = "غير الرخصة";
+"Unregistered version in trial mode" = "نسخة غير مرخصة في الوضع التجريبي";
+"Register" = "سجل";
+
+/* navigation bar */
+"About" = "عن";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "أعد TotalFinder إلى الافتراضيات";
+
+"Hide icon in Menu Bar" = "اخف الأيقونة في شريط القوائم";
+"Keep original Dock icon" = "احتفظ بأيقونة الـ Dock الأصلية";
+
+/* about page */
+"Check Now" = "تحقق الآن";
+"Automatically check the website for updates" = "تحقق بشكل تلقائي";
+"Include pre-releases" = "تضمن نسخ قبل الإصدار";
+"Participate in TotalFinder testing" = "شارك في تجريب TotalFinder";
+
+/* registration */
+"TotalFinder Registration" = "تسجيل TotalFinder";
+"Registration" = "التسجيل";
+"Please enter your license details from the email we have sent you:" = "الرجاء إدخال معلومات الرخصة المرسلة اليك بالبريد الإلكتروني";
+"Buy TotalFinder Now" = "اشتر TotalFinder الآن";
+"Thanks for registering!" = "شكرا لتسجيلك!";
+"This TotalFinder copy is licensed to:" = "هذه النسخة من TotalFinder مسجلة باسم:";
+"Close" = "أغلق";
+"Back" = "الرجوع";
+"Invalid license code" = "رمز رخصة خاطئ";
+"Please go back and try again." = "رجاء ارجع و أعد المحاولة.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "لشراء رخصة لـ TotalFinder, الرجاء زيارة المتج الالكتروني التابع لـ BinaryAge.";
+"Thank you for using TotalFinder!" = "شكرا لاستخدامك TotalFinder!";
+"License Name" = "اسم الرخصة";
+"License Key" = "مفتاح الرخصة";
+
