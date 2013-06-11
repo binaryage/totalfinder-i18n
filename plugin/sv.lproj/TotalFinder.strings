@@ -1,9 +1,9 @@
 /* preferences */
-"BASIC" = "BASIC";
+"BASIC" = "GRUNDLÄGGANDE";
 "SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"Menus" = "Menyer";
+"Updates" = "Updateringar";
+"File Browser" = "Filbläddring";
 "Screen" = "Bildskärm";
 "Dock" = "Dock";
 
@@ -47,7 +47,7 @@
 "Check Now" = "Kolla nu";
 "Automatically check the website for updates" = "Kolla efter uppdateringar automatiskt";
 "Include pre-releases" = "Inkludera förhandsutgivningar";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Participate in TotalFinder testing" = "Delta i testningen av TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder registrering";
