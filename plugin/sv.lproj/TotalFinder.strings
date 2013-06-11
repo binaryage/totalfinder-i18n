@@ -8,7 +8,7 @@
 "Dock" = "Dock";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Kolla efter uppdateringar";
+"Check for Updates" = "Sök efter uppdateringar";
 "Uninstall TotalFinder" = "Avinstallera TotalFinder";
 "Restart Finder" = "Starta om Finder";
 
@@ -52,7 +52,7 @@
 /* registration */
 "TotalFinder Registration" = "TotalFinder registrering";
 "Registration" = "Registrering";
-"Please enter your license details from the email we have sent you:" = "Var god skriv in din lincenskod:";
+"Please enter your license details from the email we have sent you:" = "Var god skriv in dina lincensuppgifter från emailet vi skickat dig:";
 "Buy TotalFinder Now" = "Köp TotalFinder nu";
 "Thanks for registering!" = "Tack för att du registrerade!";
 "This TotalFinder copy is licensed to:" = "Denna installation av TotalFinder är licenserad till:";

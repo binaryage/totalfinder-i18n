@@ -1,9 +1,9 @@
 "Copy Path" = "Kopiera sökväg";
-"POSIX Path" = "POSIX Sökväg";
+"POSIX Path" = "POSIX-sökväg";
 "URL" = "URL";
-"Windows Path" = "Windows Sökväg";
-"HFS Path" = "HFS Sökväg";
-"Terminal Path" = "Terminal Sökväg";
+"Windows Path" = "Windows-sökväg";
+"HFS Path" = "HFS-sökväg";
+"Terminal Path" = "Terminal-sökväg";
 "UNC Path" = "UNC-sökväg";
 
 "Allow path copying from Context Menus" = "Tillåt kopiering av sökväg från högerklick-menyer";
