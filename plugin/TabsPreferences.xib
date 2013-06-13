@@ -123,27 +123,4 @@
         </customObject>
         <userDefaultsController id="4" userLabel="Shared Defaults"/>
     </objects>
-    <classes>
-        <class className="GTMUILocalizer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
-            <relationships>
-                <relationship kind="outlet" name="otherObjectToLocalize_"/>
-                <relationship kind="outlet" name="owner_"/>
-                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
-            </relationships>
-        </class>
-        <class className="MASShortcutView" superclassName="NSView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MASShortcutView.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="TabsPluginPreferencesController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TabsPluginPreferencesController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="_tabsIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_tabsPreferences" candidateClass="NSView"/>
-            </relationships>
-        </class>
-    </classes>
 </document>
