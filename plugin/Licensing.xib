@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
@@ -62,7 +62,7 @@
                     <userLayoutGuide location="247" affinity="minY"/>
                 </userGuides>
                 <subviews>
-                    <imageView id="97">
+                    <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97">
                         <rect key="frame" x="4" y="75" width="140" height="298"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="LicensingDialogIcon" id="98"/>
@@ -73,16 +73,41 @@
         <customView id="5" userLabel="RegistrationA" customClass="MSZLinkedView">
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <userGuides>
-                <userLayoutGuide location="149" affinity="minX"/>
-                <userLayoutGuide location="248" affinity="minY"/>
-                <userLayoutGuide location="221" affinity="minY"/>
-                <userLayoutGuide location="167" affinity="minX"/>
-            </userGuides>
             <subviews>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="22">
-                    <rect key="frame" x="168" y="82" width="294" height="77"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="374" y="13" width="96" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="sXX-Sk-rgU"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="^Register" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="19">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+CQ
+</string>
+                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
+                    <rect key="frame" x="196" y="13" width="178" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+CQ
+</string>
+                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                    </buttonCell>
+                </button>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                    <rect key="frame" x="170" y="61" width="294" height="98"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="294" id="Wpu-8f-3Ro"/>
+                        <constraint firstAttribute="height" constant="98" id="h6r-OO-9HS"/>
+                    </constraints>
                     <textFieldCell key="cell" controlSize="small" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Key" drawsBackground="YES" id="23">
                         <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -97,9 +122,12 @@
                         <outlet property="nextKeyView" destination="20" id="109"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" id="20">
-                    <rect key="frame" x="168" y="172" width="294" height="19"/>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                    <rect key="frame" x="170" y="172" width="294" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="294" id="35y-SE-4dm"/>
+                    </constraints>
                     <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Name" drawsBackground="YES" usesSingleLineMode="YES" id="21">
                         <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -114,47 +142,20 @@
                         <outlet property="nextKeyView" destination="22" id="108"/>
                     </connections>
                 </textField>
-                <customView id="139" customClass="GTMWidthBasedTweaker">
-                    <rect key="frame" x="20" y="18" width="442" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                    <subviews>
-                        <button verticalHuggingPriority="750" id="6">
-                            <rect key="frame" x="352" y="-4" width="96" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="push" title="^Register" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="19">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="system"/>
-                                <string key="keyEquivalent" base64-UTF8="YES">
-CQ
-</string>
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </buttonCell>
-                        </button>
-                        <button verticalHuggingPriority="750" id="158">
-                            <rect key="frame" x="174" y="-4" width="178" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="system"/>
-                                <string key="keyEquivalent" base64-UTF8="YES">
-CQ
-</string>
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </buttonCell>
-                        </button>
-                    </subviews>
-                </customView>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="8">
-                    <rect key="frame" x="165" y="202" width="300" height="34"/>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="167" y="218" width="298" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
+                    </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Please enter your license details from the email we have sent you:" id="17">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="7">
-                    <rect key="frame" x="153" y="245" width="312" height="21"/>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="153" y="260" width="123" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" size="17" name="LucidaGrande-Bold"/>
@@ -163,6 +164,20 @@ CQ
                     </textFieldCell>
                 </textField>
             </subviews>
+            <constraints>
+                <constraint firstItem="20" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="170" id="2Vq-Yk-et4"/>
+                <constraint firstItem="6" firstAttribute="trailing" secondItem="22" secondAttribute="trailing" id="2ZB-6I-fQE"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="170" id="5uc-9c-Zkz"/>
+                <constraint firstItem="22" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="170" id="VKa-Rv-5IX"/>
+                <constraint firstItem="6" firstAttribute="leading" secondItem="158" secondAttribute="trailing" constant="12" symbolic="YES" id="Ykb-iT-qIr"/>
+                <constraint firstItem="20" firstAttribute="top" secondItem="5" secondAttribute="top" constant="110" id="a9F-7W-XME"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="8" id="ask-F6-yc6"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" id="hu4-Ul-vI7"/>
+                <constraint firstAttribute="bottom" secondItem="158" secondAttribute="bottom" constant="20" id="kCP-tj-YL8"/>
+                <constraint firstItem="7" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="156" id="to7-RV-17q"/>
+                <constraint firstItem="6" firstAttribute="baseline" secondItem="158" secondAttribute="baseline" id="zdI-O0-mQ5"/>
+                <constraint firstItem="22" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="13" id="zzm-1V-gER"/>
+            </constraints>
             <connections>
                 <outlet property="nextView" destination="54" id="90"/>
             </connections>
@@ -170,15 +185,9 @@ CQ
         <customView id="24" userLabel="RegistrationB" customClass="MSZLinkedView">
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <userGuides>
-                <userLayoutGuide location="150" affinity="minX"/>
-                <userLayoutGuide location="248" affinity="minY"/>
-                <userLayoutGuide location="221" affinity="minY"/>
-                <userLayoutGuide location="167" affinity="minX"/>
-            </userGuides>
             <subviews>
-                <textField verticalHuggingPriority="750" id="26">
-                    <rect key="frame" x="165" y="174" width="300" height="17"/>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="26">
+                    <rect key="frame" x="167" y="210" width="36" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Name" id="37">
                         <font key="font" size="13" name="Monaco"/>
@@ -189,44 +198,20 @@ CQ
                         <binding destination="45" name="value" keyPath="values.TotalFinderLicenseName" id="114"/>
                     </connections>
                 </textField>
-                <customView id="151" customClass="GTMWidthBasedTweaker">
-                    <rect key="frame" x="20" y="18" width="442" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                    <subviews>
-                        <button verticalHuggingPriority="750" id="27">
-                            <rect key="frame" x="205" y="-4" width="147" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="system"/>
-                                <string key="keyEquivalent"></string>
-                            </buttonCell>
-                        </button>
-                        <button verticalHuggingPriority="750" id="31">
-                            <rect key="frame" x="352" y="-4" width="96" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="push" title="^Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="32">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="system"/>
-                                <string key="keyEquivalent" base64-UTF8="YES">
-CQ
-</string>
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </buttonCell>
-                        </button>
-                    </subviews>
-                </customView>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="29">
-                    <rect key="frame" x="164" y="201" width="312" height="17"/>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="29">
+                    <rect key="frame" x="167" y="235" width="298" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
+                    </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^This TotalFinder copy is licensed to:" id="34">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="30">
-                    <rect key="frame" x="153" y="245" width="268" height="21"/>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="30">
+                    <rect key="frame" x="153" y="260" width="219" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" size="17" name="LucidaGrande-Bold"/>
@@ -234,15 +219,57 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <webView maintainsBackForwardList="NO" id="115">
-                    <rect key="frame" x="20" y="46" width="442" height="117"/>
+                <webView maintainsBackForwardList="NO" translatesAutoresizingMaskIntoConstraints="NO" id="115">
+                    <rect key="frame" x="20" y="62" width="442" height="117"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="117" id="Sdb-qV-889"/>
+                        <constraint firstAttribute="width" constant="442" id="WaM-Bx-saG"/>
+                    </constraints>
                     <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
                     <connections>
                         <outlet property="policyDelegate" destination="-2" id="119"/>
                     </connections>
                 </webView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
+                    <rect key="frame" x="225" y="13" width="147" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent"></string>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="31">
+                    <rect key="frame" x="372" y="13" width="96" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="PsE-ld-efg"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="^Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="32">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+CQ
+</string>
+                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                    </buttonCell>
+                </button>
             </subviews>
+            <constraints>
+                <constraint firstItem="31" firstAttribute="trailing" secondItem="115" secondAttribute="trailing" id="2Xb-NN-xyd"/>
+                <constraint firstItem="29" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="170" id="9X5-RU-fob"/>
+                <constraint firstItem="30" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="156" id="M7T-sa-Rbt"/>
+                <constraint firstItem="26" firstAttribute="top" secondItem="29" secondAttribute="bottom" constant="8" id="S4e-bh-zej"/>
+                <constraint firstItem="26" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="170" id="Yl3-jd-O7T"/>
+                <constraint firstAttribute="bottom" secondItem="115" secondAttribute="bottom" constant="62" id="a5d-Iy-SDq"/>
+                <constraint firstItem="30" firstAttribute="top" secondItem="24" secondAttribute="top" constant="20" id="bnr-N9-qgb"/>
+                <constraint firstItem="31" firstAttribute="baseline" secondItem="27" secondAttribute="baseline" id="dnL-zQ-mAP"/>
+                <constraint firstItem="31" firstAttribute="leading" secondItem="27" secondAttribute="trailing" constant="12" symbolic="YES" id="fmX-jq-gTh"/>
+                <constraint firstItem="29" firstAttribute="top" secondItem="30" secondAttribute="bottom" constant="8" id="kiI-XE-3Ra"/>
+                <constraint firstAttribute="bottom" secondItem="27" secondAttribute="bottom" constant="20" symbolic="YES" id="lMT-Ou-PIX"/>
+                <constraint firstAttribute="centerX" secondItem="115" secondAttribute="centerX" id="oam-wT-RTR"/>
+            </constraints>
             <connections>
                 <outlet property="previousView" destination="5" id="92"/>
             </connections>
@@ -250,33 +277,33 @@ CQ
         <customView id="54" userLabel="RegistrationC" customClass="MSZLinkedView">
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <userGuides>
-                <userLayoutGuide location="150" affinity="minX"/>
-                <userLayoutGuide location="248" affinity="minY"/>
-                <userLayoutGuide location="221" affinity="minY"/>
-                <userLayoutGuide location="167" affinity="minX"/>
-            </userGuides>
             <subviews>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="74">
-                    <rect key="frame" x="166" y="58" width="299" height="94"/>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="74">
+                    <rect key="frame" x="167" y="121" width="298" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
+                    </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^To purchase a license for TotalFinder, please visit BinaryAge web store." id="75">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="56">
-                    <rect key="frame" x="166" y="219" width="299" height="17"/>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56">
+                    <rect key="frame" x="167" y="235" width="298" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>
+                    </constraints>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Please go back and try again." id="63">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="58">
-                    <rect key="frame" x="154" y="245" width="311" height="21"/>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="58">
+                    <rect key="frame" x="153" y="260" width="188" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" size="17" name="LucidaGrande-Bold"/>
@@ -284,37 +311,46 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <customView id="144" customClass="GTMWidthBasedTweaker">
-                    <rect key="frame" x="20" y="18" width="442" height="24"/>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
+                    <rect key="frame" x="194" y="13" width="178" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                    <subviews>
-                        <button verticalHuggingPriority="750" id="72">
-                            <rect key="frame" x="174" y="-4" width="178" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="system"/>
-                                <string key="keyEquivalent" base64-UTF8="YES">
+                    <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
 CQ
 </string>
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </buttonCell>
-                        </button>
-                        <button verticalHuggingPriority="750" id="57">
-                            <rect key="frame" x="352" y="-4" width="96" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="push" title="^Back" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="62">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="system"/>
-                                <string key="keyEquivalent" base64-UTF8="YES">
+                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="57">
+                    <rect key="frame" x="372" y="13" width="96" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="ydo-0n-EEI"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="^Back" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="62">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
 CQ
 </string>
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </buttonCell>
-                        </button>
-                    </subviews>
-                </customView>
+                        <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                    </buttonCell>
+                </button>
             </subviews>
+            <constraints>
+                <constraint firstItem="56" firstAttribute="top" secondItem="58" secondAttribute="bottom" constant="8" id="03G-Ol-XXa"/>
+                <constraint firstItem="72" firstAttribute="baseline" secondItem="57" secondAttribute="baseline" id="41I-MV-t68"/>
+                <constraint firstItem="58" firstAttribute="top" secondItem="54" secondAttribute="top" constant="20" id="FCW-1I-RUz"/>
+                <constraint firstItem="57" firstAttribute="leading" secondItem="72" secondAttribute="trailing" constant="12" symbolic="YES" id="GyW-kP-C9Z"/>
+                <constraint firstItem="58" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="156" id="LwA-nz-YkU"/>
+                <constraint firstItem="56" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="170" id="QkL-qk-15h"/>
+                <constraint firstItem="74" firstAttribute="top" secondItem="56" secondAttribute="bottom" constant="80" id="XJ3-I8-IZN"/>
+                <constraint firstAttribute="trailing" secondItem="57" secondAttribute="trailing" constant="20" symbolic="YES" id="eMY-4J-C4J"/>
+                <constraint firstItem="74" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="170" id="fRu-SJ-Pjt"/>
+                <constraint firstAttribute="bottom" secondItem="72" secondAttribute="bottom" constant="20" symbolic="YES" id="zkX-d8-3q1"/>
+            </constraints>
             <connections>
                 <outlet property="previousView" destination="5" id="95"/>
             </connections>
@@ -323,61 +359,4 @@ CQ
     <resources>
         <image name="LicensingDialogIcon" width="128" height="128"/>
     </resources>
-    <classes>
-        <class className="GTMUILocalizer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
-            <relationships>
-                <relationship kind="outlet" name="otherObjectToLocalize_"/>
-                <relationship kind="outlet" name="owner_"/>
-                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
-            </relationships>
-        </class>
-        <class className="GTMUILocalizerAndLayoutTweaker" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizerAndLayoutTweaker.h"/>
-            <relationships>
-                <relationship kind="outlet" name="localizerOwner_"/>
-                <relationship kind="outlet" name="localizer_" candidateClass="GTMUILocalizer"/>
-                <relationship kind="outlet" name="uiObject_"/>
-            </relationships>
-        </class>
-        <class className="GTMWidthBasedTweaker" superclassName="NSView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMWidthBasedTweaker.h"/>
-            <relationships>
-                <relationship kind="outlet" name="viewToResize_"/>
-                <relationship kind="outlet" name="viewToSlideAndResize_" candidateClass="NSView"/>
-                <relationship kind="outlet" name="viewToSlide_" candidateClass="NSView"/>
-            </relationships>
-        </class>
-        <class className="MSZLinkedView" superclassName="NSView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MSZLinkedView.h"/>
-            <relationships>
-                <relationship kind="outlet" name="nextButton" candidateClass="NSButton"/>
-                <relationship kind="outlet" name="nextView" candidateClass="MSZLinkedView"/>
-                <relationship kind="outlet" name="previousButton" candidateClass="NSButton"/>
-                <relationship kind="outlet" name="previousView" candidateClass="MSZLinkedView"/>
-            </relationships>
-        </class>
-        <class className="WebView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebView.h"/>
-            <relationships>
-                <relationship kind="action" name="reloadFromOrigin:"/>
-            </relationships>
-        </class>
-        <class className="XMLicensingWindowController" superclassName="NSWindowController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/XMLicensingWindowController.h"/>
-            <relationships>
-                <relationship kind="action" name="close:"/>
-                <relationship kind="action" name="nextView:"/>
-                <relationship kind="action" name="previousView:"/>
-                <relationship kind="action" name="registerApp:"/>
-                <relationship kind="action" name="trial:"/>
-                <relationship kind="action" name="visitStore:"/>
-                <relationship kind="outlet" name="currentView" candidateClass="MSZLinkedView"/>
-                <relationship kind="outlet" name="licensingInfo" candidateClass="WebView"/>
-                <relationship kind="outlet" name="viewA" candidateClass="MSZLinkedView"/>
-                <relationship kind="outlet" name="viewB" candidateClass="MSZLinkedView"/>
-                <relationship kind="outlet" name="viewC" candidateClass="MSZLinkedView"/>
-            </relationships>
-        </class>
-    </classes>
 </document>
