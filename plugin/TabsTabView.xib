@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
@@ -31,11 +31,11 @@
             <rect key="frame" x="0.0" y="0.0" width="160" height="25"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <customView autoresizesSubviews="NO" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1">
+                <customView autoresizesSubviews="NO" id="1">
                     <rect key="frame" x="0.0" y="0.0" width="160" height="25"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="145" userLabel="Tab Icon" customClass="TabIcon">
+                        <button id="145" userLabel="Tab Icon" customClass="TabIcon">
                             <rect key="frame" x="56" y="18.5" width="48" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="146">
@@ -43,7 +43,7 @@
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
-                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94">
+                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" id="94">
                             <rect key="frame" x="16" y="6" width="128" height="14"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Label" id="95" customClass="GTMFadeTruncatingTextFieldCell">
@@ -52,7 +52,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50" customClass="HoverCloseButton">
+                        <button id="50" customClass="HoverCloseButton">
                             <rect key="frame" x="144" y="5" width="16" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="overlaps" alignment="center" inset="2" id="51">
@@ -62,11 +62,11 @@
                         </button>
                     </subviews>
                 </customView>
-                <customView hidden="YES" autoresizesSubviews="NO" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="105">
+                <customView hidden="YES" autoresizesSubviews="NO" id="105">
                     <rect key="frame" x="0.0" y="0.0" width="160" height="25"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="147" customClass="TabIcon">
+                        <button id="147" customClass="TabIcon">
                             <rect key="frame" x="56" y="18" width="48" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="148">
@@ -74,7 +74,7 @@
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
-                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="106">
+                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" id="106">
                             <rect key="frame" x="16" y="6" width="128" height="14"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Label" id="111" customClass="GTMFadeTruncatingTextFieldCell">
@@ -83,7 +83,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="108" customClass="HoverCloseButton">
+                        <button id="108" customClass="HoverCloseButton">
                             <rect key="frame" x="144" y="5" width="16" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="overlaps" alignment="center" inset="2" id="109">
