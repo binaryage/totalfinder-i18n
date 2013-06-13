@@ -220,13 +220,15 @@ CQ
                     </textFieldCell>
                 </textField>
                 <webView maintainsBackForwardList="NO" translatesAutoresizingMaskIntoConstraints="NO" id="115">
-                    <rect key="frame" x="20" y="62" width="442" height="117"/>
+                    <rect key="frame" x="20" y="50" width="442" height="117"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="117" id="Sdb-qV-889"/>
                         <constraint firstAttribute="width" constant="442" id="WaM-Bx-saG"/>
                     </constraints>
-                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                        <nil key="identifier"/>
+                    </webPreferences>
                     <connections>
                         <outlet property="policyDelegate" destination="-2" id="119"/>
                     </connections>
@@ -262,7 +264,7 @@ CQ
                 <constraint firstItem="30" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="156" id="M7T-sa-Rbt"/>
                 <constraint firstItem="26" firstAttribute="top" secondItem="29" secondAttribute="bottom" constant="8" id="S4e-bh-zej"/>
                 <constraint firstItem="26" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="170" id="Yl3-jd-O7T"/>
-                <constraint firstAttribute="bottom" secondItem="115" secondAttribute="bottom" constant="62" id="a5d-Iy-SDq"/>
+                <constraint firstAttribute="bottom" secondItem="115" secondAttribute="bottom" constant="50" id="a5d-Iy-SDq"/>
                 <constraint firstItem="30" firstAttribute="top" secondItem="24" secondAttribute="top" constant="20" id="bnr-N9-qgb"/>
                 <constraint firstItem="31" firstAttribute="baseline" secondItem="27" secondAttribute="baseline" id="dnL-zQ-mAP"/>
                 <constraint firstItem="31" firstAttribute="leading" secondItem="27" secondAttribute="trailing" constant="12" symbolic="YES" id="fmX-jq-gTh"/>
@@ -359,4 +361,50 @@ CQ
     <resources>
         <image name="LicensingDialogIcon" width="128" height="128"/>
     </resources>
+    <classes>
+        <class className="GTMUILocalizer" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
+            <relationships>
+                <relationship kind="outlet" name="otherObjectToLocalize_"/>
+                <relationship kind="outlet" name="owner_"/>
+                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
+            </relationships>
+        </class>
+        <class className="GTMUILocalizerAndLayoutTweaker" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizerAndLayoutTweaker.h"/>
+            <relationships>
+                <relationship kind="outlet" name="localizerOwner_"/>
+                <relationship kind="outlet" name="localizer_" candidateClass="GTMUILocalizer"/>
+                <relationship kind="outlet" name="uiObject_"/>
+            </relationships>
+        </class>
+        <class className="MSZLinkedView" superclassName="NSView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MSZLinkedView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="nextButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="nextView" candidateClass="MSZLinkedView"/>
+                <relationship kind="outlet" name="previousButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="previousView" candidateClass="MSZLinkedView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="XMLicensingWindowController" superclassName="NSWindowController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/XMLicensingWindowController.h"/>
+            <relationships>
+                <relationship kind="action" name="close:"/>
+                <relationship kind="action" name="nextView:"/>
+                <relationship kind="action" name="previousView:"/>
+                <relationship kind="action" name="registerApp:"/>
+                <relationship kind="action" name="trial:"/>
+                <relationship kind="action" name="visitStore:"/>
+                <relationship kind="outlet" name="currentView" candidateClass="MSZLinkedView"/>
+                <relationship kind="outlet" name="licensingInfo" candidateClass="WebView"/>
+                <relationship kind="outlet" name="viewA" candidateClass="MSZLinkedView"/>
+                <relationship kind="outlet" name="viewB" candidateClass="MSZLinkedView"/>
+                <relationship kind="outlet" name="viewC" candidateClass="MSZLinkedView"/>
+            </relationships>
+        </class>
+    </classes>
 </document>
