@@ -28,15 +28,12 @@
                     </connections>
                 </button>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="19" customClass="MASShortcutView">
-                    <rect key="frame" x="169" y="9" width="130" height="19"/>
+                    <rect key="frame" x="169.00000000000006" y="9" width="130" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="130" id="31"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                            <real key="value" value="3117"/>
-                        </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ShowSystemFiles"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
@@ -57,4 +54,27 @@
         </customObject>
         <userDefaultsController id="6" userLabel="Shared Defaults"/>
     </objects>
+    <classes>
+        <class className="GTMUILocalizer" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
+            <relationships>
+                <relationship kind="outlet" name="otherObjectToLocalize_"/>
+                <relationship kind="outlet" name="owner_"/>
+                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
+            </relationships>
+        </class>
+        <class className="MASShortcutView" superclassName="NSView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MASShortcutView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SystemFilesPluginPreferencesController" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SystemFilesPluginPreferencesController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="_browserIcon" candidateClass="NSImage"/>
+                <relationship kind="outlet" name="_fileBrowserPreferences" candidateClass="NSView"/>
+            </relationships>
+        </class>
+    </classes>
 </document>
