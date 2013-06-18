@@ -24,28 +24,28 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application"/>
-        <customObject id="120" userLabel="Localizer And Layout Tweaker -> Window" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="120" userLabel="Localizer -> Window" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="121"/>
-                <outlet property="uiObject_" destination="1" id="126"/>
+                <outlet property="otherObjectToLocalize_" destination="1" id="wqR-T4-xos"/>
+                <outlet property="owner_" destination="-2" id="pA3-Cu-pmQ"/>
             </connections>
         </customObject>
-        <customObject id="127" userLabel="Localizer And Layout Tweaker -> RegistrationA" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="127" userLabel="Localizer -> RegistrationA" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="129"/>
-                <outlet property="uiObject_" destination="5" id="136"/>
+                <outlet property="otherObjectToLocalize_" destination="5" id="07e-6r-2Je"/>
+                <outlet property="owner_" destination="-2" id="3Gn-E2-FUa"/>
             </connections>
         </customObject>
-        <customObject id="130" userLabel="Localizer And Layout Tweaker -> RegistrationB" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="130" userLabel="Localizer -> RegistrationB" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="132"/>
-                <outlet property="uiObject_" destination="24" id="137"/>
+                <outlet property="otherObjectToLocalize_" destination="24" id="g7L-Qr-5XU"/>
+                <outlet property="owner_" destination="-2" id="BIt-ac-LuS"/>
             </connections>
         </customObject>
-        <customObject id="133" userLabel="Localizer And Layout Tweaker -> RegistrationC" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="133" userLabel="Localizer -> RegistrationC" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="135"/>
-                <outlet property="uiObject_" destination="54" id="138"/>
+                <outlet property="otherObjectToLocalize_" destination="54" id="lmA-1y-DCZ"/>
+                <outlet property="owner_" destination="-2" id="YJ7-YF-9wV"/>
             </connections>
         </customObject>
         <userDefaultsController id="45"/>
