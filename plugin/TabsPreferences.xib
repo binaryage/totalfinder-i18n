@@ -37,7 +37,7 @@
                     </textFieldCell>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="32" customClass="MASShortcutView">
-                    <rect key="frame" x="183.99999999999997" y="100" width="130" height="19"/>
+                    <rect key="frame" x="184" y="100" width="130" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="73"/>
@@ -45,13 +45,10 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="NarrowTabsBar"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                            <real key="value" value="3120"/>
-                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="49" customClass="MASShortcutView">
-                    <rect key="frame" x="150" y="135" width="130.00000000000003" height="19"/>
+                    <rect key="frame" x="150" y="135" width="130" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="74"/>
@@ -59,9 +56,6 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="DualMode"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                            <real key="value" value="3119"/>
-                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="75">

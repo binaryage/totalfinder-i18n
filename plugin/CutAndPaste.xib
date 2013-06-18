@@ -54,11 +54,48 @@
                 </customView>
             </subviews>
         </customView>
-        <customObject id="40" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="40" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="47"/>
-                <outlet property="uiObject_" destination="26" id="77"/>
+                <outlet property="otherObjectToLocalize_" destination="26" id="V6l-BM-FdS"/>
+                <outlet property="owner_" destination="-2" id="qpW-gu-vRm"/>
             </connections>
         </customObject>
     </objects>
+    <classes>
+        <class className="AHEditMenuController" superclassName="NSWindowController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AHEditMenuController.h"/>
+            <relationships>
+                <relationship kind="action" name="commandsDispatcher:"/>
+                <relationship kind="outlet" name="_copyButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="_cutButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="_editMenuItemView" candidateClass="MenuTrackedRootView"/>
+                <relationship kind="outlet" name="_pasteButton" candidateClass="NSButton"/>
+            </relationships>
+        </class>
+        <class className="GTMUILocalizer" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
+            <relationships>
+                <relationship kind="outlet" name="otherObjectToLocalize_"/>
+                <relationship kind="outlet" name="owner_"/>
+                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
+            </relationships>
+        </class>
+        <class className="GTMWidthBasedTweaker" superclassName="NSView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMWidthBasedTweaker.h"/>
+            <relationships>
+                <relationship kind="outlet" name="viewToResize_"/>
+                <relationship kind="outlet" name="viewToSlideAndResize_" candidateClass="NSView"/>
+                <relationship kind="outlet" name="viewToSlide_" candidateClass="NSView"/>
+            </relationships>
+        </class>
+        <class className="MenuTrackedButton" superclassName="NSButton">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuTrackedButton.h"/>
+        </class>
+        <class className="MenuTrackedRootView" superclassName="NSView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuTrackedRootView.h"/>
+        </class>
+        <class className="WrenchMenuButtonCell" superclassName="NSButtonCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WrenchMenuButtonCell.h"/>
+        </class>
+    </classes>
 </document>

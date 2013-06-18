@@ -45,9 +45,6 @@
                                     <constraint firstAttribute="height" constant="19" id="1438"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                                        <integer key="value" value="5100"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="UploadFile"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>

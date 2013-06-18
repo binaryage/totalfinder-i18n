@@ -31,9 +31,6 @@
                     <rect key="frame" x="175" y="75" width="141" height="19"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                            <integer key="value" value="6100"/>
-                        </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="OpenInTerminal"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
@@ -61,7 +58,7 @@
                         <binding destination="11" name="value" keyPath="values.TotalFinderTerminalLinkProfile" previousBinding="337" id="338"/>
                     </connections>
                 </comboBox>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="361" customClass="TFPreferencesTextField">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="361" customClass="TFPreferencesTextField">
                     <rect key="frame" x="17" y="28" width="201" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="^Preferred Terminal Profile:" id="363">

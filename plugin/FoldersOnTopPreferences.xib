@@ -33,9 +33,6 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="FoldersOnTop"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                            <real key="value" value="3118"/>
-                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </customView>
             </subviews>

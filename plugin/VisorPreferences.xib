@@ -48,8 +48,8 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="518"/>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderOnEverySpace" id="517"/>
+                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="518"/>
                                 </connections>
                             </button>
                             <box title="Title" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="482">
@@ -69,8 +69,8 @@
                                                 <font key="font" size="12" name="Helvetica"/>
                                             </sliderCell>
                                             <connections>
-                                                <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="530"/>
                                                 <binding destination="457" name="value" keyPath="values.TotalFinderAnimationSpeed" id="529"/>
+                                                <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="530"/>
                                             </connections>
                                         </slider>
                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="488">
@@ -153,12 +153,12 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </comboBoxCell>
                                 <connections>
-                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="520"/>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderScreen" id="1429">
                                         <dictionary key="options">
                                             <string key="NSValueTransformerName">TFPreferencesScreenTransformer</string>
                                         </dictionary>
                                     </binding>
+                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="520"/>
                                     <outlet property="dataSource" destination="-2" id="1435"/>
                                 </connections>
                             </comboBox>
@@ -173,8 +173,8 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="516"/>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderHotKey2Enabled" id="515"/>
+                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="516"/>
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="478">
@@ -185,8 +185,8 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="526"/>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderUseSlide" id="525"/>
+                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="526"/>
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="476">
@@ -197,8 +197,8 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="524"/>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderUseFade" id="523"/>
+                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="524"/>
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="475">
@@ -236,8 +236,8 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="535"/>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderHideOnEscape" id="534"/>
+                                    <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="535"/>
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="468" customClass="TFPreferencesTextField">
@@ -256,16 +256,13 @@
                                 </connections>
                             </textField>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
-                                <rect key="frame" x="139" y="328" width="130" height="19"/>
+                                <rect key="frame" x="138.99999999999997" y="328" width="130" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1438"/>
                                     <constraint firstAttribute="width" constant="130" id="1462"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                                        <real key="value" value="3100"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ToggleVisor"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -273,7 +270,7 @@
                                 </connections>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="464" customClass="MASShortcutView">
-                                <rect key="frame" x="228" y="220" width="130" height="19"/>
+                                <rect key="frame" x="227.99999999999997" y="220" width="130" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1437"/>
@@ -281,9 +278,6 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="PinVisor"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                                        <real key="value" value="3101"/>
-                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="541"/>
@@ -472,4 +466,35 @@
     <resources>
         <image name="ModifiersOption" width="330" height="230"/>
     </resources>
+    <classes>
+        <class className="GTMUILocalizer" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
+            <relationships>
+                <relationship kind="outlet" name="otherObjectToLocalize_"/>
+                <relationship kind="outlet" name="owner_"/>
+                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
+            </relationships>
+        </class>
+        <class className="MASShortcutView" superclassName="NSView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MASShortcutView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TFPreferencesModifierButtonImageView" superclassName="NSImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesModifierButtonImageView.h"/>
+        </class>
+        <class className="TFPreferencesTextField" superclassName="NSTextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesTextField.h"/>
+        </class>
+        <class className="VisorPluginPreferencesController" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/VisorPluginPreferencesController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="_modifierIcon1" candidateClass="TFPreferencesModifierButtonImageView"/>
+                <relationship kind="outlet" name="_modifierIcon2" candidateClass="TFPreferencesModifierButtonImageView"/>
+                <relationship kind="outlet" name="_visorIcon" candidateClass="NSImage"/>
+                <relationship kind="outlet" name="_visorPreferences" candidateClass="NSView"/>
+            </relationships>
+        </class>
+    </classes>
 </document>

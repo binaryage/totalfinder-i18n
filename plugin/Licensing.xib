@@ -24,28 +24,28 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application"/>
-        <customObject id="120" userLabel="Localizer And Layout Tweaker -> Window" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="120" userLabel="Localizer -> Window" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="121"/>
-                <outlet property="uiObject_" destination="1" id="126"/>
+                <outlet property="otherObjectToLocalize_" destination="1" id="wqR-T4-xos"/>
+                <outlet property="owner_" destination="-2" id="pA3-Cu-pmQ"/>
             </connections>
         </customObject>
-        <customObject id="127" userLabel="Localizer And Layout Tweaker -> RegistrationA" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="127" userLabel="Localizer -> RegistrationA" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="129"/>
-                <outlet property="uiObject_" destination="5" id="136"/>
+                <outlet property="otherObjectToLocalize_" destination="5" id="07e-6r-2Je"/>
+                <outlet property="owner_" destination="-2" id="3Gn-E2-FUa"/>
             </connections>
         </customObject>
-        <customObject id="130" userLabel="Localizer And Layout Tweaker -> RegistrationB" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="130" userLabel="Localizer -> RegistrationB" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="132"/>
-                <outlet property="uiObject_" destination="24" id="137"/>
+                <outlet property="otherObjectToLocalize_" destination="24" id="g7L-Qr-5XU"/>
+                <outlet property="owner_" destination="-2" id="BIt-ac-LuS"/>
             </connections>
         </customObject>
-        <customObject id="133" userLabel="Localizer And Layout Tweaker -> RegistrationC" customClass="GTMUILocalizerAndLayoutTweaker">
+        <customObject id="133" userLabel="Localizer -> RegistrationC" customClass="GTMUILocalizer">
             <connections>
-                <outlet property="localizerOwner_" destination="-2" id="135"/>
-                <outlet property="uiObject_" destination="54" id="138"/>
+                <outlet property="otherObjectToLocalize_" destination="54" id="lmA-1y-DCZ"/>
+                <outlet property="owner_" destination="-2" id="YJ7-YF-9wV"/>
             </connections>
         </customObject>
         <userDefaultsController id="45"/>
@@ -142,7 +142,7 @@ CQ
                         <outlet property="nextKeyView" destination="22" id="108"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                     <rect key="frame" x="167" y="218" width="298" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
@@ -198,7 +198,7 @@ CQ
                         <binding destination="45" name="value" keyPath="values.TotalFinderLicenseName" id="114"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="29">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="29">
                     <rect key="frame" x="167" y="235" width="298" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
@@ -280,7 +280,7 @@ CQ
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="74">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="74">
                     <rect key="frame" x="167" y="121" width="298" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
@@ -292,7 +292,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="56">
                     <rect key="frame" x="167" y="235" width="298" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
