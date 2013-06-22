@@ -104,7 +104,7 @@
                         <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidthEnabled" id="157"/>
                     </connections>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="TFPreferencesTextField">
                     <rect key="frame" x="55" y="8" width="215" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit minimum column width to" id="by2-Ga-min">
@@ -113,6 +113,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
+                        <binding destination="ynu-q7-MAD" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="MEE-vl-LGu"/>
                         <binding destination="ynu-q7-MAD" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" previousBinding="MEE-vl-LGu" id="0R0-TV-95E">
                             <dictionary key="options">
                                 <integer key="NSNotApplicablePlaceholder" value="-1"/>
@@ -121,7 +122,6 @@
                                 <integer key="NSMultipleValuesPlaceholder" value="-1"/>
                             </dictionary>
                         </binding>
-                        <binding destination="ynu-q7-MAD" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="MEE-vl-LGu"/>
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
@@ -144,6 +144,9 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
+                        <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="a7q-Ur-1Rr"/>
+                        <binding destination="3" name="maxValue" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidth" id="Bxx-zc-mB4"/>
+                        <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" previousBinding="Bxx-zc-mB4" id="oHo-kd-Nnv"/>
                         <binding destination="3" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" previousBinding="a7q-Ur-1Rr" id="Blw-BO-Uyb">
                             <dictionary key="options">
                                 <integer key="NSNotApplicablePlaceholder" value="-1"/>
@@ -152,9 +155,6 @@
                                 <integer key="NSMultipleValuesPlaceholder" value="-1"/>
                             </dictionary>
                         </binding>
-                        <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="a7q-Ur-1Rr"/>
-                        <binding destination="3" name="maxValue" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidth" id="Bxx-zc-mB4"/>
-                        <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" previousBinding="Bxx-zc-mB4" id="oHo-kd-Nnv"/>
                     </connections>
                 </textField>
             </subviews>
