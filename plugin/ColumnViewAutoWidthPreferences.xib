@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12F9" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
@@ -37,6 +37,18 @@
                     <connections>
                         <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="163"/>
                         <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidthEnabled" id="117"/>
+                    </connections>
+                </button>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="qxp-dT-vMd">
+                    <rect key="frame" x="35" y="7" width="22" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="LeO-Xp-36k">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="Pdp-DV-InI"/>
+                        <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" id="LOq-ld-KfH"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="111">
@@ -92,18 +104,33 @@
                         <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidthEnabled" id="157"/>
                     </connections>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS">
-                    <rect key="frame" x="55" y="10" width="203" height="17"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS">
+                    <rect key="frame" x="55" y="8" width="215" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Set minimum column width to" id="by2-Ga-min">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit minimum column width to" id="by2-Ga-min">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
+                    <connections>
+                        <binding destination="ynu-q7-MAD" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" previousBinding="MEE-vl-LGu" id="0R0-TV-95E">
+                            <dictionary key="options">
+                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
+                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
+                                <integer key="NSNullPlaceholder" value="-1"/>
+                                <integer key="NSMultipleValuesPlaceholder" value="-1"/>
+                            </dictionary>
+                        </binding>
+                        <binding destination="ynu-q7-MAD" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="MEE-vl-LGu"/>
+                    </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
-                    <rect key="frame" x="263" y="7" width="96" height="22"/>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
+                    <rect key="frame" x="275" y="5" width="96" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="B7y-W9-uMi"/>
+                        <constraint firstAttribute="width" constant="96" id="iMS-AS-vRV"/>
+                    </constraints>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="h6L-vP-Iuw">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="0" maximumFractionDigits="3" positiveSuffix=" px" negativeSuffix=" px" id="CJ6-2J-MOt">
                             <real key="roundingIncrement" value="0.0"/>
@@ -117,6 +144,15 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
+                        <binding destination="3" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" previousBinding="a7q-Ur-1Rr" id="Blw-BO-Uyb">
+                            <dictionary key="options">
+                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
+                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
+                                <integer key="NSNullPlaceholder" value="-1"/>
+                                <integer key="NSMultipleValuesPlaceholder" value="-1"/>
+                            </dictionary>
+                        </binding>
+                        <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="a7q-Ur-1Rr"/>
                         <binding destination="3" name="maxValue" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidth" id="Bxx-zc-mB4"/>
                         <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" previousBinding="Bxx-zc-mB4" id="oHo-kd-Nnv"/>
                     </connections>
@@ -131,6 +167,12 @@
                 <constraint firstItem="111" firstAttribute="leading" secondItem="142" secondAttribute="trailing" constant="8" symbolic="YES" id="172"/>
                 <constraint firstItem="110" firstAttribute="baseline" secondItem="142" secondAttribute="baseline" id="175"/>
                 <constraint firstItem="111" firstAttribute="top" secondItem="1" secondAttribute="top" constant="28" id="181"/>
+                <constraint firstItem="qxp-dT-vMd" firstAttribute="leading" secondItem="110" secondAttribute="leading" id="CpW-7q-a2X"/>
+                <constraint firstItem="bqn-vg-Ryh" firstAttribute="top" secondItem="111" secondAttribute="bottom" constant="1" id="Fqe-i6-BLH"/>
+                <constraint firstItem="qxp-dT-vMd" firstAttribute="baseline" secondItem="vWv-N1-uYS" secondAttribute="baseline" id="PKi-yf-Ldd"/>
+                <constraint firstItem="bqn-vg-Ryh" firstAttribute="leading" secondItem="vWv-N1-uYS" secondAttribute="trailing" constant="8" id="RVu-nO-1Ni"/>
+                <constraint firstItem="vWv-N1-uYS" firstAttribute="top" secondItem="142" secondAttribute="bottom" constant="6" id="aLj-3i-Obj"/>
+                <constraint firstItem="vWv-N1-uYS" firstAttribute="leading" secondItem="142" secondAttribute="leading" id="aVz-IZ-mz3"/>
             </constraints>
         </customView>
         <customObject id="2" customClass="GTMUILocalizer">
@@ -140,6 +182,7 @@
             </connections>
         </customObject>
         <userDefaultsController id="3" userLabel="Shared Defaults"/>
+        <userDefaultsController id="ynu-q7-MAD"/>
     </objects>
     <classes>
         <class className="ColumnViewAutoWidthPluginPreferencesController" superclassName="NSObject">
