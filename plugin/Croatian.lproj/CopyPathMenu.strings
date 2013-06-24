@@ -1,9 +1,9 @@
+"Allow path copying from Context Menus" = "Dozvoli kopiranje putanje iz kontekstnog izbornika";
 "Copy Path" = "Kopiraj putanju";
-"POSIX Path" = "POSIX putanja";
-"URL" = "URL";
-"Windows Path" = "Windows putanja";
 "HFS Path" = "HFS putanja";
+"Menus" = "Izbornici";
+"POSIX Path" = "POSIX putanja";
 "Terminal Path" = "Terminal putanja";
 "UNC Path" = "UNC putanja";
-
-"Allow path copying from Context Menus" = "Dozvoli kopiranje putanje iz kontekstnog izbornika";
+"URL" = "URL";
+"Windows Path" = "Windows putanja";
