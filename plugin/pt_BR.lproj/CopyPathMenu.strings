@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-"Copy Path" = "Copiar o caminho";
-"POSIX Path" = "Local POSIX";
-=======
 "Copy Path" = "Caminho de Cópia";
 "POSIX Path" = "Caminho POSIX";
->>>>>>> ba/master
 "URL" = "URL";
 "Windows Path" = "Caminho Windows";
 "HFS Path" = "Caminho HFS";
