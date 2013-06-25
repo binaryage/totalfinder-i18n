@@ -1,4 +1,5 @@
-"Terminal Link" = "终端连接";
-"Allows Finder to sync the current directory with Terminal" = "允许Finder与终端同步当前目录";
-"Automatically sync Terminal directory to Finder target" = "自动同步终端目录到Finder";
-"Open In Terminal:" = "在终端打开:";
+"Open in Terminal:" = "Open in Terminal:";
+"Open in Terminal" = "Open in Terminal";
+"Sync directory" = "Sync directory";
+"Preferred Terminal Profile:" = "Preferred Terminal Profile:";
+"Terminal" = "Terminal";

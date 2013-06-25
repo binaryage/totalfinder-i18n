@@ -6,6 +6,7 @@
 "File Browser" = "Dateibrowser";
 "Screen" = "Bildschirm";
 "Dock" = "Dock";
+"Sidebar" = "Seitenleiste";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Nach Updates suchen";

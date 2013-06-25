@@ -7,7 +7,7 @@
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d dagar kvar - köp nu!";
 "Close Tab" = "Stäng flik";
 "New Finder Tab" = "Ny Finder-flik";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Reopen Closed Tab" = "Öppna stängd flik";
 "Close Window" = "Stäng fönster";
 "Toggle Dual Mode" = "Av-/Aktivera Dual Mode";
 "Narrow Tabs Bar" = "Använd smalare Flikar";
@@ -15,10 +15,10 @@
 "Select Previous Tab" = "Välj föregående flik";
 "Switch Active Panel" = "Byt aktiv panel";
 
-"New Tab" = "New Tab";
-"Tabs" = "Tabs";
+"New Tab" = "Ny flik";
+"Tabs" = "Flikar";
 "Use narrow Tabs Bar" = "Använd smalare Flikar";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Öppna nya flikar med tidigare sökvägar";
 
 /* preferences */
 "Always Maximize" = "Alltid maximerad";

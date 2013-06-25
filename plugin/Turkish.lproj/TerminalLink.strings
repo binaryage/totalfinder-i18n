@@ -1,4 +1,5 @@
-"Terminal Link" = "Terminal Bağlantısı";
-"Allows Finder to sync the current directory with Terminal" = "Finder mevcut klasörü Terminal ile senkronize etsin";
-"Automatically sync Terminal directory to Finder target" = "Terminal klasörünü otomatik olarak Finder hedefi ile senkronize et";
-"Open In Terminal:" = "Terminal'de aç:";
+"Open in Terminal:" = "Open in Terminal:";
+"Open in Terminal" = "Open in Terminal";
+"Sync directory" = "Sync directory";
+"Preferred Terminal Profile:" = "Preferred Terminal Profile:";
+"Terminal" = "Terminal";

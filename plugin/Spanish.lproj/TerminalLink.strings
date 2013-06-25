@@ -1,4 +1,5 @@
-"Terminal Link" = "Enlazar Terminal";
-"Allows Finder to sync the current directory with Terminal" = "Permite que Finder y Terminal estén siempre en la misma carpeta";
-"Automatically sync Terminal directory to Finder target" = "Sincronizar el directorio de Terminal con el Finder automáticamente";
-"Open In Terminal:" = "Abrir en Terminal:";
+"Open in Terminal:" = "Open in Terminal:";
+"Open in Terminal" = "Open in Terminal";
+"Sync directory" = "Sync directory";
+"Preferred Terminal Profile:" = "Preferred Terminal Profile:";
+"Terminal" = "Terminal";

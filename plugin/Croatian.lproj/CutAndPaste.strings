@@ -4,10 +4,10 @@
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
 "Edit" = "Uredi";
 "Cut" = "Izreži";
-"Cut “%@”" = "Izreži “%@”";
-"Cut %u Items" = "Izreži %u stavki";
+"Cut “%@”" = "Cut “%@”";
+"Cut %u Items" = "Izreži %u stavke";
 "Paste" = "Zalijepi";
-"Paste %u Items" = "Zalijepi %u stavki";
+"Paste %u Items" = "Zalijepi %u stavke";
 "Copy" = "Kopiraj";
 
-"Show CutPaste buttons in Context Menus" = "Prikaži Izreži i Zalijepi tipke u kontekstnim menijima";
+"Show CutPaste buttons in Context Menus" = "Prikaži tipke Izreži&Zalijepi u kontekstnom izborniku";
