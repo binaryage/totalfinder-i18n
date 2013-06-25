@@ -1,14 +1,15 @@
 /* preferences */
-"BASIC" = "BASIC";
+"BASIC" = "GRUNDLÄGGANDE";
 "SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"Menus" = "Menyer";
+"Updates" = "Updateringar";
+"File Browser" = "Filbläddring";
 "Screen" = "Bildskärm";
 "Dock" = "Dock";
+"Sidebar" = "Sidofält";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Kolla efter uppdateringar";
+"Check for Updates" = "Sök efter uppdateringar";
 "Uninstall TotalFinder" = "Avinstallera TotalFinder";
 "Restart Finder" = "Starta om Finder";
 
@@ -31,7 +32,7 @@
 /* registration */
 "Licensed to %@" = "Registrerad till %@";
 "Change License" = "Ändra licens";
-"Unregistered version in trial mode" = "Oregistrarad version, testperiod";
+"Unregistered version in trial mode" = "Oregistrerad version, testperiod";
 "Register" = "Registrera";
 
 /* navigation bar */
@@ -41,18 +42,18 @@
 "Reset TotalFinder to defaults" = "Återställ standardinställningarna";
 
 "Hide icon in Menu Bar" = "Göm TotalFinder från statusfältet";
-"Keep original Dock icon" = "Behåll originalikonen i Dockan";
+"Keep original Dock icon" = "Behåll originalikonen i Dock";
 
 /* about page */
 "Check Now" = "Kolla nu";
 "Automatically check the website for updates" = "Kolla efter uppdateringar automatiskt";
 "Include pre-releases" = "Inkludera förhandsutgivningar";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Participate in TotalFinder testing" = "Delta i testningen av TotalFinder";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder registrering";
 "Registration" = "Registrering";
-"Please enter your license details from the email we have sent you:" = "Var god skriv in din lincenskod:";
+"Please enter your license details from the email we have sent you:" = "Var god skriv in dina lincensuppgifter från emailet vi skickat dig:";
 "Buy TotalFinder Now" = "Köp TotalFinder nu";
 "Thanks for registering!" = "Tack för att du registrerade!";
 "This TotalFinder copy is licensed to:" = "Denna installation av TotalFinder är licenserad till:";

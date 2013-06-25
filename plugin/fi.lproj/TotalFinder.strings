@@ -6,6 +6,7 @@
 "File Browser" = "Tiedostoselain";
 "Screen" = "";
 "Dock" = "Dock";
+"Sidebar" = "Sivupalkki";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Tarkista päivitykset";

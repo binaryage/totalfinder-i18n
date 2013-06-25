@@ -1,2 +1,4 @@
 "Column View Auto Width" = "목록 보기 자동 너비";
 "Automatically adjust widths in Column View" = "목록 보기에서 너비를 자동으로 조절";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";

@@ -1,2 +1,4 @@
-"Column View Auto Width" = "Column View Auto Width";
-"Automatically adjust widths in Column View" = "Automatically adjust widths in Column View";
+"Column View Auto Width" = "Automatisk kolumnbredd i Kolumnvy";
+"Automatically adjust widths in Column View" = "Justera kolumnbredd automatiskt i kolumnvy";
+"Limit maximum column width to" = "Begränsa kolumnbredd till";
+"Limit minimum column width to" = "Limit minimum column width to";
