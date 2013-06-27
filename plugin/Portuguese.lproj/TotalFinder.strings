@@ -1,12 +1,12 @@
 /* preferences */
-"BASIC" = "BASICO";
+"BASIC" = "BASIC";
 "SYSTEM" = "SISTEMA";
 "Menus" = "Menus";
 "Updates" = "Atualizações";
 "File Browser" = "Navegador de Arquivos";
 "Screen" = "Tela";
 "Dock" = "Dock";
-"Sidebar" = "Barra Lateral";
+"Sidebar" = "Sidebar";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Verificar atualizações";
@@ -63,6 +63,6 @@
 "Please go back and try again." = "Por favor, tente novamente.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder visite a loja virtual do BinaryAge.";
 "Thank you for using TotalFinder!" = "Obrigado por utilizar o TotalFinder!";
-"License Name" = "Nome na Licensa";
-"License Key" = "Chave da Licensa";
+"License Name" = "License Name";
+"License Key" = "License Key";
 
