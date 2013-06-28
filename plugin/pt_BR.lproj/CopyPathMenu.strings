@@ -1,9 +1,9 @@
-"Copy Path" = "Caminho de Cópia";
-"POSIX Path" = "Caminho POSIX";
+"Copy Path" = "Local de cópia";
+"POSIX Path" = "Local POSIX";
 "URL" = "URL";
-"Windows Path" = "Caminho Windows";
-"HFS Path" = "Caminho HFS";
-"Terminal Path" = "Caminho Terminal";
-"UNC Path" = "Caminho UNC";
+"Windows Path" = "Local Windows";
+"HFS Path" = "Local HFS";
+"Terminal Path" = "Local Terminal";
+"UNC Path" = "UNC Path";
 
 "Allow path copying from Context Menus" = "Permitir cópia do caminho em menus de contexto";

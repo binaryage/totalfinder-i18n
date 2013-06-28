@@ -3,15 +3,15 @@
 "Hide Visor" = "Ocultar Visor";
 
 "Visor" = "Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Janela Finder em todo o sistema que surge ao accionar um atalho";
-"Visor Feature" = "Funcionalidade Visor";
-"Activation:" = "Activação:";
-"Show on all Spaces" = "Mostrar em todos os espaços";
+"a system-wide window sliding from the bottom on a hot-key" = "uma janela deslizante que é ativada por um atalho";
+"Visor Feature" = "Funcionalidade do Visor";
+"Activation:" = "Ativação:";
+"Show on all Spaces" = "Mostrar em todos os Spaces";
 "Animation:" = "Animação:";
-"Control:" = "Controlo:";
-"Slide Window" = "Deslizar janela";
-"Fade Window" = "Desvanecer janela";
-"Show on top of the Dock" = "Mostrar por cima da Dock";
-"Free Form Window" = "Janela com forma livre";
-"Hide on ESC" = "Ocultar com ESC";
-"Screen:" = "Ecrã:";
+"Control:" = "Controle:";
+"Slide Window" = "Deslizar Janela";
+"Fade Window" = "Escurecer Janela";
+"Show on top of the Dock" = "Exibir em cima do Dock";
+"Free Form Window" = "Janela de Forma Livre";
+"Hide on ESC" = "Fechar com ESC";
+"Screen:" = "Tela:";
