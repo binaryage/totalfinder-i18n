@@ -1,2 +1,4 @@
-"Column View Auto Width" = "Auto Dimensionalizaçäo da Vista em coluna";
-"Automatically adjust widths in Column View" = "Ajuste Automático da largura da Vista em Coluna";
+"Column View Auto Width" = "Largura Automática para Visualização por Coluna";
+"Automatically adjust widths in Column View" = "Ajusta largura automaticamente na visualização por colunas";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";

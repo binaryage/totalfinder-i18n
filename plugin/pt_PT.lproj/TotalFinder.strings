@@ -1,67 +1,68 @@
 /* preferences */
 "BASIC" = "BASICO";
-"SYSTEM" = "SYSTEMA";
+"SYSTEM" = "SISTEMA";
 "Menus" = "Menus";
-"Updates" = "Actualizações";
-"File Browser" = "Navegador de Ficheiros";
-"Screen" = "Ecrã";
-"Dock" = "Doca";
+"Updates" = "Atualizações";
+"File Browser" = "Navegador de Arquivos";
+"Screen" = "Tela";
+"Dock" = "Dock";
+"Sidebar" = "Sidebar";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Procurar actualizações";
+"Check for Updates" = "Verificar atualizações";
 "Uninstall TotalFinder" = "Desinstalar o TotalFinder";
 "Restart Finder" = "Reiniciar o Finder";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Restaurar";
 "Cancel" = "Cancelar";
-"Do you really want reset to defaults?" = "Tem a certeza de que deseja restaurar as configurações predefinidas?";
-"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração inicial do TotalFinder.";
+"Do you really want reset to defaults?" = "Tem certeza que deseja restaurar as configurações para o padrão?";
+"This will restore initial TotalFinder settings." = "Isto irá restaurar a configuração padrão do TotalFinder.";
 
 /* Unistall Alert Box */
 "Uninstall" = "Desinstalar";
-"Really want to uninstall TotalFinder?" = "Tem a certeza de que deseja desinstalar o TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Esta acção iniciará um script que irá remover o TotalFinder deste computador e restaurar o comportamento original do Finder.";
+"Really want to uninstall TotalFinder?" = "Deseja mesmo desinstalar o TotalFinder?";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Isto irá executar um script que removerá o TotalFinder deste computador e restaurar o comportamento original do Finder.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Preferências do TotalFinder…";
-"Visit Homepage…" = "Visitar página web do TotalFinder…";
+"Visit Homepage…" = "Visitar o site…";
 
 /* registration */
-"Licensed to %@" = "Registado a %@";
-"Change License" = "Alterar licença";
-"Unregistered version in trial mode" = "Versão não registada em modo de demonstração";
-"Register" = "Registar";
+"Licensed to %@" = "Registrado para %@";
+"Change License" = "Alterar Licença";
+"Unregistered version in trial mode" = "Versão não registrada em modo de teste";
+"Register" = "Registrar";
 
 /* navigation bar */
-"About" = "Acerca";
+"About" = "Sobre";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Restaurar configurações predefinidas";
+"Reset TotalFinder to defaults" = "Restaurar configurações padrão do TotalFinder";
 
-"Hide icon in Menu Bar" = "Ocultar ícone na barra de menus";
-"Keep original Dock icon" = "Manter ícone original do Finder na Doca";
+"Hide icon in Menu Bar" = "Esconder ícone na Barra de Menus";
+"Keep original Dock icon" = "Manter ícone original no Dock";
 
 /* about page */
-"Check Now" = "Procurar agora";
-"Automatically check the website for updates" = "Procurar actualizações automaticamente";
+"Check Now" = "Verificar agora";
+"Automatically check the website for updates" = "Verificar atualizações pelo website automaticamente";
 "Include pre-releases" = "Incluir pré-lançamentos";
-"Participate in TotalFinder testing" = "Participar nos testes de novas versões do TotalFinder";
+"Participate in TotalFinder testing" = "Participar das versões de teste do TotalFinder";
 
 /* registration */
-"TotalFinder Registration" = "Registo do TotalFinder";
-"Registration" = "Registo";
-"Please enter your license details from the email we have sent you:" = "Por favor insira os detalhes da licença que lhe foi enviada por e-mail:";
+"TotalFinder Registration" = "Registro do TotalFinder";
+"Registration" = "Registro";
+"Please enter your license details from the email we have sent you:" = "Por favor, escreva os detalhes da licença (que estão no email que lhe enviamos):";
 "Buy TotalFinder Now" = "Comprar o TotalFinder";
-"Thanks for registering!" = "Obrigado por registar!";
-"This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder é licenciada a:";
+"Thanks for registering!" = "Obrigado por se registrar!";
+"This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registrada para:";
 "Close" = "Fechar";
 "Back" = "Voltar";
 "Invalid license code" = "Código de licença inválido";
-"Please go back and try again." = "Por favor, volte atrás e tente novamente.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder, por favor visite a loja online BinaryAge.";
-"Thank you for using TotalFinder!" = "Obrigado por usar o TotalFinder!";
-"License Name" = "Nome na Licença";
-"License Key" = "Chave da Licença";
+"Please go back and try again." = "Por favor, tente novamente.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Para comprar uma licença do TotalFinder visite a loja virtual do BinaryAge.";
+"Thank you for using TotalFinder!" = "Obrigado por utilizar o TotalFinder!";
+"License Name" = "License Name";
+"License Key" = "License Key";
 

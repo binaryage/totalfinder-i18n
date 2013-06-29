@@ -1,11 +1,12 @@
 /* preferences */
-"BASIC" = "BASIC";
+"BASIC" = "BASICO";
 "SYSTEM" = "SISTEMA";
 "Menus" = "Menus";
 "Updates" = "Atualizações";
 "File Browser" = "Navegador de Arquivos";
 "Screen" = "Tela";
 "Dock" = "Dock";
+"Sidebar" = "Sidebar";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Verificar atualizações";
