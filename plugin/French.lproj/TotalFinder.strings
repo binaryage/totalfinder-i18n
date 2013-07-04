@@ -1,5 +1,5 @@
 /* preferences */
-"BASIC" = "FINDER";
+"BASIC" = "BASE";
 "SYSTEM" = "SYSTÈME";
 "Menus" = "Menus";
 "Updates" = "Mises à jour";
@@ -16,7 +16,7 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Réinitialiser";
 "Cancel" = "Annuler";
-"Do you really want reset to defaults?" = "Voulez-vous vraiment retrouver la configuration par défaut ?";
+"Do you really want reset to defaults?" = "Voulez-vous vraiment revenir à la configuration initiale ?";
 "This will restore initial TotalFinder settings." = "Cela restaurera les réglages d'origine de TotalFinder.";
 
 /* Unistall Alert Box */
