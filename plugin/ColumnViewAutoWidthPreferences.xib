@@ -84,7 +84,7 @@
                         <binding destination="3" name="minValue" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" id="anE-LM-NSw"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="TFPreferencesTextField">
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="PreferencesTextField">
                     <rect key="frame" x="55" y="31" width="218" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit maximum column width to" id="143">
@@ -104,7 +104,7 @@
                         <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidthEnabled" id="157"/>
                     </connections>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="TFPreferencesTextField">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="PreferencesTextField">
                     <rect key="frame" x="55" y="8" width="215" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit minimum column width to" id="by2-Ga-min">
@@ -204,8 +204,8 @@
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
-        <class className="TFPreferencesTextField" superclassName="NSTextField">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesTextField.h"/>
+        <class className="PreferencesTextField" superclassName="NSTextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesTextField.h"/>
         </class>
     </classes>
 </document>

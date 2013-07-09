@@ -25,7 +25,7 @@
                         <rect key="frame" x="3" y="3" width="440" height="362"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="469" customClass="TFPreferencesTextField">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="469" customClass="PreferencesTextField">
                                 <rect key="frame" x="13" y="330" width="116" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
@@ -111,7 +111,7 @@
                                 <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </box>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="471" customClass="TFPreferencesTextField">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="471" customClass="PreferencesTextField">
                                 <rect key="frame" x="13" y="184" width="116" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
@@ -126,7 +126,7 @@
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="521"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="470" customClass="TFPreferencesTextField">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="470" customClass="PreferencesTextField">
                                 <rect key="frame" x="13" y="245" width="116" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
@@ -155,7 +155,7 @@
                                 <connections>
                                     <binding destination="457" name="value" keyPath="values.TotalFinderScreen" id="1429">
                                         <dictionary key="options">
-                                            <string key="NSValueTransformerName">TFPreferencesScreenTransformer</string>
+                                            <string key="NSValueTransformerName">PreferencesScreenTransformer</string>
                                         </dictionary>
                                     </binding>
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="520"/>
@@ -240,7 +240,7 @@
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="535"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="468" customClass="TFPreferencesTextField">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="468" customClass="PreferencesTextField">
                                 <rect key="frame" x="13" y="77" width="116" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
@@ -283,7 +283,7 @@
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="541"/>
                                 </connections>
                             </customView>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="465" customClass="TFPreferencesTextField">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="465" customClass="PreferencesTextField">
                                 <rect key="frame" x="155" y="222" width="68" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Pin Visor" id="505">
@@ -302,7 +302,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="177" height="71"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <imageView translatesAutoresizingMaskIntoConstraints="NO" id="477" customClass="TFPreferencesModifierButtonImageView">
+                                        <imageView translatesAutoresizingMaskIntoConstraints="NO" id="477" customClass="PreferencesModifierButtonImageView">
                                             <rect key="frame" x="101" y="15" width="57" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ModifiersOption" id="496"/>
@@ -318,7 +318,7 @@
                                                 <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="513"/>
                                             </connections>
                                         </imageView>
-                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="484" customClass="TFPreferencesTextField">
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="484" customClass="PreferencesTextField">
                                             <rect key="frame" x="81" y="28" width="15" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="+" id="485">
@@ -338,7 +338,7 @@
                                                 <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="509"/>
                                             </connections>
                                         </textField>
-                                        <imageView translatesAutoresizingMaskIntoConstraints="NO" id="479" customClass="TFPreferencesModifierButtonImageView">
+                                        <imageView translatesAutoresizingMaskIntoConstraints="NO" id="479" customClass="PreferencesModifierButtonImageView">
                                             <rect key="frame" x="19" y="15" width="57" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <constraints>
@@ -481,17 +481,17 @@
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
-        <class className="TFPreferencesModifierButtonImageView" superclassName="NSImageView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesModifierButtonImageView.h"/>
+        <class className="PreferencesModifierButtonImageView" superclassName="NSImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesModifierButtonImageView.h"/>
         </class>
-        <class className="TFPreferencesTextField" superclassName="NSTextField">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesTextField.h"/>
+        <class className="PreferencesTextField" superclassName="NSTextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesTextField.h"/>
         </class>
         <class className="VisorPluginPreferencesController" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/VisorPluginPreferencesController.h"/>
             <relationships>
-                <relationship kind="outlet" name="_modifierIcon1" candidateClass="TFPreferencesModifierButtonImageView"/>
-                <relationship kind="outlet" name="_modifierIcon2" candidateClass="TFPreferencesModifierButtonImageView"/>
+                <relationship kind="outlet" name="_modifierIcon1" candidateClass="PreferencesModifierButtonImageView"/>
+                <relationship kind="outlet" name="_modifierIcon2" candidateClass="PreferencesModifierButtonImageView"/>
                 <relationship kind="outlet" name="_visorIcon" candidateClass="NSImage"/>
                 <relationship kind="outlet" name="_visorPreferences" candidateClass="NSView"/>
             </relationships>

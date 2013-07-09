@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="TFPreferencesController">
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesController">
             <connections>
                 <action selector="openHelp:" destination="83" id="278"/>
                 <outlet property="_featuresOutline" destination="3" id="382"/>
@@ -22,7 +22,7 @@
             <rect key="frame" x="0.0" y="0.0" width="660" height="510"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="106" userLabel="Presentation" customClass="TFPreferencesPresentationView">
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="106" userLabel="Presentation" customClass="PreferencesPresentationView">
                     <rect key="frame" x="180" y="8" width="480" height="444"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
@@ -215,7 +215,7 @@
                 <constraint firstItem="106" firstAttribute="top" secondItem="1" secondAttribute="top" constant="58" id="447"/>
             </constraints>
         </customView>
-        <customObject id="120" customClass="TFPreferencesFeaturesDataSource"/>
+        <customObject id="120" customClass="PreferencesFeaturesDataSource"/>
         <userDefaultsController id="262"/>
     </objects>
     <resources>
@@ -225,8 +225,8 @@
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
-        <class className="TFPreferencesController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesController.h"/>
+        <class className="PreferencesController" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesController.h"/>
             <relationships>
                 <relationship kind="action" name="openHelp:"/>
                 <relationship kind="outlet" name="_featuresOutline" candidateClass="NSOutlineView"/>
@@ -237,11 +237,11 @@
                 <relationship kind="outlet" name="_rootView" candidateClass="NSView"/>
             </relationships>
         </class>
-        <class className="TFPreferencesFeaturesDataSource" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesFeaturesDataSource.h"/>
+        <class className="PreferencesFeaturesDataSource" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesFeaturesDataSource.h"/>
         </class>
-        <class className="TFPreferencesPresentationView" superclassName="NSView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFPreferencesPresentationView.h"/>
+        <class className="PreferencesPresentationView" superclassName="NSView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesPresentationView.h"/>
         </class>
     </classes>
 </document>
