@@ -10,7 +10,7 @@ FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin')
 INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
 ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
-TOTALFINDER_SOURCES = File.join(ROOT_DIR, '..', '..', 'shell')
+SHELL_SOURCES = File.join(ROOT_DIR, '..', 'shell')
 TOTALFINDER_PLUGINS_SOURCES = File.join(ROOT_DIR, '..', 'plugins')
 
 ################################################################################################
@@ -69,11 +69,12 @@ end
 def extract_ui_strings(folder, xib_mask)
   strings = ""
   Dir.chdir(folder) do
-    strings << `ack -o -G #{xib_mask} '\\^.*?\\<'`  # search only xibs for ^SOME STRING
+    cmd = "ack -g #{xib_mask} | ack -x -o -w '\\^.*?\\\"'"
+    strings << `#{cmd}`  # search only xibs for ^SOME STRING
   end
 
   strings = strings.split("\n").map do |s|
-    s =~ /\^(.*)\</
+    s =~ /\^(.*)\"/
     '"'+$1+'"'
   end
 
@@ -143,9 +144,9 @@ def update_english_strings(project, src_folder, xib_mask, additional_strings=[])
     f << strings.join
   end
 
-  puts " #{"-#{removed_count}".red} of #{strings.size} in #{target}"
+  puts " #{"-#{removed_count}".red} of #{strings.size} in #{target}" if removed_count>0
 
-  to_be_added
+  [to_be_added.sort.uniq, new_strings]
 end
 
 def inprint_strings(source, dest, shared_originals=[])
@@ -423,7 +424,8 @@ end
 
 desc "cherrypicks strings from sources and applies missing strings to English.lproj"
 task :cherrypick do
-  die "install ack 1.92+ | for example via homebrew:> brew install ack" if `which ack`==""
+  die "install ack 2.0+ | for example via homebrew:> brew install ack" if `which ack`==""
+  die "upgrade your ack to 2.0+ | for example via homebrew:> brew install ack" unless `ack --version`=~/ack 2/
 
   plugins = get_list_of_plugins()
 
@@ -432,7 +434,6 @@ task :cherrypick do
   plugins_xibs = Hash.new
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "*.xib")) do |file|
     name = File.basename(file, ".xib")
-    next if name == "TotalFinderPreferences" # old preferences system
     # does the name begin with some plugin name?
     plugin = plugins.find { |plugin| plugin==name or name.index(plugin) == 0  }
     unless plugin.nil? then
@@ -442,6 +443,13 @@ task :cherrypick do
       shell_xibs << name
     end
   end
+
+  puts "Plugin XIBs:".blue
+  pp plugins_xibs
+  puts
+  puts "Shell XIBs:".blue
+  pp shell_xibs
+  puts
 
   plugin_additions = Hash.new
   all = []
@@ -453,18 +461,25 @@ task :cherrypick do
         plugins_xibs[plugin] = ["NONEXISTING"] # edge case for empty array
       end
       plugin_filter = "'^(#{plugins_xibs[plugin].join("|")})\\.xib'"
-      plugin_additions[plugin] = update_english_strings(plugin, plugin_dir, plugin_filter).uniq # process just plugin xibs
+      plugin_additions[plugin] = update_english_strings(plugin, plugin_dir, plugin_filter)[0] # process just plugin xibs
       all.concat plugin_additions[plugin]
     end
   end
 
   # all dups should be moved to TotalFinder.strings
-  dups = all.inject(Hash.new(0)) {|h,v| h[v] += 1; h}.reject{|k,v| v==1}.keys
+  dups = all.inject(Hash.new(0)) {|h,v| h[v] += 1; h}.reject{|k,v| v==1}.keys.uniq
 
+  puts "Processing Shell...".yellow
+  shell_filter = "'^(#{shell_xibs.join("|")})\\.xib'"
+  res = update_english_strings("TotalFinder", SHELL_SOURCES, shell_filter, dups) # process just shell xibs
+  to_be_added_to_shell = res[0]
+  all_shell = res[1]
+
+  # insert additions to plugins
   plugins.each do |plugin|
     target = File.join(ENGLISH_LPROJ, "#{plugin}.strings")
 
-    list = plugin_additions[plugin] - dups
+    list = plugin_additions[plugin] - dups - all_shell
     if list.size>0 then
       strings = []
       strings << "\n"
@@ -481,32 +496,28 @@ task :cherrypick do
     end
   end
 
-  if File.exists? TOTALFINDER_SOURCES then
-    puts "Processing TotalFinder...".yellow
-    shell_filter = "'^(#{shell_xibs.join("|")})\\.xib'"
-    to_be_added = update_english_strings("TotalFinder", TOTALFINDER_SOURCES, shell_filter, dups) # process just shell xibs
 
-    target = File.join(ENGLISH_LPROJ, "TotalFinder.strings")
+  # insert additions to shell
+  target = File.join(ENGLISH_LPROJ, "TotalFinder.strings")
 
-    list = to_be_added
-    if list.size>0 then
-      strings = []
-      strings << "\n"
-      strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
+  list = to_be_added_to_shell
+  if list.size>0 then
+    strings = []
+    strings << "\n"
+    strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
 
-      list.each do |code|
-        strings << code + " = " + code + ";\n"
-      end
-
-      File.open(target, "a") do |f|
-        f << strings.join
-      end
-      puts " #{"+#{list.size}".yellow} in #{target}"
+    list.each do |code|
+      strings << code + " = " + code + ";\n"
     end
+
+    File.open(target, "a") do |f|
+      f << strings.join
+    end
+    puts " #{"+#{list.size}".yellow} in #{target}"
   end
 
   if dups.size>0 then
-    puts "Found shared keys in plugins, moved them to TotalFinder.strings:"
+    puts "Found shared keys in plugins and shell, moved them to TotalFinder.strings:"
     puts dups
   end
 
