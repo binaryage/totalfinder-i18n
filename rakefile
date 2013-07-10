@@ -10,7 +10,7 @@ FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin')
 INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
 ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
-SHELL_SOURCES = File.join(ROOT_DIR, '..', 'shell')
+SHELL_SOURCES = [File.join(ROOT_DIR, '..', 'shell'), File.join(ROOT_DIR, '..', 'frameworks')]
 TOTALFINDER_PLUGINS_SOURCES = File.join(ROOT_DIR, '..', 'plugins')
 
 ################################################################################################
@@ -52,10 +52,18 @@ def get_list_of_plugins(filter=nil)
 end
 
 def extract_code_strings(folder)
+  dirs = Array(folder) # flexibility to pass multiple directories
+
   strings = ""
-  Dir.chdir(folder) do
-    strings << `ack -oh '\\$\\s*\\(@".*?"\\)'`   # `ack -oh '\$\s*\(@".*?"\)'`
-    strings << `ack -oh '\\$\\$\\s*\\(@".*?"\\)'`  # `ack -oh '\$\$\s*\(@".*?"\)'`
+  dirs.each do |directory|
+    Dir.chdir(directory) do
+      # $() macro
+      strings << `ack -oh '\\$\\s*\\(@".*?"\\)'`   # `ack -oh '\$\s*\(@".*?"\)'`
+      # $#() macro
+      strings << `ack -oh '\\$\\$\\s*\\(@".*?"\\)'`  # `ack -oh '\$\$\s*\(@".*?"\)'`
+      # MASShortcuts's $NSLocalizedString
+      strings << `ack -oh '\\$NSLocalizedString\\s*\\(@".*?"'`  # `ack -oh '\$NSLocalizedString\s*\(@".*?"'`
+    end
   end
 
   strings = strings.split("\n").map do |s|
