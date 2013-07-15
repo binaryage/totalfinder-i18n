@@ -1,10 +1,9 @@
 /* preferences */
-"BASIC" = "FINDER";
+"BASIC" = "BASE";
 "SYSTEM" = "SYSTÈME";
 "Menus" = "Menus";
 "Updates" = "Mises à jour";
 "File Browser" = "Explorateur de fichiers";
-"Screen" = "Écran";
 "Dock" = "Dock";
 "Sidebar" = "Barre latérale";
 
@@ -16,7 +15,7 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Réinitialiser";
 "Cancel" = "Annuler";
-"Do you really want reset to defaults?" = "Voulez-vous vraiment retrouver la configuration par défaut ?";
+"Do you really want reset to defaults?" = "Voulez-vous vraiment revenir à la configuration initiale ?";
 "This will restore initial TotalFinder settings." = "Cela restaurera les réglages d'origine de TotalFinder.";
 
 /* Unistall Alert Box */
@@ -66,3 +65,16 @@
 "License Name" = "Nom (License Name)";
 "License Key" = "Clé (License Key)";
 
+
+/* shortcuts subsystem */
+"Click to record new shortcut" = "Click to record new shortcut";
+"Delete shortcut" = "Delete shortcut";
+"OK" = "OK";
+"Record Shortcut" = "Record Shortcut";
+"Space" = "Space";
+"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
+"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
+"Type New Shortcut" = "Type New Shortcut";
+"Type Shortcut" = "Type Shortcut";
+"Use Old Shortcut" = "Use Old Shortcut";
