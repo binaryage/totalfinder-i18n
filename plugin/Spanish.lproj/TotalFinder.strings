@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Clic para definir función rápida";
+"Delete shortcut" = "Eliminar función rápida";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Record Shortcut" = "Definir función rápida";
+"Space" = "Espacio";
+"The key combination %@ cannot be used" = "La combinación de teclas %@ no se puede utilizar";
+"This combination cannot be used because it is already used by a system-wide " = "Esta combinación de teclas no se puede utilizar porque ya se está usando globalmente";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Esta combinación de teclas no se puede usar porque ya se está usando por el elemento de menú '%@'.";
+"Type New Shortcut" = "Pulsa la nueva función rápida";
+"Type Shortcut" = "Pulsa la función rápida";
+"Use Old Shortcut" = "Usar la función rápida anterior";
