@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
-"OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Click to record new shortcut" = "새 단축키를 기록하려면 클릭";
+"Delete shortcut" = "단축키 제거";
+"OK" = "확인";
+"Record Shortcut" = "단축키 기록";
+"Space" = "스페이스";
+"The key combination %@ cannot be used" = "%@ 키 조합은 사용할 수 없습니다.";
+"This combination cannot be used because it is already used by a system-wide " = "해당 키 조합은 시스템 전역에서 사용되고 있으므로 사용할 수 없습니다.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "해당 키 조합은 ‘%@’ 메뉴 항목에서 사용하고 있으므로 사용할 수 없습니다.";
+"Type New Shortcut" = "새 단축키 입력";
+"Type Shortcut" = "단축키 입력";
+"Use Old Shortcut" = "이전 단축키 사용";

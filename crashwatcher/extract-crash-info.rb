@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
 
+def parse_special_info(content)
+  # "recent swizzled method" can appear in TotalFinder crash logs since v1.4.18
+  m = content.match(/recent swizzled method:(.*?)\n/m)
+  return nil if m.nil?
+  m[1].strip
+end
+
 def parse_plugin_identifier(content)
   m = content.match(/PlugIn Identifier:(.*?)\n/m)
   return nil if m.nil?
@@ -39,7 +46,8 @@ content = File.read(file)
 res = ""
 
 begin
-  plugin = parse_plugin_identifier(content)
+  plugin = parse_special_info(content)
+  plugin = parse_plugin_identifier(content) unless plugin
   plugin = find_first_ba_module(content) unless plugin
   plugin.strip!
   res += "in " + plugin.gsub("com.binaryage.", "") + " " if plugin.size
@@ -55,8 +63,8 @@ rescue
 end
 
 begin
-  thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(" ")[0]
-  details << "thread "+thread.strip
+  version = content.match(/OS Version:.*?\((.*?)\)\n/m)[1]
+  details << "OS "+version.strip
 rescue
 end
 
@@ -72,11 +80,11 @@ rescue
 end
 
 begin
-  version = content.match(/OS Version:.*?\((.*?)\)\n/m)[1]
-  details << "OS "+version.strip
+  thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(" ")[0]
+  details << "thread "+thread.strip
 rescue
 end
 
-res += "(#{details.join(", ")})"
+res += "| #{details.join(", ")}"
 
 puts res
