@@ -11,7 +11,7 @@
 "sendReportButton" = "Email Gönder";
 "cancelButton" = "İptal";
 
-"emailTemplate" = "Merhaba Antonin,\n\n%@ programında bir arıza meydana geldi!\n\nArıza ile ilgili detayları buradan görebilirsin:\n%@\n\n>\n> Arıza'yı düzeltmek için bana arıza'dan önce veya arıza'ya yol açan anı anlatır mısınız?\n> Yardımınız için çok teşekür ederim, arıza ile ilgileneceğim ama size hemen cevap yazamayabilirim .\n> Daha fazla bilgi için\n> http://getsatisfaction.com/binaryage sitesinde konu açabilirsiniz.\n>\n> Teşekürler, Antonin";
+"emailTemplate" = "Merhaba Antonin,\n\n%@ programında bir arıza meydana geldi!\n\nArıza ile ilgili detayları buradan görebilirsin:\n%@\n\n>\n> Arıza'yı düzeltmek için bana arıza'dan önce veya arıza'ya yol açan anı anlatır mısınız?\n> Yardımınız için çok teşekür ederim, arıza ile ilgileneceğim ama size hemen cevap yazamayabilirim .\n> Daha fazla bilgi için\n> http://discuss.binaryage.com sitesinde konu açabilirsiniz.\n>\n> Teşekürler, Antonin";
 
 "countdownMsgSecondsPlural" = "%d saniye kaldı.";
 "countdownMsgSecondSingular" = "%d saniye kaldı.";
