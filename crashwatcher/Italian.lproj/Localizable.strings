@@ -1,6 +1,6 @@
 "crashDialogHeader" = "TotalFinder si è chiuso improvvisamente";
 "crashDialogMsg" = "Siamo spiacenti, ma TotalFinder ha incontrato un problema inaspettato e ha mandato in crash il Finder.";
-"crashDialogNote" = "Nota: TotalTerminal.app va riavviato manualmente.";
+"crashDialogNote" = "Nota: TotalFinder.app va riavviato manualmente.";
 "crashDialogExplanation" = "Il tasto Invia manderà il Resoconto al sito gist.github.com e lancerà Mail.app con il modello di email.";
 
 "failDialogHeader" = "Impossibile inviare il Resoconto al sito gist.github.com";
@@ -11,7 +11,7 @@
 "sendReportButton" = "Invia il Resoconto via email";
 "cancelButton" = "Annulla";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Puoi aiutarmi a correggere il problema descrivendomi cosa è successo prima del crash.\n> Apprezzo il tuo aiuto e leggo questi Resoconti, ma non aspettarti una mia risposta diretta.\n> Per una discussione più approfondita, per favore apri un topic su\n> http://discuss.binaryage.com.\n>\n> Grazie, Antonin";
+"emailTemplate" = "Ciao Antonin,\n\nMy %@ è andato in crash!\n\nIl resoconto del crash è disponibile qui:\n%@\n\n>\n> Puoi aiutarmi a correggere il problema descrivendomi cosa è successo prima del crash.\n> Apprezzo il tuo aiuto e leggo questi Resoconti, ma non aspettarti una mia risposta diretta.\n> Per una discussione più approfondita, per favore apri un topic su\n> http://discuss.binaryage.com.\n>\n> Grazie, Antonin";
 
 "countdownMsgSecondsPlural" = "%d secondi rimanenti.";
 "countdownMsgSecondSingular" = "%d secondo rimanente.";
