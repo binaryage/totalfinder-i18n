@@ -6,18 +6,18 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - nog 5 dagen - koop nu!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - nog %d dagen - koop nu!";
 "Close Tab" = "Sluit tabblad";
-"Reopen Closed Tab" = "Heropen Gesloten Tab";
+"Reopen Closed Tab" = "Heropen gesloten tab";
 "Close Window" = "Sluit venster";
 "Toggle Dual Mode" = "Dubbele/enkele kolom";
 "Narrow Tabs Bar" = "Verklein tabbalk";
 "Select Next Tab" = "Kies volgend tabblad";
 "Select Previous Tab" = "Kies vorig tabblad";
-"Switch Active Panel" = "Verander Actief Paneel";
+"Switch Active Panel" = "Verander actief paneel";
 
-"New Tab" = "Nieuwe Tab";
+"New Tab" = "Nieuwe tab";
 "Tabs" = "Tabs";
 "Use narrow Tabs Bar" = "Gebruik smalle tabbalk";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Open nieuwe tabs met de vorige locatie";
 
 /* preferences */
 "Always Maximize" = "Altijd maximaliseren";
