@@ -13,6 +13,10 @@
 "Select Next Tab" = "Následující tab";
 "Select Previous Tab" = "Předchozí tab";
 "Switch Active Panel" = "Přepnout aktivní panel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Nový tab";
 "Tabs" = "Taby";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Vždy maximalizovat";
 "Freelance Windows" = "Volná okna";
+

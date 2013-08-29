@@ -13,6 +13,10 @@
 "Select Next Tab" = "Vali Järgmine Vaheleht";
 "Select Previous Tab" = "Vali Eelmine Vaheleht";
 "Switch Active Panel" = "Vaheta Aktiivset Paneeli";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Uus Vaheleht"; /* the tooltip of the "plus button" in tabs bar */
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Alati Maksimeeri";
 "Freelance Windows" = "Ava Uues Aknas";
+

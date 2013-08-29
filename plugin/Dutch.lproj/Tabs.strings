@@ -13,6 +13,10 @@
 "Select Next Tab" = "Kies volgend tabblad";
 "Select Previous Tab" = "Kies vorig tabblad";
 "Switch Active Panel" = "Verander actief paneel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Nieuwe tab";
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Altijd maximaliseren";
 "Freelance Windows" = "Freelance-schermen";
+

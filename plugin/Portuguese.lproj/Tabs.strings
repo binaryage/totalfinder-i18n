@@ -13,6 +13,10 @@
 "Select Next Tab" = "Selecionar a próxima aba";
 "Select Previous Tab" = "Selecionar aba anterior";
 "Switch Active Panel" = "Trocar Painel Ativo";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Nova Aba";
 "Tabs" = "Abas";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Sempre Maximizado";
 "Freelance Windows" = "Janelas Autônomas";
+
