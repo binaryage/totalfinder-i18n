@@ -13,6 +13,10 @@
 "Select Next Tab" = "Gå til næste fane";
 "Select Previous Tab" = "Gå til forrige fane";
 "Switch Active Panel" = "Skift aktivt panel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Ny fane";
 "Tabs" = "Faner";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Altid Maximer";
 "Freelance Windows" = "Freelance vinduer";
+

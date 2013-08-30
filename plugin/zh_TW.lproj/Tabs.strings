@@ -13,6 +13,10 @@
 "Select Next Tab" = "選取下一個分頁";
 "Select Previous Tab" = "選取上一個分頁";
 "Switch Active Panel" = "Switch Active Panel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "總是最大化";
 "Freelance Windows" = "使用自由視窗";
+

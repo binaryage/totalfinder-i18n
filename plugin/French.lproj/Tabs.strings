@@ -13,6 +13,10 @@
 "Select Next Tab" = "Sélectionner l'onglet suivant";
 "Select Previous Tab" = "Sélectionner l'onglet précédent";
 "Switch Active Panel" = "Commuter le panneau actif";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Nouvel onglet"; /* the tooltip of the "plus button" in tabs bar */
 "Tabs" = "Onglets";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Toujours maximiser";
 "Freelance Windows" = "Ouvrir dans une nouvelle fenêtre";
+

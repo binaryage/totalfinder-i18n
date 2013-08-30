@@ -13,6 +13,10 @@
 "Select Next Tab" = "Выбраць наступную ўкладку";
 "Select Previous Tab" = "Выбраць папярэднюю ўкладку";
 "Switch Active Panel" = "Switch Active Panel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Заўсёды разгортваць";
 "Freelance Windows" = "Незалежныя вокны";
+

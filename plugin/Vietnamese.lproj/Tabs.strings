@@ -13,6 +13,10 @@
 "Select Next Tab" = "Chọn Tab Kế Tiếp";
 "Select Previous Tab" = "Chọn Tab Đằng Sau";
 "Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Luôn luôn mở lớn ra";
 "Freelance Windows" = "Của sổ Freelance";
+

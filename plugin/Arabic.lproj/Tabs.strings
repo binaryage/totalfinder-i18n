@@ -13,6 +13,10 @@
 "Select Next Tab" = "اختر علامة التبويب التالية";
 "Select Previous Tab" = "اختر علامة التبويب السابقة";
 "Switch Active Panel" = "بدل الواجهة الفعالة";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "علامة تبويب جديدة"; /* the tooltip of the "plus button" in tabs bar */
 "Tabs" = "علامات تبويب";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "دائما كبر النافذة";
 "Freelance Windows" = "نوافذ مستقلة";
+
