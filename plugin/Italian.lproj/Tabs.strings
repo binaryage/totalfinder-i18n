@@ -13,10 +13,10 @@
 "Select Next Tab" = "Seleziona la scheda successiva";
 "Select Previous Tab" = "Seleziona la scheda precedente";
 "Switch Active Panel" = "Cambia il pannello attivo";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Close Native Tab" = "Chiudi scheda nativa";
+"New Native Tab" = "Nuova scheda nativa";
+"Show Next Native Tab" = "Mostra la scheda nativa successiva";
+"Show Previous Native Tab" = "Mostra la scheda nativa precedente";
 
 "New Tab" = "Nuova scheda";
 "Tabs" = "Schede";
