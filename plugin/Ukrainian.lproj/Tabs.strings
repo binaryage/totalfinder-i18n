@@ -13,6 +13,10 @@
 "Select Next Tab" = "Вибрати наступну вкладку";
 "Select Previous Tab" = "Вибрати попередню вкладку";
 "Switch Active Panel" = "Поміняти активну панель";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Нова вкладка";
 "Tabs" = "Вкладки";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Завжди розгортати";
 "Freelance Windows" = "Незалежні вікна";
+

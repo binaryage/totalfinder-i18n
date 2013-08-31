@@ -13,6 +13,10 @@
 "Select Next Tab" = "Seleziona la scheda successiva";
 "Select Previous Tab" = "Seleziona la scheda precedente";
 "Switch Active Panel" = "Cambia il pannello attivo";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Nuova scheda";
 "Tabs" = "Schede";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Massimizza sempre";
 "Freelance Windows" = "Finestre libere";
+
