@@ -13,6 +13,10 @@
 "Select Next Tab" = "Valitse seuraava välilehti";
 "Select Previous Tab" = "Valitse edellinen välilehti";
 "Switch Active Panel" = "Vaihda paneelien välillä";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Uusi välilehti";
 "Tabs" = "Välilehdet";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Laajenna ikkunat koko näytön kattaviksi";
 "Freelance Windows" = "Älä avaa uusia ikkunoita välilehtiin";
+

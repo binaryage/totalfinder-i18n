@@ -13,6 +13,10 @@
 "Select Next Tab" = "次のタブを選択";
 "Select Previous Tab" = "前のタブを選択";
 "Switch Active Panel" = "Switch Active Panel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "常に最大化";
 "Freelance Windows" = "タブの代わりに新しいウィンドウで開く";
+

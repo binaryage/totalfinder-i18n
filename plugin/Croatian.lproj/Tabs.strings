@@ -13,6 +13,10 @@
 "Select Next Tab" = "Odaberi sljedeću karticu";
 "Select Previous Tab" = "Odaberi prethodnu karticu";
 "Switch Active Panel" = "Prebaci aktivni panel";
+"Close Native Tab" = "Zatvori izvornu karticu";
+"New Native Tab" = "Nova izvorna kartica";
+"Show Next Native Tab" = "Prikaži sljedeću izvornu karticu";
+"Show Previous Native Tab" = "Prikaži prethodnu izvornu karticu";
 
 "New Tab" = "Nova kartica";
 "Tabs" = "Kartice";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "Uvijek uvećaj prozor";
 "Freelance Windows" = "Plutajući prozori";
+

@@ -13,6 +13,10 @@
 "Select Next Tab" = "选择下一个标签页";
 "Select Previous Tab" = "选择上一个标签页";
 "Switch Active Panel" = "切换当前激活窗口";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "新建标签页";
 "Tabs" = "标签";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "最大化缩放至整个屏幕";
 "Freelance Windows" = "新窗口不于标签页打开";
+

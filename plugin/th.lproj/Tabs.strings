@@ -13,6 +13,10 @@
 "Select Next Tab" = "เลือกแท็บถัดไป";
 "Select Previous Tab" = "เลือกแท็บก่อนหน้า";
 "Switch Active Panel" = "Switch Active Panel";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "New Tab";
 "Tabs" = "Tabs";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "เต็มจอตลอด";
 "Freelance Windows" = "หน้าต่างอิสระ";
+

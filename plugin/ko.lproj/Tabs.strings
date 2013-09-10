@@ -13,6 +13,10 @@
 "Select Next Tab" = "다음 탭 선택";
 "Select Previous Tab" = "이전 탭 선택";
 "Switch Active Panel" = "활성 패널 전환";
+"Close Native Tab" = "Close Native Tab";
+"New Native Tab" = "New Native Tab";
+"Show Next Native Tab" = "Show Next Native Tab";
+"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "새 탭";
 "Tabs" = "탭";
@@ -22,3 +26,4 @@
 /* preferences */
 "Always Maximize" = "창을 항상 최대화";
 "Freelance Windows" = "프리랜스 윈도우";
+
