@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder har avslutats oväntat";
+"crashDialogMsg" = "Vi ber om ursäkt, men TotalFinder har stött på ett oväntat problem och har fått Finder att krascha.";
+"crashDialogNote" = "Notera: Finder startades om automatiskt men du behöver starta TotalFinder.app på nytt manuellt.";
+"crashDialogExplanation" = "När du trycker på Skicka-knappen kommer krasch-rapporten laddas upp till gist.github.com och sen öppnas Mail.app med en för-ifylld mall.";
+
+"failDialogHeader" = "Lyckades inte ladda upp krasch-rapporten till gist.github.com";
+"failDialogMsg1" = "Aj då. Jag lyckades inte hitta krash-rapporten i följande sökväg i din hemkatalog: ~/Logs/CrashReporter.";
+"failDialogMsg2" = "Krasch-rapporten hittades, men uppladdningen till gist.github.com misslyckades av någon anledning.\n\nOm det är brådskande kan du skicka rapporten till mig manuellt:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Skicka Email";
+"cancelButton" = "Avbryt";
+
+"emailTemplate" = "Hej Antonin,\n\nMin %@ kraschade precis!\n\nKrasch-rapporten finns att läsa här:\n%@\n\n>\n> Du kan underlätta felsökningen genom att så noggrannt som möjligt fylla i vad som hände innan kraschen.\n> Jag uppskattar din hjälp och läser samtliga krasch-rapporter, men har tyvärr ej möjlighet att ge svar på alla personligen.\n> För vidare diskussion öppna gärna en tråd på \n> http://discuss.binaryage.com.\n>\n> Tackar ödmjukast, Antonin";
+
+"countdownMsgSecondsPlural" = "%d sekunder återstående.";
+"countdownMsgSecondSingular" = "%d sekund återstående.";
+
+"countdownMsgMinutesPlural" = "%d minuter återstående.";
+"countdownMsgMinuteSingular" = "%d minut återstående.";

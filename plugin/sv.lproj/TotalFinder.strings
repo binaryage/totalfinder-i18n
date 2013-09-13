@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Klicka för att lägga till kortkommando";
+"Delete shortcut" = "Radera kortkommando";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
+"Record Shortcut" = "Lägg till kortkommando";
 "Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"The key combination %@ cannot be used" = "Tangentbords-kombinationen %@ kan inte användas";
+"This combination cannot be used because it is already used by a system-wide " = "Den här kombinationen kan inte användas eftersom den redan används på system-nivå ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Den här kombinationen kan inte användas eftersom det redan används av menyvalet ‘%@’.";
+"Type New Shortcut" = "Tryck ny kombination";
+"Type Shortcut" = "Tryck kombination";
+"Use Old Shortcut" = "Använd gammal kombination";
