@@ -24,15 +24,14 @@ report.lines.each do |line|
   if line =~ /^\s*0x([0-9a-f]+)\s+-\s+0x([0-9a-f]+)\s+.*?com\.binaryage/ then
     ranges << [$1.to_i(16), $2.to_i(16)]
   end
-
 end
 
 # test if any address is present inside our ranges
 addresses.each do |address|
   ranges.each do |range|
     hit = address >= range[0] && address <= range[1]
-    exit 1 if hit # yes, present!
     # puts "#{address} ? #{range[0]} - #{range[1]} => #{hit}"
+    exit 1 if hit # yes, present!
   end
 end
 
