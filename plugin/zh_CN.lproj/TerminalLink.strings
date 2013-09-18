@@ -1,5 +1,5 @@
-"Open in Terminal:" = "Open in Terminal:";
-"Open in Terminal" = "Open in Terminal";
-"Sync directory" = "Sync directory";
+"Open in Terminal:" = "在命令窗口中打开:";
+"Open in Terminal" = "在命令窗口中打开";
+"Sync directory" = "同步目录";
 "Preferred Terminal Profile:" = "Preferred Terminal Profile:";
-"Terminal" = "Terminal";
+"Terminal" = "命令窗口";
