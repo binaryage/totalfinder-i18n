@@ -1,7 +1,7 @@
 /* preferences */
 "BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
+"SYSTEM" = "系統";
+"Menus" = "選單";
 "Updates" = "Updates";
 "File Browser" = "File Browser";
 "Dock" = "Dock";
@@ -69,7 +69,7 @@
 /* shortcuts subsystem */
 "Click to record new shortcut" = "Click to record new shortcut";
 "Delete shortcut" = "Delete shortcut";
-"OK" = "OK";
+"OK" = "確認";
 "Record Shortcut" = "Record Shortcut";
 "Space" = "Space";
 "The key combination %@ cannot be used" = "The key combination %@ cannot be used";
