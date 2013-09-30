@@ -1,5 +1,5 @@
 "crashDialogHeader" = "TotalFinder is onverwacht gestopt";
-"crashDialogMsg" = "Het spijt ons, in TotalFinder is een probleem opgetreden waardoor de Finder is gecrasht.";
+"crashDialogMsg" = "Het spijt ons, er is in TotalFinder een probleem opgetreden waardoor de Finder is gecrasht.";
 "crashDialogNote" = "NB: Finder is automatisch opnieuw opgestart, maar u dient TotalFinder.app nog handmatig te starten.";
 "crashDialogExplanation" = "Door op 'Stuur e-mail' te klikken wordt het rapport naar gist.github.com geüpload en zal Mail.app worden geopend met een mailconcept.";
 
@@ -11,7 +11,7 @@
 "sendReportButton" = "Stuur e-mail";
 "cancelButton" = "Annuleer";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> U kunt me helpen het probleem op te lossen door te beschrijven (liefst in het Engels) wat u deed vóór de crash.\n> Ik waardeer uw hulp en lees de rapporten, verwacht echter geen direct antwoord.\n> Voor verdere opmerkingen meldt u het probleem op\n> http://discuss.binaryage.com.\n>\n> Hartelijk dank, Antonin";
+"emailTemplate" = "Hallo Antonin,\n\nMijn %@ is zojuist onverwachts gestopt!\n\nThe crash rapport staat hier:\n%@\n\n>\n> U kunt me helpen het probleem op te lossen door te beschrijven (liefst in het Engels) wat u deed vóór de crash.\n> Ik waardeer uw hulp en lees de rapporten, verwacht echter geen direct antwoord.\n> Voor verdere opmerkingen meldt u het probleem op\n> http://discuss.binaryage.com.\n>\n> Hartelijk dank, Antonin";
 
 "countdownMsgSecondsPlural" = "%d seconden resterend.";
 "countdownMsgSecondSingular" = "%d seconde resterend.";

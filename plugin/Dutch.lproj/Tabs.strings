@@ -13,10 +13,10 @@
 "Select Next Tab" = "Kies volgend tabblad";
 "Select Previous Tab" = "Kies vorig tabblad";
 "Switch Active Panel" = "Verander actief paneel";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Close Native Tab" = "Sluit Native Tab";
+"New Native Tab" = "Nieuw Native Tab";
+"Show Next Native Tab" = "Toon volgende Native Tab";
+"Show Previous Native Tab" = "Toon vorige Native Tab";
 
 "New Tab" = "Nieuwe tab";
 "Tabs" = "Tabs";

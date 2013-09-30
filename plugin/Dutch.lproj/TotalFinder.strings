@@ -52,7 +52,7 @@
 /* registration */
 "TotalFinder Registration" = "Registratie van TotalFinder";
 "Registration" = "Registreren";
-"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens, die u per e-mail van ons ontvangen hebt, in:";
+"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens in die u per e-mail van ons ontvangen hebt:";
 "Buy TotalFinder Now" = "Koop TotalFinder nu";
 "Thanks for registering!" = "Bedankt voor uw registratie!";
 "This TotalFinder copy is licensed to:" = "Dit exemplaar van TotalFinder is gelicenseerd aan:";
@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Klik om een nieuwe shortcut op te nemen";
+"Delete shortcut" = "Verwijder snelkoppeling";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Record Shortcut" = "Neem snelkoppeling op";
+"Space" = "Spatie";
+"The key combination %@ cannot be used" = "De toetscombinatie %@ kan niet worden gebruikt";
+"This combination cannot be used because it is already used by a system-wide " = "Deze combinatie kan niet worden gebruikt omdat het al gebruikt wordt door een systeembrede ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Deze shortcut kan niet worden gebruikt, omdat die al in gebruik is door menu-item ‘%@’.";
+"Type New Shortcut" = "Type een nieuwe snelkoppeling";
+"Type Shortcut" = "Type snelkoppeling";
+"Use Old Shortcut" = "Gebruik oude snelkoppeling";
