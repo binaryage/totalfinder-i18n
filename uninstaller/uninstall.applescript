@@ -7,6 +7,12 @@ on run
 	on error
 		set stdout to stdout & "    TotalFinderCrashWatcher was not running" & newline
 	end try
+	set stdout to stdout & "  shutdown TotalFinder agent ..." & newline
+	try
+		do shell script "killall TotalFinder" with administrator privileges
+    on error
+		set stdout to stdout & "    TotalFinder agent was not running" & newline
+	end try
 	
 	set stdout to stdout & "  shutdown Finder ..." & newline
 	try
