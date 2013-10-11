@@ -1,11 +1,11 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
+"BASIC" = "BASIS";
+"SYSTEM" = "SYSTEEM";
+"Menus" = "Menu's";
 "Updates" = "Updates";
-"File Browser" = "File Browser";
+"File Browser" = "Bestandsweergave";
 "Dock" = "Dock";
-"Sidebar" = "Sidebar";
+"Sidebar" = "Navigatiebalk";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Controleer op updates";
@@ -52,7 +52,7 @@
 /* registration */
 "TotalFinder Registration" = "Registratie van TotalFinder";
 "Registration" = "Registreren";
-"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens in die u per e-mail van ons ontvangen hebt:";
+"Please enter your license details from the email we have sent you:" = "Voer de licentiegegevens in die u per e-mail van ons ontvangen heeft:";
 "Buy TotalFinder Now" = "Koop TotalFinder nu";
 "Thanks for registering!" = "Bedankt voor uw registratie!";
 "This TotalFinder copy is licensed to:" = "Dit exemplaar van TotalFinder is gelicenseerd aan:";
@@ -60,21 +60,21 @@
 "Back" = "Terug";
 "Invalid license code" = "Ongeldige licentiecode";
 "Please go back and try again." = "Ga terug en probeer het opnieuw.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Bezoek de BinaryAge webwinkel om een licentie voor het gebruik van Totalfinder te kopen.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Bezoek de webwinkel van BinaryAge om een licentie voor het gebruik van Totalfinder te kopen.";
 "Thank you for using TotalFinder!" = "Bedankt voor het gebruiken van TotalFinder!";
 "License Name" = "Licentienaam";
 "License Key" = "Licentiecode";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Klik om een nieuwe shortcut op te nemen";
-"Delete shortcut" = "Verwijder snelkoppeling";
+"Click to record new shortcut" = "Klik om een nieuwe sneltoets op te nemen";
+"Delete shortcut" = "Verwijder sneltoets";
 "OK" = "OK";
-"Record Shortcut" = "Neem snelkoppeling op";
+"Record Shortcut" = "Neem sneltoets op";
 "Space" = "Spatie";
 "The key combination %@ cannot be used" = "De toetscombinatie %@ kan niet worden gebruikt";
 "This combination cannot be used because it is already used by a system-wide " = "Deze combinatie kan niet worden gebruikt omdat het al gebruikt wordt door een systeembrede ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Deze shortcut kan niet worden gebruikt, omdat die al in gebruik is door menu-item ‘%@’.";
-"Type New Shortcut" = "Type een nieuwe snelkoppeling";
-"Type Shortcut" = "Type snelkoppeling";
-"Use Old Shortcut" = "Gebruik oude snelkoppeling";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Deze sneltoets kan niet worden gebruikt, omdat die al in gebruik is door menu-item ‘%@’.";
+"Type New Shortcut" = "Type een nieuwe sneltoets";
+"Type Shortcut" = "Type sneltoets";
+"Use Old Shortcut" = "Gebruik oude sneltoets";
