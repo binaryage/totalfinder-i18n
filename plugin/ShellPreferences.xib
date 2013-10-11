@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="12F45" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="3330"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4511"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="3336"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TFShellPreferencesController">
             <connections>
-                <action selector="checkForUpdates:" destination="157" id="235"/>
-                <action selector="resetToDefaults:" destination="308" id="315"/>
-                <action selector="showLicensingWindow:" destination="96" id="306"/>
                 <outlet property="_aboutContent" destination="133" id="228"/>
                 <outlet property="_aboutPreferences" destination="1" id="229"/>
                 <outlet property="_dockPreferences" destination="333" id="365"/>
@@ -46,6 +42,9 @@
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="showLicensingWindow:" target="-2" id="306"/>
+                    </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="95">
                     <rect key="frame" x="17" y="27" width="150" height="17"/>
@@ -123,6 +122,9 @@
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="miniSystem"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="checkForUpdates:" target="-2" id="235"/>
+                    </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="258">
                     <rect key="frame" x="17" y="91" width="214" height="29"/>
@@ -167,7 +169,9 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="119" id="307"/>
                     </constraints>
-                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                        <nil key="identifier"/>
+                    </webPreferences>
                     <connections>
                         <outlet property="policyDelegate" destination="-2" id="236"/>
                     </connections>
@@ -197,6 +201,9 @@
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="resetToDefaults:" target="-2" id="315"/>
+                    </connections>
                 </button>
             </subviews>
             <constraints>
@@ -278,57 +285,4 @@
         <customObject id="212" customClass="TFUpdater"/>
         <userDefaultsController id="94" userLabel="Shared Defaults"/>
     </objects>
-    <classes>
-        <class className="GTMUILocalizer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
-            <relationships>
-                <relationship kind="outlet" name="otherObjectToLocalize_"/>
-                <relationship kind="outlet" name="owner_"/>
-                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SUUpdater" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SUUpdater.h"/>
-            <relationships>
-                <relationship kind="action" name="checkForUpdates:"/>
-                <relationship kind="outlet" name="delegate"/>
-            </relationships>
-        </class>
-        <class className="TFShellPreferencesController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFShellPreferencesController.h"/>
-            <relationships>
-                <relationship kind="action" name="checkForUpdates:"/>
-                <relationship kind="action" name="resetToDefaults:"/>
-                <relationship kind="action" name="showLicensingWindow:"/>
-                <relationship kind="outlet" name="_aboutContent" candidateClass="WebView"/>
-                <relationship kind="outlet" name="_aboutIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_aboutPreferences" candidateClass="NSView"/>
-                <relationship kind="outlet" name="_dockIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_dockPreferences" candidateClass="NSView"/>
-                <relationship kind="outlet" name="_menusIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_menusPreferences" candidateClass="NSView"/>
-                <relationship kind="outlet" name="_registerButton" candidateClass="NSButton"/>
-                <relationship kind="outlet" name="_registeredTo" candidateClass="NSTextField"/>
-                <relationship kind="outlet" name="_registrationIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_registrationPreferences" candidateClass="NSView"/>
-                <relationship kind="outlet" name="_titleInAbout" candidateClass="NSTextField"/>
-                <relationship kind="outlet" name="_titleInRegistration" candidateClass="NSTextField"/>
-                <relationship kind="outlet" name="_titleInUpdates" candidateClass="NSTextField"/>
-                <relationship kind="outlet" name="_updatesIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_updatesPreferences" candidateClass="NSView"/>
-            </relationships>
-        </class>
-        <class className="TFUpdater" superclassName="SUUpdater">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TFUpdater.h"/>
-        </class>
-        <class className="WebView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebView.h"/>
-            <relationships>
-                <relationship kind="action" name="reloadFromOrigin:"/>
-            </relationships>
-        </class>
-    </classes>
 </document>

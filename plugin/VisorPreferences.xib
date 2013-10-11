@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="12F45" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4511"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VisorPluginPreferencesController">
@@ -256,7 +255,7 @@
                                 </connections>
                             </textField>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
-                                <rect key="frame" x="138.99999999999997" y="328" width="130" height="19"/>
+                                <rect key="frame" x="139" y="328" width="129.99999999999997" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1438"/>
@@ -270,7 +269,7 @@
                                 </connections>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="464" customClass="MASShortcutView">
-                                <rect key="frame" x="227.99999999999997" y="220" width="130" height="19"/>
+                                <rect key="frame" x="228" y="220" width="129.99999999999997" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1437"/>
@@ -433,11 +432,8 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="722">
-                    <rect key="frame" x="37" y="390" width="295" height="11"/>
+                    <rect key="frame" x="37" y="390" width="277" height="11"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="289" id="723"/>
-                    </constraints>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="^a system-wide window sliding from the bottom on a hot-key" id="724">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" red="0.41304347829999999" green="0.41304347829999999" blue="0.41304347829999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -466,35 +462,4 @@
     <resources>
         <image name="ModifiersOption" width="330" height="230"/>
     </resources>
-    <classes>
-        <class className="GTMUILocalizer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
-            <relationships>
-                <relationship kind="outlet" name="otherObjectToLocalize_"/>
-                <relationship kind="outlet" name="owner_"/>
-                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
-            </relationships>
-        </class>
-        <class className="MASShortcutView" superclassName="NSView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MASShortcutView.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PreferencesModifierButtonImageView" superclassName="NSImageView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesModifierButtonImageView.h"/>
-        </class>
-        <class className="PreferencesTextField" superclassName="NSTextField">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesTextField.h"/>
-        </class>
-        <class className="VisorPluginPreferencesController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/VisorPluginPreferencesController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="_modifierIcon1" candidateClass="PreferencesModifierButtonImageView"/>
-                <relationship kind="outlet" name="_modifierIcon2" candidateClass="PreferencesModifierButtonImageView"/>
-                <relationship kind="outlet" name="_visorIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_visorPreferences" candidateClass="NSView"/>
-            </relationships>
-        </class>
-    </classes>
 </document>
