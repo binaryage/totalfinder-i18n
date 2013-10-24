@@ -1,11 +1,11 @@
 "crashDialogHeader" = "O TotalFinder foi finalizado inesperadamente.";
 "crashDialogMsg" = "Desculpe, mas o TotalFinder encontrou um problema inesperado e travou o Finder.";
-"crashDialogNote" = "Nota: O Finder foi reiniciado automaticamente, por isso o TotalFinder.app deve ser iniciado manualmente.";
+"crashDialogNote" = "Nota: O Finder foi reiniciado automaticamente, por isso você deve abrir o TotalFinder.app manualmente.";
 "crashDialogExplanation" = "O botão enviar irá enviar o relatório de travamento para gist.github.com e irá iniciar o Mail.app com um modelo de email para ser enviado.";
 
 "failDialogHeader" = "Não foi possível enviar o relatório de travamento para gist.github.com.";
 "failDialogMsg1" = "Não foi possível localizar o relatório de travamento em seu ~/Logs/CrashReporter.";
-"failDialogMsg2" = "O relatório de travamento foi encontrado, porém o upload para gist.github.com falhou por alguma razão.\n\nSe for urgente, você pode enviar o relatório pra mim, manualmente:\n%@";
+"failDialogMsg2" = "O relatório de travamento foi encontrado, porém o upload para gist.github.com falhou por alguma razão.\n\nSe for urgente, você pode me enviar o relatório manualmente:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Enviar Email";

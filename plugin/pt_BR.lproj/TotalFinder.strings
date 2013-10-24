@@ -52,7 +52,7 @@
 /* registration */
 "TotalFinder Registration" = "Registro do TotalFinder";
 "Registration" = "Registro";
-"Please enter your license details from the email we have sent you:" = "Por favor, escreva os detalhes da licença (que estão no email que lhe enviamos):";
+"Please enter your license details from the email we have sent you:" = "Por favor, digite os detalhes da licença (que estão no email que lhe enviamos):";
 "Buy TotalFinder Now" = "Comprar o TotalFinder";
 "Thanks for registering!" = "Obrigado por se registrar!";
 "This TotalFinder copy is licensed to:" = "Esta cópia do TotalFinder está registrada para:";
@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Clique para gravar novo atalho";
+"Delete shortcut" = "Apagar atalho";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
+"Record Shortcut" = "Gravar atalho";
+"Space" = "Espaço";
+"The key combination %@ cannot be used" = "A combinação de teclas %@ não pode ser utilizada";
+"This combination cannot be used because it is already used by a system-wide " = "Essa combinação não pode ser utilizada porque já é usada pelo sistema ";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Type New Shortcut" = "Digite o novo atalho";
+"Type Shortcut" = "Digite o atalho";
+"Use Old Shortcut" = "Usar atalho antigo";
