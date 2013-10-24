@@ -9,8 +9,8 @@ osascript -e "tell application \"Finder\" to quit"
 
 killall -SIGINT TotalFinderCrashWatcher
 
-# start TotalFinder agan
+# start TotalFinder again
 sleep 1
-open /Applications/TotalFinder.app
+osascript -e "tell application \"Finder\" to «event BATFinit»"
 
 popd > /dev/null
