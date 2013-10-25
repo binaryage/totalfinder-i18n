@@ -1,12 +1,12 @@
 "TotalFinder - unregistered version" = "TotalFinder - neregistrirana verzija";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dan preostao - kupite sada!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dana preostala - kupite sada!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dana preostala - kupite sada!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dana preostala - kupite sada!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dana preostala - kupite sada!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dana preostalo - kupite sada!";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dan preostao - kupi sada!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dana preostalo - kupi sada!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dana preostalo - kupi sada!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dana preostalo - kupi sada!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dana preostalo - kupi sada!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dana preostalo - kupi sada!";
 "Close Tab" = "Zatvori karticu";
-"Reopen Closed Tab" = "Ponovno otvori zatvorenu karticu";
+"Reopen Closed Tab" = "Ponovo otvori karticu";
 "Close Window" = "Zatvori prozor";
 "Toggle Dual Mode" = "Prebaci Dual môd";
 "Narrow Tabs Bar" = "Uska traka kartica";
@@ -24,6 +24,5 @@
 "Open new tabs with previous location" = "Otvori nove kartice prethodnih lokacija";
 
 /* preferences */
-"Always Maximize" = "Uvijek uvećaj prozor";
+"Always Maximize" = "Uvijek uvećano";
 "Freelance Windows" = "Plutajući prozori";
-
