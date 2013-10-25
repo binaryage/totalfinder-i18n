@@ -1,11 +1,11 @@
 /* preferences */
 "BASIC" = "OSNOVNO";
-"SYSTEM" = "SUSTAV";
+"SYSTEM" = "SISTEM";
 "Menus" = "Izbornici";
 "Updates" = "Ažuriranja";
-"File Browser" = "Preglednik datoteka";
+"File Browser" = "Prikaz datoteka";
 "Dock" = "Dock";
-"Sidebar" = "Rubni stupac";
+"Sidebar" = "Bočna traka";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Provjeri ažuriranja";
@@ -14,67 +14,67 @@
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Poništi";
-"Cancel" = "Otkaži";
+"Cancel" = "Prekid";
 "Do you really want reset to defaults?" = "Želite li zaista vratiti na početno?";
-"This will restore initial TotalFinder settings." = "Ovo će vratiti TotalFinder na početne postavke.";
+"This will restore initial TotalFinder settings." = "Ovo će vratiti TotalFinder na početne postavke";
 
 /* Unistall Alert Box */
 "Uninstall" = "Deinstaliraj";
 "Really want to uninstall TotalFinder?" = "Želite li zaista deinstalirati TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ovo će pokrenuti skriptu za deinstalaciju koja će ukloniti TotalFinder sa ovog računala i vratiti izvorno ponašanje Finder-a.";
+"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Ovo će pokrenuti skriptu deinstalacije koja će ukloniti TotalFinder s ovog računala i vratiti izvorno ponašanje Findera.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "Postavke TotalFinder-a…";
-"Visit Homepage…" = "Posjetite Web stranicu…";
+"TotalFinder Preferences…" = "TotalFinder postavke…";
+"Visit Homepage…" = "Posjeti stranicu…";
 
 /* registration */
 "Licensed to %@" = "Licencirano na %@";
 "Change License" = "Promijeni licencu";
-"Unregistered version in trial mode" = "Neregistrirana verzija u periodu isprobavanja";
+"Unregistered version in trial mode" = "Neregistrirana verzija u trial môdu";
 "Register" = "Registriraj";
 
 /* navigation bar */
-"About" = "Više o";
+"About" = "O aplikaciji";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Vratite TotalFinder na početne postavke";
+"Reset TotalFinder to defaults" = "Vrati TotalFinder na izvorne postavke";
 
-"Hide icon in Menu Bar" = "Sakrij ikonu u traci izbornika";
-"Keep original Dock icon" = "Zadrži originalnu ikonu u Docku";
+"Hide icon in Menu Bar" = "Sakrij ikonu u traci";
+"Keep original Dock icon" = "Zadrži izvornu ikonu u Docku";
 
 /* about page */
-"Check Now" = "Provjeri sada";
-"Automatically check the website for updates" = "Automatski provjeri web stranicu za ažuriranja";
-"Include pre-releases" = "Uključi testne verzije";
-"Participate in TotalFinder testing" = "Sudjelujte u TotalFinder testiranju";
+"Check Now" = "Sada";
+"Automatically check the website for updates" = "Automatska provjera stranice ažuriranja";
+"Include pre-releases" = "Uključi pred-izdanja";
+"Participate in TotalFinder testing" = "Sudjeluj u testiranju TotalFinder-a";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder registracija";
 "Registration" = "Registracija";
-"Please enter your license details from the email we have sent you:" = "Molimo Vas, unesite licencu koju ste primili na email:";
-"Buy TotalFinder Now" = "Kupite TotalFinder sada";
-"Thanks for registering!" = "Hvala na registraciji!";
-"This TotalFinder copy is licensed to:" = "Ova TotalFinder kopija glasi na:";
+"Please enter your license details from the email we have sent you:" = "Molimo unesite detalje licence iz e-maila kojeg smo Vam poslali:";
+"Buy TotalFinder Now" = "Kupi TotalFinder sada";
+"Thanks for registering!" = "Zahvaljujemo na registraciji!";
+"This TotalFinder copy is licensed to:" = "Ova kopija TotalFinder-a je licencirana na:";
 "Close" = "Zatvori";
 "Back" = "Natrag";
-"Invalid license code" = "Pogrešna licenca";
-"Please go back and try again." = "Molimo vratite se i pokušajte opet.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Ako želite kupiti licencu za TotalFinder, molimo Vas posjetite BinaryAge web trgovinu.";
-"Thank you for using TotalFinder!" = "Hvala što koristite TotalFinder!";
+"Invalid license code" = "Nevažeći ključ licence";
+"Please go back and try again." = "Molimo idite natrag i pokušajte ponovno.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Za kupnju licence TotalFindera molimo posjetite BinaryAge web-trgovinu.";
+"Thank you for using TotalFinder!" = "Zahvaljujemo na upotrebi!";
 "License Name" = "Ime licence";
 "License Key" = "Ključ licence";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Klikni za snimanje novog pseudonima";
+"Click to record new shortcut" = "Klik za snimanje pseudonima";
 "Delete shortcut" = "Obriši pseudonim";
 "OK" = "U redu";
 "Record Shortcut" = "Snimi pseudonim";
-"Space" = "Prostor";
-"The key combination %@ cannot be used" = "Ova kombinacija tipki %@ se nemože upotrijebiti";
-"This combination cannot be used because it is already used by a system-wide " = "Ova kombinacija se nemože upotrijebiti jer je već zauzeta od strane sustava ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ovaj pseudonim se nemože upotrijebiti jer je već zauzet od strane stavke izbornika ‘%@’.";
+"Space" = "Razmak";
+"The key combination %@ cannot be used" = "Kombinacija tipki %@ ne može biti korištena!";
+"This combination cannot be used because it is already used by a system-wide " = "Ova kombinacija tipki nemože biti korištena jer je zauzeta od strane sustava";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Kombinacija tipki ne može biti korištena jer je u upotrebi od strane stavke izbornika ‘%@’.";
 "Type New Shortcut" = "Utipkaj novi pseudonim";
 "Type Shortcut" = "Utipkaj pseudonim";
-"Use Old Shortcut" = "Upotrijebi stari pseudonim";
+"Use Old Shortcut" = "Upotrijebi predhodni pseudonim";
