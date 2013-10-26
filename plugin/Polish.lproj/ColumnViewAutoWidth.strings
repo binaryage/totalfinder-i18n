@@ -1,4 +1,4 @@
-"Column View Auto Width" = "Wygląd kolumnowy-Auto Szerokość ";
-"Automatically adjust widths in Column View" = "Automatycznie dopasuj szerokość w wyglądzie kolumnowym";
-"Limit maximum column width to" = "Limit maximum column width to";
-"Limit minimum column width to" = "Limit minimum column width to";
+"Column View Auto Width" = "Automatyczna szerokość kolumn w trybie listy ";
+"Automatically adjust widths in Column View" = "Automatycznie dopasuj szerokość kolumn w trybie listy";
+"Limit maximum column width to" = "Ogranicz szerokość kolumny do";
+"Limit minimum column width to" = "Minimalna szerokość kolumny to";
