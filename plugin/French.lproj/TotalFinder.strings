@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Cliquer pour enregistrer un nouveau raccourci";
+"Delete shortcut" = "Supprimer le raccourci";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Record Shortcut" = "Enregistrer le raccourci";
+"Space" = "Espace";
+"The key combination %@ cannot be used" = "La combinaison de touche %@ ne peut être utilisée";
+"This combination cannot be used because it is already used by a system-wide " = "Cette combinaison ne peut être utilisée car elle l'est déjà au niveau du système ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ce raccourci ne peut être utilisée car il l'est déjà par l'élément de menu ‘%@’.";
+"Type New Shortcut" = "Taper le nouveau raccourci";
+"Type Shortcut" = "Taper le raccourci";
+"Use Old Shortcut" = "Utiliser l'ancien raccourci";
