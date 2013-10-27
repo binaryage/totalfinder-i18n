@@ -1,8 +1,8 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
+"BASIC" = "GŁÓWNE";
+"SYSTEM" = "SYSTEMOWE";
+"Menus" = "Dotyczy menu";
+"Updates" = "Aktualizacje";
 "File Browser" = "Przeglądarka plików";
 "Dock" = "Dock";
 "Sidebar" = "Pasek Boczny";
@@ -26,7 +26,7 @@
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Ustawienia TotalFindera…";
-"Visit Homepage…" = "Przejdź na stronę domową…";
+"Visit Homepage…" = "Przejdź do strony domowej…";
 
 /* registration */
 "Licensed to %@" = "Licencjonowano dla %@";
@@ -62,19 +62,19 @@
 "Please go back and try again." = "Wróć i spróbuj jeszcze raz.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Aby kupić TotalFindera, odwiedź sklep BinaryAge.";
 "Thank you for using TotalFinder!" = "Dziękujemy za używanie TotalFindera!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"License Name" = "Nazwa podmiotu";
+"License Key" = "Klucz licencji";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Kliknij aby ustawić nowy skrót";
+"Delete shortcut" = "Usuń skrót";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
+"Record Shortcut" = "Zarejestruj skrót";
 "Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"The key combination %@ cannot be used" = "Kombinacja klawiszy %@ nie może zostać użyta";
+"This combination cannot be used because it is already used by a system-wide " = "Ta kombinacja nie może zostać użyta ponieważ jest aktualnie użyta przez system ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ten skrót nie może zostać użyty bo jest już używany przez menu ‘%@’.";
+"Type New Shortcut" = "Wpisz nowy skrót";
+"Type Shortcut" = "Wpisz skrót";
+"Use Old Shortcut" = "Użyj starego skrótu";

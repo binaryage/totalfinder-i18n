@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Nie można wysłać raportu do gist.github.com";
 "failDialogMsg1" = "Niestety. Nie jestem w stanie zlokalizować raportu o błędach w Twoim katalogu ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Jestem wstanie zlokalizować raport o błędach, ale nie mogę z jakiś powodów wysłać go do gist.github.com.\n\nJeśli pilne jest dostarczenie raportu, możesz wysłać go do mnie ręcznie:\n%@";
+"failDialogMsg2" = "Jestem wstanie zlokalizować raport o błędach, ale nie mogę z pewnych powodów wysłać go do gist.github.com.\n\nJeśli pilne jest dostarczenie raportu, możesz wysłać go do mnie ręcznie:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Wyślij Email";
