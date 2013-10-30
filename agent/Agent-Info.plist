@@ -2,10 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>TargetBundleIdentifier</key>
+	<string>com.apple.finder</string>
+	<key>TargetPath</key>
+	<string>/System/Library/CoreServices/Finder.app</string>
+	<key>TargetName</key>
+	<string>Finder</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>TotalFinder</string>
 	<key>CFBundleIconFile</key>
 	<string>TotalFinderIcon</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +19,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>TotalFinder</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -32,6 +38,12 @@
 	<string>Copyright © 2013 BinaryAge. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>ShellPath</key>
+	<string>/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle</string>
+	<key>InitEventClass</key>
+	<string>BATF</string>
+	<key>InitEventID</key>
+	<string>init</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
