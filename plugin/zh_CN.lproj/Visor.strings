@@ -1,18 +1,18 @@
-"Pin Visor" = "窗口固定热键:";
+"Pin Visor" = "固定滑入窗口";
 "Show Visor" = "显示滑入窗口";
 "Hide Visor" = "隐藏滑入窗口";
 
 "Visor" = "滑入窗口";
-"a system-wide window sliding from the bottom on a hot-key" = "一个从屏幕下方滑入的文件管理器，通过快捷键激活";
+"a system-wide window sliding from the bottom on a hot-key" = "通过快捷键激活一个从屏幕下方滑入的文件管理器";
 "Visor Feature" = "滑入窗口";
-"Activation:" = "激活窗口:";
-"Show on all Spaces" = "在所有 Spaces 窗口中显示";
-"Animation:" = "显示效果:";
+"Activation:" = "激活:";
+"Show on all Spaces" = "在所有桌面中显示";
+"Animation:" = "动画:";
 "Control:" = "控制按键:";
 "Slide Window" = "窗口滑入/滑出";
 "Fade Window" = "窗口淡入/淡出";
 "Show on top of the Dock" = "显示于 Dock 之上";
 "Free Form Window" = "自由控制滑入窗口大小位置";
-"Hide on ESC" = "按 ESC 键隐";
+"Hide on ESC" = "按 ESC 键隐藏";
 "Screen:" = "指定屏幕:";
 "Screen" = "屏幕";

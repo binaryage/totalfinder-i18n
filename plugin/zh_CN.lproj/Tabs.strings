@@ -13,10 +13,10 @@
 "Select Next Tab" = "选择下一个标签页";
 "Select Previous Tab" = "选择上一个标签页";
 "Switch Active Panel" = "切换当前激活窗口";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Close Native Tab" = "关闭内嵌标签页";
+"New Native Tab" = "新建内嵌标签页";
+"Show Next Native Tab" = "显示下一个内嵌标签页";
+"Show Previous Native Tab" = "显示上一个内嵌标签页";
 
 "New Tab" = "新建标签页";
 "Tabs" = "标签";
@@ -24,6 +24,6 @@
 "Open new tabs with previous location" = "在以前的位置打开新标签";
 
 /* preferences */
-"Always Maximize" = "最大化缩放至整个屏幕";
+"Always Maximize" = "总是最大化至充满屏幕";
 "Freelance Windows" = "新窗口不于标签页打开";
 
