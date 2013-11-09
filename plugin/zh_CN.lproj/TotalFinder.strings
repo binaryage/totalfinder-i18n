@@ -1,11 +1,11 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
+"BASIC" = "基本";
+"SYSTEM" = "系统";
 "Menus" = "菜单";
 "Updates" = "升级";
 "File Browser" = "文件浏览器";
 "Dock" = "Dock";
-"Sidebar" = "侧栏";
+"Sidebar" = "边栏";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "检查更新";
@@ -25,7 +25,7 @@
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder 设置…";
+"TotalFinder Preferences…" = "TotalFinder 偏好设置…";
 "Visit Homepage…" = "访问主页…";
 
 /* registration */
@@ -41,7 +41,7 @@
 "Reset TotalFinder to defaults" = "初始化 TotalFinder 所有设置";
 
 "Hide icon in Menu Bar" = "隐藏菜单栏图标";
-"Keep original Dock icon" = "Dock 里显示原来 Finder 图标";
+"Keep original Dock icon" = "使用原 Finder 图标";
 
 /* about page */
 "Check Now" = "立即检查";
@@ -67,14 +67,14 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
-"OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
+"Click to record new shortcut" = "点击开始录制快捷方式";
+"Delete shortcut" = "删除快捷方式";
+"OK" = "好";
+"Record Shortcut" = "录制快捷方式";
 "Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"The key combination %@ cannot be used" = "无法使用此按键组合 %@";
+"This combination cannot be used because it is already used by a system-wide " = "无法使用此按键组合，因为其已经被一个系统快捷键使用 ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "无法使用此按键组合，因为其已经被菜单项目‘%@’使用。";
+"Type New Shortcut" = "键入新快捷方式";
+"Type Shortcut" = "键入快捷方式";
+"Use Old Shortcut" = "使用旧的快捷方式";
