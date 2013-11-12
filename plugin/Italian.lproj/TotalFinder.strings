@@ -18,11 +18,6 @@
 "Do you really want reset to defaults?" = "Vuoi davvero ripristinare le impostazioni iniziali?";
 "This will restore initial TotalFinder settings." = "Questo ripristinerà le impostazioni iniziali di TotalFinder.";
 
-/* Unistall Alert Box */
-"Uninstall" = "Disinstalla";
-"Really want to uninstall TotalFinder?" = "Vuoi davvero disinstallare TotalFinder?";
-"This will launch an uninstall script which will remove TotalFinder from this computer and restore your original Finder behavior." = "Verrà lanciato uno script di disinstallazione che rimuoverà TotalFinder dal computer e ripristinerà il comportamento originale del Finder";
-
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "Preferenze di TotalFinder…";
@@ -78,3 +73,12 @@
 "Type New Shortcut" = "Inserisci nuova scorciatoia";
 "Type Shortcut" = "Inserisci scorciatoia";
 "Use Old Shortcut" = "Usa vecchia scorciatoia";
+
+/* tabs section */
+"Disable tabs completely" = "Disable tabs completely";
+"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
+"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Tabs" = "Schede";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This will effectively disable tabs and dual mode. Finder restart is needed." = "This will effectively disable tabs and dual mode. Finder restart is needed.";
