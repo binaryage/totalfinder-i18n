@@ -264,9 +264,9 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-mU-gzk">
-                    <rect key="frame" x="39" y="20" width="326" height="11"/>
+                    <rect key="frame" x="39" y="20" width="353" height="11"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^This will effectively disable tabs and dual mode. Finder restart is needed." id="2MQ-dx-5TV">
+                    <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^This will effectively disable tabs, dual mode and visor. Finder restart is needed." id="2MQ-dx-5TV">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
