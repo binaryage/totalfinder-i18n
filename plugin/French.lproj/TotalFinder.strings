@@ -1,5 +1,5 @@
 /* preferences */
-"BASIC" = "BASE";
+"BASIC" = "BASIQUE";
 "SYSTEM" = "SYSTÈME";
 "Menus" = "Menus";
 "Updates" = "Mises à jour";
@@ -15,7 +15,7 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Réinitialiser";
 "Cancel" = "Annuler";
-"Do you really want reset to defaults?" = "Voulez-vous vraiment revenir à la configuration initiale ?";
+"Do you really want reset to defaults?" = "Voulez-vous vraiment revenir à la configuration par défaut ?";
 "This will restore initial TotalFinder settings." = "Cela restaurera les réglages d'origine de TotalFinder.";
 
 /* MainMenu items */
@@ -36,10 +36,10 @@
 "Reset TotalFinder to defaults" = "Réinitialiser TotalFinder";
 
 "Hide icon in Menu Bar" = "Masquer l'icône dans la barre des menus";
-"Keep original Dock icon" = "Conserver l'icône d'origine dans le Dock";
+"Keep original Dock icon" = "Conserver l'icône d'origine du Dock";
 
 /* about page */
-"Check Now" = "Maintenant";
+"Check Now" = "Vérifier maintenant";
 "Automatically check the website for updates" = "Mise à jour automatique via le site Web";
 "Include pre-releases" = "Inclure les préversions";
 "Participate in TotalFinder testing" = "Participation aux tests de TotalFinder";
@@ -54,11 +54,11 @@
 "Close" = "Fermer";
 "Back" = "Revenir";
 "Invalid license code" = "Code de licence invalide";
-"Please go back and try again." = "Merci de revenir et recommencer.";
+"Please go back and try again." = "Merci de revenir et réessayer.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Pour acheter une licence de TotalFinder, merci de vous rendre sur la boutique en ligne de BinaryAge";
 "Thank you for using TotalFinder!" = "Merci d'utiliser TotalFinder !";
-"License Name" = "Nom (License Name)";
-"License Key" = "Clé (License Key)";
+"License Name" = "Nom de license";
+"License Key" = "Clé de license";
 
 
 /* shortcuts subsystem */
@@ -69,16 +69,16 @@
 "Space" = "Espace";
 "The key combination %@ cannot be used" = "La combinaison de touche %@ ne peut être utilisée";
 "This combination cannot be used because it is already used by a system-wide " = "Cette combinaison ne peut être utilisée car elle l'est déjà au niveau du système ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ce raccourci ne peut être utilisée car il l'est déjà par l'élément de menu ‘%@’.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ce raccourci ne peut être utilisé car il l'est déjà par l'élément de menu ‘%@’.";
 "Type New Shortcut" = "Taper le nouveau raccourci";
 "Type Shortcut" = "Taper le raccourci";
 "Use Old Shortcut" = "Utiliser l'ancien raccourci";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Désactiver les onglets complétement";
+"Do you really want to disable tabs?" = "Voulez-vous vraiment désactiver les onglets ?";
+"Do you really want to enable tabs?" = "Voulez-vous vraiment activer les onglets ?";
 "Tabs" = "Onglets";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option désactivera le module d'onglets de TotalFinder. En pratique, le mode dual et la fonctionalité visor seront également désactivés. Ce peut être voulu sous Mavericks - utiliser les onglets natifs du Finder exclusivement en gardant les avantages des autres fonctionalités de TotalFinder.\n\nPour cette opération, le Finder doit être relancé!\nNote: Avant de redemarrer, merci de terminer toutes les tâches en cours du Finder (lcomme copier ou déplacer des fichiers).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option activera le module d'onglets de TotalFinder.\n\nPour cette opération, le Finder doit être relancé!\nNote: Avant de redemarrer, merci de terminer toutes les tâches en cours du Finder (lcomme copier ou déplacer des fichiers).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Cela désactivera les onglets, le mode dual et visor. Un redémarrage du Finder est requis.";

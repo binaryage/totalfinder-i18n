@@ -1,9 +1,9 @@
-"Pin Visor" = "Épingler";
+"Pin Visor" = "Épingler Visor";
 "Show Visor" = "Afficher Visor";
 "Hide Visor" = "Masquer Visor";
 
 "Visor" = "Visor";
-"a system-wide window sliding from the bottom on a hot-key" = "Fenêtre unique apparaissant du bas par un raccourci clavier";
+"a system-wide window sliding from the bottom on a hot-key" = "Fenêtre unique glissant depuis le bas de l'écran par un raccourci clavier";
 "Visor Feature" = "Fonction Visor";
 "Activation:" = "Activation :";
 "Show on all Spaces" = "Afficher sur chaque bureau";
