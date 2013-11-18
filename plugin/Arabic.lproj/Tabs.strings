@@ -19,7 +19,6 @@
 "Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "علامة تبويب جديدة"; /* the tooltip of the "plus button" in tabs bar */
-"Tabs" = "علامات تبويب";
 "Use narrow Tabs Bar" = "استعمل لوحة علامات تبويب ضيقة";
 "Open new tabs with previous location" = "افتح علامات تبويب جديدة بأماكن قديمة";
 

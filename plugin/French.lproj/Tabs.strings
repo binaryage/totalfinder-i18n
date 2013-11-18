@@ -19,7 +19,6 @@
 "Show Previous Native Tab" = "Afficher l'onglet natif précédent";
 
 "New Tab" = "Nouvel onglet"; /* the tooltip of the "plus button" in tabs bar */
-"Tabs" = "Onglets";
 "Use narrow Tabs Bar" = "Utiliser des onglets compacts";
 "Open new tabs with previous location" = "Ouvrir les nouveaux onglets sur le dernier emplacement";
 
