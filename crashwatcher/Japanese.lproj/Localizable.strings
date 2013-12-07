@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder が予期せず終了しました";
+"crashDialogMsg" = "申し訳ありません。TotalFinder は予期しない問題が発生して、Finder をクラッシュさせました。";
+"crashDialogNote" = "注意: Finder は自動的に再起動されますが、TotalFinder.app は手動で開始しなくてはなりません。";
+"crashDialogExplanation" = "送信ボタンをクリックするとクラッシュレポートを gist.github.com へアップロードして、Mail.app を起動し、定型文の入ったメール作成画面を開きます。";
+
+"failDialogHeader" = "gist.github.com へクラッシュレポートをアップロードできません";
+"failDialogMsg1" = "残念ながら、~/Logs/CrashReporter にクラッシュレポートがありませんでした。";
+"failDialogMsg2" = "クラッシュレポートは発見しましたが、gist.github.com へのアップロードに何らかの理由で失敗しました。\n\nお急ぎでしたら、私あてにメールで送って下さい:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "メールを送信";
+"cancelButton" = "キャンセル";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "あと、%d 秒。";
+"countdownMsgSecondSingular" = "あと、%d 秒。";
+
+"countdownMsgMinutesPlural" = "あと、%d 分。";
+"countdownMsgMinuteSingular" = "あと、%d 分。";
