@@ -1,8 +1,8 @@
 /* preferences */
-"BASIC" = "BASIC";
+"BASIC" = "基本";
 "SYSTEM" = "系統";
 "Menus" = "選單";
-"Updates" = "Updates";
+"Updates" = "更新";
 "File Browser" = "File Browser";
 "Dock" = "Dock";
 "Sidebar" = "Sidebar";
