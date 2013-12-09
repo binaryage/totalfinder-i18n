@@ -1,4 +1,4 @@
-"Column View Auto Width" = "Column View Auto Width";
-"Automatically adjust widths in Column View" = "Automatically adjust widths in Column View";
-"Limit maximum column width to" = "Limit maximum column width to";
-"Limit minimum column width to" = "Limit minimum column width to";
+"Column View Auto Width" = "カラム表示で列幅を自動調整";
+"Automatically adjust widths in Column View" = "カラム表示で列幅を自動的に調整します";
+"Limit maximum column width to" = "列幅の最大上限値";
+"Limit minimum column width to" = "列幅の最小下限値";

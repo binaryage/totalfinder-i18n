@@ -6,23 +6,22 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 5 日です - 購入してください！";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - 試用期限の残りはあと %d 日です - 購入してください！";
 "Close Tab" = "タブを閉じる";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Reopen Closed Tab" = "閉じたタブを再度開く";
 "Close Window" = "ウィンドウを閉じる";
-"Toggle Dual Mode" = "デュアルモードの切替：";
+"Toggle Dual Mode" = "デュアルモードの切替";
 "Narrow Tabs Bar" = "細いタブバーを使う";
 "Select Next Tab" = "次のタブを選択";
 "Select Previous Tab" = "前のタブを選択";
-"Switch Active Panel" = "Switch Active Panel";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Switch Active Panel" = "アクティブなパネルを切り替え";
+"Close Native Tab" = "ネイティブなタブを閉じる";
+"New Native Tab" = "ネイティブなタブを新規で開く";
+"Show Next Native Tab" = "次のネイティブタブを表示";
+"Show Previous Native Tab" = "前のネイティブタブを表示";
 
-"New Tab" = "New Tab";
+"New Tab" = "新規タブ";   /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "タブバーを狭くする";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "以前の場所を新規のタブで開く";
 
 /* preferences */
 "Always Maximize" = "常に最大化";
 "Freelance Windows" = "タブの代わりに新しいウィンドウで開く";
-
