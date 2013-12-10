@@ -4,6 +4,6 @@
 "Windows Path" = "Windows cesta";
 "HFS Path" = "HFS cesta";
 "Terminal Path" = "Cesta pro terminál";
-"UNC Path" = "UNC Path";
+"UNC Path" = "UNC cesta";
 
 "Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";

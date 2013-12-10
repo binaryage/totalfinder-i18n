@@ -13,10 +13,10 @@
 "Select Next Tab" = "Následující tab";
 "Select Previous Tab" = "Předchozí tab";
 "Switch Active Panel" = "Přepnout aktivní panel";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Close Native Tab" = "Zavřít nativní tab";
+"New Native Tab" = "Nový nativní tab";
+"Show Next Native Tab" = "Zobrazit následující nativní tab";
+"Show Previous Native Tab" = "Zobrazit předchozí nativní ab";
 
 "New Tab" = "Nový tab";
 "Use narrow Tabs Bar" = "Štíhlé taby";
