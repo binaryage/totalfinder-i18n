@@ -1,9 +1,9 @@
-"Copy Path" = "Copy Path";
-"POSIX Path" = "POSIX Path";
+"Copy Path" = "पथ की प्रतिलिपि बनायें";
+"POSIX Path" = "POSIX पथ";
 "URL" = "URL";
-"Windows Path" = "Windows Path";
-"HFS Path" = "HFS Path";
-"Terminal Path" = "Terminal Path";
-"UNC Path" = "UNC Path";
+"Windows Path" = "विंडोज़ पथ";
+"HFS Path" = "HFS पथ";
+"Terminal Path" = "टेर्मिन्ल पथ";
+"UNC Path" = "UNC पथ";
 
-"Allow path copying from Context Menus" = "Allow path copying from Context Menus";
+"Allow path copying from Context Menus" = "संदर्भ मेनू से पथ नकल की अनुमति दें";

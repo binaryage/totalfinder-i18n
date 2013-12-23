@@ -1,28 +1,28 @@
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
-"Close Tab" = "Close Tab";
-"Reopen Closed Tab" = "Reopen Closed Tab";
-"Close Window" = "Close Window";
-"Toggle Dual Mode" = "Toggle Dual Mode";
-"Narrow Tabs Bar" = "Narrow Tabs Bar";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
-"Switch Active Panel" = "Switch Active Panel";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"TotalFinder - unregistered version" = "टोटलफ़ाइंडर - अपंजीकृत संस्करण";
+"TotalFinder - 1 day left - buy now!" = "टोटलफ़ाइंडर - १ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 2 days left - buy now!" = "टोटलफ़ाइंडर - २ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 3 days left - buy now!" = "टोटलफ़ाइंडर - ३ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 4 days left - buy now!" = "टोटलफ़ाइंडर - ४ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 5 days left - buy now!" = "टोटलफ़ाइंडर - ५ दिन बाकी - अभी खरीदें!";
+"TotalFinder - %d days left - buy now!" = "टोटलफ़ाइंडर - %d दिन बाकी - अभी खरीदें!";
+"Close Tab" = "टैब बंद करें";
+"Reopen Closed Tab" = "बंद टैब पुनः खोलें";
+"Close Window" = "विंडो बंद करें";
+"Toggle Dual Mode" = "दोहरा अंदाज़ शुरू या बंद करें";
+"Narrow Tabs Bar" = "संकीर्ण टैब पट्टी";
+"Select Next Tab" = "अगला टैब चयन करें";
+"Select Previous Tab" = "पिछला टैब चयन करें";
+"Switch Active Panel" = "सक्रिय पैनल बदलें";
+"Close Native Tab" = "निवासी टैब बंद करें";
+"New Native Tab" = "नया निवासी टैब";
+"Show Next Native Tab" = "अगला निवासी टैब देखें";
+"Show Previous Native Tab" = "पिछला निवासी टैब देखें";
 
-"New Tab" = "New Tab"; /* the tooltip of the "plus button" in tabs bar */
-"Use narrow Tabs Bar" = "Use narrow Tabs Bar";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"New Tab" = "नया टैब"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "संकीर्ण टैब पट्टी का प्रयोग करें";
+"Open new tabs with previous location" = "नया टैब पिछले स्थान के साथ खोलें";
 
 /* preferences */
-"Always Maximize" = "Always Maximize";
-"Freelance Windows" = "Freelance Windows";
+"Always Maximize" = "हमेशा अधिकतम करें";
+"Freelance Windows" = "फ्रीलांस विंडोज";
 
