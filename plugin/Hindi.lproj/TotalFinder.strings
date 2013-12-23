@@ -1,0 +1,84 @@
+/* preferences */
+"BASIC" = "BASIC";
+"SYSTEM" = "SYSTEM";
+"Menus" = "मेन्यू";
+"Updates" = "अपडेट";
+"File Browser" = "फ़ाइल ब्राउज़र";
+"Dock" = "डॉक";
+"Sidebar" = "साइडबार";
+
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "अपडेट जांच";
+"Uninstall TotalFinder" = "Uninstall टोटलफ़ाइंडर";
+"Restart Finder" = "पुनर्प्रारंभ करें";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "रीसेट करें";
+"Cancel" = "रद्द करें";
+"Do you really want reset to defaults?" = "आप वास्तव में प्रारंभिक सेटिंग्स को बहाल करना चाहते हैं?";
+"This will restore initial TotalFinder settings." = "यह प्रारंभिक टोटलफ़ाइंडर सेटिंग्स को बहाल करेगा.";
+
+/* MainMenu items */
+"TotalFinder" = "टोटलफ़ाइंडर";
+"TotalFinder Preferences…" = "टोटलफ़ाइंडर प्राथमिकताएं…";
+"Visit Homepage…" = "मुखपृष्ठ पर जाएँ…";
+
+/* registration */
+"Licensed to %@" = "लाइसेंस धारक %@";
+"Change License" = "लाइसेंस बदलें";
+"Unregistered version in trial mode" = "अपंजीकृत संस्करण. परीक्षण के लिए";
+"Register" = "पंजीकरण";
+
+/* navigation bar */
+"About" = "About";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "प्रारंभिक टोटलफ़ाइंडर सेटिंग्स को बहाल करें";
+
+"Hide icon in Menu Bar" = "चिह्न मेनू बार में छिपाएँ ";
+"Keep original Dock icon" = "Keep original Dock icon";
+
+/* about page */
+"Check Now" = "अब जाँचें";
+"Automatically check the website for updates" = "स्वचालित रूप से अद्यतन के लिए वेबसाइट की जाँच करें";
+"Include pre-releases" = "पूर्व रिलीज शामिल करें";
+"Participate in TotalFinder testing" = "टोटलफ़ाइंडर जाँच में शामिल हौं";
+
+/* registration */
+"TotalFinder Registration" = "टोटलफ़ाइंडर पंजीकरण";
+"Registration" = "पंजीकरण";
+"Please enter your license details from the email we have sent you:" = "हमारे भेजे हुए ईमेल से अपने लाइसेंस विवरण दर्ज करें:";
+"Buy TotalFinder Now" = "टोटलफ़ाइंडर खरीदें";
+"Thanks for registering!" = "पंजीकरण के लिए धन्यवाद!";
+"This TotalFinder copy is licensed to:" = "This टोटलफ़ाइंडर copy is licensed to:";
+"Close" = "बंद करें";
+"Back" = "वापस";
+"Invalid license code" = "अवैध लाइसेंस कोड";
+"Please go back and try again." = "वापस जायें और फिर से कोशिश करें.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "टोटलफ़ाइंडर लाइसेंस खरीदने के लिए, कृपया BinaryAge वेब स्टोर पर जाएं.";
+"Thank you for using TotalFinder!" = "टोटलफ़ाइंडर का उपयोग करने के लिए धन्यवाद!";
+"License Name" = "लाइसेंस नाम";
+"License Key" = "लाइसेंस कुंजी";
+
+
+/* shortcuts subsystem */
+"Click to record new shortcut" = "नया शॉर्टकट रिकॉर्ड करने के लिए क्लिक करें";
+"Delete shortcut" = "शॉर्टकट हटाएँ";
+"OK" = "अच्छा";
+"Record Shortcut" = "रिकॉर्ड शॉर्टकट";
+"Space" = "अंतर";
+"The key combination %@ cannot be used" = "कुंजी संयोजन %@ का इस्तेमाल नहीं किया जा सकता";
+"This combination cannot be used because it is already used by a system-wide " = "इस संयोजन का इस्तेमाल नहीं किया जा सकता क्योंकि यह पहले से ही सिस्टम व्यापक प्रयोग में है ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "इस शॉर्टकट का इस्तेमाल नहीं किया जा सकता क्योंकि यह पहले से ही इस मेनू आइटम द्वरा इस्तेमाल में है ‘%@’.";
+"Type New Shortcut" = "नया शॉर्टकट टाइप करें";
+"Type Shortcut" = "शॉर्टकट टाइप करें";
+"Use Old Shortcut" = "पुराना शॉर्टकट इस्तेमाल करें";
+
+/* tabs section */
+"Disable tabs completely" = "टैब्स पूरी तरह से निष्क्रिय करें";
+"Do you really want to disable tabs?" = "आप वास्तव में टैब्स निष्क्रिय करना चाहते हैं?";
+"Do you really want to enable tabs?" = "आप वास्तव में टैब सक्रिय करना चाहते हैं?";
+"Tabs" = "टैब्स";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
