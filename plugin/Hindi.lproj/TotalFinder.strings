@@ -1,6 +1,6 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
+"BASIC" = "बुनियादी";
+"SYSTEM" = "तंत्र";
 "Menus" = "मेन्यू";
 "Updates" = "अपडेट";
 "File Browser" = "फ़ाइल ब्राउज़र";
@@ -9,7 +9,7 @@
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "अपडेट जांच";
-"Uninstall TotalFinder" = "Uninstall टोटलफ़ाइंडर";
+"Uninstall TotalFinder" = "टोटलफ़ाइंडर हटायें";
 "Restart Finder" = "पुनर्प्रारंभ करें";
 
 /* Reset to Defaults Alert Box */
@@ -30,13 +30,13 @@
 "Register" = "पंजीकरण";
 
 /* navigation bar */
-"About" = "About";
+"About" = "जानकारी";
 
 /* tweaks page */
 "Reset TotalFinder to defaults" = "प्रारंभिक टोटलफ़ाइंडर सेटिंग्स को बहाल करें";
 
 "Hide icon in Menu Bar" = "चिह्न मेनू बार में छिपाएँ ";
-"Keep original Dock icon" = "Keep original Dock icon";
+"Keep original Dock icon" = "डॉक आइकन ना बदलें";
 
 /* about page */
 "Check Now" = "अब जाँचें";
@@ -50,7 +50,7 @@
 "Please enter your license details from the email we have sent you:" = "हमारे भेजे हुए ईमेल से अपने लाइसेंस विवरण दर्ज करें:";
 "Buy TotalFinder Now" = "टोटलफ़ाइंडर खरीदें";
 "Thanks for registering!" = "पंजीकरण के लिए धन्यवाद!";
-"This TotalFinder copy is licensed to:" = "This टोटलफ़ाइंडर copy is licensed to:";
+"This TotalFinder copy is licensed to:" = "इस टोटलफ़ाइंडर प्रतिलिप के लाइसेंस धारी हैं:";
 "Close" = "बंद करें";
 "Back" = "वापस";
 "Invalid license code" = "अवैध लाइसेंस कोड";
@@ -80,5 +80,5 @@
 "Do you really want to enable tabs?" = "आप वास्तव में टैब सक्रिय करना चाहते हैं?";
 "Tabs" = "टैब्स";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "यह विकल्प प्रभावी ढंग से टोटलफ़ाइंडर में टैब्स मॉड्यूल को निष्क्रिय कर देगा. साथ ही दोहरा मोड और वाइजर कार्यक्षमता भी निष्क्रिय हो जाएगी. इस मेवेरिक्स में इच्छित हो सकता है - अन्य टोटलफ़ाइंडर सुविधाओं का लाभ लेते हुए निवासी टैब का उपयोग करें.\n\nइस कार्य के लिये फ़ाइंडर को पुनः प्रारंभ करना अनिवार्य है!\nनोट: यह करने से पहले कृपया सभी प्रगतिशील फ़ाइंडर कार्य समाप्त कर लें (जैसे कॉपी).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "यह विकल्प प्रभावी ढंग से टोटलफ़ाइंडर में टैब्स मॉड्यूल को सक्रिय कर देगा.\n\nइस कार्य के लिये फ़ाइंडर को पुनः प्रारंभ करना अनिवार्य है!\nनोट: यह करने से पहले कृपया सभी प्रगतिशील फ़ाइंडर कार्य समाप्त कर लें (जैसे कॉपी).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "यह प्रभावी ढंग से टैब्स, दोहरा मोड और वाइजर को निष्क्रिय कर देगा. फ़ाइंडर को पुनः प्रारंभ करना होगा.";
