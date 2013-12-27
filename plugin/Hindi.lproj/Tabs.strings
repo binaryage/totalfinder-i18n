@@ -1,0 +1,28 @@
+"TotalFinder - unregistered version" = "टोटलफ़ाइंडर - अपंजीकृत संस्करण";
+"TotalFinder - 1 day left - buy now!" = "टोटलफ़ाइंडर - १ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 2 days left - buy now!" = "टोटलफ़ाइंडर - २ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 3 days left - buy now!" = "टोटलफ़ाइंडर - ३ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 4 days left - buy now!" = "टोटलफ़ाइंडर - ४ दिन बाकी - अभी खरीदें!";
+"TotalFinder - 5 days left - buy now!" = "टोटलफ़ाइंडर - ५ दिन बाकी - अभी खरीदें!";
+"TotalFinder - %d days left - buy now!" = "टोटलफ़ाइंडर - %d दिन बाकी - अभी खरीदें!";
+"Close Tab" = "टैब बंद करें";
+"Reopen Closed Tab" = "बंद टैब पुनः खोलें";
+"Close Window" = "विंडो बंद करें";
+"Toggle Dual Mode" = "दोहरा अंदाज़ शुरू या बंद करें";
+"Narrow Tabs Bar" = "संकीर्ण टैब पट्टी";
+"Select Next Tab" = "अगला टैब चयन करें";
+"Select Previous Tab" = "पिछला टैब चयन करें";
+"Switch Active Panel" = "सक्रिय पैनल बदलें";
+"Close Native Tab" = "निवासी टैब बंद करें";
+"New Native Tab" = "नया निवासी टैब";
+"Show Next Native Tab" = "अगला निवासी टैब देखें";
+"Show Previous Native Tab" = "पिछला निवासी टैब देखें";
+
+"New Tab" = "नया टैब"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "संकीर्ण टैब पट्टी का प्रयोग करें";
+"Open new tabs with previous location" = "नया टैब पिछले स्थान के साथ खोलें";
+
+/* preferences */
+"Always Maximize" = "हमेशा अधिकतम करें";
+"Freelance Windows" = "फ्रीलांस विंडोज";
+
