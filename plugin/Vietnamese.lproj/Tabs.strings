@@ -6,21 +6,21 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - còn 5 ngày - nagy!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - còn %d ngày - mua ngay!";
 "Close Tab" = "Đóng Tab";
-"Reopen Closed Tab" = "Reopen Closed Tab";
+"Reopen Closed Tab" = "Mở lại những tab đã đóng";
 "Close Window" = "Đóng Cửa Sổ";
 "Toggle Dual Mode" = "Kích hoạt chế độ hai của sổ";
 "Narrow Tabs Bar" = "Tab Hẹp";
 "Select Next Tab" = "Chọn Tab Kế Tiếp";
 "Select Previous Tab" = "Chọn Tab Đằng Sau";
 "Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Close Native Tab" = "Đóng Tab gốc";
+"New Native Tab" = "Tạo Tab gốc";
+"Show Next Native Tab" = "Hiển thị Tab gốc đằng sau";
+"Show Previous Native Tab" = "Hiển thị Tab gốc phía trước";
 
-"New Tab" = "New Tab";
+"New Tab" = "Tab mới";
 "Use narrow Tabs Bar" = "Sử dụng tab hẹp";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "Mở nhiều tab mới với cùng vị trí cũ";
 
 /* preferences */
 "Always Maximize" = "Luôn luôn mở lớn ra";
