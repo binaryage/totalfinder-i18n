@@ -69,16 +69,16 @@
 "Space" = "Espace";
 "The key combination %@ cannot be used" = "La combinaison de touche %@ ne peut être utilisée";
 "This combination cannot be used because it is already used by a system-wide " = "Cette combinaison ne peut être utilisée car elle l'est déjà au niveau du système ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ce raccourci ne peut être utilisé car il l'est déjà par l'élément de menu ‘%@’.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ce raccourci ne peut être utilisé car il l'est déjà par l'élément de menu « %@ ».";
 "Type New Shortcut" = "Taper le nouveau raccourci";
 "Type Shortcut" = "Taper le raccourci";
 "Use Old Shortcut" = "Utiliser l'ancien raccourci";
 
 /* tabs section */
-"Disable tabs completely" = "Désactiver les onglets complétement";
-"Do you really want to disable tabs?" = "Voulez-vous vraiment désactiver les onglets ?";
-"Do you really want to enable tabs?" = "Voulez-vous vraiment activer les onglets ?";
+"Disable tabs completely" = "Désactiver complètement les onglets";
+"Do you really want to disable tabs?" = "Voulez-vous désactiver les onglets ?";
+"Do you really want to enable tabs?" = "Voulez-vous activer les onglets ?";
 "Tabs" = "Onglets";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option désactivera le module d'onglets de TotalFinder. En pratique, le mode dual et la fonctionalité visor seront également désactivés. Ce peut être voulu sous Mavericks - utiliser les onglets natifs du Finder exclusivement en gardant les avantages des autres fonctionalités de TotalFinder.\n\nPour cette opération, le Finder doit être relancé!\nNote: Avant de redemarrer, merci de terminer toutes les tâches en cours du Finder (lcomme copier ou déplacer des fichiers).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option activera le module d'onglets de TotalFinder.\n\nPour cette opération, le Finder doit être relancé!\nNote: Avant de redemarrer, merci de terminer toutes les tâches en cours du Finder (lcomme copier ou déplacer des fichiers).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Cela désactivera les onglets, le mode dual et visor. Un redémarrage du Finder est requis.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option désactivera les onglets de TotalFinder. En pratique, le mode double et la fonction Visor seront aussi désactivés. Ce peut être voulu sous Mavericks : pour utiliser seulement les onglets natifs du Finder tout en bénéficiant des autres fonctions de TotalFinder.\n\nPour cette opération, le Finder doit être relancé !\nN.B. Merci d'attendre d'abord la fin des tâches en cours du Finder (comme copier ou déplacer des fichiers).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option activera les onglets de TotalFinder.\n\nPour cette opération, le Finder doit être relancé !\nN.B. Merci d'attendre d'abord la fin des tâches en cours du Finder (comme copier ou déplacer des fichiers).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Pour désactiver les onglets, le mode double et Visor. Un redémarrage du Finder est nécessaire.";
