@@ -1,10 +1,10 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
-"Dock" = "Dock";
+"BASIC" = "CƠ BẢN";
+"SYSTEM" = "HỆ THỐNG";
+"Menus" = "Thực đơn";
+"Updates" = "Cập nhật";
+"File Browser" = "Trình quản lý file";
+"Dock" = "Thanh Dock";
 "Sidebar" = "Sidebar";
 
 /* TotalFinder Status Menu Item */
@@ -15,13 +15,13 @@
 /* Reset to Defaults Alert Box */
 "Reset" = "Khôi phục lại";
 "Cancel" = "Huỷ";
-"Do you really want reset to defaults?" = "Bản có muốn khôi phục lại như mặc định?";
+"Do you really want reset to defaults?" = "Bạn có muốn khôi phục lại như mặc định?";
 "This will restore initial TotalFinder settings." = "Khôi phục lại như sắp đặt ban đầu.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
 "TotalFinder Preferences…" = "TotalFinder Tuỳ chọn...";
-"Visit Homepage…" = "Viếng Thăm Trang Chủ…";
+"Visit Homepage…" = "Đi đến Trang chủ…";
 
 /* registration */
 "Licensed to %@" = "Giấy phép cho %@";
@@ -41,7 +41,7 @@
 /* about page */
 "Check Now" = "Kiểm tra ngay";
 "Automatically check the website for updates" = "Tự đông kiểm tra cập nhật mới";
-"Include pre-releases" = "Bảo gồm phiên bản pre-releases";
+"Include pre-releases" = "Bảo gồm phiên bản phát hành trước";
 "Participate in TotalFinder testing" = "Tham dự trương trình thử nghiệm TotalFinder";
 
 /* registration */
@@ -57,28 +57,28 @@
 "Please go back and try again." = "Vui lòng thử lại";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Mua bản quyền TotalFinder, vui lòng viếng thăm của hàng online BinaryAge";
 "Thank you for using TotalFinder!" = "Cảm ơn bạn đã sử dụng TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"License Name" = "Tên Bản quyền";
+"License Key" = "Mã Bản quyền";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
-"OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Click to record new shortcut" = "Nhấn để ghi phím tắt mới";
+"Delete shortcut" = "Xóa phím tắt";
+"OK" = "Đồng ý";
+"Record Shortcut" = "Ghi phím tắt";
+"Space" = "Khoảng trống";
+"The key combination %@ cannot be used" = "Phím kết hợp %@ không thể dùng";
+"This combination cannot be used because it is already used by a system-wide" = "Sự kết hợp này không thể dùng bởi vì nó đang được dùng bởi hệ thống  ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Phím tắt này không thể dùng bởi vì nó đang được dùng bởi mục ‘%@’.";
+"Type New Shortcut" = "Gõ phím tắt mới";
+"Type Shortcut" = "Gõ phím tắt";
+"Use Old Shortcut" = "Dùng phím tắt cũ";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Tắt toàn bộ các tab";
+"Do you really want to disable tabs?" = "Bạn có thực sự muốn tắt toàn bộ tab?";
+"Do you really want to enable tabs?" = "Bạn có thực sự muốn bật toàn bộ tab?";
 "Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder. Để hiệu lực yêu cầu chế độ song song và visor cũng sẽ bị tắt theo. Điều này phải thực hiện trên Mavericks - sử dụng hạn chế tab Finder đơn thuần để có thể giữ lại các chức năng của TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại!\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại.\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Điều này sẽ tắt các tab ngay tức thì, chế độ song song hay visor. Finder cần được khởi động lại.";

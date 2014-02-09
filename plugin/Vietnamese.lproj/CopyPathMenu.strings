@@ -4,6 +4,6 @@
 "Windows Path" = "Đường Dẫn Cửa Sổ";
 "HFS Path" = "Đường Dẫn HFS";
 "Terminal Path" = "Đường Dẫn Terminal";
-"UNC Path" = "UNC Path";
+"UNC Path" = "Đường dẫn UNC";
 
 "Allow path copying from Context Menus" = "Cho phép đường dẫn sao chép từ menu ngữ cảnh";
