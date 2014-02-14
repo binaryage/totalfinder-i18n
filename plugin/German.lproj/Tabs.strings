@@ -13,13 +13,13 @@
 "Select Next Tab" = "Nächster Tab";
 "Select Previous Tab" = "Vorheriger Tab";
 "Switch Active Panel" = "Aktives Panel wechseln";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
+"Close Native Tab" = "Schließe nativen Tab";
+"New Native Tab" = "Neuer nativer Tab";
+"Show Next Native Tab" = "Zeige nächsten nativen Tab";
+"Show Previous Native Tab" = "Zeige letzten nativen Tab";
 
 "New Tab" = "Neuer Tab";
-"Use narrow Tabs Bar" = "Tableiste verkleinern";
+"Use narrow Tabs Bar" = "Benutze schmale Tableiste";
 "Open new tabs with previous location" = "Neue Tabs an zuletzt besuchtem Ort öffnen";
 
 /* preferences */

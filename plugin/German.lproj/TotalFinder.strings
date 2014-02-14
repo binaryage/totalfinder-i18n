@@ -1,7 +1,7 @@
 /* preferences */
 "BASIC" = "BASIC";
 "SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
+"Menus" = "Menüs";
 "Updates" = "Updates";
 "File Browser" = "Dateibrowser";
 "Dock" = "Dock";
@@ -62,23 +62,23 @@
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Hier klicken um neues Tastenkürzel zu speichern";
+"Delete shortcut" = "Lösche Tastenkürzel";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Record Shortcut" = "Speichere Tastenkürzel";
+"Space" = "Leerzeichen";
+"The key combination %@ cannot be used" = "Die Tastenkombination %@ kann nicht benutzt werden";
+"This combination cannot be used because it is already used by a system-wide " = "Diese Kombination kann nicht benutzt werden, da sie bereits vom System benutzt wird ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Diese Kombination kann nicht benutzt werden da sie bereits vom Menüpunkt ‘%@’ benutzt wird.";
+"Type New Shortcut" = "Tippe neues Tastenkürzel";
+"Type Shortcut" = "Tippe Tastenkürzel";
+"Use Old Shortcut" = "Benutze altes Tastenkürzel";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Deaktiviere Tabs komplett";
+"Do you really want to disable tabs?" = "Möchtest du Tabs wirklich deaktivieren?";
+"Do you really want to enable tabs?" = "Möchtest du Tabs wirklich aktivieren?";
 "Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Diese Option wird sofort alle Tab Module in TotalFinder deaktivieren. Selbst der Dualmodus und die Visor Funktion werden deaktiviert. Dies ist eventuell erwünschtes Verhalten unter Mavericks - benutze ausschließlich native Tabs während du weiterhin die Vorteile der TotalFinder Features hast.\n\nHierfür muss der Finder neu gestartet werden!\nAnmerkung: Beende alle laufenden Vorgänge bevor du den Finder neu startest (wie Kopieren oder Verschieben von Dateien).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Diese Option aktiviert alle Tab Funktionen in TotalFinder.\n\nHierfür muss der Finder neu gestartet werden!\nAnmerkung: Beende alle laufenden Vorgänge bevor du den Finder neu startest (wie Kopieren oder Verschieben von Dateien).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Dies wird Tabs, den Dualmodus und Visor ausschalten. Der Finder muss neu gestartet werden.";
