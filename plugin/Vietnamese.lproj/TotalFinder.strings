@@ -68,7 +68,7 @@
 "Record Shortcut" = "Ghi phím tắt";
 "Space" = "Khoảng trống";
 "The key combination %@ cannot be used" = "Phím kết hợp %@ không thể dùng";
-"This combination cannot be used because it is already used by a system-wide" = "Sự kết hợp này không thể dùng bởi vì nó đang được dùng bởi hệ thống  ";
+"This combination cannot be used because it is already used by a system-wide " = "This combination cannot be used because it is already used by a system-wide ";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Phím tắt này không thể dùng bởi vì nó đang được dùng bởi mục ‘%@’.";
 "Type New Shortcut" = "Gõ phím tắt mới";
 "Type Shortcut" = "Gõ phím tắt";
