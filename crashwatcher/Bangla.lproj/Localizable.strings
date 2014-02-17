@@ -1,0 +1,20 @@
+"crashDialogHeader" = "অনাকাঙ্খিতভাবে টোটালফাইন্ডার বন্ধ হয়ে গিয়েছে";
+"crashDialogMsg" = "দুঃখিত, টোটালফাইন্ডার একটি অনাকাঙ্খিত ত্রুটির কারণে ফাইন্ডারকে বন্ধ করে ফেলেছে!";
+"crashDialogNote" = "দ্রষ্টব্য: ফাইন্ডার আপনা আপনি চালু হয়েছে কিন্তু আপনাকে TotalFinder.app আলাদাভাবে চালু করতে হবে।";
+"crashDialogExplanation" = "আপলোড বোতামটি চাপলে আপনার ত্রুটির বিবরণ gist.github.com ঠিকানায় আপলোড হবে এবং একটি ট্যাম্প্লেট সহ Mail.app চালু হবে।";
+
+"failDialogHeader" = "ত্রুটির বিবরণ gist.github.com-তে আপলোড করা যায়নি";
+"failDialogMsg1" = "ওহ্, আমিতো ~/Logs/CrashReporter ফোল্ডারে তোমার ত্রুটির বিবরণ খুঁজেই পেলামনা।";
+"failDialogMsg2" = "আমি তোমার ত্রুটির বিবরণ পেয়েছি কিন্তু কোনো কারণে gist.github.com ঠিকানায় আপলোড করতে পারিনি।\n\nজরুরী হলে, তুমি আমাকে \n%@ ঠিকানায় ইমেইল করতে পারো।";
+"failDialogOK" = "ঠিক আছে";
+
+"sendReportButton" = "ইমেইল করো";
+"cancelButton" = "বাতিল";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d সেকেন্ড বাকী আছে।";
+"countdownMsgSecondSingular" = "%d সেকেন্ড বাকী আছে।";
+
+"countdownMsgMinutesPlural" = "%d মিনিট বাকী আছে।";
+"countdownMsgMinuteSingular" = "%d মিনিট বাকী আছে।";

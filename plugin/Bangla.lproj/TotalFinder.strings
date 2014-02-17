@@ -1,0 +1,84 @@
+/* preferences */
+"BASIC" = "সাধারণ";
+"SYSTEM" = "সিস্টেম";
+"Menus" = "মেন্যু";
+"Updates" = "আপডেট";
+"File Browser" = "ফাইল ব্রাউজার";
+"Dock" = "ডক";
+"Sidebar" = "সাইডবার";
+
+/* TotalFinder Status Menu Item */
+"Check for Updates" = "আপডেট খুঁজবে";
+"Uninstall TotalFinder" = "টোটালফাইন্ডার মুছে ফেলবে";
+"Restart Finder" = "ফাইন্ডার পুনরায় আরম্ভ করবে";
+
+/* Reset to Defaults Alert Box */
+"Reset" = "রিসেট";
+"Cancel" = "বাতিল";
+"Do you really want reset to defaults?" = "তুমি কি সত্যিই স্বাভাবিক অবস্থায় ফিরে যেতে চাও?";
+"This will restore initial TotalFinder settings." = "এটা টোটালফাইন্ডারের স্বাভাবিক সেটিং-এ ফেরৎ যাবে";
+
+/* MainMenu items */
+"TotalFinder" = "টোটালফাইন্ডার";
+"TotalFinder Preferences…" = "টোটালফাইন্ডারের পছন্দসমূহ…";
+"Visit Homepage…" = "নীড়পাতায় যাও…";
+
+/* registration */
+"Licensed to %@" = "%@ নিবন্ধন করেছে";
+"Change License" = "নিবন্ধন পরিবর্তন";
+"Unregistered version in trial mode" = "পরীক্ষার জন্য অনিবন্ধিত সংস্করণ";
+"Register" = "নিবন্ধন";
+
+/* navigation bar */
+"About" = "সম্পর্কে";
+
+/* tweaks page */
+"Reset TotalFinder to defaults" = "টোটালফাইন্ডারকে স্বাভাবিক অবস্থায় রিসেট করবে";
+
+"Hide icon in Menu Bar" = "মেন্যুবারের চিহ্ন লুকাবে";
+"Keep original Dock icon" = "ডকে মূল চিহ্নটি রাখবে";
+
+/* about page */
+"Check Now" = "এখনি দেখো";
+"Automatically check the website for updates" = "সয়ংক্রিয়ভাবে ওয়েবসাইটে আপডেট খুঁজবে";
+"Include pre-releases" = "পরীক্ষামূলক সংষ্করণ সহ";
+"Participate in TotalFinder testing" = "টোটালফাইন্ডার পরীক্ষায় অংশগ্রহণ করো";
+
+/* registration */
+"TotalFinder Registration" = "টোটালফাইন্ডার নিবন্ধন";
+"Registration" = "নিবন্ধন";
+"Please enter your license details from the email we have sent you:" = "আমাদের দেয়া ইমেইল থেকে নিবন্ধনের বিস্তারিত এখানে প্রবেশ করো:";
+"Buy TotalFinder Now" = "এক্ষুনি টোটালফাইন্ডার কিনে ফেলো";
+"Thanks for registering!" = "নিবন্ধন করার জন্য ধন্যবাদ!";
+"This TotalFinder copy is licensed to:" = "এই টোটালফাইন্ডারটি নিবন্ধিত রয়েছে:";
+"Close" = "বন্ধ";
+"Back" = "পেছনে";
+"Invalid license code" = "নিবন্ধনের কোডটি সঠিক না";
+"Please go back and try again." = "অনুগ্রহ করে পেছনে গিয়ে আবার চেষ্টা করো";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "টোটালফাইন্ডার নিবন্ধন করার জন্য অনুগ্রহ করে BinaryAge ওয়েবস্টোরে যাও।";
+"Thank you for using TotalFinder!" = "টোটালফাইন্ডার ব্যবহার করার জন্য তোমাকে ধন্যবাদ!";
+"License Name" = "নিবন্ধনের নাম";
+"License Key" = "নিবন্ধন কোড";
+
+
+/* shortcuts subsystem */
+"Click to record new shortcut" = "নতুন শর্টকাট ধরণ করার জন্য ক্লিক্ করো";
+"Delete shortcut" = "শর্টকাট মুছবে";
+"OK" = "ঠিক আছে";
+"Record Shortcut" = "শর্টকাট ধারণ করবে";
+"Space" = "স্পেস";
+"The key combination %@ cannot be used" = "%@ সমন্বয়টি ব্যবহার করা যাবেনা";
+"This combination cannot be used because it is already used by a system-wide " = " এই সমন্বয়টি ব্যবহার করা যাবেনা কারণ সিস্টেমে এটা আগে থেকেই ব্যবহৃত হচ্ছে ";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "‘%@’ শর্টকাটটি আগে আগে থেকেই মেন্যুতে ব্যবহৃত হচ্ছে।";
+"Type New Shortcut" = "নতুন শর্টকাট প্রবেশ করাও";
+"Type Shortcut" = "শর্টকাট প্রবেশ করাও";
+"Use Old Shortcut" = "পুরাতন শর্টকাট ব্যবহার করবে";
+
+/* tabs section */
+"Disable tabs completely" = "সম্পুর্ণভাবে ট্যাব অকার্যকর থাকবে";
+"Do you really want to disable tabs?" = "সত্যই তুমি ট্যাব অকার্যকর করতে চাও?";
+"Do you really want to enable tabs?" = "সত্যই তুমি ট্যাব কার্যকর করতে চাও?";
+"Tabs" = "ট্যাব";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "এই অপশনটি টোটালফাইন্ডারে ট্যাব মডিউলটি অকার্যকর করে রাখবে। ফলস্বরূপ ডুয়েল মোডে ভাইসর কার্যক্রমটিও অকেজো হয়ে যাবে। তুমি ম্যভরিক্সের নিজস্ব ট্যব সহ টোটালফাইন্ডারের অন্যান্য কার্যক্রম ব্যবহার করতে চাইলে এটি বন্ধ করতে পারো।\n\nএই কার্যক্রমের জন্য ফাইন্ডার নতুন করে চালু হবে!\nদ্রষ্টব্য: ফাইন্ডার নুতন করে চালু হওয়ার আগে তুমি ফাইন্ডারের চলন্ত কার্যক্রম (যেমন ফাইল কপি ইত্যাদি) শেষ করে নাও।";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "এটা ট্যাব, ডুয়েল মোড ভাইসর বন্ধ করে ফেলবে। ফাইন্ডার পুনরায় চালু করতে হবে।";
