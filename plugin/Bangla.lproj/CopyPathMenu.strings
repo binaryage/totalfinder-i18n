@@ -1,0 +1,9 @@
+"Copy Path" = "পাথ কপি";
+"POSIX Path" = "POSIX পাথ";
+"URL" = "URL";
+"Windows Path" = "উইন্ডোজ পাথ";
+"HFS Path" = "HFS পাথ";
+"Terminal Path" = "টার্মিনাল পাথ";
+"UNC Path" = "UNC পাথ";
+
+"Allow path copying from Context Menus" = "কনটেক্সট মেন্যু থেকে পাথ কপি করা যাবে";

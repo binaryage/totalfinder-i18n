@@ -1,0 +1,13 @@
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "এডিট";
+"Cut" = "কাট্";
+"Cut “%@”" = "“%@” কাট্";
+"Cut %u Items" = "%u কাট্";
+"Paste" = "পেস্ট";
+"Paste %u Items" = "%u পেস্ট";
+"Copy" = "কপি";
+
+"Show CutPaste buttons in Context Menus" = "কনটেক্সট মেন্যুতে কাট-পেস্ট বাটন দেখা যাবে";
