@@ -75,10 +75,10 @@
 "Use Old Shortcut" = "이전 단축키 사용";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "탭을 완전히 비활성화";
+"Do you really want to disable tabs?" = "정말로 탭을 비활성화하시겠습니까?";
+"Do you really want to enable tabs?" = "정말로 탭을 활성화하시겠습니까?";
 "Tabs" = "탭";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "이 설정은 TotalFinder의 탭 모듈을 완전히 비활성화합니다. 그와 함께 듀얼 모드와 붙박이창 기능이 비활성화됩니다. Mavericks에서는 Finder의 네이티브 탭만을 사용하면서 TotalFinder의 다른 기능을 계속 사용할 수 있기 때문에 비활성화하는 것이 좋습니다.\n\n이 설정을 적용하려면 Finder를 재시작해야 합니다!\n참고: 복사나 이동 같은 모든 Finder 작업을 완료한 후에 재시작해 주세요.";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "이 설정은 TotalFinder의 탭 모듈을 완전히 비활성화합니다.\n\n이 설정을 적용하려면 Finder를 재시작해야 합니다!\n참고: 복사나 이동 같은 모든 Finder 작업을 완료한 후에 재시작해 주세요.";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "이 설정은 TotalFinder의 탭, 듀얼 모드, 붙박이창 기능을 완전히 비활성화합니다. Finder 재시작이 필요합니다.";
