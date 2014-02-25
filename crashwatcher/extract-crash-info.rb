@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
 
+def parse_module_version(content)
+  m = content.match(/\+\s*com.binaryage.totalfinder\s*\((.*?)\)/m)
+  return nil if m.nil?
+  # m[1] == 1.5.18 - 1.5.18
+  m[1].split("-")[0].strip
+end
+
 def parse_special_info(content)
   # "recent swizzled method" can appear in TotalFinder crash logs since v1.4.18
   m = content.match(/recent swizzled method:(.*?)\n/m)
@@ -43,14 +50,16 @@ end
 file = ARGV[0]
 content = File.read(file)
 
-res = ""
+res = "TotalFinder "
 
 begin
+  mversion = parse_module_version(content)
+  res += "#{mversion} " if mversion
   plugin = parse_special_info(content)
   plugin = parse_plugin_identifier(content) unless plugin
   plugin = find_first_ba_module(content) unless plugin
   plugin.strip!
-  res += "in " + plugin.gsub("com.binaryage.", "") + " " if plugin.size
+  res += "crashed in " + plugin.gsub("com.binaryage.totalfinder.", "") + " " if plugin.size
 rescue
 end
 
