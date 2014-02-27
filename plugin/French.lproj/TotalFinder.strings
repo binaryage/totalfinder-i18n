@@ -39,7 +39,7 @@
 "Keep original Dock icon" = "Conserver l'icône d'origine du Dock";
 
 /* about page */
-"Check Now" = "Vérifier maintenant";
+"Check Now" = "Maintenant";
 "Automatically check the website for updates" = "Mise à jour automatique via le site Web";
 "Include pre-releases" = "Inclure les préversions";
 "Participate in TotalFinder testing" = "Participation aux tests de TotalFinder";
@@ -81,4 +81,4 @@
 "Tabs" = "Onglets";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option désactivera les onglets de TotalFinder. En pratique, le mode double et la fonction Visor seront aussi désactivés. Ce peut être voulu sous Mavericks : pour utiliser seulement les onglets natifs du Finder tout en bénéficiant des autres fonctions de TotalFinder.\n\nPour cette opération, le Finder doit être relancé !\nN.B. Merci d'attendre d'abord la fin des tâches en cours du Finder (comme copier ou déplacer des fichiers).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Cette option activera les onglets de TotalFinder.\n\nPour cette opération, le Finder doit être relancé !\nN.B. Merci d'attendre d'abord la fin des tâches en cours du Finder (comme copier ou déplacer des fichiers).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Pour désactiver les onglets, le mode double et Visor. Un redémarrage du Finder est nécessaire.";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Désactivation des onglets, du mode double et de Visor. Un redémarrage du Finder est nécessaire.";
