@@ -1,0 +1,37 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independet from other strings.
+
+Without this in English some keys would be shared for menu items and preferences, 
+which would make it uneasy to localize them in other languages properly 
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Kinnita Visor";
+"MenuItem:Close Tab" = "Sulge Vaheleht";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "Uus Vaheleht";
+"MenuItem:Reopen Closed Tab" = "Ava Uuesti Suletud Vaheleht";
+"MenuItem:Close Window" = "Sulge Aken";
+"MenuItem:Toggle Dual Mode" = "Lülitu Paarisaknarežiimi";
+"MenuItem:Narrow Tabs Bar" = "Kitsas Vahelehe Riba";
+"MenuItem:Select Previous Tab" = "Vali Eelmine Vaheleht";
+"MenuItem:Select Next Tab" = "Vali Järgmine Vaheleht";
+"MenuItem:Switch Active Panel" = "Vaheta Aktiivset Paneeli";
+"MenuItem:Folders on Top" = "Kaustad Üleval";
+"MenuItem:Show System Files" = "Näita Süsteemi Faile";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/

@@ -1,0 +1,37 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independet from other strings.
+
+Without this in English some keys would be shared for menu items and preferences, 
+which would make it uneasy to localize them in other languages properly 
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "固定滑入視窗:";
+"MenuItem:Close Tab" = "關閉分頁";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "重开關閉的視窗";
+"MenuItem:Close Window" = "關閉視窗";
+"MenuItem:Toggle Dual Mode" = "切換雙視窗模式";
+"MenuItem:Narrow Tabs Bar" = "較窄分頁列";
+"MenuItem:Select Previous Tab" = "選取上一個分頁";
+"MenuItem:Select Next Tab" = "選取下一個分頁";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "檔案夾置頂";
+"MenuItem:Show System Files" = "顯示系統檔案";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/

@@ -1,0 +1,37 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independet from other strings.
+
+Without this in English some keys would be shared for menu items and preferences, 
+which would make it uneasy to localize them in other languages properly 
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Visor хатгах";
+"MenuItem:Close Tab" = "Tab хаах";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "Цонх хаах";
+"MenuItem:Toggle Dual Mode" = "Дуал горим";
+"MenuItem:Narrow Tabs Bar" = "Нарийн таб";
+"MenuItem:Select Previous Tab" = "Өмнөх таб сонгох";
+"MenuItem:Select Next Tab" = "Дараагийн таб сонгох";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "Хавтасууд дээр харагдах";
+"MenuItem:Show System Files" = "Системийн файлыг харуулах";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/

@@ -1,0 +1,37 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independet from other strings.
+
+Without this in English some keys would be shared for menu items and preferences, 
+which would make it uneasy to localize them in other languages properly 
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Ghim Visor";
+"MenuItem:Close Tab" = "Đóng Tab";
+"MenuItem:New Native Tab" = "Tạo Tab gốc";
+"MenuItem:Close Native Tab" = "Đóng Tab gốc";
+"MenuItem:Show Previous Native Tab" = "Hiển thị Tab gốc phía trước";
+"MenuItem:Show Next Native Tab" = "Hiển thị Tab gốc đằng sau";
+"MenuItem:New Tab" = "Tab mới";
+"MenuItem:Reopen Closed Tab" = "Mở lại những tab đã đóng";
+"MenuItem:Close Window" = "Đóng Cửa Sổ";
+"MenuItem:Toggle Dual Mode" = "Kích hoạt chế độ hai của sổ";
+"MenuItem:Narrow Tabs Bar" = "Tab Hẹp";
+"MenuItem:Select Previous Tab" = "Chọn Tab Đằng Sau";
+"MenuItem:Select Next Tab" = "Chọn Tab Kế Tiếp";
+"MenuItem:Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
+"MenuItem:Folders on Top" = "Xếp thư mục trên cùng";
+"MenuItem:Show System Files" = "Hiển thị file hệ thống";
+"MenuItem:Column View Auto Width" = "Tự động độ rộng Cột Hiển thị";
+"MenuItem:Dock Progress Bar" = "Đính thanh Tiến trình";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/

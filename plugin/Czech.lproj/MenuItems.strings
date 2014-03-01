@@ -1,0 +1,37 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independet from other strings.
+
+Without this in English some keys would be shared for menu items and preferences, 
+which would make it uneasy to localize them in other languages properly 
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Přišpendlit";
+"MenuItem:Close Tab" = "Zavřít tab";
+"MenuItem:New Native Tab" = "Nový nativní tab";
+"MenuItem:Close Native Tab" = "Zavřít nativní tab";
+"MenuItem:Show Previous Native Tab" = "Zobrazit předchozí nativní ab";
+"MenuItem:Show Next Native Tab" = "Zobrazit následující nativní tab";
+"MenuItem:New Tab" = "Nový tab";
+"MenuItem:Reopen Closed Tab" = "Otevřít zavřený tab";
+"MenuItem:Close Window" = "Zavřít okno";
+"MenuItem:Toggle Dual Mode" = "Přepnout dualní panel";
+"MenuItem:Narrow Tabs Bar" = "Štíhlé taby";
+"MenuItem:Select Previous Tab" = "Předchozí tab";
+"MenuItem:Select Next Tab" = "Následující tab";
+"MenuItem:Switch Active Panel" = "Přepnout aktivní panel";
+"MenuItem:Folders on Top" = "Adresáře nahoru";
+"MenuItem:Show System Files" = "Zobrazit skryté";
+"MenuItem:Column View Auto Width" = "Automatické rozšířování sloupců";
+"MenuItem:Dock Progress Bar" = "Idikátor průběhu v Docku";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/

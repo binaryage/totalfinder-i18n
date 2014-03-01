@@ -1,0 +1,37 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independet from other strings.
+
+Without this in English some keys would be shared for menu items and preferences, 
+which would make it uneasy to localize them in other languages properly 
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Zakači Vizir";
+"MenuItem:Close Tab" = "Zatvori karticu";
+"MenuItem:New Native Tab" = "Nova izvorna kartica";
+"MenuItem:Close Native Tab" = "Zatvori izvornu karticu";
+"MenuItem:Show Previous Native Tab" = "Prikaži prethodnu izvornu karticu";
+"MenuItem:Show Next Native Tab" = "Prikaži sljedeću izvornu karticu";
+"MenuItem:New Tab" = "Nova kartica";
+"MenuItem:Reopen Closed Tab" = "Ponovo otvori karticu";
+"MenuItem:Close Window" = "Zatvori prozor";
+"MenuItem:Toggle Dual Mode" = "Prebaci Dual môd";
+"MenuItem:Narrow Tabs Bar" = "Uska traka kartica";
+"MenuItem:Select Previous Tab" = "Odaberi prethodnu karticu";
+"MenuItem:Select Next Tab" = "Odaberi sljedeću karticu";
+"MenuItem:Switch Active Panel" = "Prebaci aktivni panel";
+"MenuItem:Folders on Top" = "Mape na vrhu";
+"MenuItem:Show System Files" = "Prikaz datoteka sustava";
+"MenuItem:Column View Auto Width" = "Automatska širina stupca za pregled";
+"MenuItem:Dock Progress Bar" = "Traka napretka u Docku";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
