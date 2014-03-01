@@ -21,12 +21,12 @@ which would make it uneasy to localize them in other languages properly
 "MenuItem:Reopen Closed Tab" = "Rouvrir l'onglet fermé";
 "MenuItem:Close Window" = "Fermer la fenêtre";
 "MenuItem:Toggle Dual Mode" = "Mode double";
-"MenuItem:Narrow Tabs Bar" = "Compacter la barre d'onglets";
+"MenuItem:Narrow Tabs Bar" = "Barre d'onglets compacte";
 "MenuItem:Select Previous Tab" = "Sélectionner l'onglet précédent";
 "MenuItem:Select Next Tab" = "Sélectionner l'onglet suivant";
 "MenuItem:Switch Active Panel" = "Commuter le panneau actif";
-"MenuItem:Folders on Top" = "Afficher les dossiers en haut";
-"MenuItem:Show System Files" = "Afficher les fichiers système";
+"MenuItem:Folders on Top" = "Dossiers placés en haut";
+"MenuItem:Show System Files" = "Fichiers système visibles";
 "MenuItem:Column View Auto Width" = "Largeur des colonnes automatique";
 "MenuItem:Dock Progress Bar" = "Barre de progression du Dock";
 
