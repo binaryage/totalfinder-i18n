@@ -3,10 +3,10 @@
 menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
 
 The goal is to distinguish them from normal string keys and 
-allow menu item localization to be independet from other strings.
+allow menu item localization to be independent from other strings.
 
-Without this in English some keys would be shared for menu items and preferences, 
-which would make it uneasy to localize them in other languages properly 
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
 => this will prevent it.
 
 */
