@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5051" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="3338"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5051"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="5051"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TFShellPreferencesController">
@@ -179,7 +179,7 @@
                     </connections>
                 </webView>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="134">
-                    <rect key="frame" x="18" y="153" width="217" height="17"/>
+                    <rect key="frame" x="18" y="153" width="444" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Thank you for using TotalFinder!" usesSingleLineMode="YES" id="135">
                         <font key="font" metaFont="system"/>
@@ -209,15 +209,16 @@
                 </button>
             </subviews>
             <constraints>
-                <constraint firstItem="134" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="144"/>
                 <constraint firstItem="133" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="148"/>
                 <constraint firstAttribute="trailing" secondItem="133" secondAttribute="trailing" constant="20" symbolic="YES" id="150"/>
                 <constraint firstItem="293" firstAttribute="top" secondItem="1" secondAttribute="top" constant="20" symbolic="YES" id="297"/>
                 <constraint firstItem="293" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="298"/>
-                <constraint firstItem="134" firstAttribute="top" secondItem="293" secondAttribute="bottom" constant="8" symbolic="YES" id="300"/>
-                <constraint firstItem="133" firstAttribute="top" secondItem="134" secondAttribute="bottom" constant="8" symbolic="YES" id="301"/>
                 <constraint firstItem="308" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="312"/>
                 <constraint firstItem="308" firstAttribute="bottom" secondItem="1" secondAttribute="bottom" id="314"/>
+                <constraint firstItem="134" firstAttribute="leading" secondItem="293" secondAttribute="leading" id="Cxh-45-C83"/>
+                <constraint firstItem="134" firstAttribute="top" secondItem="293" secondAttribute="bottom" constant="8" symbolic="YES" id="Omi-6z-SoP"/>
+                <constraint firstItem="134" firstAttribute="trailing" secondItem="133" secondAttribute="trailing" id="iWI-4i-aCd"/>
+                <constraint firstItem="133" firstAttribute="top" secondItem="134" secondAttribute="bottom" constant="8" symbolic="YES" id="lyt-Gf-2Gt"/>
             </constraints>
         </customView>
         <customObject id="221" userLabel="About Localizer" customClass="GTMUILocalizer">
