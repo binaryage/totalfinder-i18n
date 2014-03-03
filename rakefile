@@ -345,6 +345,50 @@ def inprint_strings(source, dest, shared_originals=[])
   strings
 end
 
+def find_key(key, lines)
+  lines.each do |line|
+    next unless (line.strip[0...1]=='"')
+    line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
+    needle = $1
+    haystack = $2
+    die "syntax error in " + dest.blue+":"+index.to_s unless $1 and $2
+    return haystack if needle==key
+  end
+  
+  nil
+end
+
+def post_process_menuitems(dest, shared_originals=[])
+  strings = parse_strings_file(dest)
+  
+  strings.map! do |line|
+    next line unless (line.strip[0...1]=='"')
+
+    line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
+    die "syntax error in " + source.blue+":"+index.to_s unless $1
+
+    key = $1
+    val = $2
+    rest = $3
+    
+    if (key==val) then
+      # try to lookup exitsting val
+      translated_val = find_key(key.gsub("MenuItem:", ""), shared_originals)
+      unless translated_val.nil? then
+        line = key + " = " + translated_val + ";" + rest + "\n";
+      end
+    end
+
+    line
+  end
+  
+  File.open(dest, "w") do |f|
+    f << strings.join
+  end
+
+  strings
+end
+
 def propagate_english_to_cwd
   puts Dir.pwd.blue
   total = 0
