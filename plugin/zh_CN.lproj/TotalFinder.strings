@@ -68,7 +68,7 @@
 "Record Shortcut" = "录制快捷方式";
 "Space" = "Space";
 "The key combination %@ cannot be used" = "无法使用此按键组合 %@";
-"This combination cannot be used because it is already used by a system-wide " = "无法使用此按键组合，因为其已经被一个系统快捷键使用 ";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "无法使用此按键组合，因为其已经被菜单项目‘%@’使用。";
 "Type New Shortcut" = "键入新快捷方式";
 "Type Shortcut" = "键入快捷方式";

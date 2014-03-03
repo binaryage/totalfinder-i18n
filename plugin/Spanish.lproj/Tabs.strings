@@ -6,17 +6,7 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 días restantes - ¡cómpralo ahora!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d días restantes - ¡cómpralo ahora!";
 "Close Tab" = "Cerrar pestaña";
-"Reopen Closed Tab" = "Restaurar pestaña cerrada";
-"Close Window" = "Cerrar ventana";
 "Toggle Dual Mode" = "Desplegar modo dual";
-"Narrow Tabs Bar" = "Barra de pestañas estrecha";
-"Select Next Tab" = "Seleccionar pestaña siguiente"; /* Safari's and Chrome's translation: "Seleccionar pestaña siguiente" */
-"Select Previous Tab" = "Seleccionar pestaña anterior";
-"Switch Active Panel" = "Cambiar el panel activo";
-"Close Native Tab" = "Cerrar pestaña nativa";
-"New Native Tab" = "Nueva pestaña nativa";
-"Show Next Native Tab" = "Mostrar pestaña nativa siguiente";
-"Show Previous Native Tab" = "Mostrar pestaña nativa anterior";
 
 "New Tab" = "Nueva pestaña";
 "Use narrow Tabs Bar" = "Usar barra de pestañas estrecha";

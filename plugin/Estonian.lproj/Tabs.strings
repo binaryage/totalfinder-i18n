@@ -6,17 +6,7 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 päeva jäänud - osta kohe!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d päeva jäänud - osta kohe!";
 "Close Tab" = "Sulge Vaheleht";
-"Reopen Closed Tab" = "Ava Uuesti Suletud Vaheleht";
-"Close Window" = "Sulge Aken";
 "Toggle Dual Mode" = "Lülitu Paarisaknarežiimi";
-"Narrow Tabs Bar" = "Kitsas Vahelehe Riba";
-"Select Next Tab" = "Vali Järgmine Vaheleht";
-"Select Previous Tab" = "Vali Eelmine Vaheleht";
-"Switch Active Panel" = "Vaheta Aktiivset Paneeli";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "Uus Vaheleht"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Kitsas Vaheleheriba";

@@ -68,7 +68,7 @@
 "Record Shortcut" = "Nahrát klávesovou zkratku";
 "Space" = "Mezerník";
 "The key combination %@ cannot be used" = "Nelze použít kombinaci kláves %@";
-"This combination cannot be used because it is already used by a system-wide " = "Tato zkratka nemůže být použita protože je už používána na globální systémové úrovni ";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Tato zkratka nemůže být použita protože je už používána položkou menu ‘%@’.";
 "Type New Shortcut" = "Stiskněte novou klávesovou zkratku";
 "Type Shortcut" = "Stiskněte klávesovou zkratku";

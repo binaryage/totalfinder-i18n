@@ -68,7 +68,7 @@
 "Record Shortcut" = "শর্টকাট ধারণ করবে";
 "Space" = "স্পেস";
 "The key combination %@ cannot be used" = "%@ সমন্বয়টি ব্যবহার করা যাবেনা";
-"This combination cannot be used because it is already used by a system-wide " = " এই সমন্বয়টি ব্যবহার করা যাবেনা কারণ সিস্টেমে এটা আগে থেকেই ব্যবহৃত হচ্ছে ";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "‘%@’ শর্টকাটটি আগে আগে থেকেই মেন্যুতে ব্যবহৃত হচ্ছে।";
 "Type New Shortcut" = "নতুন শর্টকাট প্রবেশ করাও";
 "Type Shortcut" = "শর্টকাট প্রবেশ করাও";

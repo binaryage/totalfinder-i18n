@@ -6,17 +6,7 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - Encore 5 jours - Acheter !";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - Encore %d jours - Acheter !";
 "Close Tab" = "Fermer l'onglet";
-"Reopen Closed Tab" = "Rouvrir l'onglet fermé";
-"Close Window" = "Fermer la fenêtre";
 "Toggle Dual Mode" = "Mode double";
-"Narrow Tabs Bar" = "Compacter la barre d'onglets";
-"Select Next Tab" = "Sélectionner l'onglet suivant";
-"Select Previous Tab" = "Sélectionner l'onglet précédent";
-"Switch Active Panel" = "Commuter le panneau actif";
-"Close Native Tab" = "Fermer l'onglet natif";
-"New Native Tab" = "Nouvel onglet natif";
-"Show Next Native Tab" = "Afficher l'onglet natif suivant";
-"Show Previous Native Tab" = "Afficher l'onglet natif précédent";
 
 "New Tab" = "Nouvel onglet"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Utiliser des onglets compacts";

@@ -6,17 +6,7 @@
 "TotalFinder - 5 days left - buy now!" = "টোটালফাইন্ডার -  ৫ দিন বাকী - নিবন্ধন করো!";
 "TotalFinder - %d days left - buy now!" = "টোটালফাইন্ডার -  %d দিন বাকী - নিবন্ধন করো!";
 "Close Tab" = "ট্যাব বন্ধ";
-"Reopen Closed Tab" = "বন্ধকৃত ট্যাব আবার খুলবে";
-"Close Window" = "উইন্ডো বন্ধ করো";
 "Toggle Dual Mode" = "ডুয়েল মোড টগল করবে";
-"Narrow Tabs Bar" = "ট্যাব বার চিকর করবে";
-"Select Next Tab" = "পরবর্তী ট্যাব নির্বাচন করবে";
-"Select Previous Tab" = "পূর্ববর্তী ট্যাব নির্বাচন করবে";
-"Switch Active Panel" = "সক্রিয় প্যানেল পরিবর্তন করবে";
-"Close Native Tab" = "ন্যাটিভ ট্যাব বন্ধ করবে";
-"New Native Tab" = "নতুন ন্যাটিভ ট্যাব নাও";
-"Show Next Native Tab" = "পরবর্তী ন্যাটিভ ট্যাব দেখাবে";
-"Show Previous Native Tab" = "পূর্ববর্তী ন্যাটিভ ট্যাব দেখাবে";
 
 "New Tab" = "নতুন ট্যাব"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "চিকন ট্যাব বার ব্যবহার করবে";

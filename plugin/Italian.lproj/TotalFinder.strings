@@ -68,7 +68,7 @@
 "Record Shortcut" = "Registra scorciatoia";
 "Space" = "Spazio";
 "The key combination %@ cannot be used" = "La combinazione di tasti %@ non può essere usata";
-"This combination cannot be used because it is already used by a system-wide " = "Questa combinazione non può essere usata poiché è già usata a livello di sistema ";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Questa combinazione non può essere usata poiché è già usata dall'elemento di menu  ‘%@’.";
 "Type New Shortcut" = "Inserisci nuova scorciatoia";
 "Type Shortcut" = "Inserisci scorciatoia";

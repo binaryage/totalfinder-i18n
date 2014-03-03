@@ -6,17 +6,7 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - Pozostało pięć - kup teraz!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - Pozostało %d dni - kup teraz!";
 "Close Tab" = "Zamknij kartę";
-"Reopen Closed Tab" = "Otwórz ponownie zamknięte zakładki";
-"Close Window" = "Zamknij okno";
 "Toggle Dual Mode" = "Wł/wył tryb podwójny";
-"Narrow Tabs Bar" = "Wąski pasek zakładek";
-"Select Next Tab" = "Wybierz następną zakładkę";
-"Select Previous Tab" = "Wybierz poprzednią zakładkę";
-"Switch Active Panel" = "Przełącz aktywny panel";
-"Close Native Tab" = "Zamknij natywną zakładkę";
-"New Native Tab" = "Nowa natywna zakładka";
-"Show Next Native Tab" = "Pokaż nastepną natywną zakładkę";
-"Show Previous Native Tab" = "Pokaż poprzednią natywną zakładkę";
 
 "New Tab" = "Nowa zakładka";
 "Use narrow Tabs Bar" = "Użyj wąskiego paska zakładek";
