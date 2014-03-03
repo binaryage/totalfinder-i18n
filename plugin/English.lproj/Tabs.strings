@@ -6,17 +6,7 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
 "Close Tab" = "Close Tab";
-"Reopen Closed Tab" = "Reopen Closed Tab";
-"Close Window" = "Close Window";
 "Toggle Dual Mode" = "Toggle Dual Mode";
-"Narrow Tabs Bar" = "Narrow Tabs Bar";
-"Select Next Tab" = "Select Next Tab";
-"Select Previous Tab" = "Select Previous Tab";
-"Switch Active Panel" = "Switch Active Panel";
-"Close Native Tab" = "Close Native Tab";
-"New Native Tab" = "New Native Tab";
-"Show Next Native Tab" = "Show Next Native Tab";
-"Show Previous Native Tab" = "Show Previous Native Tab";
 
 "New Tab" = "New Tab"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Use narrow Tabs Bar";
