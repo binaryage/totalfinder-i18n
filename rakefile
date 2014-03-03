@@ -38,6 +38,28 @@ end
 ################################################################################################
 # routines
 
+def write_file(filename, content)
+  if ENV["dry"] then
+    puts "in dry mode: would rewrite #{filename.blue} with content of size #{content.size}"
+    return
+  end
+  
+  File.open(filename, "w") do |f|
+    f.write content
+  end
+end
+
+def append_file(filename, content)
+  if ENV["dry"] then
+    puts "in dry mode: would append to #{filename.blue} content of size #{content.size}"
+    return
+  end
+  
+  File.open(filename, "a") do |f|
+    f.write content
+  end
+end
+
 def get_list_of_plugins(filter=nil)
   filter = "*" unless filter
 
@@ -51,6 +73,24 @@ def get_list_of_plugins(filter=nil)
   plugins.uniq
 end
 
+def extract_menuitems_strings(folder)
+  dirs = Array(folder) # flexibility to pass multiple directories
+  strings = ""
+  dirs.each do |directory|
+    Dir.chdir(directory) do
+      cmd = "ack --follow -oh '\\$M\\s*\\(@\".*?\"\\)'" # `ack -oh '\$M\s*\(@".*?"\)'`
+      strings << `#{cmd}`
+    end
+  end
+  
+  strings = strings.split("\n").map do |s|
+    s =~ /\"(.*?)\"/
+    $1
+  end
+
+  strings.uniq
+end
+
 def extract_code_strings(folder)
   dirs = Array(folder) # flexibility to pass multiple directories
 
@@ -58,103 +98,194 @@ def extract_code_strings(folder)
   dirs.each do |directory|
     Dir.chdir(directory) do
       # $() macro
-      strings << `ack -oh '\\$\\s*\\(@".*?"\\)'`   # `ack -oh '\$\s*\(@".*?"\)'`
-      # $#() macro
-      strings << `ack -oh '\\$\\$\\s*\\(@".*?"\\)'`  # `ack -oh '\$\$\s*\(@".*?"\)'`
+      cmd = "ack --follow -oh '\\$\\s*\\(@\".*?\"\\)'" # `ack -oh '\$\s*\(@".*?"\)'`
+      strings << `#{cmd}`
+      # $$() macro
+      cmd = "ack --follow -oh '\\$\\$\\s*\\(@\".*?\"\\)'" # `ack -oh '\$\$\s*\(@".*?"\)'`
+      strings << `#{cmd}`
       # MASShortcuts's $NSLocalizedString
-      strings << `ack -oh '\\$NSLocalizedString\\s*\\(@".*?"'`  # `ack -oh '\$NSLocalizedString\s*\(@".*?"'`
+      cmd = "ack --follow -oh '\\$NSLocalizedString\\s*\\(@\".*?\"'" # `ack -oh '\$NSLocalizedString\s*\(@".*?"'`
+      strings << `#{cmd}`
     end
   end
 
   strings = strings.split("\n").map do |s|
-    s =~ /(\".*\")/
+    s =~ /\"(.*?)\"/
     $1
   end
-
+  
   strings.uniq
 end
 
 def extract_ui_strings(folder, xib_mask)
   strings = ""
   Dir.chdir(folder) do
-    cmd = "ack -g #{xib_mask} | ack -x -o -w '\\^.*?\\\"'"
+    cmd = "ack --nocolor -g #{xib_mask} | ack --nogroup --no-filename --output=\"\\$1\" -x -w '\\^(.*?)\\\"'"
     strings << `#{cmd}`  # search only xibs for ^SOME STRING
   end
-
+  
   strings = strings.split("\n").map do |s|
-    s =~ /\^(.*)\"/
-    '"'+$1+'"'
+    s.strip
   end
 
-  strings.uniq
+  strings.sort.uniq
 end
 
 def parse_strings_file(filename)
-  lines = []
-  if File.exists? filename then
-    File.open(filename, "r") do |f|
-      f.each do |line|
-        lines << line
-      end
-    end
-  end
-  lines
+  return [] unless File.exists? filename
+  File.read(filename).lines
 end
 
-
-def update_english_strings(project, src_folder, xib_mask, additional_strings=[])
+def update_strings(old_strings, new_keys, target)
   removed_count = 0
-  added_count = 0
+  count = 0
 
-  target = File.join(ENGLISH_LPROJ, "#{project}.strings")
-
-  code_strings = extract_code_strings(src_folder)
-  ui_strings = extract_ui_strings(PLUGIN_RESOURCES_DIR, xib_mask)
-  new_strings = code_strings.concat(ui_strings).concat(additional_strings)
-  new_strings.uniq!
-  strings = parse_strings_file(target)
-
-  # comment out all existing strings as REMOVED
-  strings.map! do |line|
-    if (line[0...1]=='"') then
-      line = "/* REMOVED "+line.strip+" */\n" # ***
+  # comment out existing strings as REMOVED or DUPLICIT if they are not present in new_strings
+  known_keys = []
+  strings = old_strings.map do |line|
+    match = line =~ /^"(.*?)"/ # it is a valid key-definition line?
+    next line unless match
+    count += 1
+    unless new_keys.include? $1 then
+      line = "/* REMOVED #{line.strip} */\n" # ***
       removed_count += 1
+    else
+      if known_keys.include? $1 then
+        line = "/* DUPLICIT #{line.strip} */\n" # ***
+        removed_count += 1
+      else
+        known_keys << $1
+      end
     end
     line
   end
+  
+  to_be_added = new_keys - known_keys
 
-  # go through code strings and try to unmark them in the file
-  to_be_added = []
+  write_file(target, strings.join(""))
 
-  new_strings.each do |code|
-    found = false
+  {
+    "removed_count" => removed_count,
+    "count" => count,
+    "new_strings" => new_keys,
+    "old_strings" => old_strings,
+    "output" => strings,
+    "to_be_added" => to_be_added.sort.uniq
+  }
+end
 
-    strings.map! do |line|
-      if line =~ /^\/\* REMOVED/
-        if line.index code then
-          line.gsub!("REMOVED", "DUPLICIT") if found
-          line = line[11..-5] + "\n" unless found # see ***
-          found = true
-          removed_count -= 1
-        end
-      end
+def update_english_strings(project, src_folder, xib_mask, additional_strings=[])
+  target = File.join(ENGLISH_LPROJ, "#{project}.strings")
+  code_strings = extract_code_strings(src_folder)
+  ui_strings = extract_ui_strings(PLUGIN_RESOURCES_DIR, xib_mask)
+  new_strings = code_strings.concat(ui_strings).concat(additional_strings)
+  new_strings.sort.uniq!
+  old_strings = parse_strings_file(target)
+  
+  res = update_strings(old_strings, new_strings, target)
+  
+  removed_count = res["removed_count"]
+  strings = res["output"]
+  count = res["count"]
 
-      line
+  puts " #{"-#{removed_count}".red}/#{"#{count}".blue} in #{target}"
+  
+  res
+end
+
+def update_english_menuitems_strings(src_folder)
+  target = File.join(ENGLISH_LPROJ, "MenuItems.strings")
+
+  new_strings = extract_menuitems_strings(src_folder).map {|s| "MenuItem:#{s}"}
+  old_strings = parse_strings_file(target)
+  
+  res = update_strings(old_strings, new_strings, target)
+  
+  removed_count = res["removed_count"]
+  strings = res["output"]
+  count = res["count"]
+
+  puts " #{"-#{removed_count}".red}/#{"#{count}".blue} in #{target}"
+  
+  res
+end
+
+def categorize_xibs(plugins, dir=PLUGIN_RESOURCES_DIR)
+  xibs = Hash.new
+  
+  # xib naming exceptions that don't follow conventions
+  unconventional = {
+    "SomeXibName" => "SomePluginName"
+  } 
+  
+  Dir.glob(File.join(dir, "*.xib")) do |file|
+    name = File.basename(file, ".xib")
+    # does the name begin with some plugin name?
+    plugin = plugins.find { |plugin| plugin==name or name.index(plugin) == 0  }
+    if plugin.nil? and unconventional["name"] then
+      plugin = unconventional["name"]
     end
-
-    unless found then
-      to_be_added << code
-      added_count += 1
+    
+    unless plugin.nil? then
+      xibs[plugin] ||= []
+      xibs[plugin] << name
+      next
     end
+    
+    xibs["SHELL"] ||= []
+    xibs["SHELL"] << name
+  end
+  
+  xibs
+end
+
+def process_english_strings_in_plugins(plugins, xibs, dir=TOTALFINDER_PLUGINS_SOURCES)
+  additions = Hash.new
+  plugins.each do |plugin|
+    plugin_dir = File.join(dir, plugin)
+    next unless File.exists? plugin_dir
+    next if xibs[plugin].nil? or xibs[plugin].size == 0 # an edge case for empty array
+
+    filter = "'^(#{xibs[plugin].join("|")})\\.xib'"
+    additions[plugin] = update_english_strings(plugin, plugin_dir, filter)["to_be_added"] # process just plugin xibs
+  end
+  additions
+end
+
+def process_english_strings_in_shell(xibs, duplicates, shell_dir=SHELL_SOURCES)
+  filter = "'^(#{xibs.join("|")})\\.xib'"
+  update_english_strings("TotalFinder", shell_dir, filter, duplicates) # process just shell xibs
+end
+
+def process_english_menuitems()
+  update_english_menuitems_strings([TOTALFINDER_PLUGINS_SOURCES, SHELL_SOURCES].flatten)["to_be_added"]
+end
+
+def get_additions_duplicates(additions)
+  all = []
+  additions.each do |k, v|
+    all.concat v
+  end
+  
+  # count occurences and return only duplicities
+  all.inject(Hash.new(0)) {|h,v| h[v] += 1; h}.reject{|k,v| v==1}.keys.sort.uniq
+end
+
+def insert_additions(list, target)
+  return unless list.size>0
+  
+  strings = []
+  strings << "\n"
+  strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
+  
+  list.each do |key|
+    value = key.gsub("MenuItem:", "") # MenuItems special case
+    strings <<  "\"#{key}\" = \"#{value}\";"
   end
 
-  File.open(target, "w") do |f|
-    f << strings.join
-  end
-
-  puts " #{"-#{removed_count}".red} of #{strings.size} in #{target}" if removed_count>0
-
-  [to_be_added.sort.uniq, new_strings]
+  append_file(target, strings.join("\n"))
+  
+  puts " #{"+#{list.size}".yellow} in #{target}"
 end
 
 def inprint_strings(source, dest, shared_originals=[])
@@ -200,53 +331,7 @@ def inprint_strings(source, dest, shared_originals=[])
     end
   end
 
-  File.open(dest, "w") do |f|
-    f << strings.join
-  end
-
-  strings
-end
-
-def find_key(key, lines)
-  lines.each do |line|
-    next unless (line.strip[0...1]=='"')
-    line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
-    needle = $1
-    haystack = $2
-    die "syntax error in " + dest.blue+":"+index.to_s unless $1 and $2
-    return haystack if needle==key
-  end
-  
-  nil
-end
-
-def post_process_menuitems(dest, shared_originals=[])
-  strings = parse_strings_file(dest)
-  
-  strings.map! do |line|
-    next line unless (line.strip[0...1]=='"')
-
-    line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
-    die "syntax error in " + source.blue+":"+index.to_s unless $1
-
-    key = $1
-    val = $2
-    rest = $3
-    
-    if (key==val) then
-      # try to lookup exitsting val
-      translated_val = find_key(key.gsub("MenuItem:", ""), shared_originals)
-      unless translated_val.nil? then
-        line = key + " = " + translated_val + ";" + rest + "\n";
-      end
-    end
-
-    line
-  end
-  
-  File.open(dest, "w") do |f|
-    f << strings.join
-  end
+  write_file(dest, strings.join(""))
 
   strings
 end
@@ -291,9 +376,7 @@ def create_localizations_for_project
 
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
     Dir.chdir dir do
-      File.open(File.join(dir, project + ".strings"), "w") do |f|
-        f << "/* no strings */"
-      end
+      write_file(File.join(dir, project + ".strings"), "/* no strings */")
     end
   end
 end
@@ -485,100 +568,45 @@ task :cherrypick do
   die "upgrade your ack to 2.0+ | for example via homebrew:> brew install ack" unless `ack --version`=~/ack 2/
 
   plugins = get_list_of_plugins()
+  xibs = categorize_xibs(plugins)
 
-  # collect all xibs which are not prefixed with some plugin name, we will treat them as shell_xibs
-  shell_xibs = []
-  plugins_xibs = Hash.new
-  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "*.xib")) do |file|
-    name = File.basename(file, ".xib")
-    # does the name begin with some plugin name?
-    plugin = plugins.find { |plugin| plugin==name or name.index(plugin) == 0  }
-    unless plugin.nil? then
-      plugins_xibs[plugin] ||= []
-      plugins_xibs[plugin] << name
-    else
-      shell_xibs << name
-    end
-  end
+  puts "XIBs:".blue
+  pp xibs
 
-  puts "Plugin XIBs:".blue
-  pp plugins_xibs
   puts
-  puts "Shell XIBs:".blue
-  pp shell_xibs
-  puts
-
-  plugin_additions = Hash.new
-  all = []
-  plugins.each do |plugin|
-    plugin_dir = File.join(TOTALFINDER_PLUGINS_SOURCES, plugin)
-    if File.exists? plugin_dir then
-      puts "Processing #{plugin}...".yellow
-      if plugins_xibs[plugin].nil? or plugins_xibs[plugin].size == 0 then
-        plugins_xibs[plugin] = ["NONEXISTING"] # edge case for empty array
-      end
-      plugin_filter = "'^(#{plugins_xibs[plugin].join("|")})\\.xib'"
-      plugin_additions[plugin] = update_english_strings(plugin, plugin_dir, plugin_filter)[0] # process just plugin xibs
-      all.concat plugin_additions[plugin]
-    end
-  end
-
-  # all dups should be moved to TotalFinder.strings
-  dups = all.inject(Hash.new(0)) {|h,v| h[v] += 1; h}.reject{|k,v| v==1}.keys.uniq
-
-  puts "Processing Shell...".yellow
-  shell_filter = "'^(#{shell_xibs.join("|")})\\.xib'"
-  res = update_english_strings("TotalFinder", SHELL_SOURCES, shell_filter, dups) # process just shell xibs
-  to_be_added_to_shell = res[0]
-  all_shell = res[1]
+  puts "Processing string files:".yellow
+  
+  # additons is a hash containing an array of added translation keys for each plugin
+  additions = process_english_strings_in_plugins(plugins, xibs)
+  duplicates = get_additions_duplicates(additions)
+  res = process_english_strings_in_shell(xibs["SHELL"], duplicates) # duplicates will be moved into shell
+  shell_additions = res["to_be_added"] 
+  shell_new_strings = res["new_strings"]
+  
+  menuitems_additions = process_english_menuitems()
 
   # insert additions to plugins
   plugins.each do |plugin|
+    next unless additions[plugin]
     target = File.join(ENGLISH_LPROJ, "#{plugin}.strings")
-
-    list = plugin_additions[plugin] - dups - all_shell
-    if list.size>0 then
-      strings = []
-      strings << "\n"
-      strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
-
-      list.each do |code|
-        strings << code + " = " + code + ";\n"
-      end
-
-      File.open(target, "a") do |f|
-        f << strings.join
-      end
-      puts " #{"+#{list.size}".yellow} in #{target}"
-    end
+    list = additions[plugin] - duplicates - shell_new_strings
+    insert_additions(list, target)
   end
-
 
   # insert additions to shell
   target = File.join(ENGLISH_LPROJ, "TotalFinder.strings")
+  insert_additions(shell_additions, target)
 
-  list = to_be_added_to_shell
-  if list.size>0 then
-    strings = []
-    strings << "\n"
-    strings << "/* NEW STRINGS - TODO: SORT THEM IN OR CREATE A NEW SECTION */\n"
-
-    list.each do |code|
-      strings << code + " = " + code + ";\n"
-    end
-
-    File.open(target, "a") do |f|
-      f << strings.join
-    end
-    puts " #{"+#{list.size}".yellow} in #{target}"
+  # insert additions to menu items
+  target = File.join(ENGLISH_LPROJ, "MenuItems.strings")
+  insert_additions(menuitems_additions, target)
+  
+  unhandled_duplicates = duplicates - shell_new_strings
+  if unhandled_duplicates.size>0 then
+    puts 
+    puts "Found these shared keys in plugins and shell, we moved them to TotalFinder.strings:".yellow
+    puts unhandled_duplicates.join(", ").magenta
   end
-
-  if dups.size>0 then
-    puts "Found shared keys in plugins and shell, moved them to TotalFinder.strings:"
-    puts dups
-  end
-
-
 end
 
 desc "propagates structure of English.lproj to all other language folders while keeping already translated strings"
