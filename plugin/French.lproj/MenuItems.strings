@@ -26,7 +26,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Next Tab" = "Sélectionner l'onglet suivant";
 "MenuItem:Switch Active Panel" = "Commuter le panneau actif";
 "MenuItem:Folders on Top" = "Dossiers placés en haut";
-"MenuItem:Show System Files" = "Fichiers système visibles";
+"MenuItem:Show System Files" = "Fichiers système affichés";
 "MenuItem:Column View Auto Width" = "Largeur des colonnes automatique";
 "MenuItem:Dock Progress Bar" = "Barre de progression du Dock";
 
