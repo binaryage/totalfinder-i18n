@@ -1,5 +1,5 @@
 /* preferences */
-"BASIC" = "BASIQUE";
+"BASIC" = "BASE";
 "SYSTEM" = "SYSTÈME";
 "Menus" = "Menus";
 "Updates" = "Mises à jour";
@@ -55,10 +55,10 @@
 "Back" = "Revenir";
 "Invalid license code" = "Code de licence invalide";
 "Please go back and try again." = "Merci de revenir et réessayer.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Pour acheter une licence de TotalFinder, merci de vous rendre sur la boutique en ligne de BinaryAge";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Pour acheter une licence de TotalFinder, merci de vous rendre à la boutique en ligne de BinaryAge";
 "Thank you for using TotalFinder!" = "Merci d'utiliser TotalFinder !";
-"License Name" = "Nom de license";
-"License Key" = "Clé de license";
+"License Name" = "Nom de licence";
+"License Key" = "Clé de licence";
 
 
 /* shortcuts subsystem */

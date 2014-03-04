@@ -6,10 +6,10 @@
 "TotalFinder - 5 days left - buy now!" = "TotalFinder - Encore 5 jours - Acheter !";
 "TotalFinder - %d days left - buy now!" = "TotalFinder - Encore %d jours - Acheter !";
 "Close Tab" = "Fermer l'onglet";
-"Toggle Dual Mode" = "Mode double";
+"Toggle Dual Mode" = "Commuter le mode double";
 
 "New Tab" = "Nouvel onglet"; /* the tooltip of the "plus button" in tabs bar */
-"Use narrow Tabs Bar" = "Utiliser des onglets compacts";
+"Use narrow Tabs Bar" = "Utiliser une barre d'onglets compacte";
 "Open new tabs with previous location" = "Ouvrir les nouveaux onglets sur le dernier emplacement";
 
 /* preferences */
