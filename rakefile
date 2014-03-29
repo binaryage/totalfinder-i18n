@@ -390,7 +390,6 @@ def post_process_menuitems(dest, shared_originals=[])
 end
 
 def propagate_english_to_cwd
-  puts Dir.pwd.blue
   total = 0
 
   # TotalFinder.strings are master files, some strings may move between files
@@ -413,12 +412,25 @@ def propagate_english_to_cwd
   puts "  -> "+total.to_s.green+" strings processed"
 end
 
+def remove_missing_files_in_cwd
+  files1 = Dir.glob(File.join(ENGLISH_LPROJ, "*")).map {|f| File.basename f }
+  files2 = Dir.glob(File.join(Dir.pwd, "*")).map {|f| File.basename f }
+  to_be_deleted = files2 - files1
+  
+  to_be_deleted.each do |file| 
+    puts "deleting '#{file}'".red
+    FileUtils.rm(file)
+  end
+end
+
 def propagate_from_english_to_other_lprojs
   glob = ENV["to"] || "*.lproj"
 
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
     Dir.chdir dir do
+      puts dir.blue
       propagate_english_to_cwd
+      remove_missing_files_in_cwd
     end
   end
 end
