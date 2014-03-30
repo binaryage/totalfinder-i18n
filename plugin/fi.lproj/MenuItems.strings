@@ -29,6 +29,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Show System Files" = "Näytä piilotetut tiedostot";
 "MenuItem:Column View Auto Width" = "Kolumninäkymän automaaattinen leveys";
 "MenuItem:Dock Progress Bar" = "Näytä edistymispalkki Dockissa";
+"MenuItem:Template" = "Pohja";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

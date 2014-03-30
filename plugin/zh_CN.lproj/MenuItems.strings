@@ -29,6 +29,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Show System Files" = "显示系统文件";
 "MenuItem:Column View Auto Width" = "列表视图宽度自适应";
 "MenuItem:Dock Progress Bar" = "Dock 进度条";
+"MenuItem:Template" = "模板";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

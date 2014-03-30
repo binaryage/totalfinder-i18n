@@ -29,6 +29,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Show System Files" = "اظهر ملفات النظام";
 "MenuItem:Column View Auto Width" = "عرض تلقائي للواجهة العامودية";
 "MenuItem:Dock Progress Bar" = "شريط تقدم الـ Dock";
+"MenuItem:Template" = "قالب";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:
