@@ -17,9 +17,9 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="18" y="24" width="108" height="18"/>
+                    <rect key="frame" x="18" y="24" width="124" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="check" title="^Label Colors" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="8">
+                    <buttonCell key="cell" type="check" title="^Colored Labels" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="8">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -28,9 +28,9 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mM7-kD-T4k">
-                    <rect key="frame" x="35" y="8" width="342" height="11"/>
+                    <rect key="frame" x="35" y="8" width="258" height="11"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^The last applied tag determines row background color (pre-Mavericks style)." id="ms8-ix-10M">
+                    <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^The last applied tag determines item's background color." id="ms8-ix-10M">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
