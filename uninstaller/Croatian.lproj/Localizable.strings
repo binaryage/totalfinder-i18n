@@ -18,6 +18,6 @@
 /* possible script messages in details section */
 "Uninstaller needs admin privileges to remove *APP* from your system." = "Za deinstalaciju su potrebne administratorske ovlasti za uklanjanje TotalFinder-a iz Vašeg sustava.";
 "Running uninstall script:\n" = "Trenutna skripta deinstalacije:\n";
-"Uninstall script finished successfully.\n" = "Skrita deinstalacije je uspješno završena.\n";
+"Uninstall script finished successfully.\n" = "Skripta deinstalacije je uspješno završena.\n";
 "Uninstall script needs admin rights.\n" = "Za deinstalacijsku skriptu su potrebne administratorske ovlasti.\n";
 "Uninstall script failed with error [%d].\n" = "Skripta deinstalacije nije uspjela, greška [%d].\n";
