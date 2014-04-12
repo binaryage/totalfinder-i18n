@@ -68,17 +68,17 @@
 "Record Shortcut" = "Neem sneltoets op";
 "Space" = "Spatie";
 "The key combination %@ cannot be used" = "De toetscombinatie %@ kan niet worden gebruikt";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Deze combinatie kan niet worden gebruikt omdat het al is toegewezen aan een systeemwijde toetscombinatie.\nAls u echt deze toetscombinatie wilt gebruiken, kunt u de meeste toetscombinaties wijzigen in de systeemvoorkeuren-paneel Toetsenbord en muis. ";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Deze sneltoets kan niet worden gebruikt, omdat die al in gebruik is door menu-item ‘%@’.";
-"Type New Shortcut" = "Type een nieuwe sneltoets";
-"Type Shortcut" = "Type sneltoets";
+"Type New Shortcut" = "Typ een nieuwe sneltoets";
+"Type Shortcut" = "Typ sneltoets";
 "Use Old Shortcut" = "Gebruik oude sneltoets";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Tabs volledig uitzetten?";
+"Do you really want to disable tabs?" = "Wilt u echt de tabs uitzetten?";
+"Do you really want to enable tabs?" = "wilt u echt de tabs aanzetten?";
 "Tabs" = "Tabbladen";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Deze optie zal de tabs-module volledig uitzetten in TotalFinder. Hierdoor zullen de dubbele kolom en visor ook worden uitgezet. Dit kan gewenst zijn in Mavericks – gebruik enkel de ingebouwde Finder tabs maar behoud andere voordelen van TotalFinder functies.\n\nFinder zal worden herstart om de wijzigingen toe te passen.\nLet op: voltooi eerst alle Finder-bezigheden (zoals het verplaatsen of kopiëren van bestanden).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Deze optie zal de tabs-module aanzetten in TotalFinder.\n\nFinder zal worden herstart om de wijzigingen toe te passen.\nLet op: voltooi eerst alle Finder-bezigheden (zoals het verplaatsen of kopiëren van bestanden).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Dit zal tabs tabs, dubbele kolom en visor uitzetten. Finder herstarten is vereist.";
