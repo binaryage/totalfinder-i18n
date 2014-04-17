@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D43" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PreferencesController">
             <connections>
-                <action selector="openHelp:" destination="83" id="278"/>
-                <outlet property="_featuresOutline" destination="3" id="382"/>
-                <outlet property="_headerHelpButton" destination="83" id="383"/>
-                <outlet property="_headerIcon" destination="55" id="384"/>
-                <outlet property="_headerTitle" destination="72" id="385"/>
-                <outlet property="_presentationView" destination="106" id="386"/>
-                <outlet property="_rootView" destination="1" id="387"/>
+                <outlet property="$featuresOutline" destination="3" id="382"/>
+                <outlet property="$headerHelpButton" destination="83" id="383"/>
+                <outlet property="$headerIcon" destination="55" id="384"/>
+                <outlet property="$headerTitle" destination="72" id="385"/>
+                <outlet property="$presentationView" destination="106" id="386"/>
+                <outlet property="$rootView" destination="1" id="387"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
@@ -42,11 +41,11 @@
                                 </constraints>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="56"/>
                                 <connections>
-                                    <binding destination="-2" name="value" keyPath="selectedFeature.icon" id="276"/>
+                                    <binding destination="-2" name="value" keyPath="$selectedFeature.$icon" id="276"/>
                                 </connections>
                             </imageView>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72" userLabel="Title">
-                                <rect key="frame" x="48" y="11" width="380" height="29"/>
+                                <rect key="frame" x="49" y="11" width="378" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="241"/>
@@ -57,7 +56,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <binding destination="-2" name="value" keyPath="selectedFeature.title" id="272"/>
+                                    <binding destination="-2" name="value" keyPath="$selectedFeature.$title" id="272"/>
                                 </connections>
                             </textField>
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="83" userLabel="Help">
@@ -67,6 +66,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="$openHelp:" target="-2" id="278"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
@@ -111,7 +113,7 @@
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="171">
-                                                        <rect key="frame" x="0.0" y="0.0" width="178" height="20"/>
+                                                        <rect key="frame" x="1" y="0.0" width="176" height="20"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="293"/>
@@ -122,7 +124,7 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                         <connections>
-                                                            <binding destination="170" name="value" keyPath="objectValue.title" id="259"/>
+                                                            <binding destination="170" name="value" keyPath="objectValue.$title" id="259"/>
                                                         </connections>
                                                     </textField>
                                                 </subviews>
@@ -148,11 +150,11 @@
                                                         </constraints>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" id="181"/>
                                                         <connections>
-                                                            <binding destination="177" name="value" keyPath="objectValue.icon" id="257"/>
+                                                            <binding destination="177" name="value" keyPath="objectValue.$icon" id="257"/>
                                                         </connections>
                                                     </imageView>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="179">
-                                                        <rect key="frame" x="25" y="0.0" width="153" height="20"/>
+                                                        <rect key="frame" x="26" y="0.0" width="151" height="20"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="147" id="332"/>
@@ -163,7 +165,7 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                         <connections>
-                                                            <binding destination="177" name="value" keyPath="objectValue.title" id="255"/>
+                                                            <binding destination="177" name="value" keyPath="objectValue.$title" id="255"/>
                                                         </connections>
                                                     </textField>
                                                 </subviews>
@@ -190,11 +192,11 @@
                         </subviews>
                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </clipView>
-                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" id="4">
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="4">
                         <rect key="frame" x="-100" y="-100" width="180" height="15"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
-                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" id="6">
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="6">
                         <rect key="frame" x="-100" y="-100" width="15" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
@@ -219,29 +221,6 @@
         <userDefaultsController id="262"/>
     </objects>
     <resources>
-        <image name="NSActionTemplate" width="15" height="15"/>
+        <image name="NSActionTemplate" width="14" height="14"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PreferencesController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesController.h"/>
-            <relationships>
-                <relationship kind="action" name="openHelp:"/>
-                <relationship kind="outlet" name="_featuresOutline" candidateClass="NSOutlineView"/>
-                <relationship kind="outlet" name="_headerHelpButton" candidateClass="NSButton"/>
-                <relationship kind="outlet" name="_headerIcon" candidateClass="NSImageView"/>
-                <relationship kind="outlet" name="_headerTitle" candidateClass="NSTextField"/>
-                <relationship kind="outlet" name="_presentationView" candidateClass="NSView"/>
-                <relationship kind="outlet" name="_rootView" candidateClass="NSView"/>
-            </relationships>
-        </class>
-        <class className="PreferencesFeaturesDataSource" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesFeaturesDataSource.h"/>
-        </class>
-        <class className="PreferencesPresentationView" superclassName="NSView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesPresentationView.h"/>
-        </class>
-    </classes>
 </document>
