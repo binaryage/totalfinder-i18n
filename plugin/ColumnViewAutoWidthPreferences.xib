@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12F9" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D43" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ColumnViewAutoWidthPluginPreferencesController">
             <connections>
-                <outlet property="_preferences" destination="1" id="164"/>
+                <outlet property="$preferences" destination="1" id="164"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="9">
-                    <rect key="frame" x="18" y="52" width="308" height="18"/>
+                    <rect key="frame" x="18" y="52" width="307" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="^Automatically adjust widths in Column View" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="10">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -52,19 +52,15 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="111">
-                    <rect key="frame" x="278" y="28" width="96" height="22"/>
+                    <rect key="frame" x="280" y="28" width="96" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="96" id="113"/>
                     </constraints>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="112">
-                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" localizesFormat="NO" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="0" maximumFractionDigits="3" positiveSuffix=" px" negativeSuffix=" px" id="114">
-                            <real key="roundingIncrement" value="0.0"/>
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" localizesFormat="NO" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix=" px" negativePrefix="-" negativeSuffix=" px" id="114">
                             <integer key="minimum" value="100"/>
                             <integer key="maximum" value="10000"/>
-                            <metadata>
-                                <bool key="localizesFormat" value="NO"/>
-                            </metadata>
                         </numberFormatter>
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -73,9 +69,9 @@
                     <connections>
                         <binding destination="3" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" previousBinding="116" id="159">
                             <dictionary key="options">
-                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
-                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
                                 <integer key="NSMultipleValuesPlaceholder" value="-1"/>
+                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
+                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
                                 <integer key="NSNullPlaceholder" value="-1"/>
                             </dictionary>
                         </binding>
@@ -85,7 +81,7 @@
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="PreferencesTextField">
-                    <rect key="frame" x="55" y="31" width="218" height="17"/>
+                    <rect key="frame" x="56" y="31" width="218" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit maximum column width to" id="143">
                         <font key="font" metaFont="system"/>
@@ -95,9 +91,9 @@
                     <connections>
                         <binding destination="3" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" previousBinding="157" id="161">
                             <dictionary key="options">
-                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
-                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
                                 <integer key="NSMultipleValuesPlaceholder" value="-1"/>
+                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
+                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
                                 <integer key="NSNullPlaceholder" value="-1"/>
                             </dictionary>
                         </binding>
@@ -105,7 +101,7 @@
                     </connections>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="PreferencesTextField">
-                    <rect key="frame" x="55" y="8" width="215" height="17"/>
+                    <rect key="frame" x="56" y="8" width="215" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit minimum column width to" id="by2-Ga-min">
                         <font key="font" metaFont="system"/>
@@ -116,29 +112,25 @@
                         <binding destination="ynu-q7-MAD" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthEnabled" id="MEE-vl-LGu"/>
                         <binding destination="ynu-q7-MAD" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" previousBinding="MEE-vl-LGu" id="0R0-TV-95E">
                             <dictionary key="options">
-                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
-                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
-                                <integer key="NSNullPlaceholder" value="-1"/>
                                 <integer key="NSMultipleValuesPlaceholder" value="-1"/>
+                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
+                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
+                                <integer key="NSNullPlaceholder" value="-1"/>
                             </dictionary>
                         </binding>
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
-                    <rect key="frame" x="275" y="5" width="96" height="22"/>
+                    <rect key="frame" x="277" y="5" width="96" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="22" id="B7y-W9-uMi"/>
                         <constraint firstAttribute="width" constant="96" id="iMS-AS-vRV"/>
                     </constraints>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="h6L-vP-Iuw">
-                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" localizesFormat="NO" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="0" maximumFractionDigits="3" positiveSuffix=" px" negativeSuffix=" px" id="CJ6-2J-MOt">
-                            <real key="roundingIncrement" value="0.0"/>
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" localizesFormat="NO" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix=" px" negativePrefix="-" negativeSuffix=" px" id="CJ6-2J-MOt">
                             <integer key="minimum" value="100"/>
                             <integer key="maximum" value="10000"/>
-                            <metadata>
-                                <bool key="localizesFormat" value="NO"/>
-                            </metadata>
                         </numberFormatter>
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -150,10 +142,10 @@
                         <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" previousBinding="Bxx-zc-mB4" id="oHo-kd-Nnv"/>
                         <binding destination="3" name="enabled2" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" previousBinding="a7q-Ur-1Rr" id="Blw-BO-Uyb">
                             <dictionary key="options">
-                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
-                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
-                                <integer key="NSNullPlaceholder" value="-1"/>
                                 <integer key="NSMultipleValuesPlaceholder" value="-1"/>
+                                <integer key="NSNoSelectionPlaceholder" value="-1"/>
+                                <integer key="NSNotApplicablePlaceholder" value="-1"/>
+                                <integer key="NSNullPlaceholder" value="-1"/>
                             </dictionary>
                         </binding>
                     </connections>
@@ -185,27 +177,4 @@
         <userDefaultsController id="3" userLabel="Shared Defaults"/>
         <userDefaultsController id="ynu-q7-MAD"/>
     </objects>
-    <classes>
-        <class className="ColumnViewAutoWidthPluginPreferencesController" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ColumnViewAutoWidthPluginPreferencesController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="_browserIcon" candidateClass="NSImage"/>
-                <relationship kind="outlet" name="_preferences" candidateClass="NSView"/>
-            </relationships>
-        </class>
-        <class className="GTMUILocalizer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GTMUILocalizer.h"/>
-            <relationships>
-                <relationship kind="outlet" name="otherObjectToLocalize_"/>
-                <relationship kind="outlet" name="owner_"/>
-                <relationship kind="outlet" name="yetAnotherObjectToLocalize_"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PreferencesTextField" superclassName="NSTextField">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PreferencesTextField.h"/>
-        </class>
-    </classes>
 </document>

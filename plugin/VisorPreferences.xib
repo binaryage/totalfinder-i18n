@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5037" systemVersion="13C44" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D43" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5037"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VisorPluginPreferencesController">
             <connections>
-                <outlet property="_modifierIcon1" destination="479" id="1432"/>
-                <outlet property="_modifierIcon2" destination="477" id="1433"/>
-                <outlet property="_visorPreferences" destination="1" id="1431"/>
+                <outlet property="$modifierIcon1" destination="479" id="1432"/>
+                <outlet property="$modifierIcon2" destination="477" id="1433"/>
+                <outlet property="$visorPreferences" destination="1" id="1431"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
