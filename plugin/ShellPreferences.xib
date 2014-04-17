@@ -8,18 +8,18 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TFShellPreferencesController">
             <connections>
-                <outlet property="_aboutContent" destination="133" id="228"/>
-                <outlet property="_aboutPreferences" destination="1" id="229"/>
-                <outlet property="_dockPreferences" destination="333" id="365"/>
-                <outlet property="_menusPreferences" destination="316" id="366"/>
-                <outlet property="_registerButton" destination="96" id="233"/>
-                <outlet property="_registeredTo" destination="95" id="232"/>
-                <outlet property="_registrationPreferences" destination="7" id="230"/>
-                <outlet property="_tabsPreferences" destination="8uq-4v-kht" id="iLo-k4-P2D"/>
-                <outlet property="_titleInAbout" destination="293" id="303"/>
-                <outlet property="_titleInRegistration" destination="97" id="304"/>
-                <outlet property="_titleInUpdates" destination="258" id="305"/>
-                <outlet property="_updatesPreferences" destination="87" id="231"/>
+                <outlet property="$aboutContent" destination="133" id="228"/>
+                <outlet property="$aboutPreferences" destination="1" id="229"/>
+                <outlet property="$dockPreferences" destination="333" id="365"/>
+                <outlet property="$menusPreferences" destination="316" id="366"/>
+                <outlet property="$registerButton" destination="96" id="233"/>
+                <outlet property="$registeredTo" destination="95" id="232"/>
+                <outlet property="$registrationPreferences" destination="7" id="230"/>
+                <outlet property="$tabsPreferences" destination="8uq-4v-kht" id="iLo-k4-P2D"/>
+                <outlet property="$titleInAbout" destination="293" id="303"/>
+                <outlet property="$titleInRegistration" destination="97" id="304"/>
+                <outlet property="$titleInUpdates" destination="258" id="305"/>
+                <outlet property="$updatesPreferences" destination="87" id="231"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
@@ -45,7 +45,7 @@
                         <font key="font" metaFont="cellTitle"/>
                     </buttonCell>
                     <connections>
-                        <action selector="showLicensingWindow:" target="-2" id="306"/>
+                        <action selector="$showLicensingWindow:" target="-2" id="306"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="95">
@@ -125,7 +125,7 @@
                         <font key="font" metaFont="miniSystem"/>
                     </buttonCell>
                     <connections>
-                        <action selector="checkForUpdates:" target="-2" id="235"/>
+                        <action selector="$checkForUpdates:" target="-2" id="235"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="258">
@@ -204,7 +204,7 @@
                         <font key="font" metaFont="cellTitle"/>
                     </buttonCell>
                     <connections>
-                        <action selector="resetToDefaults:" target="-2" id="315"/>
+                        <action selector="$resetToDefaults:" target="-2" id="315"/>
                     </connections>
                 </button>
             </subviews>
@@ -260,7 +260,7 @@
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="disableTabsCompletely:" target="-2" id="OeT-jd-1nq"/>
+                        <action selector="$disableTabsCompletely:" target="-2" id="OeT-jd-1nq"/>
                         <binding destination="R92-Rt-tdG" name="value" keyPath="values.TotalFinderTabsDisabled" id="6D5-ol-muu"/>
                     </connections>
                 </button>

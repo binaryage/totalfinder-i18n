@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D43" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="3330"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="XMLicensingWindowController">
             <connections>
-                <action selector="close:" destination="31" id="93"/>
-                <action selector="previousView:" destination="27" id="52"/>
-                <action selector="previousView:" destination="57" id="83"/>
-                <action selector="registerApp:" destination="6" id="67"/>
-                <action selector="visitStore:" destination="72" id="117"/>
-                <action selector="visitStore:" destination="158" id="160"/>
-                <outlet property="currentView" destination="5" id="87"/>
-                <outlet property="licensingInfo" destination="115" id="118"/>
-                <outlet property="viewA" destination="5" id="107"/>
-                <outlet property="viewB" destination="24" id="105"/>
-                <outlet property="viewC" destination="54" id="106"/>
+                <outlet property="$currentView" destination="5" id="87"/>
+                <outlet property="$licensingInfo" destination="115" id="118"/>
+                <outlet property="$viewA" destination="5" id="107"/>
+                <outlet property="$viewB" destination="24" id="105"/>
+                <outlet property="$viewC" destination="54" id="106"/>
                 <outlet property="window" destination="1" id="44"/>
             </connections>
         </customObject>
@@ -49,7 +43,7 @@
             </connections>
         </customObject>
         <userDefaultsController id="45"/>
-        <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" wantsToBeColor="NO" animationBehavior="default" id="1">
+        <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" animationBehavior="default" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="525" y="500" width="480" height="300"/>
@@ -88,9 +82,12 @@ CQ
 </string>
                         <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="$registerApp:" target="-2" id="67"/>
+                    </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
-                    <rect key="frame" x="196" y="13" width="178" height="32"/>
+                    <rect key="frame" x="197" y="13" width="177" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -100,6 +97,9 @@ CQ
 </string>
                         <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="$visitStore:" target="-2" id="160"/>
+                    </connections>
                 </button>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="22">
                     <rect key="frame" x="170" y="61" width="294" height="98"/>
@@ -143,7 +143,7 @@ CQ
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                    <rect key="frame" x="167" y="218" width="298" height="34"/>
+                    <rect key="frame" x="168" y="218" width="296" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
@@ -155,7 +155,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="153" y="260" width="123" height="21"/>
+                    <rect key="frame" x="154" y="260" width="123" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" size="17" name="LucidaGrande-Bold"/>
@@ -179,7 +179,7 @@ CQ
                 <constraint firstItem="22" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="13" id="zzm-1V-gER"/>
             </constraints>
             <connections>
-                <outlet property="nextView" destination="54" id="90"/>
+                <outlet property="$nextView" destination="54" id="90"/>
             </connections>
         </customView>
         <customView id="24" userLabel="RegistrationB" customClass="MSZLinkedView">
@@ -187,7 +187,7 @@ CQ
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="26">
-                    <rect key="frame" x="167" y="210" width="36" height="17"/>
+                    <rect key="frame" x="168" y="210" width="36" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Name" id="37">
                         <font key="font" size="13" name="Monaco"/>
@@ -199,7 +199,7 @@ CQ
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="29">
-                    <rect key="frame" x="167" y="235" width="298" height="17"/>
+                    <rect key="frame" x="168" y="235" width="296" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
@@ -211,7 +211,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="30">
-                    <rect key="frame" x="153" y="260" width="219" height="21"/>
+                    <rect key="frame" x="154" y="260" width="219" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" size="17" name="LucidaGrande-Bold"/>
@@ -234,13 +234,16 @@ CQ
                     </connections>
                 </webView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
-                    <rect key="frame" x="225" y="13" width="147" height="32"/>
+                    <rect key="frame" x="226" y="13" width="146" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                         <string key="keyEquivalent"></string>
                     </buttonCell>
+                    <connections>
+                        <action selector="$previousView:" target="-2" id="52"/>
+                    </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="31">
                     <rect key="frame" x="372" y="13" width="96" height="32"/>
@@ -256,6 +259,9 @@ CQ
 </string>
                         <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="$close:" target="-2" id="93"/>
+                    </connections>
                 </button>
             </subviews>
             <constraints>
@@ -273,7 +279,7 @@ CQ
                 <constraint firstAttribute="centerX" secondItem="115" secondAttribute="centerX" id="oam-wT-RTR"/>
             </constraints>
             <connections>
-                <outlet property="previousView" destination="5" id="92"/>
+                <outlet property="$previousView" destination="5" id="92"/>
             </connections>
         </customView>
         <customView id="54" userLabel="RegistrationC" customClass="MSZLinkedView">
@@ -281,7 +287,7 @@ CQ
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="74">
-                    <rect key="frame" x="167" y="121" width="298" height="34"/>
+                    <rect key="frame" x="168" y="121" width="296" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
@@ -293,7 +299,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="56">
-                    <rect key="frame" x="167" y="235" width="298" height="17"/>
+                    <rect key="frame" x="168" y="235" width="296" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>
@@ -305,7 +311,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="58">
-                    <rect key="frame" x="153" y="260" width="188" height="21"/>
+                    <rect key="frame" x="154" y="260" width="188" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" size="17" name="LucidaGrande-Bold"/>
@@ -314,7 +320,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="194" y="13" width="178" height="32"/>
+                    <rect key="frame" x="195" y="13" width="177" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -324,6 +330,9 @@ CQ
 </string>
                         <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="$visitStore:" target="-2" id="117"/>
+                    </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="57">
                     <rect key="frame" x="372" y="13" width="96" height="32"/>
@@ -339,6 +348,9 @@ CQ
 </string>
                         <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="$previousView:" target="-2" id="83"/>
+                    </connections>
                 </button>
             </subviews>
             <constraints>
@@ -354,7 +366,7 @@ CQ
                 <constraint firstAttribute="bottom" secondItem="72" secondAttribute="bottom" constant="20" symbolic="YES" id="zkX-d8-3q1"/>
             </constraints>
             <connections>
-                <outlet property="previousView" destination="5" id="95"/>
+                <outlet property="$previousView" destination="5" id="95"/>
             </connections>
         </customView>
     </objects>
