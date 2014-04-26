@@ -13,11 +13,11 @@ and this would make it uneasy to localize them in other languages properly
 
 "MenuItem:Pin Visor" = "Lås Visor";
 "MenuItem:Close Tab" = "Lukk fane";
-"MenuItem:New Native Tab" = "New Native Tab";
-"MenuItem:Close Native Tab" = "Close Native Tab";
-"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
-"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
-"MenuItem:New Tab" = "New Tab";
+"MenuItem:New Native Tab" = "Ny Original Fane";
+"MenuItem:Close Native Tab" = "Lukk Original Fane";
+"MenuItem:Show Previous Native Tab" = "Vis Forrige Originale Fane";
+"MenuItem:Show Next Native Tab" = "Vis Neste Originale Fane";
+"MenuItem:New Tab" = "Ny Fane";
 "MenuItem:Reopen Closed Tab" = "Gjenåpne Lukket Fane";
 "MenuItem:Close Window" = "Lukk vindu";
 "MenuItem:Toggle Dual Mode" = "Skru av/på Dual Mode";
@@ -28,8 +28,8 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Folders on Top" = "Sorter mapper før filer";
 "MenuItem:Show System Files" = "Vis systemfiler";
 "MenuItem:Column View Auto Width" = "Kolonnevisning auto bredde";
-"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
-"MenuItem:Template" = "Template";
+"MenuItem:Dock Progress Bar" = "Dock Fremdriftslinje";
+"MenuItem:Template" = "Mal";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:
