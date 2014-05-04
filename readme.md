@@ -15,7 +15,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 
 ## Where to start?
 
-1. Read something about git version control system. Here is [the best place to start](http://git-scm.com/documentation).
+1. Read something about git version control system. Here is [the best place to start](http://git-scm.comhttp://totalfinder.binaryage.com/about).
 2. Get familiar with GitHub. They have also [nice docs](http://help.github.com).
 3. Create GitHub user and don't forget to [setup your local git](http://help.github.com/mac-set-up-git) so your commits are linked to your GitHub account.
 4. See how others are working on [TotalFinder localization](http://github.com/binaryage/totalfinder-i18n/network).
