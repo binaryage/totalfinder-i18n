@@ -13,10 +13,10 @@ and this would make it uneasy to localize them in other languages properly
 
 "MenuItem:Pin Visor" = "Закрепить";
 "MenuItem:Close Tab" = "Закрыть вкладку";
-"MenuItem:New Native Tab" = "New Native Tab";
-"MenuItem:Close Native Tab" = "Close Native Tab";
-"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
-"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Native Tab" = "Новая вкладка OS X Finder";
+"MenuItem:Close Native Tab" = "Закрыть вкладку OS X Finder";
+"MenuItem:Show Previous Native Tab" = "Выбрать предыдущую вкладку OS X Finder";
+"MenuItem:Show Next Native Tab" = "Выбрать следующую вкладку OS X Finder";
 "MenuItem:New Tab" = "Новая вкладка";
 "MenuItem:Reopen Closed Tab" = "Восстановить закрытую вкладку";
 "MenuItem:Close Window" = "Закрыть окно";
