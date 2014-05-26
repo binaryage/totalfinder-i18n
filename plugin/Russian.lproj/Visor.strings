@@ -6,7 +6,7 @@
 "a system-wide window sliding from the bottom on a hot-key" = "Глобальное окно, появляющееся снизу, по горячей клавише";
 "Visor Feature" = "Использовать Visor";
 "Activation:" = "Активация:";
-"Show on all Spaces" = "Показывать на всех Spaces";
+"Show on all Spaces" = "Показывать на всех Рабочих столах";
 "Animation:" = "Анимация:";
 "Control:" = "Управлять:";
 "Slide Window" = "Смещение";
@@ -14,6 +14,6 @@
 "Show on top of the Dock" = "Показывать поверх Dock";
 "Free Form Window" = "Изменяемый размер окна";
 "Hide on ESC" = "Скрывать по ESC";
-"Screen:" = "Экран:";
-"Screen" = "Экран";
-"Screen with Mouse Cursor" = "Экран с курсором мыши";
+"Screen:" = "Рабочий стол:";
+"Screen" = "Рабочий стол";
+"Screen with Mouse Cursor" = "Активный рабочий стол";
