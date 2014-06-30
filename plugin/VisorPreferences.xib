@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D43" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.21"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VisorPluginPreferencesController">
@@ -20,14 +19,12 @@
             <subviews>
                 <box autoresizesSubviews="NO" borderType="bezel" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="460">
                     <rect key="frame" x="17" y="16" width="446" height="368"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <view key="contentView">
                         <rect key="frame" x="3" y="3" width="440" height="362"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="469" customClass="PreferencesTextField">
                                 <rect key="frame" x="14" y="330" width="114" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1494"/>
                                 </constraints>
@@ -42,7 +39,6 @@
                             </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="483">
                                 <rect key="frame" x="137" y="53" width="149" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="^Show on all Spaces" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="486">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -54,14 +50,12 @@
                             </button>
                             <box title="Title" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="482">
                                 <rect key="frame" x="136" y="116" width="181" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <view key="contentView">
                                     <rect key="frame" x="2" y="2" width="177" height="39"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="487">
-                                            <rect key="frame" x="12" y="7" width="80" height="25"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                        <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="487">
+                                            <rect key="frame" x="12" y="7" width="80" height="27"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="76" id="635"/>
                                             </constraints>
@@ -75,7 +69,6 @@
                                         </slider>
                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="488">
                                             <rect key="frame" x="100" y="8" width="66" height="22"/>
-                                            <autoresizingMask key="autoresizingMask"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="66" id="546"/>
                                             </constraints>
@@ -113,7 +106,6 @@
                             </box>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="471" customClass="PreferencesTextField">
                                 <rect key="frame" x="14" y="184" width="114" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1498"/>
                                 </constraints>
@@ -128,7 +120,6 @@
                             </textField>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="470" customClass="PreferencesTextField">
                                 <rect key="frame" x="14" y="245" width="114" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1500"/>
                                 </constraints>
@@ -143,7 +134,6 @@
                             </textField>
                             <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="481">
                                 <rect key="frame" x="139" y="73" width="222" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="219" id="551"/>
                                 </constraints>
@@ -164,7 +154,6 @@
                             </comboBox>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="480">
                                 <rect key="frame" x="137" y="294" width="22" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="1268"/>
                                 </constraints>
@@ -179,7 +168,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="478">
                                 <rect key="frame" x="137" y="163" width="114" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="^Slide Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="495">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -191,7 +179,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="476">
                                 <rect key="frame" x="137" y="183" width="113" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="^Fade Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="497">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -203,7 +190,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="475">
                                 <rect key="frame" x="137" y="33" width="186" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="^Show on top of the Dock" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="498">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -215,7 +201,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="474">
                                 <rect key="frame" x="137" y="13" width="147" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="1443"/>
                                 </constraints>
@@ -230,7 +215,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="473">
                                 <rect key="frame" x="137" y="244" width="107" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="^Hide on ESC" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="500">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -242,7 +226,6 @@
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="468" customClass="PreferencesTextField">
                                 <rect key="frame" x="14" y="77" width="114" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1497"/>
                                 </constraints>
@@ -255,9 +238,8 @@
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="522"/>
                                 </connections>
                             </textField>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
-                                <rect key="frame" x="139.00000521380147" y="328" width="130" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
+                                <rect key="frame" x="138" y="328" width="130" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1438"/>
                                     <constraint firstAttribute="width" constant="130" id="1462"/>
@@ -271,7 +253,6 @@
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="464" customClass="MASShortcutView">
                                 <rect key="frame" x="229" y="220" width="130" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1437"/>
                                     <constraint firstAttribute="width" constant="130" id="1461"/>
@@ -285,7 +266,6 @@
                             </customView>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="465" customClass="PreferencesTextField">
                                 <rect key="frame" x="156" y="222" width="67" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Pin Visor" id="505">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -297,14 +277,12 @@
                             </textField>
                             <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="1229">
                                 <rect key="frame" x="155" y="266" width="179" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView">
                                     <rect key="frame" x="0.0" y="0.0" width="179" height="71"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView translatesAutoresizingMaskIntoConstraints="NO" id="477" customClass="PreferencesModifierButtonImageView">
                                             <rect key="frame" x="103" y="15" width="57" height="43"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ModifiersOption" id="496"/>
                                             <connections>
                                                 <binding destination="457" name="enabled2" keyPath="values.TotalFinderHotKey2Enabled" previousBinding="513" id="514">
@@ -320,7 +298,6 @@
                                         </imageView>
                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="484" customClass="PreferencesTextField">
                                             <rect key="frame" x="82" y="28" width="15" height="17"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="+" id="485">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -340,7 +317,6 @@
                                         </textField>
                                         <imageView translatesAutoresizingMaskIntoConstraints="NO" id="479" customClass="PreferencesModifierButtonImageView">
                                             <rect key="frame" x="19" y="15" width="57" height="43"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="57" id="1416"/>
                                             </constraints>
@@ -423,7 +399,6 @@
                 </box>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="721">
                     <rect key="frame" x="18" y="400" width="121" height="18"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="^Visor Feature" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="726">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="systemBold"/>
@@ -434,7 +409,6 @@
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="722">
                     <rect key="frame" x="38" y="390" width="275" height="11"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="^a system-wide window sliding from the bottom on a hot-key" id="724">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" red="0.41304347829999999" green="0.41304347829999999" blue="0.41304347829999999" alpha="1" colorSpace="calibratedRGB"/>
