@@ -54,8 +54,8 @@
                                     <rect key="frame" x="2" y="2" width="177" height="39"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="487">
-                                            <rect key="frame" x="12" y="7" width="80" height="27"/>
+                                        <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="487">
+                                            <rect key="frame" x="12" y="5" width="80" height="27"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="76" id="635"/>
                                             </constraints>
@@ -238,8 +238,8 @@
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="522"/>
                                 </connections>
                             </textField>
-                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
-                                <rect key="frame" x="138" y="328" width="130" height="19"/>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
+                                <rect key="frame" x="139" y="328" width="130" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="1438"/>
                                     <constraint firstAttribute="width" constant="130" id="1462"/>
