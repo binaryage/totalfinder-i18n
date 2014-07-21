@@ -1,0 +1,38 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Fixar visor";
+"MenuItem:Close Tab" = "Tancar finestra";
+"MenuItem:New Native Tab" = "Nova pestanya nativa";
+"MenuItem:Close Native Tab" = "Tancar pestanya nativa;
+"MenuItem:Show Previous Native Tab" = "Mostrar pestanya nativa anterior";
+"MenuItem:Show Next Native Tab" = "Mostrar següent pestanya nativa";
+"MenuItem:New Tab" = "Nova pestanya";
+"MenuItem:Reopen Closed Tab" = "Reobrir pestanya tancada";
+"MenuItem:Close Window" = "Tancar finestra";
+"MenuItem:Toggle Dual Mode" = "Commnuta el model dual";
+"MenuItem:Narrow Tabs Bar" = "Barra de pestanyes estreta";
+"MenuItem:Select Previous Tab" = "Selecciona pestanya prèvia";
+"MenuItem:Select Next Tab" = "Seleccia següent pestanya";
+"MenuItem:Switch Active Panel" = "Cambia el panell actiu";
+"MenuItem:Folders on Top" = "Carpetes a primer pla";
+"MenuItem:Show System Files" = "Mostrar arxius de sistema";
+"MenuItem:Column View Auto Width" = "Autoajusta el tamany de les columnes";
+"MenuItem:Dock Progress Bar" = "Barra de progrès del Dock";
+"MenuItem:Template" = "Template"; /* this is just for development - don't translate */
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/

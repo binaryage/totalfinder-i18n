@@ -1,0 +1,9 @@
+"Copy Path" = "Copiar el camí";
+"POSIX Path" = "Camí POSIX";
+"URL" = "URL";
+"Windows Path" = "Camí de Windows";
+"HFS Path" = "Camí HFS";
+"Terminal Path" = "Camí de Terminal";
+"UNC Path" = "Camí UNC";
+
+"Allow path copying from Context Menus" = "Permetre la copia de camíns des dels menús contextuals";

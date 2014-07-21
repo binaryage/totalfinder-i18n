@@ -1,0 +1,16 @@
+"TotalFinder - unregistered version" = "TotalFinder - versió sense registrar";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - Queda 1 dia - compri ara!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - Queden 2 dies - compri ara!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - Queden 3 dies - compri ara!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - Queden 4 dies - compri ara!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - Queden 5 dies - compri ara";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - Queden %d dies - compri ara!";
+"Close Tab" = "Tancar pestanya";
+"Toggle Dual Mode" = "Activar/desactivar mode dual";
+
+"New Tab" = "Nova pestanya"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "Fer servir una barrar de pestanyes estreta";
+"Open new tabs with previous location" = "Obrir noves pestanyes amb la ruta prèvia";
+
+/* preferences */
+"Freelance Windows" = "No agrupar les finestres";
