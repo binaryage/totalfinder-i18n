@@ -44,6 +44,8 @@
 	<string>BATF</string>
 	<key>InitEventID</key>
 	<string>init</string>
+	<key>SoftInjectionDelay</key>
+	<real>2</real>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
