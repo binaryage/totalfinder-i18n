@@ -1,4 +1,4 @@
-"crashDialogHeader" = "TotalFinder telah berhenti tanpa dijangka";
+"crashDialogHeader" = "TotalFinder telah terhenti tanpa dijangka";
 "crashDialogMsg" = "Harap maaf, TotalFinder mengalami masalah yang tidak dijangka dan menghentikan Finder.";
 "crashDialogNote" = "Nota: Finder telah dimulakan secara automatik tetapi anda perlu melancarkan semula TotalFinder.app secara manual.";
 "crashDialogExplanation" = "Butang hantar akan memuat naik laporan insiden ke gist.github.com dan melancarkan Mail.app dengan templat emel.";
