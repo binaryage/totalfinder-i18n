@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder telah terhenti tanpa dijangka";
+"crashDialogMsg" = "Harap maaf, TotalFinder mengalami masalah yang tidak dijangka dan menghentikan Finder.";
+"crashDialogNote" = "Nota: Finder telah dimulakan secara automatik tetapi anda perlu melancarkan semula TotalFinder.app secara manual.";
+"crashDialogExplanation" = "Butang hantar akan memuat naik laporan insiden ke gist.github.com dan melancarkan Mail.app dengan templat emel.";
+
+"failDialogHeader" = "Tidak dapat memuat naik laporan insiden ke gist.github.com";
+"failDialogMsg1" = "Sayang sekali. Saya tidak menjumpai laporan insiden dalam ~/Logs/CrashReporter anda.";
+"failDialogMsg2" = "Saya telah jumpa laporan insiden itu, tetapi muat naik ke gist.github.com gagal atas sebab tertentu. \n\nJika penting, anda boleh menghantar kepada saya secara manual:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Hantar Emel";
+"cancelButton" = "Batal";
+
+"emailTemplate" = "Hai Antonin, \n\n%@ saya telah terhenti!\n\nLaporan insiden boleh di dapati di sini:\n%@\n\n>\n> Anda boleh bantu saya menyelesaikan masalah ini dengan menerangkan apa yang berlaku sebelum insiden.\n> Saya hargai bantuan anda dan saya meneliti setiap laporan insiden, tapi jangan harapkan jawapan langsung daripada saya.\n> Untuk perbincangan lanjut sila buka topik di \n> http://discuss.binaryage.com\n>\n> Terima kasih, Antonin";
+
+"countdownMsgSecondsPlural" = "Tinggal %d saat.";
+"countdownMsgSecondSingular" = "Tinggal %d saat.";
+
+"countdownMsgMinutesPlural" = "Tinggal %d minit.";
+"countdownMsgMinuteSingular" = "Tinggal %d minit.";
