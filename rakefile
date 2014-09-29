@@ -310,7 +310,7 @@ def inprint_strings(source, dest, shared_originals=[])
     next line unless (line.strip[0...1]=='"')
 
     line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;\s*?/
-    die "syntax error in " + source.blue+":"+index.to_s unless $1
+    die "syntax error in #{source.blue}:#{index.to_s} [#{line}]" unless $1
 
     line = $1 + " = " + $1 + ";\n";
 
@@ -327,7 +327,7 @@ def inprint_strings(source, dest, shared_originals=[])
     needle = $1
     haystack = $2
     rest = $3
-    die "syntax error in " + dest.blue+":"+index.to_s unless $1 and $2
+    die "syntax error in #{dest.blue}:#{index.to_s} [#{original}]" unless $1 and $2
 
     found = false
     strings.map! do |line|
@@ -351,7 +351,7 @@ def find_key(key, lines)
     line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
     needle = $1
     haystack = $2
-    die "syntax error in " + dest.blue+":"+index.to_s unless $1 and $2
+    die "syntax error in #{dest.blue}:#{index.to_s} [#{line}]" unless $1 and $2
     return haystack if needle==key
   end
   
@@ -365,7 +365,7 @@ def post_process_menuitems(dest, shared_originals=[])
     next line unless (line.strip[0...1]=='"')
 
     line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
-    die "syntax error in " + source.blue+":"+index.to_s unless $1
+    die "syntax error in #{source.blue}:#{index.to_s} [#{line}]" unless $1
 
     key = $1
     val = $2
