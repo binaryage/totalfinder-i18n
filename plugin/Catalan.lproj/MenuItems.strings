@@ -14,7 +14,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Pin Visor" = "Fixar visor";
 "MenuItem:Close Tab" = "Tancar finestra";
 "MenuItem:New Native Tab" = "Nova pestanya nativa";
-"MenuItem:Close Native Tab" = "Tancar pestanya nativa;
+"MenuItem:Close Native Tab" = "Tancar pestanya nativa";
 "MenuItem:Show Previous Native Tab" = "Mostrar pestanya nativa anterior";
 "MenuItem:Show Next Native Tab" = "Mostrar següent pestanya nativa";
 "MenuItem:New Tab" = "Nova pestanya";
