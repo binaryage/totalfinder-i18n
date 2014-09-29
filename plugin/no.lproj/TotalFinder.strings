@@ -10,6 +10,7 @@
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Søk etter oppdateringer automatisk";
 "Uninstall TotalFinder" = "Avinstaller TotalFinder";
+"About TotalFinder" = "About TotalFinder";
 "Restart Finder" = "Start Finder på nytt";
 
 /* Reset to Defaults Alert Box */

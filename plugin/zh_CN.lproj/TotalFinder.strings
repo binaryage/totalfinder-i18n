@@ -10,6 +10,7 @@
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "检查更新";
 "Uninstall TotalFinder" = "卸载 TotalFinder";
+"About TotalFinder" = "About TotalFinder";
 "Restart Finder" = "重启 Finder";
 
 /* Reset to Defaults Alert Box */

@@ -10,6 +10,7 @@
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Rechercher les mises à jour";
 "Uninstall TotalFinder" = "Désinstaller TotalFinder";
+"About TotalFinder" = "About TotalFinder";
 "Restart Finder" = "Relancer le Finder";
 
 /* Reset to Defaults Alert Box */

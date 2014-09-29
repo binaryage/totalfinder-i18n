@@ -10,6 +10,7 @@
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "アップデートを確認";
 "Uninstall TotalFinder" = "TotalFinder をアンインストールする";
+"About TotalFinder" = "About TotalFinder";
 "Restart Finder" = "Finder を再起動";
 
 /* Reset to Defaults Alert Box */
