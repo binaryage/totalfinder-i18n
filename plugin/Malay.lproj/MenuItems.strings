@@ -12,23 +12,23 @@ and this would make it uneasy to localize them in other languages properly
 */
 
 "MenuItem:Pin Visor" = "Pin Visor";
-"MenuItem:Close Tab" = "Close Tab";
-"MenuItem:New Native Tab" = "New Native Tab";
-"MenuItem:Close Native Tab" = "Close Native Tab";
-"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
-"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
-"MenuItem:New Tab" = "New Tab";
-"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
-"MenuItem:Close Window" = "Close Window";
-"MenuItem:Toggle Dual Mode" = "Toggle Dual Mode";
-"MenuItem:Narrow Tabs Bar" = "Narrow Tabs Bar";
-"MenuItem:Select Previous Tab" = "Select Previous Tab";
-"MenuItem:Select Next Tab" = "Select Next Tab";
-"MenuItem:Switch Active Panel" = "Switch Active Panel";
-"MenuItem:Folders on Top" = "Folders on Top";
-"MenuItem:Show System Files" = "Show System Files";
-"MenuItem:Column View Auto Width" = "Column View Auto Width";
-"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Close Tab" = "Tutup Tab";
+"MenuItem:New Native Tab" = "Tab Asal Baru";
+"MenuItem:Close Native Tab" = "Tutup Tab Asal";
+"MenuItem:Show Previous Native Tab" = "Paparkan Tab Asal Terdahulu";
+"MenuItem:Show Next Native Tab" = "Paparkan Tab Asal Seterusnya";
+"MenuItem:New Tab" = "Tab Baru";
+"MenuItem:Reopen Closed Tab" = "Buka Semula Tab Yang Ditutup";
+"MenuItem:Close Window" = "Tutup Tetingkap";
+"MenuItem:Toggle Dual Mode" = "Togol Mod Dual";
+"MenuItem:Narrow Tabs Bar" = "Kecilkan Bar Tab";
+"MenuItem:Select Previous Tab" = "Pilih Tab Terdahulu";
+"MenuItem:Select Next Tab" = "Pilih Tab Seterusnya";
+"MenuItem:Switch Active Panel" = "Tukar Panel Aktif";
+"MenuItem:Folders on Top" = "Folder di Atas";
+"MenuItem:Show System Files" = "Papar Fail Sistem";
+"MenuItem:Column View Auto Width" = "Paparan Lajur Lebar Auto ";
+"MenuItem:Dock Progress Bar" = "Dok Bar Perkembangan";
 "MenuItem:Template" = "Template"; /* this is just for development - don't translate */
 
 /* 

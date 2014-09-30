@@ -1,85 +1,85 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
-"Dock" = "Dock";
-"Sidebar" = "Sidebar";
+"BASIC" = "ASAS";
+"SYSTEM" = "SISTEM";
+"Menus" = "Menu";
+"Updates" = "Kemaskini";
+"File Browser" = "Pelayar Fail";
+"Dock" = "Dok";
+"Sidebar" = "Bar sisi";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Check for Updates";
-"Uninstall TotalFinder" = "Uninstall TotalFinder";
-"About TotalFinder" = "About TotalFinder";
-"Restart Finder" = "Restart Finder";
+"Check for Updates" = "Semak Kemaskini";
+"Uninstall TotalFinder" = "Padam TotalFinder";
+"About TotalFinder" = "Mengenai TotalFinder";
+"Restart Finder" = "Mulakan semula Finder";
 
 /* Reset to Defaults Alert Box */
-"Reset" = "Reset";
-"Cancel" = "Cancel";
-"Do you really want reset to defaults?" = "Do you really want reset to defaults?";
-"This will restore initial TotalFinder settings." = "This will restore initial TotalFinder settings.";
+"Reset" = "Set semula";
+"Cancel" = "Batal";
+"Do you really want reset to defaults?" = "Anda benar-benar mahu set semula ke asal?";
+"This will restore initial TotalFinder settings." = "Ini akan mengembalikan tetapan awal TotalFinder.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder Preferences…";
-"Visit Homepage…" = "Visit Homepage…";
+"TotalFinder Preferences…" = "Pilihan TotalFinder…";
+"Visit Homepage…" = "Layari Laman Web…";
 
 /* registration */
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Licensed to %@" = "Dilesenkan kepada %@";
+"Change License" = "Tukar Lesen";
+"Unregistered version in trial mode" = "Versi tidak berdaftar dalam mod percubaan";
+"Register" = "Daftar";
 
 /* navigation bar */
-"About" = "About";
+"About" = "Perihal";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Reset TotalFinder to defaults";
+"Reset TotalFinder to defaults" = "Set semula TotalFinder ke asal";
 
-"Hide icon in Menu Bar" = "Hide icon in Menu Bar";
-"Keep original Dock icon" = "Keep original Dock icon";
+"Hide icon in Menu Bar" = "Sembunyi ikon pada Bar Menu";
+"Keep original Dock icon" = "Guna ikon asal Dok";
 
 /* about page */
-"Check Now" = "Check Now";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Semak Sekarang";
+"Automatically check the website for updates" = "Semak laman web secara automatik untuk kemaskini";
+"Include pre-releases" = "Termasuk pra-pelancaran";
+"Participate in TotalFinder testing" = "Sertai pengujian TotalFinder";
 
 /* registration */
-"TotalFinder Registration" = "TotalFinder Registration";
-"Registration" = "Registration";
-"Please enter your license details from the email we have sent you:" = "Please enter your license details from the email we have sent you:";
-"Buy TotalFinder Now" = "Buy TotalFinder Now";
-"Thanks for registering!" = "Thanks for registering!";
-"This TotalFinder copy is licensed to:" = "This TotalFinder copy is licensed to:";
-"Close" = "Close";
-"Back" = "Back";
-"Invalid license code" = "Invalid license code";
-"Please go back and try again." = "Please go back and try again.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
-"Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"TotalFinder Registration" = "Pendaftaran TotalFinder";
+"Registration" = "Pendaftaran";
+"Please enter your license details from the email we have sent you:" = "Sila masukkan maklumat lesen dari emel yang kami hantar kepada anda:";
+"Buy TotalFinder Now" = "Beli TotalFinder Sekarang";
+"Thanks for registering!" = "Terima kasih kerana mendaftar!";
+"This TotalFinder copy is licensed to:" = "Salinan TotalFinder ini dilesenkan kepada:";
+"Close" = "Tutup";
+"Back" = "Belakang";
+"Invalid license code" = "Kod lesen tidak sah";
+"Please go back and try again." = "Sila ke belakang dan cuba lagi.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Untuk membeli lesen TotalFinder, sila layari kedai web BinaryAge.";
+"Thank you for using TotalFinder!" = "Terima kasih kerana menggunakan TotalFinder!";
+"License Name" = "Nama Lesen";
+"License Key" = "Kunci Lesen";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Klik untuk mencatat pintasan baru";
+"Delete shortcut" = "Padam pintasan";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
+"Record Shortcut" = "Catat Pintasan";
 "Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"The key combination %@ cannot be used" = "Kombinasi kekunci %@ tidak boleh digunakan";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Gabungan ini tidak boleh digunakan kerana ia sudah digunakan oleh kekunci pintasan keseluruhan sistem.\nJika anda benar-benar mahu menggunakan gabungan kekunci ini, kebanyakan pintasan boleh diubah dalam panel Keyboard & Mouse dalam Pilihan Sistem.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Pintasan ini tidak boleh digunakan kerana ia telah digunakan oleh item menu ‘%@’.";
+"Type New Shortcut" = "Taip Pintasan Baru";
+"Type Shortcut" = "Taip Pintasan";
+"Use Old Shortcut" = "Guna Pintasan Lama";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Matikan tab sepenuhnya";
+"Do you really want to disable tabs?" = "Anda benar-benar mahu untuk mematikan tab?";
+"Do you really want to enable tabs?" = "Anda benar-benar mahu untuk mengaktifkan tab?";
 "Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mematikan modul tab dalam TotalFinder serta-merta. Fungsi mod dwi dan visor akan turut dimatikan. Ini mungkin diperlukan dalam Mavericks - gunakan tab Finder asal secara eksklusif sambil manfaatkan ciri-ciri TotalFinder yang lain.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mengaktifkan modul tab dalam TotalFinder serta-merta.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Ini akan mematikan tab, mod dwi dan visor. Finder perlu dimulakan semula.";
