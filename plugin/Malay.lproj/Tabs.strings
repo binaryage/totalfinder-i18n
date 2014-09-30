@@ -1,16 +1,16 @@
-"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
-"Close Tab" = "Close Tab";
-"Toggle Dual Mode" = "Toggle Dual Mode";
+"TotalFinder - unregistered version" = "TotalFinder - versi tidak berdaftar";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - tinggal 1 hari - beli sekarang!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - tinggal 2 hari - beli sekarang!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - tinggal 3 hari - beli sekarang!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - tinggal 4 hari - beli sekarang!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - tinggal 5 hari - beli sekarang!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - tinggal %d hari - buy now!";
+"Close Tab" = "Tutup Tab";
+"Toggle Dual Mode" = "Togol Mod Dual";
 
-"New Tab" = "New Tab"; /* the tooltip of the "plus button" in tabs bar */
-"Use narrow Tabs Bar" = "Use narrow Tabs Bar";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"New Tab" = "Tab Baru"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "Gunakan Bar Tab kecil";
+"Open new tabs with previous location" = "Buka tab baru dengan lokasi terdahulu";
 
 /* preferences */
-"Freelance Windows" = "Freelance Windows";
+"Freelance Windows" = "Tetingkap Bebas";
