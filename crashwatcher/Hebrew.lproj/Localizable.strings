@@ -1,20 +1,20 @@
-"crashDialogHeader" = "TotalFinder has quit unexpectedly";
-"crashDialogMsg" = "We are sorry, but TotalFinder hit an unexpected problem and crashed Finder.";
-"crashDialogNote" = "Note: Finder was restarted automatically but you have to launch TotalFinder.app manually again.";
-"crashDialogExplanation" = "The send button will upload the crash report to gist.github.com and launch Mail.app with email template.";
+"crashDialogHeader" = "TotalFinder נסגר באופן בלתי צפוי";
+"crashDialogMsg" = "אנו מצטערים, אך TotalFinder נתקל בבעיה לא צפויה וגרס לקריסת Finder";
+"crashDialogNote" = "הערה: Finder מופעל מחדש אוטומטית, אך עליך להריץ את TotalFinder.app מחדש באופן ידני.";
+"crashDialogExplanation" = "לחצן השליחה יעלה דו״ח קריסה ל-gist.github.com ויפתח את Mail.app עם תבנית מתאימה להודעת דוא״ל.";
 
-"failDialogHeader" = "Unable to upload crash report to gist.github.com";
-"failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
-"failDialogOK" = "OK";
+"failDialogHeader" = "שליחת הדו״ח ל-gist.github.com נכשלה.";
+"failDialogMsg1" = "חבל מאד. לא הצלחתי לאתר את דו״ח הקריסה ב-~/Logs/CrashReporter.";
+"failDialogMsg2" = "הצלחתי לאתר את דו״ח הקריסה, אך תהליך ההעלאה ל-gist.github.com נכשלה משום מה.\n\nאם דחוף, ניתן לשלוח הדו״ח אלי באופן ידני:\n%@";
+"failDialogOK" = "אישור";
 
-"sendReportButton" = "Send Email";
-"cancelButton" = "Cancel";
+"sendReportButton" = "שלח דוא״ל";
+"cancelButton" = "ביטול";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+"emailTemplate" = "הי אנטונין,\n\n ה-%@ קרס!\n\nדו״ח הקריסה זמין כאן:\n%@\n\n>\n> תוכל לעזור לי לתקן את הבעיה באמצעות תיאור התקרית לפני הקריסה.\n> אני מעריך את עזרתך, ואני מעיין בדוחות הקריסה, אך אל תצפה למענה ישיר.\n> לדיון נוסף אנא פתח נושא חדש ב-\n> http://discuss.binaryage.com.\n>\n> תודה מראש, אנטונין";
 
-"countdownMsgSecondsPlural" = "%d seconds remaining.";
-"countdownMsgSecondSingular" = "%d second remaining.";
+"countdownMsgSecondsPlural" = "%d שניות נותרו.";
+"countdownMsgSecondSingular" = "%d שניה נותרה.";
 
-"countdownMsgMinutesPlural" = "%d minutes remaining.";
-"countdownMsgMinuteSingular" = "%d minute remaining.";
+"countdownMsgMinutesPlural" = "%d דקות נותרו.";
+"countdownMsgMinuteSingular" = "%d דקה נותרה.";
