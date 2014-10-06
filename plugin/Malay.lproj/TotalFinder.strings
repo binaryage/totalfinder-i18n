@@ -79,7 +79,7 @@
 "Disable tabs completely" = "Matikan tab sepenuhnya";
 "Do you really want to disable tabs?" = "Anda benar-benar mahu untuk mematikan tab?";
 "Do you really want to enable tabs?" = "Anda benar-benar mahu untuk mengaktifkan tab?";
-"Tabs" = "Tabs";
+"Tabs" = "Tab";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mematikan modul tab dalam TotalFinder serta-merta. Fungsi mod dwi dan visor akan turut dimatikan. Ini mungkin diperlukan dalam Mavericks - gunakan tab Finder asal secara eksklusif sambil manfaatkan ciri-ciri TotalFinder yang lain.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mengaktifkan modul tab dalam TotalFinder serta-merta.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Ini akan mematikan tab, mod dwi dan visor. Finder perlu dimulakan semula.";
