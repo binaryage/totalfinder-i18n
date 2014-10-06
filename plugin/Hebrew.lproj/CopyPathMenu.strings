@@ -4,6 +4,6 @@
 "Windows Path" = "נתיב Windows";
 "HFS Path" = "נתיב HFS";
 "Terminal Path" = "נתיב Terminal";
-"UNC Path" = "UNC Path";
+"UNC Path" = "נתיב UNC";
 
-"Allow path copying from Context Menus" = "אפשר העתקה דרך תפריטי ההקשר";
+"Allow path copying from Context Menus" = "אפשר העתקת נתיבים דרך תפריטי ההקשר";

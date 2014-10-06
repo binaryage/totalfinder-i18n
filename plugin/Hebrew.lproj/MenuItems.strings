@@ -11,25 +11,25 @@ and this would make it uneasy to localize them in other languages properly
 
 */
 
-"MenuItem:Pin Visor" = "הצמד מצחית";
-"MenuItem:Close Tab" = "סגור לשונית Finder";
-"MenuItem:New Native Tab" = "New Native Tab";
-"MenuItem:Close Native Tab" = "Close Native Tab";
-"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
-"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
-"MenuItem:New Tab" = "New Tab";
-"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Pin Visor" = "הצמד מצחיה";
+"MenuItem:Close Tab" = "סגור לשונית";
+"MenuItem:New Native Tab" = "לשונית Finder חדשה";
+"MenuItem:Close Native Tab" = "סגור לשונית Finder";
+"MenuItem:Show Previous Native Tab" = "הצג לשונית Finder קודמת";
+"MenuItem:Show Next Native Tab" = "הצג לשונית Finder הבאה";
+"MenuItem:New Tab" = "לשונית חדשה";
+"MenuItem:Reopen Closed Tab" = "פתח לשונית שנסגרה";
 "MenuItem:Close Window" = "סגור חלון";
-"MenuItem:Toggle Dual Mode" = "עבור מצב כפול";
-"MenuItem:Narrow Tabs Bar" = "שורה לשוניות מצומצם";
-"MenuItem:Select Previous Tab" = "בחר לשונית הקודם";
-"MenuItem:Select Next Tab" = "בחר לשונית הבא";
-"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Toggle Dual Mode" = "החלף מצב כפול";
+"MenuItem:Narrow Tabs Bar" = "שורת לשוניות צרה";
+"MenuItem:Select Previous Tab" = "בחר לשונית הקודמת";
+"MenuItem:Select Next Tab" = "בחר לשונית הבאה";
+"MenuItem:Switch Active Panel" = "החלף פאנל פעיל";
 "MenuItem:Folders on Top" = "תיקיות למעלה";
-"MenuItem:Show System Files" = "הראה קבצי המערכת";
-"MenuItem:Column View Auto Width" = "Column View Auto Width";
-"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
-"MenuItem:Template" = "Template";
+"MenuItem:Show System Files" = "הראה קבצי מערכת";
+"MenuItem:Column View Auto Width" = "כיוונון רוחב תצוגת עמודות אוטומטי";
+"MenuItem:Dock Progress Bar" = "פס התקדמות ברציף התוכניות";
+"MenuItem:Template" = "תבנית";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

@@ -1,16 +1,16 @@
-"TotalFinder - unregistered version" = "TotalFinder - גירסה לא רשום";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - יום אחר נותר - buy now!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 ימים נותרים - קנה עכשיב!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 ימים נותרים - קנה עכשיב!!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 ימים נותרים - קנה עכשיב!!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 ימים נותרים - קנה עכשיב!!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d ימים נותרים - קנה עכשיב!!";
+"TotalFinder - unregistered version" = "TotalFinder - גירסה אינה רשומה";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - יום אחד נותר - רכוש כעת!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 ימים נותרו - רכוש כעת!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 ימים נותרו - רכוש כעת!!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 ימים נותרו - רכוש כעת!!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 ימים נותרו - רכוש כעת!!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d ימים נותרו - רכוש כעת!!";
 "Close Tab" = "סגור לשונית Finder";
-"Toggle Dual Mode" = "עבור מצב כפול";
+"Toggle Dual Mode" = "החלף מצב כפול";
 
-"New Tab" = "New Tab";
-"Use narrow Tabs Bar" = "השתמש בשורה לשוניות מצומצמת";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"New Tab" = "לשונית חדשה";
+"Use narrow Tabs Bar" = "השתמש בשורת לשוניות מצומצמת";
+"Open new tabs with previous location" = "פתח לשוניות חדשות מהמיקום האחרון";
 
 /* preferences */
 "Freelance Windows" = "חלונות חופשיים";
