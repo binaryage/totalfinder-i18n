@@ -13,22 +13,22 @@ and this would make it uneasy to localize them in other languages properly
 
 "MenuItem:Pin Visor" = "Pripnúť Visor";
 "MenuItem:Close Tab" = "Zatvoriť tab";
-"MenuItem:New Native Tab" = "New Native Tab";
-"MenuItem:Close Native Tab" = "Close Native Tab";
-"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
-"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
-"MenuItem:New Tab" = "New Tab";
-"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:New Native Tab" = "Nový natívny tab";
+"MenuItem:Close Native Tab" = "Zavrieť natívny tab";
+"MenuItem:Show Previous Native Tab" = "Zobraziť predchádzajúci natívny tab";
+"MenuItem:Show Next Native Tab" = "Zobraziť ďalší natívny tab";
+"MenuItem:New Tab" = "Nový tab";
+"MenuItem:Reopen Closed Tab" = "Znovuotvoriť zavretý tab";
 "MenuItem:Close Window" = "Zatvoriť okno";
 "MenuItem:Toggle Dual Mode" = "Prepnúť na dual panel";
 "MenuItem:Narrow Tabs Bar" = "Úzke taby";
-"MenuItem:Select Previous Tab" = "Select Previous Tab";
-"MenuItem:Select Next Tab" = "Select Next Tab";
-"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Select Previous Tab" = "Vybrať predchádzajúci tab";
+"MenuItem:Select Next Tab" = "Vybrať následujúci tab";
+"MenuItem:Switch Active Panel" = "Prepnúť aktívny panel";
 "MenuItem:Folders on Top" = "Adresáre vždy hore";
 "MenuItem:Show System Files" = "Zobraziť skryté";
-"MenuItem:Column View Auto Width" = "Column View Auto Width";
-"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Column View Auto Width" = "Automatická šírka stĺpcov";
+"MenuItem:Dock Progress Bar" = "Indikátor priebehu v Docku";
 "MenuItem:Template" = "Template";
 
 /* 

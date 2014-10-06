@@ -2,12 +2,12 @@
 /* as Main Menu > Edit > Copy item works in your localized Finder */
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
-"Edit" = "Edit";
-"Cut" = "Cut";
-"Cut “%@”" = "Cut “%@”";
-"Cut %u Items" = "Cut %u Items";
-"Paste" = "Paste";
-"Paste %u Items" = "Paste %u Items";
-"Copy" = "Copy";
+"Edit" = "Upraviť";
+"Cut" = "Vystrihnúť";
+"Cut “%@”" = "Vystrihnúť “%@”";
+"Cut %u Items" = "Vystrihnúť položky %u";
+"Paste" = "Vložiť";
+"Paste %u Items" = "Vložiť položky %u";
+"Copy" = "Kopírovať";
 
-"Show CutPaste buttons in Context Menus" = "Show Cut&amp;Paste buttons in Context Menus";
+"Show CutPaste buttons in Context Menus" = "Vystrihnúť Kopírovať Vložiť tlačítka v kontextovom menu";

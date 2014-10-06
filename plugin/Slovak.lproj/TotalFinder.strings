@@ -1,17 +1,17 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
+"BASIC" = "ZÁKLADNÉ";
+"SYSTEM" = "SYSTÉM";
+"Menus" = "Menu";
+"Updates" = "Aktualizácie";
+"File Browser" = "Prehliadač súborov";
 "Dock" = "Dock";
-"Sidebar" = "Sidebar";
+"Sidebar" = "Bočný panel";
 
 /* TotalFinder Status Menu Item */
 "Check for Updates" = "Vyhľadať aktualizácie";
 "Uninstall TotalFinder" = "Odinštalovať TotalFinder";
 "About TotalFinder" = "O programe TotalFinder";
-"Restart Finder" = "Restartovať Finder";
+"Restart Finder" = "Reštartovať Finder";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Reset";
@@ -21,14 +21,14 @@
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "Nastavenia TotalFindera…";
+"TotalFinder Preferences…" = "Nastavenia TotalFinderu…";
 "Visit Homepage…" = "Navštíviť stránku projektu…";
 
 /* registration */
-"Licensed to %@" = "Licensed to %@";
-"Change License" = "Change License";
-"Unregistered version in trial mode" = "Unregistered version in trial mode";
-"Register" = "Register";
+"Licensed to %@" = "Licencia pre %@";
+"Change License" = "Zmeniť licenciu";
+"Unregistered version in trial mode" = "Neregistrovaná verzia v skúšobnom móde";
+"Register" = "Registrovať";
 
 /* navigation bar */
 "About" = "O programe";
@@ -37,49 +37,49 @@
 "Reset TotalFinder to defaults" = "Resetuj TotalFinder do predvoleného nastavenia";
 
 "Hide icon in Menu Bar" = "Odstrániť TotalFinder ikonu zo stavovej lišty";
-"Keep original Dock icon" = "Zachovať originálnu ikonu Findera v Docku";
+"Keep original Dock icon" = "Zachovať originálnu ikonu Finderu v Docku";
 
 /* about page */
-"Check Now" = "Check Now";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Skontrolovať";
+"Automatically check the website for updates" = "Automaticky kontrolovať aktualizácie";
+"Include pre-releases" = "Ponúknuť tiež testovacie verzie";
+"Participate in TotalFinder testing" = "Ďakujem za pomoc s testovaním TotalFinderu";
 
 /* registration */
-"TotalFinder Registration" = "TotalFinder Registration";
-"Registration" = "Registration";
-"Please enter your license details from the email we have sent you:" = "Please enter your license details from the email we have sent you:";
-"Buy TotalFinder Now" = "Buy TotalFinder Now";
-"Thanks for registering!" = "Thanks for registering!";
-"This TotalFinder copy is licensed to:" = "This TotalFinder copy is licensed to:";
-"Close" = "Close";
-"Back" = "Back";
-"Invalid license code" = "Invalid license code";
-"Please go back and try again." = "Please go back and try again.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
-"Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"TotalFinder Registration" = "Registrácia TotalFinderu";
+"Registration" = "Registrácia";
+"Please enter your license details from the email we have sent you:" = "Prosím zadajte licenčné údaje z emailu, ktorý sme Vám poslali:";
+"Buy TotalFinder Now" = "Kúpiť TotalFinder";
+"Thanks for registering!" = "Ďakujeme za registráciu!";
+"This TotalFinder copy is licensed to:" = "TotalFinder registrovaný pre:";
+"Close" = "Zatvoriť";
+"Back" = "Späť";
+"Invalid license code" = "Neplatný licenčný kľúč";
+"Please go back and try again." = "Prosím vráťte sa späť a skúste to znovu.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Licenciu pre TotalFinder môžete kúpiť vo webovom obchode BinaryAge.";
+"Thank you for using TotalFinder!" = "Ďakujeme že používate TotalFinder!";
+"License Name" = "Licenčné meno";
+"License Key" = "Licenčný kľúč";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Kliknite pre zadanie klávesovej skratky";
+"Delete shortcut" = "Zmazať klávesovú skratku";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Record Shortcut" = "Nahrať klávesovú skratku";
+"Space" = "Medzerník";
+"The key combination %@ cannot be used" = "Kombinácia klávesov %@ sa nedá použiť";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Táto kombinácia nemôže byť použitá pretože ju už používa samotný OSX.\nAk chcete používať túto kombináciu skratkových klávesov, veľa skratiek môže byť zmenených v nastavení Klávesnice v Systémových nastaveniach.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Táto skratka nemôže byť použitá pretože je už používaná položkou menu ‘%@’.";
+"Type New Shortcut" = "Stlačte novú klávesovú skratku";
+"Type Shortcut" = "Stlačte klávesovú skratku";
+"Use Old Shortcut" = "Použiť pôvodnú klávesovú skratku";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
-"Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"Disable tabs completely" = "Úplne vypnúť taby";
+"Do you really want to disable tabs?" = "Naozaj chcete úplne vypnúť taby?";
+"Do you really want to enable tabs?" = "Naozaj chcete zapnúť taby?";
+"Tabs" = "Taby";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Táto voľba vypne modul s tabmi v TotalFinderi. To bude mať za následok aj vypnutie duálneho módu a funkcie Visor. Túto voľbu môžete chcieť aktivovať v systéme Mavericks - budete používať štandardné taby Finderu a pri tom môžete využívať ostatných výhod TotalFinderu.\n\nPre dokončenie tejto operácie je nutné Finder reštartovať!\nPoznámka: Pred reštartovaním prosím ukončite všetky úlohy Finderu (ako kopírovanie alebo presúvanie súborov).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Táto voľba zapne modul s tabmi v TotalFinderi.\n\nPre dokončenie tejto operácie je nutné Finder reštartovať!\nPoznámka: Pred reštartovaním prosím ukončite všetky úlohy Finderu (ako kopírovanie alebo presúvanie súborov).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Vypne taby, duálny mód a funkciu Visor. Vyžaduje reštart Finderu";
