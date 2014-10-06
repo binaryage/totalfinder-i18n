@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder נסגר באופן בלתי צפוי";
+"crashDialogMsg" = "אנו מצטערים, אך TotalFinder נתקל בבעיה לא צפויה וגרס לקריסת Finder";
+"crashDialogNote" = "הערה: Finder מופעל מחדש אוטומטית, אך עליך להריץ את TotalFinder.app מחדש באופן ידני.";
+"crashDialogExplanation" = "לחצן השליחה יעלה דו״ח קריסה ל-gist.github.com ויפתח את Mail.app עם תבנית מתאימה להודעת דוא״ל.";
+
+"failDialogHeader" = "שליחת הדו״ח ל-gist.github.com נכשלה.";
+"failDialogMsg1" = "חבל מאד. לא הצלחתי לאתר את דו״ח הקריסה ב-~/Logs/CrashReporter.";
+"failDialogMsg2" = "הצלחתי לאתר את דו״ח הקריסה, אך תהליך ההעלאה ל-gist.github.com נכשלה משום מה.\n\nאם דחוף, ניתן לשלוח הדו״ח אלי באופן ידני:\n%@";
+"failDialogOK" = "אישור";
+
+"sendReportButton" = "שלח דוא״ל";
+"cancelButton" = "ביטול";
+
+"emailTemplate" = "הי אנטונין,\n\n ה-%@ קרס!\n\nדו״ח הקריסה זמין כאן:\n%@\n\n>\n> תוכל לעזור לי לתקן את הבעיה באמצעות תיאור התקרית לפני הקריסה.\n> אני מעריך את עזרתך, ואני מעיין בדוחות הקריסה, אך אל תצפה למענה ישיר.\n> לדיון נוסף אנא פתח נושא חדש ב-\n> http://discuss.binaryage.com.\n>\n> תודה מראש, אנטונין";
+
+"countdownMsgSecondsPlural" = "%d שניות נותרו.";
+"countdownMsgSecondSingular" = "%d שניה נותרה.";
+
+"countdownMsgMinutesPlural" = "%d דקות נותרו.";
+"countdownMsgMinuteSingular" = "%d דקה נותרה.";

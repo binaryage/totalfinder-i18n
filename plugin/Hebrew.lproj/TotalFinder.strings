@@ -1,33 +1,33 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
-"Dock" = "Dock";
-"Sidebar" = "Sidebar";
+"BASIC" = "בסיסי";
+"SYSTEM" = "מערכת";
+"Menus" = "תפריטים";
+"Updates" = "עדכונים";
+"File Browser" = "דפדפן קבצים";
+"Dock" = "רציף התוכניות";
+"Sidebar" = "עמודת הצד";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "בדוק עידכונים";
-"Uninstall TotalFinder" = "הסר TotalFinder";
+"Check for Updates" = "בדוק לעדכונים";
+"Uninstall TotalFinder" = "הסר את TotalFinder";
 "About TotalFinder" = "אודות TotalFinder";
-"Restart Finder" = "הפעל Finder מחדש";
+"Restart Finder" = "הפעל את Finder מחדש";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "אתחל";
 "Cancel" = "בטל";
-"Do you really want reset to defaults?" = "האם אתה באמת רוצה לאפס לברירת המחדל?";
-"This will restore initial TotalFinder settings." = "זה יהיה לשחזר את הגדרות TotalFinder הראשונים.";
+"Do you really want reset to defaults?" = "האם אכן ברצונך לאפס לברירת המחדל?";
+"This will restore initial TotalFinder settings." = "פעולה זו תשחזר הגדרות TotalFinder להתחלתיות.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "עודפות TotalFinder…";
+"TotalFinder Preferences…" = "העדפות TotalFinder…";
 "Visit Homepage…" = "בקר בדף הבית…";
 
 /* registration */
 "Licensed to %@" = "רשום ל־ %@";
 "Change License" = "שנה רשיון";
-"Unregistered version in trial mode" = "הגרסה רשום במצב מדגם";
+"Unregistered version in trial mode" = "הגרסא ניסיונית ואינה רשומה";
 "Register" = "רשום";
 
 /* navigation bar */
@@ -37,49 +37,49 @@
 "Reset TotalFinder to defaults" = "איפוס TotalFinder לברירת המחדל";
 
 "Hide icon in Menu Bar" = "הסתר סמל בשורת התפריטים";
-"Keep original Dock icon" = "שמור על סמל Dock המקורי";
+"Keep original Dock icon" = "שמור הסמל המקורי ברציף התוכניות";
 
 /* about page */
-"Check Now" = "בדוק עכשיב";
-"Automatically check the website for updates" = "באופן אוטומטי בדוק את אתר האינטרנט לקבלת עדכונים";
-"Include pre-releases" = "כלול מראש משחרר";
-"Participate in TotalFinder testing" = "להשתתף בדיקות TotalFinder";
+"Check Now" = "בדוק עכשיו";
+"Automatically check the website for updates" = "בדוק אתר האינטרנט אוטומטית לקבלת עדכונים";
+"Include pre-releases" = "כלול גרסאות ניסיוניות";
+"Participate in TotalFinder testing" = "השתתף בבדיקת המוצר";
 
 /* registration */
 "TotalFinder Registration" = "רשימת TotalFinder";
-"Registration" = "רשימה";
-"Please enter your license details from the email we have sent you:" = "השלם את הרישיון שלך בדוא׳׳ל ששלחנו לך:";
-"Buy TotalFinder Now" = "קנה TotalFinder עכשיב";
-"Thanks for registering!" = "תודה שרשמת!";
-"This TotalFinder copy is licensed to:" = "עותק זה TotalFinder מורשה ל־:";
+"Registration" = "רישום";
+"Please enter your license details from the email we have sent you:" = "הקלד פרטי הרישום מהאימייל ששלחנו לך:";
+"Buy TotalFinder Now" = "קנה את TotalFinder כעת";
+"Thanks for registering!" = "תודה על הרישום!";
+"This TotalFinder copy is licensed to:" = "עותק זה של TotalFinder מורשה ל־:";
 "Close" = "סגור";
-"Back" = "קודם";
+"Back" = "בחזרה";
 "Invalid license code" = "קוד רישיון לא חוקי";
 "Please go back and try again." = "אנא חזור ונסה שוב.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "כדי לרכוש רישיון עבור TotalFinder, בקר בחנות האינטרנט BinaryAge.";
-"Thank you for using TotalFinder!" = "תודה ששימשת ב־ TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "על מנת לרכוש רישיון, אנא בקר בחנות של BinaryAge באינטרנט.";
+"Thank you for using TotalFinder!" = "תודה על השימוש ב־ TotalFinder!";
+"License Name" = "שם הרישיון";
+"License Key" = "קוד הרישיון";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
-"OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"Click to record new shortcut" = "לחץ להגדרת מקש קיצור דרך";
+"Delete shortcut" = "מחק קיצור דרך";
+"OK" = "אישור";
+"Record Shortcut" = "הכנס קיצור דרך";
+"Space" = "רווח";
+"The key combination %@ cannot be used" = "שילוב המקשים %@ אינו ניתן לשימוש";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "שילוב מקשים זה אינו ניתן לשימוש מכיוון שכבר מוגדר ע״י קיצור דרך אחר ששייך למערכת.\nאם ברצונך להגדירו בכל זאת, מרבית הקיצורים ניתנים לשינוי בחלון מאפייני המערכת בחלק המקלדת & עכבר.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "לא ניתן להשתמש בקיצור דרך זה, מכיוון שהינו כבר בשימוש ע״י פריט התפריט ‘%@’.";
+"Type New Shortcut" = "הקלד קיצור דרך חדש";
+"Type Shortcut" = "הקלד קיצור דרך";
+"Use Old Shortcut" = "השתמש בקיצור דרך ישן";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
-"Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"Disable tabs completely" = "נטרל לשוניות לחלוטין";
+"Do you really want to disable tabs?" = "ברצונך לנטרל לשוניות?";
+"Do you really want to enable tabs?" = "ברצונך לאפשר לשוניות?";
+"Tabs" = "לשוניות";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "אופציה זו למעשה תבטל את מודול הלשוניות ב-TotalFinder. המצב הכפול והמצחיה ינוטרלו אף הם. תחת המערכת Mavericks יתכן שזה יהיה רצוי - השתמש בלשוניות Finder הרגילות בלבד תוך שמירה על יתרונות התכונות האחרות.\n\nלהחלת פעולה זו יש להפעיל את Finder מחדש!\nהערה: לפני השתחול אנא סיים את כל המשימות שמתנהלות כעת (כגון העתקה או העברה של קבצים).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "פעולה זו תחיל אפקטיבית את מודול הלשוניות ב-TotalFinder.\n\nיש לאתחל את Finder לביצוע פעולה זו.\nהערה: לפני השתחול אנא הנח לכל משימות Finder שבעיצומן לסיים את פעולתן (כדוגמת העתקת או העברת קבצים).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "פעולה זו תבטל בפועל את הלשוניות, המצב הכפול והמצחית. הפעלה מחדש של Finder נחוצה לשם כך.";
