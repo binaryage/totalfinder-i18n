@@ -57,29 +57,29 @@
 "Invalid license code" = "Недійсний код ліцензії";
 "Please go back and try again." = "Будь ласка, спробуйте ще раз.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "Щоб купити ліцензію TotalFinder, будь ласка, відвідайте онлайн магазин BinaryAge.";
-"Thank you for using TotalFinder!" = "Дякуємо за користування ЕщефдАштвук!";
+"Thank you for using TotalFinder!" = "Дякуємо за користування TotalFinder!";
 "License Name" = "Ліцензійне ім'я";
 "License Key" = "Ліцензійний ключ";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
+"Click to record new shortcut" = "Натиснуты щоб записаты "шоркат"";
+"Delete shortcut" = "Видалити шорткат";
 "OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
+"Record Shortcut" = "Записати шорткат";
 "Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
+"The key combination %@ cannot be used" = "Ця комбiнацiя %@ не може використовуватися";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Таке поєднання не може бути використана, оскільки вона вже використовується для системних клавіш.\nIf ви дійсно хочете використовувати сполучення клавіш, більшість клавіш можуть бути змінені в розділі миша і клавіатура панелі в системних настройках.";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Цей шорткат не може бути використаний, тому що він вже використовується в пунктi меню ‘%@’.";
+"Type New Shortcut" = "Тип нового шортката";
+"Type Shortcut" = "Тип шортката";
+"Use Old Shortcut" = "Використовувати старий шорткат";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Відключити вкладки повністю";
+"Do you really want to disable tabs?" = "Ви дійсно хочете відключити вкладки?";
+"Do you really want to enable tabs?" = "Ви дійсно хочете активувати вкладки?";
 "Tabs" = "Вкладки";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "TЦей варіант дозволить ефективно включити вкладки модуля в TotalFinder.\n\пдля цієї операції Finder повинен бути перезапущений.\ппримечание: до перезапуску будь ласка, все готово Finder завдання у процесі (наприклад, копіювання або переміщення файлів).";
+"Це дозволить ефективно відключити вкладки, подвійний режим і козирок. Finder необхідності перезавантаження." = "Це відключить вкладок, подвійний режим і козирок. Finder необхідність перезавантаження.";
