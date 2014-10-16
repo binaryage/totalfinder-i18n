@@ -74,6 +74,7 @@
 "Type New Shortcut" = "Тип нового шортката";
 "Type Shortcut" = "Тип шортката";
 "Use Old Shortcut" = "Використовувати старий шорткат";
+"Set it anyway" = "Set it anyway";
 
 /* tabs section */
 "Disable tabs completely" = "Відключити вкладки повністю";
@@ -82,4 +83,4 @@
 "Tabs" = "Вкладки";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "TЦей варіант дозволить ефективно включити вкладки модуля в TotalFinder.\n\пдля цієї операції Finder повинен бути перезапущений.\ппримечание: до перезапуску будь ласка, все готово Finder завдання у процесі (наприклад, копіювання або переміщення файлів).";
-"Це дозволить ефективно відключити вкладки, подвійний режим і козирок. Finder необхідності перезавантаження." = "Це відключить вкладок, подвійний режим і козирок. Finder необхідність перезавантаження.";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
