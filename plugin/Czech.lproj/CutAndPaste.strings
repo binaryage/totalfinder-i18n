@@ -3,11 +3,11 @@
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
 "Edit" = "Editovat";
-"Cut" = "Výjmout";
-"Cut “%@”" = "Výjmout “%@”";
-"Cut %u Items" = "Výjmout %u položek";
+"Cut" = "Vyjmout";
+"Cut “%@”" = "Vyjmout “%@”";
+"Cut %u Items" = "Vyjmout %u položek";
 "Paste" = "Vložit";
 "Paste %u Items" = "Vložit %u položek";
 "Copy" = "Kopírovat";
 
-"Show CutPaste buttons in Context Menus" = "Výjmout-vložit tlačítka v kontext menu";
+"Show CutPaste buttons in Context Menus" = "Vyjmout-vložit tlačítka v kontext menu";
