@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.21"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6154.21"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="6249"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TFShellPreferencesController">
@@ -22,13 +23,13 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="7" userLabel="Registration Preferences">
             <rect key="frame" x="0.0" y="0.0" width="480" height="101"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="97">
-                    <rect key="frame" x="18" y="52" width="214" height="29"/>
+                    <rect key="frame" x="18" y="52" width="194" height="29"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TotalFinder X.Y.Z" usesSingleLineMode="YES" id="98">
                         <font key="font" metaFont="systemBold" size="24"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -36,7 +37,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="96">
-                    <rect key="frame" x="20" y="0.0" width="61" height="19"/>
+                    <rect key="frame" x="20" y="0.0" width="62" height="19"/>
                     <buttonCell key="cell" type="roundRect" title="Register" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="99">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
@@ -46,7 +47,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="95">
-                    <rect key="frame" x="18" y="27" width="149" height="17"/>
+                    <rect key="frame" x="18" y="27" width="150" height="17"/>
                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Registered to John Doe" usesSingleLineMode="YES" id="100">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -74,7 +75,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="152">
-                    <rect key="frame" x="38" y="42" width="203" height="11"/>
+                    <rect key="frame" x="38" y="42" width="207" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Automatically check the website for updates" id="162">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -82,7 +83,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="154">
-                    <rect key="frame" x="38" y="5" width="151" height="11"/>
+                    <rect key="frame" x="38" y="5" width="154" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Participate in TotalFinder testing" id="161">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -90,7 +91,7 @@
                     </textFieldCell>
                 </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="155" userLabel="Check Box">
-                    <rect key="frame" x="18" y="18" width="159" height="18"/>
+                    <rect key="frame" x="18" y="18" width="156" height="18"/>
                     <buttonCell key="cell" type="check" title="^Include pre-releases" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="160">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -100,7 +101,7 @@
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="156">
-                    <rect key="frame" x="18" y="55" width="146" height="18"/>
+                    <rect key="frame" x="18" y="55" width="147" height="18"/>
                     <buttonCell key="cell" type="check" title="^Check for Updates" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="159">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -110,7 +111,7 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="157">
-                    <rect key="frame" x="169" y="56" width="79" height="16"/>
+                    <rect key="frame" x="170" y="56" width="81" height="16"/>
                     <buttonCell key="cell" type="push" title="^Check Now" bezelStyle="rounded" alignment="center" controlSize="mini" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="158">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="miniSystem"/>
@@ -120,7 +121,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="258">
-                    <rect key="frame" x="18" y="91" width="214" height="29"/>
+                    <rect key="frame" x="18" y="91" width="194" height="29"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TotalFinder X.Y.Z" usesSingleLineMode="YES" id="259">
                         <font key="font" metaFont="systemBold" size="24"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -176,7 +177,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="293">
-                    <rect key="frame" x="18" y="178" width="214" height="29"/>
+                    <rect key="frame" x="18" y="178" width="194" height="29"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TotalFinder X.Y.Z" usesSingleLineMode="YES" id="294">
                         <font key="font" metaFont="systemBold" size="24"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -184,7 +185,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="308">
-                    <rect key="frame" x="20" y="-1" width="188" height="19"/>
+                    <rect key="frame" x="20" y="-1" width="186" height="19"/>
                     <buttonCell key="cell" type="roundRect" title="^Reset TotalFinder to defaults" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="309">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
@@ -218,7 +219,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="348">
-                    <rect key="frame" x="18" y="8" width="180" height="18"/>
+                    <rect key="frame" x="18" y="8" width="177" height="18"/>
                     <buttonCell key="cell" type="check" title="^Keep original Dock icon" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="349">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -238,18 +239,18 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="J6d-M3-FOb">
-                    <rect key="frame" x="18" y="37" width="180" height="18"/>
+                    <rect key="frame" x="18" y="37" width="178" height="18"/>
                     <buttonCell key="cell" type="check" title="^Disable tabs completely" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="eeg-k4-55d">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="$disableTabsCompletely:" target="-2" id="OeT-jd-1nq"/>
-                        <binding destination="R92-Rt-tdG" name="value" keyPath="values.TotalFinderTabsDisabled" id="6D5-ol-muu"/>
+                        <binding destination="94" name="value" keyPath="values.TotalFinderTabsDisabled" id="xA9-mr-Dgn"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-mU-gzk">
-                    <rect key="frame" x="39" y="20" width="353" height="11"/>
+                    <rect key="frame" x="39" y="20" width="360" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^This will effectively disable tabs, dual mode and visor. Finder restart is needed." id="2MQ-dx-5TV">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -281,7 +282,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="317">
-                    <rect key="frame" x="18" y="8" width="169" height="18"/>
+                    <rect key="frame" x="18" y="8" width="167" height="18"/>
                     <buttonCell key="cell" type="check" title="^Hide icon in Menu Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="318">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -307,7 +308,6 @@
             </connections>
         </customObject>
         <customObject id="212" customClass="TFUpdater"/>
-        <userDefaultsController id="94" userLabel="Shared Defaults"/>
-        <userDefaultsController representsSharedInstance="YES" id="R92-Rt-tdG"/>
+        <userDefaultsController id="94" userLabel="Shared Defaults" customClass="TotalUserDefaultsController"/>
     </objects>
 </document>
