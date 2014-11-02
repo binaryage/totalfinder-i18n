@@ -50,6 +50,7 @@
                 <outlet property="owner_" destination="-2" id="4"/>
             </connections>
         </customObject>
-        <userDefaultsController id="6" userLabel="Shared Defaults" customClass="TotalUserDefaultsController"/>
+        <userDefaultsController id="6" userLabel="Shared Defaults"/>
+        <userDefaultsController id="GH9-Co-tDG" userLabel="TotalFinder Defaults" customClass="TotalUserDefaultsController"/>
     </objects>
 </document>
