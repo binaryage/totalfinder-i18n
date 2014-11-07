@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.21"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6154.21"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="6250"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="XMLicensingWindowController">
@@ -16,37 +17,37 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
-        <customObject id="120" userLabel="Localizer -> Window" customClass="GTMUILocalizer">
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="120" userLabel="Localizer -&gt; Window" customClass="GTMUILocalizer">
             <connections>
                 <outlet property="otherObjectToLocalize_" destination="1" id="wqR-T4-xos"/>
                 <outlet property="owner_" destination="-2" id="pA3-Cu-pmQ"/>
             </connections>
         </customObject>
-        <customObject id="127" userLabel="Localizer -> RegistrationA" customClass="GTMUILocalizer">
+        <customObject id="127" userLabel="Localizer -&gt; RegistrationA" customClass="GTMUILocalizer">
             <connections>
                 <outlet property="otherObjectToLocalize_" destination="5" id="07e-6r-2Je"/>
                 <outlet property="owner_" destination="-2" id="3Gn-E2-FUa"/>
             </connections>
         </customObject>
-        <customObject id="130" userLabel="Localizer -> RegistrationB" customClass="GTMUILocalizer">
+        <customObject id="130" userLabel="Localizer -&gt; RegistrationB" customClass="GTMUILocalizer">
             <connections>
                 <outlet property="otherObjectToLocalize_" destination="24" id="g7L-Qr-5XU"/>
                 <outlet property="owner_" destination="-2" id="BIt-ac-LuS"/>
             </connections>
         </customObject>
-        <customObject id="133" userLabel="Localizer -> RegistrationC" customClass="GTMUILocalizer">
+        <customObject id="133" userLabel="Localizer -&gt; RegistrationC" customClass="GTMUILocalizer">
             <connections>
                 <outlet property="otherObjectToLocalize_" destination="54" id="lmA-1y-DCZ"/>
                 <outlet property="owner_" destination="-2" id="YJ7-YF-9wV"/>
             </connections>
         </customObject>
-        <userDefaultsController id="45"/>
+        <userDefaultsController id="45" customClass="TotalUserDefaultsController"/>
         <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" animationBehavior="default" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="525" y="500" width="480" height="300"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +85,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
-                    <rect key="frame" x="197" y="13" width="177" height="32"/>
+                    <rect key="frame" x="198" y="13" width="176" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -148,7 +149,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="154" y="260" width="123" height="21"/>
+                    <rect key="frame" x="154" y="260" width="117" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -201,7 +202,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="30">
-                    <rect key="frame" x="154" y="260" width="220" height="21"/>
+                    <rect key="frame" x="154" y="260" width="204" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -222,7 +223,7 @@ CQ
                     </connections>
                 </webView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
-                    <rect key="frame" x="226" y="13" width="146" height="32"/>
+                    <rect key="frame" x="224" y="13" width="148" height="32"/>
                     <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -295,7 +296,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="58">
-                    <rect key="frame" x="154" y="260" width="189" height="21"/>
+                    <rect key="frame" x="154" y="260" width="179" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -303,7 +304,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="195" y="13" width="177" height="32"/>
+                    <rect key="frame" x="196" y="13" width="176" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
