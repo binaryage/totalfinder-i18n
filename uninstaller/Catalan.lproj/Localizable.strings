@@ -1,0 +1,23 @@
+/* buttons */
+"Quit" = "Sortir";
+"Cancel" = "Cancel·lar";
+"Uninstall" = "Desinstal·lar";
+"Details" = "Detalls";
+
+/* tooltips */
+"Show detailed transcript" = "Mostrar transcripció detallada";
+
+/* main texts */
+"You are about uninstall *APP*" = "És a punt de desinstal·lar TotalFinder";
+"This program will uninstall all *APP* components from this computer." = "Aquest programa desinstal·larà tots els components de TotalFinder d'aquest equip.";
+"*APP* has been uninstalled" = "TotalFinder ha estat desinstal·lat";
+"Have a nice day." = "Que tingui un bon dia.";
+"*APP* uninstallation failed" = "La desinstal·lació de TotalFinder ha fallat";
+"The uninstall script encountered problems. Please see the details. Please report bugs to support@binaryage.com." = "La comanda de desinstal·lació ha trobat problemes. Vegi els detalls, si us plau. Reporti qualsevol problema a support@binaryage.com, si us plau.";
+
+/* possible script messages in details section */
+"Uninstaller needs admin privileges to remove *APP* from your system." = "El desinstal·ladador necessita permisos d'administrador per a eliminar TotalFinder del sistema.";
+"Running uninstall script:\n" = "Executant la comanda de desinstal·lació:\n";
+"Uninstall script finished successfully.\n" = "La comanda de desinstal·lació ha finalitzat correctament.\n";
+"Uninstall script needs admin rights.\n" = "La comanda de desinstal·lació necessita permisos d'administrador.\n";
+"Uninstall script failed with error [%d].\n" = "La comanda de desinstal·lació ha fallat amb l'error [%d].\n";

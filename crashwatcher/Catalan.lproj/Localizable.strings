@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder s'ha tancat de forma inesperada";
+"crashDialogMsg" = "Ho sentim, però hi ha hagut un problema inesperat amb TotalFinder i s'ha hagut de tancar el Finder.";
+"crashDialogNote" = "Nota: el Finder s'ha reiniciat de forma automàtica però ha d'obrir TotalFinder manualment per tornar a utilitzar-lo.";
+"crashDialogExplanation" = "El botó d'enviar pujarà l'informe d'error a gist.github.com i obrirà una finestra de Mail amb una plantilla.";
+
+"failDialogHeader" = "No s'ha pogut pujar l'informe d'error a gist.github.com";
+"failDialogMsg1" = "Vaja… No he pogut trobar l'informa d'error a ~/Logs/CrashReporter.";
+"failDialogMsg2" = "He trobat l'informe d'error però, al pujar-lo a gist.github.com, alguna cosa ha fallat.\n\nSi és urgent, pots enviar-m'ho manualment:\n%@";
+"failDialogOK" = "OK";
+
+"sendReportButton" = "Enviar Email";
+"cancelButton" = "Cancel·lar";
+
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "%d secgons restants.";
+"countdownMsgSecondSingular" = "%d segon restant.";
+
+"countdownMsgMinutesPlural" = "%d minuts restants.";
+"countdownMsgMinuteSingular" = "%d minut restant.";
