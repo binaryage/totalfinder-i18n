@@ -1,3 +1,3 @@
-"Automatically adjust widths in Column View" = "Kolon Gösterimi'nde genişlikleri otomatik olarak ayarla";
-"Limit maximum column width to" = "En büyük kolon genişliği sınırı";
-"Limit minimum column width to" = "En küçük kolon genişliği sınırı";
+"Automatically adjust widths in Column View" = "Sütun Görümü'nde genişlikleri otomatik ayarla";
+"Limit maximum column width to" = "Sütun genişliği üst sınırı";
+"Limit minimum column width to" = "Sütun genişliği alt sınırı";

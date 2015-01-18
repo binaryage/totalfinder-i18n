@@ -5,9 +5,9 @@
 "Edit" = "Düzenle";
 "Cut" = "Kes";
 "Cut “%@”" = "“%@” Kes";
-"Cut %u Items" = "%u Seçileni Kes";
+"Cut %u Items" = "%u Nesneyi Kes";
 "Paste" = "Yapıştır";
-"Paste %u Items" = "%u Seçileni Yapıştır";
+"Paste %u Items" = "%u Nesneyi Yapıştır";
 "Copy" = "Kopyala";
 
-"Show CutPaste buttons in Context Menus" = "Kes&amp;Yapıştır butonlarını sağ tık menüsünde göster";
+"Show CutPaste buttons in Context Menus" = "Açılır menüde Kes/Yapıştır tuşlarını göster";
