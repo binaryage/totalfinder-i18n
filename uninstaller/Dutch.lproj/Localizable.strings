@@ -16,8 +16,8 @@
 "The uninstall script encountered problems. Please see the details. Please report bugs to support@binaryage.com." = "Het verwijder script had problemen. Bekijk alstublieft de details en rapporteer bugs aan support@binaryage.com.";
 
 /* possible script messages in details section */
-"Uninstaller needs admin privileges to remove *APP* from your system." = "Uninstaller heeft admin privileges nodig om TotalFinder van uw systeem te verwijderen.";
+"Uninstaller needs admin privileges to remove *APP* from your system." = "Om TotalFinder van uw systeem te verwijderen heeft u beheerders rechten nodig.";
 "Running uninstall script:\n" = "Verwijder script uitvoeren:\n";
-"Uninstall script finished successfully.\n" = "Het verwijder script is succesvol afgesloten.\n";
-"Uninstall script needs admin rights.\n" = "Het verwijder script heeft admin rechten nodig.\n";
-"Uninstall script failed with error [%d].\n" = "Het verwijder script is mislukt met error [%d].\n";
+"Uninstall script finished successfully.\n" = "Dit is programma is succesvol verwijderd.\n";
+"Uninstall script needs admin rights.\n" = "U heeft beheerders rechten nodig om dit programma te verwijderen.\n";
+"Uninstall script failed with error [%d].\n" = "Het verwijderen van dit het programma is mislukt met error [%d].\n";
