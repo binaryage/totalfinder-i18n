@@ -1,9 +1,9 @@
-"Copy Path" = "Kopijuoti kelias";
+"Copy Path" = "Kopijavimo kelias";
 "POSIX Path" = "POSIX kelias";
 "URL" = "URL";
 "Windows Path" = "Windows kelias";
 "HFS Path" = "HFS kelias";
 "Terminal Path" = "Terminalo kelias";
-"UNC Path" = "UNC Path";
+"UNC Path" = "UNC kelias";
 
-"Allow path copying from Context Menus" = "Leisti kelias kopijavimas iš kontekstinio meniu";
+"Allow path copying from Context Menus" = "Leisti kelio kopijavimą iš kontekstinių meniu";

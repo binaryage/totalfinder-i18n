@@ -1,86 +1,86 @@
 /* preferences */
-"BASIC" = "BASIC";
-"SYSTEM" = "SYSTEM";
-"Menus" = "Menus";
-"Updates" = "Updates";
-"File Browser" = "File Browser";
-"Dock" = "Dock";
-"Sidebar" = "Sidebar";
+"BASIC" = "PAGRINDAI";
+"SYSTEM" = "SISTEMA";
+"Menus" = "Meniu";
+"Updates" = "Atnaujinimai";
+"File Browser" = "Failų naršyklė";
+"Dock" = "Dock'as";
+"Sidebar" = "Šoninė panelė";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "Patikrinti atnaujinimus";
+"Check for Updates" = "Patikrinti, ar yra atnaujinimų";
 "Uninstall TotalFinder" = "Pašalinti TotalFinder";
 "About TotalFinder" = "Apie TotalFinder";
-"Restart Finder" = "Iš naujo Finder";
+"Restart Finder" = "Paleisti Finder iš naujo";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Atstatyti";
 "Cancel" = "Atšaukti";
 "Do you really want reset to defaults?" = "Ar tikrai norite iš naujo nustatyti numatytąsias reikšmes?";
-"This will restore initial TotalFinder settings." = "Tai bus atkurti pradinį TotalFinder nustatymus.";
+"This will restore initial TotalFinder settings." = "Tai atkurs pradinius TotalFinder nustatymus.";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder Nustatymai…";
-"Visit Homepage…" = "Aplankykite puslapis…";
+"TotalFinder Preferences…" = "TotalFinder nustatymai…";
+"Visit Homepage…" = "Aplankykiti namų puslapį…";
 
 /* registration */
 "Licensed to %@" = "Licencijuota %@";
-"Change License" = "Pakeisti licencija";
-"Unregistered version in trial mode" = "Neregistruota versija bandomuoju režimu";
+"Change License" = "Pakeisti licenciją";
+"Unregistered version in trial mode" = "Neregistruota versija bandomuojame režime";
 "Register" = "Registruotis";
 
 /* navigation bar */
 "About" = "Apie";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "Atstatyti TotalFinder negrąžinimo";
+"Reset TotalFinder to defaults" = "Atstatyti TotalFinder numatytąsias reikšmes";
 
-"Hide icon in Menu Bar" = "Slėpti piktogramą Meniu juosta";
-"Keep original Dock icon" = "Palikti original doko piktogramą";
+"Hide icon in Menu Bar" = "Slėpti piktogramą meniu juostoje";
+"Keep original Dock icon" = "Palikti originalią Dock'o piktogramą";
 
 /* about page */
-"Check Now" = "Check Now";
-"Automatically check the website for updates" = "Automatically check the website for updates";
-"Include pre-releases" = "Include pre-releases";
-"Participate in TotalFinder testing" = "Participate in TotalFinder testing";
+"Check Now" = "Patikrinti dabar";
+"Automatically check the website for updates" = "Automatiškai patikrinti puslapį dėl atnaujinimų";
+"Include pre-releases" = "Įtraukti ir ankstyviuosius išleidimus";
+"Participate in TotalFinder testing" = "Dalyvauti TotalFinder'io testavime";
 
 /* registration */
-"TotalFinder Registration" = "Patikrinti atnaujinimus";
+"TotalFinder Registration" = "TotalFinder registracija";
 "Registration" = "Registracija";
-"Please enter your license details from the email we have sent you:" = "Prašome įvesti savo licencijos duomenis iš elektroninio pašto mes išsiuntėme jums:";
-"Buy TotalFinder Now" = "Pirkti TotalFinder Dabar";
+"Please enter your license details from the email we have sent you:" = "Prašome įvesti savo licencijos duomenis iš elektroninio pašto, kurį mes išsiuntėme jums:";
+"Buy TotalFinder Now" = "Pirkti TotalFinder dabar";
 "Thanks for registering!" = "Dėkojame už registraciją!";
-"This TotalFinder copy is licensed to:" = "Šis TotalFinder kopija yra licencijuotas su:";
+"This TotalFinder copy is licensed to:" = "Ši TotalFinder kopija yra licencijuota šiam asmeniui:";
 "Close" = "Uždaryti";
 "Back" = "Atgal";
-"Invalid license code" = "Neteisingas licencija kodas";
-"Please go back and try again." = "Prašome grįžti atgal ir bandykite dar kartą.";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Norėdami įsigyti licenciją TotalFinder, apsilankykite BinaryAge internetinėje parduotuvėje.";
+"Invalid license code" = "Neteisingas licencijos kodas";
+"Please go back and try again." = "Prašome grįžti atgal ir bandyti dar kartą.";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "Norėdami įsigyti TotalFinder licenciją, apsilankykite BinaryAge internetinėje parduotuvėje.";
 "Thank you for using TotalFinder!" = "Dėkojame, kad naudojatės TotalFinder!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"License Name" = "Licencijos vardas";
+"License Key" = "Licencijos raktas";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "Click to record new shortcut";
-"Delete shortcut" = "Delete shortcut";
-"OK" = "OK";
-"Record Shortcut" = "Record Shortcut";
-"Space" = "Space";
-"The key combination %@ cannot be used" = "The key combination %@ cannot be used";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "This shortcut cannot be used because it is already used by the menu item ‘%@’.";
-"Type New Shortcut" = "Type New Shortcut";
-"Type Shortcut" = "Type Shortcut";
-"Use Old Shortcut" = "Use Old Shortcut";
-"Set it anyway" = "Set it anyway";
+"Click to record new shortcut" = "Spragtelėkite, kad įrašytumėte naują nuorodą";
+"Delete shortcut" = "Ištrinti nuorodą";
+"OK" = "Gerai";
+"Record Shortcut" = "Įrašyti nuorodą";
+"Space" = "Tarpas";
+"The key combination %@ cannot be used" = "Klavišų kombinacija %@ negali būti vartojama";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Ši kombinacija negali būti vartojama, nes ji jau vartojama visos sistemos pločio klaviatūros nuorodos.\nJei tikrai norite vartoti šią kombinaciją, daugelis nuorodų gali būti pakeistos Klaviatūra ir Pelė (Keyboard & Mouse) panelėje Sistemos Nustatymuose (System Preferences).";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ši nuoroda negali būti vartojama, nes ji jau yra vartojama meniu elemento ‘%@’.";
+"Type New Shortcut" = "Įveskite naują nuorodą";
+"Type Shortcut" = "Įvskite nuorodą";
+"Use Old Shortcut" = "Naudoti seną nuorodą";
+"Set it anyway" = "Visvien įvesti";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
-"Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"Disable tabs completely" = "Visiškai išjungti korteles";
+"Do you really want to disable tabs?" = "Ar tikrai norite išjungti korteles?";
+"Do you really want to enable tabs?" = "Ar tikrai norite įjungti korteles?";
+"Tabs" = "Kortelės";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Šis pasirinkimas iš esmės išjungs kortelių modulį TotalFinder'yje. Pasekoje, dvigubas režimas ir skydelio funkcionalumas irgi bus išjungti. Tai gali būti trokštama Mavericks sistemoje: vartokite vien tik gimtines Finder korteles tuo pačiu išlaikydami kitas TotalFinder galimybes.\n\nŠiai operacijai Finder turi būti paleistas iš naujo!\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Šis pasirinkimas iš esmės įjungs kortelių modulį TotalFinder'yje.\n\nŠiai operacijai Finder turi būti paleistas iš naujo.\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Šitai iš esmės išjungs korteles, dvigubą režimą ir skydelį. Finder'io paleidimas iš naujo tam yra reikalingas.";
