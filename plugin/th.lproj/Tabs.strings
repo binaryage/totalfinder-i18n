@@ -8,9 +8,9 @@
 "Close Tab" = "ปิดแท็บ";
 "Toggle Dual Mode" = "เรียกใช้หน้าต่างคู่";
 
-"New Tab" = "New Tab";
+"New Tab" = "เปิดแท็บใหม่";
 "Use narrow Tabs Bar" = "ใช้แถบแท็บแบบเล็ก";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"Open new tabs with previous location" = "เปิดแท็บใหม่โดยที่อยู่ก่อนหน้านี้";
 
 /* preferences */
 "Freelance Windows" = "หน้าต่างอิสระ";
