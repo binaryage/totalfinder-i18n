@@ -1,16 +1,16 @@
-"TotalFinder - unregistered version" = "TotalFinder - Neregistruotas versijos";
-"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 diena kairėje - pirkti dabar!";
-"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dienos kairės - pirkti dabar!";
-"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dienos kairės - pirkti dabar!";
-"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dienos kairės - pirkti dabar!";
-"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dienos kairės - pirkti dabar!";
-"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dienos kairės - pirkti dabar!";
-"Close Tab" = "Užverti kortelėje";
-"Toggle Dual Mode" = "Perjungti Dvigubas būsenoje";
+"TotalFinder - unregistered version" = "TotalFinder - Neregistruota versija";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - liko 1 diena - pirkite dabar!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - liko 2 dienos - pirkite dabar!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - liko 3 dienos - pirkite dabar!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - liko 4 dienos - pirkite dabar!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - liko 5 dienos - pirkite dabar!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - liko %d dienos - pirkite dabar!";
+"Close Tab" = "Užverti kortelę";
+"Toggle Dual Mode" = "Į(iš)jungti dvigubą režimą";
 
-"New Tab" = "New Tab";
-"Use narrow Tabs Bar" = "Naudoti siauras Kortelės Baras";
-"Open new tabs with previous location" = "Open new tabs with previous location";
+"New Tab" = "Nauja kortelė";
+"Use narrow Tabs Bar" = "Naudoti siaurą kortelių juostą";
+"Open new tabs with previous location" = "Atidaryti naujas korteles su ankstesnėmis vietomis";
 
 /* preferences */
-"Freelance Windows" = "Laisvai samdomi Windows";
+"Freelance Windows" = "Išoriškai atidaromi langai nepaverčiami kortelėmis";

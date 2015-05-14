@@ -11,25 +11,25 @@ and this would make it uneasy to localize them in other languages properly
 
 */
 
-"MenuItem:Pin Visor" = "Prisegti skydelio";
-"MenuItem:Close Tab" = "Užverti kortelėje";
-"MenuItem:New Native Tab" = "New Native Tab";
-"MenuItem:Close Native Tab" = "Close Native Tab";
-"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
-"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
-"MenuItem:New Tab" = "New Tab";
-"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Pin Visor" = "Prisegti skydelį";
+"MenuItem:Close Tab" = "Užverti kortelę";
+"MenuItem:New Native Tab" = "Nauja gimtinė kortelė";
+"MenuItem:Close Native Tab" = "Uždaryti gimtinę kortelę";
+"MenuItem:Show Previous Native Tab" = "Rodyti ankstesnę gimtinę kortelę";
+"MenuItem:Show Next Native Tab" = "Rodyti kitą gimtinę kortelę";
+"MenuItem:New Tab" = "Nauja kortelė";
+"MenuItem:Reopen Closed Tab" = "Iš naujo atidaryti uždarytą kortelę";
 "MenuItem:Close Window" = "Uždaryti langą";
-"MenuItem:Toggle Dual Mode" = "Perjungti Dvigubas būsenoje";
-"MenuItem:Narrow Tabs Bar" = "Siaurojo Kortelės Baras";
-"MenuItem:Select Previous Tab" = "Pasirinkite Ankstesnis Kortelėje";
-"MenuItem:Select Next Tab" = "Pasirinkite Kitas Kortelėje";
-"MenuItem:Switch Active Panel" = "Switch Active Panel";
-"MenuItem:Folders on Top" = "Katalogai viršų";
-"MenuItem:Show System Files" = "Rodyti failų sistemos";
-"MenuItem:Column View Auto Width" = "Column View Auto Width";
-"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
-"MenuItem:Template" = "Template";
+"MenuItem:Toggle Dual Mode" = "Į(iš)jungti dvigubą režimą";
+"MenuItem:Narrow Tabs Bar" = "Siaura kortelių juosta";
+"MenuItem:Select Previous Tab" = "Pasirinkti ankstesnę kortelę";
+"MenuItem:Select Next Tab" = "Pasirinkti kitą kortelę";
+"MenuItem:Switch Active Panel" = "Pakeisti aktyvią panelę";
+"MenuItem:Folders on Top" = "Katalogai viršuje";
+"MenuItem:Show System Files" = "Rodyti sisteminius failus";
+"MenuItem:Column View Auto Width" = "Automatinis plotis stulpelių režime";
+"MenuItem:Dock Progress Bar" = "Dock'o progreso juosta";
+"MenuItem:Template" = "Šablonas";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

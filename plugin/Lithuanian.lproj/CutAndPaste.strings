@@ -3,11 +3,11 @@
 /* do not translate it directly from English but look how your menu looks in your language */
 /* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
 "Edit" = "Redaguoti";
-"Cut" = "Supjaustyti";
-"Cut “%@”" = "Supjaustyti “%@”";
-"Cut %u Items" = "Supjaustyti %u elementus";
+"Cut" = "Iškirpti";
+"Cut “%@”" = "Iškirpti “%@”";
+"Cut %u Items" = "Iškirpti %u elementus";
 "Paste" = "Įklijuoti";
 "Paste %u Items" = "Įklijuoti %u elementus";
 "Copy" = "Kopijuoti";
 
-"Show CutPaste buttons in Context Menus" = "Rodyti Iškirpkite ir įklijuokite mygtukų kontekstinio meniu";
+"Show CutPaste buttons in Context Menus" = "Rodyti Iškirpti ir Įklijuoti mygtukus kontekstiniuose meniu";

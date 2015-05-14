@@ -1,9 +1,9 @@
-"Copy Path" = "Kopya Yolu";
-"POSIX Path" = "POSIX Yolu";
+"Copy Path" = "Klasör yolunu kopyala";
+"POSIX Path" = "POSIX konumu";
 "URL" = "URL";
-"Windows Path" = "Windows Yolu";
-"HFS Path" = "HFS Yolu";
-"Terminal Path" = "Terminal Yolu";
-"UNC Path" = "UNC Yolu";
+"Windows Path" = "Windows Konumu";
+"HFS Path" = "HFS Konumu";
+"Terminal Path" = "Komut Satırı Konumu";
+"UNC Path" = "UNC Konumu";
 
-"Allow path copying from Context Menus" = "Menü'den Yol kopyalamaya izin ver";
+"Allow path copying from Context Menus" = "Açılır menüden klasör yolunu kopyalamaya izin ver";

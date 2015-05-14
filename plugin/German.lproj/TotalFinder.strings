@@ -34,13 +34,13 @@
 "About" = "Über";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "auf Standardeinstellungen zurücksetzen";
+"Reset TotalFinder to defaults" = "Auf Standardeinstellungen zurücksetzen";
 
 "Hide icon in Menu Bar" = "Icon in der Menüleiste nicht anzeigen";
 "Keep original Dock icon" = "Original Finder-Icon im Dock verwenden";
 
 /* about page */
-"Check Now" = "Überprüfe jetzt";
+"Check Now" = "Jetzt überprüfen";
 "Automatically check the website for updates" = "Überprüfe die Webseite automatisch auf Updates";
 "Include pre-releases" = "Schließe Beta-Versionen ein";
 "Participate in TotalFinder testing" = "Mache beim Testen von TotalFinder mit";

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.21"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TabsPluginPreferencesController">
@@ -10,13 +11,13 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="1" userLabel="Tabs Preferences">
             <rect key="frame" x="0.0" y="0.0" width="480" height="139"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="11">
-                    <rect key="frame" x="18" y="66" width="158" height="18"/>
+                    <rect key="frame" x="18" y="66" width="159" height="18"/>
                     <buttonCell key="cell" type="check" title="^Use narrow Tabs Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="12">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -26,7 +27,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="19">
-                    <rect key="frame" x="18" y="102" width="127" height="17"/>
+                    <rect key="frame" x="18" y="102" width="124" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Toggle Dual Mode" id="20">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -34,7 +35,7 @@
                     </textFieldCell>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="32" customClass="MASShortcutView">
-                    <rect key="frame" x="182" y="66" width="130" height="19"/>
+                    <rect key="frame" x="183" y="66" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="73"/>
                         <constraint firstAttribute="width" constant="130" id="126"/>
@@ -44,7 +45,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="49" customClass="MASShortcutView">
-                    <rect key="frame" x="151" y="101" width="130" height="19"/>
+                    <rect key="frame" x="148" y="101" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="74"/>
                         <constraint firstAttribute="width" constant="130" id="124"/>
@@ -54,7 +55,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="75">
-                    <rect key="frame" x="18" y="32" width="150" height="18"/>
+                    <rect key="frame" x="18" y="32" width="151" height="18"/>
                     <buttonCell key="cell" type="check" title="^Freelance Windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="76">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -64,7 +65,7 @@
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="102">
-                    <rect key="frame" x="18" y="-2" width="267" height="18"/>
+                    <rect key="frame" x="18" y="-2" width="262" height="18"/>
                     <buttonCell key="cell" type="check" title="^Open new tabs with previous location" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="103">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -95,6 +96,6 @@
                 <outlet property="owner_" destination="-2" id="71"/>
             </connections>
         </customObject>
-        <userDefaultsController id="4" userLabel="Shared Defaults"/>
+        <userDefaultsController id="4" userLabel="Shared Defaults" customClass="TotalUserDefaultsController"/>
     </objects>
 </document>

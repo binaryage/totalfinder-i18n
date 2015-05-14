@@ -1,9 +1,9 @@
 "Copy Path" = "คัดลอกที่อยู่ของไฟล์";
-"POSIX Path" = "แบบ POSIX";
-"URL" = "แบบ URL";
-"Windows Path" = "แบบ Windows";
-"HFS Path" = "แบบ HFS";
-"Terminal Path" = "แบบ Terminal";
-"UNC Path" = "UNC Path";
+"POSIX Path" = "ที่อยู่ของ POSIX";
+"URL" = "URL";
+"Windows Path" = "ที่อยู่ของ Windows";
+"HFS Path" = "ที่อยู่ของ HFS";
+"Terminal Path" = "ที่อยู่ของ Terminal";
+"UNC Path" = "ที่อยู่ของ UNC";
 
 "Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";

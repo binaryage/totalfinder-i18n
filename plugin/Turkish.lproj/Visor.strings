@@ -3,17 +3,17 @@
 "Hide Visor" = "Vizörü Gizle";
 
 "Visor" = "Vizör";
-"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan açılan pencere";
-"Visor Feature" = "Vizör özelliği";
-"Activation:" = "Aktivasyon:";
-"Show on all Spaces" = "Bütün Alanlarda göster";
-"Animation:" = "Animasyon:";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan kayarak açılan pencere";
+"Visor Feature" = "Vizör Özelliği";
+"Activation:" = "Etkinleştirme:";
+"Show on all Spaces" = "Tüm masaüstlerinde göster";
+"Animation:" = "Hareket:";
 "Control:" = "Kontrol:";
-"Slide Window" = "Pencereyi kaydır";
-"Fade Window" = "Pencereyi söndür";
-"Show on top of the Dock" = "Menünün (Dock) üzerinde göster";
-"Free Form Window" = "Serbest şekillendirilebilir pencere";
+"Slide Window" = "Pencereyi Kaydır";
+"Fade Window" = "Pencereyi Gizle";
+"Show on top of the Dock" = "Dock'un üstünde göster";
+"Free Form Window" = "Serbest Biçimli Pencere";
 "Hide on ESC" = "ESC ile gizle";
 "Screen:" = "Ekran:";
 "Screen" = "Ekran";
-"Screen with Mouse Cursor" = "Screen with Mouse Cursor";
+"Screen with Mouse Cursor" = "Fare imlecinin olduğu ekran";

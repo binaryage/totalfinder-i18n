@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder netikėtai išsijungė";
+"crashDialogMsg" = "Mes apgailestaujame, bet TotalFinder susidūrė su netikėta problema ir išjungė Finder'į.";
+"crashDialogNote" = "Pastaba: Finder'is buvo paleistas iš naujo automatiškai bet jums teks paleisti TotalFinder.app pačiam (-iai) iš naujo.";
+"crashDialogExplanation" = "Išsiųsti mygtukas išsiųs netikėto išsijungimo raportą į gist.github.com ir paleis Mail.app su elektroninio pašto šablonu.";
+
+"failDialogHeader" = "Neišeina išsiųsti netikėto išsijungimo raporto į gist.github.com";
+"failDialogMsg1" = "Gaila. Negalėjau surasti netikėto išsijungimo raporto tavo ~/Logs/CrashReporter kataloge.";
+"failDialogMsg2" = "Aš sugebėjau surasti netikėto išsijungimo raportą, bet išsiuntimas į gist.github.com dėl kažkokios priežasties nepavyko.\n\nJei skubu, galite man atsiųsti jį pats (-i):\n%@";
+"failDialogOK" = "Gerai";
+
+"sendReportButton" = "Išsiųsti elektroninį paštą";
+"cancelButton" = "Atšaukti";
+
+"emailTemplate" = "Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "Liko %d sekundžių.";
+"countdownMsgSecondSingular" = "Liko %d sekundė.";
+
+"countdownMsgMinutesPlural" = "Liko %d minučių.";
+"countdownMsgMinuteSingular" = "Liko %d minutė.";
