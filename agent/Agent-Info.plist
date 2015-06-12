@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>TargetBundleIdentifier</key>
-	<string>com.apple.finder</string>
-	<key>TargetPath</key>
-	<string>/System/Library/CoreServices/Finder.app</string>
-	<key>TargetName</key>
-	<string>Finder</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -15,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.binaryage.totalfinder.agent</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,6 +22,10 @@
 	<string>BAGE</string>
 	<key>CFBundleVersion</key>
 	<string>##VERSION##</string>
+	<key>InitEventClass</key>
+	<string>BATF</string>
+	<key>InitEventID</key>
+	<string>init</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.productivity</string>
 	<key>LSMinimumSystemVersion</key>
@@ -38,17 +36,19 @@
 	<string>Copyright © 2013 BinaryAge. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
-	<key>ShellPath</key>
-	<string>/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle</string>
-	<key>InitEventClass</key>
-	<string>BATF</string>
-	<key>InitEventID</key>
-	<string>init</string>
-	<key>SoftInjectionDelay</key>
-	<real>2</real>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSUserNotificationAlertStyle</key>
 	<string>alert</string>
+	<key>ShellPath</key>
+	<string>/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle</string>
+	<key>SoftInjectionDelay</key>
+	<real>2</real>
+	<key>TargetBundleIdentifier</key>
+	<string>com.apple.finder</string>
+	<key>TargetName</key>
+	<string>Finder</string>
+	<key>TargetPath</key>
+	<string>/System/Library/CoreServices/Finder.app</string>
 </dict>
 </plist>
