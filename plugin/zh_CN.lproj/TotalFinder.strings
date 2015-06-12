@@ -25,7 +25,7 @@
 "Visit Homepage…" = "访问主页…";
 
 /* registration */
-"Licensed to %@" = "已注册给：%@";
+"Licensed to %@" = "已注册给 %@";
 "Change License" = "更换注册码";
 "Unregistered version in trial mode" = "未注册试用版";
 "Register" = "注册";
@@ -81,6 +81,6 @@
 "Do you really want to disable tabs?" = "你真的要禁用标签吗？";
 "Do you really want to enable tabs?" = "你真的要启用标签吗？";
 "Tabs" = "标签";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "该选项会禁用 TotalFinder 的标签模块，双窗口模式以及滑入窗口功能也将禁用。 如果你需要使用 Mavericks 里 Finder 的原生标签功能， 并同时使用 TotalFinder 的其他功能， 该选项可能有用。\n\n该操作需要重启 Finder ！\n注: 在重启前请先等待现有的 Finder 任务完成 （比如文件拷贝或移动）。";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "该选项会启用 TotalFinder 的标签模块。\n\n该操作需要重启 Finder ！\n注: 在重启前请先等待现有的 Finder 任务完成 （比如文件拷贝或移动）。";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "这会禁用标签、 双窗口模式、 滑入窗口等功能。Finder 需要重启。";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "该选项会禁用 TotalFinder 的标签模块，双窗口模式以及滑入窗口功能也将禁用。如果你需要使用 Mavericks 里 Finder 的原生标签功能，并同时使用 TotalFinder 的其他功能， 该选项可能有用。\n\n该操作需要重启 Finder！\n注: 在重启前请先等待现有的 Finder 任务完成 （比如文件拷贝或移动）。";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "该选项会启用 TotalFinder 的标签模块。\n\n该操作需要重启 Finder！\n注: 在重启前请先等待现有的 Finder 任务完成 （比如文件拷贝或移动）。";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "这会禁用标签，双窗口模式， 滑入窗口等功能。Finder 需要重启。";
