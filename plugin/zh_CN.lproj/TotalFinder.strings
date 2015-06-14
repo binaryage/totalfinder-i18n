@@ -67,9 +67,9 @@
 "Delete shortcut" = "删除快捷方式";
 "OK" = "好";
 "Record Shortcut" = "录制快捷方式";
-"Space" = "Space";
+"Space" = "空格键";
 "The key combination %@ cannot be used" = "无法使用此按键组合 %@";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "无法使用此按键组合，因为其已被用作系统快捷键。如果你很想使用此按键组合，大部分系统快捷键可以在系统偏好设置中的键盘与鼠标面板中修改。";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "无法使用此按键组合，因为其已经被菜单项目‘%@’使用。";
 "Type New Shortcut" = "键入新快捷方式";
 "Type Shortcut" = "键入快捷方式";
