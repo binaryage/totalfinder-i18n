@@ -69,18 +69,18 @@
 "Record Shortcut" = "Registra scorciatoia";
 "Space" = "Spazio";
 "The key combination %@ cannot be used" = "La combinazione di tasti %@ non può essere usata";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Questa combinazione non può essere usata perché già in uso come scorciatoia dal sistema operativo.\nSe vuoi realmente usare questa combinazione di tasti, puoi cambiare molte delle Abbreviazioni dal pannello Tastiera nelle Preferenze di Sistema.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Questa combinazione non può essere usata poiché è già usata dall'elemento di menu  ‘%@’.";
 "Type New Shortcut" = "Inserisci nuova scorciatoia";
 "Type Shortcut" = "Inserisci scorciatoia";
 "Use Old Shortcut" = "Usa vecchia scorciatoia";
-"Set it anyway" = "Set it anyway";
+"Set it anyway" = "Imposta comunque";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Disabilita le schede completamente";
+"Do you really want to disable tabs?" = "Vuoi veramente disabilitare le schede?";
+"Do you really want to enable tabs?" = "Vuoi veramente abilitare le schede?";
 "Tabs" = "Schede";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Questa opzione disabiliterà effettivamente il modulo schede di TotalFinder. Anche le funzionalità doppio pannello ed il visore saranno disabilitati. Questo può essere voluto in Mavericks - usa esclusivamente le schede del Finder nativo mantenendo i benefici delle altre caratteristiche di TotalFinder .\n\nPer questa operazione il Finder deve essere riavviato!\nNota: Prima di riavviare, finisci tutte le operazioni del Finder in corso (ad esempio copiare o spostare file).";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Questa opzione abiliterà effettivamente il modulo schede di TotalFinder.\n\nPer questa operazione il Finder deve essere riavviato.\nNota: Prima di riavviare, finisci tutte le operazioni del Finder in corso (ad esempio copiare o spostare file).";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Questo disabiliterà effettivamente le schede, la modalità doppia ed il visore. Il Finder deve essere riavviato.";
