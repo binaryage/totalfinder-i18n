@@ -1,0 +1,38 @@
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Lås Visor";
+"MenuItem:Close Tab" = "Lukk fane";
+"MenuItem:New Native Tab" = "Ny Original Fane";
+"MenuItem:Close Native Tab" = "Lukk Original Fane";
+"MenuItem:Show Previous Native Tab" = "Vis Forrige Originale Fane";
+"MenuItem:Show Next Native Tab" = "Vis Neste Originale Fane";
+"MenuItem:New Tab" = "Ny Fane";
+"MenuItem:Reopen Closed Tab" = "Gjenåpne Lukket Fane";
+"MenuItem:Close Window" = "Lukk vindauge";
+"MenuItem:Toggle Dual Mode" = "Skru av/på Dual Mode";
+"MenuItem:Narrow Tabs Bar" = "Bruk smale fanar";
+"MenuItem:Select Previous Tab" = "Velg forrige fane";
+"MenuItem:Select Next Tab" = "Velg neste fane";
+"MenuItem:Switch Active Panel" = "Bytt Aktivt Panel";
+"MenuItem:Folders on Top" = "Sorter mappar før filer";
+"MenuItem:Show System Files" = "Vis systemfilar";
+"MenuItem:Column View Auto Width" = "Kolonnevisning auto bredde";
+"MenuItem:Dock Progress Bar" = "Dock Fremdriftslinja";
+"MenuItem:Template" = "Mal";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
