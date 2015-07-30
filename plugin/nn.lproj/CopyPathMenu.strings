@@ -1,0 +1,9 @@
+"Copy Path" = "Kopier bane";
+"POSIX Path" = "POSIX-bane";
+"URL" = "URL";
+"Windows Path" = "Windows-bane";
+"HFS Path" = "HFS-bane";
+"Terminal Path" = "Terminal-bane";
+"UNC Path" = "UNC Bane";
+
+"Allow path copying from Context Menus" = "Tillat kopiering av bane fra kontekstmenyer";
