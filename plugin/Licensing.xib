@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A244d" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8173.3"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="8173.3"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="XMLicensingWindowController">
             <connections>
                 <outlet property="$currentView" destination="5" id="87"/>
+                <outlet property="$licenseKey" destination="22" id="Zmd-9G-7hA"/>
+                <outlet property="$licenseName" destination="20" id="X6N-3o-BmH"/>
                 <outlet property="$licensingInfo" destination="115" id="118"/>
                 <outlet property="$viewA" destination="5" id="107"/>
                 <outlet property="$viewB" destination="24" id="105"/>
@@ -47,7 +49,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="525" y="500" width="480" height="300"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,9 +60,11 @@
                 <subviews>
                     <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97">
                         <rect key="frame" x="4" y="75" width="140" height="298"/>
+                        <animations/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="LicensingDialogIcon" id="98"/>
                     </imageView>
                 </subviews>
+                <animations/>
             </view>
         </window>
         <customView id="5" userLabel="RegistrationA" customClass="MSZLinkedView">
@@ -72,6 +76,7 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="84" id="sXX-Sk-rgU"/>
                     </constraints>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="^Register" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="19">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -85,7 +90,8 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
-                    <rect key="frame" x="198" y="13" width="176" height="32"/>
+                    <rect key="frame" x="202" y="13" width="172" height="32"/>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -104,6 +110,7 @@ CQ
                         <constraint firstAttribute="width" constant="294" id="Wpu-8f-3Ro"/>
                         <constraint firstAttribute="height" constant="98" id="h6r-OO-9HS"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" controlSize="small" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Key" drawsBackground="YES" id="23">
                         <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -123,6 +130,7 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="294" id="35y-SE-4dm"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Name" drawsBackground="YES" usesSingleLineMode="YES" id="21">
                         <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -142,6 +150,7 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Please enter your license details from the email we have sent you:" id="17">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -149,7 +158,8 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="154" y="260" width="117" height="21"/>
+                    <rect key="frame" x="154" y="260" width="113" height="21"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -171,6 +181,7 @@ CQ
                 <constraint firstItem="6" firstAttribute="baseline" secondItem="158" secondAttribute="baseline" id="zdI-O0-mQ5"/>
                 <constraint firstItem="22" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="13" id="zzm-1V-gER"/>
             </constraints>
+            <animations/>
             <connections>
                 <outlet property="$nextView" destination="54" id="90"/>
             </connections>
@@ -181,6 +192,7 @@ CQ
             <subviews>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="26">
                     <rect key="frame" x="168" y="210" width="36" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Name" id="37">
                         <font key="font" size="13" name="Monaco"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -195,14 +207,16 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^This TotalFinder copy is licensed to:" id="34">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="30">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="30">
                     <rect key="frame" x="154" y="260" width="204" height="21"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -215,6 +229,7 @@ CQ
                         <constraint firstAttribute="height" constant="117" id="Sdb-qV-889"/>
                         <constraint firstAttribute="width" constant="442" id="WaM-Bx-saG"/>
                     </constraints>
+                    <animations/>
                     <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
                         <nil key="identifier"/>
                     </webPreferences>
@@ -222,8 +237,9 @@ CQ
                         <outlet property="policyDelegate" destination="-2" id="119"/>
                     </connections>
                 </webView>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
+                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27">
                     <rect key="frame" x="224" y="13" width="148" height="32"/>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -238,6 +254,7 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="84" id="PsE-ld-efg"/>
                     </constraints>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="^Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="32">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -265,6 +282,7 @@ CQ
                 <constraint firstAttribute="bottom" secondItem="27" secondAttribute="bottom" constant="20" symbolic="YES" id="lMT-Ou-PIX"/>
                 <constraint firstAttribute="centerX" secondItem="115" secondAttribute="centerX" id="oam-wT-RTR"/>
             </constraints>
+            <animations/>
             <connections>
                 <outlet property="$previousView" destination="5" id="92"/>
             </connections>
@@ -278,6 +296,7 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^To purchase a license for TotalFinder, please visit BinaryAge web store." id="75">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -289,14 +308,16 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Please go back and try again." id="63">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="58">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="58">
                     <rect key="frame" x="154" y="260" width="179" height="21"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -304,7 +325,8 @@ CQ
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="196" y="13" width="176" height="32"/>
+                    <rect key="frame" x="200" y="13" width="172" height="32"/>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -322,6 +344,7 @@ CQ
                     <constraints>
                         <constraint firstAttribute="width" constant="84" id="ydo-0n-EEI"/>
                     </constraints>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="^Back" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="62">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -347,6 +370,7 @@ CQ
                 <constraint firstItem="74" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="170" id="fRu-SJ-Pjt"/>
                 <constraint firstAttribute="bottom" secondItem="72" secondAttribute="bottom" constant="20" symbolic="YES" id="zkX-d8-3q1"/>
             </constraints>
+            <animations/>
             <connections>
                 <outlet property="$previousView" destination="5" id="95"/>
             </connections>
