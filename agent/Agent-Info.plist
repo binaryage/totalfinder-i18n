@@ -50,5 +50,11 @@
 	<string>Finder</string>
 	<key>TargetPath</key>
 	<string>/System/Library/CoreServices/Finder.app</string>
+	<key>SIPInfoURL</key>
+	<string>http://totalfinder.binaryage.com/system-integrity-protection</string>
+	<key>CheckSIP</key>
+	<true/>
+	<key>UninstallerPath</key>
+	<string>/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app</string>
 </dict>
 </plist>
