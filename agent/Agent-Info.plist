@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.binaryage.totalfinder.agent</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -22,10 +22,6 @@
 	<string>BAGE</string>
 	<key>CFBundleVersion</key>
 	<string>##VERSION##</string>
-	<key>InitEventClass</key>
-	<string>BATF</string>
-	<key>InitEventID</key>
-	<string>init</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.productivity</string>
 	<key>LSMinimumSystemVersion</key>
@@ -38,6 +34,10 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>InitEventClass</key>
+	<string>BATF</string>
+	<key>InitEventID</key>
+	<string>init</string>
 	<key>NSUserNotificationAlertStyle</key>
 	<string>alert</string>
 	<key>ShellPath</key>
@@ -46,10 +46,10 @@
 	<real>2</real>
 	<key>TargetBundleIdentifier</key>
 	<string>com.apple.finder</string>
-	<key>TargetName</key>
-	<string>Finder</string>
 	<key>TargetPath</key>
 	<string>/System/Library/CoreServices/Finder.app</string>
+	<key>TargetName</key>
+	<string>Finder</string>
 	<key>SIPInfoURL</key>
 	<string>http://totalfinder.binaryage.com/system-integrity-protection</string>
 	<key>CheckSIP</key>
