@@ -9,7 +9,7 @@ FINDER_DIR = '/System/Library/CoreServices/Finder.app'
 FINDER_RESOURCES_DIR = File.join(FINDER_DIR, 'Contents/Resources')
 PLUGIN_RESOURCES_DIR = File.join(ROOT_DIR, 'plugin')
 INSTALLER_RESOURCES_DIR = File.join(ROOT_DIR, 'installer')
-ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'English.lproj')
+ENGLISH_LPROJ = File.join(PLUGIN_RESOURCES_DIR, 'en.lproj')
 SHELL_SOURCES = [File.join(ROOT_DIR, '..', 'shell'), File.join(ROOT_DIR, '..', 'frameworks')]
 TOTALFINDER_PLUGINS_SOURCES = File.join(ROOT_DIR, '..', 'plugins')
 
@@ -504,7 +504,7 @@ def validate_strings_files
   warnings = 0
 
   known_files = []
-  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "English.lproj", "*")) do |path|
+  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "en.lproj", "*")) do |path|
     known_files << File.basename(path)
   end
 
@@ -550,7 +550,7 @@ def validate_strings_files
   end
 
   all = []
-  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "English.lproj", "*.strings")) do |file|
+  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, "en.lproj", "*.strings")) do |file|
     all.concat parse_strings_file(file)
   end
 
@@ -580,12 +580,12 @@ end
 def stub_installer_lprojs
   glob = "*.lproj"
 
-  english_source = File.join(INSTALLER_RESOURCES_DIR, "English.lproj")
+  english_source = File.join(INSTALLER_RESOURCES_DIR, "en.lproj")
   die("need #{english_source}!") unless File.exists?(english_source)
 
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
     name = File.basename(dir)
-    next if name == "English.lproj"
+    next if name == "en.lproj"
     full_path = File.join(INSTALLER_RESOURCES_DIR, name)
     next if File.exists?(full_path) # already have it
     puts "Creating stub " + full_path.blue
@@ -627,7 +627,7 @@ task :normalize do
   end
 end
 
-desc "cherrypicks strings from sources and applies missing strings to English.lproj"
+desc "cherrypicks strings from sources and applies missing strings to en.lproj"
 task :cherrypick do
   die "install ack 2.0+ | for example via homebrew:> brew install ack" if `which ack`==""
   die "upgrade your ack to 2.0+ | for example via homebrew:> brew install ack" unless `ack --version`=~/ack 2/
@@ -674,7 +674,7 @@ task :cherrypick do
   end
 end
 
-desc "propagates structure of English.lproj to all other language folders while keeping already translated strings"
+desc "propagates structure of en.lproj to all other language folders while keeping already translated strings"
 task :propagate do
   propagate_from_english_to_other_lprojs
 end
