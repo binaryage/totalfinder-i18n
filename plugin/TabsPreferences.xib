@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TabsPluginPreferencesController">
@@ -16,8 +16,9 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="139"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11">
                     <rect key="frame" x="18" y="66" width="159" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" title="^Use narrow Tabs Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="12">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -26,36 +27,40 @@
                         <binding destination="4" name="value" keyPath="values.TotalFinderNarrowTabsBar" id="13"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="19">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19">
                     <rect key="frame" x="18" y="102" width="124" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Toggle Dual Mode" id="20">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="32" customClass="MASShortcutView">
+                <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32" customClass="MASShortcutView">
                     <rect key="frame" x="183" y="66" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="73"/>
                         <constraint firstAttribute="width" constant="130" id="126"/>
                     </constraints>
+                    <animations/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="NarrowTabsBar"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="49" customClass="MASShortcutView">
+                <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="49" customClass="MASShortcutView">
                     <rect key="frame" x="148" y="101" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="74"/>
                         <constraint firstAttribute="width" constant="130" id="124"/>
                     </constraints>
+                    <animations/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="DualMode"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="75">
+                <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75">
                     <rect key="frame" x="18" y="32" width="151" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" title="^Freelance Windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="76">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -64,8 +69,9 @@
                         <binding destination="4" name="value" keyPath="values.TotalFinderDontMakeTabs" id="88"/>
                     </connections>
                 </button>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="102">
+                <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="102">
                     <rect key="frame" x="18" y="-2" width="262" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" title="^Open new tabs with previous location" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="103">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -89,6 +95,7 @@
                 <constraint firstItem="75" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="171"/>
                 <constraint firstItem="102" firstAttribute="top" secondItem="75" secondAttribute="bottom" constant="20" id="E1e-Ie-UVr"/>
             </constraints>
+            <animations/>
         </customView>
         <customObject id="2" userLabel="Tabs Localizer" customClass="GTMUILocalizer">
             <connections>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ColumnViewAutoWidthPluginPreferencesController">
@@ -16,8 +16,9 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="78"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9">
                     <rect key="frame" x="18" y="52" width="299" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" title="^Automatically adjust widths in Column View" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="10">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -28,6 +29,7 @@
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="110">
                     <rect key="frame" x="35" y="30" width="22" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="115">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -39,6 +41,7 @@
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="qxp-dT-vMd">
                     <rect key="frame" x="35" y="7" width="22" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="LeO-Xp-36k">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -48,11 +51,12 @@
                         <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" id="LOq-ld-KfH"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="111">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="111">
                     <rect key="frame" x="271" y="28" width="96" height="22"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="96" id="113"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="112">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" localizesFormat="NO" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix=" px" negativePrefix="-" negativeSuffix=" px" id="114">
                             <integer key="minimum" value="100"/>
@@ -76,8 +80,9 @@
                         <binding destination="3" name="minValue" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" id="anE-LM-NSw"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="PreferencesTextField">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="PreferencesTextField">
                     <rect key="frame" x="56" y="31" width="209" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit maximum column width to" id="143">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -95,8 +100,9 @@
                         <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidthEnabled" id="157"/>
                     </connections>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="PreferencesTextField">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="PreferencesTextField">
                     <rect key="frame" x="56" y="8" width="206" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit minimum column width to" id="by2-Ga-min">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -114,12 +120,13 @@
                         </binding>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
                     <rect key="frame" x="268" y="5" width="96" height="22"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="22" id="B7y-W9-uMi"/>
                         <constraint firstAttribute="width" constant="96" id="iMS-AS-vRV"/>
                     </constraints>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="h6L-vP-Iuw">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.### px" negativeFormat="#,##0.### px" localizesFormat="NO" numberStyle="decimal" allowsFloats="NO" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix=" px" negativePrefix="-" negativeSuffix=" px" id="CJ6-2J-MOt">
                             <integer key="minimum" value="100"/>
@@ -160,6 +167,7 @@
                 <constraint firstItem="vWv-N1-uYS" firstAttribute="top" secondItem="142" secondAttribute="bottom" constant="6" id="aLj-3i-Obj"/>
                 <constraint firstItem="vWv-N1-uYS" firstAttribute="leading" secondItem="142" secondAttribute="leading" id="aVz-IZ-mz3"/>
             </constraints>
+            <animations/>
         </customView>
         <customObject id="2" customClass="GTMUILocalizer">
             <connections>

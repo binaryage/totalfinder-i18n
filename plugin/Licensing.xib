@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8173.3" systemVersion="15A244d" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8173.3"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="8173.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="9052"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="XMLicensingWindowController">
@@ -145,7 +145,7 @@ CQ
                         <outlet property="nextKeyView" destination="22" id="108"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                     <rect key="frame" x="168" y="218" width="296" height="34"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
@@ -202,7 +202,7 @@ CQ
                         <binding destination="45" name="value" keyPath="values.TotalFinderLicenseName" id="114"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="29">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="29">
                     <rect key="frame" x="168" y="235" width="296" height="17"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
@@ -214,7 +214,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="30">
+                <textField verticalHuggingPriority="750" preferredMaxLayoutWidth="196" translatesAutoresizingMaskIntoConstraints="NO" id="30">
                     <rect key="frame" x="154" y="260" width="200" height="21"/>
                     <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
@@ -291,7 +291,7 @@ CQ
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="74">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="74">
                     <rect key="frame" x="168" y="121" width="296" height="34"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
@@ -303,7 +303,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="56">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="56">
                     <rect key="frame" x="168" y="235" width="296" height="17"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>

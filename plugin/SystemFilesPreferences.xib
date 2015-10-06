@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SystemFilesPluginPreferencesController">
@@ -16,8 +16,9 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="36"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11">
                     <rect key="frame" x="18" y="9" width="147" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" title="^Show System Files" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="12">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -26,11 +27,12 @@
                         <binding destination="6" name="value" keyPath="values.AppleShowAllFiles" id="13"/>
                     </connections>
                 </button>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="19" customClass="MASShortcutView">
+                <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19" customClass="MASShortcutView">
                     <rect key="frame" x="171" y="9" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="130" id="31"/>
                     </constraints>
+                    <animations/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ShowSystemFiles"/>
                     </userDefinedRuntimeAttributes>
@@ -43,6 +45,7 @@
                 <constraint firstItem="19" firstAttribute="top" secondItem="1" secondAttribute="top" constant="8" id="62"/>
                 <constraint firstItem="19" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="63"/>
             </constraints>
+            <animations/>
         </customView>
         <customObject id="2" userLabel="FileBrowser Localizer" customClass="GTMUILocalizer">
             <connections>

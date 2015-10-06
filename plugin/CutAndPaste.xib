@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="AHEditMenuController">
@@ -19,11 +19,12 @@
             <rect key="frame" x="0.0" y="0.0" width="218" height="18"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W6i-FP-HUk" userLabel="Container">
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="W6i-FP-HUk" userLabel="Container">
                     <rect key="frame" x="0.0" y="0.0" width="161" height="18"/>
                     <subviews>
-                        <button verticalHuggingPriority="750" misplaced="YES" tag="36000" translatesAutoresizingMaskIntoConstraints="NO" id="33" userLabel="Cut Button" customClass="MenuTrackedButton">
+                        <button verticalHuggingPriority="750" tag="36000" translatesAutoresizingMaskIntoConstraints="NO" id="33" userLabel="Cut Button" customClass="MenuTrackedButton">
                             <rect key="frame" x="20" y="-1" width="41" height="20"/>
+                            <animations/>
                             <buttonCell key="cell" type="smallSquare" title="^Cut" bezelStyle="smallSquare" alignment="center" controlSize="small" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="34" customClass="WrenchMenuButtonCell">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="smallSystem"/>
@@ -32,8 +33,9 @@
                                 <action selector="$commandsDispatcher:" target="-2" id="48"/>
                             </connections>
                         </button>
-                        <button verticalHuggingPriority="750" misplaced="YES" tag="36001" translatesAutoresizingMaskIntoConstraints="NO" id="32" userLabel="Copy Button" customClass="MenuTrackedButton">
+                        <button verticalHuggingPriority="750" tag="36001" translatesAutoresizingMaskIntoConstraints="NO" id="32" userLabel="Copy Button" customClass="MenuTrackedButton">
                             <rect key="frame" x="60" y="-1" width="41" height="20"/>
+                            <animations/>
                             <buttonCell key="cell" type="smallSquare" title="^Copy" bezelStyle="smallSquare" alignment="center" controlSize="small" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="35" customClass="WrenchMenuButtonCell">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="smallSystem"/>
@@ -42,8 +44,9 @@
                                 <action selector="$commandsDispatcher:" target="-2" id="49"/>
                             </connections>
                         </button>
-                        <button verticalHuggingPriority="750" misplaced="YES" tag="36003" translatesAutoresizingMaskIntoConstraints="NO" id="31" userLabel="Paste Button" customClass="MenuTrackedButton">
+                        <button verticalHuggingPriority="750" tag="36003" translatesAutoresizingMaskIntoConstraints="NO" id="31" userLabel="Paste Button" customClass="MenuTrackedButton">
                             <rect key="frame" x="100" y="-1" width="41" height="20"/>
+                            <animations/>
                             <buttonCell key="cell" type="smallSquare" title="^Paste" bezelStyle="smallSquare" alignment="center" controlSize="small" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36" customClass="WrenchMenuButtonCell">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="smallSystem"/>
@@ -67,6 +70,7 @@
                         <constraint firstItem="33" firstAttribute="leading" secondItem="W6i-FP-HUk" secondAttribute="leading" constant="20" id="pJi-1L-HTR"/>
                         <constraint firstAttribute="bottom" secondItem="32" secondAttribute="bottom" id="qf1-1F-QN0"/>
                     </constraints>
+                    <animations/>
                 </customView>
             </subviews>
             <constraints>
@@ -75,6 +79,7 @@
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W6i-FP-HUk" secondAttribute="trailing" id="ne6-dC-eWJ"/>
                 <constraint firstItem="W6i-FP-HUk" firstAttribute="top" secondItem="26" secondAttribute="top" id="nyD-to-tsz"/>
             </constraints>
+            <animations/>
         </customView>
         <customObject id="40" customClass="GTMUILocalizer">
             <connections>
