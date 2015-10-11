@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- icons for Yosemite and later -->
+	<key>/System/Library/CoreServices/AppDownloadLauncher.app/Contents/Resources/appStore.icns</key>
+	<array>
+		<string>/Applications</string>
+		<string>~/Applications</string>
+	</array>
+	<key>/System/Library/PreferencePanes/Displays.prefPane/Contents/Resources/Displays.icns</key>
+	<array>
+		<string>~/Desktop</string>
+	</array>
+	<key>tDoc</key>
+	<array>
+		<string>~/Documents</string>
+	</array>
+	<key>tDwn</key>
+	<array>
+		<string>~/Downloads</string>
+	</array>
+	<key>tLib</key>
+	<array>
+		<string>/Library</string>
+		<string>~/Library</string>
+	</array>
+	<key>tPub</key>
+	<array>
+		<string>~/Public</string>
+	</array>
+	<key>tSts</key>
+	<array>
+		<string>~/Sites</string>
+	</array>
+	<key>tUtl</key>
+	<array>
+		<string>/Applications/Utilities</string>
+	</array>
+	<key>idsk</key>
+	<array>
+		<string>iDisk</string>
+	</array>
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/iDiskGenericIcon.icns</key>
+	<array>
+		<string>x-applefinder-vnode:CloudDocs%20libraries</string>
+		<string>x-applefinder-vnode:iCloud</string>
+		<string>iDisk</string>
+	</array>
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AirDrop.icns</key>
+	<array>
+		<string>x-applefinder-vnode:AirDrop</string>
+		<string>nwnode://domain-AirDrop</string>
+	</array>
+	<key>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/CDAudioVolumeIcon.icns</key>
+	<array>
+		<string>x-applefinder-vnode:Remote%20Disc</string>
+		<string>nwnode://domain-Remote%20Disc</string>
+	</array>
+	<key>NSMediaBrowserMediaTypeAudio</key>
+	<array>
+		<string>~/Music</string>
+		<string>NSMediaBrowserMediaTypeAudioTemplate32</string>
+	</array>
+	<key>NSMediaBrowserMediaTypePhotos</key>
+	<array>
+		<string>~/Pictures</string>
+		<string>NSMediaBrowserMediaTypePhotosTemplate32</string>
+	</array>
+	<key>NSMediaBrowserMediaTypeMovies</key>
+	<array>
+		<string>~/Movies</string>
+		<string>NSMediaBrowserMediaTypeMoviesTemplate32</string>
+	</array>
+</dict>
+</plist>
