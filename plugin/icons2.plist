@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<!-- icons for Yosemite and later -->
+	<!-- icons for El Capitan and later -->
 	<key>/System/Library/CoreServices/AppDownloadLauncher.app/Contents/Resources/appStore.icns</key>
 	<array>
 		<string>/Applications</string>
