@@ -1,86 +1,86 @@
 /* preferences */
 "BASIC" = "基本";
-"SYSTEM" = "系统";
-"Menus" = "菜单";
-"Updates" = "升级";
-"File Browser" = "文件浏览器";
+"SYSTEM" = "系統";
+"Menus" = "菜單";
+"Updates" = "升級";
+"File Browser" = "文件瀏覽器";
 "Dock" = "Dock";
-"Sidebar" = "边栏";
+"Sidebar" = "邊欄";
 
 /* TotalFinder Status Menu Item */
-"Check for Updates" = "检查更新";
-"Uninstall TotalFinder" = "卸载 TotalFinder";
-"About TotalFinder" = "关于 TotalFinder";
-"Restart Finder" = "重启 Finder";
+"Check for Updates" = "檢查更新";
+"Uninstall TotalFinder" = "卸載 TotalFinder";
+"About TotalFinder" = "關於 TotalFinder";
+"Restart Finder" = "重啓 Finder";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "重置";
 "Cancel" = "取消";
-"Do you really want reset to defaults?" = "你真的想恢复到默认设置？";
-"This will restore initial TotalFinder settings." = "这将会初始化 TotalFinder 设置。";
+"Do you really want reset to defaults?" = "你真的想恢復至默認設置？";
+"This will restore initial TotalFinder settings." = "這將會初始化 TotalFinder 設置。";
 
 /* MainMenu items */
 "TotalFinder" = "TotalFinder";
-"TotalFinder Preferences…" = "TotalFinder 偏好设置…";
-"Visit Homepage…" = "访问主页…";
+"TotalFinder Preferences…" = "TotalFinder 偏好設置…";
+"Visit Homepage…" = "訪問主頁…";
 
 /* registration */
-"Licensed to %@" = "已注册给：%@";
-"Change License" = "更换注册码";
-"Unregistered version in trial mode" = "未注册试用版";
-"Register" = "注册";
+"Licensed to %@" = "已註冊給：%@";
+"Change License" = "更換註冊碼";
+"Unregistered version in trial mode" = "未註冊試用版";
+"Register" = "註冊";
 
 /* navigation bar */
-"About" = "关于";
+"About" = "關於";
 
 /* tweaks page */
-"Reset TotalFinder to defaults" = "初始化 TotalFinder 所有设置";
+"Reset TotalFinder to defaults" = "初始化 TotalFinder 所有設置";
 
-"Hide icon in Menu Bar" = "隐藏菜单栏图标";
-"Keep original Dock icon" = "使用原 Finder 图标";
+"Hide icon in Menu Bar" = "隱藏菜單欄圖標";
+"Keep original Dock icon" = "使用原 Finder 圖標";
 
 /* about page */
-"Check Now" = "立即检查";
-"Automatically check the website for updates" = "自动检测最新版本";
-"Include pre-releases" = "包括测试版本";
-"Participate in TotalFinder testing" = "加入 TotalFinder 新版测试";
+"Check Now" = "立即檢查";
+"Automatically check the website for updates" = "自動檢測最新版本";
+"Include pre-releases" = "包括測試版本";
+"Participate in TotalFinder testing" = "加入 TotalFinder 新版測試";
 
 /* registration */
-"TotalFinder Registration" = "注册 TotalFinder";
-"Registration" = "注册";
-"Please enter your license details from the email we have sent you:" = "请按照我们发给您的电子邮件内容输入注册码:";
-"Buy TotalFinder Now" = "立即购买 TotalFinder";
-"Thanks for registering!" = "感谢您的注册!";
-"This TotalFinder copy is licensed to:" = "TotalFinder 注册给:";
-"Close" = "关闭";
-"Back" = "后退";
-"Invalid license code" = "无效的注册码";
-"Please go back and try again." = "请返回后重试。";
-"To purchase a license for TotalFinder, please visit BinaryAge web store." = "请访问 BinaryAge 的网络商店购买 TotalFinder。";
-"Thank you for using TotalFinder!" = "感谢您使用 TotalFinder!";
-"License Name" = "注册名";
-"License Key" = "注册码";
+"TotalFinder Registration" = "註冊 TotalFinder";
+"Registration" = "註冊";
+"Please enter your license details from the email we have sent you：" = "請按照我們發給您的電子郵件內容輸入註冊碼：";
+"Buy TotalFinder Now" = "立即購買 TotalFinder";
+"Thanks for registering！" = "感謝您的註冊！";
+"This TotalFinder copy is licensed to：" = "TotalFinder 註冊給：";
+"Close" = "關閉";
+"Back" = "後退";
+"Invalid license code" = "無效的註冊碼";
+"Please go back and try again." = "請返回後重試。";
+"To purchase a license for TotalFinder, please visit BinaryAge web store." = "請訪問 BinaryAge 的網絡商店購買 TotalFinder。";
+"Thank you for using TotalFinder！" = "感謝您使用 TotalFinder！";
+"License Name" = "註冊名";
+"License Key" = "註冊碼";
 
 
 /* shortcuts subsystem */
-"Click to record new shortcut" = "点击开始录制快捷方式";
-"Delete shortcut" = "删除快捷方式";
+"Click to record new shortcut" = "點擊開始錄製快捷方式";
+"Delete shortcut" = "刪除快捷方式";
 "OK" = "好";
-"Record Shortcut" = "录制快捷方式";
+"Record Shortcut" = "錄製快捷方式";
 "Space" = "Space";
-"The key combination %@ cannot be used" = "无法使用此按键组合 %@";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
-"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "无法使用此按键组合，因为其已经被菜单项目‘%@’使用。";
-"Type New Shortcut" = "键入新快捷方式";
-"Type Shortcut" = "键入快捷方式";
-"Use Old Shortcut" = "使用旧的快捷方式";
-"Set it anyway" = "依然设置";
+"The key combination %@ cannot be used" = "無法使用此按鍵組合 %@";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "由於此按鍵組合已被系統的快捷方式使用，因此無法使用此按鍵組合。\n如果您真的想用這按鍵組合，大多數的系統快捷方式可在系統設置中的鍵盤和滑鼠面版更變。";
+"This shortcut cannot be used because it is already used by the menu item ‘%@’." = "無法使用此按鍵組合，因為其已經被菜單項目‘%@’使用。";
+"Type New Shortcut" = "鍵入新快捷方式";
+"Type Shortcut" = "鍵入快捷方式";
+"Use Old Shortcut" = "使用舊的快捷方式";
+"Set it anyway" = "依然設置";
 
 /* tabs section */
-"Disable tabs completely" = "完全禁用标签";
-"Do you really want to disable tabs?" = "你真的要禁用标签吗？";
-"Do you really want to enable tabs?" = "你真的要启用标签吗？";
-"Tabs" = "标签";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "该选项会禁用 TotalFinder 的标签模块，双窗口模式以及滑入窗口功能也将禁用。 如果你需要使用 Mavericks 里 Finder 的原生标签功能， 并同时使用 TotalFinder 的其他功能， 该选项可能有用。\n\n该操作需要重启 Finder ！\n注: 在重启前请先等待现有的 Finder 任务完成 （比如文件拷贝或移动）。";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "该选项会启用 TotalFinder 的标签模块。\n\n该操作需要重启 Finder ！\n注: 在重启前请先等待现有的 Finder 任务完成 （比如文件拷贝或移动）。";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "这会禁用标签、 双窗口模式、 滑入窗口等功能。Finder 需要重启。";
+"Disable tabs completely" = "完全禁用分頁";
+"Do you really want to disable tabs?" = "你真的要禁用分頁嗎？";
+"Do you really want to enable tabs?" = "你真的要啓用分頁嗎？";
+"Tabs" = "分頁";
+"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted！\nNote： Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "該選項會禁用 TotalFinder 的分頁模塊，雙窗口模式以及滑入窗口功能也將禁用。 如果你需要使用 Mavericks 裏 Finder 的原生分頁功能， 並衕時使用 TotalFinder 的其他功能， 該選項可能有用。\n\n該操作需要重啓 Finder ！\n註： 在重啓前請先等待現有的 Finder 任務完成（比如文件拷貝或移動）。";
+"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote： Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "該選項會啓用 TotalFinder 的分頁模塊。\n\n該操作需要重啓 Finder ！\n註： 在重啓前請先等待現有的 Finder 任務完成（比如文件拷貝或移動）。";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "這會禁用分頁、 雙窗口模式、 滑入窗口等功能。Finder 需要重啓。";
