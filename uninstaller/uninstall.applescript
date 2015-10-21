@@ -10,7 +10,7 @@ on run
 	set stdout to stdout & "  shutdown TotalFinder agent ..." & newline
 	try
 		do shell script "killall TotalFinder" with administrator privileges
-    on error
+	on error
 		set stdout to stdout & "    TotalFinder agent was not running" & newline
 	end try
 	
@@ -32,7 +32,7 @@ on run
 			if login item "TotalFinder" exists then
 				delete login item "TotalFinder"
 			end if
-		end tell	
+		end tell
 	on error
 		set stdout to stdout & "    Encountered problems when removing TotalFinder.app from login items"
 	end try
@@ -94,7 +94,7 @@ on run
 	on error
 		set stdout to stdout & "    unable to enable animations back" & newline
 	end try
-
+	
 	set stdout to stdout & "  hide system files in Finder again ..." & newline
 	try
 		do shell script "defaults write com.apple.finder AppleShowAllFiles -bool false" with administrator privileges
@@ -109,7 +109,19 @@ on run
 		set stdout to stdout & "    failed to relaunch Finder" & newline
 	end try
 	
-	set stdout to stdout & "TotalFinder uninstallation done"
+	
+	try
+		do shell script "[ ! -e \"/System/Library/ScriptingAdditions/TotalFinder.osax\" ]"
+	on error
+		set stdout to stdout & newline
+		set stdout to stdout & "/System/Library/ScriptingAdditions/TotalFinder.osax is present." & newline -- do not attempt to change this string, it is hard-coded in Uninstaller.app
+		set stdout to stdout & "This location is protected by System Integrity Protection." & newline
+		set stdout to stdout & "You have to boot into Recovery OS and remove it manually." & newline
+		set stdout to stdout & "Visit: http://totalfinder.binaryage.com/system-osax" & newline
+		set stdout to stdout & newline
+	end try
+	
+	set stdout to stdout & "TotalFinder uninstallation done."
 	
 	-- at this point Finder should start cleanly and with no signs of TotalFinder
 	-- you may check Events/Replies tab to see if there were no issues with uninstallation
