@@ -40,8 +40,6 @@
 	<string>init</string>
 	<key>NSUserNotificationAlertStyle</key>
 	<string>alert</string>
-	<key>ShellPath</key>
-	<string>/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle</string>
 	<key>SoftInjectionDelay</key>
 	<real>2</real>
 	<key>TargetBundleIdentifier</key>
@@ -55,6 +53,6 @@
 	<key>CheckSIP</key>
 	<true/>
 	<key>UninstallerPath</key>
-	<string>/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app</string>
+	<string>/Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app</string>
 </dict>
 </plist>
