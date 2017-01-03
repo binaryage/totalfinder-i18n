@@ -11,7 +11,7 @@
 "sendReportButton" = "Gửi email";
 "cancelButton" = "Thoát";
 
-"emailTemplate" = "Chào Antonin,\n\nTrương trình %@ bị lỗi!\n\nThông báo lỗi ở tại đây:\n%@\n\n>\n> Bạn có thể giúp tôi sửa chữa vấn đề bằng cách giúp tôi mô tả chuyện gì xẩy ra trước khi chương trình bị lỗi.\n> Tôi đánh giá cao sự hổ trợ của bạn nhưng đừng chờ trả lời trực tiếp của tôi.\n> Để thảo luận thêm vấn đề này bạn có thể vào đây\n> http://discuss.binaryage.com.\n>\n> Cảm ơn, Antonin";
+"emailTemplate" = "Chào Antonin,\n\nTrương trình %@ bị lỗi!\n\nThông báo lỗi ở tại đây:\n%@\n\n>\n> Bạn có thể giúp tôi sửa chữa vấn đề bằng cách giúp tôi mô tả chuyện gì xẩy ra trước khi chương trình bị lỗi.\n> Tôi đánh giá cao sự hổ trợ của bạn nhưng đừng chờ trả lời trực tiếp của tôi.\n> Để thảo luận thêm vấn đề này bạn có thể vào đây\n> https://discuss.binaryage.com.\n>\n> Cảm ơn, Antonin";
 
 "countdownMsgSecondsPlural" = "còn lại %d giây.";
 "countdownMsgSecondSingular" = "còn lại %d giây.";

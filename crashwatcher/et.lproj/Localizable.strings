@@ -11,7 +11,7 @@
 "sendReportButton" = "Saada Email";
 "cancelButton" = "Katkesta";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Sa saad aidata mul viga parandada, kirjeldades inglise keeles enda tegevust rakenduses enne selle kokku jooksmist.\n> Ma hindan Teie abi ning ma loen neid vearaporteid, kuid alati ei pruugi ma tagasi kirjutada.\n> Edasise abi saamiseks alusta vestlust:\n> http://discuss.binaryage.com.\n>\n> Aitäh, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Sa saad aidata mul viga parandada, kirjeldades inglise keeles enda tegevust rakenduses enne selle kokku jooksmist.\n> Ma hindan Teie abi ning ma loen neid vearaporteid, kuid alati ei pruugi ma tagasi kirjutada.\n> Edasise abi saamiseks alusta vestlust:\n> https://discuss.binaryage.com.\n>\n> Aitäh, Antonin";
 
 "countdownMsgSecondsPlural" = "%d sekundit jäänud.";
 "countdownMsgSecondSingular" = "%d sekund jäänud.";

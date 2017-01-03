@@ -11,7 +11,7 @@
 "sendReportButton" = "透過 Email 傳送報告";
 "cancelButton" = "取消";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> 請概略敘述錯誤發生前的動作。\n> 我很感謝你的協助。我會閱讀這些錯誤報告，但我不會直接回覆你的郵件，請你諒解。\n> 如果需要到討論區討論，請到\n> http://discuss.binaryage.com.\n>\n> 謝謝， Antonin 敬上";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> 請概略敘述錯誤發生前的動作。\n> 我很感謝你的協助。我會閱讀這些錯誤報告，但我不會直接回覆你的郵件，請你諒解。\n> 如果需要到討論區討論，請到\n> https://discuss.binaryage.com.\n>\n> 謝謝， Antonin 敬上";
 
 "countdownMsgSecondsPlural" = "剩下 %d 秒。";
 "countdownMsgSecondSingular" = "剩下 %d 秒。";

@@ -12,8 +12,8 @@
 "cancelButton" = "Отмена";
 
 /* I think that emailTemplate should not be translated. It is a template for a bug report that is sent to the developer. He probably doesn't undertand Russian. */
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
-"emailTemplate" = "Привет, Антонин!\n\nМой %@ только что аварийно равершился!\n\nОтчёт об ошибке доступен здесь:\n%@\n\n>\n> Вы можете помочь мне исправить проблему, описав, что происходило непосредственно перед аварией.\n> Я очень ценю вашу помощь и читаю эти отчёты об ошибках, но, пожалуйста, не ожидайте моего непосредственного ответа на это письмо.\n> Для дальнейшего обсуждения, пожалуйста, создайте новую тему на \n> http://discuss.binaryage.com.\n>\n> Спасибо!\n>Антонин.";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> https://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Привет, Антонин!\n\nМой %@ только что аварийно равершился!\n\nОтчёт об ошибке доступен здесь:\n%@\n\n>\n> Вы можете помочь мне исправить проблему, описав, что происходило непосредственно перед аварией.\n> Я очень ценю вашу помощь и читаю эти отчёты об ошибках, но, пожалуйста, не ожидайте моего непосредственного ответа на это письмо.\n> Для дальнейшего обсуждения, пожалуйста, создайте новую тему на \n> https://discuss.binaryage.com.\n>\n> Спасибо!\n>Антонин.";
 
 "countdownMsgSecondsPlural" = "Осталось %d с.";
 "countdownMsgSecondSingular" = "Осталась %d с.";

@@ -49,7 +49,7 @@
 	<key>TargetName</key>
 	<string>Finder</string>
 	<key>SIPInfoURL</key>
-	<string>http://totalfinder.binaryage.com/system-integrity-protection</string>
+	<string>https://totalfinder.binaryage.com/system-integrity-protection</string>
 	<key>CheckSIP</key>
 	<true/>
 	<key>UninstallerPath</key>

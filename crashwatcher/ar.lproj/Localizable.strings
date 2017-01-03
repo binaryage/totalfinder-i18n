@@ -11,7 +11,7 @@
 "sendReportButton" = "إرسال";
 "cancelButton" = "إلغاء";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> يمكنك مساعدتي بحل المشكلة بوصف ماذا حصل قبل العطل.\n> إنني مقدر لك مساعدتك، كما أنني أقرأ تقارير العطل, و لكن لا تتوقع ردي المباشر.\n> للمزيد من المحادثات الرجاء بدأ عنوان جديد في\n> http://discuss.binaryage.com.\n>\n> شكرا جزيلا, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> يمكنك مساعدتي بحل المشكلة بوصف ماذا حصل قبل العطل.\n> إنني مقدر لك مساعدتك، كما أنني أقرأ تقارير العطل, و لكن لا تتوقع ردي المباشر.\n> للمزيد من المحادثات الرجاء بدأ عنوان جديد في\n> https://discuss.binaryage.com.\n>\n> شكرا جزيلا, Antonin";
 
 "countdownMsgSecondsPlural" = "بقيت %d ثانية.";
 "countdownMsgSecondSingular" =  "بقيت %d ثانية.";

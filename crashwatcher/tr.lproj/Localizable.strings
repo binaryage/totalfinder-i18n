@@ -11,7 +11,7 @@
 "sendReportButton" = "E-posta Gönder";
 "cancelButton" = "İptal";
 
-"emailTemplate" = "Merhaba Antonin,\n\n%@ uygulamamda bir hata meydana geldi!\n\nHata raporunu buradan görebilirsin:\n%@\n\n>\n> Hata oluşmadan önce neler olduğunu anlatarak bana hatayı gidermemde yardımcı olabilirsiniz.\n> Yardımınız için çok teşekür ederim ve hata raporlarını okuyorum fakat size direkt cevap yazamayabilirim.\n> Daha fazla bilgi için\n> http://discuss.binaryage.com sitesinde başlık açabilirsiniz.\n>\n> Teşekkürler, Antonin";
+"emailTemplate" = "Merhaba Antonin,\n\n%@ uygulamamda bir hata meydana geldi!\n\nHata raporunu buradan görebilirsin:\n%@\n\n>\n> Hata oluşmadan önce neler olduğunu anlatarak bana hatayı gidermemde yardımcı olabilirsiniz.\n> Yardımınız için çok teşekür ederim ve hata raporlarını okuyorum fakat size direkt cevap yazamayabilirim.\n> Daha fazla bilgi için\n> https://discuss.binaryage.com sitesinde başlık açabilirsiniz.\n>\n> Teşekkürler, Antonin";
 
 "countdownMsgSecondsPlural" = "%d saniye kaldı.";
 "countdownMsgSecondSingular" = "%d saniye kaldı.";
