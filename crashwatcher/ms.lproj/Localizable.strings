@@ -11,7 +11,7 @@
 "sendReportButton" = "Hantar Emel";
 "cancelButton" = "Batal";
 
-"emailTemplate" = "Hai Antonin, \n\n%@ saya telah terhenti!\n\nLaporan insiden boleh di dapati di sini:\n%@\n\n>\n> Anda boleh bantu saya menyelesaikan masalah ini dengan menerangkan apa yang berlaku sebelum insiden.\n> Saya hargai bantuan anda dan saya meneliti setiap laporan insiden, tapi jangan harapkan jawapan langsung daripada saya.\n> Untuk perbincangan lanjut sila buka topik di \n> http://discuss.binaryage.com\n>\n> Terima kasih, Antonin";
+"emailTemplate" = "Hai Antonin, \n\n%@ saya telah terhenti!\n\nLaporan insiden boleh di dapati di sini:\n%@\n\n>\n> Anda boleh bantu saya menyelesaikan masalah ini dengan menerangkan apa yang berlaku sebelum insiden.\n> Saya hargai bantuan anda dan saya meneliti setiap laporan insiden, tapi jangan harapkan jawapan langsung daripada saya.\n> Untuk perbincangan lanjut sila buka topik di \n> https://discuss.binaryage.com\n>\n> Terima kasih, Antonin";
 
 "countdownMsgSecondsPlural" = "Tinggal %d saat.";
 "countdownMsgSecondSingular" = "Tinggal %d saat.";

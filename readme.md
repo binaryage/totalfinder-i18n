@@ -1,21 +1,21 @@
 # TotalFinder Internationalization
 
-**[TotalFinder](http://totalfinder.binaryage.com)** is a plugin for Apple's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
+**[TotalFinder](https://totalfinder.binaryage.com)** is a plugin for Apple's Finder.app which brings tabs, dual panels and more! This project gathers localizable resources.
 
-<img width="500" src="http://totalfinder.binaryage.com/images/showcase/showcase-dual-mode.png">
+<img width="500" src="https://totalfinder.binaryage.com/images/showcase/showcase-dual-mode.png">
 
 ## Do you want to translate TotalFinder into your language?
 
 You can tweak resource files and add your preferred language.
 
 The idea is to install TotalFinder and then symlink its `Resources` folder to the copy of this repository where you can edit it.
-You should push your changes back to GitHub and I will then incorporate your work into [next TotalFinder release](http://totalfinder.binaryage.com/beta-changes).
+You should push your changes back to GitHub and I will then incorporate your work into [next TotalFinder release](https://totalfinder.binaryage.com/beta-changes).
 
-You may want to read [TotalFinder opened for localization](http://blog.binaryage.com/totalfinder-localization/) blog post.
+You may want to read [TotalFinder opened for localization](https://blog.binaryage.com/totalfinder-localization/) blog post.
 
 ## Where to start?
 
-1. Read something about git version control system. Here is [the best place to start](http://git-scm.comhttp://totalfinder.binaryage.com/about).
+1. Read something about git version control system. Here is [the best place to start](http://git-scm.com).
 2. Get familiar with GitHub. They have also [nice docs](http://help.github.com).
 3. Create GitHub user and don't forget to [setup your local git](http://help.github.com/mac-set-up-git) so your commits are linked to your GitHub account.
 4. See how others are working on [TotalFinder localization](http://github.com/binaryage/totalfinder-i18n/network).
@@ -26,7 +26,7 @@ You may want to read [TotalFinder opened for localization](http://blog.binaryage
 
 1. [fork this project](http://help.github.com/fork-a-repo) on GitHub
 2. [clone your fork](http://help.github.com/remotes) (let's assume you have it in `~/totalfinder-i18n`)
-3. make sure you have [installed latest TotalFinder](http://totalfinder.binaryage.com/beta-changes) version
+3. make sure you have [installed latest TotalFinder](https://totalfinder.binaryage.com/beta-changes) version
 4. `cd ~/totalfinder-i18n` and run `./bin/dev.sh`
 
 ### Development
