@@ -35,8 +35,12 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>InitEventClass</key>
+	<string>BBTF</string>
+	<key>InitEventClass2</key>
 	<string>BATF</string>
 	<key>InitEventID</key>
+	<string>init</string>
+	<key>InitEventID2</key>
 	<string>init</string>
 	<key>NSUserNotificationAlertStyle</key>
 	<string>alert</string>
