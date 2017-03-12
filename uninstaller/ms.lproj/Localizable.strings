@@ -11,7 +11,7 @@
 "You are about uninstall *APP*" = "Anda akan memadam TotalFinder";
 "This program will uninstall all *APP* components from this computer." = "Program ini akan memadam semua komponen TotalFinder dari komputer ini.";
 "*APP* has been uninstalled" = "TotalFinder telah dipadam";
-"Thank you for trying *APP*." = "Thank you for trying TotalFinder."
+"Thank you for trying *APP*." = "Thank you for trying TotalFinder.";
 "*APP* uninstallation failed" = "Pemadaman TotalFinder gagal";
 "The uninstall script encountered problems. Please see the details. Please report bugs to support@binaryage.com." = "Skrip pemadaman menghadapi masalah. Sila lihat perincian. Laporkan sebarang ralat kepada support@binaryage.com.";
 

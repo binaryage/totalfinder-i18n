@@ -11,7 +11,7 @@
 "You are about uninstall *APP*" = "You are about uninstall TotalFinder";
 "This program will uninstall all *APP* components from this computer." = "This program will uninstall all TotalFinder components from this computer.";
 "*APP* has been uninstalled" = "TotalFinder has been uninstalled";
-"Thank you for trying *APP*." = "Thank you for trying TotalFinder."
+"Thank you for trying *APP*." = "Thank you for trying TotalFinder.";
 "*APP* uninstallation failed" = "TotalFinder uninstallation failed";
 "The uninstall script encountered problems. Please see the details. Please report bugs to support@binaryage.com." = "The uninstall script encountered problems. Please see the details. Please report bugs to support@binaryage.com.";
 
