@@ -11,7 +11,7 @@
 "You are about uninstall *APP*" = "TotalFinder를 제거하려고 합니다";
 "This program will uninstall all *APP* components from this computer." = "이 프로그램은 컴퓨터에서 모든 TotalFinder 구성요소를 제거할 것입니다.";
 "*APP* has been uninstalled" = "TotalFinder가 제거되었습니다";
-"Have a nice day." = "좋은 하루 되세요.";
+"Thank you for trying *APP*." = "Thank you for trying TotalFinder."
 "*APP* uninstallation failed" = "TotalFinder 제거를 실패했습니다";
 "The uninstall script encountered problems. Please see the details. Please report bugs to support@binaryage.com." = "제거 스크립트를 실행하는 중 문제가 발생했습니다. 상세 내역을 확인하세요. support@binaryage.com 으로 버그에 대해 알려주세요.";
 
