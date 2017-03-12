@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
         <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PreferencesController">
@@ -24,9 +25,8 @@
             <subviews>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="106" userLabel="Presentation" customClass="PreferencesPresentationView">
                     <rect key="frame" x="180" y="8" width="480" height="444"/>
-                    <animations/>
                 </customView>
-                <box autoresizesSubviews="NO" borderWidth="0.0" title="Box" boxType="custom" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="24" userLabel="Header">
+                <box autoresizesSubviews="NO" boxType="custom" borderType="line" borderWidth="0.0" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="24" userLabel="Header">
                     <rect key="frame" x="180" y="460" width="480" height="50"/>
                     <view key="contentView" id="1LM-jw-DUG">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="50"/>
@@ -38,8 +38,7 @@
                                     <constraint firstAttribute="width" constant="36" id="67"/>
                                     <constraint firstAttribute="height" constant="36" id="69"/>
                                 </constraints>
-                                <animations/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="56"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="56"/>
                                 <connections>
                                     <binding destination="-2" name="value" keyPath="$selectedFeature.$icon" id="276"/>
                                 </connections>
@@ -49,7 +48,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="241"/>
                                 </constraints>
-                                <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" title="Section Title" id="73">
                                     <font key="font" metaFont="system" size="24"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -61,7 +59,6 @@
                             </textField>
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="83" userLabel="Help">
                                 <rect key="frame" x="441" y="10" width="25" height="25"/>
-                                <animations/>
                                 <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="84">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -71,7 +68,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                     </view>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="83" secondAttribute="trailing" constant="16" id="AQ1-Xl-aJM"/>
@@ -81,7 +77,6 @@
                         <constraint firstItem="72" firstAttribute="centerY" secondItem="24" secondAttribute="centerY" id="sLU-Om-7MQ"/>
                         <constraint firstItem="55" firstAttribute="top" secondItem="24" secondAttribute="top" constant="6" id="ypH-GK-8i9"/>
                     </constraints>
-                    <animations/>
                     <color key="borderColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="fillColor" white="0.69999999999999996" alpha="1" colorSpace="calibratedWhite"/>
                 </box>
@@ -92,9 +87,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="22" rowSizeStyle="small" viewBased="YES" indentationPerLevel="14" outlineTableColumn="7" id="3" userLabel="Outline">
-                                <rect key="frame" x="0.0" y="0.0" width="178" height="0.0"/>
+                                <rect key="frame" x="0.0" y="0.0" width="181" height="510"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <animations/>
                                 <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
@@ -119,7 +113,6 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="293"/>
                                                         </constraints>
-                                                        <animations/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="172">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -135,7 +128,6 @@
                                                     <constraint firstItem="171" firstAttribute="leading" secondItem="170" secondAttribute="leading" constant="3" id="176"/>
                                                     <constraint firstItem="171" firstAttribute="top" secondItem="170" secondAttribute="top" id="296"/>
                                                 </constraints>
-                                                <animations/>
                                                 <connections>
                                                     <outlet property="textField" destination="171" id="173"/>
                                                 </connections>
@@ -150,7 +142,6 @@
                                                             <constraint firstAttribute="width" constant="20" id="2au-J9-Wpc"/>
                                                             <constraint firstAttribute="height" constant="20" id="a1D-ng-UxX"/>
                                                         </constraints>
-                                                        <animations/>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" id="181"/>
                                                         <connections>
                                                             <binding destination="177" name="value" keyPath="objectValue.$icon" id="257"/>
@@ -161,7 +152,6 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="147" id="332"/>
                                                         </constraints>
-                                                        <animations/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" usesSingleLineMode="YES" id="180">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -178,7 +168,6 @@
                                                     <constraint firstItem="179" firstAttribute="centerY" secondItem="177" secondAttribute="centerY" id="tJc-j2-y7r"/>
                                                     <constraint firstItem="178" firstAttribute="centerY" secondItem="177" secondAttribute="centerY" id="u7h-hO-98H"/>
                                                 </constraints>
-                                                <animations/>
                                                 <connections>
                                                     <outlet property="imageView" destination="178" id="182"/>
                                                     <outlet property="textField" destination="179" id="183"/>
@@ -193,19 +182,15 @@
                                 </connections>
                             </outlineView>
                         </subviews>
-                        <animations/>
                         <nil key="backgroundColor"/>
                     </clipView>
-                    <animations/>
                     <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="4">
                         <rect key="frame" x="-100" y="-100" width="180" height="15"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </scroller>
                     <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="6">
                         <rect key="frame" x="-100" y="-100" width="15" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </scroller>
                 </scrollView>
             </subviews>
@@ -223,7 +208,6 @@
                 <constraint firstAttribute="bottom" secondItem="106" secondAttribute="bottom" constant="8" id="439"/>
                 <constraint firstItem="106" firstAttribute="top" secondItem="1" secondAttribute="top" constant="58" id="447"/>
             </constraints>
-            <animations/>
         </customView>
         <customObject id="120" customClass="PreferencesFeaturesDataSource"/>
         <userDefaultsController id="262" customClass="TotalUserDefaultsController"/>
