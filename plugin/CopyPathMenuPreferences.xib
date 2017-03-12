@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="CopyPathMenuPluginPreferencesController">
@@ -18,7 +19,6 @@
             <subviews>
                 <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4">
                     <rect key="frame" x="18" y="9" width="278" height="18"/>
-                    <animations/>
                     <buttonCell key="cell" type="check" title="^Allow path copying from Context Menus" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="5">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -32,7 +32,6 @@
                 <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="11"/>
                 <constraint firstItem="4" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="27"/>
             </constraints>
-            <animations/>
         </customView>
         <customObject id="2" userLabel="Menus Localizer" customClass="GTMUILocalizer">
             <connections>

@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
         <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="VisorPluginPreferencesController">
@@ -30,7 +31,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1494"/>
                                 </constraints>
-                                <animations/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="^Activation:" id="503">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -42,7 +42,6 @@
                             </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="483">
                                 <rect key="frame" x="137" y="53" width="146" height="18"/>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="^Show on all Spaces" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="486">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -59,11 +58,10 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="487">
-                                            <rect key="frame" x="12" y="7" width="80" height="25"/>
+                                            <rect key="frame" x="12" y="8" width="80" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="76" id="635"/>
                                             </constraints>
-                                            <animations/>
                                             <sliderCell key="cell" continuous="YES" alignment="left" maxValue="1" doubleValue="0.44444444444444442" tickMarkPosition="below" numberOfTickMarks="10" allowsTickMarkValuesOnly="YES" sliderType="linear" id="491">
                                                 <font key="font" size="12" name="Helvetica"/>
                                             </sliderCell>
@@ -77,7 +75,6 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="66" id="546"/>
                                             </constraints>
-                                            <animations/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="3 0 sec" drawsBackground="YES" id="489">
                                                 <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="#,##0.0 sec" negativeFormat="-#,##0.0 sec" thousandSeparator="," id="490">
                                                     <attributedString key="attributedStringForZero">
@@ -99,7 +96,6 @@
                                             </connections>
                                         </textField>
                                     </subviews>
-                                    <animations/>
                                 </view>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="1442"/>
@@ -108,16 +104,12 @@
                                     <constraint firstAttribute="trailing" secondItem="488" secondAttribute="trailing" constant="10" id="hQ3-FZ-wcL"/>
                                     <constraint firstItem="488" firstAttribute="top" secondItem="487" secondAttribute="top" id="lxg-Mi-ube"/>
                                 </constraints>
-                                <animations/>
-                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </box>
                             <textField verticalHuggingPriority="750" preferredMaxLayoutWidth="110" translatesAutoresizingMaskIntoConstraints="NO" id="471" customClass="PreferencesTextField">
                                 <rect key="frame" x="14" y="184" width="114" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1498"/>
                                 </constraints>
-                                <animations/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="^Animation:" id="501">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -132,7 +124,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1500"/>
                                 </constraints>
-                                <animations/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="^Control:" id="502">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -147,7 +138,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="219" id="551"/>
                                 </constraints>
-                                <animations/>
                                 <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Screen 0" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="5" id="492">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -168,7 +158,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="1268"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="493">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -180,7 +169,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="478">
                                 <rect key="frame" x="137" y="163" width="110" height="18"/>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="^Slide Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="495">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -192,7 +180,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="476">
                                 <rect key="frame" x="137" y="183" width="110" height="18"/>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="^Fade Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="497">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -204,7 +191,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="475">
                                 <rect key="frame" x="137" y="33" width="178" height="18"/>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="^Show on top of the Dock" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="498">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -219,7 +205,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="1443"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="^Free Form Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="499">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -231,7 +216,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="473">
                                 <rect key="frame" x="137" y="244" width="104" height="18"/>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="^Hide on ESC" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="500">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -246,7 +230,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1497"/>
                                 </constraints>
-                                <animations/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="^Screen:" id="504">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -262,7 +245,6 @@
                                     <constraint firstAttribute="height" constant="19" id="1437"/>
                                     <constraint firstAttribute="width" constant="130" id="1461"/>
                                 </constraints>
-                                <animations/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="PinVisor"/>
                                 </userDefinedRuntimeAttributes>
@@ -272,7 +254,6 @@
                             </customView>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="465" customClass="PreferencesTextField">
                                 <rect key="frame" x="156" y="222" width="64" height="17"/>
-                                <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Pin Visor" id="505">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -282,7 +263,7 @@
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="542"/>
                                 </connections>
                             </textField>
-                            <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="1229">
+                            <box autoresizesSubviews="NO" borderType="none" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="1229">
                                 <rect key="frame" x="155" y="266" width="177" height="71"/>
                                 <view key="contentView" id="oYG-9X-EdO">
                                     <rect key="frame" x="0.0" y="0.0" width="177" height="71"/>
@@ -290,7 +271,6 @@
                                     <subviews>
                                         <imageView translatesAutoresizingMaskIntoConstraints="NO" id="477" customClass="PreferencesModifierButtonImageView">
                                             <rect key="frame" x="101" y="15" width="57" height="43"/>
-                                            <animations/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ModifiersOption" id="496"/>
                                             <connections>
                                                 <binding destination="457" name="enabled2" keyPath="values.TotalFinderHotKey2Enabled" previousBinding="513" id="514">
@@ -306,7 +286,6 @@
                                         </imageView>
                                         <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="484" customClass="PreferencesTextField">
                                             <rect key="frame" x="82" y="28" width="13" height="17"/>
-                                            <animations/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="+" id="485">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -329,7 +308,6 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="57" id="1416"/>
                                             </constraints>
-                                            <animations/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="ModifiersOption" id="494"/>
                                             <connections>
                                                 <binding destination="457" name="enabled2" keyPath="values.TotalFinderHotKey2Enabled" previousBinding="511" id="512">
@@ -344,7 +322,6 @@
                                             </connections>
                                         </imageView>
                                     </subviews>
-                                    <animations/>
                                 </view>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="477" secondAttribute="trailing" constant="16" id="9FI-O4-uo1"/>
@@ -358,9 +335,6 @@
                                     <constraint firstItem="477" firstAttribute="leading" secondItem="484" secondAttribute="trailing" constant="8" symbolic="YES" id="tu0-P7-jBO"/>
                                     <constraint firstItem="484" firstAttribute="centerX" secondItem="1229" secondAttribute="centerX" id="zLI-xb-lfL"/>
                                 </constraints>
-                                <animations/>
-                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </box>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="463" customClass="MASShortcutView">
                                 <rect key="frame" x="139" y="328" width="130" height="19"/>
@@ -368,7 +342,6 @@
                                     <constraint firstAttribute="height" constant="19" id="1438"/>
                                     <constraint firstAttribute="width" constant="130" id="1462"/>
                                 </constraints>
-                                <animations/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ToggleVisor"/>
                                 </userDefinedRuntimeAttributes>
@@ -377,7 +350,6 @@
                                 </connections>
                             </customView>
                         </subviews>
-                        <animations/>
                     </view>
                     <constraints>
                         <constraint firstAttribute="height" constant="362" id="1456"/>
@@ -421,13 +393,9 @@
                         <constraint firstItem="463" firstAttribute="top" secondItem="469" secondAttribute="top" id="x04-J2-wpc"/>
                         <constraint firstItem="470" firstAttribute="baseline" secondItem="473" secondAttribute="baseline" id="xiA-Br-zi5"/>
                     </constraints>
-                    <animations/>
-                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </box>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="721">
                     <rect key="frame" x="18" y="400" width="116" height="18"/>
-                    <animations/>
                     <buttonCell key="cell" type="check" title="^Visor Feature" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="726">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="systemBold"/>
@@ -438,7 +406,6 @@
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="722">
                     <rect key="frame" x="38" y="390" width="272" height="11"/>
-                    <animations/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="^a system-wide window sliding from the bottom on a hot-key" id="724">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" red="0.41304347829999999" green="0.41304347829999999" blue="0.41304347829999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -455,7 +422,6 @@
                 <constraint firstItem="460" firstAttribute="top" secondItem="722" secondAttribute="bottom" constant="8" symbolic="YES" id="1533"/>
                 <constraint firstAttribute="bottom" secondItem="460" secondAttribute="bottom" constant="20" symbolic="YES" id="1534"/>
             </constraints>
-            <animations/>
         </customView>
         <customObject id="810" userLabel="Visor Localizer" customClass="GTMUILocalizer">
             <connections>
