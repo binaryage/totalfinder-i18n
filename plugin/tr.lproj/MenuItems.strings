@@ -1,8 +1,8 @@
-/*
+/* 
 
 menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
 
-The goal is to distinguish them from normal string keys and
+The goal is to distinguish them from normal string keys and 
 allow menu item localization to be independent from other strings.
 
 Without this (in English) some keys would be shared for menu items and preferences,
@@ -31,7 +31,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Dock Progress Bar" = "Dock İlerleme Durumu";
 "MenuItem:Template" = "Şablon";
 
-/*
+/* 
 note: These menu item localizations are taken from Finder's localization table:
 Enter Full Screen
 Exit Full Screen
