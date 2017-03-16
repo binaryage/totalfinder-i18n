@@ -54,8 +54,10 @@
 	<string>Finder</string>
 	<key>SIPInfoURL</key>
 	<string>https://totalfinder.binaryage.com/system-integrity-protection</string>
+	<key>NewSIPInfoURL</key>
+	<string>https://totalfinder.binaryage.com/sip</string>
 	<key>LegacyInstallUpgradeURL</key>
-	<string>https://totalfinder.binaryage.com/install-with-sip</string>
+	<string>https://totalfinder.binaryage.com/upgrade-sip</string>
 	<key>CheckSIP</key>
 	<true/>
 	<key>UninstallerPath</key>
