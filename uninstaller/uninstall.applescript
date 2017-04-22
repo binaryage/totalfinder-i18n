@@ -102,13 +102,6 @@ on run
 		set stdout to stdout & "    hide system files in Finder back" & newline
 	end try
 	
-	set stdout to stdout & "  relaunch Finder ..." & newline
-	try
-		tell application "Finder" to launch
-	on error
-		set stdout to stdout & "    failed to relaunch Finder" & newline
-	end try
-
   -- do not attempt to change /System/Library/ScriptingAdditions/TotalFinder.osax string, it is hard-coded in Uninstaller.app
 	try
 		do shell script "sudo rm -rf \"/System/Library/ScriptingAdditions/TotalFinder.osax\"" with administrator privileges
@@ -124,7 +117,29 @@ on run
 		set stdout to stdout & "More details: https://totalfinder.binaryage.com/system-osax" & newline
 		set stdout to stdout & newline
 	end try
+
+	try
+		do shell script "sudo rm -rf \"/System/Library/ScriptingAdditions/TotalFinderSIP.osax\"" with administrator privileges
+  end try
 	
+	try
+		do shell script "[ ! -e \"/System/Library/ScriptingAdditions/TotalFinderSIP.osax\" ]"
+	on error
+		set stdout to stdout & newline
+		set stdout to stdout & "/System/Library/ScriptingAdditions/TotalFinderSIP.osax is present." & newline
+		set stdout to stdout & "This location is protected by System Integrity Protection." & newline
+		set stdout to stdout & "This file is harmless. But you might want to boot into Recovery OS and remove it manually." & newline
+		set stdout to stdout & "More details: https://totalfinder.binaryage.com/sip" & newline
+		set stdout to stdout & newline
+	end try
+	
+	set stdout to stdout & "  relaunch Finder ..." & newline
+	try
+		tell application "Finder" to launch
+	on error
+		set stdout to stdout & "    failed to relaunch Finder" & newline
+	end try
+
 	set stdout to stdout & "TotalFinder uninstallation done."
 	
 	-- at this point Finder should start cleanly and with no signs of TotalFinder
