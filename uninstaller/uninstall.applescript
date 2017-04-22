@@ -108,16 +108,20 @@ on run
 	on error
 		set stdout to stdout & "    failed to relaunch Finder" & newline
 	end try
-	
+
+  -- do not attempt to change /System/Library/ScriptingAdditions/TotalFinder.osax string, it is hard-coded in Uninstaller.app
+	try
+		do shell script "sudo rm -rf \"/System/Library/ScriptingAdditions/TotalFinder.osax\"" with administrator privileges
+  end try
 	
 	try
 		do shell script "[ ! -e \"/System/Library/ScriptingAdditions/TotalFinder.osax\" ]"
 	on error
 		set stdout to stdout & newline
-		set stdout to stdout & "/System/Library/ScriptingAdditions/TotalFinder.osax is present." & newline -- do not attempt to change this string, it is hard-coded in Uninstaller.app
+		set stdout to stdout & "/System/Library/ScriptingAdditions/TotalFinder.osax is present." & newline
 		set stdout to stdout & "This location is protected by System Integrity Protection." & newline
-		set stdout to stdout & "You have to boot into Recovery OS and remove it manually." & newline
-		set stdout to stdout & "Visit: https://totalfinder.binaryage.com/system-osax" & newline
+		set stdout to stdout & "This file is harmless. But you might want to boot into Recovery OS and remove it manually." & newline
+		set stdout to stdout & "More details: https://totalfinder.binaryage.com/system-osax" & newline
 		set stdout to stdout & newline
 	end try
 	
