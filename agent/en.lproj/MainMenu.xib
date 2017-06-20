@@ -440,7 +440,7 @@
                 </menuItem>
             </items>
         </menu>
-        <customObject id="494" customClass="AppDelegate"/>
+        <customObject id="494" customClass="AgentAppDelegate"/>
         <customObject id="420" customClass="NSFontManager">
             <connections>
                 <action selector="addFontTrait:" destination="390" id="421"/>
@@ -452,7 +452,7 @@
         </customObject>
     </objects>
     <classes>
-        <class className="AppDelegate" superclassName="NSObject">
+        <class className="AgentAppDelegate" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AppDelegate.h"/>
         </class>
         <class className="NSDocument">
