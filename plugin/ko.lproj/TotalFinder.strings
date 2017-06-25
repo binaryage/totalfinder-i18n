@@ -58,13 +58,13 @@
 "Please go back and try again." = "되돌아가서 다시 시도해 보세요.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "TotalFinder 라이센스를 구매하려면 BinaryAge 홈페이지를 방문해 주세요.";
 "Thank you for using TotalFinder!" = "TotalFinder를 사용해 주셔서 고맙습니다!";
-"License Name" = "License Name";
-"License Key" = "License Key";
+"License Name" = "라이선스 이름";
+"License Key" = "라이선스 키";
 
 
 /* shortcuts subsystem */
 "Click to record new shortcut" = "새 단축키를 기록하려면 클릭";
-"Delete shortcut" = "단축키 제거";
+"Delete shortcut" = "단축키 삭제";
 "OK" = "확인";
 "Record Shortcut" = "단축키 기록";
 "Space" = "스페이스";
@@ -83,4 +83,4 @@
 "Tabs" = "탭";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "이 설정은 TotalFinder의 탭 모듈을 완전히 비활성화합니다. 그와 함께 듀얼 모드와 붙박이창 기능이 비활성화됩니다. Mavericks에서는 Finder의 네이티브 탭만을 사용하면서 TotalFinder의 다른 기능을 계속 사용할 수 있기 때문에 비활성화하는 것이 좋습니다.\n\n이 설정을 적용하려면 Finder를 재시작해야 합니다!\n참고: 복사나 이동 같은 모든 Finder 작업을 완료한 후에 재시작해 주세요.";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "이 설정은 TotalFinder의 탭 모듈을 완전히 비활성화합니다.\n\n이 설정을 적용하려면 Finder를 재시작해야 합니다!\n참고: 복사나 이동 같은 모든 Finder 작업을 완료한 후에 재시작해 주세요.";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "이 설정은 TotalFinder의 탭, 듀얼 모드, 붙박이창 기능을 완전히 비활성화합니다. Finder 재시작이 필요합니다.";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "이 설정은 TotalFinder의 탭, 듀얼 모드, visor 기능을 완전히 비활성화합니다. Finder 재시작이 필요합니다.";

@@ -1,10 +1,10 @@
-"Pin Visor" = "붙박이창 고정";
-"Show Visor" = "붙박이창 보이기";
-"Hide Visor" = "붙박이창 감추기";
+"Pin Visor" = "Visor 고정";
+"Show Visor" = "Visor 보이기";
+"Hide Visor" = "Visor 감추기";
 
-"Visor" = "붙박이창";
+"Visor" = "Visor";
 "a system-wide window sliding from the bottom on a hot-key" = "단축키로 언제 어디서나 붙박이 형태의 Finder 창을 불러옵니다.";
-"Visor Feature" = "붙박이창 기능";
+"Visor Feature" = "Visor 기능";
 "Activation:" = "활성화:";
 "Show on all Spaces" = "모든 Spaces에서 보이기";
 "Animation:" = "애니메이션:";

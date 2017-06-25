@@ -11,7 +11,7 @@ and this would make it uneasy to localize them in other languages properly
 
 */
 
-"MenuItem:Pin Visor" = "붙박이창 고정";
+"MenuItem:Pin Visor" = "Visor 고정";
 "MenuItem:Close Tab" = "탭 닫기";
 "MenuItem:New Native Tab" = "새 네이티브 탭";
 "MenuItem:Close Native Tab" = "네이티브 탭 닫기";
@@ -27,9 +27,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Switch Active Panel" = "활성 패널 전환";
 "MenuItem:Folders on Top" = "폴더를 목록 최상단에";
 "MenuItem:Show System Files" = "시스템 파일 보기";
-"MenuItem:Column View Auto Width" = "목록 보기 자동 너비";
+"MenuItem:Column View Auto Width" = "컬럼 폭 자동 조절";
 "MenuItem:Dock Progress Bar" = "Dock 진행 상황 막대";
-"MenuItem:Template" = "Template";
+"MenuItem:Template" = "템플릿";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:
