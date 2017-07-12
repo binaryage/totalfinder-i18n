@@ -8,7 +8,6 @@
 
 You can tweak resource files and add your preferred language.
 
-The idea is to install TotalFinder and then symlink its `Resources` folder to the copy of this repository where you can edit it.
 You should push your changes back to GitHub and I will then incorporate your work into [next TotalFinder release](https://totalfinder.binaryage.com/beta-changes).
 
 You may want to read [TotalFinder opened for localization](https://blog.binaryage.com/totalfinder-localization/) blog post.
@@ -20,39 +19,10 @@ You may want to read [TotalFinder opened for localization](https://blog.binaryag
 3. Create GitHub user and don't forget to [setup your local git](http://help.github.com/mac-set-up-git) so your commits are linked to your GitHub account.
 4. See how others are working on [TotalFinder localization](http://github.com/binaryage/totalfinder-i18n/network).
 
-## The Workflow
-
-### Initial step
-
-1. [fork this project](http://help.github.com/fork-a-repo) on GitHub
-2. [clone your fork](http://help.github.com/remotes) (let's assume you have it in `~/totalfinder-i18n`)
-3. make sure you have [installed latest TotalFinder](https://totalfinder.binaryage.com/beta-changes) version
-4. `cd ~/totalfinder-i18n` and run `./bin/dev.sh`
-
-### Development
-
-1. edit files
-2. validate your changes with `rake validate` (before first run execute `sudo gem install cmess colored mg` to install supporting library)
-3. use `./bin/restart.sh` to restart TotalFinder to reflect your changes
-4. commit if needed - you can `./bin/commit.sh`
-5. goto 1
-
-### Final step
-
-1. [push to github](http://help.github.com/remotes) and send a [pull request](http://help.github.com/pull-requests)
-2. (optional) run `./bin/undev.sh` to return to unaltered TotalFinder state (this won't delete your files, it will [just unlink](totalfinder-i18n/blob/master/undev.sh) sym-linked folder)
-
 ## Questions?
 
 ### What encoding should I use for my files?
 > Please always use UTF-8. Other encodings will probably fail to load or you will see wrong characters. Run `rake validate` task to check your files.
-
-### I have created MYLANGUAGE.lproj and modified string files.<br>I've restarted the Finder.app, but I don't see my localization. What's wrong?
-> And do you see Finder.app in MYLANGUAGE?
->
-> First, double check you have MYLANGUAGE as top-most language in the `System Preferences > Language & Text > Language` list.
->
-> Second, please note that TotalFinder is a plugin for Finder.app and it inherits preferred language from Finder.app. Finder.app does not pick MYLANGUAGE if `/System/Library/CoreServices/Finder.app/Contents/Resources/MYLANGUAGE.lproj` does not exist. You may create empty folder by hand or you may fix this by running `sudo rake normalize` task, which will create missing folders in `/System/Library/CoreServices/Finder.app/Contents/Resources` according to language folders available in TotalFinder's Resources.
 
 ## Thank you!
 
