@@ -1,17 +1,17 @@
 "crashDialogHeader" = "TotalFinder wurde unerwartet beendet.";
 "crashDialogMsg" = "Es tut uns Leid, ein unerwartetes Problem ist in TotalFinder aufgetreten und hat den Finder zum Absturz gebracht.";
-"crashDialogNote" = "Benachrichtigung: Der Finder wurde automatisch neugestartet, Sie müssen TotalFinder.app jedoch selbst neu starten.";
+"crashDialogNote" = "Benachrichtigung: Der Finder wurde automatisch neugestartet, Sie müssen TotalFinder.app jedoch manuell neustarten.";
 "crashDialogExplanation" = "Durch das Drücken auf Senden wird eine Absturzbenachrichtigung auf gist.github.com hochgeladen und Mail.app mit einem E-Mail Entwurf geöffnet.";
 
 "failDialogHeader" = "Es ist nicht möglich den Absturzbericht auf gist.github.com hochzuladen.";
 "failDialogMsg1" = "Leider war es nicht möglich den Absturzbericht in Ihrem Order ~/Logs/CrashReporter zu finden.";
-"failDialogMsg2" = "Es war möglich den Absturzbericht zu finden, aber das Hochladen auf gist.github.com hat, warum auch immer, nicht funktioniert.\n\nWenn es sehr dringend ist, können Sie mir den Bericht auch per E-Mail schicken:\n%@";
+"failDialogMsg2" = "Es war möglich den Absturzbericht zu finden, aber das Hochladen auf gist.github.com ist felgeschlagen.\n\nWenn es sehr dringend ist, können Sie mir den Bericht auch per E-Mail schicken:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Sende einen Bericht via E-Mail";
 "cancelButton" = "Abbrechen";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> https://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Hallo Antonin,\n\nMy %@ ist abgestürzt!\n\nDen Absturzbericht finden sie auf:\n%@\n\n>\n> Vielleicht könntest du mir bem Lösen des Fehlers helfen, wenn du mir beschreibst, was vor dem Absturz passiert ist\n> Ich schätze deine Hilfe bei der Verbesserung von TotalFinder und werde die Absturzberichte lesen, erwartet aber bitte keine Antwort.\n> Weitere Informationen finden sie auf\n> https://discuss.binaryage.com.\n>\n> Vielen Dank, Antonin";
 
 "countdownMsgSecondsPlural" = "%d Sekunden verbleibend.";
 "countdownMsgSecondSingular" = "%d Sekunde verbleibend.";

@@ -25,7 +25,7 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Vorheriger Tab";
 "MenuItem:Select Next Tab" = "Nächster Tab";
 "MenuItem:Switch Active Panel" = "Aktives Panel wechseln";
-"MenuItem:Folders on Top" = "Ordner am Anfang";
+"MenuItem:Folders on Top" = "Zeige Ordner am Anfang";
 "MenuItem:Show System Files" = "Zeige Systemdateien";
 "MenuItem:Column View Auto Width" = "Automatische Breite bei Spaltenansicht";
 "MenuItem:Dock Progress Bar" = "Dock Fortschrittsbalken";

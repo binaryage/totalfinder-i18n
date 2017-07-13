@@ -42,8 +42,8 @@
 /* about page */
 "Check Now" = "Jetzt überprüfen";
 "Automatically check the website for updates" = "Überprüfe die Webseite automatisch auf Updates";
-"Include pre-releases" = "Schließe Beta-Versionen ein";
-"Participate in TotalFinder testing" = "Mache beim Testen von TotalFinder mit";
+"Include pre-releases" = "Beta-Versionen berücksichtigen";
+"Participate in TotalFinder testing" = "Mache beim Test von TotalFinder mit";
 
 /* registration */
 "TotalFinder Registration" = "TotalFinder Registrierung";
@@ -69,7 +69,7 @@
 "Record Shortcut" = "Speichere Tastenkürzel";
 "Space" = "Leerzeichen";
 "The key combination %@ cannot be used" = "Die Tastenkombination %@ kann nicht benutzt werden";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Diese Kombination kann nicht benutzt werden, da es schon von einem systemweiten Tastenkürzel benutzt wird.\nWenn sie das Tastenkürzel jedoch doch benutzen möchten, können sie nachschauen, ob sich das Tastenkürzel in den Systemeinstellungen Tastatur oder Maus ändern lässt.W;
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Diese Kombination kann nicht benutzt werden da sie bereits vom Menüpunkt ‘%@’ benutzt wird.";
 "Type New Shortcut" = "Tippe neues Tastenkürzel";
 "Type Shortcut" = "Tippe Tastenkürzel";
