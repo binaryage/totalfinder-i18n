@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13122.17"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TabController">
             <connections>
-                <outlet property="closeButton2_" destination="108" id="137"/>
-                <outlet property="closeButton_" destination="50" id="136"/>
                 <outlet property="iconView2_" destination="147" id="151"/>
                 <outlet property="iconView_" destination="145" id="152"/>
                 <outlet property="titleView" destination="94" id="FnL-HC-t0X"/>
@@ -43,7 +41,7 @@
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
-                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" id="94" userLabel="Text Field - Label 1">
+                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="94" userLabel="Text Field - Label 1">
                             <rect key="frame" x="16" y="6" width="128" height="14"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Label" id="95" customClass="GTMFadeTruncatingTextFieldCell">
@@ -77,7 +75,7 @@
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
-                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" id="106" userLabel="Text Field - Label 2">
+                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="106" userLabel="Text Field - Label 2">
                             <rect key="frame" x="16" y="6" width="128" height="14"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Label" id="111" customClass="GTMFadeTruncatingTextFieldCell">
@@ -101,8 +99,8 @@
                 </customView>
             </subviews>
             <connections>
-                <outlet property="closeButton2_" destination="108" id="141"/>
-                <outlet property="closeButton_" destination="50" id="140"/>
+                <outlet property="closeButton2_" destination="108" id="VLd-QB-zFQ"/>
+                <outlet property="closeButton_" destination="50" id="oUC-tX-zzL"/>
                 <outlet property="controller_" destination="-2" id="126"/>
                 <outlet property="iconView2_" destination="147" id="149"/>
                 <outlet property="iconView_" destination="145" id="150"/>
