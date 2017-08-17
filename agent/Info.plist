@@ -54,6 +54,8 @@
 	<string>https://totalfinder.binaryage.com/system-integrity-protection</string>
 	<key>NewSIPInfoURL</key>
 	<string>https://totalfinder.binaryage.com/sip</string>
+	<key>SIPVersionHistoryURL</key>
+	<string>https://totalfinder.binaryage.com/sip-versions</string>
 	<key>LegacyInstallUpgradeURL</key>
 	<string>https://totalfinder.binaryage.com/upgrade-sip</string>
 	<key>CheckSIP</key>
