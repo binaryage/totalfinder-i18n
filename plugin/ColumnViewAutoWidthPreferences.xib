@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -49,7 +49,7 @@
                         <binding destination="3" name="value" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidthEnabled" id="LOq-ld-KfH"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="111">
+                <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="111">
                     <rect key="frame" x="271" y="28" width="96" height="22"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="96" id="113"/>
@@ -77,7 +77,7 @@
                         <binding destination="3" name="minValue" keyPath="values.TotalFinderColumnViewAutoWidthMinColumnWidth" id="anE-LM-NSw"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="PreferencesTextField">
+                <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="142" customClass="PreferencesTextField">
                     <rect key="frame" x="56" y="31" width="209" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit maximum column width to" id="143">
                         <font key="font" metaFont="system"/>
@@ -96,7 +96,7 @@
                         <binding destination="3" name="enabled" keyPath="values.TotalFinderColumnViewAutoWidthMaxColumnWidthEnabled" id="157"/>
                     </connections>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="PreferencesTextField">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWv-N1-uYS" customClass="PreferencesTextField">
                     <rect key="frame" x="56" y="8" width="206" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Limit minimum column width to" id="by2-Ga-min">
                         <font key="font" metaFont="system"/>
@@ -115,7 +115,7 @@
                         </binding>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
+                <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqn-vg-Ryh">
                     <rect key="frame" x="268" y="5" width="96" height="22"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="22" id="B7y-W9-uMi"/>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9052" systemVersion="15B22c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9052"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="Reporter">
@@ -35,7 +36,6 @@
                             <constraint firstAttribute="height" constant="128" id="N4d-df-rsY"/>
                             <constraint firstAttribute="width" constant="128" id="nRO-BI-KaR"/>
                         </constraints>
-                        <animations/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="CrashWatcher" id="220"/>
                     </imageView>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="308" translatesAutoresizingMaskIntoConstraints="NO" id="8">
@@ -43,7 +43,6 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="308" id="ep4-1j-s1A"/>
                         </constraints>
-                        <animations/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="We are sorry, but TotalXXX hit an unexpected problem and crashed XXX." id="217">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -52,7 +51,6 @@
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="308" translatesAutoresizingMaskIntoConstraints="NO" id="222">
                         <rect key="frame" x="160" y="94" width="312" height="14"/>
-                        <animations/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="Note: You have to launch TotalXXX.app again manually." id="223">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -61,7 +59,6 @@
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="308" translatesAutoresizingMaskIntoConstraints="NO" id="225">
                         <rect key="frame" x="160" y="58" width="312" height="28"/>
-                        <animations/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="The send button will upload the crash report to gist.github.com and launch Mail.app with email template." id="226">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -73,7 +70,6 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="308" id="esB-1A-UKM"/>
                         </constraints>
-                        <animations/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="TotalXXX has quit unexpectedly!" id="219">
                             <font key="font" metaFont="systemBold" size="14"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -82,7 +78,6 @@
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="12">
                         <rect key="frame" x="331" y="5" width="145" height="32"/>
-                        <animations/>
                         <buttonCell key="cell" type="push" title="SendReportLabel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="210">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -99,7 +94,6 @@ DQ
                         <constraints>
                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="qL7-xf-iqK"/>
                         </constraints>
-                        <animations/>
                         <buttonCell key="cell" type="push" title="CancelLabel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="211">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -113,7 +107,6 @@ Gw
                     </button>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="189">
                         <rect key="frame" x="19" y="15" width="67" height="14"/>
-                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="xx seconds." id="221">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -125,7 +118,6 @@ Gw
                     </textField>
                     <progressIndicator hidden="YES" wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="228">
                         <rect key="frame" x="305" y="15" width="16" height="16"/>
-                        <animations/>
                     </progressIndicator>
                 </subviews>
                 <constraints>
@@ -152,7 +144,6 @@ Gw
                     <constraint firstItem="6" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="8" id="vyY-Ma-CwT"/>
                     <constraint firstItem="8" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="xSE-ra-7uf"/>
                 </constraints>
-                <animations/>
             </view>
             <connections>
                 <outlet property="initialFirstResponder" destination="12" id="91"/>

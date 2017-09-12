@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="13189.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -102,7 +102,7 @@ CQ
                         <action selector="$visitStore:" target="-2" id="160"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="22">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22">
                     <rect key="frame" x="170" y="61" width="294" height="98"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="294" id="Wpu-8f-3Ro"/>
@@ -122,7 +122,7 @@ CQ
                         <outlet property="nextKeyView" destination="20" id="109"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20">
                     <rect key="frame" x="170" y="172" width="294" height="19"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="294" id="35y-SE-4dm"/>
@@ -141,7 +141,7 @@ CQ
                         <outlet property="nextKeyView" destination="22" id="108"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                     <rect key="frame" x="168" y="218" width="296" height="34"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
@@ -152,7 +152,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7">
                     <rect key="frame" x="154" y="260" width="113" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" metaFont="systemBold" size="17"/>
@@ -183,7 +183,7 @@ CQ
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="26">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26">
                     <rect key="frame" x="168" y="210" width="36" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Name" id="37">
                         <font key="font" size="13" name="Monaco"/>
@@ -194,7 +194,7 @@ CQ
                         <binding destination="45" name="value" keyPath="values.TotalFinderLicenseName" id="114"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="29">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="29">
                     <rect key="frame" x="168" y="235" width="296" height="17"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
@@ -205,7 +205,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" preferredMaxLayoutWidth="196" translatesAutoresizingMaskIntoConstraints="NO" id="30">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="196" translatesAutoresizingMaskIntoConstraints="NO" id="30">
                     <rect key="frame" x="154" y="260" width="200" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" metaFont="systemBold" size="17"/>
@@ -277,7 +277,7 @@ CQ
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="74">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="74">
                     <rect key="frame" x="168" y="121" width="296" height="34"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
@@ -288,7 +288,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="56">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="56">
                     <rect key="frame" x="168" y="235" width="296" height="17"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>
@@ -299,7 +299,7 @@ CQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="58">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="58">
                     <rect key="frame" x="154" y="260" width="173" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" metaFont="systemBold" size="17"/>

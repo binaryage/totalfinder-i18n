@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="13189.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,7 +29,7 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="101"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="97">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="97">
                     <rect key="frame" x="18" y="52" width="444" height="29"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="440" id="hTq-0b-4ws"/>
@@ -50,7 +50,7 @@
                         <action selector="$showLicensingWindow:" target="-2" id="306"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="95">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95">
                     <rect key="frame" x="18" y="27" width="146" height="17"/>
                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Registered to John Doe" usesSingleLineMode="YES" id="100">
                         <font key="font" metaFont="system"/>
@@ -78,7 +78,7 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="140"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="152">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="152">
                     <rect key="frame" x="38" y="42" width="204" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Automatically check the website for updates" id="162">
                         <font key="font" metaFont="miniSystem"/>
@@ -86,7 +86,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="154">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="154">
                     <rect key="frame" x="38" y="5" width="152" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Participate in TotalFinder testing" id="161">
                         <font key="font" metaFont="miniSystem"/>
@@ -124,7 +124,7 @@
                         <action selector="$checkForUpdates:" target="-2" id="235"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="258">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="258">
                     <rect key="frame" x="18" y="91" width="197" height="29"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TotalFinder X.Y.Z" usesSingleLineMode="YES" id="259">
                         <font key="font" metaFont="systemBold" size="24"/>
@@ -172,7 +172,7 @@
                         <outlet property="policyDelegate" destination="-2" id="236"/>
                     </connections>
                 </webView>
-                <textField verticalHuggingPriority="750" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="134">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="134">
                     <rect key="frame" x="18" y="153" width="444" height="17"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Thank you for using TotalFinder!" usesSingleLineMode="YES" id="135">
                         <font key="font" metaFont="system"/>
@@ -180,7 +180,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="293">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="293">
                     <rect key="frame" x="18" y="178" width="444" height="29"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="440" id="25p-5M-1IT"/>
@@ -256,7 +256,7 @@
                         <binding destination="94" name="value" keyPath="values.TotalFinderTabsDisabled" id="xA9-mr-Dgn"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-mU-gzk">
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-mU-gzk">
                     <rect key="frame" x="39" y="20" width="357" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^This will effectively disable tabs, dual mode and visor. Finder restart is needed." id="2MQ-dx-5TV">
                         <font key="font" metaFont="miniSystem"/>
