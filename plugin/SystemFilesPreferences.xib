@@ -33,7 +33,7 @@
                         <constraint firstAttribute="width" constant="130" id="31"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ShowSystemFiles"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="$shortcutName" value="ShowSystemFiles"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
             </subviews>

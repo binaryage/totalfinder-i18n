@@ -246,7 +246,7 @@
                                     <constraint firstAttribute="width" constant="130" id="1461"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="PinVisor"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="$shortcutName" value="PinVisor"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="541"/>
@@ -343,7 +343,7 @@
                                     <constraint firstAttribute="width" constant="130" id="1462"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ToggleVisor"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="$shortcutName" value="ToggleVisor"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <binding destination="457" name="enabled" keyPath="values.TotalFinderVisorEnabled" id="540"/>

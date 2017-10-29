@@ -31,7 +31,7 @@
                         <constraint firstAttribute="width" constant="130" id="31"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="FoldersOnTop"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="$shortcutName" value="FoldersOnTop"/>
                     </userDefinedRuntimeAttributes>
                 </customView>
             </subviews>
