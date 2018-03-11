@@ -12,7 +12,7 @@
 "Uninstall TotalFinder" = "Avinstallera TotalFinder";
 "About TotalFinder" = "Om TotalFinder";
 "Restart Finder" = "Starta om Finder";
-"Status Menu" = "Status Menu";
+"Status Menu" = "Statusmenyn";
 
 /* Reset to Defaults Alert Box */
 "Reset" = "Återställ";
@@ -68,20 +68,20 @@
 "Delete shortcut" = "Radera kortkommando";
 "OK" = "OK";
 "Record Shortcut" = "Lägg till kortkommando";
-"Space" = "Space";
+"Space" = "Mellanslag";
 "The key combination %@ cannot be used" = "Tangentbords-kombinationen %@ kan inte användas";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Den här kombinationen kan inte användas eftersom den redan används av ett system-kortkommando.\nOm du verkligen vill använda den här tangentkombinationen, kan de flesta kortkommandon ändras i panelen Tangentbord i Systeminställningar.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Den här kombinationen kan inte användas eftersom det redan används av menyvalet ‘%@’.";
 "Type New Shortcut" = "Tryck ny kombination";
 "Type Shortcut" = "Tryck kombination";
 "Use Old Shortcut" = "Använd gammal kombination";
-"Set it anyway" = "Set it anyway";
+"Set it anyway" = "Sätt det ändå";
 
 /* tabs section */
-"Disable tabs completely" = "Disable tabs completely";
-"Do you really want to disable tabs?" = "Do you really want to disable tabs?";
-"Do you really want to enable tabs?" = "Do you really want to enable tabs?";
+"Disable tabs completely" = "Inaktivera flikar fullständigt";
+"Do you really want to disable tabs?" = "Säker på att du vill inaktivera flikar?";
+"Do you really want to enable tabs?" = "Säker på att du vill aktivera flikar?";
 "Tabs" = "Flikar";
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+"This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Det här ska inaktivera flikar, dual mode och visorn. Finder ska behöver omstartas.";
