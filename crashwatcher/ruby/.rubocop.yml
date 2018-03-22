@@ -6,6 +6,7 @@ AllCops:
     - '**/rakefile'
   Exclude:
     - '_node/**/*'
+    - 'vendor/**/*'
 
 Metrics/LineLength:
   Max: 126
