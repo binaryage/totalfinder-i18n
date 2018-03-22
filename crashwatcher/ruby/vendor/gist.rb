@@ -9,11 +9,7 @@ require 'uri'
 begin
   require 'json'
 rescue LoadError
-  begin
-    require File.join File.dirname(File.dirname(__FILE__)), 'json.rb'
-  rescue LoadError
-    require File.join File.dirname(File.dirname(__FILE__)), 'vendor', 'json.rb'
-  end
+  require File.join File.dirname(__FILE__), 'json.rb'
 end
 
 # It just gists.
