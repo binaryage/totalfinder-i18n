@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "충돌 보고서를 gist.github.com에 올릴 수 없습니다.";
 "failDialogMsg1" = "영 좋지 못하군요. ~/Logs/CrashReporter에서 충돌 보고서를 찾을 수 없습니다.";
-"failDialogMsg2" = "충돌 보고서는 찾았으나, 어떠한 이유로 gist.github.com에 올릴 수 없었습니다.\n\n급하다면, 수동으로 저에게 보내주세요:\n%@";
+"failDialogMsg2" = "충돌 보고서는 찾았으나, 어떠한 이유로 gist.github.com에 올릴 수 없었습니다.\n\n%@\n\n급하다면, 수동으로 저에게 보내주세요:\n%@";
 "failDialogOK" = "확인";
 
 "sendReportButton" = "이메일 보내기";

@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Vearaporti üleslaadimine gist.github.com-i ebaõnnestus";
 "failDialogMsg1" = "Kahjuks ma ei suutnud leida vearaportit sinu ~/Logs/CrashReporter kaustast.";
-"failDialogMsg2" = "Leidsin vearaporti, kuid üleslaadimine gist.github.com-i ebaõnnestus tundmatul põhjusel.\n\nKui on kiire, siis võib selle saata mulle käsitsi:\n%@";
+"failDialogMsg2" = "Leidsin vearaporti, kuid üleslaadimine gist.github.com-i ebaõnnestus tundmatul põhjusel.\n\n%@\n\nKui on kiire, siis võib selle saata mulle käsitsi:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Saada Email";

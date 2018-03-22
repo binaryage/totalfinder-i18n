@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Não foi possível enviar o relatório de travamento para gist.github.com.";
 "failDialogMsg1" = "Não foi possível localizar o relatório de travamento em seu ~/Logs/CrashReporter.";
-"failDialogMsg2" = "O relatório de travamento foi encontrado, porém o upload para gist.github.com falhou por alguma razão.\n\nSe for urgente, você pode me enviar o relatório manualmente:\n%@";
+"failDialogMsg2" = "O relatório de travamento foi encontrado, porém o upload para gist.github.com falhou por alguma razão.\n\n%@\n\nSe for urgente, você pode me enviar o relatório manualmente:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Enviar Email";

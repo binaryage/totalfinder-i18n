@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Hata raporu gist.github.com'a yüklenemedi";
 "failDialogMsg1" = "Maalesef hata raporu ~/Logs/CrashReporter dosyasında bulunamadı.";
-"failDialogMsg2" = "Hata raporu bulundu fakat gist.github.com'a yüklenemedi.\n\nAcilse bana elle gönderebilirsiniz:\n%@";
+"failDialogMsg2" = "Hata raporu bulundu fakat gist.github.com'a yüklenemedi.\n\n%@\n\nAcilse bana elle gönderebilirsiniz:\n%@";
 "failDialogOK" = "Tamam";
 
 "sendReportButton" = "E-posta Gönder";

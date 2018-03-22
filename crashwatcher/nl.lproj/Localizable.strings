@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Het rapport kon niet worden geüpload naar gist.github.com";
 "failDialogMsg1" = "Het rapport is niet gevonden in ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Het rapport is gevonden, maar uploaden naar gist.github.com is mislukt.\n\nDringend? Stuur alstublieft een e-mail naar:\n%@";
+"failDialogMsg2" = "Het rapport is gevonden, maar uploaden naar gist.github.com is mislukt.\n\n%@\n\nDringend? Stuur alstublieft een e-mail naar:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Stuur e-mail";

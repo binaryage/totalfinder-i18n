@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "تعذر إرسال تقرير العطل إلى gist.github.com";
 "failDialogMsg1" = "للأسف، لم أتمكن من العثور على تقرير العطل في ~/Logs/CrashReporter.";
-"failDialogMsg2" = "لقد عثرت على تقرير العطل، ولكن تعذر رفعها إلى gist.github.com لسبب ما.\n\nإذا كان الأمر ملحا، يمكنك إرسالها إلي يدويا:\n%@";
+"failDialogMsg2" = "لقد عثرت على تقرير العطل، ولكن تعذر رفعها إلى gist.github.com لسبب ما.\n\n\%@n\nإذا كان الأمر ملحا، يمكنك إرسالها إلي يدويا:\n%@";
 "failDialogOK" = "موافق";
 
 "sendReportButton" = "إرسال";

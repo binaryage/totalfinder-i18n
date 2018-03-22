@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Imposibil de a încărca raportul de accident la gist.github.com";
 "failDialogMsg1" = "Păcat. Am fost în imposibilitatea de a localiza raportul de accident din ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Am fost capabil de a localiza raportul de accident, dar încărcarea la gist.github.com nu s-a efectuat dintr-un motiv oarecare.\n\nDacă este urgent, puteți să mi le trimiteți manual:\n%@";
+"failDialogMsg2" = "Am fost capabil de a localiza raportul de accident, dar încărcarea la gist.github.com nu s-a efectuat dintr-un motiv oarecare.\n\n%@\n\nDacă este urgent, puteți să mi le trimiteți manual:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Email Trimis";

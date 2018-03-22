@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Kaatumisraporttia ei voitu lähettää osoitteeseen gist.github.com";
 "failDialogMsg1" = "Kaatumisraporttia ei löydetty sijainnista ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Kaatumisraportti löytyi, mutta syystä tai toisesta sen lähettäminen osoitteeseen gist.github.com epäonnistui.\n\nJos kiire, niin voit lähettää raportin myös osoitteeseen:\n%@";
+"failDialogMsg2" = "Kaatumisraportti löytyi, mutta syystä tai toisesta sen lähettäminen osoitteeseen gist.github.com epäonnistui.\n\n%@\n\nJos kiire, niin voit lähettää raportin myös osoitteeseen:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Lähetä sähköposti";

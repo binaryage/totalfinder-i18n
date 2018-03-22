@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "无法将崩溃报告发送到 gist.github.com";
 "failDialogMsg1" = "真糟糕。我没有在 ~/Logs/CrashReporter 找到崩溃报告耶>.<";
-"failDialogMsg2" = "我成功找到了软件的崩溃报告，但是因为其它的一些原因，未能成功将报告发送到 gist.github.com。\n\n如果情况紧急，你可以直接通过电子邮件将报告发送给我：\n%@";
+"failDialogMsg2" = "我成功找到了软件的崩溃报告，但是因为其它的一些原因，未能成功将报告发送到 gist.github.com。\n\n%@\n\n如果情况紧急，你可以直接通过电子邮件将报告发送给我：\n%@";
 "failDialogOK" = "好";
 
 "sendReportButton" = "发送报告";

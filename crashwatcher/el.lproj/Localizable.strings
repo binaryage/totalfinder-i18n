@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Αδυναμία αποστολής αναφοράς σφαλμάτων στο gist.github.com";
 "failDialogMsg1" = "Κρίμα. Δεν μπόρεσα να εντοπίσω την αναφορά σφαλμάτων στο ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Μπόρεσα να εντοπίσω την αναφορά σφαλμάτων, αλλά η αποστολή στο gist.github.com απέτυχε.\n\nΕάν είναι επείγον, δοκιμάστε ξανά:\n%@";
+"failDialogMsg2" = "Μπόρεσα να εντοπίσω την αναφορά σφαλμάτων, αλλά η αποστολή στο gist.github.com απέτυχε.\n\n%@\n\nΕάν είναι επείγον, δοκιμάστε ξανά:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Αποστολή Email";

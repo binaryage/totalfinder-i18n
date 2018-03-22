@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Невозможно загрузить отчёт об ошибке на gist.github.com";
 "failDialogMsg1" = "Очень жаль. Не удалось найти отчёт об ошибке в ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Удалось найти отчёт об ошибке, но его загрузка на gist.github.com не удалась.\n\nЕсли это срочно, Вы можете послать отчёт вручную:\n%@";
+"failDialogMsg2" = "Удалось найти отчёт об ошибке, но его загрузка на gist.github.com не удалась.\n\n%@\n\nЕсли это срочно, Вы можете послать отчёт вручную:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Отправить Email";

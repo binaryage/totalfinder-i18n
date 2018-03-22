@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Ne mogu prenijeti izvješće o rušenju na gist.github.com";
 "failDialogMsg1" = "Šteta. Ne mogu pronaći izvješće o rušenju u ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Pronašao sam izvješće o rušenju, ali prijenos na gist.github.com nije uspio.\n\nAko je hitno, pošalji ga ručno na:\n%@";
+"failDialogMsg2" = "Pronašao sam izvješće o rušenju, ali prijenos na gist.github.com nije uspio.\n\n%@\n\nAko je hitno, pošalji ga ručno na:\n%@";
 "failDialogOK" = "U redu";
 
 "sendReportButton" = "Pošalji Email";

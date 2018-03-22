@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Unable to upload crash report to gist.github.com";
 "failDialogMsg1" = "Too bad. I was unable to locate the crash report in your ~/Logs/CrashReporter.";
-"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed for some reason.\n\nIf urgent, you may send it to me manually:\n%@";
+"failDialogMsg2" = "I was able to locate the crash report, but upload to gist.github.com failed.\n\n%@\n\nIf urgent, you may send it to me manually:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Send Email";

@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Lyckades inte ladda upp krasch-rapporten till gist.github.com";
 "failDialogMsg1" = "Aj då. Jag lyckades inte hitta krash-rapporten i följande sökväg i din hemkatalog: ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Krasch-rapporten hittades, men uppladdningen till gist.github.com misslyckades av någon anledning.\n\nOm det är brådskande kan du skicka rapporten till mig manuellt:\n%@";
+"failDialogMsg2" = "Krasch-rapporten hittades, men uppladdningen till gist.github.com misslyckades av någon anledning.\n\n%@\n\nOm det är brådskande kan du skicka rapporten till mig manuellt:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Skicka Email";

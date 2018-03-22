@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Nepodařilo se nahrát soubor s informacemi o pádu aplikace na gist.github.com";
 "failDialogMsg1" = "Bohužel. Nepodařilo se mi najít soubor s informacemi o pádu v složce ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Podařilo se mi najít soubor s informacemi o pádu aplikace, ale nahrání na gist.github.com z nějakého důvodu selhalo.\n\nPokud je to urgentní, můžete mi soubor poslat manuálně:\n%@";
+"failDialogMsg2" = "Podařilo se mi najít soubor s informacemi o pádu aplikace, ale nahrání na gist.github.com z nějakého důvodu selhalo.\n\n%@\n\nPokud je to urgentní, můžete mi soubor poslat manuálně:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Odeslat email";

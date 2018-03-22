@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Impossible de télécharger le rapport d'incident sur gist.github.com";
 "failDialogMsg1" = "Désolé. Impossible de trouver le rapport d'incident dans votre dossier ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Le rapport d'incident a été trouvé, mais le téléchargement sur gist.github.com a échoué pour une raison inconnue.\n\nEn cas d'urgence vous pouvez me l'envoyer manuellement:\n%@";
+"failDialogMsg2" = "Le rapport d'incident a été trouvé, mais le téléchargement sur gist.github.com a échoué pour une raison inconnue.\n\n%@\n\nEn cas d'urgence vous pouvez me l'envoyer manuellement:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Envoyer l'e-mail";

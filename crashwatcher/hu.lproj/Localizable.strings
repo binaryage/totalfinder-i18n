@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "A hibajelentést nem lehet feltölteni a gist.github.com-ra";
 "failDialogMsg1" = "A hibajelentés nem található a ~/Logs/CrashReporter mappában.";
-"failDialogMsg2" = "A hibajelentés elkészült, de valamilyen okból nem lehet feltölteni a gist.github.com-ra.\n\nAmennyiben sürgős, úgy kérem küldje el nekem kézzel:\n%@";
+"failDialogMsg2" = "A hibajelentés elkészült, de valamilyen okból nem lehet feltölteni a gist.github.com-ra.\n\n%@\n\nAmennyiben sürgős, úgy kérem küldje el nekem kézzel:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Email küldése";

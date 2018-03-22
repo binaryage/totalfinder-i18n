@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "gist.github.com へクラッシュレポートをアップロードできません";
 "failDialogMsg1" = "残念ながら、~/Logs/CrashReporter にクラッシュレポートがありませんでした。";
-"failDialogMsg2" = "クラッシュレポートは発見しましたが、gist.github.com へのアップロードに何らかの理由で失敗しました。\n\nお急ぎでしたら、私あてにメールで送って下さい:\n%@";
+"failDialogMsg2" = "クラッシュレポートは発見しましたが、gist.github.com へのアップロードに何らかの理由で失敗しました。\n\n%@\n\nお急ぎでしたら、私あてにメールで送って下さい:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "メールを送信";

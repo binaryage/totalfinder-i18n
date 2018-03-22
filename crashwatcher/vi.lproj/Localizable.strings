@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Không thể gửi thông báo lỗi đến gist.github.com";
 "failDialogMsg1" = "Rất tiếc. Tôi Không thể tìm ra thông báo lỗi của bạn trong ~/Logs/CrashReporter";
-"failDialogMsg2" = "Tôi đã thấy thông báo lỗi nhưng không thể gửi đến gist.github.com. vì lý do nào đó. \n\nTrường hợp khẩn, bản có thể gửi bằng phương pháp thủ công:\n%@";
+"failDialogMsg2" = "Tôi đã thấy thông báo lỗi nhưng không thể gửi đến gist.github.com. vì lý do nào đó. \n\n%@\n\nTrường hợp khẩn, bản có thể gửi bằng phương pháp thủ công:\n%@";
 "failDialogOK" = "Đồng ý";
 
 "sendReportButton" = "Gửi email";

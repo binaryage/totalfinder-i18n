@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Es ist nicht möglich den Absturzbericht auf gist.github.com hochzuladen.";
 "failDialogMsg1" = "Leider war es nicht möglich den Absturzbericht in Ihrem Order ~/Logs/CrashReporter zu finden.";
-"failDialogMsg2" = "Es war möglich den Absturzbericht zu finden, aber das Hochladen auf gist.github.com hat, warum auch immer, nicht funktioniert.\n\nWenn es sehr dringend ist, können Sie mir den Bericht auch per E-Mail schicken:\n%@";
+"failDialogMsg2" = "Es war möglich den Absturzbericht zu finden, aber das Hochladen auf gist.github.com hat, warum auch immer, nicht funktioniert.\n\n%@\n\nWenn es sehr dringend ist, können Sie mir den Bericht auch per E-Mail schicken:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Sende einen Bericht via E-Mail";

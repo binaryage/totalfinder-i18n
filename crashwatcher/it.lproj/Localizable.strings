@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Impossibile inviare il Resoconto al sito gist.github.com";
 "failDialogMsg1" = "È successo un inconveniente. Non è stato possibile trovare il Resoconto nella tua cartella ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Il resoconto è stato trovato, ma l'invio al sito gist.github.com è fallito per qualche motivo.\n\nSe è urgente, puoi mandarmelo manualmente:\n%@";
+"failDialogMsg2" = "Il resoconto è stato trovato, ma l'invio al sito gist.github.com è fallito per qualche motivo.\n\n%@\n\nSe è urgente, puoi mandarmelo manualmente:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Invia il Resoconto via email";

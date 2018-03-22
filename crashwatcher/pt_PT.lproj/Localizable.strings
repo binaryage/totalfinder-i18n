@@ -5,7 +5,7 @@
 
 "failDialogHeader" = "Não foi possível submeter o relatório de falha para gist.github.com";
 "failDialogMsg1" = "Não foi possível encontrar o relatório de falha na pasta ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Foi encontrado o relatório de falha, mas a submissão para gist.github.com falhou por um motivo desconhecido.\n\nSe for urgente, poderá enviá-lo manualmente:\n%@";
+"failDialogMsg2" = "Foi encontrado o relatório de falha, mas a submissão para gist.github.com falhou por um motivo desconhecido.\n\n%@\n\nSe for urgente, poderá enviá-lo manualmente:\n%@";
 "failDialogOK" = "OK";
 
 "sendReportButton" = "Enviar E-mail";
