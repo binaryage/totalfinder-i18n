@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 file = ARGV[0]
 report = File.read(file)
@@ -13,16 +14,14 @@ addresses = []
 ranges = []
 
 report.lines.each do |line|
-  # extract adressess from callstacks on all threads
+  # extract addresses from callstacks on all threads
   # 8   com.apple.AppKit        	0x00007fff88a0d68f -[NSApplication run] + 395
-  if line =~ /^\s*\d+\s+.*?0x([0-9a-f]+)\s/ then
-    addresses << $1.to_i(16)
-  end
+  addresses << Regexp.last_match(1).to_i(16) if line.match?(/^\s*\d+\s+.*?0x([0-9a-f]+)\s/)
 
   # extract loaded module ranges, filter out only com.binaryage related
-  # 0x1181c2000 -    0x1181c3ff7 +com.binaryage.totalfinder.nodesktopdots ##VERSION## (##VERSION##) <1243063C-4405-3DD6-8AC8-816EFA979801> /Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/PlugIns/NoDesktopDots.bundle/Contents/MacOS/NoDesktopDots
-  if line =~ /^\s*0x([0-9a-f]+)\s+-\s+0x([0-9a-f]+)\s+.*?com\.binaryage/ then
-    ranges << [$1.to_i(16), $2.to_i(16)]
+  # 0x1181c2000 -    0x1181c3ff7 +com.binaryage.totalfinder.nodesktopdots ##VERSION## (##VERSION##) <...> /some/path
+  if line =~ /^\s*0x([0-9a-f]+)\s+-\s+0x([0-9a-f]+)\s+.*?com\.binaryage/
+    ranges << [Regexp.last_match(1).to_i(16), Regexp.last_match(2).to_i(16)]
   end
 end
 
