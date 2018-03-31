@@ -55,3 +55,6 @@ Style/RescueStandardError:
 
 Style/SafeNavigation:
   Enabled: false
+
+Lint/HandleExceptions:
+  Enabled: false
