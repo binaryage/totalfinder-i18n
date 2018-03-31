@@ -30,7 +30,7 @@ addresses.each do |address|
   ranges.each do |range|
     hit = address >= range[0] && address <= range[1]
     # puts "#{address} ? #{range[0]} - #{range[1]} => #{hit}"
-    exit 1 if hit # yes, present!
+    exit 3 if hit # yes, present!
   end
 end
 
