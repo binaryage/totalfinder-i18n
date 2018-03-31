@@ -8,7 +8,7 @@
 "failDialogMsg2" = "Podařilo se mi najít soubor s informacemi o pádu aplikace, ale nahrání na gist.github.com z nějakého důvodu selhalo.\n\n%@\n\nPokud je to urgentní, můžete mi soubor poslat manuálně:\n%@";
 "failDialogOK" = "OK";
 
-"sendReportButton" = "Odeslat email";
+"sendReportButton" = "Připravit email";
 "cancelButton" = "Zrušit";
 
 "emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> https://discuss.binaryage.com.\n>\n> Thank you, Antonin";
