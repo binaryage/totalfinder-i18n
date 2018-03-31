@@ -58,3 +58,6 @@ Style/SafeNavigation:
 
 Lint/HandleExceptions:
   Enabled: false
+
+Style/SpecialGlobalVars:
+  Enabled: false

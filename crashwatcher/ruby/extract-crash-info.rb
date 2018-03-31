@@ -53,7 +53,7 @@ file = File.absolute_path(ARGV[0])
 # this is just a special sanity check to include related-crash-report.rb errors in case related-crash-report.rb throws
 related_script_path = File.join(File.dirname(File.absolute_path(__FILE__)), 'related-crash-report.rb')
 system(related_script_path, file, err: :out)
-result = $CHILD_STATUS.exitstatus
+result = $?.exitstatus
 throw "The crash report '#{file}' is not related to TotalFinder" if result != 3
 
 content = File.read(file)
