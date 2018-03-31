@@ -32,7 +32,7 @@ def find_first_ba_module(content)
 
     # extract loaded module ranges, filter out only com.binaryage related
     # 0x1181c2000 -    0x1181c3ff7 +com.binaryage.totalfinder.nodesktopdots ##VERSION## (##VERSION##) <...> /some/path
-    if line.match?(/^\s*0x([0-9a-f]+)\s+-\s+0x([0-9a-f]+)\s+.*?(com\.binaryage.*?)\s/)
+    if line =~ /^\s*0x([0-9a-f]+)\s+-\s+0x([0-9a-f]+)\s+.*?(com\.binaryage.*?)\s/
       ranges << [Regexp.last_match(1).to_i(16), Regexp.last_match(2).to_i(16), Regexp.last_match(3)]
     end
   end

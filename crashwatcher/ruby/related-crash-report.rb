@@ -16,7 +16,7 @@ ranges = []
 report.lines.each do |line|
   # extract addresses from callstacks on all threads
   # 8   com.apple.AppKit        	0x00007fff88a0d68f -[NSApplication run] + 395
-  addresses << Regexp.last_match(1).to_i(16) if line.match?(/^\s*\d+\s+.*?0x([0-9a-f]+)\s/)
+  addresses << Regexp.last_match(1).to_i(16) if line =~ /^\s*\d+\s+.*?0x([0-9a-f]+)\s/
 
   # extract loaded module ranges, filter out only com.binaryage related
   # 0x1181c2000 -    0x1181c3ff7 +com.binaryage.totalfinder.nodesktopdots ##VERSION## (##VERSION##) <...> /some/path
