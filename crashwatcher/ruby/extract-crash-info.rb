@@ -44,6 +44,8 @@ def find_first_ba_module(content)
       return range[2] if hit
     end
   end
+
+  nil
 end
 
 file = ARGV[0]
@@ -51,32 +53,52 @@ content = File.read(file)
 
 res = 'TotalFinder '
 
-module_version = parse_module_version(content)
-res += "#{module_version} " if module_version
-plugin = parse_special_info(content)
-plugin ||= parse_plugin_identifier(content)
-plugin ||= find_first_ba_module(content)
-plugin.strip!
-res += 'crashed in ' + plugin.gsub('com.binaryage.totalfinder.', '') + ' ' if plugin.size
+begin
+  module_version = parse_module_version(content)
+  res += "#{module_version} " if module_version
+  plugin = parse_special_info(content)
+  plugin ||= parse_plugin_identifier(content)
+  plugin ||= find_first_ba_module(content)
+  plugin.strip! if plugin
+  res += 'crashed in ' + plugin.gsub('com.binaryage.totalfinder.', '') + ' ' if plugin
+rescue
+  # ignored
+end
 
 details = []
 
-version = content.match(/Version:(.*?)\n/m)[1].split(' ')[0]
-details << 'v' + version.strip
+begin
+  version = content.match(/Version:(.*?)\n/m)[1].split(' ')[0]
+  details << 'v' + version.strip
+rescue
+  # ignored
+end
 
-version = content.match(/OS Version:.*?\((.*?)\)\n/m)[1]
-details << 'OS ' + version.strip
+begin
+  version = content.match(/OS Version:.*?\((.*?)\)\n/m)[1]
+  details << 'OS ' + version.strip
+rescue
+  # ignored
+end
 
-type = content.match(/Exception Type:(.*?)\n/m)[1]
-x = type.match(/(.*?)\(.*\)/)
-type = x[1] if x # remove braced part if present
-type.downcase!
-type.sub!('exc_', '')
-type.sub!('_', ' ')
-details << type.strip
+begin
+  type = content.match(/Exception Type:(.*?)\n/m)[1]
+  x = type.match(/(.*?)\(.*\)/)
+  type = x[1] if x # remove braced part if present
+  type.downcase!
+  type.sub!('exc_', '')
+  type.sub!('_', ' ')
+  details << type.strip
+rescue
+  # ignored
+end
 
-thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(' ')[0]
-details << 'thread ' + thread.strip
+begin
+  thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(' ')[0]
+  details << 'thread ' + thread.strip
+rescue
+  # ignored
+end
 
 res += "| #{details.join(', ')}"
 
