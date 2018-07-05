@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="13189.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14269.12"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="14269.12"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -79,7 +79,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="152">
-                    <rect key="frame" x="38" y="42" width="204" height="11"/>
+                    <rect key="frame" x="38" y="42" width="203" height="11"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Automatically check the website for updates" id="162">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -95,7 +95,7 @@
                     </textFieldCell>
                 </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="155" userLabel="Check Box">
-                    <rect key="frame" x="18" y="18" width="153" height="18"/>
+                    <rect key="frame" x="18" y="18" width="152" height="18"/>
                     <buttonCell key="cell" type="check" title="^Include pre-releases" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="160">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -111,11 +111,11 @@
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <binding destination="212" name="value" keyPath="automaticallyChecksForUpdates" id="214"/>
+                        <binding destination="94" name="value" keyPath="values.TotalFinderCheckForUpdates" id="Mgr-b0-keU"/>
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="157">
-                    <rect key="frame" x="165" y="56" width="79" height="16"/>
+                    <rect key="frame" x="165" y="56" width="78" height="16"/>
                     <buttonCell key="cell" type="push" title="^Check Now" bezelStyle="rounded" alignment="center" controlSize="mini" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="158">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="miniSystem"/>
@@ -125,7 +125,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="258">
-                    <rect key="frame" x="18" y="91" width="197" height="29"/>
+                    <rect key="frame" x="18" y="91" width="194" height="29"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TotalFinder X.Y.Z" usesSingleLineMode="YES" id="259">
                         <font key="font" metaFont="systemBold" size="24"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -192,7 +192,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="308">
-                    <rect key="frame" x="20" y="-1" width="183" height="19"/>
+                    <rect key="frame" x="20" y="-1" width="182" height="19"/>
                     <buttonCell key="cell" type="roundRect" title="^Reset TotalFinder to defaults" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="309">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
@@ -246,7 +246,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="J6d-M3-FOb">
-                    <rect key="frame" x="18" y="37" width="174" height="18"/>
+                    <rect key="frame" x="18" y="37" width="173" height="18"/>
                     <buttonCell key="cell" type="check" title="^Disable tabs completely" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="eeg-k4-55d">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -314,7 +314,6 @@
                 <outlet property="owner_" destination="-2" id="344"/>
             </connections>
         </customObject>
-        <customObject id="212" customClass="TFUpdater"/>
         <userDefaultsController id="94" userLabel="Shared Defaults" customClass="TotalUserDefaultsController"/>
     </objects>
 </document>
