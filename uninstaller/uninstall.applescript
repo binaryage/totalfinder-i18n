@@ -111,7 +111,7 @@ on run
 
 	try
 		do shell script "sudo rm -rf \"/System/Library/ScriptingAdditions/TotalFinder.osax\"" with administrator privileges
-  end try
+	end try
 	
 	try
 		do shell script "[ ! -e \"/System/Library/ScriptingAdditions/TotalFinder.osax\" ]"
@@ -126,7 +126,7 @@ on run
 
 	try
 		do shell script "sudo rm -rf \"/System/Library/ScriptingAdditions/TotalFinderSIP.osax\"" with administrator privileges
-  end try
+	end try
 	
 	try
 		do shell script "[ ! -e \"/System/Library/ScriptingAdditions/TotalFinderSIP.osax\" ]"
