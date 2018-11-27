@@ -140,6 +140,10 @@ on run
 	end try
 
 	try
+		do shell script "sudo rm -rf \"/System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/TotalFinderFileProvider.bundle\"" with administrator privileges
+	end try
+	
+	try
 		do shell script "[ ! -e \"/System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/TotalFinderFileProvider.bundle\" ]"
 	on error
 		set stdout to stdout & newline
