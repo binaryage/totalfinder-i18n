@@ -138,17 +138,6 @@ on run
 		set stdout to stdout & "More details: https://totalfinder.binaryage.com/sip" & newline
 		set stdout to stdout & newline
 	end try
-
-	try
-		do shell script "[ ! -e \"/System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/TotalFinderFileProvider.bundle\" ]"
-	on error
-		set stdout to stdout & newline
-		set stdout to stdout & "/System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/TotalFinderFileProvider.bundle was left behind." & newline
-		set stdout to stdout & "This location is protected by System Integrity Protection." & newline
-		set stdout to stdout & "This folder is harmless. But you might want to boot into Recovery OS and remove it manually." & newline
-		set stdout to stdout & "More details: https://totalfinder.binaryage.com/sip" & newline
-		set stdout to stdout & newline
-	end try
 	
 	set stdout to stdout & "TotalFinder uninstallation done."
 	
