@@ -1,0 +1,20 @@
+"crashDialogHeader" = "TotalFinder negaidīti pārtrauca darboties";
+"crashDialogMsg" = "Mēs atvainojamies, bet TotalFinder saskārās ar neparadzētu problēmu un pārstāja darbināt Finder programmu.";
+"crashDialogNote" = "Piezīme: Finder programma tika automātiski pārstartēta, bet Jums no jauna jāstartē TotalFinder.app programma.";
+"crashDialogExplanation" = "Nospiežot pogu sūtīt tiks augšupielādēta programmas kļūdu atskaite vietnē gist.github.com un palaista Mail.app programma ar e-pasta sagatvi.";
+
+"failDialogHeader" = "Nav iespējams augšupielādēt programmas kļūdu atskaiti vietnē gist.github.com";
+"failDialogMsg1" = "Ļoti slikti. Es nevarēju atrast programmas kļūdu atskaiti Jūsu ~/Logs/CrashReporter mapē.";
+"failDialogMsg2" = "Es spēju atrast programmas kļūdu atskaiti, bet augšupielāde vietnē gist.github.com bija neveiksmīga.\n\nSteidzamos gadījumos Jūs varat sūtīt programmas kļūdu atskaiti uz:\n%@";
+"failDialogOK" = "Labi";
+
+"sendReportButton" = "Sagatavot e-pasta ziņojumu";
+"cancelButton" = "Atcelt";
+
+"emailTemplate" = "Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> https://discuss.binaryage.com.\n>\n> Thank you, Antonin";
+
+"countdownMsgSecondsPlural" = "Atlikušas %d sekundes.";
+"countdownMsgSecondSingular" = "Atlikusi %d sekunde.";
+
+"countdownMsgMinutesPlural" = "Atlikušas %d minūtes.";
+"countdownMsgMinuteSingular" = "Atlikusi %d minūte.";

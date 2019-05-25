@@ -1,0 +1,9 @@
+"Copy Path" = "Kopēt ceļu";
+"POSIX Path" = "POSIX ceļš";
+"URL" = "URL";
+"Windows Path" = "Windows ceļš";
+"HFS Path" = "HFS ceļš";
+"Terminal Path" = "Termināļa ceļš";
+"UNC Path" = "UNC ceļš";
+
+"Allow path copying from Context Menus" = "Atļaut ceļa kopēšanu no Konteksta izvēlness";
