@@ -3,6 +3,11 @@
 
 # https://github.com/defunkt/gist/blob/master/lib/gist.rb
 
+# this is to override encoding problems, users might have different locales set
+# even US-ASCII could throw Encoding::InvalidByteSequenceError
+# see https://makandracards.com/makandra/41250-ruby-s-default-encodings-can-be-unexpected
+Encoding.default_external = 'UTF-8'
+
 begin
   # noinspection RubyResolve
   require File.join File.dirname(__FILE__), 'gist.rb'
