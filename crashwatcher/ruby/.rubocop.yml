@@ -1,6 +1,7 @@
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.6
   Include:
+    - '**/*.rb'
     - '**/Gemfile'
     - '**/Rakefile'
     - '**/rakefile'
@@ -35,7 +36,7 @@ Metrics/ClassLength:
 Style/Documentation:
   Enabled: false
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   Enabled: false
 
 Style/GuardClause:

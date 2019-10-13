@@ -4,6 +4,7 @@
 def parse_module_version(content)
   m = content.match(/\+\s*com.binaryage.totalfinder\s*\((.*?)\)/m)
   return nil if m.nil?
+
   # m[1] == 1.5.18 - 1.5.18
   m[1].split('-')[0].strip
 end
@@ -12,12 +13,14 @@ def parse_special_info(content)
   # "recent swizzled method" can appear in TotalFinder crash logs since v1.4.18
   m = content.match(/recent swizzled method:(.*?)\n/m)
   return nil if m.nil?
+
   m[1].strip
 end
 
 def parse_plugin_identifier(content)
   m = content.match(/PlugIn Identifier:(.*?)\n/m)
   return nil if m.nil?
+
   m[1]
 end
 
@@ -27,7 +30,7 @@ def find_first_ba_module(content)
 
   content.lines.each do |line|
     # extract addresses from callstacks on all threads
-    # 8   com.apple.AppKit        	0x00007fff88a0d68f -[NSApplication run] + 395
+    # 8   com.apple.AppKit        0x00007fff88a0d68f -[NSApplication run] + 395
     addresses << Regexp.last_match(1).to_i(16) if line =~ /^\s*\d+\s+.*?0x([0-9a-f]+)\s/
 
     # extract loaded module ranges, filter out only com.binaryage related
