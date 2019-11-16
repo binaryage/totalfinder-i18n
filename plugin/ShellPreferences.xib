@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14269.12"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="14269.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -30,7 +30,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="97">
-                    <rect key="frame" x="18" y="52" width="444" height="29"/>
+                    <rect key="frame" x="18" y="53" width="444" height="28"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="440" id="hTq-0b-4ws"/>
                     </constraints>
@@ -41,7 +41,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="96">
-                    <rect key="frame" x="20" y="0.0" width="61" height="19"/>
+                    <rect key="frame" x="20" y="2" width="61" height="19"/>
                     <buttonCell key="cell" type="roundRect" title="Register" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="99">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
@@ -51,7 +51,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95">
-                    <rect key="frame" x="18" y="27" width="146" height="17"/>
+                    <rect key="frame" x="18" y="29" width="146" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Registered to John Doe" usesSingleLineMode="YES" id="100">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -67,6 +67,7 @@
                 <constraint firstItem="95" firstAttribute="top" secondItem="97" secondAttribute="bottom" constant="8" symbolic="YES" id="246"/>
                 <constraint firstItem="96" firstAttribute="top" secondItem="95" secondAttribute="bottom" constant="8" symbolic="YES" id="247"/>
             </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
         </customView>
         <customObject id="215" userLabel="Registration Localizer" customClass="GTMUILocalizer">
             <connections>
@@ -125,7 +126,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="258">
-                    <rect key="frame" x="18" y="91" width="194" height="29"/>
+                    <rect key="frame" x="18" y="92" width="194" height="28"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="TotalFinder X.Y.Z" usesSingleLineMode="YES" id="259">
                         <font key="font" metaFont="systemBold" size="24"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -161,7 +162,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <webView translatesAutoresizingMaskIntoConstraints="NO" id="133">
-                    <rect key="frame" x="20" y="26" width="440" height="119"/>
+                    <rect key="frame" x="20" y="28" width="440" height="119"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="119" id="307"/>
                     </constraints>
@@ -173,7 +174,7 @@
                     </connections>
                 </webView>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="134">
-                    <rect key="frame" x="18" y="153" width="444" height="17"/>
+                    <rect key="frame" x="18" y="155" width="444" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Thank you for using TotalFinder!" usesSingleLineMode="YES" id="135">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -181,7 +182,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="293">
-                    <rect key="frame" x="18" y="178" width="444" height="29"/>
+                    <rect key="frame" x="18" y="179" width="444" height="28"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="440" id="25p-5M-1IT"/>
                     </constraints>

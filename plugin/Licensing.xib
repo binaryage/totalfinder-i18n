@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="13189.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -46,7 +46,7 @@
             </connections>
         </customObject>
         <userDefaultsController id="45" customClass="TotalUserDefaultsController"/>
-        <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" animationBehavior="default" id="1">
+        <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="525" y="500" width="480" height="300"/>
@@ -66,6 +66,7 @@
                     </imageView>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="139" y="147"/>
         </window>
         <customView id="5" userLabel="RegistrationA" customClass="MSZLinkedView">
             <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
@@ -89,7 +90,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
-                    <rect key="frame" x="202" y="13" width="172" height="32"/>
+                    <rect key="frame" x="203" y="13" width="171" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -109,8 +110,8 @@ CQ
                         <constraint firstAttribute="height" constant="98" id="h6r-OO-9HS"/>
                     </constraints>
                     <textFieldCell key="cell" controlSize="small" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Key" drawsBackground="YES" id="23">
-                        <font key="font" metaFont="smallSystem"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <font key="font" metaFont="message" size="11"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
@@ -128,8 +129,8 @@ CQ
                         <constraint firstAttribute="width" constant="294" id="35y-SE-4dm"/>
                     </constraints>
                     <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Name" drawsBackground="YES" usesSingleLineMode="YES" id="21">
-                        <font key="font" metaFont="smallSystem"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <font key="font" metaFont="message" size="11"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
@@ -142,7 +143,7 @@ CQ
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                    <rect key="frame" x="168" y="218" width="296" height="34"/>
+                    <rect key="frame" x="168" y="221" width="296" height="32"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
                     </constraints>
@@ -153,7 +154,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="154" y="260" width="113" height="21"/>
+                    <rect key="frame" x="154" y="261" width="112" height="20"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -184,7 +185,7 @@ CQ
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26">
-                    <rect key="frame" x="168" y="210" width="36" height="17"/>
+                    <rect key="frame" x="168" y="213" width="36" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Name" id="37">
                         <font key="font" size="13" name="Monaco"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -195,7 +196,7 @@ CQ
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="29">
-                    <rect key="frame" x="168" y="235" width="296" height="17"/>
+                    <rect key="frame" x="168" y="237" width="296" height="16"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
                     </constraints>
@@ -206,7 +207,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="196" translatesAutoresizingMaskIntoConstraints="NO" id="30">
-                    <rect key="frame" x="154" y="260" width="200" height="21"/>
+                    <rect key="frame" x="154" y="261" width="199" height="20"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -227,7 +228,7 @@ CQ
                     </connections>
                 </webView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
-                    <rect key="frame" x="228" y="13" width="144" height="32"/>
+                    <rect key="frame" x="229" y="13" width="143" height="32"/>
                     <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -278,7 +279,7 @@ CQ
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="74">
-                    <rect key="frame" x="168" y="121" width="296" height="34"/>
+                    <rect key="frame" x="168" y="125" width="296" height="32"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
                     </constraints>
@@ -289,7 +290,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="56">
-                    <rect key="frame" x="168" y="235" width="296" height="17"/>
+                    <rect key="frame" x="168" y="237" width="296" height="16"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>
                     </constraints>
@@ -300,7 +301,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="58">
-                    <rect key="frame" x="154" y="260" width="173" height="21"/>
+                    <rect key="frame" x="154" y="261" width="172" height="20"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -308,7 +309,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="200" y="13" width="172" height="32"/>
+                    <rect key="frame" x="201" y="13" width="171" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>

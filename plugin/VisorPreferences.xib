@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
-        <capability name="box content view" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -27,7 +26,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="110" translatesAutoresizingMaskIntoConstraints="NO" id="469" customClass="PreferencesTextField">
-                                <rect key="frame" x="14" y="330" width="114" height="17"/>
+                                <rect key="frame" x="14" y="331" width="114" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1494"/>
                                 </constraints>
@@ -41,7 +40,7 @@
                                 </connections>
                             </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="483">
-                                <rect key="frame" x="137" y="53" width="146" height="18"/>
+                                <rect key="frame" x="137" y="53" width="145" height="18"/>
                                 <buttonCell key="cell" type="check" title="^Show on all Spaces" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="486">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -52,18 +51,18 @@
                                 </connections>
                             </button>
                             <box title="Title" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="482">
-                                <rect key="frame" x="136" y="116" width="181" height="43"/>
+                                <rect key="frame" x="136" y="117" width="181" height="43"/>
                                 <view key="contentView" id="d65-Fj-ZcM">
-                                    <rect key="frame" x="2" y="2" width="177" height="39"/>
+                                    <rect key="frame" x="3" y="3" width="175" height="37"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="487">
-                                            <rect key="frame" x="12" y="8" width="80" height="24"/>
+                                            <rect key="frame" x="11" y="7" width="80" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="76" id="635"/>
                                             </constraints>
                                             <sliderCell key="cell" continuous="YES" alignment="left" maxValue="1" doubleValue="0.44444444444444442" tickMarkPosition="below" numberOfTickMarks="10" allowsTickMarkValuesOnly="YES" sliderType="linear" id="491">
-                                                <font key="font" size="12" name="Helvetica"/>
+                                                <font key="font" metaFont="user"/>
                                             </sliderCell>
                                             <connections>
                                                 <binding destination="457" name="value" keyPath="values.TotalFinderAnimationSpeed" id="529"/>
@@ -71,7 +70,7 @@
                                             </connections>
                                         </slider>
                                         <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="488">
-                                            <rect key="frame" x="100" y="8" width="66" height="22"/>
+                                            <rect key="frame" x="99" y="8" width="66" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="66" id="546"/>
                                             </constraints>
@@ -84,7 +83,7 @@
                                                     <decimal key="maximum" value="NaN"/>
                                                 </numberFormatter>
                                                 <font key="font" metaFont="system"/>
-                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 <connections>
                                                     <binding destination="457" name="value" keyPath="values.TotalFinderAnimationSpeed" id="531"/>
@@ -106,7 +105,7 @@
                                 </constraints>
                             </box>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="110" translatesAutoresizingMaskIntoConstraints="NO" id="471" customClass="PreferencesTextField">
-                                <rect key="frame" x="14" y="184" width="114" height="17"/>
+                                <rect key="frame" x="14" y="185" width="114" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1498"/>
                                 </constraints>
@@ -120,7 +119,7 @@
                                 </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="110" translatesAutoresizingMaskIntoConstraints="NO" id="470" customClass="PreferencesTextField">
-                                <rect key="frame" x="14" y="245" width="114" height="17"/>
+                                <rect key="frame" x="14" y="246" width="114" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1500"/>
                                 </constraints>
@@ -134,7 +133,7 @@
                                 </connections>
                             </textField>
                             <comboBox verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="481">
-                                <rect key="frame" x="139" y="73" width="222" height="26"/>
+                                <rect key="frame" x="139" y="73" width="222" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="219" id="551"/>
                                 </constraints>
@@ -168,7 +167,7 @@
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="478">
-                                <rect key="frame" x="137" y="163" width="110" height="18"/>
+                                <rect key="frame" x="137" y="164" width="110" height="18"/>
                                 <buttonCell key="cell" type="check" title="^Slide Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="495">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -179,7 +178,7 @@
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="476">
-                                <rect key="frame" x="137" y="183" width="110" height="18"/>
+                                <rect key="frame" x="137" y="184" width="110" height="18"/>
                                 <buttonCell key="cell" type="check" title="^Fade Window" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="497">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -215,7 +214,7 @@
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="473">
-                                <rect key="frame" x="137" y="244" width="104" height="18"/>
+                                <rect key="frame" x="137" y="245" width="104" height="18"/>
                                 <buttonCell key="cell" type="check" title="^Hide on ESC" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="500">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -226,7 +225,7 @@
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="110" translatesAutoresizingMaskIntoConstraints="NO" id="468" customClass="PreferencesTextField">
-                                <rect key="frame" x="14" y="77" width="114" height="17"/>
+                                <rect key="frame" x="14" y="79" width="114" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1497"/>
                                 </constraints>
@@ -253,7 +252,7 @@
                                 </connections>
                             </customView>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="465" customClass="PreferencesTextField">
-                                <rect key="frame" x="156" y="222" width="64" height="17"/>
+                                <rect key="frame" x="156" y="223" width="64" height="16"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Pin Visor" id="505">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -264,13 +263,13 @@
                                 </connections>
                             </textField>
                             <box autoresizesSubviews="NO" borderType="none" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="1229">
-                                <rect key="frame" x="155" y="266" width="177" height="71"/>
+                                <rect key="frame" x="155" y="267" width="177" height="70"/>
                                 <view key="contentView" id="oYG-9X-EdO">
-                                    <rect key="frame" x="0.0" y="0.0" width="177" height="71"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="177" height="70"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView translatesAutoresizingMaskIntoConstraints="NO" id="477" customClass="PreferencesModifierButtonImageView">
-                                            <rect key="frame" x="101" y="15" width="57" height="43"/>
+                                            <rect key="frame" x="101" y="15" width="57" height="42"/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ModifiersOption" id="496"/>
                                             <connections>
                                                 <binding destination="457" name="enabled2" keyPath="values.TotalFinderHotKey2Enabled" previousBinding="513" id="514">
@@ -285,7 +284,7 @@
                                             </connections>
                                         </imageView>
                                         <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="484" customClass="PreferencesTextField">
-                                            <rect key="frame" x="82" y="28" width="13" height="17"/>
+                                            <rect key="frame" x="82" y="28" width="13" height="16"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="+" id="485">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -304,7 +303,7 @@
                                             </connections>
                                         </textField>
                                         <imageView translatesAutoresizingMaskIntoConstraints="NO" id="479" customClass="PreferencesModifierButtonImageView">
-                                            <rect key="frame" x="19" y="15" width="57" height="43"/>
+                                            <rect key="frame" x="19" y="15" width="57" height="42"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="57" id="1416"/>
                                             </constraints>
@@ -395,7 +394,7 @@
                     </constraints>
                 </box>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="721">
-                    <rect key="frame" x="18" y="400" width="116" height="18"/>
+                    <rect key="frame" x="18" y="400" width="115" height="18"/>
                     <buttonCell key="cell" type="check" title="^Visor Feature" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="726">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="systemBold"/>
@@ -422,6 +421,7 @@
                 <constraint firstItem="460" firstAttribute="top" secondItem="722" secondAttribute="bottom" constant="8" symbolic="YES" id="1533"/>
                 <constraint firstAttribute="bottom" secondItem="460" secondAttribute="bottom" constant="20" symbolic="YES" id="1534"/>
             </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
         </customView>
         <customObject id="810" userLabel="Visor Localizer" customClass="GTMUILocalizer">
             <connections>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14295.6"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -43,7 +43,7 @@
                                 </connections>
                             </imageView>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72" userLabel="Title">
-                                <rect key="frame" x="49" y="11" width="378" height="29"/>
+                                <rect key="frame" x="49" y="11" width="378" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="241"/>
                                 </constraints>
@@ -85,13 +85,13 @@
                         <subviews>
                             <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="22" rowSizeStyle="small" viewBased="YES" indentationPerLevel="14" outlineTableColumn="7" id="3" userLabel="Outline">
                                 <rect key="frame" x="0.0" y="0.0" width="181" height="510"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
                                     <tableColumn identifier="features" editable="NO" width="178" minWidth="16" maxWidth="1000" id="7">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableHeaderCell>
@@ -145,7 +145,7 @@
                                                         </connections>
                                                     </imageView>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="179">
-                                                        <rect key="frame" x="26" y="2" width="151" height="17"/>
+                                                        <rect key="frame" x="26" y="2" width="151" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="147" id="332"/>
                                                         </constraints>
@@ -205,6 +205,7 @@
                 <constraint firstAttribute="bottom" secondItem="106" secondAttribute="bottom" constant="8" id="439"/>
                 <constraint firstItem="106" firstAttribute="top" secondItem="1" secondAttribute="top" constant="58" id="447"/>
             </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
         </customView>
         <customObject id="120" customClass="PreferencesFeaturesDataSource"/>
         <userDefaultsController id="262" customClass="TotalUserDefaultsController"/>
