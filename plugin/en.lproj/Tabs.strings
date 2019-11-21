@@ -11,6 +11,3 @@
 "New Tab" = "New Tab"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Use narrow Tabs Bar";
 "Open new tabs with previous location" = "Open new tabs with previous location";
-
-/* preferences */
-"Freelance Windows" = "Freelance Windows";

@@ -11,6 +11,3 @@
 "New Tab" = "Uus Vaheleht"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Kitsas Vaheleheriba";
 "Open new tabs with previous location" = "Open new tabs with previous location";
-
-/* preferences */
-"Freelance Windows" = "Ava Uues Aknas";
