@@ -5,10 +5,10 @@
 
 "failDialogHeader" = "No se pudo subir el informe de error a gist.github.com";
 "failDialogMsg1" = "Ouch! No pude encontrar el informe de error en ~/Logs/CrashReporter.";
-"failDialogMsg2" = "Pude encontrar el informe de error, pero por alguna razon no pude subirlo a gist.github.com\n\n%@\n\nSi es urgente me lo puedes mandar manualmente:\n%@";
+"failDialogMsg2" = "Pude encontrar el informe de error, pero por alguna razón no pude subirlo a gist.github.com\n\n%@\n\nSi es urgente me lo puedes mandar manualmente:\n%@";
 "failDialogOK" = "OK";
 
-"sendReportButton" = "Enviar email";
+"sendReportButton" = "Enviar correo electrónico";
 "cancelButton" = "Cancelar";
 
 "emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> Podrías ayudarme explicando que pasó antes del fallo.\n> Aprecio tu ayuda y leo los informes de errores, pero, por favor, no esperes una respuesta directa de mí.\n> Para obtener más ayuda, abre un tema en:\n> https://discuss.binaryage.com.\n>\n> Gracias, Antonin";
