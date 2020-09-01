@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17140" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="15400"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17140"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="17140"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -12,7 +12,7 @@
                 <outlet property="$currentView" destination="5" id="87"/>
                 <outlet property="$licenseKey" destination="22" id="Zmd-9G-7hA"/>
                 <outlet property="$licenseName" destination="20" id="X6N-3o-BmH"/>
-                <outlet property="$licensingInfo" destination="115" id="118"/>
+                <outlet property="$licensingInfo" destination="fFG-VH-nDv" id="9xr-9b-FNb"/>
                 <outlet property="$viewA" destination="5" id="107"/>
                 <outlet property="$viewB" destination="24" id="105"/>
                 <outlet property="$viewC" destination="54" id="106"/>
@@ -46,37 +46,30 @@
             </connections>
         </customObject>
         <userDefaultsController id="45" customClass="TotalUserDefaultsController"/>
-        <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" id="1">
+        <window title="^TotalFinder Registration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="525" y="500" width="480" height="300"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                <userGuides>
-                    <userLayoutGuide location="150" affinity="minX"/>
-                    <userLayoutGuide location="247" affinity="minY"/>
-                </userGuides>
                 <subviews>
                     <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97">
-                        <rect key="frame" x="4" y="75" width="140" height="298"/>
+                        <rect key="frame" x="20" y="184" width="100" height="100"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="LicensingDialogIcon" id="98"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="LicensingDialogIcon" id="98"/>
                     </imageView>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="139" y="147"/>
+            <point key="canvasLocation" x="1755" y="-1401"/>
         </window>
         <customView id="5" userLabel="RegistrationA" customClass="MSZLinkedView">
-            <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
+            <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6">
-                    <rect key="frame" x="374" y="13" width="96" height="32"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="84" id="sXX-Sk-rgU"/>
-                    </constraints>
+                    <rect key="frame" x="362" y="13" width="105" height="32"/>
                     <buttonCell key="cell" type="push" title="^Register" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="19">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -90,7 +83,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
-                    <rect key="frame" x="203" y="13" width="171" height="32"/>
+                    <rect key="frame" x="185" y="13" width="179" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -104,9 +97,8 @@ CQ
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                    <rect key="frame" x="170" y="61" width="294" height="98"/>
+                    <rect key="frame" x="156" y="60" width="304" height="98"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="294" id="Wpu-8f-3Ro"/>
                         <constraint firstAttribute="height" constant="98" id="h6r-OO-9HS"/>
                     </constraints>
                     <textFieldCell key="cell" controlSize="small" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Key" drawsBackground="YES" id="23">
@@ -124,10 +116,7 @@ CQ
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                    <rect key="frame" x="170" y="172" width="294" height="19"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="294" id="35y-SE-4dm"/>
-                    </constraints>
+                    <rect key="frame" x="156" y="171" width="304" height="19"/>
                     <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="^License Name" drawsBackground="YES" usesSingleLineMode="YES" id="21">
                         <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -143,7 +132,7 @@ CQ
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                    <rect key="frame" x="168" y="221" width="296" height="32"/>
+                    <rect key="frame" x="154" y="220" width="296" height="32"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="ncC-34-f0l"/>
                     </constraints>
@@ -154,7 +143,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="154" y="261" width="112" height="20"/>
+                    <rect key="frame" x="154" y="260" width="115" height="20"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Registration" id="18">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -163,40 +152,43 @@ CQ
                 </textField>
             </subviews>
             <constraints>
-                <constraint firstItem="20" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="170" id="2Vq-Yk-et4"/>
-                <constraint firstItem="6" firstAttribute="trailing" secondItem="22" secondAttribute="trailing" id="2ZB-6I-fQE"/>
-                <constraint firstItem="8" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="170" id="5uc-9c-Zkz"/>
-                <constraint firstItem="22" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="170" id="VKa-Rv-5IX"/>
+                <constraint firstItem="20" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="156" id="2Vq-Yk-et4"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="156" id="5uc-9c-Zkz"/>
+                <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" id="8vK-FE-ZON"/>
+                <constraint firstItem="22" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="156" id="VKa-Rv-5IX"/>
                 <constraint firstItem="6" firstAttribute="leading" secondItem="158" secondAttribute="trailing" constant="12" symbolic="YES" id="Ykb-iT-qIr"/>
                 <constraint firstItem="20" firstAttribute="top" secondItem="5" secondAttribute="top" constant="110" id="a9F-7W-XME"/>
                 <constraint firstItem="8" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="8" id="ask-F6-yc6"/>
                 <constraint firstItem="7" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" id="hu4-Ul-vI7"/>
                 <constraint firstAttribute="bottom" secondItem="158" secondAttribute="bottom" constant="20" id="kCP-tj-YL8"/>
+                <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" id="lR1-RS-BNv"/>
                 <constraint firstItem="7" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="156" id="to7-RV-17q"/>
+                <constraint firstAttribute="trailing" secondItem="6" secondAttribute="trailing" constant="20" symbolic="YES" id="u6W-fi-6XP"/>
                 <constraint firstItem="6" firstAttribute="baseline" secondItem="158" secondAttribute="baseline" id="zdI-O0-mQ5"/>
                 <constraint firstItem="22" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="13" id="zzm-1V-gER"/>
             </constraints>
             <connections>
                 <outlet property="$nextView" destination="54" id="90"/>
             </connections>
+            <point key="canvasLocation" x="2303" y="-1000"/>
         </customView>
         <customView id="24" userLabel="RegistrationB" customClass="MSZLinkedView">
-            <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
+            <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26">
-                    <rect key="frame" x="168" y="213" width="36" height="16"/>
+                    <rect key="frame" x="154" y="196" width="41" height="19"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Name" id="37">
-                        <font key="font" size="13" name="Monaco"/>
+                        <font key="font" size="15" name="Monaco"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" red="0.99989891050000002" green="1" blue="0.094879518070000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
                         <binding destination="45" name="value" keyPath="values.TotalFinderLicenseName" id="114"/>
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="29">
-                    <rect key="frame" x="168" y="237" width="296" height="16"/>
+                    <rect key="frame" x="154" y="236" width="296" height="16"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="292" id="7Yx-2Q-2Gm"/>
                     </constraints>
@@ -207,28 +199,25 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="196" translatesAutoresizingMaskIntoConstraints="NO" id="30">
-                    <rect key="frame" x="154" y="261" width="199" height="20"/>
+                    <rect key="frame" x="154" y="260" width="200" height="20"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Thanks for registering!" id="33">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <webView maintainsBackForwardList="NO" translatesAutoresizingMaskIntoConstraints="NO" id="115">
-                    <rect key="frame" x="20" y="50" width="442" height="117"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="117" id="Sdb-qV-889"/>
-                        <constraint firstAttribute="width" constant="442" id="WaM-Bx-saG"/>
-                    </constraints>
-                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
-                        <nil key="identifier"/>
-                    </webPreferences>
+                <wkWebView wantsLayer="YES" allowsLinkPreview="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFG-VH-nDv">
+                    <rect key="frame" x="20" y="60" width="440" height="115"/>
+                    <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
                     <connections>
-                        <outlet property="policyDelegate" destination="-2" id="119"/>
+                        <outlet property="navigationDelegate" destination="-2" id="JYc-yi-pmF"/>
                     </connections>
-                </webView>
+                </wkWebView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
-                    <rect key="frame" x="229" y="13" width="143" height="32"/>
+                    <rect key="frame" x="229" y="13" width="151" height="32"/>
                     <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -239,10 +228,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="31">
-                    <rect key="frame" x="372" y="13" width="96" height="32"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="84" id="PsE-ld-efg"/>
-                    </constraints>
+                    <rect key="frame" x="378" y="13" width="89" height="32"/>
                     <buttonCell key="cell" type="push" title="^Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="32">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -257,32 +243,32 @@ CQ
                 </button>
             </subviews>
             <constraints>
-                <constraint firstItem="31" firstAttribute="trailing" secondItem="115" secondAttribute="trailing" id="2Xb-NN-xyd"/>
-                <constraint firstItem="29" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="170" id="9X5-RU-fob"/>
-                <constraint firstItem="30" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="156" id="M7T-sa-Rbt"/>
-                <constraint firstItem="26" firstAttribute="top" secondItem="29" secondAttribute="bottom" constant="8" id="S4e-bh-zej"/>
-                <constraint firstItem="26" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="170" id="Yl3-jd-O7T"/>
-                <constraint firstAttribute="bottom" secondItem="115" secondAttribute="bottom" constant="50" id="a5d-Iy-SDq"/>
-                <constraint firstItem="30" firstAttribute="top" secondItem="24" secondAttribute="top" constant="20" id="bnr-N9-qgb"/>
+                <constraint firstItem="29" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="156" id="9X5-RU-fob"/>
+                <constraint firstItem="fFG-VH-nDv" firstAttribute="top" secondItem="26" secondAttribute="bottom" constant="21" id="NRH-vD-4Ol"/>
+                <constraint firstAttribute="trailing" secondItem="31" secondAttribute="trailing" constant="20" symbolic="YES" id="OBN-R4-ktR"/>
+                <constraint firstItem="26" firstAttribute="top" secondItem="29" secondAttribute="bottom" constant="21" id="S4e-bh-zej"/>
+                <constraint firstAttribute="trailing" secondItem="fFG-VH-nDv" secondAttribute="trailing" constant="20" symbolic="YES" id="Yjg-c8-Gri"/>
+                <constraint firstItem="26" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="156" id="Yl3-jd-O7T"/>
                 <constraint firstItem="31" firstAttribute="baseline" secondItem="27" secondAttribute="baseline" id="dnL-zQ-mAP"/>
+                <constraint firstItem="27" firstAttribute="top" secondItem="fFG-VH-nDv" secondAttribute="bottom" constant="20" symbolic="YES" id="ejw-Sh-sB8"/>
                 <constraint firstItem="31" firstAttribute="leading" secondItem="27" secondAttribute="trailing" constant="12" symbolic="YES" id="fmX-jq-gTh"/>
-                <constraint firstItem="29" firstAttribute="top" secondItem="30" secondAttribute="bottom" constant="8" id="kiI-XE-3Ra"/>
+                <constraint firstItem="30" firstAttribute="top" secondItem="24" secondAttribute="top" constant="20" symbolic="YES" id="hre-1f-90Q"/>
+                <constraint firstItem="fFG-VH-nDv" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="20" symbolic="YES" id="jng-OY-WZl"/>
+                <constraint firstItem="29" firstAttribute="top" secondItem="30" secondAttribute="bottom" constant="8" symbolic="YES" id="jri-M5-TFy"/>
                 <constraint firstAttribute="bottom" secondItem="27" secondAttribute="bottom" constant="20" symbolic="YES" id="lMT-Ou-PIX"/>
-                <constraint firstAttribute="centerX" secondItem="115" secondAttribute="centerX" id="oam-wT-RTR"/>
+                <constraint firstItem="30" firstAttribute="leading" secondItem="24" secondAttribute="leading" constant="156" id="nCL-PZ-PUh"/>
             </constraints>
             <connections>
                 <outlet property="$previousView" destination="5" id="92"/>
             </connections>
+            <point key="canvasLocation" x="1754" y="-999"/>
         </customView>
         <customView id="54" userLabel="RegistrationC" customClass="MSZLinkedView">
-            <rect key="frame" x="0.0" y="0.0" width="482" height="301"/>
+            <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="74">
-                    <rect key="frame" x="168" y="125" width="296" height="32"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="292" id="Nme-bC-UQM"/>
-                    </constraints>
+                    <rect key="frame" x="154" y="124" width="308" height="32"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^To purchase a license for TotalFinder, please visit BinaryAge web store." id="75">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -290,10 +276,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="56">
-                    <rect key="frame" x="168" y="237" width="296" height="16"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="292" id="NLN-e9-1KJ"/>
-                    </constraints>
+                    <rect key="frame" x="154" y="236" width="308" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="^Please go back and try again." id="63">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -301,7 +284,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="58">
-                    <rect key="frame" x="154" y="261" width="172" height="20"/>
+                    <rect key="frame" x="154" y="260" width="174" height="20"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Invalid license code" id="61">
                         <font key="font" metaFont="systemBold" size="17"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -309,7 +292,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="201" y="13" width="171" height="32"/>
+                    <rect key="frame" x="206" y="13" width="179" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -323,10 +306,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="57">
-                    <rect key="frame" x="372" y="13" width="96" height="32"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="84" id="ydo-0n-EEI"/>
-                    </constraints>
+                    <rect key="frame" x="383" y="13" width="84" height="32"/>
                     <buttonCell key="cell" type="push" title="^Back" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="62">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -342,19 +322,22 @@ CQ
             </subviews>
             <constraints>
                 <constraint firstItem="56" firstAttribute="top" secondItem="58" secondAttribute="bottom" constant="8" id="03G-Ol-XXa"/>
+                <constraint firstAttribute="trailing" secondItem="57" secondAttribute="trailing" constant="20" symbolic="YES" id="0hM-DT-P8t"/>
                 <constraint firstItem="72" firstAttribute="baseline" secondItem="57" secondAttribute="baseline" id="41I-MV-t68"/>
                 <constraint firstItem="58" firstAttribute="top" secondItem="54" secondAttribute="top" constant="20" id="FCW-1I-RUz"/>
                 <constraint firstItem="57" firstAttribute="leading" secondItem="72" secondAttribute="trailing" constant="12" symbolic="YES" id="GyW-kP-C9Z"/>
+                <constraint firstAttribute="trailing" secondItem="56" secondAttribute="trailing" constant="20" symbolic="YES" id="KE2-ls-SZG"/>
                 <constraint firstItem="58" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="156" id="LwA-nz-YkU"/>
-                <constraint firstItem="56" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="170" id="QkL-qk-15h"/>
+                <constraint firstItem="56" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="156" id="QkL-qk-15h"/>
                 <constraint firstItem="74" firstAttribute="top" secondItem="56" secondAttribute="bottom" constant="80" id="XJ3-I8-IZN"/>
-                <constraint firstAttribute="trailing" secondItem="57" secondAttribute="trailing" constant="20" symbolic="YES" id="eMY-4J-C4J"/>
-                <constraint firstItem="74" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="170" id="fRu-SJ-Pjt"/>
+                <constraint firstItem="74" firstAttribute="leading" secondItem="54" secondAttribute="leading" constant="156" id="fRu-SJ-Pjt"/>
+                <constraint firstAttribute="trailing" secondItem="74" secondAttribute="trailing" constant="20" symbolic="YES" id="nGO-Lc-j5N"/>
                 <constraint firstAttribute="bottom" secondItem="72" secondAttribute="bottom" constant="20" symbolic="YES" id="zkX-d8-3q1"/>
             </constraints>
             <connections>
                 <outlet property="$previousView" destination="5" id="95"/>
             </connections>
+            <point key="canvasLocation" x="1204" y="-998"/>
         </customView>
     </objects>
     <resources>
