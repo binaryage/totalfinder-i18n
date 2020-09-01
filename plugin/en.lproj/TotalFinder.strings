@@ -56,7 +56,7 @@
 "Close" = "Close";
 "Back" = "Back";
 "Invalid license code" = "Invalid license code";
-"Please go back and try again." = "Please go back and try again.";
+"Please go back and try again." = "Please make sure you have copy&pasted the license name and code properly. Note that the name field is case sensitive.";
 "To purchase a license for TotalFinder, please visit BinaryAge web store." = "To purchase a license for TotalFinder, please visit BinaryAge web store.";
 "Thank you for using TotalFinder!" = "Thank you for using TotalFinder!";
 "License Name" = "License Name";
