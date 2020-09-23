@@ -1,5 +1,5 @@
 AllCops:
-  TargetRubyVersion: 2.6
+  TargetRubyVersion: 2.7
   Include:
     - '**/*.rb'
     - '**/Gemfile'
@@ -8,6 +8,7 @@ AllCops:
   Exclude:
     - '_node/**/*'
     - 'vendor/**/*'
+  NewCops: enable
 
 Metrics/LineLength:
   Max: 126
@@ -36,7 +37,7 @@ Metrics/ClassLength:
 Style/Documentation:
   Enabled: false
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   Enabled: false
 
 Style/GuardClause:
@@ -57,7 +58,7 @@ Style/RescueStandardError:
 Style/SafeNavigation:
   Enabled: false
 
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Enabled: false
 
 Style/SpecialGlobalVars:

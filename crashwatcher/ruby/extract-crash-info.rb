@@ -70,7 +70,7 @@ begin
   plugin ||= parse_plugin_identifier(content)
   plugin ||= find_first_ba_module(content)
   plugin.strip! if plugin
-  res += 'crashed in ' + plugin.gsub('com.binaryage.totalfinder.', '') + ' ' if plugin
+  res += "crashed in #{plugin.gsub('com.binaryage.totalfinder.', '')} " if plugin
 rescue
   # ignored
 end
@@ -79,14 +79,14 @@ details = []
 
 begin
   version = content.match(/Version:(.*?)\n/m)[1].split(' ')[0]
-  details << 'v' + version.strip
+  details << "v#{version.strip}"
 rescue
   # ignored
 end
 
 begin
   version = content.match(/OS Version:.*?\((.*?)\)\n/m)[1]
-  details << 'OS ' + version.strip
+  details << "OS #{version.strip}"
 rescue
   # ignored
 end
@@ -105,7 +105,7 @@ end
 
 begin
   thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(' ')[0]
-  details << 'thread ' + thread.strip
+  details << "thread #{thread.strip}"
 rescue
   # ignored
 end
