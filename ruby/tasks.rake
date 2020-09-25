@@ -474,6 +474,38 @@ def exec_cmd_in_lprojs(cmd)
   end
 end
 
+def merge_string_tables
+  Dir.glob(File.join(PLUGIN_RESOURCES_DIR, '*.lproj')) do |dir|
+    puts dir.blue
+
+    string_files = Dir.glob(File.join(dir, '*.strings')).sort!
+    totalfinder_strings = string_files.filter { |file| /TotalFinder\.strings/.match?(file) }
+    other_strings = string_files.filter { |file| !/TotalFinder\.strings/.match?(file) }
+
+    other_strings.each { |strings_file|
+      unless /Template\.strings/.match?(strings_file)
+        file_content = File.read(strings_file)
+
+        strings_file =~ /\/([^\/]*)\.strings/
+        name = Regexp.last_match(1)
+
+        contents = []
+        contents << ''
+        contents << ''
+        contents << "/* --- #{name} --- */"
+        contents << ''
+        contents << file_content
+        content = contents.join("\n")
+
+        append_file(totalfinder_strings.first, content)
+      end
+
+      File.delete(strings_file)
+    }
+
+  end
+end
+
 def validate_strings_file(path)
   lines = parse_strings_file(path)
 
@@ -716,6 +748,11 @@ end
 desc 'validates all strings files and checks them for syntax errors'
 task :create_localization do
   create_localizations_for_project
+end
+
+desc 'merge all string tables into single TotalFinder.strings'
+task :merge_string_tables do
+  merge_string_tables
 end
 
 task default: :restart
