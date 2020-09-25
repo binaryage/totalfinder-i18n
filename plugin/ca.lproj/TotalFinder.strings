@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Aquesta opció inhabilitarà de forma definitiva el mòdul de pestanyes a TotalFinder. El mode dual i la funcionalitat del visor tambié seran inhabilitats. Això pot ser desitjable si està fent servir Mavericks o Yosemite (fes servir les pestanyes del Finder natiu mentre es conserven la resta de característiques de TotalFinder).\n\nPer aquesta operació s'ha de reiniciar el Finder!\nNota: Abans de reiniciar si us plau finalitzi totes les tasques actives (com copia o moviment d'arxius).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Aquesta opció habilitarà el mòdul de pestanyes a TotalFinder.\n\nPer aquesta operació s'ha de reiniciar el Finder!\nNota: Abans de reiniciar si us plau finalitzi totes les tasques actives (com copia o moviment d'arxius).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Això inhabilitarà les pestanyes, el mode dual i el visor. Es necessari reiniciar el Finder.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Mostrar en color les icones de la barra lateral";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Ajustar automaticament l'amplada a la vista de columnes";
+"Limit maximum column width to" = "Amplada màxim de la columna";
+"Limit minimum column width to" = "Amplada mínima de la columna";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Copiar el camí";
+"POSIX Path" = "Camí POSIX";
+"URL" = "URL";
+"Windows Path" = "Camí de Windows";
+"HFS Path" = "Camí HFS";
+"Terminal Path" = "Camí de Terminal";
+"UNC Path" = "Camí UNC";
+
+"Allow path copying from Context Menus" = "Permetre la copia de camíns des dels menús contextuals";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Editar";
+"Cut" = "Retallar";
+"Cut “%@”" = "Retallar “%@”";
+"Cut %u Items" = "Retallar %u ítems";
+"Paste" = "Enganxar";
+"Paste %u Items" = "Enganxar %u ítems";
+"Copy" = "Copiar";
+
+"Show CutPaste buttons in Context Menus" = "Mostar  els botons de retallar i enganxar als menús contextuals";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Mostrar barra de progrés al Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Etiquetes de colors";
+"The last applied tag determines item's background color." = "L'última etiqueta aplicada determina el color de fons de l'ítem";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Fixar visor";
+"MenuItem:Close Tab" = "Tancar finestra";
+"MenuItem:New Native Tab" = "Nova pestanya nativa";
+"MenuItem:Close Native Tab" = "Tancar pestanya nativa";
+"MenuItem:Show Previous Native Tab" = "Mostrar pestanya nativa anterior";
+"MenuItem:Show Next Native Tab" = "Mostrar següent pestanya nativa";
+"MenuItem:New Tab" = "Nova pestanya";
+"MenuItem:Reopen Closed Tab" = "Reobrir pestanya tancada";
+"MenuItem:Close Window" = "Tancar finestra";
+"MenuItem:Toggle Dual Mode" = "Commnuta el model dual";
+"MenuItem:Narrow Tabs Bar" = "Barra de pestanyes estreta";
+"MenuItem:Select Previous Tab" = "Selecciona pestanya prèvia";
+"MenuItem:Select Next Tab" = "Seleccia següent pestanya";
+"MenuItem:Switch Active Panel" = "Cambia el panell actiu";
+"MenuItem:Folders on Top" = "Carpetes a primer pla";
+"MenuItem:Show System Files" = "Mostrar arxius de sistema";
+"MenuItem:Column View Auto Width" = "Autoajusta el tamany de les columnes";
+"MenuItem:Dock Progress Bar" = "Barra de progrès del Dock";
+"MenuItem:Template" = "Template"; /* this is just for development - don't translate */
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Mostrar arxius de sistema";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - versió sense registrar";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - Queda 1 dia - compri ara!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - Queden 2 dies - compri ara!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - Queden 3 dies - compri ara!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - Queden 4 dies - compri ara!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - Queden 5 dies - compri ara";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - Queden %d dies - compri ara!";
+"Close Tab" = "Tancar pestanya";
+"Toggle Dual Mode" = "Activar/desactivar mode dual";
+
+"New Tab" = "Nova pestanya"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "Fer servir una barrar de pestanyes estreta";
+"Open new tabs with previous location" = "Obrir noves pestanyes amb la ruta prèvia";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Fixar el  visor";
+"Show Visor" = "Mostar el sisor";
+"Hide Visor" = "Ocultar el visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "finestra global invocada per una drecera que apareix desde sota";
+"Visor Feature" = "Característica del visor";
+"Activation:" = "Activació:";
+"Show on all Spaces" = "Mostrar a tots Spaces";
+"Animation:" = "Animació:";
+"Control:" = "Control:";
+"Slide Window" = "Moure la finetra";
+"Fade Window" = "Esvair la finestra";
+"Show on top of the Dock" = "Mostrar sobre el Dock";
+"Free Form Window" = "Finestra redimensionable";
+"Hide on ESC" = "ESC per ocultar";
+"Screen:" = "Pantalla:";
+"Screen" = "Pantalla";
+"Screen with Mouse Cursor" = "Pantalla amb el cursor del ratolí";

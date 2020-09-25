@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "এই অপশনটি টোটালফাইন্ডারে ট্যাব মডিউলটি অকার্যকর করে রাখবে। ফলস্বরূপ ডুয়েল মোডে ভাইসর কার্যক্রমটিও অকেজো হয়ে যাবে। তুমি ম্যভরিক্সের নিজস্ব ট্যব সহ টোটালফাইন্ডারের অন্যান্য কার্যক্রম ব্যবহার করতে চাইলে এটি বন্ধ করতে পারো।\n\nএই কার্যক্রমের জন্য ফাইন্ডার নতুন করে চালু হবে!\nদ্রষ্টব্য: ফাইন্ডার নুতন করে চালু হওয়ার আগে তুমি ফাইন্ডারের চলন্ত কার্যক্রম (যেমন ফাইল কপি ইত্যাদি) শেষ করে নাও।";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "এটা ট্যাব, ডুয়েল মোড ভাইসর বন্ধ করে ফেলবে। ফাইন্ডার পুনরায় চালু করতে হবে।";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "সাইডবারের চিহ্নগুলি রঙ্গিন দেখাবে";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "কলাম ভিউতে প্রসস্থতা সয়ংক্রিয়ভাবে বিন্যস্ত হবে";
+"Limit maximum column width to" = "কলামের সর্বোচ্চ প্রসস্থতা হবে";
+"Limit minimum column width to" = "কলামের সর্বোনিম্ন প্রসস্থতা হবে";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "পাথ কপি";
+"POSIX Path" = "POSIX পাথ";
+"URL" = "URL";
+"Windows Path" = "উইন্ডোজ পাথ";
+"HFS Path" = "HFS পাথ";
+"Terminal Path" = "টার্মিনাল পাথ";
+"UNC Path" = "UNC পাথ";
+
+"Allow path copying from Context Menus" = "কনটেক্সট মেন্যু থেকে পাথ কপি করা যাবে";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "এডিট";
+"Cut" = "কাট্";
+"Cut “%@”" = "“%@” কাট্";
+"Cut %u Items" = "%u কাট্";
+"Paste" = "পেস্ট";
+"Paste %u Items" = "%u পেস্ট";
+"Copy" = "কপি";
+
+"Show CutPaste buttons in Context Menus" = "কনটেক্সট মেন্যুতে কাট-পেস্ট বাটন দেখা যাবে";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "ডকে ক্রমবৃদ্ধি দেখাবে";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "পিন ভাইসর";
+"MenuItem:Close Tab" = "ট্যাব বন্ধ";
+"MenuItem:New Native Tab" = "নতুন ন্যাটিভ ট্যাব নাও";
+"MenuItem:Close Native Tab" = "ন্যাটিভ ট্যাব বন্ধ করবে";
+"MenuItem:Show Previous Native Tab" = "পূর্ববর্তী ন্যাটিভ ট্যাব দেখাবে";
+"MenuItem:Show Next Native Tab" = "পরবর্তী ন্যাটিভ ট্যাব দেখাবে";
+"MenuItem:New Tab" = "নতুন ট্যাব";
+"MenuItem:Reopen Closed Tab" = "বন্ধকৃত ট্যাব আবার খুলবে";
+"MenuItem:Close Window" = "উইন্ডো বন্ধ করো";
+"MenuItem:Toggle Dual Mode" = "ডুয়েল মোড টগল করবে";
+"MenuItem:Narrow Tabs Bar" = "ট্যাব বার চিকর করবে";
+"MenuItem:Select Previous Tab" = "পূর্ববর্তী ট্যাব নির্বাচন করবে";
+"MenuItem:Select Next Tab" = "পরবর্তী ট্যাব নির্বাচন করবে";
+"MenuItem:Switch Active Panel" = "সক্রিয় প্যানেল পরিবর্তন করবে";
+"MenuItem:Folders on Top" = "ফোল্ডার উপরে থাকবে";
+"MenuItem:Show System Files" = "সিস্টেমের ফাইলগুলি দেখাবে";
+"MenuItem:Column View Auto Width" = "কলাম ভিউর সয়ংক্রিয় বিন্যাস";
+"MenuItem:Dock Progress Bar" = "ডকে ক্রমবৃদ্ধি";
+"MenuItem:Template" = "ট্যাম্প্লেট";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "সিস্টেমের ফাইলগুলি দেখাবে";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "টোটালফাইন্ডার - নিবন্ধিত হয়নি";
+"TotalFinder - 1 day left - buy now!" = "টোটালফাইন্ডার - ১ দিন বাকী - নিবন্ধন করো!";
+"TotalFinder - 2 days left - buy now!" = "টোটালফাইন্ডার - ২ দিন বাকী - নিবন্ধন করো!";
+"TotalFinder - 3 days left - buy now!" = "টোটালফাইন্ডার -  ৩ দিন বাকী - নিবন্ধন করো!";
+"TotalFinder - 4 days left - buy now!" = "টোটালফাইন্ডার -  ৪ দিন বাকী - নিবন্ধন করো!";
+"TotalFinder - 5 days left - buy now!" = "টোটালফাইন্ডার -  ৫ দিন বাকী - নিবন্ধন করো!";
+"TotalFinder - %d days left - buy now!" = "টোটালফাইন্ডার -  %d দিন বাকী - নিবন্ধন করো!";
+"Close Tab" = "ট্যাব বন্ধ";
+"Toggle Dual Mode" = "ডুয়েল মোড টগল করবে";
+
+"New Tab" = "নতুন ট্যাব"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "চিকন ট্যাব বার ব্যবহার করবে";
+"Open new tabs with previous location" = "আগের লোকেশনে নতুন ট্যাব খুলবে";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "পিন ভাইসর";
+"Show Visor" = "ভাইসর দেখাবে";
+"Hide Visor" = "ভাইসর লুকাবে";
+
+"Visor" = "ভাইসর";
+"a system-wide window sliding from the bottom on a hot-key" = "উইন্ডোটি হট-ট্রের নীচ দিয়ে স্লাইডিং হয়ে বের হবে সমস্থ সিস্টেম জুড়ে";
+"Visor Feature" = "ভাইসরের বৈশিষ্ঠ্য";
+"Activation:" = "সক্রিয়করণ:";
+"Show on all Spaces" = "সব স্পেসে দেখাবে";
+"Animation:" = "অ্যানিমেশন:";
+"Control:" = "কন্ট্রোল:";
+"Slide Window" = "স্লাইডার উইন্ডো";
+"Fade Window" = "উইন্ডো অদৃশ্য হবে";
+"Show on top of the Dock" = "ডকের উপরে দেখাবে";
+"Free Form Window" = "উইন্ডো থেকে আলাদা";
+"Hide on ESC" = "ESC চাপলে লুকাবে";
+"Screen:" = "স্ক্রিন:";
+"Screen" = "স্ক্রিন";
+"Screen with Mouse Cursor" = "মাউস কার্সার সহ স্ক্রিন";

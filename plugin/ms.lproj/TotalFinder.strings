@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mematikan modul tab dalam TotalFinder serta-merta. Fungsi mod dwi dan visor akan turut dimatikan. Ini mungkin diperlukan dalam Mavericks - gunakan tab Finder asal secara eksklusif sambil manfaatkan ciri-ciri TotalFinder yang lain.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mengaktifkan modul tab dalam TotalFinder serta-merta.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Ini akan mematikan tab, mod dwi dan visor. Finder perlu dimulakan semula.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Tunjuk ikon bar sisi dengan warna";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Sesuaikan lebar dalam Paparan Lajur secara automatik";
+"Limit maximum column width to" = "Hadkan maksimum lebar ruangan kepada";
+"Limit minimum column width to" = "Hadkan minimum lebar ruangan kepada";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Laluan Salin";
+"POSIX Path" = "Laluan POSIX";
+"URL" = "URL";
+"Windows Path" = "Laluan Windows";
+"HFS Path" = "Laluan HFS";
+"Terminal Path" = "Laluan Terminal";
+"UNC Path" = "Laluan UNC";
+
+"Allow path copying from Context Menus" = "Benarkan penyalinan laluan dari Menu Konteks";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Edit";
+"Cut" = "Potong";
+"Cut “%@”" = "Potong “%@”";
+"Cut %u Items" = "Potong %u Item";
+"Paste" = "Tampal";
+"Paste %u Items" = "Tampal %u Item";
+"Copy" = "Salin";
+
+"Show CutPaste buttons in Context Menus" = "Paparkan butang PotongTampal dalam Konteks Menu";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Paparkan bar perkembangan di Dok";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Label Berwarna";
+"The last applied tag determines item's background color." = "Tag terakhir digunakan menentukan warna latar belakang item ini.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Pin Visor";
+"MenuItem:Close Tab" = "Tutup Tab";
+"MenuItem:New Native Tab" = "Tab Asal Baru";
+"MenuItem:Close Native Tab" = "Tutup Tab Asal";
+"MenuItem:Show Previous Native Tab" = "Paparkan Tab Asal Terdahulu";
+"MenuItem:Show Next Native Tab" = "Paparkan Tab Asal Seterusnya";
+"MenuItem:New Tab" = "Tab Baru";
+"MenuItem:Reopen Closed Tab" = "Buka Semula Tab Yang Ditutup";
+"MenuItem:Close Window" = "Tutup Tetingkap";
+"MenuItem:Toggle Dual Mode" = "Togol Mod Dual";
+"MenuItem:Narrow Tabs Bar" = "Kecilkan Bar Tab";
+"MenuItem:Select Previous Tab" = "Pilih Tab Terdahulu";
+"MenuItem:Select Next Tab" = "Pilih Tab Seterusnya";
+"MenuItem:Switch Active Panel" = "Tukar Panel Aktif";
+"MenuItem:Folders on Top" = "Folder di Atas";
+"MenuItem:Show System Files" = "Papar Fail Sistem";
+"MenuItem:Column View Auto Width" = "Paparan Lajur Lebar Auto ";
+"MenuItem:Dock Progress Bar" = "Dok Bar Perkembangan";
+"MenuItem:Template" = "Template"; /* this is just for development - don't translate */
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Papar Fail Sistem";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - versi tidak berdaftar";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - tinggal 1 hari - beli sekarang!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - tinggal 2 hari - beli sekarang!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - tinggal 3 hari - beli sekarang!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - tinggal 4 hari - beli sekarang!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - tinggal 5 hari - beli sekarang!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - tinggal %d hari - buy now!";
+"Close Tab" = "Tutup Tab";
+"Toggle Dual Mode" = "Togol Mod Dual";
+
+"New Tab" = "Tab Baru"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "Gunakan Bar Tab kecil";
+"Open new tabs with previous location" = "Buka tab baru dengan lokasi terdahulu";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Pin Visor";
+"Show Visor" = "Papar Visor";
+"Hide Visor" = "Sembunyi Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "tetingkap untuk seluruh sistem dengan kesan gelongsor dari bawah pada kekunci penting";
+"Visor Feature" = "Ciri-ciri Visor";
+"Activation:" = "Pengaktifan:";
+"Show on all Spaces" = "Papar pada semua Space";
+"Animation:" = "Animasi:";
+"Control:" = "Kawalan:";
+"Slide Window" = "Gelongsorkan Tetingkap";
+"Fade Window" = "Pudarkan Tetingkap";
+"Show on top of the Dock" = "Paparkan di atas Dok";
+"Free Form Window" = "Tetingkap Bebas";
+"Hide on ESC" = "Sembunyi pada ESC";
+"Screen:" = "Skrin:";
+"Screen" = "Skrin";
+"Screen with Mouse Cursor" = "Skrin dengan Kursor Tetikus";

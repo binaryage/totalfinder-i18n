@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "該選項會禁用 TotalFinder 的分頁模組，雙窗口模式以及滑入窗口功能也將被禁用。如果你需要使用 Mavericks 裏 Finder 的原生分頁功能，並同時使用 TotalFinder 的其他功能， 該選項可能有用。\n\n該操作需要重啓 Finder！\n註：在重啓前請先等待現有的 Finder 任務完成（如文件複製或移動）。";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "該選項會啓用 TotalFinder 的分頁模組。\n\n該操作需要重啓 Finder！\n註：在重啓前請先等待現有的 Finder 任務完成（如文件複製或移動）。";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "這會禁用分頁、雙窗口模式、滑入窗口等功能。Finder 亦需要重啓。";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "以彩色圖示代替側欄黑白圖示";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "於欄狀檢視時自動調較欄寬";
+"Limit maximum column width to" = "限制最大欄寬至";
+"Limit minimum column width to" = "限制最小欄寬至";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "複製路徑";
+"POSIX Path" = "POSIX 路徑";
+"URL" = "URL";
+"Windows Path" = "Windows 路徑";
+"HFS Path" = "HFS 路徑";
+"Terminal Path" = "Terminal 路徑";
+"UNC Path" = "UNC 路徑";
+
+"Allow path copying from Context Menus" = "允許從右鍵選單複製路徑";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "編輯";
+"Cut" = "剪下";
+"Cut “%@”" = "剪下 “%@”";
+"Cut %u Items" = "剪下 %u 個項目";
+"Paste" = "貼上";
+"Paste %u Items" = "貼上 %u 個項目";
+"Copy" = "複製";
+
+"Show CutPaste buttons in Context Menus" = "在右鍵選單顯示剪下和貼上按鈕";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "在 Dock 中顯示進度條";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "顏色標籤";
+"The last applied tag determines item's background color." = "最後套用的標籤將決定其項目的背景顏色。";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "固定滑入視窗:";
+"MenuItem:Close Tab" = "關閉分頁";
+"MenuItem:New Native Tab" = "新增同頁分頁";
+"MenuItem:Close Native Tab" = "關閉同頁分頁";
+"MenuItem:Show Previous Native Tab" = "顯示上一個同頁分頁";
+"MenuItem:Show Next Native Tab" = "顯示下一個同頁分頁";
+"MenuItem:New Tab" = "新增分頁";
+"MenuItem:Reopen Closed Tab" = "重開關閉的分頁";
+"MenuItem:Close Window" = "關閉視窗";
+"MenuItem:Toggle Dual Mode" = "切換雙視窗模式";
+"MenuItem:Narrow Tabs Bar" = "較窄分頁列";
+"MenuItem:Select Previous Tab" = "選取上一個分頁";
+"MenuItem:Select Next Tab" = "選取下一個分頁";
+"MenuItem:Switch Active Panel" = "交替活動版面";
+"MenuItem:Folders on Top" = "資料夾置頂";
+"MenuItem:Show System Files" = "顯示系統檔案";
+"MenuItem:Column View Auto Width" = "以行狀檢視並自動調較行寬";
+"MenuItem:Dock Progress Bar" = "Dock 進度條";
+"MenuItem:Template" = "範本";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "顯示系統檔案";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - 未註冊版本";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 剩餘 1 天 - 立即購買！";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 剩餘 2 天 - 立即購買！";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 剩餘 3 天 - 立即購買！";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 剩餘 4 天 - 立即購買！";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 剩餘 5 天 - 立即購買！";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 剩餘 %d 天 - 立即購買！";
+"Close Tab" = "關閉分頁";
+"Toggle Dual Mode" = "切換雙視窗模式";
+
+"New Tab" = "新增分頁";
+"Use narrow Tabs Bar" = "使用較窄分頁列";
+"Open new tabs with previous location" = "於上一個位置開啟新分頁";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "固定滑入視窗:";
+"Show Visor" = "顯示滑入視窗";
+"Hide Visor" = "隱藏滑入視窗";
+
+"Visor" = "滑入視窗";
+"a system-wide window sliding from the bottom on a hot-key" = "以快捷鍵呼叫由螢幕底部滑入視窗";
+"Visor Feature" = "啟用滑入視窗";
+"Activation:" = "快捷鍵：";
+"Show on all Spaces" = "顯示於每個 Spaces 空間";
+"Animation:" = "動畫特效：";
+"Control:" = "控制：";
+"Slide Window" = "視窗滑入／滑出";
+"Fade Window" = "視窗淡入／淡出";
+"Show on top of the Dock" = "顯示在 Dock 頂層";
+"Free Form Window" = "自由調整視窗大小位置";
+"Hide on ESC" = "按 ESC 隱藏";
+"Screen:" = "顯示器：";
+"Screen" = "顯示器";
+"Screen with Mouse Cursor" = "有滑鼠鼠標的顯示器";

@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Tato volba vypne modul s taby v TotalFinderu. To bude mít za následek i vypnutí duálního módu a funkce visor. Tuto volbu můžete chtít aktivovat v systému Mavericks - budete používat standardní taby Finderu a při tom můžete využívat ostatních výhod TotalFinderu.\n\nPro dokončení této operace je nutné Finder restartovat!\nPoznámka: Před restartováním prosím ukončete všechny úlohy Finderu (jako kopírování nebo přesouvání souborů).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Tato volba zapne modul s taby v TotalFinderu.\n\nPro dokončení této operace je nutné Finder restartovat!\nPoznámka: Před restartováním prosím ukončete všechny úlohy Finderu (jako kopírování nebo přesouvání souborů).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Vypne taby, duální mód a funkci visor. Vyžaduje restart Finderu.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Zobrazit boční panel v barvách";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Rozšiřovat sloupce automaticky";
+"Limit maximum column width to" = "Omezit maximální šířku sloupce na";
+"Limit minimum column width to" = "Omezit minimální šířku sloupce na";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Kopírovat cestu";
+"POSIX Path" = "POSIX cesta";
+"URL" = "URL";
+"Windows Path" = "Windows cesta";
+"HFS Path" = "HFS cesta";
+"Terminal Path" = "Cesta pro terminál";
+"UNC Path" = "UNC cesta";
+
+"Allow path copying from Context Menus" = "Kopírování cesty z kontext menu";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Editovat";
+"Cut" = "Vyjmout";
+"Cut “%@”" = "Vyjmout “%@”";
+"Cut %u Items" = "Vyjmout %u položek";
+"Paste" = "Vložit";
+"Paste %u Items" = "Vložit %u položek";
+"Copy" = "Kopírovat";
+
+"Show CutPaste buttons in Context Menus" = "Vyjmout-vložit tlačítka v kontext menu";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Zobrazovat indikátor průběhu v Docku";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Barevné štítky";
+"The last applied tag determines item's background color." = "Poslední aplikovaná značka rozhodne barvu pozadí položky.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Přišpendlit";
+"MenuItem:Close Tab" = "Zavřít tab";
+"MenuItem:New Native Tab" = "Nový nativní tab";
+"MenuItem:Close Native Tab" = "Zavřít nativní tab";
+"MenuItem:Show Previous Native Tab" = "Zobrazit předchozí nativní ab";
+"MenuItem:Show Next Native Tab" = "Zobrazit následující nativní tab";
+"MenuItem:New Tab" = "Nový tab";
+"MenuItem:Reopen Closed Tab" = "Otevřít zavřený tab";
+"MenuItem:Close Window" = "Zavřít okno";
+"MenuItem:Toggle Dual Mode" = "Přepnout dualní panel";
+"MenuItem:Narrow Tabs Bar" = "Štíhlé taby";
+"MenuItem:Select Previous Tab" = "Předchozí tab";
+"MenuItem:Select Next Tab" = "Následující tab";
+"MenuItem:Switch Active Panel" = "Přepnout aktivní panel";
+"MenuItem:Folders on Top" = "Adresáře nahoru";
+"MenuItem:Show System Files" = "Zobrazit skryté";
+"MenuItem:Column View Auto Width" = "Automatické rozšířování sloupců";
+"MenuItem:Dock Progress Bar" = "Idikátor průběhu v Docku";
+"MenuItem:Template" = "Template";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Zobrazit skryté";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - neregistrovaná verze";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - zbývá 1 den - koupit teď!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - zbývají 2 dny - koupit teď!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - zbývají 3 dny - koupit teď!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - zbývají 4 dny - koupit teď!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - zbývá 5 dnů - koupit teď!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - zbývá %d dnů - koupit teď!";
+"Close Tab" = "Zavřít tab";
+"Toggle Dual Mode" = "Přepnout dualní panel";
+
+"New Tab" = "Nový tab";
+"Use narrow Tabs Bar" = "Štíhlé taby";
+"Open new tabs with previous location" = "Otevírat nové taby v předchozí lokaci";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Přišpendlit";
+"Show Visor" = "Aktivovat Visor";
+"Hide Visor" = "Deaktivovat Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "globální okno vyjíždějící zespodu na klávesovou zkratku";
+"Visor Feature" = "Funkcionalita Visor";
+"Activation:" = "Aktivace:";
+"Show on all Spaces" = "Zobrazit na všech plochách";
+"Animation:" = "Animace:";
+"Control:" = "Ovládání:";
+"Slide Window" = "Vyjíždět okno";
+"Fade Window" = "Zprůhlednit okno";
+"Show on top of the Dock" = "Zobrazit nad Dockem";
+"Free Form Window" = "FreeForm Okno";
+"Hide on ESC" = "Skrýt po ESC";
+"Screen:" = "Obrazovka:";
+"Screen" = "Obrazovka";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

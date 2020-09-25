@@ -1,9 +1,0 @@
-"Copy Path" = "Pfad kopieren";
-"POSIX Path" = "POSIX Pfad";
-"URL" = "URL";
-"Windows Path" = "Windows Pfad";
-"HFS Path" = "HFS Pfad";
-"Terminal Path" = "Terminal Pfad";
-"UNC Path" = "UNC Pfad";
-
-"Allow path copying from Context Menus" = "Erlaube Kopieren des Pfades im Kontextmenü";

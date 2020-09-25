@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "이 설정은 TotalFinder의 탭 모듈을 완전히 비활성화합니다. 그와 함께 듀얼 모드와 붙박이창 기능이 비활성화됩니다. Mavericks에서는 Finder의 네이티브 탭만을 사용하면서 TotalFinder의 다른 기능을 계속 사용할 수 있기 때문에 비활성화하는 것이 좋습니다.\n\n이 설정을 적용하려면 Finder를 재시작해야 합니다!\n참고: 복사나 이동 같은 모든 Finder 작업을 완료한 후에 재시작해 주세요.";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "이 설정은 TotalFinder의 탭 모듈을 완전히 비활성화합니다.\n\n이 설정을 적용하려면 Finder를 재시작해야 합니다!\n참고: 복사나 이동 같은 모든 Finder 작업을 완료한 후에 재시작해 주세요.";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "이 설정은 TotalFinder의 탭, 듀얼 모드, visor 기능을 완전히 비활성화합니다. Finder 재시작이 필요합니다.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "사이드바 아이콘을 컬러로 보기";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "목록 보기에서 너비를 자동으로 조절";
+"Limit maximum column width to" = "최대 열 너비 제한";
+"Limit minimum column width to" = "최소 열 너비 제한";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "경로 복사";
+"POSIX Path" = "POSIX 경로";
+"URL" = "URL";
+"Windows Path" = "윈도우 경로";
+"HFS Path" = "HFS 경로";
+"Terminal Path" = "터미널 경로";
+"UNC Path" = "UNC 경로";
+
+"Allow path copying from Context Menus" = "컨텍스트 메뉴에 파일 경로 복사 기능 추가";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "편집";
+"Cut" = "잘라내기";
+"Cut “%@”" = "“%@” 잘라내기";
+"Cut %u Items" = "%u개 항목 잘라내기";
+"Paste" = "붙여넣기";
+"Paste %u Items" = "%u개 항목 붙여넣기";
+"Copy" = "복사";
+
+"Show CutPaste buttons in Context Menus" = "컨텍스트 메뉴에 파일 잘라내기/붙여넣기 추가";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Dock에 진행 상황 막대 표시";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "색상화된 라벨";
+"The last applied tag determines item's background color." = "마지막으로 적용된 태그가 아이템의 배경색을 결정함";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Visor 고정";
+"MenuItem:Close Tab" = "탭 닫기";
+"MenuItem:New Native Tab" = "새 네이티브 탭";
+"MenuItem:Close Native Tab" = "네이티브 탭 닫기";
+"MenuItem:Show Previous Native Tab" = "이전 네이티브 탭 열기";
+"MenuItem:Show Next Native Tab" = "다음 네이티브 탭 열기";
+"MenuItem:New Tab" = "새 탭";
+"MenuItem:Reopen Closed Tab" = "닫은 탭 다시 열기";
+"MenuItem:Close Window" = "창 닫기";
+"MenuItem:Toggle Dual Mode" = "듀얼 모드 단축키";
+"MenuItem:Narrow Tabs Bar" = "탭 칸 세로폭 줄임";
+"MenuItem:Select Previous Tab" = "이전 탭 선택";
+"MenuItem:Select Next Tab" = "다음 탭 선택";
+"MenuItem:Switch Active Panel" = "활성 패널 전환";
+"MenuItem:Folders on Top" = "폴더를 목록 최상단에";
+"MenuItem:Show System Files" = "시스템 파일 보기";
+"MenuItem:Column View Auto Width" = "컬럼 폭 자동 조절";
+"MenuItem:Dock Progress Bar" = "Dock 진행 상황 막대";
+"MenuItem:Template" = "템플릿";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "시스템 파일 보기";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - 체험판";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 체험 기간이 1일 남았습니다 - 지금 구매하세요!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 체험 기간이 2일 남았습니다 - 지금 구매하세요!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 체험 기간이 3일 남았습니다 - 지금 구매하세요!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 체험 기간이 4일 남았습니다 - 지금 구매하세요!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 체험 기간이 5일 남았습니다 - 지금 구매하세요!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 체험 기간이 %d일 남았습니다 - 지금 구매하세요!";
+"Close Tab" = "탭 닫기";
+"Toggle Dual Mode" = "듀얼 모드 단축키";
+
+"New Tab" = "새 탭";
+"Use narrow Tabs Bar" = "탭 칸 세로폭 줄임";
+"Open new tabs with previous location" = "이전 위치에서 새 탭 열기";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Visor 고정";
+"Show Visor" = "Visor 보이기";
+"Hide Visor" = "Visor 감추기";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "단축키로 언제 어디서나 붙박이 형태의 Finder 창을 불러옵니다.";
+"Visor Feature" = "Visor 기능";
+"Activation:" = "활성화:";
+"Show on all Spaces" = "모든 Spaces에서 보이기";
+"Animation:" = "애니메이션:";
+"Control:" = "창 조절:";
+"Slide Window" = "슬라이드";
+"Fade Window" = "페이드";
+"Show on top of the Dock" = "Dock보다 위에 보이기";
+"Free Form Window" = "화면 가장자리에서 분리";
+"Hide on ESC" = "ESC 키로 숨기기";
+"Screen:" = "스크린:";
+"Screen" = "스크린";
+"Screen with Mouse Cursor" = "마우스 커서가 있는 스크린";

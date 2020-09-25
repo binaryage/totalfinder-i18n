@@ -1,9 +1,0 @@
-"Copy Path" = "Kopier sti";
-"POSIX Path" = "POSIX sti";
-"URL" = "URL";
-"Windows Path" = "Windows sti";
-"HFS Path" = "HFS sti";
-"Terminal Path" = "Terminal sti";
-"UNC Path" = "UNC sti";
-
-"Allow path copying from Context Menus" = "Tillad sti kopiering fra kontekstmenuer";

@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Bu seçenek TotalFinder'ın sekme modülünü tamamen devre dışı bırakacak. Bununla birlikte çift pencere ve vizör özellikleri de devre dışı kalacak. Mavericks'de bu tercih edilebilir - standart sekmeler kullanılarak TotalFinder'ın faydalı özelliklerinden yararlanmaya devam edebilirsiniz.\n\nBu işlem için Finder'ın yeniden başlatılması gerekmektedir!\nNot: Yeniden başlatmadan önce tüm Finder görevlerinizi (dosya kopyalama ve taşıma gibi) tamamlayın.";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Bu seçenek TotalFinder'ın sekmeler modülünü devreye alacak.\n\nBu işlem için Finder'ın yeniden başlatılması gerekmektedir!\nNot: Yeniden başlatmadan önce tüm Finder görevlerinizi (dosya kopyalama ve taşıma gibi) tamamlayın.";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Bu işlem sekmeleri, çift pencere ve vizör özelliklerini devre dışı bırakacak. Finder'ın yeniden başlatılması gerekmektedir.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Kenar çubuğundaki simgeleri renkli göster";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Sütun Görümü'nde genişlikleri otomatik ayarla";
+"Limit maximum column width to" = "Sütun genişliği üst sınırı";
+"Limit minimum column width to" = "Sütun genişliği alt sınırı";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Klasör yolunu kopyala";
+"POSIX Path" = "POSIX konumu";
+"URL" = "URL";
+"Windows Path" = "Windows Konumu";
+"HFS Path" = "HFS Konumu";
+"Terminal Path" = "Komut Satırı Konumu";
+"UNC Path" = "UNC Konumu";
+
+"Allow path copying from Context Menus" = "Açılır menüden klasör yolunu kopyalamaya izin ver";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Düzenle";
+"Cut" = "Kes";
+"Cut “%@”" = "“%@” Kes";
+"Cut %u Items" = "%u Nesneyi Kes";
+"Paste" = "Yapıştır";
+"Paste %u Items" = "%u Nesneyi Yapıştır";
+"Copy" = "Kopyala";
+
+"Show CutPaste buttons in Context Menus" = "Açılır menüde Kes/Yapıştır tuşlarını göster";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Dock'ta ilerleme durumunu göster";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Renkli Etiketler";
+"The last applied tag determines item's background color." = "Son seçilen etiket nesnenin arkaplan rengini belirlesin.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Vizörü Sabitle";
+"MenuItem:Close Tab" = "Sekmeyi Kapat";
+"MenuItem:New Native Tab" = "Yeni Standart Sekme";
+"MenuItem:Close Native Tab" = "Standart Sekmeyi Kapat";
+"MenuItem:Show Previous Native Tab" = "Önceki Standart Sekmeyi Seç";
+"MenuItem:Show Next Native Tab" = "Sonraki Standart Sekmeyi Seç";
+"MenuItem:New Tab" = "Yeni Sekme";
+"MenuItem:Reopen Closed Tab" = "Kapatılan Sekmeyi Yeniden Aç";
+"MenuItem:Close Window" = "Pencereyi Kapat";
+"MenuItem:Toggle Dual Mode" = "İkili Pencereyi Aç/Kapat";
+"MenuItem:Narrow Tabs Bar" = "Sekme Çubuğunu Daralt";
+"MenuItem:Select Previous Tab" = "Önceki Sekmeyi Seç";
+"MenuItem:Select Next Tab" = "Sonraki Sekmeyi Seç";
+"MenuItem:Switch Active Panel" = "Aktif Paneli Değiştir";
+"MenuItem:Folders on Top" = "Klasörleri En Üstte Göster";
+"MenuItem:Show System Files" = "Sistem Dosyalarını Göster";
+"MenuItem:Column View Auto Width" = "Otomatik Genişlikli Sütun Görünümü";
+"MenuItem:Dock Progress Bar" = "Dock İlerleme Durumu";
+"MenuItem:Template" = "Şablon";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Sistem dosyalarını göster";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - Lisanssız sürüm";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 gün kaldı - şimdi satın al!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 gün kaldı - şimdi satın al!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 gün kaldı - şimdi satın al!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 gün kaldı - şimdi satın al!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 gün kaldı - şimdi satın al!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d gün kaldı - şimdi satın al!";
+"Close Tab" = "Sekmeyi Kapat";
+"Toggle Dual Mode" = "Çift Pencereyi Aç/Kapat";
+
+"New Tab" = "Yeni Sekme";
+"Use narrow Tabs Bar" = "Dar sekme çubuğu kullan";
+"Open new tabs with previous location" = "Yeni sekmeleri bir önceki konumda aç";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Vizörü Sabitle";
+"Show Visor" = "Vizörü Göster";
+"Hide Visor" = "Vizörü Gizle";
+
+"Visor" = "Vizör";
+"a system-wide window sliding from the bottom on a hot-key" = "Sistem genelinde bir kısayol ile alttan kayarak açılan pencere";
+"Visor Feature" = "Vizör Özelliği";
+"Activation:" = "Etkinleştirme:";
+"Show on all Spaces" = "Tüm masaüstlerinde göster";
+"Animation:" = "Hareket:";
+"Control:" = "Kontrol:";
+"Slide Window" = "Pencereyi Kaydır";
+"Fade Window" = "Pencereyi Gizle";
+"Show on top of the Dock" = "Dock'un üstünde göster";
+"Free Form Window" = "Serbest Biçimli Pencere";
+"Hide on ESC" = "ESC ile gizle";
+"Screen:" = "Ekran:";
+"Screen" = "Ekran";
+"Screen with Mouse Cursor" = "Fare imlecinin olduğu ekran";

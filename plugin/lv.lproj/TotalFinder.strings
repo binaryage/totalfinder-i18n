@@ -85,3 +85,146 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ši papildizvēle atspējos cilnes moduli TotalFinder programmā. Pilnīgam efektam paralēlāis režīms un visor režīms tiks atslēgts. Šī funkcionalitāte ir vēlame Mavericks operētājsistēmas versijā  - izmantot noklusētās Finder programmas cilnes un saglabāt ieguvumus no pārējām TotalFinder iespējām.\n\nLai pabeigtu šo darbību Finder programma ir jāpārstartē!\nPiezīme: Pirms Finder programmas pārstartēšanas lūdzu pabeidziet visas uzsāktās operācijas (failu kopēšanas vai pārvietošanas darbības).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ši papildizvēle ieslēgs cilnes moduli TotalFinder programmā.\n\nLai pabeigtu šo darbību Finder programma ir jāparstartē.\nPiezīme: Pirms Finder programmas pārstartēšanas lūdzu pabeidziet visas uzsāktās operācijas (failu kopēšanas vai pārvietošanas darbības).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Šī darbīiba atspējos cilnes, paralēlo režīmu un visor efektu. Finder pārstartēšana ir nepieciešama.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Parādīt krāsainas sānjoslas ikonas";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automātiski pielāgot platumu Kolonnu skatā";
+"Limit maximum column width to" = "Limitēt maksimālo kolonnu platumu uz";
+"Limit minimum column width to" = "Limitēt minimālo kolonny platumu uz";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Kopēt ceļu";
+"POSIX Path" = "POSIX ceļš";
+"URL" = "URL";
+"Windows Path" = "Windows ceļš";
+"HFS Path" = "HFS ceļš";
+"Terminal Path" = "Termināļa ceļš";
+"UNC Path" = "UNC ceļš";
+
+"Allow path copying from Context Menus" = "Atļaut ceļa kopēšanu no Konteksta izvēlness";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Edit";
+"Cut" = "Cut";
+"Cut “%@”" = "Cut “%@”";
+"Cut %u Items" = "Cut %u Items";
+"Paste" = "Paste";
+"Paste %u Items" = "Paste %u Items";
+"Copy" = "Copy";
+
+"Show CutPaste buttons in Context Menus" = "Parādīt Cutpaste buttons iekš Konteksta izvēlnes";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Parādīt progresa indikatoru dokā";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Krāsainas kolonnu etiķetes";
+"The last applied tag determines item's background color." = "Pēdējā apstiprinātā etiķete nosaka vienuma fona krāsu.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Pin Visor";
+"MenuItem:Close Tab" = "Close Tab";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "Close Window";
+"MenuItem:Toggle Dual Mode" = "Toggle Dual Mode";
+"MenuItem:Narrow Tabs Bar" = "Narrow Tabs Bar";
+"MenuItem:Select Previous Tab" = "Select Previous Tab";
+"MenuItem:Select Next Tab" = "Select Next Tab";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "Folders on Top";
+"MenuItem:Show System Files" = "Show System Files";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Template" = "Template"; /* this is just for development - don't translate */
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Show System Files";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - unregistered version";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 day left - buy now!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 days left - buy now!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 days left - buy now!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 days left - buy now!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 days left - buy now!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d days left - buy now!";
+"Close Tab" = "Close Tab";
+"Toggle Dual Mode" = "Toggle Dual Mode";
+
+"New Tab" = "New Tab"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "Use narrow Tabs Bar";
+"Open new tabs with previous location" = "Open new tabs with previous location";
+
+/* preferences */
+"Freelance Windows" = "Freelance Windows";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Pin Visor";
+"Show Visor" = "Show Visor";
+"Hide Visor" = "Hide Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "a system-wide window sliding from the bottom on a hot-key";
+"Visor Feature" = "Visor Feature";
+"Activation:" = "Activation:";
+"Show on all Spaces" = "Show on all Spaces";
+"Animation:" = "Animation:";
+"Control:" = "Control:";
+"Slide Window" = "Slide Window";
+"Fade Window" = "Fade Window";
+"Show on top of the Dock" = "Show on top of the Dock";
+"Free Form Window" = "Free Form Window";
+"Hide on ESC" = "Hide on ESC";
+"Screen:" = "Screen:";
+"Screen" = "Screen";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

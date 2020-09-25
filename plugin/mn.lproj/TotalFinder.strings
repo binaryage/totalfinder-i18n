@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Show sidebar icons in color";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatically adjust widths in Column View";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Замыг хуулах";
+"POSIX Path" = "POSIX зам";
+"URL" = "URL";
+"Windows Path" = "Windows зам";
+"HFS Path" = "HFS зам";
+"Terminal Path" = "Терминалын зам";
+"UNC Path" = "UNC Path";
+
+"Allow path copying from Context Menus" = "Баруун товчоор файлын замыг хуулах";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Өөрчлөх";
+"Cut" = "Зөөх";
+"Cut “%@”" = "Зөөх “%@”";
+"Cut %u Items" = "Зөөх - %u зүйлс";
+"Paste" = "Паст";
+"Paste %u Items" = "Паст - %u зүйлс";
+"Copy" = "Хуулах";
+
+"Show CutPaste buttons in Context Menus" = "Зөөх, Паст товчнуудыг баруун товчид харуулах";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Show progress bar in the Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Visor хатгах";
+"MenuItem:Close Tab" = "Tab хаах";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "Цонх хаах";
+"MenuItem:Toggle Dual Mode" = "Дуал горим";
+"MenuItem:Narrow Tabs Bar" = "Нарийн таб";
+"MenuItem:Select Previous Tab" = "Өмнөх таб сонгох";
+"MenuItem:Select Next Tab" = "Дараагийн таб сонгох";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "Хавтасууд дээр харагдах";
+"MenuItem:Show System Files" = "Системийн файлыг харуулах";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Template" = "Template";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Системийн файлыг харуулах";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - бүртгэлгүй хувилбар";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 хоног үлдлээ - худалдаж ав!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 хоног үлдлээ - худалдаж ав!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 хоног үлдлээ - худалдаж ав!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 хоног үлдлээ - худалдаж ав!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 хоног үлдлээ - худалдаж ав!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d хоног үлдлээ - худалдаж ав!";
+"Close Tab" = "Tab хаах";
+"Toggle Dual Mode" = "Дуал горим";
+
+"New Tab" = "New Tab";
+"Use narrow Tabs Bar" = "Нарийн таб бар";
+"Open new tabs with previous location" = "Open new tabs with previous location";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Visor хатгах";
+"Show Visor" = "Visor харуулах";
+"Hide Visor" = "Visor нуух";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "бүх цонхны хөдөлгөөнд өөрчлөлт оруулна";
+"Visor Feature" = "Visor өөрчлөлтүүд";
+"Activation:" = "Идэвхижүүлэлт:";
+"Show on all Spaces" = "Бүх Space-д харуулах";
+"Animation:" = "Хөдөлгөөн:";
+"Control:" = "Удирдлага:";
+"Slide Window" = "Цонх шилжих";
+"Fade Window" = "Цонх уусах";
+"Show on top of the Dock" = "Dock-н дээр харуулах";
+"Free Form Window" = "FreeForm цонх";
+"Hide on ESC" = "ESC нуух";
+"Screen:" = "Дэлгэц:";
+"Screen" = "Screen";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

@@ -1,9 +1,0 @@
-"Copy Path" = "Замыг хуулах";
-"POSIX Path" = "POSIX зам";
-"URL" = "URL";
-"Windows Path" = "Windows зам";
-"HFS Path" = "HFS зам";
-"Terminal Path" = "Терминалын зам";
-"UNC Path" = "UNC Path";
-
-"Allow path copying from Context Menus" = "Баруун товчоор файлын замыг хуулах";

@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Vis sidebjælke ikoner i farver";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Juster automatisk bredder i Kolonne-visning";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Kopier sti";
+"POSIX Path" = "POSIX sti";
+"URL" = "URL";
+"Windows Path" = "Windows sti";
+"HFS Path" = "HFS sti";
+"Terminal Path" = "Terminal sti";
+"UNC Path" = "UNC sti";
+
+"Allow path copying from Context Menus" = "Tillad sti kopiering fra kontekstmenuer";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Rediger";
+"Cut" = "Klip";
+"Cut “%@”" = "Klip “%@”";
+"Cut %u Items" = "Klip %u emner";
+"Paste" = "Sæt ind";
+"Paste %u Items" = "Indsæt %u emner";
+"Copy" = "Kopier";
+
+"Show CutPaste buttons in Context Menus" = "Vis klip/sæt ind-knapper i kontekstmenuer";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Vis statuslinje i Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Fastgør Visor";
+"MenuItem:Close Tab" = "Luk fane";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "Ny fane";
+"MenuItem:Reopen Closed Tab" = "Åbn lukkede fane igen";
+"MenuItem:Close Window" = "Luk vindue";
+"MenuItem:Toggle Dual Mode" = "Skift Dual-mode";
+"MenuItem:Narrow Tabs Bar" = "Indsnæver fanebar";
+"MenuItem:Select Previous Tab" = "Gå til forrige fane";
+"MenuItem:Select Next Tab" = "Gå til næste fane";
+"MenuItem:Switch Active Panel" = "Skift aktivt panel";
+"MenuItem:Folders on Top" = "Vis mapper øverst";
+"MenuItem:Show System Files" = "Vis System Filer";
+"MenuItem:Column View Auto Width" = "Kolonne-visning automatisk bredde";
+"MenuItem:Dock Progress Bar" = "Dock statuslinje";
+"MenuItem:Template" = "Skabelon";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Vis System Filer";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - ikke-registreret version";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dag tilbage - køb nu!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dage tilbage - køb nu!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dage tilbage - køb nu!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dage tilbage - køb nu!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dage tilbage - køb nu!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dage tilbage - køb nu!";
+"Close Tab" = "Luk fane";
+"Toggle Dual Mode" = "Skift Dual-mode";
+
+"New Tab" = "Ny fane";
+"Use narrow Tabs Bar" = "Brug smal fanebar";
+"Open new tabs with previous location" = "Open new tabs with previous location";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Fastgør Visor";
+"Show Visor" = "Vis Visor";
+"Hide Visor" = "Skjul Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "et system-bredt vindue der kommer ind fra bunden ved tryk på en knap";
+"Visor Feature" = "Visor Funktionen";
+"Activation:" = "Aktivation:";
+"Show on all Spaces" = "Vis på alle Spaces";
+"Animation:" = "Animation:";
+"Control:" = "Kontrol:";
+"Slide Window" = "Slide vindue";
+"Fade Window" = "Fade vindue";
+"Show on top of the Dock" = "Vis ovenpå Docken";
+"Free Form Window" = "Fri Form vindue";
+"Hide on ESC" = "Skjul via ESC";
+"Screen:" = "Skærm:";
+"Screen" = "Skærm";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

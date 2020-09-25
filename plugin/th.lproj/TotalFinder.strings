@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Show sidebar icons in color";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatically adjust widths in Column View";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "คัดลอกที่อยู่ของไฟล์";
+"POSIX Path" = "ที่อยู่ของ POSIX";
+"URL" = "URL";
+"Windows Path" = "ที่อยู่ของ Windows";
+"HFS Path" = "ที่อยู่ของ HFS";
+"Terminal Path" = "ที่อยู่ของ Terminal";
+"UNC Path" = "ที่อยู่ของ UNC";
+
+"Allow path copying from Context Menus" = "ยอมให้คัดลอกที่อยู่ไฟล์ได้จากเมนูคลิกขวา";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "แก้ไข";
+"Cut" = "ตัด";
+"Cut “%@”" = "ตัด “%@”";
+"Cut %u Items" = "ตัด %u รายการ";
+"Paste" = "วาง";
+"Paste %u Items" = "วาง %u รายการ";
+"Copy" = "คัดลอก";
+
+"Show CutPaste buttons in Context Menus" = "แสดงปุ่มตัดและคัดลอกในเมนูคลิกขวา";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "แสดงความคืบหน้าบน Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "ปักหมุด Visor";
+"MenuItem:Close Tab" = "ปิดแท็บ";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "ปิดหน้าต่าง";
+"MenuItem:Toggle Dual Mode" = "เรียกใช้หน้าต่างคู่";
+"MenuItem:Narrow Tabs Bar" = "แถบแท็บแบบเล็ก";
+"MenuItem:Select Previous Tab" = "เลือกแท็บก่อนหน้า";
+"MenuItem:Select Next Tab" = "เลือกแท็บถัดไป";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "แสดงโฟล์เดอร์ไว้ด้านบน";
+"MenuItem:Show System Files" = "แสดงไฟล์ระบบ";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Template" = "Template";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "แสดงไฟล์ระบบ";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - ทดลองใช้งาน";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - เหลือเวลา 1 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - เหลือเวลา 2 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - เหลือเวลา 3 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - เหลือเวลา 4 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - เหลือเวลา 5 วัน - ซื้อเดี๋ยวนี้!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - เหลือเวลา %d วัน - ซื้อเดี๋ยวนี้!";
+"Close Tab" = "ปิดแท็บ";
+"Toggle Dual Mode" = "เรียกใช้หน้าต่างคู่";
+
+"New Tab" = "เปิดแท็บใหม่";
+"Use narrow Tabs Bar" = "ใช้แถบแท็บแบบเล็ก";
+"Open new tabs with previous location" = "เปิดแท็บใหม่โดยที่อยู่ก่อนหน้านี้";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "ปักหมุด Visor";
+"Show Visor" = "แสดง Visor";
+"Hide Visor" = "ซ่อน Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "หน้าต่างสไลด์จากด้านล่าง สามารถเรียกจากคีย์ลัดได้เสมอ";
+"Visor Feature" = "ฟังก์ชั่น Visor";
+"Activation:" = "เรียกใช้:";
+"Show on all Spaces" = "แสดงในทุกๆ Space";
+"Animation:" = "แอนิเมชั่น:";
+"Control:" = "ควบคุม:";
+"Slide Window" = "หน้าต่างเลื่อนเข้ามา";
+"Fade Window" = "หน้าต่างค่อยๆ จาง";
+"Show on top of the Dock" = "แสดงเหนือ Dock";
+"Free Form Window" = "ปรับขนาดหน้าต่างอิสระ";
+"Hide on ESC" = "ซ่อนเมื่อกด ESC";
+"Screen:" = "จอ:";
+"Screen" = "จอ";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

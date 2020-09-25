@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "اظهر ايقونات الشريط الجانبي بالألوان";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "تعديل العرض بشكل تلقائي في الواجهة العامودية";
+"Limit maximum column width to" = "تقليل الحد الأقصى لعرض العمود ";
+"Limit minimum column width to" = "تقليل الحد الأدنى لعرض العمود";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "انسخ المسار";
+"POSIX Path" = "مسار POSIX";
+"URL" = "رابط";
+"Windows Path" = "مسار Windows";
+"HFS Path" = "مسار HFS";
+"Terminal Path" = "مسار Terminal";
+"UNC Path" = "مسار UNC";
+
+"Allow path copying from Context Menus" = "السماح بنسخ المسار من القائمة";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "تحرير";
+"Cut" = "قص";
+"Cut “%@”" = "قص “%@”";
+"Cut %u Items" = "قص %u عنصر";
+"Paste" = "Paste";
+"Paste %u Items" = "لصق %u عنصر";
+"Copy" = "نسخ";
+
+"Show CutPaste buttons in Context Menus" = "أظهر ازرار القص واللصق في القوائم";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "اظهر شريط التقدم في الـ Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "ثبت Visor";
+"MenuItem:Close Tab" = "اغلق علامة التبويب";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "علامة تبويب جديدة";
+"MenuItem:Reopen Closed Tab" = "إعادة فتح علامة التبويب";
+"MenuItem:Close Window" = "اغلق النافذة";
+"MenuItem:Toggle Dual Mode" = "غير وضع ثنائي الواجهة";
+"MenuItem:Narrow Tabs Bar" = "لوحة علامات تبويب ضيقة";
+"MenuItem:Select Previous Tab" = "اختر علامة التبويب السابقة";
+"MenuItem:Select Next Tab" = "اختر علامة التبويب التالية";
+"MenuItem:Switch Active Panel" = "بدل الواجهة الفعالة";
+"MenuItem:Folders on Top" = "المجلدات في الأعلى";
+"MenuItem:Show System Files" = "اظهر ملفات النظام";
+"MenuItem:Column View Auto Width" = "عرض تلقائي للواجهة العامودية";
+"MenuItem:Dock Progress Bar" = "شريط تقدم الـ Dock";
+"MenuItem:Template" = "قالب";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "اظهر ملفات النظام";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - نسخة غير مسجلة";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - بقي يوم واحد - اشتر الآن!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - بقي يومان - اشتر الآن!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - بقي ثلاثة أيام - اشتر الآن!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - بقي أربعة أيام - اشتر الآن!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - بقي خمسة أيام - اشتر الآن!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - بقي %d ايام - اشتر الآن!";
+"Close Tab" = "اغلق علامة التبويب";
+"Toggle Dual Mode" = "غير وضع ثنائي الواجهة";
+
+"New Tab" = "علامة تبويب جديدة"; /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "استعمل لوحة علامات تبويب ضيقة";
+"Open new tabs with previous location" = "افتح علامات تبويب جديدة بأماكن قديمة";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "ثبت Visor";
+"Show Visor" = "اظهر Visor";
+"Hide Visor" = "اخف Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "نافذة على مدار النظام تظهر من الأسفل بضغة زر";
+"Visor Feature" = "مميزات Visor";
+"Activation:" = "التنشيط:";
+"Show on all Spaces" = "أظهر على كل اسطح المكتب";
+"Animation:" = "طريقة الظهور:";
+"Control:" = "التحكم:";
+"Slide Window" = "انزلاق النافذة";
+"Fade Window" = "بهوت النافذة";
+"Show on top of the Dock" = "أظهر فوق شريط البرامج";
+"Free Form Window" = "نافذة حرة الشكل";
+"Hide on ESC" = " اخفاء بضغط زر ESC";
+"Screen:" = "شاشة:";
+"Screen" = "الشاشة";
+"Screen with Mouse Cursor" = "الشاشة باستخدام مؤشر الماوس";

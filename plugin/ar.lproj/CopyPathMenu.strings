@@ -1,9 +1,0 @@
-"Copy Path" = "انسخ المسار";
-"POSIX Path" = "مسار POSIX";
-"URL" = "رابط";
-"Windows Path" = "مسار Windows";
-"HFS Path" = "مسار HFS";
-"Terminal Path" = "مسار Terminal";
-"UNC Path" = "مسار UNC";
-
-"Allow path copying from Context Menus" = "السماح بنسخ المسار من القائمة";

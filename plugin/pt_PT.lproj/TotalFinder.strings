@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Show sidebar icons in color";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Ajusta largura automaticamente na visualização por colunas";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Local de cópia";
+"POSIX Path" = "Local POSIX";
+"URL" = "URL";
+"Windows Path" = "Local Windows";
+"HFS Path" = "Local HFS";
+"Terminal Path" = "Local Terminal";
+"UNC Path" = "UNC Path";
+
+"Allow path copying from Context Menus" = "Permitir cópia do caminho em menus de contexto";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Editar";
+"Cut" = "Recortar";
+"Cut “%@”" = "Recortar “%@”";
+"Cut %u Items" = "Recortar %u itens";
+"Paste" = "Colar";
+"Paste %u Items" = "Colar %u itens";
+"Copy" = "Copiar";
+
+"Show CutPaste buttons in Context Menus" = "Exibir botões Recortar &amp; Colar nos menus de contexto";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Show progress bar in the Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Fixar Visor";
+"MenuItem:Close Tab" = "Fechar Aba";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "Nova Aba";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "Fechar Janela";
+"MenuItem:Toggle Dual Mode" = "Ativar Modo Duplo";
+"MenuItem:Narrow Tabs Bar" = "Barra de Abas Finas";
+"MenuItem:Select Previous Tab" = "Selecionar aba anterior";
+"MenuItem:Select Next Tab" = "Selecionar a próxima aba";
+"MenuItem:Switch Active Panel" = "Trocar Painel Ativo";
+"MenuItem:Folders on Top" = "Pastas no Topo";
+"MenuItem:Show System Files" = "Arquivos de Sistema";
+"MenuItem:Column View Auto Width" = "Largura Automática para Visualização por Coluna";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Template" = "Modelo";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Arquivos de Sistema";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - versão não registrada";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dia para testar - compre agora!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dias para testar - compre agora!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dias para testar - compre agora!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dias para testar - compre agora!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dias para testar - compre agora!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dias para testar - compre agora!";
+"Close Tab" = "Fechar Aba";
+"Toggle Dual Mode" = "Ativar Modo Duplo";
+
+"New Tab" = "Nova Aba";
+"Use narrow Tabs Bar" = "Utilizar barra com abas finas";
+"Open new tabs with previous location" = "Abrir novas abas com o local anterior";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Fixar Visor";
+"Show Visor" = "Mostrar Visor";
+"Hide Visor" = "Ocultar Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "uma janela deslizante que é ativada por um atalho";
+"Visor Feature" = "Funcionalidade do Visor";
+"Activation:" = "Ativação:";
+"Show on all Spaces" = "Mostrar em todos os Spaces";
+"Animation:" = "Animação:";
+"Control:" = "Controle:";
+"Slide Window" = "Deslizar Janela";
+"Fade Window" = "Escurecer Janela";
+"Show on top of the Dock" = "Exibir em cima do Dock";
+"Free Form Window" = "Janela de Forma Livre";
+"Hide on ESC" = "Fechar com ESC";
+"Screen:" = "Tela:";
+"Screen" = "Tela";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

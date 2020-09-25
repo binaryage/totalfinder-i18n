@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "TЦей варіант дозволить ефективно включити вкладки модуля в TotalFinder.\n\пдля цієї операції Finder повинен бути перезапущений.\ппримечание: до перезапуску будь ласка, все готово Finder завдання у процесі (наприклад, копіювання або переміщення файлів).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Показувати іконки бокової панелі в кольорі";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Автоматично налаштовувати ширину стовбців при перегляді у режимі колонок";
+"Limit maximum column width to" = "Обмежити максимальну ширину стовпця";
+"Limit minimum column width to" = "Обмежити мінімальну ширину стовпця";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Копіювати шлях";
+"POSIX Path" = "POSIX шлях";
+"URL" = "URL";
+"Windows Path" = "Windows шлях";
+"HFS Path" = "HFS шлях";
+"Terminal Path" = "Terminal шлях";
+"UNC Path" = "UNC шлях";
+
+"Allow path copying from Context Menus" = "Дозволити копіювати шляху з контекстного меню";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Редагувати";
+"Cut" = "Вирізати";
+"Cut “%@”" = "Вирізати «%@»";
+"Cut %u Items" = "Вирізати %u об'єкти(ів)";
+"Paste" = "Вставити";
+"Paste %u Items" = "Вставити %u об'єкти(ів)";
+"Copy" = "Копіювати";
+
+"Show CutPaste buttons in Context Menus" = "Показувати кнопки 'Вирізати-Вставити' в контекстному меню";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Показувати індикатор прогресу в Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Кольорові Мітки";
+"The last applied tag determines item's background color." = "Останній тег  застосовується Й визначає колір фону.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Закріпити";
+"MenuItem:Close Tab" = "Закрити вкладку";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "Нова вкладка";
+"MenuItem:Reopen Closed Tab" = "Знову відкрити закриту вкладку";
+"MenuItem:Close Window" = "Закрити вікно";
+"MenuItem:Toggle Dual Mode" = "Двопанельний режим";
+"MenuItem:Narrow Tabs Bar" = "Вузька панель вкладок";
+"MenuItem:Select Previous Tab" = "Вибрати попередню вкладку";
+"MenuItem:Select Next Tab" = "Вибрати наступну вкладку";
+"MenuItem:Switch Active Panel" = "Поміняти активну панель";
+"MenuItem:Folders on Top" = "Папки завжди згори";
+"MenuItem:Show System Files" = "Показати приховані файли";
+"MenuItem:Column View Auto Width" = "Вирівнювати стовбці по ширині";
+"MenuItem:Dock Progress Bar" = "Індикатор прогресу в Dock";
+"MenuItem:Template" = "Шаблон";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Показати приховані файли";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - не зареєстрована версія";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - залишився 1 день - придбати зараз!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - залишилось 2 дні - придбати зараз!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - залишилось 3 дні - придбати зараз!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - залишилось 4 дні - придбати зараз!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - залишилось 5 днів - придбати зараз!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - залишилось %d днів - придбати зараз!";
+"Close Tab" = "Закрити вкладку";
+"Toggle Dual Mode" = "Двопанельний режим";
+
+"New Tab" = "Нова вкладка";
+"Use narrow Tabs Bar" = "Вузька панель вкладок";
+"Open new tabs with previous location" = "Відкривати нові вкладки на пепередніх позиціях";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Закріпити";
+"Show Visor" = "Показати Visor";
+"Hide Visor" = "Сховати Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глобальне вікно, що з'являється знизу за гарячою клавішою";
+"Visor Feature" = "Використовувати Visor";
+"Activation:" = "Активація:";
+"Show on all Spaces" = "Показувати на усіх Робочих столах";
+"Animation:" = "Анімація:";
+"Control:" = "Керування:";
+"Slide Window" = "Вікно ковзає вниз";
+"Fade Window" = "Вікно розчиняється";
+"Show on top of the Dock" = "Показувати над Dock";
+"Free Form Window" = "Змінний розмір вікна";
+"Hide on ESC" = "Ховати вікно по ESC";
+"Screen:" = "Дисплей:";
+"Screen" = "Дисплей";
+"Screen with Mouse Cursor" = "Екран з курсором миші";

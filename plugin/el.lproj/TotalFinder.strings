@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Show sidebar icons in color";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatically adjust widths in Column View";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Αντιγραφή διεύθυνσης";
+"POSIX Path" = "POSIX διεύθυνση";
+"URL" = "URL";
+"Windows Path" = "Διεύθυνση παραθύρου ";
+"HFS Path" = "Διεύθυνση HFS";
+"Terminal Path" = "Διεύθυνση τερματικού";
+"UNC Path" = "UNC Path";
+
+"Allow path copying from Context Menus" = "Αντιγραφή Path με δεξί κλικ";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Επεξεργασία";
+"Cut" = "Αποκοπή";
+"Cut “%@”" = "Αποκοπή “%@”";
+"Cut %u Items" = "Αποκοπή %u αντικειμένων";
+"Paste" = "Επικόλληση";
+"Paste %u Items" = "Επικόλληση %u αντικειμένων";
+"Copy" = "Αντιγραφή";
+
+"Show CutPaste buttons in Context Menus" = "Αποκοπή-Επικόλληση στο δεξί κλικ";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Show progress bar in the Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Καρφίτσωμα επόπτη";
+"MenuItem:Close Tab" = "Κλείσιμο καρτέλας";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "Κλείσιμο παραθύρου";
+"MenuItem:Toggle Dual Mode" = "Εναλλαγή Dual mode";
+"MenuItem:Narrow Tabs Bar" = "Σμίκρυνση καρτελών";
+"MenuItem:Select Previous Tab" = "Επιλογή προηγούμενης καρτέλας";
+"MenuItem:Select Next Tab" = "Επιλογή επόμενης καρτέλας";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "Πρώτα οι φάκελοι";
+"MenuItem:Show System Files" = "Kρυφά αρχεία";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Template" = "Template";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Kρυφά αρχεία";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - αδήλωτη έκδοση";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 ημέρα έμεινε - αγορά!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 ημέρες έμειναν - αγορά!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 ημέρες έμειναν - αγορά!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 ημέρες έμειναν - αγορά!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 ημέρες έμειναν - αγορά!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d ημέρες έμειναν - αγορά!";
+"Close Tab" = "Κλείσιμο καρτέλας";
+"Toggle Dual Mode" = "Εναλλαγή Dual mode";
+
+"New Tab" = "New Tab";
+"Use narrow Tabs Bar" = "Σμίκρυνση καρτελών";
+"Open new tabs with previous location" = "Open new tabs with previous location";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Καρφίτσωμα επόπτη";
+"Show Visor" = "Εμφάνιση επόπτη";
+"Hide Visor" = "Απόκρυψη επόπτη";
+
+"Visor" = "Επόπτης";
+"a system-wide window sliding from the bottom on a hot-key" = "Kυλιόμενο παράθυρο από τη βάση της οθόνης";
+"Visor Feature" = "Επόπτης";
+"Activation:" = "Ενεργό:";
+"Show on all Spaces" = "Εμφάνιση σε όλα τα Spaces";
+"Animation:" = "Εφέ:";
+"Control:" = "Έλεγχος:";
+"Slide Window" = "Ολίσθηση παραθύρου";
+"Fade Window" = "Εξασθένιση παραθύρου";
+"Show on top of the Dock" = "Εμφάνιση πάνω από το Dock";
+"Free Form Window" = "Ελεύθερο παράθυρο";
+"Hide on ESC" = "Απόκρυψη με ESC";
+"Screen:" = "Οθόνη:";
+"Screen" = "Οθόνη";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

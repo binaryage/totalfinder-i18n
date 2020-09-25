@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "This will effectively disable tabs, dual mode and visor. Finder restart is needed.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Show sidebar icons in color";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatically adjust widths in Column View";
+"Limit maximum column width to" = "Limit maximum column width to";
+"Limit minimum column width to" = "Limit minimum column width to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Капіяваць Шлях";
+"POSIX Path" = "Шлях POSIX";
+"URL" = "Радок URL";
+"Windows Path" = "Шлях Windows";
+"HFS Path" = "Шлях HFS";
+"Terminal Path" = "Шлях Тэрмінала";
+"UNC Path" = "UNC Path";
+
+"Allow path copying from Context Menus" = "Дазваляць капіяванне шляху з кантэкстнага меню";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Змяніць";
+"Cut" = "Выразаць";
+"Cut “%@”" = "Выразаць «%@»";
+"Cut %u Items" = "Выразаць аб'екты: %u";
+"Paste" = "Уставіць";
+"Paste %u Items" = "Уставіць аб'екты: %u";
+"Copy" = "Капіяваць";
+
+"Show CutPaste buttons in Context Menus" = "Каманды рэдагавання ў выглядзе кнопак";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Show progress bar in the Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Замацаваць";
+"MenuItem:Close Tab" = "Зачыніць укладку";
+"MenuItem:New Native Tab" = "New Native Tab";
+"MenuItem:Close Native Tab" = "Close Native Tab";
+"MenuItem:Show Previous Native Tab" = "Show Previous Native Tab";
+"MenuItem:Show Next Native Tab" = "Show Next Native Tab";
+"MenuItem:New Tab" = "New Tab";
+"MenuItem:Reopen Closed Tab" = "Reopen Closed Tab";
+"MenuItem:Close Window" = "Зачыніць акно";
+"MenuItem:Toggle Dual Mode" = "Здвоены рэжым";
+"MenuItem:Narrow Tabs Bar" = "Вузкая панэль укладак";
+"MenuItem:Select Previous Tab" = "Выбраць папярэднюю ўкладку";
+"MenuItem:Select Next Tab" = "Выбраць наступную ўкладку";
+"MenuItem:Switch Active Panel" = "Switch Active Panel";
+"MenuItem:Folders on Top" = "Папкі зверху";
+"MenuItem:Show System Files" = "Схаваная файлы";
+"MenuItem:Column View Auto Width" = "Column View Auto Width";
+"MenuItem:Dock Progress Bar" = "Dock Progress Bar";
+"MenuItem:Template" = "Template";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Схаваная файлы";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - незарэгістраваная версія";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - застаўся 1 дзень - купіце зараз!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - засталося 2 дні - купіце зараз!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - засталося 3 дні - купіце зараз!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - засталося 4 дні - купіце зараз!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - засталося 5 дзен - купіце зараз!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - засталося %d днен - купіце зараз!";
+"Close Tab" = "Зачыніць укладку";
+"Toggle Dual Mode" = "Здвоены рэжым";
+
+"New Tab" = "New Tab";
+"Use narrow Tabs Bar" = "Вузкая панэль укладак";
+"Open new tabs with previous location" = "Open new tabs with previous location";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Замацаваць";
+"Show Visor" = "Паказаць Visor";
+"Hide Visor" = "Схаваць Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "Глябальнае акно, якое з'яўляецца знізу, па гарачай клавішы";
+"Visor Feature" = "Выкарыстоўваць Visor";
+"Activation:" = "Актывацыя:";
+"Show on all Spaces" = "Паказваць на ўсіх Spaces";
+"Animation:" = "Анімацыя:";
+"Control:" = "Кіраванне:";
+"Slide Window" = "З'язджанне";
+"Fade Window" = "Згасанне";
+"Show on top of the Dock" = "Паказвать над Dock";
+"Free Form Window" = "Адвольны памер акна";
+"Hide on ESC" = "Хаваць па ESC";
+"Screen:" = "Экран:";
+"Screen" = "Экран";
+"Screen with Mouse Cursor" = "Screen with Mouse Cursor";

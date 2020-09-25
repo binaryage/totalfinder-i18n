@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ova opcija će učinkovito onemogućiti module kartica u TotalFinder-u. U stvari biti će onemogućena funkcionalnost dual môda i vizira. To može biti poželjno kod Mavericka - korištenje izvornih Finder kartica isključivo uz zadržavanje prednosti drugih TotalFinder mogućnosti\n\nZa ovu mogućnost Finder se mora ponovno pokrenuti\nNapomena: Prije ponovnog pokretanja molimo završite sve Finder zadatke koji su u tijeku (kao što je kopiranje ili premještanje datoteka).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ova opcija će učinkovito omogućiti module kartica in TotalFinder-u.\n\nZa ovu mogućnost Finder se mora ponovno pokrenuti\nNapomena: Prije ponovnog pokretanja molimo završite sve Finder zadatke koji su u tijeku (kao što je kopiranje ili premještanje datoteka).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Ovo će učinkovito onemogućiti kartice, dual môd i vizir. Finder se mora ponovno pokrenuti.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Prikaži ikone u boji u rubnom stupcu";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatski prilagodi širinu stupca za pregled";
+"Limit maximum column width to" = "Ograniči maksimalnu širinu stupca na";
+"Limit minimum column width to" = "Ograniči minimalnu širinu stupca na";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Kopiraj putanju";
+"POSIX Path" = "POSIX putanja";
+"URL" = "URL";
+"Windows Path" = "Windows putanja";
+"HFS Path" = "HFS putanja";
+"Terminal Path" = "Terminal putanja";
+"UNC Path" = "UNC putanja";
+
+"Allow path copying from Context Menus" = "Dozvoli kopiranje putanje iz kontekstnog izbornika";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Uredi";
+"Cut" = "Izreži";
+"Cut “%@”" = "Izreži “%@”";
+"Cut %u Items" = "Izreži %u stavke";
+"Paste" = "Zalijepi";
+"Paste %u Items" = "Zalijepi %u stavke";
+"Copy" = "Kopiraj";
+
+"Show CutPaste buttons in Context Menus" = "Prikaži tipke Izreži&Zalijepi u kontekstnom izborniku";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Prikaži traku napretka u Docku";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Oznake u boji";
+"The last applied tag determines item's background color." = "Posljednji primijenjeni tag određuje boju pozadine stavke.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Zakači Vizir";
+"MenuItem:Close Tab" = "Zatvori karticu";
+"MenuItem:New Native Tab" = "Nova izvorna kartica";
+"MenuItem:Close Native Tab" = "Zatvori izvornu karticu";
+"MenuItem:Show Previous Native Tab" = "Prikaži prethodnu izvornu karticu";
+"MenuItem:Show Next Native Tab" = "Prikaži sljedeću izvornu karticu";
+"MenuItem:New Tab" = "Nova kartica";
+"MenuItem:Reopen Closed Tab" = "Ponovo otvori karticu";
+"MenuItem:Close Window" = "Zatvori prozor";
+"MenuItem:Toggle Dual Mode" = "Prebaci Dual môd";
+"MenuItem:Narrow Tabs Bar" = "Uska traka kartica";
+"MenuItem:Select Previous Tab" = "Odaberi prethodnu karticu";
+"MenuItem:Select Next Tab" = "Odaberi sljedeću karticu";
+"MenuItem:Switch Active Panel" = "Prebaci aktivni panel";
+"MenuItem:Folders on Top" = "Mape na vrhu";
+"MenuItem:Show System Files" = "Prikaz datoteka sustava";
+"MenuItem:Column View Auto Width" = "Automatska širina stupca za pregled";
+"MenuItem:Dock Progress Bar" = "Traka napretka u Docku";
+"MenuItem:Template" = "Predložak";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Prikaz datoteka sustava";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - neregistrirana verzija";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 1 dan preostao - kupi sada!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 2 dana preostalo - kupi sada!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 3 dana preostalo - kupi sada!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 4 dana preostalo - kupi sada!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 5 dana preostalo - kupi sada!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - %d dana preostalo - kupi sada!";
+"Close Tab" = "Zatvori karticu";
+"Toggle Dual Mode" = "Prebaci Dual môd";
+
+"New Tab" = "Nova kartica";
+"Use narrow Tabs Bar" = "Koristi usku traku kartica";
+"Open new tabs with previous location" = "Otvori nove kartice prethodnih lokacija";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Zakači Vizir";
+"Show Visor" = "Prikaži Vizir";
+"Hide Visor" = "Sakrij Vizir";
+
+"Visor" = "Vizir";
+"a system-wide window sliding from the bottom on a hot-key" = "glavni prozor izlazeći odozdo na tipkovnički prečac";
+"Visor Feature" = "Svojstva Vizira";
+"Activation:" = "Aktivacija:";
+"Show on all Spaces" = "Prikaz na svim površinama";
+"Animation:" = "Animacija:";
+"Control:" = "Kontrola:";
+"Slide Window" = "Pomak prozora";
+"Fade Window" = "Prozirnost prozora";
+"Show on top of the Dock" = "Prikaz na vrhu Docka";
+"Free Form Window" = "Plutajući prozor";
+"Hide on ESC" = "Sakrij kod ESC";
+"Screen:" = "Zaslon:";
+"Screen" = "Zaslon";
+"Screen with Mouse Cursor" = "Zaslon sa pokazivačem miša";

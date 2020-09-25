@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "このオプションは、TotalFinder のタブモジュールの働き実際に停止します。デュアルモードとバイザー機能も同様に事実上停止します。このオプションは、Marvericks で - TotalFinder の他の機能を利用しながら、Finder ネイティブのタブ機能を使用する際に必要とされます。\n\nこのオプションの変更を反映するために Finder を再起動しなくてはなりません!\n注意: 再起動に先立ち、(ファイルのコピーや移動といった) Finder で実行中のタスクを終えるようにして下さい。";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "このオプションは、TotalFinder のタブモジュールの働きを実際に開始します。\n\nこのオプションの変更を反映するために、Finder を再起動しなくてはなりません。\n注意: 再起動に先立ち、(ファイルのコピーや移動といった) Finder で実行中のタスクを終えるようにして下さい。";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "これは、タブ、デュアルモード、バイザー機能を実際に停止します。Finder の再起動が必要となります。";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "サイドバーのアイコンを色つきで表示";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "カラム表示で列幅を自動的に調整します";
+"Limit maximum column width to" = "列幅の最大上限値";
+"Limit minimum column width to" = "列幅の最小下限値";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "パスをコピー";
+"POSIX Path" = "POSIX パス";
+"URL" = "URL";
+"Windows Path" = "Windows パス";
+"HFS Path" = "HFS パス";
+"Terminal Path" = "ターミナルパス";
+"UNC Path" = "UNC Path";
+
+"Allow path copying from Context Menus" = "コンテキストメニューからパスのコピーを許可";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "編集";
+"Cut" = "カット";
+"Cut “%@”" = "“%@” をカット";
+"Cut %u Items" = "%u 項目をカット";
+"Paste" = "ペースト";
+"Paste %u Items" = "%u 項目をペースト";
+"Copy" = "コピー";
+
+"Show CutPaste buttons in Context Menus" = "コンテキストメニューにカットボタン等を表示";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Dock アイコンにプログレスバーを表示します";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "ラベルの背景に色をつける";
+"The last applied tag determines item's background color." = "最後に適用したタグによって、項目の背景色を決定します。";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "バイザー固定";
+"MenuItem:Close Tab" = "タブを閉じる";
+"MenuItem:New Native Tab" = "ネイティブなタブを新規で開く";
+"MenuItem:Close Native Tab" = "ネイティブなタブを閉じる";
+"MenuItem:Show Previous Native Tab" = "前のネイティブタブを表示";
+"MenuItem:Show Next Native Tab" = "次のネイティブタブを表示";
+"MenuItem:New Tab" = "新規タブ";
+"MenuItem:Reopen Closed Tab" = "閉じたタブを再度開く";
+"MenuItem:Close Window" = "ウィンドウを閉じる";
+"MenuItem:Toggle Dual Mode" = "デュアルモードの切替";
+"MenuItem:Narrow Tabs Bar" = "細いタブバーを使う";
+"MenuItem:Select Previous Tab" = "前のタブを選択";
+"MenuItem:Select Next Tab" = "次のタブを選択";
+"MenuItem:Switch Active Panel" = "アクティブなパネルを切り替え";
+"MenuItem:Folders on Top" = "フォルダを上部に表示";
+"MenuItem:Show System Files" = "システムファイルを表示";
+"MenuItem:Column View Auto Width" = "カラム表示で列幅を自動調整";
+"MenuItem:Dock Progress Bar" = "Dock プログレスバー";
+"MenuItem:Template" = "テンプレート";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "システムファイルを表示";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - 未登録";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - 試用期限の残りはあと 1 日です - 購入してください！";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 2 日です - 購入してください！";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 3 日です - 購入してください！";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 4 日です - 購入してください！";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - 試用期限の残りはあと 5 日です - 購入してください！";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - 試用期限の残りはあと %d 日です - 購入してください！";
+"Close Tab" = "タブを閉じる";
+"Toggle Dual Mode" = "デュアルモードの切替";
+
+"New Tab" = "新規タブ";   /* the tooltip of the "plus button" in tabs bar */
+"Use narrow Tabs Bar" = "タブバーを狭くする";
+"Open new tabs with previous location" = "以前の場所を新規のタブで開く";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "バイザー固定";
+"Show Visor" = "バイザーを表示";
+"Hide Visor" = "バイザーを隠す";
+
+"Visor" = "バイザー";
+"a system-wide window sliding from the bottom on a hot-key" = "ホットキーでいつでも画面下部にウィンドウを表示できます";
+"Visor Feature" = "バイザー機能を有効にする";
+"Activation:" = "起動:";
+"Show on all Spaces" = "すべてのSpacesの画面で表示";
+"Animation:" = "表示効果:";
+"Control:" = "制御:";
+"Slide Window" = "ウィンドウをスライド";
+"Fade Window" = "ウィンドウをフェードイン/アウト";
+"Show on top of the Dock" = "Dock よりも前面に表示";
+"Free Form Window" = "ウィンドウのサイズ変更を許可";
+"Hide on ESC" = "ESCキーで隠す";
+"Screen:" = "画面:";
+"Screen" = "スクリーン";
+"Screen with Mouse Cursor" = "マウスカーソルのあるスクリーン";

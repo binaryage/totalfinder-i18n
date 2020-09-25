@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ta opcja skutecznie wyłączy moduł zakładek w TotalFinder. W efekcie tryb podwójny i funkcja visor zostaną również wyłączone. To może być pożądane pod Mavericks - używanie wbudowanych zakładek Findera przy zachowaniu korzyści wynikających z innych funkcji TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "TTa opcja skutecznie włączy moduł zakładek w TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "To skutecznie wyłączy zakładki, tryb podwójny i visor. Wymagany restart findera.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Kolorowe ikony paska bocznego";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatycznie dopasuj szerokość kolumn w trybie listy";
+"Limit maximum column width to" = "Ogranicz szerokość kolumny do";
+"Limit minimum column width to" = "Minimalna szerokość kolumny to";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Kopiuj ścieżkę";
+"POSIX Path" = "Ścieżka POSIX";
+"URL" = "URL";
+"Windows Path" = "Ścieżka Windows";
+"HFS Path" = "Ścieżka HFS";
+"Terminal Path" = "Ścieżka terminala";
+"UNC Path" = "Ścieżka UNC";
+
+"Allow path copying from Context Menus" = "Pozwól kopiować ścieżkę z menu kontekstowego.";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Edytuj";
+"Cut" = "Wytnij";
+"Cut “%@”" = "Wytnij “%@”";
+"Cut %u Items" = "Wytnij %u rzeczy";
+"Paste" = "Wklej";
+"Paste %u Items" = "Wklej %u rzeczy";
+"Copy" = "Kopiuj";
+
+"Show CutPaste buttons in Context Menus" = "Pokazuj przyciski kopiuj/wklej w menu kontekstowym.";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Pokaż pasek postępu w Docku";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Kolorowe etykiety";
+"The last applied tag determines item's background color." = "Ostatni dodany tag określa kolor tła rzeczy.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Przypinanie:";
+"MenuItem:Close Tab" = "Zamknij kartę";
+"MenuItem:New Native Tab" = "Nowa natywna zakładka";
+"MenuItem:Close Native Tab" = "Zamknij natywną zakładkę";
+"MenuItem:Show Previous Native Tab" = "Pokaż poprzednią natywną zakładkę";
+"MenuItem:Show Next Native Tab" = "Pokaż nastepną natywną zakładkę";
+"MenuItem:New Tab" = "Nowa zakładka";
+"MenuItem:Reopen Closed Tab" = "Otwórz ponownie zamknięte zakładki";
+"MenuItem:Close Window" = "Zamknij okno";
+"MenuItem:Toggle Dual Mode" = "Wł/wył tryb podwójny";
+"MenuItem:Narrow Tabs Bar" = "Wąski pasek zakładek";
+"MenuItem:Select Previous Tab" = "Wybierz poprzednią zakładkę";
+"MenuItem:Select Next Tab" = "Wybierz następną zakładkę";
+"MenuItem:Switch Active Panel" = "Przełącz aktywny panel";
+"MenuItem:Folders on Top" = "Pokazuj foldery jako pierwsze";
+"MenuItem:Show System Files" = "Pokazuj pliki systemowe";
+"MenuItem:Column View Auto Width" = "Automatyczna szerokość kolumn w trybie listy ";
+"MenuItem:Dock Progress Bar" = "Pasek postępu Dock'a";
+"MenuItem:Template" = "szablon";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Pokazuj pliki systemowe";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - niezarejestrowana wersja";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - Pozostał jeden dzień - kup teraz!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - Pozostały dwa dni - kup teraz!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - Pozostały trzy dni - kup teraz!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - Pozostały cztery dni- kup teraz!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - Pozostało pięć - kup teraz!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - Pozostało %d dni - kup teraz!";
+"Close Tab" = "Zamknij kartę";
+"Toggle Dual Mode" = "Wł/wył tryb podwójny";
+
+"New Tab" = "Nowa zakładka";
+"Use narrow Tabs Bar" = "Użyj wąskiego paska zakładek";
+"Open new tabs with previous location" = "Otwieraj nową kartę z aktualną ścieżką";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Przypinanie:";
+"Show Visor" = "Pokaż Visor";
+"Hide Visor" = "Schowaj Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "okno wysunie się z dołu po naciśnięciu skrótu";
+"Visor Feature" = "Visor";
+"Activation:" = "Aktywacja:";
+"Show on all Spaces" = "Pokazuj na każdym biurku";
+"Animation:" = "Animacja:";
+"Control:" = "Kontrola:";
+"Slide Window" = "Wysuwanie";
+"Fade Window" = "Zanikanie";
+"Show on top of the Dock" = "Pokazuj nad Dockiem";
+"Free Form Window" = "Okno dowolnego rozmiaru";
+"Hide on ESC" = "Ukryj po naciśnięciu ESC";
+"Screen:" = "Ekran:";
+"Screen" = "Ekran";
+"Screen with Mouse Cursor" = "Ekran z kursorem myszy";

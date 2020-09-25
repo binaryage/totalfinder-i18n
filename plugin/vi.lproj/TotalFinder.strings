@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder. Để hiệu lực yêu cầu chế độ song song và visor cũng sẽ bị tắt theo. Điều này phải thực hiện trên Mavericks - sử dụng hạn chế tab Finder đơn thuần để có thể giữ lại các chức năng của TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại!\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại.\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Điều này sẽ tắt các tab ngay tức thì, chế độ song song hay visor. Finder cần được khởi động lại.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Hiển thị màu sắc các biểu tượng ở sidebar";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Tự động điều chỉnh độ rộng Cột Hiển thị";
+"Limit maximum column width to" = "Giới hạn tối đa độ rộng cột là";
+"Limit minimum column width to" = "Giới hạn tối thiểu độ rộng cột là";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Sao Chép Đường Dẫn";
+"POSIX Path" = "Đường Dẫn POSIX";
+"URL" = "URL";
+"Windows Path" = "Đường Dẫn Cửa Sổ";
+"HFS Path" = "Đường Dẫn HFS";
+"Terminal Path" = "Đường Dẫn Terminal";
+"UNC Path" = "Đường dẫn UNC";
+
+"Allow path copying from Context Menus" = "Cho phép đường dẫn sao chép từ menu ngữ cảnh";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Chỉnh Sửa";
+"Cut" = "Cắt";
+"Cut “%@”" = "Cắt “%@”";
+"Cut %u Items" = "Cắt %u Hạng Mục";
+"Paste" = "Dán";
+"Paste %u Items" = "Dán %u Hạng Mục";
+"Copy" = "Sao Chép";
+
+"Show CutPaste buttons in Context Menus" = "Hiển thị nút cắt và dán trong menu ngữ cảnh";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Hiển thị thanh Tiến trình ở thanh Dock";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Colored Labels";
+"The last applied tag determines item's background color." = "The last applied tag determines item's background color.";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Ghim Visor";
+"MenuItem:Close Tab" = "Đóng Tab";
+"MenuItem:New Native Tab" = "Tạo Tab gốc";
+"MenuItem:Close Native Tab" = "Đóng Tab gốc";
+"MenuItem:Show Previous Native Tab" = "Hiển thị Tab gốc phía trước";
+"MenuItem:Show Next Native Tab" = "Hiển thị Tab gốc đằng sau";
+"MenuItem:New Tab" = "Tab mới";
+"MenuItem:Reopen Closed Tab" = "Mở lại những tab đã đóng";
+"MenuItem:Close Window" = "Đóng Cửa Sổ";
+"MenuItem:Toggle Dual Mode" = "Kích hoạt chế độ hai của sổ";
+"MenuItem:Narrow Tabs Bar" = "Tab Hẹp";
+"MenuItem:Select Previous Tab" = "Chọn Tab Đằng Sau";
+"MenuItem:Select Next Tab" = "Chọn Tab Kế Tiếp";
+"MenuItem:Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
+"MenuItem:Folders on Top" = "Xếp thư mục trên cùng";
+"MenuItem:Show System Files" = "Hiển thị file hệ thống";
+"MenuItem:Column View Auto Width" = "Tự động độ rộng Cột Hiển thị";
+"MenuItem:Dock Progress Bar" = "Đính thanh Tiến trình";
+"MenuItem:Template" = "Các Mẫu";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Hiển thị file hệ thống";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - phiên bản chưa đăng ký";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - còn 1 ngày -mua ngay!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - còn 2 ngày - mua ngay!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - còn 3 ngày - ngay!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - còn 4 ngày - mua ngay!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - còn 5 ngày - nagy!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - còn %d ngày - mua ngay!";
+"Close Tab" = "Đóng Tab";
+"Toggle Dual Mode" = "Kích hoạt chế độ hai của sổ";
+
+"New Tab" = "Tab mới";
+"Use narrow Tabs Bar" = "Sử dụng tab hẹp";
+"Open new tabs with previous location" = "Mở nhiều tab mới với cùng vị trí cũ";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Ghim Visor";
+"Show Visor" = "Hiển thị Visor";
+"Hide Visor" = "Làm Ẩn Visor";
+
+"Visor" = "Visor";
+"a system-wide window sliding from the bottom on a hot-key" = "một hệ thống trươt từ dưới bằng phím nóng";
+"Visor Feature" = "Chức năng Visor";
+"Activation:" = "Kích hoạt:";
+"Show on all Spaces" = "Hiển thị tất cả khoản trắng";
+"Animation:" = "Chuyển động:";
+"Control:" = "Điều Khiển:";
+"Slide Window" = "Cửa sồ trượt";
+"Fade Window" = "Cửa sồ phai dần";
+"Show on top of the Dock" = "Hiển thị trên Dock";
+"Free Form Window" = "Cửa sồ biến đổi";
+"Hide on ESC" = "Ẩn khi bấm ESC";
+"Screen:" = "Màn hình:";
+"Screen" = "Màn Hình";
+"Screen with Mouse Cursor" = "Màn hình với con trỏ chuột";

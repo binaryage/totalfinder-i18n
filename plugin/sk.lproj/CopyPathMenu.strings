@@ -1,9 +1,0 @@
-"Copy Path" = "Skopírovať cestu";
-"POSIX Path" = "Cesta pre POSIX";
-"URL" = "URL";
-"Windows Path" = "Cesta pre Windows";
-"HFS Path" = "Cesta pre HFS";
-"Terminal Path" = "Cesta pre terminál";
-"UNC Path" = "Cesta pre UNC";
-
-"Allow path copying from Context Menus" = "Povoliť kopírovanie z kontextového menu";

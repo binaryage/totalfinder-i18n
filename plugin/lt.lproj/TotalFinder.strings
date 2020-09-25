@@ -85,3 +85,143 @@
 "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Šis pasirinkimas iš esmės išjungs kortelių modulį TotalFinder'yje. Pasekoje, dvigubas režimas ir skydelio funkcionalumas irgi bus išjungti. Tai gali būti trokštama Mavericks sistemoje: vartokite vien tik gimtines Finder korteles tuo pačiu išlaikydami kitas TotalFinder galimybes.\n\nŠiai operacijai Finder turi būti paleistas iš naujo!\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
 "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Šis pasirinkimas iš esmės įjungs kortelių modulį TotalFinder'yje.\n\nŠiai operacijai Finder turi būti paleistas iš naujo.\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Šitai iš esmės išjungs korteles, dvigubą režimą ir skydelį. Finder'io paleidimas iš naujo tam yra reikalingas.";
+
+
+/* --- ColorfulSidebar --- */
+
+"Show sidebar icons in color" = "Rodyti spalvotas šoninės panelės piktogramas";
+
+
+/* --- ColumnViewAutoWidth --- */
+
+"Automatically adjust widths in Column View" = "Automatiškai koreguoti plotį stulpelių vaizdo režime";
+"Limit maximum column width to" = "Riboti maksimalų stulpelio plotį iki";
+"Limit minimum column width to" = "Riboti minimalų stulpelio plotį iki";
+
+
+/* --- CopyPathMenu --- */
+
+"Copy Path" = "Kopijavimo kelias";
+"POSIX Path" = "POSIX kelias";
+"URL" = "URL";
+"Windows Path" = "Windows kelias";
+"HFS Path" = "HFS kelias";
+"Terminal Path" = "Terminalo kelias";
+"UNC Path" = "UNC kelias";
+
+"Allow path copying from Context Menus" = "Leisti kelio kopijavimą iš kontekstinių meniu";
+
+
+/* --- CutAndPaste --- */
+
+/* please note these items should be translated by exactly the same conventions */
+/* as Main Menu > Edit > Copy item works in your localized Finder */
+/* do not translate it directly from English but look how your menu looks in your language */
+/* sample screenshot of English version: http://dl.dropbox.com/u/559047/Screenshots/qigu.png */
+"Edit" = "Redaguoti";
+"Cut" = "Iškirpti";
+"Cut “%@”" = "Iškirpti “%@”";
+"Cut %u Items" = "Iškirpti %u elementus";
+"Paste" = "Įklijuoti";
+"Paste %u Items" = "Įklijuoti %u elementus";
+"Copy" = "Kopijuoti";
+
+"Show CutPaste buttons in Context Menus" = "Rodyti Iškirpti ir Įklijuoti mygtukus kontekstiniuose meniu";
+
+
+/* --- DockProgressBar --- */
+
+"Show progress bar in the Dock" = "Rodyti progreso juostą Dock'e";
+
+
+/* --- Labels --- */
+
+"Colored Labels" = "Spalvotos etiketės";
+"The last applied tag determines item's background color." = "Paskutinis pritaikytas žymeklis nustato objekto fono spalvą";
+
+
+/* --- MenuItems --- */
+
+/* 
+
+menu items are special - their keys are always prefixed with 'MenuItem:' (prefix)
+
+The goal is to distinguish them from normal string keys and 
+allow menu item localization to be independent from other strings.
+
+Without this (in English) some keys would be shared for menu items and preferences,
+and this would make it uneasy to localize them in other languages properly
+=> this will prevent it.
+
+*/
+
+"MenuItem:Pin Visor" = "Prisegti skydelį";
+"MenuItem:Close Tab" = "Užverti kortelę";
+"MenuItem:New Native Tab" = "Nauja gimtinė kortelė";
+"MenuItem:Close Native Tab" = "Uždaryti gimtinę kortelę";
+"MenuItem:Show Previous Native Tab" = "Rodyti ankstesnę gimtinę kortelę";
+"MenuItem:Show Next Native Tab" = "Rodyti kitą gimtinę kortelę";
+"MenuItem:New Tab" = "Nauja kortelė";
+"MenuItem:Reopen Closed Tab" = "Iš naujo atidaryti uždarytą kortelę";
+"MenuItem:Close Window" = "Uždaryti langą";
+"MenuItem:Toggle Dual Mode" = "Į(iš)jungti dvigubą režimą";
+"MenuItem:Narrow Tabs Bar" = "Siaura kortelių juosta";
+"MenuItem:Select Previous Tab" = "Pasirinkti ankstesnę kortelę";
+"MenuItem:Select Next Tab" = "Pasirinkti kitą kortelę";
+"MenuItem:Switch Active Panel" = "Pakeisti aktyvią panelę";
+"MenuItem:Folders on Top" = "Katalogai viršuje";
+"MenuItem:Show System Files" = "Rodyti sisteminius failus";
+"MenuItem:Column View Auto Width" = "Automatinis plotis stulpelių režime";
+"MenuItem:Dock Progress Bar" = "Dock'o progreso juosta";
+"MenuItem:Template" = "Šablonas";
+
+/* 
+note: These menu item localizations are taken from Finder's localization table:
+Enter Full Screen
+Exit Full Screen
+*/
+
+
+/* --- SystemFiles --- */
+
+"Show System Files" = "Rodyti sisteminius failus";
+
+
+/* --- Tabs --- */
+
+"TotalFinder - unregistered version" = "TotalFinder - Neregistruota versija";
+"TotalFinder - 1 day left - buy now!" = "TotalFinder - liko 1 diena - pirkite dabar!";
+"TotalFinder - 2 days left - buy now!" = "TotalFinder - liko 2 dienos - pirkite dabar!";
+"TotalFinder - 3 days left - buy now!" = "TotalFinder - liko 3 dienos - pirkite dabar!";
+"TotalFinder - 4 days left - buy now!" = "TotalFinder - liko 4 dienos - pirkite dabar!";
+"TotalFinder - 5 days left - buy now!" = "TotalFinder - liko 5 dienos - pirkite dabar!";
+"TotalFinder - %d days left - buy now!" = "TotalFinder - liko %d dienos - pirkite dabar!";
+"Close Tab" = "Užverti kortelę";
+"Toggle Dual Mode" = "Į(iš)jungti dvigubą režimą";
+
+"New Tab" = "Nauja kortelė";
+"Use narrow Tabs Bar" = "Naudoti siaurą kortelių juostą";
+"Open new tabs with previous location" = "Atidaryti naujas korteles su ankstesnėmis vietomis";
+
+
+/* --- Visor --- */
+
+"Pin Visor" = "Prisegti skydelį";
+"Show Visor" = "Rodyti skydelį";
+"Hide Visor" = "Slėpti skydelį";
+
+"Visor" = "Skydelis";
+"a system-wide window sliding from the bottom on a hot-key" = "visos sistemos plotyje iš apačios pakylantis langas prieinamas karšto klavišo paspaudimu";
+"Visor Feature" = "Skydelio galimybė";
+"Activation:" = "Aktyvavimas:";
+"Show on all Spaces" = "Rodyti visose erdvėse";
+"Animation:" = "Animacija:";
+"Control:" = "Kontrolė:";
+"Slide Window" = "Lango slydimas";
+"Fade Window" = "Lango blukimas";
+"Show on top of the Dock" = "Rodyti Dock'o viršuje";
+"Free Form Window" = "Laisvos formos langas";
+"Hide on ESC" = "Slėpti paspaudus ESC klavišą";
+"Screen:" = "Ekranas:";
+"Screen" = "Ekranas";
+"Screen with Mouse Cursor" = "Ekranas su pelės kursoriumi";

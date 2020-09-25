@@ -1,9 +1,0 @@
-"Copy Path" = "Laluan Salin";
-"POSIX Path" = "Laluan POSIX";
-"URL" = "URL";
-"Windows Path" = "Laluan Windows";
-"HFS Path" = "Laluan HFS";
-"Terminal Path" = "Laluan Terminal";
-"UNC Path" = "Laluan UNC";
-
-"Allow path copying from Context Menus" = "Benarkan penyalinan laluan dari Menu Konteks";
