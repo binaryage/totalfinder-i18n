@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require 'date'
 require 'rake'
+require 'date'
 require 'pp'
+require 'colored2'
 
 ################################################################################################
 # constants
@@ -17,19 +18,45 @@ SHELL_SOURCES = [File.join(ROOT_DIR, '..', 'shell'), File.join(ROOT_DIR, '..', '
 TOTALFINDER_PLUGINS_SOURCES = File.join(ROOT_DIR, '..', 'plugins')
 
 ################################################################################################
-# dependencies
-
-begin
-  require 'colored'
-rescue LoadError
-  raise 'You must "gem install colored" to use terminal colors'
-end
-
-################################################################################################
 # helpers
 
+# this is here just IntelliJ to understand colors
+class String
+  def self.blue
+    Colored2.blue(self)
+  end
+
+  def self.red
+    Colored2.red(self)
+  end
+
+  def self.yellow
+    Colored2.yellow(self)
+  end
+
+  def self.green
+    Colored2.green(self)
+  end
+
+  def self.cyan
+    Colored2.cyan(self)
+  end
+
+  def self.magenta
+    Colored2.magenta(self)
+  end
+
+  def self.bold
+    Colored2.bold(self)
+  end
+
+  def self.underline
+    Colored2.underline(self)
+  end
+end
+
 def die(msg, status=1)
-  puts "Error[#{status || $CHILD_STATUS}]: #{msg}".red
+  puts red("Error[#{status || $CHILD_STATUS}]: #{msg}").red
   exit status || $CHILD_STATUS
 end
 
@@ -91,13 +118,6 @@ def ack(dir, glob, regexps)
 end
 
 def stitch_broken_strings(strings)
-  # example of broken string
-  # "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be "
-  #                              "disabled as well. This may be desired under Mavericks - use native Finder tabs "
-  #                              "exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: "
-  #                              "Prior restarting please finish all Finder tasks in progress (like copying or "
-  #                              "moving files)."
-
   strings.map do |s|
     r = /([^\\])(".*?")/m
     s.gsub(r) do |_x|
@@ -106,7 +126,7 @@ def stitch_broken_strings(strings)
   end
 end
 
-def extract_menuitems_strings(folder)
+def extract_menu_strings(folder)
   dirs = Array(folder) # flexibility to pass multiple directories
   result = []
   dirs.each do |dir|
@@ -125,7 +145,7 @@ def extract_code_strings(folder)
   dirs.each do |dir|
     result.concat ack(dir, '*.{cpp,mm,m,h}', [
       /\$+\s*\(\s*@\s*"(.*?)"\s*\)/m,
-      /\$NSLocalizedString\s*\(\s*@\s*"(.*?)"\s*[,\)]/m
+      /\$NSLocalizedString\s*\(\s*@\s*"(.*?)"\s*[,)]/m
     ])
   end
 
@@ -201,7 +221,6 @@ def update_english_strings(project, src_folder, xibs, additional_strings=[])
   res = update_strings(old_strings, new_strings, target)
 
   removed_count = res['removed_count']
-  strings = res['output']
   count = res['count']
 
   puts " #{"-#{removed_count}".red}/#{count.to_s.blue} in #{target}"
@@ -209,16 +228,15 @@ def update_english_strings(project, src_folder, xibs, additional_strings=[])
   res
 end
 
-def update_english_menuitems_strings(src_folder)
+def update_english_menu_strings(src_folder)
   target = File.join(ENGLISH_LPROJ, 'MenuItems.strings')
 
-  new_strings = extract_menuitems_strings(src_folder).map { |s| "MenuItem:#{s}" }
+  new_strings = extract_menu_strings(src_folder).map { |s| "MenuItem:#{s}" }
   old_strings = parse_strings_file(target)
 
   res = update_strings(old_strings, new_strings, target)
 
   removed_count = res['removed_count']
-  strings = res['output']
   count = res['count']
 
   puts " #{"-#{removed_count}".red}/#{count.to_s.blue} in #{target}"
@@ -237,7 +255,7 @@ def categorize_xibs(plugins, dir=PLUGIN_RESOURCES_DIR)
   Dir.glob(File.join(dir, '*.xib')) do |file|
     name = File.basename(file, '.xib')
     # does the name begin with some plugin name?
-    plugin = plugins.find { |plugin| (plugin == name) || (name.index(plugin) == 0) }
+    plugin = plugins.find { |item| item == name || name.start_with?(item) }
     plugin = unconventional['name'] if plugin.nil? && unconventional['name']
 
     unless plugin.nil?
@@ -269,8 +287,8 @@ def process_english_strings_in_shell(xibs, duplicates, shell_dir=SHELL_SOURCES)
   update_english_strings('TotalFinder', shell_dir, xibs, duplicates) # process just shell xibs
 end
 
-def process_english_menuitems
-  update_english_menuitems_strings([TOTALFINDER_PLUGINS_SOURCES, SHELL_SOURCES].flatten)['to_be_added']
+def process_english_menu
+  update_english_menu_strings([TOTALFINDER_PLUGINS_SOURCES, SHELL_SOURCES].flatten)['to_be_added']
 end
 
 def get_additions_duplicates(additions)
@@ -279,7 +297,7 @@ def get_additions_duplicates(additions)
     all.concat v
   end
 
-  # count occurences and return only duplicities
+  # count occurrences and return only duplicities
   all.each_with_object(Hash.new(0)) { |v, h| h[v] += 1; }.reject { |_k, v| v == 1 }.keys.sort.uniq
 end
 
@@ -320,7 +338,7 @@ def inprint_strings(source, dest, shared_originals=[])
     line
   end
 
-  # replace translations we already know from previsous version
+  # replace translations we already know from previous version
   index = 0
   originals.each do |original|
     index += 1
@@ -332,12 +350,8 @@ def inprint_strings(source, dest, shared_originals=[])
     rest = Regexp.last_match(3)
     die "syntax error in #{dest.blue}:#{index} [#{original}]" unless Regexp.last_match(1) && Regexp.last_match(2)
 
-    found = false
     strings.map! do |line|
-      if (line.index needle) == 0
-        line = needle + ' = ' + haystack + ';' + rest + "\n"
-        found = true
-      end
+      line = needle + ' = ' + haystack + ';' + rest + "\n" if line.starts_with?(needle)
 
       line
     end
@@ -355,14 +369,14 @@ def find_key(key, lines)
     line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;(.*)$/
     needle = Regexp.last_match(1)
     haystack = Regexp.last_match(2)
-    die "syntax error in #{dest.blue}:#{index} [#{line}]" unless Regexp.last_match(1) && Regexp.last_match(2)
+    die "syntax error in [#{line}]" unless Regexp.last_match(1) && Regexp.last_match(2)
     return haystack if needle == key
   end
 
   nil
 end
 
-def post_process_menuitems(dest, shared_originals=[])
+def post_process_menu(dest, shared_originals=[])
   strings = parse_strings_file(dest)
 
   strings.map! do |line|
@@ -376,7 +390,7 @@ def post_process_menuitems(dest, shared_originals=[])
     rest = Regexp.last_match(3)
 
     if key == val
-      # try to lookup exitsting val
+      # try to lookup existing val
       translated_val = find_key(key.gsub('MenuItem:', ''), shared_originals)
       line = key + ' = ' + translated_val + ';' + rest + "\n" unless translated_val.nil?
     end
@@ -410,7 +424,7 @@ def propagate_english_to_cwd
   # post-process MenuItems.strings
   file = 'MenuItems.strings'
   puts "  post processing #{file.yellow}"
-  total += post_process_menuitems(File.join(Dir.pwd, file), all).size
+  total += post_process_menu(File.join(Dir.pwd, file), all).size
 
   puts '  -> ' + total.to_s.green + ' strings processed'
 end
@@ -465,7 +479,6 @@ def validate_strings_file(path)
 
   in_multi_line_comment = false
   counter = 0
-  count = lines.size
   lines.each do |line|
     counter += 1
     if in_multi_line_comment && line =~ /.*\*\/\w*$/
@@ -481,7 +494,7 @@ def validate_strings_file(path)
     next if line =~ /^\/\*.*?\*\/$/
     next if line =~ /^\s*$/
 
-    if line =~ /^\/\*[^\*]*/
+    if line =~ /^\/\*[^*]*/
       in_multi_line_comment = true
       next
     end
@@ -575,7 +588,11 @@ def validate_strings_files
   end
 
   puts '-----------------------------------'
-  puts 'checked ' + "#{counter} files".magenta + ' and ' + (failed > 0 ? "#{failed} failed".red : 'all is ok'.yellow) + (warnings > 0 ? " [#{warnings} warnings]".green : '')
+  puts 'checked ' +
+       "#{counter} files".magenta +
+       ' and ' +
+       (failed.positive? ? "#{failed} failed".red : 'all is ok'.yellow) +
+       (warnings.positive? ? " [#{warnings} warnings]".green : '')
 end
 
 def stub_installer_lprojs
@@ -642,14 +659,14 @@ task :cherrypick do
   puts
   puts 'Processing string files:'.yellow
 
-  # additons is a hash containing an array of added translation keys for each plugin
+  # additions is a hash containing an array of added translation keys for each plugin
   additions = process_english_strings_in_plugins(plugins, xibs)
   duplicates = get_additions_duplicates(additions)
   res = process_english_strings_in_shell(xibs['SHELL'], duplicates) # duplicates will be moved into shell
   shell_additions = res['to_be_added']
   shell_new_strings = res['new_strings']
 
-  menuitems_additions = process_english_menuitems
+  menu_additions = process_english_menu
 
   # insert additions to plugins
   plugins.each do |plugin|
@@ -666,7 +683,7 @@ task :cherrypick do
 
   # insert additions to menu items
   target = File.join(ENGLISH_LPROJ, 'MenuItems.strings')
-  insert_additions(menuitems_additions, target)
+  insert_additions(menu_additions, target)
 
   unhandled_duplicates = duplicates - shell_new_strings
   unless unhandled_duplicates.empty?
