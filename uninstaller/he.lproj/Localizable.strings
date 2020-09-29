@@ -9,7 +9,7 @@
 
 /* main texts */
 "You are about uninstall *APP*" = "הנך עומד להסיר את TotalFinder";
-"This program will uninstall all *APP* components from this computer." = "תוכנית זו תסיר את כל רכיבי TotalFinder ממחשב זה.;
+"This program will uninstall all *APP* components from this computer." = "תוכנית זו תסיר את כל רכיבי TotalFinder ממחשב זה.";
 "*APP* has been uninstalled" = "הסרת TotalFinder הסתיימה בהצלחה";
 "Thank you for trying *APP*." = "Thank you for trying TotalFinder.";
 "*APP* uninstallation failed" = "הסרת TotalFinder נכשלה";
