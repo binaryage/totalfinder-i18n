@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "新規タブ";   /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "タブバーを狭くする";
 "Open new tabs with previous location" = "以前の場所を新規のタブで開く";
+"Freelance Windows" = "タブの代わりに新しいウィンドウで開く";
 
 
 /* --- Visor --- */

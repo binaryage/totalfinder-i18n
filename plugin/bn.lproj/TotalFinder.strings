@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "নতুন ট্যাব"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "চিকন ট্যাব বার ব্যবহার করবে";
 "Open new tabs with previous location" = "আগের লোকেশনে নতুন ট্যাব খুলবে";
+"Freelance Windows" = "ফ্রিল্যান্স উইন্ডোজ";
 
 
 /* --- Visor --- */

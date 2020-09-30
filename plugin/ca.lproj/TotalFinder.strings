@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "Nova pestanya"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Fer servir una barrar de pestanyes estreta";
 "Open new tabs with previous location" = "Obrir noves pestanyes amb la ruta prèvia";
+"Freelance Windows" = "No agrupar les finestres";
 
 
 /* --- Visor --- */

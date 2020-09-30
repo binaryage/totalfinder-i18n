@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "علامة تبويب جديدة"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "استعمل لوحة علامات تبويب ضيقة";
 "Open new tabs with previous location" = "افتح علامات تبويب جديدة بأماكن قديمة";
+"Freelance Windows" = "نوافذ مستقلة";
 
 
 /* --- Visor --- */

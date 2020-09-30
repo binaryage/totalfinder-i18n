@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "Uusi välilehti";
 "Use narrow Tabs Bar" = "Ohuempi välilehtipalkki";
 "Open new tabs with previous location" = "Avaa edelliset välilehdet uudelleen";
+"Freelance Windows" = "Älä avaa uusia ikkunoita välilehtiin";
 
 
 /* --- Visor --- */

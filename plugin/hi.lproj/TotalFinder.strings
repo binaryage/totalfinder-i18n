@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "नया टैब"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "संकीर्ण टैब पट्टी का प्रयोग करें";
 "Open new tabs with previous location" = "नया टैब पिछले स्थान के साथ खोलें";
+"Freelance Windows" = "फ्रीलांस विंडोज";
 
 
 /* --- Visor --- */

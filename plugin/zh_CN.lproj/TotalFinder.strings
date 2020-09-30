@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "新建标签页";
 "Use narrow Tabs Bar" = "标签栏紧凑模式";
 "Open new tabs with previous location" = "在以前的位置打开新标签";
+"Freelance Windows" = "新窗口不于标签页打开";
 
 
 /* --- Visor --- */

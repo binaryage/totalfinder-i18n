@@ -202,6 +202,7 @@ Exit Full Screen
 "New Tab" = "Nouvel onglet"; /* the tooltip of the "plus button" in tabs bar */
 "Use narrow Tabs Bar" = "Utiliser une barre d'onglets compacte";
 "Open new tabs with previous location" = "Ouvrir les nouveaux onglets sur le dernier emplacement";
+"Freelance Windows" = "Ouvrir dans une nouvelle fenêtre";
 
 
 /* --- Visor --- */
