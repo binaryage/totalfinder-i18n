@@ -227,22 +227,6 @@ def update_english_strings(project, src_folder, xibs, additional_strings=[])
   res
 end
 
-def update_english_menu_strings(src_folder)
-  target = File.join(ENGLISH_LPROJ, 'MenuItems.strings')
-
-  new_strings = extract_menu_strings(src_folder).map { |s| "MenuItem:#{s}" }
-  old_strings = parse_strings_file(target)
-
-  res = update_strings(old_strings, new_strings, target)
-
-  removed_count = res['removed_count']
-  count = res['count']
-
-  puts " #{"-#{removed_count}".red}/#{count.to_s.blue} in #{target}"
-
-  res
-end
-
 def categorize_xibs(plugins, dir=PLUGIN_RESOURCES_DIR)
   xibs = {}
 
@@ -284,10 +268,6 @@ end
 
 def process_english_strings_in_shell(xibs, duplicates, shell_dir=SHELL_SOURCES)
   update_english_strings('TotalFinder', shell_dir, xibs, duplicates) # process just shell xibs
-end
-
-def process_english_menu
-  update_english_menu_strings([TOTALFINDER_PLUGINS_SOURCES, SHELL_SOURCES].flatten)['to_be_added']
 end
 
 def get_additions_duplicates(additions)
@@ -409,21 +389,11 @@ def propagate_english_to_cwd
 
   # TotalFinder.strings are master files, some strings may move between files
   all = parse_strings_file File.join(Dir.pwd, 'TotalFinder.strings')
-  Dir.glob(File.join(ENGLISH_LPROJ, '*.strings')) do |file|
-    next if File.basename(file) == 'TotalFinder.strings'
-
-    all.concat parse_strings_file(File.join(Dir.pwd, File.basename(file)))
-  end
 
   Dir.glob(File.join(ENGLISH_LPROJ, '*.strings')) do |file|
     puts "  #{File.basename(file)}".yellow
     total += inprint_strings(file, File.join(Dir.pwd, File.basename(file)), all).size
   end
-
-  # post-process MenuItems.strings
-  file = 'MenuItems.strings'
-  puts "  post processing #{file.yellow}"
-  total += post_process_menu(File.join(Dir.pwd, file), all).size
 
   puts "  -> #{total.to_s.green} strings processed"
 end
@@ -694,24 +664,9 @@ task :cherrypick do
   shell_additions = res['to_be_added']
   shell_new_strings = res['new_strings']
 
-  menu_additions = process_english_menu
-
-  # insert additions to plugins
-  plugins.each do |plugin|
-    next unless additions[plugin]
-
-    target = File.join(ENGLISH_LPROJ, "#{plugin}.strings")
-    list = additions[plugin] - duplicates - shell_new_strings
-    insert_additions(list, target)
-  end
-
   # insert additions to shell
   target = File.join(ENGLISH_LPROJ, 'TotalFinder.strings')
   insert_additions(shell_additions, target)
-
-  # insert additions to menu items
-  target = File.join(ENGLISH_LPROJ, 'MenuItems.strings')
-  insert_additions(menu_additions, target)
 
   unhandled_duplicates = duplicates - shell_new_strings
   unless unhandled_duplicates.empty?
