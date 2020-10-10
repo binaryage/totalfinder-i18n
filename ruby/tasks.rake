@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rake'
 require 'date'
 require 'pp'
 require 'colored2'
@@ -95,7 +94,7 @@ def get_list_of_plugins(filter=nil)
 
   plugins = []
   Dir.glob(File.join(TOTALFINDER_PLUGINS_SOURCES, filter)) do |file|
-    if File.directory?(file) && File.exist?(File.join(file, File.basename(file) + '.xcodeproj'))
+    if File.directory?(file) && File.exist?(File.join(file, "#{File.basename(file)}.xcodeproj"))
       plugins << File.basename(file)
     end
   end
@@ -131,7 +130,7 @@ def extract_menu_strings(folder)
   result = []
   dirs.each do |dir|
     result.concat ack(dir, '*.{cpp,mm,h}', [
-      /\$M\s*\(\s*@\s*"(.*?)"\s*\)/m
+        /\$M\s*\(\s*@\s*"(.*?)"\s*\)/m
     ])
   end
 
@@ -144,8 +143,8 @@ def extract_code_strings(folder)
   result = []
   dirs.each do |dir|
     result.concat ack(dir, '*.{cpp,mm,m,h}', [
-      /\$+\s*\(\s*@\s*"(.*?)"\s*\)/m,
-      /\$NSLocalizedString\s*\(\s*@\s*"(.*?)"\s*[,)]/m
+        /\$+\s*\(\s*@\s*"(.*?)"\s*\)/m,
+        /\$NSLocalizedString\s*\(\s*@\s*"(.*?)"\s*[,)]/m
     ])
   end
 
@@ -158,7 +157,7 @@ def extract_ui_strings(folder, xibs)
   dirs.each do |dir|
     xibs.each do |xib|
       result.concat ack(dir, "#{xib}.xib", [
-        /"\^(.*?[^\\])"/m
+          /"\^(.*?[^\\])"/m
       ])
     end
   end
@@ -333,7 +332,7 @@ def inprint_strings(source, dest, shared_originals=[])
     line =~ /^\s*?(".*")\s*?=\s*?(".*")\s*?;\s*?/
     die "syntax error in #{source.blue}:#{index} [#{line}]" unless Regexp.last_match(1)
 
-    line = Regexp.last_match(1) + ' = ' + Regexp.last_match(1) + ";\n"
+    line = "#{Regexp.last_match(1)} = #{Regexp.last_match(1)};\n"
 
     line
   end
@@ -351,7 +350,7 @@ def inprint_strings(source, dest, shared_originals=[])
     die "syntax error in #{dest.blue}:#{index} [#{original}]" unless Regexp.last_match(1) && Regexp.last_match(2)
 
     strings.map! do |line|
-      line = needle + ' = ' + haystack + ';' + rest + "\n" if line.starts_with?(needle)
+      line = "#{needle} = #{haystack};#{rest}\n" if line.start_with?(needle)
 
       line
     end
@@ -392,7 +391,7 @@ def post_process_menu(dest, shared_originals=[])
     if key == val
       # try to lookup existing val
       translated_val = find_key(key.gsub('MenuItem:', ''), shared_originals)
-      line = key + ' = ' + translated_val + ';' + rest + "\n" unless translated_val.nil?
+      line = "#{key} = #{translated_val};#{rest}\n" unless translated_val.nil?
     end
 
     line
@@ -426,7 +425,7 @@ def propagate_english_to_cwd
   puts "  post processing #{file.yellow}"
   total += post_process_menu(File.join(Dir.pwd, file), all).size
 
-  puts '  -> ' + total.to_s.green + ' strings processed'
+  puts "  -> #{total.to_s.green} strings processed"
 end
 
 def remove_missing_files_in_cwd
@@ -458,7 +457,7 @@ def create_localizations_for_project
 
   Dir.glob(File.join(PLUGIN_RESOURCES_DIR, glob)) do |dir|
     Dir.chdir dir do
-      write_file(File.join(dir, project + '.strings'), '/* no strings */')
+      write_file(File.join(dir, "#{project}.strings"), '/* no strings */')
     end
   end
 end
@@ -482,7 +481,7 @@ def merge_string_tables
     totalfinder_strings = string_files.filter { |file| /TotalFinder\.strings/.match?(file) }
     other_strings = string_files.filter { |file| !/TotalFinder\.strings/.match?(file) }
 
-    other_strings.each { |strings_file|
+    other_strings.each do |strings_file|
       unless /Template\.strings/.match?(strings_file)
         file_content = File.read(strings_file)
 
@@ -501,8 +500,7 @@ def merge_string_tables
       end
 
       File.delete(strings_file)
-    }
-
+    end
   end
 end
 
@@ -519,7 +517,7 @@ def validate_strings_file(path)
     end
     next if in_multi_line_comment
 
-    line = line.gsub(/\r\n?/, '') + "\n"
+    line = "#{line.gsub(/\r\n?/, '')}\n"
     next if line =~ /^".*?"\s*=\s*".*?";\s*$/
     next if line =~ /^".*?"\s*=\s*".*?";\s*\/\*.*?\*\/$/
     next if line =~ /^".*?"\s*=\s*".*?";\s*\/\/.*?$/
@@ -531,7 +529,7 @@ def validate_strings_file(path)
       next
     end
 
-    puts "line ##{counter}: unrecognized pattern".red + ' (fix rakefile if this is a valid pattern)'
+    puts "#{"line ##{counter}: unrecognized pattern".red} (fix rakefile if this is a valid pattern)"
     puts line
     puts "mate -l #{counter} \"#{path}\"".yellow
     return false
@@ -575,9 +573,9 @@ def validate_strings_files
     if !missing_files.empty? || !unrecognized_files.empty?
       warnings += 1
 
-      puts 'in ' + dir.blue + ':'
-      puts '  missing files: ' + missing_files.join(', ') unless missing_files.empty?
-      puts '  unrecognized files: ' + unrecognized_files.join(', ') unless unrecognized_files.empty?
+      puts "in #{dir.blue}:"
+      puts "  missing files: #{missing_files.join(', ')}" unless missing_files.empty?
+      puts "  unrecognized files: #{unrecognized_files.join(', ')}" unless unrecognized_files.empty?
     end
   end
 
@@ -590,8 +588,8 @@ def validate_strings_files
       charset = CMess::GuessEncoding::Automatic.guess(input)
       ok = ((validate_strings_file path) && ((charset == 'ASCII') || (charset == 'UTF-8')))
     end
-    puts charset.magenta + ' ' + path.blue + ' ' + 'ok'.yellow if ok
-    puts charset.magenta + ' ' + path.blue + ' ' + 'failed'.red unless ok
+    puts "#{charset.magenta} #{path.blue} #{'ok'.yellow}" if ok
+    puts "#{charset.magenta} #{path.blue} #{'failed'.red}" unless ok
     failed += 1 unless ok
   end
 
@@ -620,11 +618,9 @@ def validate_strings_files
   end
 
   puts '-----------------------------------'
-  puts 'checked ' +
-       "#{counter} files".magenta +
-       ' and ' +
-       (failed.positive? ? "#{failed} failed".red : 'all is ok'.yellow) +
-       (warnings.positive? ? " [#{warnings} warnings]".green : '')
+  failed_msg = (failed.positive? ? "#{failed} failed".red : 'all is ok'.yellow)
+  warnings_msg = (warnings.positive? ? " [#{warnings} warnings]".green : '')
+  puts "checked #{"#{counter} files".magenta} and #{failed_msg}#{warnings_msg}"
 end
 
 def stub_installer_lprojs
@@ -640,7 +636,7 @@ def stub_installer_lprojs
     full_path = File.join(INSTALLER_RESOURCES_DIR, name)
     next if File.exist?(full_path) # already have it
 
-    puts 'Creating stub ' + full_path.blue
+    puts "Creating stub #{full_path.blue}"
     sys("cp -r \"#{english_source}\" \"#{full_path}\"")
   end
 end
