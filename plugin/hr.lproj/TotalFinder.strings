@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Odaberi prethodnu karticu";
 "MenuItem:Select Next Tab" = "Odaberi sljedeću karticu";
 "MenuItem:Switch Active Panel" = "Prebaci aktivni panel";
-"MenuItem:Folders on Top" = "Mape na vrhu";
 "MenuItem:Show System Files" = "Prikaz datoteka sustava";
 "MenuItem:Column View Auto Width" = "Automatska širina stupca za pregled";
 "MenuItem:Dock Progress Bar" = "Traka napretka u Docku";
-"MenuItem:Template" = "Predložak";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

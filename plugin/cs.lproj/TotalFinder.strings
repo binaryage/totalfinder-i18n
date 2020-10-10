@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Předchozí tab";
 "MenuItem:Select Next Tab" = "Následující tab";
 "MenuItem:Switch Active Panel" = "Přepnout aktivní panel";
-"MenuItem:Folders on Top" = "Adresáře nahoru";
 "MenuItem:Show System Files" = "Zobrazit skryté";
 "MenuItem:Column View Auto Width" = "Automatické rozšířování sloupců";
 "MenuItem:Dock Progress Bar" = "Idikátor průběhu v Docku";
-"MenuItem:Template" = "Template";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

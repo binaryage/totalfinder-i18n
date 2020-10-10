@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Vorheriger Tab";
 "MenuItem:Select Next Tab" = "Nächster Tab";
 "MenuItem:Switch Active Panel" = "Aktives Panel wechseln";
-"MenuItem:Folders on Top" = "Ordner am Anfang";
 "MenuItem:Show System Files" = "Zeige Systemdateien";
 "MenuItem:Column View Auto Width" = "Automatische Breite bei Spaltenansicht";
 "MenuItem:Dock Progress Bar" = "Dock Fortschrittsbalken";
-"MenuItem:Template" = "Vorlage";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:
@@ -202,9 +200,8 @@ Exit Full Screen
 "New Tab" = "Neuer Tab";
 "Use narrow Tabs Bar" = "Benutze schmale Tableiste";
 "Open new tabs with previous location" = "Neue Tabs an zuletzt besuchtem Ort öffnen";
-
 "Freelance Windows" = "Unabhängige Fenster";
- 
+
 
 /* --- Visor --- */
 

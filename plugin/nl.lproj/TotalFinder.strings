@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Kies vorig tabblad";
 "MenuItem:Select Next Tab" = "Kies volgend tabblad";
 "MenuItem:Switch Active Panel" = "Verander actief paneel";
-"MenuItem:Folders on Top" = "Mappen bovenaan";
 "MenuItem:Show System Files" = "Toon systeembestanden";
 "MenuItem:Column View Auto Width" = "Kolomweergave automatisch formaat";
 "MenuItem:Dock Progress Bar" = "Dock-voortgangsindicator";
-"MenuItem:Template" = "Sjabloon";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

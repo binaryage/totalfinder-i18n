@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Pasirinkti ankstesnę kortelę";
 "MenuItem:Select Next Tab" = "Pasirinkti kitą kortelę";
 "MenuItem:Switch Active Panel" = "Pakeisti aktyvią panelę";
-"MenuItem:Folders on Top" = "Katalogai viršuje";
 "MenuItem:Show System Files" = "Rodyti sisteminius failus";
 "MenuItem:Column View Auto Width" = "Automatinis plotis stulpelių režime";
 "MenuItem:Dock Progress Bar" = "Dock'o progreso juosta";
-"MenuItem:Template" = "Šablonas";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

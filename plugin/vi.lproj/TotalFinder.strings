@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Chọn Tab Đằng Sau";
 "MenuItem:Select Next Tab" = "Chọn Tab Kế Tiếp";
 "MenuItem:Switch Active Panel" = "Chuyển Sang Bản Điều Khiển Đang Hoạt Động";
-"MenuItem:Folders on Top" = "Xếp thư mục trên cùng";
 "MenuItem:Show System Files" = "Hiển thị file hệ thống";
 "MenuItem:Column View Auto Width" = "Tự động độ rộng Cột Hiển thị";
 "MenuItem:Dock Progress Bar" = "Đính thanh Tiến trình";
-"MenuItem:Template" = "Các Mẫu";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

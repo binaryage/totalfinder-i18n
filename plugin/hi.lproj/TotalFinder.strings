@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "पिछला टैब चयन करें";
 "MenuItem:Select Next Tab" = "अगला टैब चयन करें";
 "MenuItem:Switch Active Panel" = "सक्रिय पैनल बदलें";
-"MenuItem:Folders on Top" = "फ़ोल्डर पहले";
 "MenuItem:Show System Files" = "सिस्टम फ़ाइलें दिखाएँ";
 "MenuItem:Column View Auto Width" = "कॉलम दृश्य स्व्तह चौड़ाई";
 "MenuItem:Dock Progress Bar" = "डॉक प्रगति पट्टी";
-"MenuItem:Template" = "सांचा";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

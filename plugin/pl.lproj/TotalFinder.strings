@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "Wybierz poprzednią zakładkę";
 "MenuItem:Select Next Tab" = "Wybierz następną zakładkę";
 "MenuItem:Switch Active Panel" = "Przełącz aktywny panel";
-"MenuItem:Folders on Top" = "Pokazuj foldery jako pierwsze";
 "MenuItem:Show System Files" = "Pokazuj pliki systemowe";
 "MenuItem:Column View Auto Width" = "Automatyczna szerokość kolumn w trybie listy ";
 "MenuItem:Dock Progress Bar" = "Pasek postępu Dock'a";
-"MenuItem:Template" = "szablon";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:

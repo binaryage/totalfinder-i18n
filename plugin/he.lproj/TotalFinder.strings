@@ -169,11 +169,9 @@ and this would make it uneasy to localize them in other languages properly
 "MenuItem:Select Previous Tab" = "בחר לשונית הקודמת";
 "MenuItem:Select Next Tab" = "בחר לשונית הבאה";
 "MenuItem:Switch Active Panel" = "החלף פאנל פעיל";
-"MenuItem:Folders on Top" = "תיקיות למעלה";
 "MenuItem:Show System Files" = "הראה קבצי מערכת";
 "MenuItem:Column View Auto Width" = "כיוונון רוחב תצוגת עמודות אוטומטי";
 "MenuItem:Dock Progress Bar" = "פס התקדמות ברציף התוכניות";
-"MenuItem:Template" = "תבנית";
 
 /* 
 note: These menu item localizations are taken from Finder's localization table:
