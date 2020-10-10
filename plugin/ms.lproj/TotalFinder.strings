@@ -70,7 +70,7 @@
 "Record Shortcut" = "Catat Pintasan";
 "Space" = "Space";
 "The key combination %@ cannot be used" = "Kombinasi kekunci %@ tidak boleh digunakan";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Gabungan ini tidak boleh digunakan kerana ia sudah digunakan oleh kekunci pintasan keseluruhan sistem.\nJika anda benar-benar mahu menggunakan gabungan kekunci ini, kebanyakan pintasan boleh diubah dalam panel Keyboard & Mouse dalam Pilihan Sistem.";
+"This combination cannot be used because it is already used..." = "Gabungan ini tidak boleh digunakan kerana ia sudah digunakan oleh kekunci pintasan keseluruhan sistem.\nJika anda benar-benar mahu menggunakan gabungan kekunci ini, kebanyakan pintasan boleh diubah dalam panel Keyboard & Mouse dalam Pilihan Sistem.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Pintasan ini tidak boleh digunakan kerana ia telah digunakan oleh item menu ‘%@’.";
 "Type New Shortcut" = "Taip Pintasan Baru";
 "Type Shortcut" = "Taip Pintasan";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Anda benar-benar mahu untuk mematikan tab?";
 "Do you really want to enable tabs?" = "Anda benar-benar mahu untuk mengaktifkan tab?";
 "Tabs" = "Tab";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mematikan modul tab dalam TotalFinder serta-merta. Fungsi mod dwi dan visor akan turut dimatikan. Ini mungkin diperlukan dalam Mavericks - gunakan tab Finder asal secara eksklusif sambil manfaatkan ciri-ciri TotalFinder yang lain.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Opsyen ini akan mengaktifkan modul tab dalam TotalFinder serta-merta.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Opsyen ini akan mematikan modul tab dalam TotalFinder serta-merta. Fungsi mod dwi dan visor akan turut dimatikan. Ini mungkin diperlukan dalam Mavericks - gunakan tab Finder asal secara eksklusif sambil manfaatkan ciri-ciri TotalFinder yang lain.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Opsyen ini akan mengaktifkan modul tab dalam TotalFinder serta-merta.\n\nUntuk operasi ini, Finder perlu dimulakan semula!\nNota: Sebelum mulakan semula, sila selesaikan semua tugas-tugas Finder yang sedang dijalankan (seperti menyalin atau memindahkan fail).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Ini akan mematikan tab, mod dwi dan visor. Finder perlu dimulakan semula.";
 
 

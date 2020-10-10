@@ -70,7 +70,7 @@
 "Record Shortcut" = "रिकॉर्ड शॉर्टकट";
 "Space" = "अंतर";
 "The key combination %@ cannot be used" = "कुंजी संयोजन %@ का इस्तेमाल नहीं किया जा सकता";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used..." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "इस शॉर्टकट का इस्तेमाल नहीं किया जा सकता क्योंकि यह पहले से ही इस मेनू आइटम द्वरा इस्तेमाल में है ‘%@’.";
 "Type New Shortcut" = "नया शॉर्टकट टाइप करें";
 "Type Shortcut" = "शॉर्टकट टाइप करें";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "आप वास्तव में टैब्स निष्क्रिय करना चाहते हैं?";
 "Do you really want to enable tabs?" = "आप वास्तव में टैब सक्रिय करना चाहते हैं?";
 "Tabs" = "टैब्स";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "यह विकल्प प्रभावी ढंग से टोटलफ़ाइंडर में टैब्स मॉड्यूल को निष्क्रिय कर देगा. साथ ही दोहरा मोड और वाइजर कार्यक्षमता भी निष्क्रिय हो जाएगी. इस मेवेरिक्स में इच्छित हो सकता है - अन्य टोटलफ़ाइंडर सुविधाओं का लाभ लेते हुए निवासी टैब का उपयोग करें.\n\nइस कार्य के लिये फ़ाइंडर को पुनः प्रारंभ करना अनिवार्य है!\nनोट: यह करने से पहले कृपया सभी प्रगतिशील फ़ाइंडर कार्य समाप्त कर लें (जैसे कॉपी).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "यह विकल्प प्रभावी ढंग से टोटलफ़ाइंडर में टैब्स मॉड्यूल को सक्रिय कर देगा.\n\nइस कार्य के लिये फ़ाइंडर को पुनः प्रारंभ करना अनिवार्य है!\nनोट: यह करने से पहले कृपया सभी प्रगतिशील फ़ाइंडर कार्य समाप्त कर लें (जैसे कॉपी).";
+"This option will effectively disable the tabs module in TotalFinder..." = "यह विकल्प प्रभावी ढंग से टोटलफ़ाइंडर में टैब्स मॉड्यूल को निष्क्रिय कर देगा. साथ ही दोहरा मोड और वाइजर कार्यक्षमता भी निष्क्रिय हो जाएगी. इस मेवेरिक्स में इच्छित हो सकता है - अन्य टोटलफ़ाइंडर सुविधाओं का लाभ लेते हुए निवासी टैब का उपयोग करें.\n\nइस कार्य के लिये फ़ाइंडर को पुनः प्रारंभ करना अनिवार्य है!\nनोट: यह करने से पहले कृपया सभी प्रगतिशील फ़ाइंडर कार्य समाप्त कर लें (जैसे कॉपी).";
+"This option will effectively enable the tabs module in TotalFinder..." = "यह विकल्प प्रभावी ढंग से टोटलफ़ाइंडर में टैब्स मॉड्यूल को सक्रिय कर देगा.\n\nइस कार्य के लिये फ़ाइंडर को पुनः प्रारंभ करना अनिवार्य है!\nनोट: यह करने से पहले कृपया सभी प्रगतिशील फ़ाइंडर कार्य समाप्त कर लें (जैसे कॉपी).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "यह प्रभावी ढंग से टैब्स, दोहरा मोड और वाइजर को निष्क्रिय कर देगा. फ़ाइंडर को पुनः प्रारंभ करना होगा.";
 
 

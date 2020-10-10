@@ -70,7 +70,7 @@
 "Record Shortcut" = "Registrer Snarvei";
 "Space" = "Mellomrom";
 "The key combination %@ cannot be used" = "Tastekombinasjonen %@ kan ikke brukes";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Denne kombinasjonen kan ikke brukes fordi den allerde er i bruk av en systemsnarvei.\nHvis du virkelig vil bruke denne kombinasjonen, kan du endre snarveien i Tastatur & Mus panelet i Systemvalg.";
+"This combination cannot be used because it is already used..." = "Denne kombinasjonen kan ikke brukes fordi den allerde er i bruk av en systemsnarvei.\nHvis du virkelig vil bruke denne kombinasjonen, kan du endre snarveien i Tastatur & Mus panelet i Systemvalg.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Denne snarveien kan ikke brukes da den allerede er i bruk av menyvalget ‘%@’.";
 "Type New Shortcut" = "Skriv Inn Ny Snarvei";
 "Type Shortcut" = "Skriv inn Snarvei";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Vil du virkelig deaktivere faner?";
 "Do you really want to enable tabs?" = "Vil du virkelig aktivere faner?";
 "Tabs" = "Faner";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Dette valget vil i praksis aktive fanemodulen i TotalFinder.\n\nDenne operasjonen krever at  Finder startes på nytt.\nNB: Før du starter på nytt, vennligst vent til alle kjørende oppgaver som f.eks. kopiering og flytting av filer er ferdig.";
+"This option will effectively disable the tabs module in TotalFinder..." = "This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Dette valget vil i praksis aktive fanemodulen i TotalFinder.\n\nDenne operasjonen krever at  Finder startes på nytt.\nNB: Før du starter på nytt, vennligst vent til alle kjørende oppgaver som f.eks. kopiering og flytting av filer er ferdig.";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Dette vil i praksis deaktivere faner, Dual Mode og Visor. Finder må også startes på nytt.";
 
 

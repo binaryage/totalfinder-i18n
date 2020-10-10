@@ -70,7 +70,7 @@
 "Record Shortcut" = "ショートカットを記録";
 "Space" = "スペース";
 "The key combination %@ cannot be used" = "%@ というキーの組み合わせは使用できません";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used..." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "このショートカットは、メニュー項目 ‘%@’ で使用されているため、使用できません。";
 "Type New Shortcut" = "新規ショートカットをタイプ";
 "Type Shortcut" = "ショートカットをタイプ";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "本当にタブ機能を無効にしてよろしいですか?";
 "Do you really want to enable tabs?" = "本当にタブ機能を有効にしてよろしいですか?";
 "Tabs" = "タブ";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "このオプションは、TotalFinder のタブモジュールの働き実際に停止します。デュアルモードとバイザー機能も同様に事実上停止します。このオプションは、Marvericks で - TotalFinder の他の機能を利用しながら、Finder ネイティブのタブ機能を使用する際に必要とされます。\n\nこのオプションの変更を反映するために Finder を再起動しなくてはなりません!\n注意: 再起動に先立ち、(ファイルのコピーや移動といった) Finder で実行中のタスクを終えるようにして下さい。";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "このオプションは、TotalFinder のタブモジュールの働きを実際に開始します。\n\nこのオプションの変更を反映するために、Finder を再起動しなくてはなりません。\n注意: 再起動に先立ち、(ファイルのコピーや移動といった) Finder で実行中のタスクを終えるようにして下さい。";
+"This option will effectively disable the tabs module in TotalFinder..." = "このオプションは、TotalFinder のタブモジュールの働き実際に停止します。デュアルモードとバイザー機能も同様に事実上停止します。このオプションは、Marvericks で - TotalFinder の他の機能を利用しながら、Finder ネイティブのタブ機能を使用する際に必要とされます。\n\nこのオプションの変更を反映するために Finder を再起動しなくてはなりません!\n注意: 再起動に先立ち、(ファイルのコピーや移動といった) Finder で実行中のタスクを終えるようにして下さい。";
+"This option will effectively enable the tabs module in TotalFinder..." = "このオプションは、TotalFinder のタブモジュールの働きを実際に開始します。\n\nこのオプションの変更を反映するために、Finder を再起動しなくてはなりません。\n注意: 再起動に先立ち、(ファイルのコピーや移動といった) Finder で実行中のタスクを終えるようにして下さい。";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "これは、タブ、デュアルモード、バイザー機能を実際に停止します。Finder の再起動が必要となります。";
 
 

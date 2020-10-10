@@ -70,7 +70,7 @@
 "Record Shortcut" = "Zarejestruj skrót";
 "Space" = "Spacja";
 "The key combination %@ cannot be used" = "Kombinacja klawiszy %@ nie może zostać użyta";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Ta kombinacja nie może być używana, ponieważ jest już używana przez systemowy skrót klawiaturowy.\nJeśli naprawdę chcesz, użyć tej kombinacji klawiszy, większość skrótów można zmienić w panelu Klawiatura w Preferencjach systemowych.";
+"This combination cannot be used because it is already used..." = "Ta kombinacja nie może być używana, ponieważ jest już używana przez systemowy skrót klawiaturowy.\nJeśli naprawdę chcesz, użyć tej kombinacji klawiszy, większość skrótów można zmienić w panelu Klawiatura w Preferencjach systemowych.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ten skrót nie może zostać użyty bo jest już używany przez menu ‘%@’.";
 "Type New Shortcut" = "Wpisz nowy skrót";
 "Type Shortcut" = "Wpisz skrót";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Czy na pewno chcesz wyłączyć zakładki?";
 "Do you really want to enable tabs?" = "Czy na pewno chcesz włączyć zakładki?";
 "Tabs" = "Zakładki";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ta opcja skutecznie wyłączy moduł zakładek w TotalFinder. W efekcie tryb podwójny i funkcja visor zostaną również wyłączone. To może być pożądane pod Mavericks - używanie wbudowanych zakładek Findera przy zachowaniu korzyści wynikających z innych funkcji TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "TTa opcja skutecznie włączy moduł zakładek w TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Ta opcja skutecznie wyłączy moduł zakładek w TotalFinder. W efekcie tryb podwójny i funkcja visor zostaną również wyłączone. To może być pożądane pod Mavericks - używanie wbudowanych zakładek Findera przy zachowaniu korzyści wynikających z innych funkcji TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
+"This option will effectively enable the tabs module in TotalFinder..." = "TTa opcja skutecznie włączy moduł zakładek w TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "To skutecznie wyłączy zakładki, tryb podwójny i visor. Wymagany restart findera.";
 
 

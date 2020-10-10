@@ -70,7 +70,7 @@
 "Record Shortcut" = "Ghi phím tắt";
 "Space" = "Khoảng trống";
 "The key combination %@ cannot be used" = "Phím kết hợp %@ không thể dùng";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used..." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Phím tắt này không thể dùng bởi vì nó đang được dùng bởi mục ‘%@’.";
 "Type New Shortcut" = "Gõ phím tắt mới";
 "Type Shortcut" = "Gõ phím tắt";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Bạn có thực sự muốn tắt toàn bộ tab?";
 "Do you really want to enable tabs?" = "Bạn có thực sự muốn bật toàn bộ tab?";
 "Tabs" = "Tabs";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder. Để hiệu lực yêu cầu chế độ song song và visor cũng sẽ bị tắt theo. Điều này phải thực hiện trên Mavericks - sử dụng hạn chế tab Finder đơn thuần để có thể giữ lại các chức năng của TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại!\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại.\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder. Để hiệu lực yêu cầu chế độ song song và visor cũng sẽ bị tắt theo. Điều này phải thực hiện trên Mavericks - sử dụng hạn chế tab Finder đơn thuần để có thể giữ lại các chức năng của TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại!\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Lựa chọn này sẽ tắt ngay tức thì các tab module trong TotalFinder.\n\nĐể thực hiện lệnh này Finder sẽ phải khởi động lại.\nLưu ý: Để khởi động lại thì bạn nên hoàn thành các tác vụ Finder đang thực hiện (như đang sao chép hoặc di chuyển file).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Điều này sẽ tắt các tab ngay tức thì, chế độ song song hay visor. Finder cần được khởi động lại.";
 
 

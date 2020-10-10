@@ -70,7 +70,7 @@
 "Record Shortcut" = "Записать ярлык";
 "Space" = "Пробел";
 "The key combination %@ cannot be used" = "Комбинацию клавиш %@ использовать нельзя";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Эту комбинацию клавиш использовать нельяза, поскольку она применяется в системе.\nЕсли вы действительно хотите использовать эту комбинацию клавиш, внесите изменения в раздел Клавиатура в Системных настройках.";
+"This combination cannot be used because it is already used..." = "Эту комбинацию клавиш использовать нельяза, поскольку она применяется в системе.\nЕсли вы действительно хотите использовать эту комбинацию клавиш, внесите изменения в раздел Клавиатура в Системных настройках.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Эту комбинацию клавиш использовать нельзя, потому что она уже используется ‘%@’.";
 "Type New Shortcut" = "Жми клавиши";
 "Type Shortcut" = "Жми клавиши";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Вы действительно хотите отключить вкладки?";
 "Do you really want to enable tabs?" = "Вы действительно хотите включить вкладки?";
 "Tabs" = "Вкладки";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Это действие полностью отключит вкладки в TotalFinder. Кроме того будут отключены функции двухпанельного режима и Visor. Это может быть удобно в Mavericks - используйте оригинальные вкладки Finder, сохраняя при этом другие преимущества TotalFinder.\n\nДля проведения этой операции Finder будет перезапущен!\nВнимание: До перезапуска, пожалуйста, завершите все выполняемые операции Finder (например, копирование или перемещение файлов).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Это действие включит вкладки в TotalFinder.\n\nДля проведения этой операции Finder будет перезапущен!\nВнимание: До перезапуска, пожалуйста, завершите все выполняемые операции Finder (например, копирование или перемещение файлов).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Это действие полностью отключит вкладки в TotalFinder. Кроме того будут отключены функции двухпанельного режима и Visor. Это может быть удобно в Mavericks - используйте оригинальные вкладки Finder, сохраняя при этом другие преимущества TotalFinder.\n\nДля проведения этой операции Finder будет перезапущен!\nВнимание: До перезапуска, пожалуйста, завершите все выполняемые операции Finder (например, копирование или перемещение файлов).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Это действие включит вкладки в TotalFinder.\n\nДля проведения этой операции Finder будет перезапущен!\nВнимание: До перезапуска, пожалуйста, завершите все выполняемые операции Finder (например, копирование или перемещение файлов).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Отключить вкладки, двухпанельный режим и Visor. Необходим перезапуск Finder.";
 
 

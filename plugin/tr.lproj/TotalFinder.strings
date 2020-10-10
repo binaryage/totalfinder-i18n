@@ -70,7 +70,7 @@
 "Record Shortcut" = "Kısayol kaydet";
 "Space" = "Boşluk";
 "The key combination %@ cannot be used" = "%@ tuş kombinasyonu kullanılamaz";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Bu tul kombinasyonunu kullanamazsınız çünkü sistem genelinde başka bir kısayol için kullanılmaktadır.\nEğer gerçekten bu tuş kombinasyonunu kullanmak istiyorsanız, çoğu kısayol ayarları Sistem Seçeneklerindeki Klavye ve Mouse seçeneklerinden değiştirilebilir.";
+"This combination cannot be used because it is already used..." = "Bu tul kombinasyonunu kullanamazsınız çünkü sistem genelinde başka bir kısayol için kullanılmaktadır.\nEğer gerçekten bu tuş kombinasyonunu kullanmak istiyorsanız, çoğu kısayol ayarları Sistem Seçeneklerindeki Klavye ve Mouse seçeneklerinden değiştirilebilir.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Bu kısayol kullanılamaz çünkü zaten ‘%@’ tarafından kullanılmakta.";
 "Type New Shortcut" = "Yeni Kısayol Girin";
 "Type Shortcut" = "Kısayol Girin";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Sekmeleri devre dışı bırakmak istediğinize emin misiniz?";
 "Do you really want to enable tabs?" = "Sekmeleri devreye almak istediğinize emin misiniz?";
 "Tabs" = "Sekmeler";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Bu seçenek TotalFinder'ın sekme modülünü tamamen devre dışı bırakacak. Bununla birlikte çift pencere ve vizör özellikleri de devre dışı kalacak. Mavericks'de bu tercih edilebilir - standart sekmeler kullanılarak TotalFinder'ın faydalı özelliklerinden yararlanmaya devam edebilirsiniz.\n\nBu işlem için Finder'ın yeniden başlatılması gerekmektedir!\nNot: Yeniden başlatmadan önce tüm Finder görevlerinizi (dosya kopyalama ve taşıma gibi) tamamlayın.";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Bu seçenek TotalFinder'ın sekmeler modülünü devreye alacak.\n\nBu işlem için Finder'ın yeniden başlatılması gerekmektedir!\nNot: Yeniden başlatmadan önce tüm Finder görevlerinizi (dosya kopyalama ve taşıma gibi) tamamlayın.";
+"This option will effectively disable the tabs module in TotalFinder..." = "Bu seçenek TotalFinder'ın sekme modülünü tamamen devre dışı bırakacak. Bununla birlikte çift pencere ve vizör özellikleri de devre dışı kalacak. Mavericks'de bu tercih edilebilir - standart sekmeler kullanılarak TotalFinder'ın faydalı özelliklerinden yararlanmaya devam edebilirsiniz.\n\nBu işlem için Finder'ın yeniden başlatılması gerekmektedir!\nNot: Yeniden başlatmadan önce tüm Finder görevlerinizi (dosya kopyalama ve taşıma gibi) tamamlayın.";
+"This option will effectively enable the tabs module in TotalFinder..." = "Bu seçenek TotalFinder'ın sekmeler modülünü devreye alacak.\n\nBu işlem için Finder'ın yeniden başlatılması gerekmektedir!\nNot: Yeniden başlatmadan önce tüm Finder görevlerinizi (dosya kopyalama ve taşıma gibi) tamamlayın.";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Bu işlem sekmeleri, çift pencere ve vizör özelliklerini devre dışı bırakacak. Finder'ın yeniden başlatılması gerekmektedir.";
 
 

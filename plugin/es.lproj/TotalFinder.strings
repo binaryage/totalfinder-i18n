@@ -70,7 +70,7 @@
 "Record Shortcut" = "Definir función rápida";
 "Space" = "Espacio";
 "The key combination %@ cannot be used" = "La combinación de teclas %@ no se puede utilizar";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Esta combinación de teclas no se puede usar porque ya está siendo usada por función rápida de uso global del sistema.\nSi realmente quieres usar esta combinación, la mayoría de funciones rápidas pueden ser modificadas dentro de las opciones de Teclado en las Preferencias del Sistema.";
+"This combination cannot be used because it is already used..." = "Esta combinación de teclas no se puede usar porque ya está siendo usada por función rápida de uso global del sistema.\nSi realmente quieres usar esta combinación, la mayoría de funciones rápidas pueden ser modificadas dentro de las opciones de Teclado en las Preferencias del Sistema.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Esta combinación de teclas no se puede usar porque ya se está usando por el elemento de menú '%@'.";
 "Type New Shortcut" = "Pulsa la nueva función rápida";
 "Type Shortcut" = "Pulsa la función rápida";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "¿Estás seguro de que quieres desactivar las pestañas?";
 "Do you really want to enable tabs?" = "¿Estás seguro de que quieres activar las pestañas?";
 "Tabs" = "Pestañas";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Esta opción desactivará el módulo de las pestañas en TotalFinder. Como consecuencia el modo dual y el visor serán también desactivados. Esto puede ser de interés para los usuarios de Mavericks o Yosemite (usa las pestañas nativas junto al resto de las características de TotalFinder)\n\n¡Para esta operación Finder necesitará reiniciarse!\nNota: Antes de reiniciar el Finder, termina todas las tareas pendientes (como copiar o mover archivos).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Esta opción activará el módulo de pestañas en TotalFinder.\n\nPara esta operación Finder necesitará reiniciarse.\nNota: Antes de reiniciar el Finder, termina todas las tareas pendientes (como copiar o mover archivos).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Esta opción desactivará el módulo de las pestañas en TotalFinder. Como consecuencia el modo dual y el visor serán también desactivados. Esto puede ser de interés para los usuarios de Mavericks o Yosemite (usa las pestañas nativas junto al resto de las características de TotalFinder)\n\n¡Para esta operación Finder necesitará reiniciarse!\nNota: Antes de reiniciar el Finder, termina todas las tareas pendientes (como copiar o mover archivos).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Esta opción activará el módulo de pestañas en TotalFinder.\n\nPara esta operación Finder necesitará reiniciarse.\nNota: Antes de reiniciar el Finder, termina todas las tareas pendientes (como copiar o mover archivos).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Esto desactivará las pestañas, el modo dual y el visor. Finder necesitará reiniciarse.";
 
 

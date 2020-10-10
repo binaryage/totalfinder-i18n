@@ -70,7 +70,7 @@
 "Record Shortcut" = "Snimi pseudonim";
 "Space" = "Razmak";
 "The key combination %@ cannot be used" = "Kombinacija tipki %@ ne može biti korištena!";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used..." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Kombinacija tipki ne može biti korištena jer je u upotrebi od strane stavke izbornika ‘%@’.";
 "Type New Shortcut" = "Utipkaj novi pseudonim";
 "Type Shortcut" = "Utipkaj pseudonim";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Želite li onemogućiti kartice?";
 "Do you really want to enable tabs?" = "Želite li omogućiti kartice?";
 "Tabs" = "Kartice";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ova opcija će učinkovito onemogućiti module kartica u TotalFinder-u. U stvari biti će onemogućena funkcionalnost dual môda i vizira. To može biti poželjno kod Mavericka - korištenje izvornih Finder kartica isključivo uz zadržavanje prednosti drugih TotalFinder mogućnosti\n\nZa ovu mogućnost Finder se mora ponovno pokrenuti\nNapomena: Prije ponovnog pokretanja molimo završite sve Finder zadatke koji su u tijeku (kao što je kopiranje ili premještanje datoteka).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Ova opcija će učinkovito omogućiti module kartica in TotalFinder-u.\n\nZa ovu mogućnost Finder se mora ponovno pokrenuti\nNapomena: Prije ponovnog pokretanja molimo završite sve Finder zadatke koji su u tijeku (kao što je kopiranje ili premještanje datoteka).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Ova opcija će učinkovito onemogućiti module kartica u TotalFinder-u. U stvari biti će onemogućena funkcionalnost dual môda i vizira. To može biti poželjno kod Mavericka - korištenje izvornih Finder kartica isključivo uz zadržavanje prednosti drugih TotalFinder mogućnosti\n\nZa ovu mogućnost Finder se mora ponovno pokrenuti\nNapomena: Prije ponovnog pokretanja molimo završite sve Finder zadatke koji su u tijeku (kao što je kopiranje ili premještanje datoteka).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Ova opcija će učinkovito omogućiti module kartica in TotalFinder-u.\n\nZa ovu mogućnost Finder se mora ponovno pokrenuti\nNapomena: Prije ponovnog pokretanja molimo završite sve Finder zadatke koji su u tijeku (kao što je kopiranje ili premještanje datoteka).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Ovo će učinkovito onemogućiti kartice, dual môd i vizir. Finder se mora ponovno pokrenuti.";
 
 

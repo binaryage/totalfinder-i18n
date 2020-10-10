@@ -70,7 +70,7 @@
 "Record Shortcut" = "Enregistrar drecera";
 "Space" = "Space";
 "The key combination %@ cannot be used" = "La combinació de tecles %@ no pot ser utilitzada";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Aquesta combinació no es pot fer servir perquè ja es fa servir per una drecera d'ús global en tot el sistema. \nSi vol fer servir aquesta combinació ha de canviar l'existent des del panell de Keyboard & Mouse a System Preferences.";
+"This combination cannot be used because it is already used..." = "Aquesta combinació no es pot fer servir perquè ja es fa servir per una drecera d'ús global en tot el sistema. \nSi vol fer servir aquesta combinació ha de canviar l'existent des del panell de Keyboard & Mouse a System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Aquesta drecera no es pot ser servir perquè ja es fa servir al punt de menú ‘%@’.";
 "Type New Shortcut" = "Escriu la nova drecera";
 "Type Shortcut" = "Fer servir la drecera";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Segur que vols inhabilitar les pestanyes?";
 "Do you really want to enable tabs?" = "Segur que vols habilitar les pestanyes?";
 "Tabs" = "Pestanyes";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Aquesta opció inhabilitarà de forma definitiva el mòdul de pestanyes a TotalFinder. El mode dual i la funcionalitat del visor tambié seran inhabilitats. Això pot ser desitjable si està fent servir Mavericks o Yosemite (fes servir les pestanyes del Finder natiu mentre es conserven la resta de característiques de TotalFinder).\n\nPer aquesta operació s'ha de reiniciar el Finder!\nNota: Abans de reiniciar si us plau finalitzi totes les tasques actives (com copia o moviment d'arxius).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Aquesta opció habilitarà el mòdul de pestanyes a TotalFinder.\n\nPer aquesta operació s'ha de reiniciar el Finder!\nNota: Abans de reiniciar si us plau finalitzi totes les tasques actives (com copia o moviment d'arxius).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Aquesta opció inhabilitarà de forma definitiva el mòdul de pestanyes a TotalFinder. El mode dual i la funcionalitat del visor tambié seran inhabilitats. Això pot ser desitjable si està fent servir Mavericks o Yosemite (fes servir les pestanyes del Finder natiu mentre es conserven la resta de característiques de TotalFinder).\n\nPer aquesta operació s'ha de reiniciar el Finder!\nNota: Abans de reiniciar si us plau finalitzi totes les tasques actives (com copia o moviment d'arxius).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Aquesta opció habilitarà el mòdul de pestanyes a TotalFinder.\n\nPer aquesta operació s'ha de reiniciar el Finder!\nNota: Abans de reiniciar si us plau finalitzi totes les tasques actives (com copia o moviment d'arxius).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Això inhabilitarà les pestanyes, el mode dual i el visor. Es necessari reiniciar el Finder.";
 
 

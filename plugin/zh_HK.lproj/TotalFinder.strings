@@ -70,7 +70,7 @@
 "Record Shortcut" = "錄製快捷鍵";
 "Space" = "空格";
 "The key combination %@ cannot be used" = "無法使用此按鍵組合 %@";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "由於此按鍵組合已被系統的鍵盤快捷鍵使用，因此無法使用此按鍵組合。\n如果您真的想用這按鍵組合，大多數的系統快捷鍵可在系統設置中的鍵盤和滑鼠面版更變。";
+"This combination cannot be used because it is already used..." = "由於此按鍵組合已被系統的鍵盤快捷鍵使用，因此無法使用此按鍵組合。\n如果您真的想用這按鍵組合，大多數的系統快捷鍵可在系統設置中的鍵盤和滑鼠面版更變。";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "無法使用此按鍵組合，因為其已經被選單項目‘%@’使用。";
 "Type New Shortcut" = "鍵入新快捷鍵";
 "Type Shortcut" = "鍵入快捷鍵";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "你真的要禁用分頁嗎？";
 "Do you really want to enable tabs?" = "你真的要啓用分頁嗎？";
 "Tabs" = "分頁";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "該選項會禁用 TotalFinder 的分頁模組，雙窗口模式以及滑入窗口功能也將被禁用。如果你需要使用 Mavericks 裏 Finder 的原生分頁功能，並同時使用 TotalFinder 的其他功能， 該選項可能有用。\n\n該操作需要重啓 Finder！\n註：在重啓前請先等待現有的 Finder 任務完成（如文件複製或移動）。";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "該選項會啓用 TotalFinder 的分頁模組。\n\n該操作需要重啓 Finder！\n註：在重啓前請先等待現有的 Finder 任務完成（如文件複製或移動）。";
+"This option will effectively disable the tabs module in TotalFinder..." = "該選項會禁用 TotalFinder 的分頁模組，雙窗口模式以及滑入窗口功能也將被禁用。如果你需要使用 Mavericks 裏 Finder 的原生分頁功能，並同時使用 TotalFinder 的其他功能， 該選項可能有用。\n\n該操作需要重啓 Finder！\n註：在重啓前請先等待現有的 Finder 任務完成（如文件複製或移動）。";
+"This option will effectively enable the tabs module in TotalFinder..." = "該選項會啓用 TotalFinder 的分頁模組。\n\n該操作需要重啓 Finder！\n註：在重啓前請先等待現有的 Finder 任務完成（如文件複製或移動）。";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "這會禁用分頁、雙窗口模式、滑入窗口等功能。Finder 亦需要重啓。";
 
 

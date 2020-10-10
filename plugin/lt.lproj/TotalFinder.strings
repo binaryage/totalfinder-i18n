@@ -70,7 +70,7 @@
 "Record Shortcut" = "Įrašyti nuorodą";
 "Space" = "Tarpas";
 "The key combination %@ cannot be used" = "Klavišų kombinacija %@ negali būti vartojama";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "Ši kombinacija negali būti vartojama, nes ji jau vartojama visos sistemos pločio klaviatūros nuorodos.\nJei tikrai norite vartoti šią kombinaciją, daugelis nuorodų gali būti pakeistos Klaviatūra ir Pelė (Keyboard & Mouse) panelėje Sistemos Nustatymuose (System Preferences).";
+"This combination cannot be used because it is already used..." = "Ši kombinacija negali būti vartojama, nes ji jau vartojama visos sistemos pločio klaviatūros nuorodos.\nJei tikrai norite vartoti šią kombinaciją, daugelis nuorodų gali būti pakeistos Klaviatūra ir Pelė (Keyboard & Mouse) panelėje Sistemos Nustatymuose (System Preferences).";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ši nuoroda negali būti vartojama, nes ji jau yra vartojama meniu elemento ‘%@’.";
 "Type New Shortcut" = "Įveskite naują nuorodą";
 "Type Shortcut" = "Įvskite nuorodą";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "Ar tikrai norite išjungti korteles?";
 "Do you really want to enable tabs?" = "Ar tikrai norite įjungti korteles?";
 "Tabs" = "Kortelės";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Šis pasirinkimas iš esmės išjungs kortelių modulį TotalFinder'yje. Pasekoje, dvigubas režimas ir skydelio funkcionalumas irgi bus išjungti. Tai gali būti trokštama Mavericks sistemoje: vartokite vien tik gimtines Finder korteles tuo pačiu išlaikydami kitas TotalFinder galimybes.\n\nŠiai operacijai Finder turi būti paleistas iš naujo!\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "Šis pasirinkimas iš esmės įjungs kortelių modulį TotalFinder'yje.\n\nŠiai operacijai Finder turi būti paleistas iš naujo.\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
+"This option will effectively disable the tabs module in TotalFinder..." = "Šis pasirinkimas iš esmės išjungs kortelių modulį TotalFinder'yje. Pasekoje, dvigubas režimas ir skydelio funkcionalumas irgi bus išjungti. Tai gali būti trokštama Mavericks sistemoje: vartokite vien tik gimtines Finder korteles tuo pačiu išlaikydami kitas TotalFinder galimybes.\n\nŠiai operacijai Finder turi būti paleistas iš naujo!\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Šis pasirinkimas iš esmės įjungs kortelių modulį TotalFinder'yje.\n\nŠiai operacijai Finder turi būti paleistas iš naujo.\nPastaba: prieš paleidami iš naujo, prašau pabaikite visus vykstančius darbus su Finder (tokius kaip failų kopijavimas ar perkėlimas).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "Šitai iš esmės išjungs korteles, dvigubą režimą ir skydelį. Finder'io paleidimas iš naujo tam yra reikalingas.";
 
 

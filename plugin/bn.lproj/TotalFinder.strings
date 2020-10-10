@@ -70,7 +70,7 @@
 "Record Shortcut" = "শর্টকাট ধারণ করবে";
 "Space" = "স্পেস";
 "The key combination %@ cannot be used" = "%@ সমন্বয়টি ব্যবহার করা যাবেনা";
-"This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
+"This combination cannot be used because it is already used..." = "This combination cannot be used because it is already used by a system-wide keyboard shortcut.\nIf you really want to use this key combination, most shortcuts can be changed in the Keyboard & Mouse panel in System Preferences.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "‘%@’ শর্টকাটটি আগে আগে থেকেই মেন্যুতে ব্যবহৃত হচ্ছে।";
 "Type New Shortcut" = "নতুন শর্টকাট প্রবেশ করাও";
 "Type Shortcut" = "শর্টকাট প্রবেশ করাও";
@@ -82,8 +82,8 @@
 "Do you really want to disable tabs?" = "সত্যই তুমি ট্যাব অকার্যকর করতে চাও?";
 "Do you really want to enable tabs?" = "সত্যই তুমি ট্যাব কার্যকর করতে চাও?";
 "Tabs" = "ট্যাব";
-"This option will effectively disable the tabs module in TotalFinder. In effect the dual mode and visor functionality will be disabled as well. This may be desired under Mavericks - use native Finder tabs exclusively while keeping benefits of other TotalFinder features.\n\nFor this operation Finder has to be restarted!\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "এই অপশনটি টোটালফাইন্ডারে ট্যাব মডিউলটি অকার্যকর করে রাখবে। ফলস্বরূপ ডুয়েল মোডে ভাইসর কার্যক্রমটিও অকেজো হয়ে যাবে। তুমি ম্যভরিক্সের নিজস্ব ট্যব সহ টোটালফাইন্ডারের অন্যান্য কার্যক্রম ব্যবহার করতে চাইলে এটি বন্ধ করতে পারো।\n\nএই কার্যক্রমের জন্য ফাইন্ডার নতুন করে চালু হবে!\nদ্রষ্টব্য: ফাইন্ডার নুতন করে চালু হওয়ার আগে তুমি ফাইন্ডারের চলন্ত কার্যক্রম (যেমন ফাইল কপি ইত্যাদি) শেষ করে নাও।";
-"This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files)." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
+"This option will effectively disable the tabs module in TotalFinder..." = "এই অপশনটি টোটালফাইন্ডারে ট্যাব মডিউলটি অকার্যকর করে রাখবে। ফলস্বরূপ ডুয়েল মোডে ভাইসর কার্যক্রমটিও অকেজো হয়ে যাবে। তুমি ম্যভরিক্সের নিজস্ব ট্যব সহ টোটালফাইন্ডারের অন্যান্য কার্যক্রম ব্যবহার করতে চাইলে এটি বন্ধ করতে পারো।\n\nএই কার্যক্রমের জন্য ফাইন্ডার নতুন করে চালু হবে!\nদ্রষ্টব্য: ফাইন্ডার নুতন করে চালু হওয়ার আগে তুমি ফাইন্ডারের চলন্ত কার্যক্রম (যেমন ফাইল কপি ইত্যাদি) শেষ করে নাও।";
+"This option will effectively enable the tabs module in TotalFinder..." = "This option will effectively enable the tabs module in TotalFinder.\n\nFor this operation Finder has to be restarted.\nNote: Prior restarting please finish all Finder tasks in progress (like copying or moving files).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "এটা ট্যাব, ডুয়েল মোড ভাইসর বন্ধ করে ফেলবে। ফাইন্ডার পুনরায় চালু করতে হবে।";
 
 
