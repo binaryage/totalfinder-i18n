@@ -7,6 +7,7 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/Applications/TotalFinder.app/Contents/MacOS/TotalFinder</string>
+		<string>--post-install</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
