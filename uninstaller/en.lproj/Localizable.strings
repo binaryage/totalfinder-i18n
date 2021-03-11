@@ -8,7 +8,7 @@
 "Show detailed transcript" = "Show detailed transcript";
 
 /* main texts */
-"You are about uninstall *APP*" = "You are about uninstall TotalFinder";
+"You are about uninstall *APP*" = "You are about to uninstall TotalFinder";
 "This program will uninstall all *APP* components from this computer." = "This program will uninstall all TotalFinder components from this computer.";
 "*APP* has been uninstalled" = "TotalFinder has been uninstalled";
 "Thank you for trying *APP*." = "Thank you for trying TotalFinder.";
