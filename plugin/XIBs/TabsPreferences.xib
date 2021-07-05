@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17140" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17140"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19115.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,7 +18,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="11">
-                    <rect key="frame" x="18" y="87" width="153" height="18"/>
+                    <rect key="frame" x="18" y="86" width="160" height="18"/>
                     <buttonCell key="cell" type="check" title="^Use narrow Tabs Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="12">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -28,7 +28,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19">
-                    <rect key="frame" x="18" y="123" width="120" height="16"/>
+                    <rect key="frame" x="18" y="123" width="122" height="16"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="^Toggle Dual Mode" id="20">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -36,7 +36,7 @@
                     </textFieldCell>
                 </textField>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="32" customClass="MASShortcutView">
-                    <rect key="frame" x="177" y="87" width="130" height="19"/>
+                    <rect key="frame" x="186" y="86" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="73"/>
                         <constraint firstAttribute="width" constant="130" id="126"/>
@@ -46,7 +46,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="49" customClass="MASShortcutView">
-                    <rect key="frame" x="144" y="122" width="130" height="19"/>
+                    <rect key="frame" x="146" y="122" width="130" height="19"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="19" id="74"/>
                         <constraint firstAttribute="width" constant="130" id="124"/>
@@ -56,7 +56,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="75">
-                    <rect key="frame" x="18" y="18" width="151" height="18"/>
+                    <rect key="frame" x="18" y="13" width="149" height="18"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="147" id="g5t-WI-Jyt"/>
                     </constraints>
@@ -69,7 +69,7 @@
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="102">
-                    <rect key="frame" x="18" y="53" width="255" height="18"/>
+                    <rect key="frame" x="18" y="50" width="261" height="18"/>
                     <buttonCell key="cell" type="check" title="^Open new tabs with previous location" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="103">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>

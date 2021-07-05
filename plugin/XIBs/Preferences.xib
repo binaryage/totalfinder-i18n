@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19115.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,21 +18,21 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView id="1" userLabel="PreferencesPane">
-            <rect key="frame" x="0.0" y="0.0" width="660" height="510"/>
+        <customView misplaced="YES" id="1" userLabel="PreferencesPane">
+            <rect key="frame" x="0.0" y="0.0" width="636" height="516"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <customView translatesAutoresizingMaskIntoConstraints="NO" id="106" userLabel="Presentation" customClass="PreferencesPresentationView">
-                    <rect key="frame" x="180" y="8" width="480" height="444"/>
+                    <rect key="frame" x="180" y="8" width="468" height="450"/>
                 </customView>
                 <box autoresizesSubviews="NO" boxType="custom" borderType="line" borderWidth="0.0" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="24" userLabel="Header">
-                    <rect key="frame" x="180" y="460" width="480" height="50"/>
+                    <rect key="frame" x="180" y="460" width="468" height="56"/>
                     <view key="contentView" id="1LM-jw-DUG">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="468" height="56"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView translatesAutoresizingMaskIntoConstraints="NO" id="55" userLabel="Icon">
-                                <rect key="frame" x="7" y="8" width="36" height="36"/>
+                                <rect key="frame" x="7" y="14" width="36" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="67"/>
                                     <constraint firstAttribute="height" constant="36" id="69"/>
@@ -43,7 +43,7 @@
                                 </connections>
                             </imageView>
                             <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72" userLabel="Title">
-                                <rect key="frame" x="49" y="11" width="378" height="28"/>
+                                <rect key="frame" x="49" y="14" width="378" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="241"/>
                                 </constraints>
@@ -57,7 +57,7 @@
                                 </connections>
                             </textField>
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="83" userLabel="Help">
-                                <rect key="frame" x="441" y="9" width="25" height="25"/>
+                                <rect key="frame" x="429" y="16" width="25" height="25"/>
                                 <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="84">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -77,21 +77,20 @@
                         <constraint firstItem="55" firstAttribute="top" secondItem="24" secondAttribute="top" constant="6" id="ypH-GK-8i9"/>
                     </constraints>
                 </box>
-                <scrollView horizontalLineScroll="22" horizontalPageScroll="10" verticalLineScroll="22" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2" userLabel="Features">
-                    <rect key="frame" x="-2" y="-1" width="183" height="512"/>
+                <scrollView horizontalLineScroll="24" horizontalPageScroll="10" verticalLineScroll="24" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2" userLabel="Features">
+                    <rect key="frame" x="-2" y="-1" width="171" height="518"/>
                     <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="JoM-V7-h65">
-                        <rect key="frame" x="1" y="1" width="181" height="510"/>
+                        <rect key="frame" x="1" y="1" width="169" height="516"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="22" rowSizeStyle="small" viewBased="YES" indentationPerLevel="14" outlineTableColumn="7" id="3" userLabel="Outline">
-                                <rect key="frame" x="0.0" y="0.0" width="181" height="510"/>
+                            <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="small" viewBased="YES" indentationPerLevel="14" outlineTableColumn="7" id="3" userLabel="Outline">
+                                <rect key="frame" x="0.0" y="0.0" width="210" height="516"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
                                     <tableColumn identifier="features" editable="NO" width="178" minWidth="16" maxWidth="1000" id="7">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                            <font key="font" metaFont="message" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableHeaderCell>
@@ -102,11 +101,11 @@
                                         </textFieldCell>
                                         <prototypeCellViews>
                                             <tableCellView identifier="category" id="170" userLabel="CategoryView">
-                                                <rect key="frame" x="0.0" y="0.0" width="178" height="20"/>
+                                                <rect key="frame" x="10" y="0.0" width="190" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="171">
-                                                        <rect key="frame" x="1" y="0.0" width="176" height="20"/>
+                                                        <rect key="frame" x="1" y="0.0" width="188" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="293"/>
                                                         </constraints>
@@ -130,11 +129,11 @@
                                                 </connections>
                                             </tableCellView>
                                             <tableCellView identifier="item" id="177" userLabel="ItemView">
-                                                <rect key="frame" x="0.0" y="20" width="178" height="20"/>
+                                                <rect key="frame" x="10" y="20" width="190" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <imageView translatesAutoresizingMaskIntoConstraints="NO" id="178">
-                                                        <rect key="frame" x="3" y="0.0" width="20" height="20"/>
+                                                        <rect key="frame" x="3" y="-3" width="20" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="20" id="2au-J9-Wpc"/>
                                                             <constraint firstAttribute="height" constant="20" id="a1D-ng-UxX"/>
@@ -211,6 +210,6 @@
         <userDefaultsController id="262" customClass="TotalUserDefaultsController"/>
     </objects>
     <resources>
-        <image name="NSActionTemplate" width="14" height="14"/>
+        <image name="NSActionTemplate" width="15" height="15"/>
     </resources>
 </document>

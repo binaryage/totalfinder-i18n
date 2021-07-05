@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17140" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17140"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="17140"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19115.3"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="19115.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -69,7 +69,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6">
-                    <rect key="frame" x="362" y="13" width="105" height="32"/>
+                    <rect key="frame" x="374" y="13" width="93" height="32"/>
                     <buttonCell key="cell" type="push" title="^Register" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="19">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -83,7 +83,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="158">
-                    <rect key="frame" x="185" y="13" width="179" height="32"/>
+                    <rect key="frame" x="209" y="13" width="167" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="159">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -217,7 +217,7 @@ CQ
                     </connections>
                 </wkWebView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="27">
-                    <rect key="frame" x="229" y="13" width="151" height="32"/>
+                    <rect key="frame" x="253" y="13" width="139" height="32"/>
                     <buttonCell key="cell" type="push" title="^Change License" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="36">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -228,7 +228,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="31">
-                    <rect key="frame" x="378" y="13" width="89" height="32"/>
+                    <rect key="frame" x="390" y="13" width="77" height="32"/>
                     <buttonCell key="cell" type="push" title="^Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="32">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -292,7 +292,7 @@ CQ
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="206" y="13" width="179" height="32"/>
+                    <rect key="frame" x="230" y="13" width="167" height="32"/>
                     <buttonCell key="cell" type="push" title="^Buy TotalFinder Now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -306,7 +306,7 @@ CQ
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="57">
-                    <rect key="frame" x="383" y="13" width="84" height="32"/>
+                    <rect key="frame" x="395" y="13" width="72" height="32"/>
                     <buttonCell key="cell" type="push" title="^Back" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="62">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>

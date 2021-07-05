@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19115.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,11 +29,11 @@
             <rect key="frame" x="0.0" y="0.0" width="160" height="25"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <customView autoresizesSubviews="NO" id="1" userLabel="Custom View 1">
+                <customView autoresizesSubviews="NO" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1" userLabel="Custom View 1">
                     <rect key="frame" x="0.0" y="0.0" width="160" height="25"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <button id="145" userLabel="Tab Icon 1" customClass="TabIcon">
+                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="145" userLabel="Tab Icon 1" customClass="TabIcon">
                             <rect key="frame" x="56" y="19" width="48" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="146">
@@ -41,7 +41,7 @@
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
-                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="94" userLabel="Text Field - Label 1">
+                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94" userLabel="Text Field - Label 1">
                             <rect key="frame" x="16" y="6" width="128" height="14"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Label" id="95" customClass="GTMFadeTruncatingTextFieldCell">
@@ -50,7 +50,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <button id="50" userLabel="Hover Close Button 1" customClass="HoverCloseButton">
+                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50" userLabel="Hover Close Button 1" customClass="HoverCloseButton">
                             <rect key="frame" x="144" y="5" width="16" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="overlaps" alignment="center" inset="2" id="51">
@@ -63,11 +63,11 @@
                         </button>
                     </subviews>
                 </customView>
-                <customView hidden="YES" autoresizesSubviews="NO" id="105" userLabel="Custom View 2">
+                <customView hidden="YES" autoresizesSubviews="NO" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="105" userLabel="Custom View 2">
                     <rect key="frame" x="0.0" y="0.0" width="160" height="25"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <button id="147" userLabel="Tab Icon 2" customClass="TabIcon">
+                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="147" userLabel="Tab Icon 2" customClass="TabIcon">
                             <rect key="frame" x="56" y="18" width="48" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="148">
@@ -75,7 +75,7 @@
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
-                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="106" userLabel="Text Field - Label 2">
+                        <textField autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="106" userLabel="Text Field - Label 2">
                             <rect key="frame" x="16" y="6" width="128" height="14"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Label" id="111" customClass="GTMFadeTruncatingTextFieldCell">
@@ -84,7 +84,7 @@
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                         </textField>
-                        <button id="108" userLabel="Hover Close Button 2" customClass="HoverCloseButton">
+                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="108" userLabel="Hover Close Button 2" customClass="HoverCloseButton">
                             <rect key="frame" x="144" y="5" width="16" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="overlaps" alignment="center" inset="2" id="109">
@@ -105,6 +105,7 @@
                 <outlet property="iconView2_" destination="147" id="149"/>
                 <outlet property="iconView_" destination="145" id="150"/>
             </connections>
+            <point key="canvasLocation" x="139" y="154"/>
         </customView>
     </objects>
 </document>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17140" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17140"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="17140"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19115.3"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="19115.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -269,6 +269,7 @@
                 <constraint firstItem="wo8-mU-gzk" firstAttribute="leading" secondItem="J6d-M3-FOb" secondAttribute="leading" constant="21" id="lfA-yT-amC"/>
                 <constraint firstItem="wo8-mU-gzk" firstAttribute="top" secondItem="J6d-M3-FOb" secondAttribute="bottom" constant="8" id="pO7-UY-2E2"/>
             </constraints>
+            <point key="canvasLocation" x="139" y="151"/>
         </customView>
         <customObject id="345" userLabel="Dock Localizer" customClass="GTMUILocalizer">
             <connections>
