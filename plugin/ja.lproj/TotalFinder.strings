@@ -90,7 +90,7 @@
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "サイドバーのアイコンを色つきで表示";
-"Always use Finder icon rendering" = "Always use Finder icon rendering";
+"Always use Finder icon rendering" = "Finderのアイコンレンダリングを常に使用する";
 
 
 /* --- ColumnViewAutoWidth --- */
