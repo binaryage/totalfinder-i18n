@@ -56,10 +56,7 @@
                     </userDefinedRuntimeAttributes>
                 </customView>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="75">
-                    <rect key="frame" x="18" y="13" width="149" height="18"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="147" id="g5t-WI-Jyt"/>
-                    </constraints>
+                    <rect key="frame" x="18" y="13" width="152" height="18"/>
                     <buttonCell key="cell" type="check" title="^Freelance Windows" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="76">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
