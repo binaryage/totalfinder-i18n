@@ -90,6 +90,7 @@
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "Toon gekleurde iconen in navigatiebalk";
+"Always use Finder icon rendering" = "Always use Finder icon rendering";
 
 
 /* --- ColumnViewAutoWidth --- */

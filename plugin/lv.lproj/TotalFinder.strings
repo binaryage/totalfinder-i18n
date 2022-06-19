@@ -90,6 +90,7 @@
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "Parādīt krāsainas sānjoslas ikonas";
+"Always use Finder icon rendering" = "Always use Finder icon rendering";
 
 
 /* --- ColumnViewAutoWidth --- */

@@ -90,6 +90,7 @@
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "Kenar çubuğundaki simgeleri renkli göster";
+"Always use Finder icon rendering" = "Always use Finder icon rendering";
 
 
 /* --- ColumnViewAutoWidth --- */

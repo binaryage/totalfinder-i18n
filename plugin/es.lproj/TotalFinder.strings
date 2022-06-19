@@ -90,6 +90,7 @@
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "Colorear los iconos de la barra lateral";
+"Always use Finder icon rendering" = "Always use Finder icon rendering";
 
 
 /* --- ColumnViewAutoWidth --- */
