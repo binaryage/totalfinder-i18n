@@ -78,7 +78,7 @@ end
 details = []
 
 begin
-  version = content.match(/Version:(.*?)\n/m)[1].split(' ')[0]
+  version = content.match(/Version:(.*?)\n/m)[1].split[0]
   details << "v#{version.strip}"
 rescue
   # ignored
@@ -104,7 +104,7 @@ rescue
 end
 
 begin
-  thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split(' ')[0]
+  thread = content.match(/Crashed Thread:(.*?)\n/m)[1].split[0]
   details << "thread #{thread.strip}"
 rescue
   # ignored

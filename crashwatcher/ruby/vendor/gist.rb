@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # https://github.com/defunkt/gist/blob/master/lib/gist.rb
 
@@ -14,36 +15,34 @@ end
 
 # It just gists.
 module Gist
-  extend self
+  module_function
 
   VERSION = '6.0.0'
 
   # A list of clipboard commands with copy and paste support.
   CLIPBOARD_COMMANDS = {
-      'pbcopy' => 'pbpaste',
-      'xclip' => 'xclip -o',
-      'xsel -i' => 'xsel -o',
-      'putclip' => 'getclip',
-  }
+    'pbcopy' => 'pbpaste',
+    'xclip' => 'xclip -o',
+    'xsel -i' => 'xsel -o',
+    'putclip' => 'getclip'
+  }.freeze
 
-  GITHUB_API_URL = URI("https://api.github.com/")
-  GITHUB_URL = URI("https://github.com/")
-  GIT_IO_URL = URI("https://git.io")
+  GITHUB_API_URL = URI('https://api.github.com/')
+  GITHUB_URL = URI('https://github.com/')
+  GIT_IO_URL = URI('https://git.io')
 
-  GITHUB_BASE_PATH = ""
-  GHE_BASE_PATH = "/api/v3"
+  GITHUB_BASE_PATH = ''
+  GHE_BASE_PATH = '/api/v3'
 
   GITHUB_CLIENT_ID = '4f7ec0d4eab38e74384e'
 
-  URL_ENV_NAME = "GITHUB_URL"
-  CLIENT_ID_ENV_NAME = "GIST_CLIENT_ID"
+  URL_ENV_NAME = 'GITHUB_URL'
+  CLIENT_ID_ENV_NAME = 'GIST_CLIENT_ID'
 
   USER_AGENT = "gist/#{VERSION} (Net::HTTP, #{RUBY_DESCRIPTION})"
 
   # Exception tag for errors raised while gisting.
   module Error
-    ;
-
     def self.exception(*args)
       RuntimeError.new(*args).extend(self)
     end
@@ -59,7 +58,7 @@ module Gist
       if ENV.key?(URL_ENV_NAME)
         File.expand_path "~/.gist.#{ENV[URL_ENV_NAME].gsub(/:/, '.').gsub(/[^a-z0-9.-]/, '')}"
       else
-        File.expand_path "~/.gist"
+        File.expand_path '~/.gist'
       end
     end
 
@@ -68,7 +67,7 @@ module Gist
     end
 
     def self.write(token)
-      File.open(filename, 'w', 0600) do |f|
+      File.open(filename, 'w', 0o600) do |f|
         f.write token
       end
     end
@@ -78,7 +77,11 @@ module Gist
   #
   # @return [String] string value of access token or `nil`, if not found
   def auth_token
-    @token ||= AuthTokenFile.read rescue nil
+    @token ||= begin
+      AuthTokenFile.read
+    rescue
+      nil
+    end
   end
 
   # Upload a gist to https://gist.github.com
@@ -88,13 +91,13 @@ module Gist
   #   the documentation for {multi_gist}
   #
   # @see http://developer.github.com/v3/gists/
-  def gist(content, options = {})
+  def gist(content, options={})
     filename = options[:filename] || default_filename
-    multi_gist({filename => content}, options)
+    multi_gist({ filename => content }, options)
   end
 
   def default_filename
-    "gistfile1.txt"
+    'gistfile1.txt'
   end
 
   # Upload a gist to https://gist.github.com
@@ -120,35 +123,35 @@ module Gist
   # @raise [Gist::Error]  if something went wrong
   #
   # @see http://developer.github.com/v3/gists/
-  def multi_gist(files, options = {})
+  def multi_gist(files, options={})
     if options[:anonymous]
       raise 'Anonymous gists are no longer supported. Please log in with `gist --login`. ' \
-        '(GitHub now requires credentials to gist https://bit.ly/2GBBxKw)'
+            '(GitHub now requires credentials to gist https://bit.ly/2GBBxKw)'
     else
-      access_token = (options[:access_token] || auth_token())
+      access_token = (options[:access_token] || auth_token)
     end
 
     json = {}
 
     json[:description] = options[:description] if options[:description]
-    json[:public] = !!options[:public]
+    json[:public] = !options[:public].nil?
     json[:files] = {}
 
     files.each_pair do |(name, content)|
-      if content.to_s.strip == ""
-        raise "Cannot gist empty files" unless options[:skip_empty]
+      if content.to_s.strip == ''
+        raise 'Cannot gist empty files' unless options[:skip_empty]
       else
-        name = name == "-" ? default_filename : File.basename(name)
-        json[:files][name] = {:content => content}
+        name = name == '-' ? default_filename : File.basename(name)
+        json[:files][name] = { content: content }
       end
     end
 
     return if json[:files].empty? && options[:skip_empty]
 
-    existing_gist = options[:update].to_s.split("/").last
+    existing_gist = options[:update].to_s.split('/').last
 
     url = "#{base_path}/gists"
-    url << "/" << CGI.escape(existing_gist) if existing_gist.to_s != ''
+    url << '/' << CGI.escape(existing_gist) if existing_gist.to_s != ''
 
     request = Net::HTTP::Post.new(url)
     request['Authorization'] = "token #{access_token}" if access_token.to_s != ''
@@ -159,17 +162,17 @@ module Gist
 
     begin
       response = http(api_url, request)
-      if Net::HTTPSuccess === response
+      if response.is_a?(Net::HTTPSuccess)
         on_success(response.body, options)
       else
         raise "Got #{response.class} from gist: #{response.body}"
       end
     rescue => e
       raise if retried
+
       retried = true
       retry
     end
-
   rescue => e
     raise e.extend Error
   end
@@ -181,13 +184,15 @@ module Gist
   # @deprecated
   #
   # see https://developer.github.com/v3/gists/#list-gists
-  def list_gists(user = "")
-    url = "#{base_path}"
+  def list_gists(user='')
+    url = base_path.to_s
 
-    if user == ""
-      access_token = auth_token()
-      if access_token.to_s != ''
-        url << "/gists"
+    if user == ''
+      access_token = auth_token
+      if access_token.to_s == ''
+        raise Error, "Not authenticated. Use 'gist --login' to login or 'gist -l username' to view public gists."
+      else
+        url << '/gists'
 
         request = Net::HTTP::Get.new(url)
         request['Authorization'] = "token #{access_token}"
@@ -195,8 +200,6 @@ module Gist
 
         pretty_gist(response)
 
-      else
-        raise Error, "Not authenticated. Use 'gist --login' to login or 'gist -l username' to view public gists."
       end
 
     else
@@ -209,25 +212,23 @@ module Gist
     end
   end
 
-  def list_all_gists(user = "")
-    url = "#{base_path}"
+  def list_all_gists(user='')
+    url = base_path.to_s
 
-    if user == ""
-      url << "/gists?per_page=100"
-    else
-      url << "/users/#{user}/gists?per_page=100"
-    end
+    url << if user == ''
+             '/gists?per_page=100'
+           else
+             "/users/#{user}/gists?per_page=100"
+           end
 
-    get_gist_pages(url, auth_token())
+    get_gist_pages(url, auth_token)
   end
 
-  def read_gist(id, file_name = nil, options = {})
+  def read_gist(id, file_name=nil, options={})
     url = "#{base_path}/gists/#{id}"
 
-    access_token = (options[:access_token] || auth_token())
-    if access_token.to_s != ''
-      url << "?access_token=" << CGI.escape(access_token)
-    end
+    access_token = (options[:access_token] || auth_token)
+    url << '?access_token=' << CGI.escape(access_token) if access_token.to_s != ''
 
     request = Net::HTTP::Get.new(url)
     request['Authorization'] = "token #{access_token}" if access_token.to_s != ''
@@ -235,7 +236,7 @@ module Gist
 
     if response.code == '200'
       body = JSON.parse(response.body)
-      files = body["files"]
+      files = body['files']
 
       if file_name
         file = files[file_name]
@@ -244,34 +245,33 @@ module Gist
         file = files.values.first
       end
 
-      file["content"]
+      file['content']
     else
       raise Error, "Gist with id of #{id} does not exist."
     end
   end
 
   def delete_gist(id)
-    id = id.split("/").last
+    id = id.split('/').last
     url = "#{base_path}/gists/#{id}"
 
-    access_token = auth_token()
-    if access_token.to_s != ''
-      request = Net::HTTP::Delete.new(url)
-      request["Authorization"] = "token #{access_token}"
-      response = http(api_url, request)
-    else
+    access_token = auth_token
+    if access_token.to_s == ''
       raise Error, "Not authenticated. Use 'gist --login' to login."
+    else
+      request = Net::HTTP::Delete.new(url)
+      request['Authorization'] = "token #{access_token}"
+      response = http(api_url, request)
     end
 
     if response.code == '204'
-      puts "Deleted!"
+      puts 'Deleted!'
     else
       raise Error, "Gist with id of #{id} does not exist."
     end
   end
 
-  def get_gist_pages(url, access_token = "")
-
+  def get_gist_pages(url, access_token='')
     request = Net::HTTP::Get.new(url)
     request['Authorization'] = "token #{access_token}" if access_token.to_s != ''
     response = http(api_url, request)
@@ -280,10 +280,9 @@ module Gist
     link_header = response.header['link']
 
     if link_header
-      links = Hash[link_header.gsub(/(<|>|")/, "").split(',').map { |link| link.split('; rel=') }].invert
+      links = link_header.gsub(/(<|>|")/, '').split(',').to_h { |link| link.split('; rel=') }.invert
       get_gist_pages(links['next'], access_token) if links['next']
     end
-
   end
 
   # return prettified string result of response body for all gists
@@ -296,8 +295,8 @@ module Gist
     body = JSON.parse(response.body)
     if response.code == '200'
       body.each do |gist|
-        description = "#{gist['description'] || gist['files'].keys.join(" ")} #{gist['public'] ? '' : '(secret)'}"
-        puts "#{gist['html_url']} #{description.tr("\n", " ")}\n"
+        description = "#{gist['description'] || gist['files'].keys.join(' ')} #{gist['public'] ? '' : '(secret)'}"
+        puts "#{gist['html_url']} #{description.tr("\n", ' ')}\n"
         $stdout.flush
       end
 
@@ -311,13 +310,13 @@ module Gist
   # @param [String] url
   # @return [String] shortened url, or long url if shortening fails
   def shorten(url)
-    request = Net::HTTP::Post.new("/create")
-    request.set_form_data(:url => url)
+    request = Net::HTTP::Post.new('/create')
+    request.set_form_data(url: url)
     response = http(GIT_IO_URL, request)
     case response.code
-    when "200"
+    when '200'
       URI.join(GIT_IO_URL, response.body).to_s
-    when "201"
+    when '201'
       response['Location']
     else
       url
@@ -336,16 +335,17 @@ module Gist
     uri = URI(url)
     request = Net::HTTP::Get.new(uri.path)
     response = http(uri, request)
-    if Net::HTTPSuccess === response
-      url + '/raw'
-    elsif Net::HTTPRedirection === response
+    case response
+    when Net::HTTPSuccess
+      "#{url}/raw"
+    when Net::HTTPRedirection
       rawify(response.header['location'])
     end
   end
 
   # Log the user into gist.
   #
-  def login!(credentials = {})
+  def login!(credentials={})
     if (login_url == GITHUB_URL || ENV.key?(CLIENT_ID_ENV_NAME)) && credentials.empty? && !ENV.key?('GIST_USE_USERNAME_AND_PASSWORD')
       device_flow_login!
     else
@@ -354,19 +354,17 @@ module Gist
   end
 
   def device_flow_login!
-    puts "Requesting login parameters..."
-    request = Net::HTTP::Post.new("/login/device/code")
+    puts 'Requesting login parameters...'
+    request = Net::HTTP::Post.new('/login/device/code')
     request.body = JSON.dump({
-                                 :scope => 'gist',
-                                 :client_id => client_id,
+                               scope: 'gist',
+                               client_id: client_id
                              })
     request.content_type = 'application/json'
-    request['accept'] = "application/json"
+    request['accept'] = 'application/json'
     response = http(login_url, request)
 
-    if response.code != '200'
-      raise Error, "HTTP #{response.code}: #{response.body}"
-    end
+    raise Error, "HTTP #{response.code}: #{response.body}" if response.code != '200'
 
     body = JSON.parse(response.body)
 
@@ -377,29 +375,26 @@ module Gist
 
     loop do
       sleep(interval.to_i)
-      request = Net::HTTP::Post.new("/login/oauth/access_token")
+      request = Net::HTTP::Post.new('/login/oauth/access_token')
       request.body = JSON.dump({
-                                   :client_id => client_id,
-                                   :grant_type => 'urn:ietf:params:oauth:grant-type:device_code',
-                                   :device_code => device_code
+                                 client_id: client_id,
+                                 grant_type: 'urn:ietf:params:oauth:grant-type:device_code',
+                                 device_code: device_code
                                })
       request.content_type = 'application/json'
       request['Accept'] = 'application/json'
       response = http(login_url, request)
-      if response.code != '200'
-        raise Error, "HTTP #{response.code}: #{response.body}"
-      end
+      raise Error, "HTTP #{response.code}: #{response.body}" if response.code != '200'
+
       body = JSON.parse(response.body)
       break unless body['error'] == 'authorization_pending'
     end
 
-    if body['error']
-      raise Error, body['error_description']
-    end
+    raise Error, body['error_description'] if body['error']
 
     AuthTokenFile.write JSON.parse(response.body)['access_token']
 
-    puts "Success! #{ENV[URL_ENV_NAME] || "https://github.com/"}settings/connections/applications/#{client_id}"
+    puts "Success! #{ENV[URL_ENV_NAME] || 'https://github.com/'}settings/connections/applications/#{client_id}"
   end
 
   # Logs the user into gist.
@@ -409,45 +404,54 @@ module Gist
   #
   # @raise [Gist::Error]  if something went wrong
   # @see http://developer.github.com/v3/oauth/
-  def access_token_login!(credentials = {})
-    puts "Obtaining OAuth2 access_token from GitHub."
+  def access_token_login!(credentials={})
+    puts 'Obtaining OAuth2 access_token from GitHub.'
     loop do
-      print "GitHub username: "
+      print 'GitHub username: '
       username = credentials[:username] || $stdin.gets.strip
-      print "GitHub password: "
+      print 'GitHub password: '
       password = credentials[:password] || begin
-                                             `stty -echo` rescue nil
-                                             $stdin.gets.strip
-                                           ensure
-                                             `stty echo` rescue nil
-                                           end
-      puts ""
+        begin
+          `stty -echo`
+        rescue
+          nil
+        end
+        $stdin.gets.strip
+      ensure
+        begin
+          `stty echo`
+        rescue
+          nil
+        end
+      end
+      puts ''
 
       request = Net::HTTP::Post.new("#{base_path}/authorizations")
       request.body = JSON.dump({
-                                   :scopes => [:gist],
-                                   :note => "The gist gem (#{Time.now})",
-                                   :note_url => "https://github.com/ConradIrwin/gist"
+                                 scopes: [:gist],
+                                 note: "The gist gem (#{Time.now})",
+                                 note_url: 'https://github.com/ConradIrwin/gist'
                                })
       request.content_type = 'application/json'
       request.basic_auth(username, password)
 
       response = http(api_url, request)
 
-      if Net::HTTPUnauthorized === response && response['X-GitHub-OTP']
-        print "2-factor auth code: "
+      if response.is_a?(Net::HTTPUnauthorized) && response['X-GitHub-OTP']
+        print '2-factor auth code: '
         twofa_code = $stdin.gets.strip
-        puts ""
+        puts ''
 
         request['X-GitHub-OTP'] = twofa_code
         response = http(api_url, request)
       end
 
-      if Net::HTTPCreated === response
+      case response
+      when Net::HTTPCreated
         AuthTokenFile.write JSON.parse(response.body)['token']
-        puts "Success! #{ENV[URL_ENV_NAME] || "https://github.com/"}settings/tokens"
+        puts "Success! #{ENV[URL_ENV_NAME] || 'https://github.com/'}settings/tokens"
         return
-      elsif Net::HTTPUnauthorized === response
+      when Net::HTTPUnauthorized
         puts "Error: #{JSON.parse(response.body)['message']}"
         next
       else
@@ -474,7 +478,7 @@ module Gist
                  else
                    Net::HTTP.new(uri.host, uri.port)
                  end
-    if uri.scheme == "https"
+    if uri.scheme == 'https'
       connection.use_ssl = true
       connection.verify_mode = OpenSSL::SSL::VERIFY_NONE
     end
@@ -503,12 +507,12 @@ module Gist
   # @param [String] body  the text body from the github api
   # @param [Hash] options  more detailed options, see
   #   the documentation for {multi_gist}
-  def on_success(body, options = {})
+  def on_success(body, options={})
     json = JSON.parse(body)
 
     output = case options[:output]
              when :javascript
-               %Q{<script src="#{json['html_url']}.js"></script>}
+               %(<script src="#{json['html_url']}.js"></script>)
              when :html_url
                json['html_url']
              when :raw_url
@@ -538,7 +542,7 @@ module Gist
     unless paste == content
       message = 'Copying to clipboard failed.'
 
-      if ENV["TMUX"] && clipboard_command(:copy) == 'pbcopy'
+      if ENV['TMUX'] && clipboard_command(:copy) == 'pbcopy'
         message << "\nIf you're running tmux on a mac, try http://robots.thoughtbot.com/post/19398560514/how-to-copy-and-paste-with-tmux-on-mac-os-x"
       end
 
@@ -561,15 +565,15 @@ module Gist
   # @param [String] cmd  command name to find
   # @param [String] options  PATH environment variable
   # @return [String]  the command found
-  def which(cmd, path = ENV['PATH'])
+  def which(cmd, path=ENV['PATH'])
     if RUBY_PLATFORM.downcase =~ /mswin(?!ce)|mingw|bccwin|cygwin/
-      path.split(File::PATH_SEPARATOR).each { |dir|
-        f = File.join(dir, cmd + ".exe")
+      path.split(File::PATH_SEPARATOR).each do |dir|
+        f = File.join(dir, "#{cmd}.exe")
         return f if File.executable?(f) && !File.directory?(f)
-      }
+      end
       nil
     else
-      return system("which #{cmd} > /dev/null 2>&1")
+      system("which #{cmd} > /dev/null 2>&1")
     end
   end
 
@@ -582,10 +586,11 @@ module Gist
     command = CLIPBOARD_COMMANDS.keys.detect do |cmd|
       which cmd
     end
-    raise ClipboardError, <<-EOT unless command
-Could not find copy command, tried:
-    #{CLIPBOARD_COMMANDS.values.join(' || ')}
+    raise ClipboardError, <<~EOT unless command
+      Could not find copy command, tried:
+          #{CLIPBOARD_COMMANDS.values.join(' || ')}
     EOT
+
     action == :copy ? command : CLIPBOARD_COMMANDS[command]
   end
 
@@ -602,18 +607,18 @@ Could not find copy command, tried:
               elsif RUBY_PLATFORM =~ /darwin/
                 'open'
               elsif RUBY_PLATFORM =~ /linux/
-                %w(
+                %w[
                   sensible-browser
                   xdg-open
                   firefox
                   firefox-bin
-                ).detect do |cmd|
+                ].detect do |cmd|
                   which cmd
                 end
               elsif ENV['OS'] == 'Windows_NT' || RUBY_PLATFORM =~ /djgpp|(cyg|ms|bcc)win|mingw|wince/i
                 'start ""'
               else
-                raise "Could not work out how to use a browser."
+                raise 'Could not work out how to use a browser.'
               end
 
     `#{command} #{url}`
@@ -639,10 +644,11 @@ Could not find copy command, tried:
 
   def legacy_private_gister?
     return unless which('git')
+
     `git config --global gist.private` =~ /\Ayes|1|true|on\z/i
   end
 
-  def should_be_public?(options = {})
+  def should_be_public?(options={})
     if options.key? :private
       !options[:private]
     else

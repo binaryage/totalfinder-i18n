@@ -73,9 +73,7 @@ def write_file(filename, content)
     return
   end
 
-  File.open(filename, 'w') do |f|
-    f.write content
-  end
+  File.write(filename, content)
 end
 
 def append_file(filename, content)
@@ -197,7 +195,7 @@ def update_strings(old_strings, new_keys, target)
 
   to_be_added = new_keys - known_keys
 
-  write_file(target, strings.join(''))
+  write_file(target, strings.join)
 
   {
     'removed_count' => removed_count,
@@ -336,7 +334,7 @@ def inprint_strings(source, dest, shared_originals=[])
     end
   end
 
-  write_file(dest, strings.join(''))
+  write_file(dest, strings.join)
 
   strings
 end
