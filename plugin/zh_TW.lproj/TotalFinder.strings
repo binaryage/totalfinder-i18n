@@ -90,7 +90,7 @@
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "以彩色圖標代替邊欄黑白圖標";
-"Always use Finder icon rendering" = "Always use Finder icon rendering";
+"Always use Finder icon rendering" = "永遠使用 Finder 的圖示來顯示";
 
 
 /* --- ColumnViewAutoWidth --- */
