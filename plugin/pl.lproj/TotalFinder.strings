@@ -70,12 +70,12 @@
 "Record Shortcut" = "Zarejestruj skrót";
 "Space" = "Spacja";
 "The key combination %@ cannot be used" = "Kombinacja klawiszy %@ nie może zostać użyta";
-"This combination cannot be used because it is already used..." = "Ta kombinacja nie może być używana, ponieważ jest już używana przez systemowy skrót klawiaturowy.\nJeśli naprawdę chcesz, użyć tej kombinacji klawiszy, większość skrótów można zmienić w panelu Klawiatura w Preferencjach systemowych.";
+"This combination cannot be used because it is already used..." = "Ta kombinacja nie może być używana, ponieważ jest już używana przez systemowy skrót klawiaturowy.\nJeśli naprawdę chcesz użyć tej kombinacji klawiszy, zajrzyj do panelu Klawiatura w Preferencjach systemowych. Można tam zmienić większość skrótów.";
 "This shortcut cannot be used because it is already used by the menu item ‘%@’." = "Ten skrót nie może zostać użyty bo jest już używany przez menu ‘%@’.";
 "Type New Shortcut" = "Wpisz nowy skrót";
 "Type Shortcut" = "Wpisz skrót";
 "Use Old Shortcut" = "Użyj starego skrótu";
-"Set it anyway" = "Set it anyway";
+"Set it anyway" = "Ustaw mimo to";
 
 /* tabs section */
 "Disable tabs completely" = "Całkowicie wyłącz zakładki";
@@ -83,14 +83,14 @@
 "Do you really want to enable tabs?" = "Czy na pewno chcesz włączyć zakładki?";
 "Tabs" = "Zakładki";
 "This option will effectively disable the tabs module in TotalFinder..." = "Ta opcja skutecznie wyłączy moduł zakładek w TotalFinder. W efekcie tryb podwójny i funkcja visor zostaną również wyłączone. To może być pożądane pod Mavericks - używanie wbudowanych zakładek Findera przy zachowaniu korzyści wynikających z innych funkcji TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
-"This option will effectively enable the tabs module in TotalFinder..." = "TTa opcja skutecznie włączy moduł zakładek w TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
+"This option will effectively enable the tabs module in TotalFinder..." = "Ta opcja skutecznie włączy moduł zakładek w TotalFinder.\n\nW celu wykonania tej operacji Finder musi zostać zrestartowany!\nUwaga: Przed ponownym uruchomieniem należy zakończyć wszystkie zadania Findera w toku (takie jak kopiowanie lub przenoszenie plików).";
 "This will effectively disable tabs, dual mode and visor. Finder restart is needed." = "To skutecznie wyłączy zakładki, tryb podwójny i visor. Wymagany restart findera.";
 
 
 /* --- ColorfulSidebar --- */
 
 "Show sidebar icons in color" = "Kolorowe ikony paska bocznego";
-"Always use Finder icon rendering" = "Always use Finder icon rendering";
+"Always use Finder icon rendering" = "Zawsze używaj domyślnego dla Findera renderowania ikon";
 
 
 /* --- ColumnViewAutoWidth --- */

@@ -5,7 +5,7 @@
 "Details" = "Szczegóły";
 
 /* tooltips */
-"Show detailed transcript" = "Show detailed transcript";
+"Show detailed transcript" = "Pokaż szczegóły procesu deinstalacji";
 
 /* main texts */
 "You are about uninstall *APP*" = "Proces usuwania programu TotalFinder";
