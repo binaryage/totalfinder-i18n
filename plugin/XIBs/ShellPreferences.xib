@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19528" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19528"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="19528"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -41,7 +41,7 @@
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="96">
-                    <rect key="frame" x="20" y="2" width="62" height="19"/>
+                    <rect key="frame" x="20" y="2" width="61" height="19"/>
                     <buttonCell key="cell" type="roundRect" title="Register" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="99">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="cellTitle"/>
@@ -150,6 +150,7 @@
                 <constraint firstItem="154" firstAttribute="top" secondItem="155" secondAttribute="bottom" constant="4" id="284"/>
                 <constraint firstItem="152" firstAttribute="top" secondItem="156" secondAttribute="bottom" constant="4" id="285"/>
             </constraints>
+            <point key="canvasLocation" x="547" y="-72"/>
         </customView>
         <customObject id="218" userLabel="Updates Localizer" customClass="GTMUILocalizer">
             <connections>
@@ -238,6 +239,7 @@
                 <constraint firstItem="348" firstAttribute="leading" secondItem="333" secondAttribute="leading" constant="20" symbolic="YES" id="356"/>
                 <constraint firstItem="348" firstAttribute="centerY" secondItem="333" secondAttribute="centerY" id="370"/>
             </constraints>
+            <point key="canvasLocation" x="104" y="-133"/>
         </customView>
         <customView id="8uq-4v-kht" userLabel="Tabs Preferences">
             <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
@@ -306,6 +308,7 @@
                 <constraint firstItem="317" firstAttribute="leading" secondItem="316" secondAttribute="leading" constant="20" symbolic="YES" id="322"/>
                 <constraint firstItem="317" firstAttribute="centerY" secondItem="316" secondAttribute="centerY" id="371"/>
             </constraints>
+            <point key="canvasLocation" x="-547" y="-72"/>
         </customView>
         <customObject id="342" userLabel="Menus Localizer" customClass="GTMUILocalizer">
             <connections>
